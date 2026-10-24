@@ -6,7 +6,7 @@ setup(band="A1 · UNIT 21", audio_json="audio_a1-unit-21.json", img_dir="img")
 
 PHOTOS = [("A", "a bakery", "bakery"), ("B", "a bank", "bank"), ("C", "a movie theater", "movie theater"), ("D", "a museum", "museum"),
           ("E", "a pharmacy", "pharmacy"), ("F", "a post office", "post office"), ("G", "a supermarket", "supermarket"), ("H", "traffic lights", "traffic lights")]
-MAP = open("townmap.svg").read()
+MAP = open("/home/claude/u21/townmap.svg").read()
 def themap(h):
     return MAP.replace('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260">',
                        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" style="width:{h*400/260:.0f}mm;height:{h}mm;display:block;margin:0 auto;border-radius:2mm">')
@@ -76,14 +76,12 @@ def build(teacher):
 {sub("C", "Why is dialogue 4 different? Look at the map on page 5. Where is the post office?", "2 min")}
 <div class="wline">{R("The man is not from here, so he can't help. And the post office is right next to Paulo, on the left!")}</div>""",
     26, """<ol><li>A: <b>slow</b> version. <i>near here</i> = close to this place.</li>
-<li>B: <b>natural</b> version. Then the student follows the routes with a finger on the map (page 5): Paulo is at the red star.</li>
+<li>B: <b>natural</b> version. Then the student follows the routes with a finger on the map (page 5): Paulo is at the X.</li>
 <li>C: a nice surprise for the student. <i>Thanks anyway</i> = thank you, even if you can't help.</li></ol>""")
 
     # Page 3
     ask = ["Excuse me, is there a bank near here?", "Excuse me, I'm looking for the museum.", "Excuse me, can you tell me the way to the post office?", "How do I get there?", "Is it far?"]
-    give = [("↑", "Go straight (ahead)."), ("←", "Turn left."), ("→", "Turn right."), ("⤳", "Go past the park."), ("✚", "Cross the street."),
-            ("🚦", "at the traffic lights")]
-    give = [("↑", "Go straight (ahead)."), ("←", "Turn left."), ("→", "Turn right."), ("↗", "Go past the park."), ("⇵", "Cross Lake Street."), ("●", "at the traffic lights")]
+    give = [("↑", "Go straight (ahead)."), ("←", "Turn left."), ("→", "Turn right."), ("↗", "Go past the park."), ('<svg width="14" height="12" viewBox="0 0 14 12"><rect x="1" y="1" width="1.8" height="10" fill="#1F6E7A"/><rect x="4" y="1" width="1.8" height="10" fill="#1F6E7A"/><rect x="7" y="1" width="1.8" height="10" fill="#1F6E7A"/><rect x="10" y="1" width="1.8" height="10" fill="#1F6E7A"/><rect x="13" y="1" width="1.8" height="10" fill="#1F6E7A"/></svg>', "Cross the street."), ('<svg width="8" height="16" viewBox="0 0 8 16"><rect width="8" height="16" rx="2" fill="#3C4448"/><circle cx="4" cy="3.5" r="1.8" fill="#D9534F"/><circle cx="4" cy="8" r="1.8" fill="#E8B84A"/><circle cx="4" cy="12.5" r="1.8" fill="#5BA36B"/></svg>', "Turn right at the traffic lights.")]
     where = ["It's <b>on the left</b>.", "It's <b>on the right</b>.", "It's <b>on the corner</b>.", "It's <b>next to</b> the bank.", "It's <b>on</b> Lake Street."]
     rules = [("We start with", "Excuse me", "Excuse"), ("Directions use the verb without <i>you</i>:", "Turn left.", "You turn left."),
              ("A place on a side of the street is", "on the left", "at the left"), ("We stop or turn", "at the traffic lights", "in the traffic lights")]
@@ -132,7 +130,7 @@ def build(teacher):
            ("Location 3: the supermarket", [("A", f"Excuse me, can you {g(7)} me the way to the supermarket?"), ("B", f"Sure. Go {g(8)} the park and turn right on Lake Street. The supermarket is on the {g(9)}.")])]
     dh = "".join(f'<p style="margin:1.5mm 0 .5mm;font-weight:800;color:{TEAL}">{t}</p>' + "".join(f"<div style='line-height:2'><b>{n}:</b> {x}</div>" for n, x in rows) for t, rows in dls)
     b.page(f"""{sec(5, "Practice", "8 min")}
-{sub("A", "Look at the map. You are at the red star. Complete the dialogues with the words.", "8 min")}
+{sub("A", "Look at the map. You are at the X. Complete the dialogues with the words.", "8 min")}
 <div style="margin:1mm 0 2mm">{themap(78)}</div>
 <div class="bank">ahead · at · corner · Excuse · far · looking · on · past · straight · tell</div>
 <div class="msg" style="max-width:none;padding:1mm 4mm 2mm">{dh}</div>""",
@@ -141,7 +139,7 @@ def build(teacher):
     # Page 6
     tasks = ["the pharmacy", "the hotel", "the café", "the museum", "the post office", "the park"]
     b.page(f"""{sec(6, "Speaking", "12 min")}
-{sub("A", "Role-play. You are at the red star. Ask your teacher for directions to a place. Then change roles.", "7 min")}
+{sub("A", "Role-play. You are at the X. Ask your teacher for directions to a place. Then change roles.", "7 min")}
 <div style="margin:1mm 0 2mm">{themap(70)}</div>
 <div class="bank">{" &nbsp;·&nbsp; ".join(tasks)}</div>
 <div class="bank" style="background:#fff">Excuse me, is there a… near here? · I'm looking for… · How do I get there? · Is it far? · Sorry, can you repeat that?</div>
