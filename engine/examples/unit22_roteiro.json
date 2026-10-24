@@ -1,0 +1,27 @@
+{
+ "material": "speak-essentials",
+ "characters": {
+  "Ana": "en-US-Neural2-F",
+  "Tom": "en-US-Neural2-D",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "a1-unit-22": {
+   "22.1 Messages": "Narrator: Message one. Ana sends Tom a voice message.\nAna: Hi Tom, it's Ana! I'm so happy you're coming to São Paulo next week! Thanks for sending me your flight details.\nAna: I'm sorry, I can't meet you at the airport. I work at the hospital on Fridays. But it's easy to get to my house.\nAna: There's a train from the airport. It's very cheap, and it takes about an hour.\nAna: You can also take a taxi or an Uber, but it's expensive. It costs about a hundred and fifty reais! And the traffic is often terrible.\nAna: There's also a bus. It's comfortable, but it's slow.\nAna: So, to confirm: we're meeting at the café near my house at seven o'clock on Friday. Marcos and Leo are coming too!\nAna: Right now I'm on the subway. I usually drive to work, but today I'm trying something different. Oh, this is my stop. I need to go! See you soon!\nNarrator: Message two. A week later, Tom answers.\nTom: Hi Ana! I'm at the airport in Chicago. I'm waiting for my flight. It leaves at ten o'clock tonight, and it takes about ten hours.\nTom: I'm taking the train from the airport. It's cheap, and I love trains! See you at the café on Friday at seven!",
+   "22.2 Repeat plans": "Narrator: I'm meeting my friends tonight.\nNarrator: You're coming next week.\nNarrator: We're meeting at seven.\nNarrator: She's taking the train.\nNarrator: They're coming too.\nNarrator: The bus is leaving now.",
+   "22.3 Repeat getting around": "Narrator: How do you get to work?\nNarrator: I take the bus.\nNarrator: I go by subway.\nNarrator: I go by car.\nNarrator: I walk. I go on foot.\nNarrator: It takes about twenty minutes."
+  }
+ },
+ "images": {
+  "a1-unit-22": {
+   "A": "city bus on street",
+   "B": "taxi cab car street",
+   "C": "subway train underground station",
+   "D": "single bicycle parked street",
+   "E": "passenger train railway",
+   "F": "single electric scooter parked sidewalk",
+   "G": "car driving on road",
+   "H": "single motorcycle parked street"
+  }
+ }
+}
