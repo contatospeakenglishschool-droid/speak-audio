@@ -1,0 +1,28 @@
+{
+ "material": "speak-essentials",
+ "characters": {
+  "Paulo": "en-US-Neural2-I",
+  "Woman": "en-US-Neural2-H",
+  "Man": "en-US-Neural2-A",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "a1-unit-21": {
+   "21.1 Dialogue": "Narrator: Dialogue one.\nPaulo: Excuse me, is there a bank near here?\nWoman: Yes. Go straight. The bank is on the corner, at the traffic lights.\nPaulo: Thank you.\nWoman: You're welcome.\nNarrator: Dialogue two.\nPaulo: Excuse me, is there a supermarket near here?\nMan: Yes, it's on Lake Street.\nPaulo: How do I get there?\nMan: Go straight. Go past the movie theater and the park. Turn right at the second traffic lights. It's on the right.\nNarrator: Dialogue three.\nPaulo: Excuse me, I'm looking for the museum.\nWoman: Go straight ahead, past the café. Cross Lake Street. The museum is on the left.\nPaulo: Is it far?\nWoman: No, it's close. About five minutes on foot.\nPaulo: Thank you!\nNarrator: Dialogue four.\nPaulo: Excuse me, can you tell me the way to the post office?\nMan: I'm sorry, I'm not from here.\nPaulo: Oh, no problem. Thanks anyway!",
+   "21.2 Repeat questions": "Narrator: Excuse me.\nNarrator: Excuse me, is there a bank near here?\nNarrator: Excuse me, I'm looking for the museum.\nNarrator: Excuse me, can you tell me the way to the post office?\nNarrator: How do I get there?\nNarrator: Is it far?",
+   "21.3 Repeat phrases": "Narrator: Sorry, can you repeat that?\nNarrator: Can you say it again more slowly, please?\nNarrator: Sorry, I didn't catch that.\nNarrator: Is it on the right or the left?\nNarrator: Let me check: I go past the bank, and it's on the corner?"
+  }
+ },
+ "images": {
+  "a1-unit-21": {
+   "A": "bakery shop front window",
+   "B": "bank building facade",
+   "C": "movie theater entrance marquee",
+   "D": "museum building facade columns",
+   "E": "pharmacy storefront",
+   "F": "post office building",
+   "G": "supermarket aisle shopping",
+   "H": "traffic light city street"
+  }
+ }
+}
