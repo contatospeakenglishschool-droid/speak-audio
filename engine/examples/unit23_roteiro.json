@@ -1,0 +1,27 @@
+{
+ "material": "speak-essentials",
+ "characters": {
+  "Ana": "en-US-Neural2-F",
+  "Tom": "en-US-Neural2-D",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "a1-unit-23": {
+   "23.1 Exhibition": "Narrator: It's Saturday afternoon. Tom and Ana are at an exhibition about famous Brazilians.\nTom: This is a great exhibition! Who's this man with the soccer ball?\nAna: That's Pelé! He was a famous soccer player, the best in the world. He was born in 1940 in Minas Gerais. His family was very poor, but his father was a soccer player too.\nTom: Wow! Was he in the World Cup?\nAna: Yes, he was! He was a champion three times: in 1958, 1962 and 1970.\nTom: And who's this woman with the fruit on her hat?\nAna: That's Carmen Miranda. She was a singer and an actress, and she was very famous in Hollywood.\nTom: Was she from Rio?\nAna: No, she wasn't! She was born in Portugal in 1909, but her home was Rio.\nTom: Interesting! And this painting is beautiful. Who was the painter?\nAna: Tarsila do Amaral. She was born in 1886 in São Paulo. Her parents were rich coffee farmers. She was famous for her colorful paintings of Brazil.\nTom: Was she famous in her time?\nAna: Yes, she was. She was in Paris in the 1920s too. And this is my favorite room! He was a musician from Rio, and he was famous for bossa nova. His name was Tom Jobim.\nTom: Tom? Like me! Were you a fan of bossa nova when you were young?\nAna: Yes, I was! My parents were big fans too. The Girl from Ipanema is still my favorite song.",
+   "23.2 Repeat weak forms": "Narrator: He was a famous soccer player.\nNarrator: She was born in Portugal.\nNarrator: His family was very poor.\nNarrator: Her parents were rich.\nNarrator: Where was she born?\nNarrator: When were you born?",
+   "23.3 Repeat short answers": "Narrator: Was he in the World Cup? Yes, he was.\nNarrator: Was she from Rio? No, she wasn't.\nNarrator: Were they rich? Yes, they were.\nNarrator: Were they famous? No, they weren't.\nNarrator: I was born in 1990."
+  }
+ },
+ "images": {
+  "a1-unit-23": {
+   "A": "woman singer microphone stage",
+   "B": "artist painting canvas easel",
+   "C": "scientist laboratory microscope",
+   "D": "writer typing on typewriter",
+   "E": "soccer player kicking ball",
+   "F": "airline pilot cockpit",
+   "G": "architect drawing building plans",
+   "H": "race car driver helmet"
+  }
+ }
+}
