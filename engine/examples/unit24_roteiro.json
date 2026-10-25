@@ -1,0 +1,26 @@
+{
+ "material": "speak-essentials",
+ "characters": {
+  "Host": "en-US-Neural2-H",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "a1-unit-24": {
+   "24.1 Podcast": "Host: Hello and welcome to Music Lives! Today's star is Rita Lee, the Queen of Brazilian Rock.\nHost: She was born in São Paulo on December 31, 1947. Her full name was Rita Lee Jones, but everybody called her Rita Lee. Her father was a dentist, and her mother was a pianist.\nHost: Rita started her career in 1966 with the band Os Mutantes. Their music was rock with a lot of Brazilian sounds, and it attracted a lot of attention.\nHost: In 1972 her time with Os Mutantes ended, and she started a solo career. Her red hair and her crazy stage clothes attracted a lot of attention too!\nHost: In 1976 she started to work with the musician Roberto de Carvalho. They worked together for many years, and they married in 1996.\nHost: Rita recorded a lot of albums, and people all over Brazil listened to her songs. She is still the best-selling female singer in the history of Brazil.\nHost: Rita Lee died in São Paulo in 2023, but millions of fans still love her music. That's all for today. See you next week on Music Lives!",
+   "24.2 Repeat endings": "Narrator: D. Moved. Played. Listened. Changed.\nNarrator: T. Worked. Watched. Danced. Stopped.\nNarrator: I D. Started. Attracted. Ended. Recorded.",
+   "24.3 Repeat sentences": "Narrator: She started her career in 1966.\nNarrator: The band attracted a lot of attention.\nNarrator: She worked with Roberto de Carvalho.\nNarrator: People listened to her songs.\nNarrator: I watched a concert last night.\nNarrator: We danced all night."
+  }
+ },
+ "images": {
+  "a1-unit-24": {
+   "A": "rock band playing on stage",
+   "B": "concert crowd stage lights",
+   "C": "drum kit",
+   "D": "single acoustic guitar",
+   "E": "vintage microphone close up",
+   "F": "grand piano",
+   "G": "vinyl record turntable",
+   "H": "empty recording studio mixing desk"
+  }
+ }
+}
