@@ -42,7 +42,7 @@ def build(teacher):
 {sub("B", "Music careers. Match the phrases 1–6 with the meanings a–f.", "5 min")}
 <div class="two"><div><ol style="line-height:1.6">{"".join(pl)}</ol></div><div class="small" style="line-height:1.55">{mb}</div></div>""",
     18, """<ol><li>A: <b>a record</b> /ˈrekərd/ (noun) ≠ <b>to record</b> /rɪˈkɔrd/ (verb). Ask: <i>Do you play an instrument?</i></li>
-<li>B: <b>live</b> /laɪv/ here, like <i>five</i>. <b>release</b> = <i>lançar</i> an album.</li></ol>""", cover=cover)
+<li>B: <b>live</b> /laɪv/ here, like <i>five</i>. <b>release</b> an album = start to sell it.</li></ol>""", cover=cover)
 
     b.extra("Lesson overview · 55 min", """
 <table><tr><th>Stage</th><th>Time</th><th>Aim</th><th>SB page</th></tr>

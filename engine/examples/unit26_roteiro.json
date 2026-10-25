@@ -1,0 +1,27 @@
+{
+ "material": "speak-essentials",
+ "characters": {
+  "Ana": "en-US-Neural2-F",
+  "Mia": "en-US-Neural2-E",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "a1-unit-26": {
+   "26.1 Monday": "Narrator: It's Monday morning at the hospital in São Paulo. Ana and Mia are having coffee before work.\nAna: Good morning! So, what did you do on the weekend?\nMia: Well, on Saturday I bought these new shoes. Do you like them?\nAna: They're beautiful! How much did they cost?\nMia: They cost a hundred and seventy reais. And in the evening, I met my friends at the movie theater. We saw a new Brazilian comedy. It was really funny!\nAna: Nice! And after the movie?\nMia: My friends went dancing, but I was really tired, so I didn't go with them. I took an Uber home and read a book in bed. What about you? What did you do?\nAna: On Saturday night, I went to a pizzeria with Marcos and Leo, and we ate a lot of pizza!\nMia: Did you have a good time?\nAna: Yes, we did. We had a great time! But we ate too much.\nMia: Did you drive home?\nAna: No, I didn't drive. Marcos drove, and I slept in the car!\nMia: And on Sunday? What time did you get up?\nAna: I got up very late, at about twelve o'clock. I didn't feel great. I felt really tired, but then I drank some coffee, and I felt much better.",
+   "26.2 Repeat verbs": "Narrator: buy, bought\nNarrator: drink, drank\nNarrator: drive, drove\nNarrator: eat, ate\nNarrator: feel, felt\nNarrator: get up, got up\nNarrator: go, went\nNarrator: have, had\nNarrator: meet, met\nNarrator: read, read\nNarrator: see, saw\nNarrator: take, took",
+   "26.3 Repeat sentences": "Narrator: I bought new shoes.\nNarrator: We saw a great movie.\nNarrator: I read a book in bed.\nNarrator: I felt tired, but I didn't go to bed.\nNarrator: He fell off his bike.\nNarrator: Did you have a good time? Yes, I did."
+  }
+ },
+ "images": {
+  "a1-unit-26": {
+   "A": "woman holding shopping bags",
+   "B": "pizza slice close up",
+   "C": "woman sleeping in bed morning",
+   "D": "people dancing at party",
+   "E": "restaurant table dinner",
+   "F": "group of friends laughing outdoors",
+   "G": "woman reading book on sofa",
+   "H": "popcorn movie theater"
+  }
+ }
+}

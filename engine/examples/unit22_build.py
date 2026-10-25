@@ -43,7 +43,7 @@ def build(teacher):
 {photo_grid(T, PHOTOS)}
 {sub("B", "Answer the questions.", "4 min")}
 <ol>{ql}</ol>""",
-    22, """<ol><li>A: <b>the subway</b> (AmE) = <i>the underground / the metro</i>. <b>a bike</b> = a bicycle. A <b>scooter</b> here is an electric scooter (<i>patinete</i> in Brazil).</li>
+    22, """<ol><li>A: <b>the subway</b> (AmE) = <i>the underground / the metro</i>. <b>a bike</b> = a bicycle. A <b>scooter</b> here is an electric scooter.</li>
 <li>B: also ask: <i>Do you use Uber? Is it cheaper than a taxi?</i> An Uber = a car you call with an app.</li></ol>""", cover=cover)
 
     b.extra("Lesson overview · 55 min", """
@@ -137,7 +137,7 @@ I <b>need</b> to go. ✓ &nbsp; <s>I'm needing to go.</s> ✗ &nbsp;·&nbsp; I <
 <div class="bank" style="font-weight:600;background:#fff">{" &nbsp;·&nbsp; ".join(S222)}</div>
 {sub("B", "Getting around. Listen and repeat.", "3 min", "22.3")}
 <div class="bank" style="font-weight:600">{" &nbsp;·&nbsp; ".join(S223)}</div>""",
-    27, """<ol><li>D: Brazilians translate <i>de ônibus</i> as <i>with the bus</i>. Fix it every time. <i>by</i> + no article: <b>by bus</b>, not <i>by the bus</i>. But: <b>take the bus</b>.</li>
+    27, """<ol><li>D: Brazilians often say <i>with the bus</i>. Fix it every time. <i>by</i> + no article: <b>by bus</b>, not <i>by the bus</i>. But: <b>take the bus</b>.</li>
 <li>4A: <i>you're</i> sounds like <b>your</b> /jʊr/. <i>we're</i> /wɪr/. Don't say the full form (<i>we are meeting</i>) in natural speech.</li>
 <li>4B: then ask the student: <i>How do you get to work? How long does it take?</i></li></ol>""")
 

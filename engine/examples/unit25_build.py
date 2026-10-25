@@ -85,7 +85,7 @@ def build(teacher):
 {sub("B", "Listen again. True (T) or false (F)? Correct the false sentences.", "5 min", "25.1 · NATURAL")}
 <ol>{tfl}</ol>
 {sub("C", "Is there an older person in your family with an interesting life story?", "1 min")}""",
-    22, """<ol><li>A: <b>slow</b> version. The extra event is <span class="red">g (university)</span>. <b>fabric</b> = <i>tecido</i>. Brás is a neighborhood in São Paulo famous for fabric and clothes shops.</li>
+    22, """<ol><li>A: <b>slow</b> version. The extra event is <span class="red">g (university)</span>. <b>fabric</b> = material for clothes. Brás is a neighborhood in São Paulo famous for fabric and clothes shops.</li>
 <li>B: the student corrects with <b>didn't</b>: <i>She didn't finish school.</i> This prepares page 3.</li></ol>""")
 
     # Page 3

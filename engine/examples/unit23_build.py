@@ -68,7 +68,7 @@ def build(teacher):
 <div class="box"><h4>HOW THIS GUIDE WORKS</h4>Every page looks like the Student Book page with the same number. Your notes are in the <b>yellow box</b>.
 <span class="red">Answers in red</span> are not in the Student Book. The <span class="time">5 min</span> chips show the time for each activity. Audio scripts are on the last page.</div>
 <div class="box sand"><h4>THE STORY CONTINUES</h4>Tom is in São Paulo (Unit 22). On Saturday afternoon he visits an exhibition about famous Brazilians with Ana: Pelé, Carmen Miranda, Tarsila do Amaral and Tom Jobim. Tom is surprised that Carmen Miranda was born in Portugal, and he loves that the bossa nova star has his name.</div>
-<div class="box"><h4>KEY PROBLEM FOR BRAZILIANS</h4><i>She born in 1909</i> ✗ → <b>She was born in 1909</b> (<i>nasceu</i> = two words in English). <i>Her parents was rich</i> ✗ → <b>were</b>. <i>Where Pelé was born?</i> ✗ → <b>Where was Pelé born?</b> <i>famous of</i> ✗ → <b>famous for</b>.</div>
+<div class="box"><h4>KEY PROBLEM FOR BRAZILIANS</h4><i>She born in 1909</i> ✗ → <b>She was born in 1909</b> (two words in English). <i>Her parents was rich</i> ✗ → <b>were</b>. <i>Where Pelé was born?</i> ✗ → <b>Where was Pelé born?</b> <i>famous of</i> ✗ → <b>famous for</b>.</div>
 <div class="box"><h4>AUDIO</h4>Track 23.1 At the exhibition (slow and natural) · Track 23.2 Weak was / were · Track 23.3 Short answers</div>""")
 
     # Page 2
@@ -117,7 +117,7 @@ def build(teacher):
 <div class="two"><div class="box" style="margin-top:1mm"><h4>NOW AND THE PAST</h4>am / is → <b>was</b><br>are → <b>were</b><br>I'm / she's (contractions) → I <b>was</b> / she <b>was</b> (no contractions)</div>
 <div class="box sand" style="margin-top:1mm"><h4>BE BORN</h4>I <b>was born</b> in 1990. (year)<br>She <b>was born</b> in Portugal. (country, city)<br>He <b>was born</b> on May 15. (date)</div></div>""",
     24, """<ol><li>B: present has three forms (<i>am, is, are</i>); the past has only two (<i>was, were</i>). Drill the table: you say <i>she</i>, the student says <i>she was / she wasn't / Was she…?</i></li>
-<li>BE BORN: in Portuguese one word (<i>nasci</i>), in English two: <b>was born</b>. Ask: <i>When were you born?</i></li></ol>""")
+<li>BE BORN: in English it is two words: <b>was born</b>. Brazilians often forget <i>was</i>. Ask: <i>When were you born?</i></li></ol>""")
 
     # Page 4
     b.page(f"""{sub("D", "Common mistakes for Brazilians", "2 min")}
