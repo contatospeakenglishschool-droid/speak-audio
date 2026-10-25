@@ -1,0 +1,27 @@
+{
+ "material": "speak-essentials",
+ "characters": {
+  "Paulo": "en-US-Neural2-I",
+  "Lourdes": "en-US-Neural2-E",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "a1-unit-25": {
+   "25.1 Interview": "Narrator: Paulo is making a video for his grandmother's birthday. He's asking her questions about her life.\nPaulo: Hi Grandma! Today is your birthday, and you're ninety-five years old!\nLourdes: Ninety-five? No! I'm ninety-six!\nPaulo: Oh, sorry! Happy birthday! You were born on a farm in Minas Gerais. When did you move to São Paulo, and why?\nLourdes: We moved when I was ten years old. My parents wanted a good school for me and my brothers.\nPaulo: Where did you study?\nLourdes: I studied at a school for girls near Paulista Avenue. I was a good student, but I didn't finish school.\nPaulo: Why didn't you finish school? Did you need to work?\nLourdes: Yes, I did. My family needed money, so I started work when I was fifteen. I worked in a fabric shop in Brás.\nPaulo: Did you stay there for a long time?\nLourdes: No, I didn't. I married your grandfather Antônio when I was nineteen. At that time, most women didn't work after they married.\nPaulo: And then you and Grandpa moved to Rio, right?\nLourdes: No, we didn't move to Rio de Janeiro. We moved to Rio Claro, a small city near São Paulo!\nPaulo: Oh, my mistake! How long did you live in Rio Claro?\nLourdes: We lived there for forty years, and we loved it! Then we moved back to São Paulo to live near our grandchildren.\nPaulo: What a beautiful story! Let's stop for a short break now. There's more after the cake!",
+   "25.2 Repeat questions": "Narrator: Did you move?\nNarrator: Did you study English at school?\nNarrator: Where did you live?\nNarrator: When did you start work?\nNarrator: No, I didn't.\nNarrator: I didn't finish school.",
+   "25.3 Repeat years": "Narrator: eighteen twenty-two\nNarrator: nineteen oh six\nNarrator: nineteen fifty-eight\nNarrator: nineteen sixty\nNarrator: two thousand seven\nNarrator: twenty sixteen\nNarrator: the twentieth century\nNarrator: the twenty-first century"
+  }
+ },
+ "images": {
+  "a1-unit-25": {
+   "A": "moving boxes new home",
+   "B": "student studying in library",
+   "C": "graduation cap and gown",
+   "D": "bride and groom wedding rings hands",
+   "E": "first day at work office handshake",
+   "F": "woman traveler suitcase airport",
+   "G": "driving lesson steering wheel",
+   "H": "retired senior couple relaxing"
+  }
+ }
+}
