@@ -1,0 +1,25 @@
+{
+ "material": "speak-essentials",
+ "characters": {
+  "Ana": "en-US-Neural2-F",
+  "Tom": "en-US-Neural2-D",
+  "Paulo": "en-US-Neural2-I",
+  "Woman": "en-US-Neural2-H",
+  "Mia": "en-US-Neural2-E",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "a1-review-3": {
+   "R3.1 Video call": "Narrator: It's a Sunday in December. Tom is back in Chicago, and he's on a video call with Ana in São Paulo.\nTom: Hi Ana! How's the weather in São Paulo today?\nAna: It's hot and sunny! It's thirty-two degrees, and Leo is swimming in the pool right now. What about Chicago?\nTom: It's snowing again! It's really cold, so I'm wearing two sweaters. I miss Brazil!\nAna: We miss you too! Did you have a good trip back?\nTom: Yes, I did. I took the train to the airport, and the flight was fine. It took about ten hours. But in Chicago my phone battery was dead, so I asked a woman for directions to the train station!\nAna: Just like Paulo! Did you see his video about Grandma Lourdes?\nTom: Yes, I did! I watched it three times. She's ninety-six, and she traveled to twenty states by bus. Amazing! Oh, and I listened to Rita Lee on the plane. I love her songs now.\nAna: That's great! So, what did you do this weekend?\nTom: I didn't do much. I got up late, read a book and made feijoada for the first time! It wasn't as good as your mother's, but it was OK. And you?\nAna: On Saturday, Marcos and I went to a new Japanese restaurant, and on Sunday we visited Grandma. She was very happy.\nTom: Nice! And what are you doing next weekend?\nAna: We're taking the bus to the beach in Santos. What about you?\nTom: I'm meeting Kate on Saturday. We're going to a concert. I can't wait!",
+   "R3.2 Repeat ed": "Narrator: D. played. listened. traveled. died.\nNarrator: T. worked. watched. introduced.\nNarrator: I D. started. attracted. ended.",
+   "R3.3 Dialogues": "Narrator: Dialogue one.\nPaulo: Excuse me, can you tell me the way to the bank?\nWoman: Yes. Go straight ahead past the traffic lights, and then it's on the left.\nPaulo: Thanks. And is there a supermarket near here?\nWoman: Yes, there's one on the corner.\nPaulo: Great! Is it far?\nWoman: No, it's just a few minutes from here.\nNarrator: Dialogue two.\nMia: What did you do over the weekend?\nAna: I met some friends, and we went shopping.\nMia: What did you buy?\nAna: I bought some new shoes. What about you?\nMia: On Saturday I felt really tired, so I stayed home and read a book. But on Sunday I drank three coffees and drove to the beach!"
+  }
+ },
+ "images": {
+  "a1-review-3": {
+   "A": "sun shining in clear blue sky",
+   "B": "tropical beach with umbrella",
+   "C": "pharmacy storefront"
+  }
+ }
+}
