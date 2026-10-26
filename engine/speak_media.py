@@ -54,7 +54,9 @@ def audio(rot, keys, repo_dir):
         ids = {}
         for title, script in tracks.items():
             code = title.split()[0]
-            pause = AudioSegment.silent(duration=2000 if any(p in title for p in ("Repeat", "Contractions", "Intonation")) else 600, frame_rate=24000)
+            default_ms = 2000 if any(p in title for p in ("Repeat", "Contractions", "Intonation")) else 600
+            # optional per-track pause in the roteiro: "pauses": {"R3.2": 3000}
+            pause = AudioSegment.silent(duration=int(d.get("pauses", {}).get(code, default_ms)), frame_rate=24000)
             for ver, rate in SPEEDS.items():
                 dest = os.path.join(folder, f"{code}-{ver}.mp3")
                 if not os.path.exists(dest):

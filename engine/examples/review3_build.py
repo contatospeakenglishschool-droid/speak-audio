@@ -146,14 +146,14 @@ def build(teacher):
     def dl(rows): return "".join(f"<div><b>{n}:</b> {t} {R('→ ' + c) if c else ''}</div>" for n, t, c in rows)
     b.page(f"""{sec(6, "Pronunciation and social English", "9 min")}
 {audiocard(["R3.2", "R3.3"])}
-{sub("A", "Unit 24. Write the verbs in the correct column. Then listen, check and repeat.", "3 min", "R3.2")}
+{sub("A", "Unit 24. Listen. After each verb, write it in the correct column. Then say the verbs.", "3 min", "R3.2")}
 <div class="bank" style="background:#fff">{" · ".join(ed)}</div>
 <table style="table-layout:fixed;margin-top:0"><tr><th>/d/</th><th>/t/</th><th>/ɪd/</th></tr><tr>{edr}</tr></table>
 {sub("B", "Units 21 and 26. Each dialogue has mistakes. Correct them. Then listen and check.", "4 min", "R3.3")}
 <div class="two"><div class="msg" style="max-width:none;padding:2mm 3mm;line-height:1.55"><b style="color:{TEAL}">Dialogue 1: directions</b>{dl(d1)}</div>
 <div class="msg" style="max-width:none;padding:2mm 3mm;line-height:1.55"><b style="color:{TEAL}">Dialogue 2: the weekend</b>{dl(d2)}</div></div>
 {sub("C", "Role-play the dialogues with your teacher. Then change the details and make them true for you.", "2 min")}""",
-    22, """<ol><li>A: only <i>t</i> and <i>d</i> endings get the extra syllable /ɪd/.</li>
+    26, """<ol><li>A: the audio says the verbs in alphabetical order with a pause after each one: the student listens and writes the verb in the column. Only <i>t</i> and <i>d</i> endings get the extra syllable /ɪd/.</li>
 <li>B: 4 mistakes in dialogue 1 and 5 in dialogue 2. The audio has the correct versions. In C, the student asks you for directions to a real place near their home.</li></ol>""")
 
     # Page 7: reflect
@@ -176,8 +176,8 @@ def build(teacher):
     b.extra("Audio scripts", f"""
 {sub("R3.1", "Video call (slow and natural)")}
 <p style="line-height:1.45">{"<br>".join(f"<b>{n}:</b> {t}" for n, t in SCRIPT)}</p>
-{sub("R3.2", "-ed endings")}
-<p>/d/ played, listened, traveled, died · /t/ worked, watched, introduced · /ɪd/ started, attracted, ended</p>
+{sub("R3.2", "-ed endings (alphabetical order, with pauses)")}
+<p>{" · ".join(x.split(": ",1)[1].rstrip(".") for x in _r["R3.2 Write ed"].split("\n"))} (3-second pause after each verb)</p>
 {sub("R3.3", "Two dialogues (correct versions)")}
 <p style="line-height:1.45">{"<br>".join(f"<b>{n}:</b> {t}" for n, t in S33)}</p>""")
     return b.html()
