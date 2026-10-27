@@ -1,0 +1,31 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Neural2-A",
+  "Marco": "it-IT-Neural2-F",
+  "Giulia": "it-IT-Neural2-E",
+  "Luca": "it-IT-Chirp3-HD-Fenrir",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Narrator": "it-IT-Wavenet-F"
+ },
+ "pauses": {"03.2": 1800, "03.3": 2000},
+ "units": {
+  "it-a1-unita-03": {
+   "03.1 Dialogo": "Narrator: Dialogo uno.\nGiulia: Ciao, Júlia! Un caffè?\nJúlia: Sì, grazie. Oggi lavoro molto!\nGiulia: Che lavoro fai?\nJúlia: Sono architetta. Lavoro in uno studio in via Indipendenza.\nGiulia: Che bello! E abiti qui vicino, vero?\nJúlia: Sì, abito in via Santo Stefano. E tu abiti a Bologna?\nGiulia: No, abito a Casalecchio. Arrivo in autobus, tutti i giorni.\nNarrator: Dialogo due.\nMarco: Júlia, questo è Luca, mio fratello.\nLuca: Ciao, Júlia! Piacere.\nJúlia: Piacere! Anche tu sei architetto?\nLuca: No, no! Sono capotreno. Lavoro sui treni tra Bologna e Firenze.\nJúlia: E abiti a Bologna?\nLuca: No, abito a Firenze. Ma oggi pranzo con Marco!\nMarco: E paga lui!\nNarrator: Dialogo tre.\nJúlia: Ciao, Davide! Studi oggi?\nDavide: Sì, studio ingegneria all'università. Ma il sabato lavoro come cameriere in una pizzeria.\nJúlia: Ah! E parli inglese con i turisti?\nDavide: Sì, un po'. Senti, hai il mio numero di telefono?\nJúlia: No, non ho il tuo numero.\nDavide: Allora: tre, quattro, sette... uno, cinque, otto... dodici, venti.\nJúlia: Tre, quattro, sette, uno, cinque, otto, dodici, venti. Perfetto, grazie!",
+   "03.2 Ripeti numeri": "Narrator: zero\nNarrator: uno\nNarrator: due\nNarrator: tre\nNarrator: quattro\nNarrator: cinque\nNarrator: sei\nNarrator: sette\nNarrator: otto\nNarrator: nove\nNarrator: dieci\nNarrator: undici\nNarrator: dodici\nNarrator: tredici\nNarrator: quattordici\nNarrator: quindici\nNarrator: sedici\nNarrator: diciassette\nNarrator: diciotto\nNarrator: diciannove\nNarrator: venti",
+   "03.3 Ripeti doppie": "Narrator: sete, sette\nNarrator: nono, nonno\nNarrator: caro, carro\nNarrator: pala, palla\nNarrator: architetto\nNarrator: commesso\nNarrator: pizzeria\nNarrator: Abito a Firenze.\nNarrator: Lavoro in uno studio."
+  }
+ },
+ "images": {
+  "it-a1-unita-03": {
+   "A": "woman architect working blueprints desk",
+   "B": "male doctor stethoscope portrait",
+   "C": "waiter serving food restaurant",
+   "D": "teacher classroom blackboard adult",
+   "E": "female nurse hospital portrait",
+   "F": "university student library books",
+   "G": "chef cooking professional kitchen",
+   "H": "shop assistant clothing store"
+  }
+ }
+}
