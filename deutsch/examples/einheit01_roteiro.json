@@ -1,0 +1,30 @@
+{
+ "material": "speak-essenziell",
+ "characters": {
+  "Rafael": "de-DE-Neural2-H",
+  "Lena": "de-DE-Neural2-G",
+  "Aylin": "de-DE-Chirp3-HD-Kore",
+  "Herr Schneider": "de-DE-Studio-B",
+  "Narrator": "de-DE-Chirp3-HD-Aoede"
+ },
+ "pauses": {"01.2": 2200, "01.3": 2500},
+ "units": {
+  "de-a1-einheit-01": {
+   "01.1 Dialog": "Narrator: Dialog eins.\nHerr Schneider: Guten Morgen! Sind Sie Herr Costa?\nRafael: Ja, das bin ich. Guten Morgen!\nHerr Schneider: Ich bin Klaus Schneider. Willkommen in Hamburg!\nRafael: Danke! Freut mich, Herr Schneider.\nHerr Schneider: Wie geht es Ihnen?\nRafael: Gut, danke. Und Ihnen?\nHerr Schneider: Auch gut, danke.\nNarrator: Dialog zwei.\nLena: Hallo! Bist du Rafael, der neue Kollege?\nRafael: Ja, das bin ich. Hallo! Und wie heißt du?\nLena: Ich heiße Lena. Freut mich!\nRafael: Freut mich auch, Lena.\nLena: Und, wie geht's? Heute ist dein erster Tag!\nRafael: Gut, danke. Ein bisschen müde. Und dir?\nLena: Super!\nNarrator: Dialog drei.\nAylin: Guten Abend!\nRafael: Guten Abend! Einen Tee, bitte.\nAylin: Gern. Sind Sie neu hier?\nRafael: Ja, ich bin Rafael. Ich bin Brasilianer.\nAylin: Rafael? Wie schreibt man das?\nRafael: Er... A... Ef... A... E... El.\nAylin: Danke! Ich heiße Aylin. Wir können du sagen, okay?\nRafael: Gern!\nAylin: Also... tschüss, Rafael! Bis morgen!\nRafael: Auf Wiedersehen... äh, nein: Tschüss, Aylin! Bis morgen!",
+   "01.2 Wiederhole Laute": "Narrator: ich\nNarrator: dich\nNarrator: Nacht\nNarrator: auch\nNarrator: heiße\nNarrator: Sie\nNarrator: wie\nNarrator: Willkommen\nNarrator: Tschüss",
+   "01.3 Wiederhole Fragen": "Narrator: Wie heißt du?\nNarrator: Wie heißen Sie?\nNarrator: Wie geht's?\nNarrator: Wie geht es Ihnen?\nNarrator: Bist du Lena?\nNarrator: Sind Sie Herr Schneider?\nNarrator: Und du?\nNarrator: Und Sie?"
+  }
+ },
+ "images": {
+  "de-a1-einheit-01": {
+   "A": "two young friends waving hello street",
+   "B": "coffee cup breakfast morning sunlight window",
+   "C": "business people greeting handshake office lobby daylight",
+   "D": "city street evening lights",
+   "E": "bedroom night bedside lamp",
+   "F": "shop assistant saying goodbye to customer",
+   "G": "friends waving goodbye",
+   "H": "two people shaking hands smiling introduction"
+  }
+ }
+}
