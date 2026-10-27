@@ -1,0 +1,30 @@
+{
+ "material": "speak-essentiel",
+ "characters": {
+  "Camila": "fr-FR-Neural2-F",
+  "Thomas": "fr-FR-Neural2-G",
+  "Nadia": "fr-FR-Chirp3-HD-Kore",
+  "Madame Lefèvre": "fr-FR-Studio-A",
+  "Narratrice": "fr-FR-Chirp3-HD-Aoede"
+ },
+ "pauses": {"01.2": 2500, "01.3": 3000},
+ "units": {
+  "fr-a1-unite-01": {
+   "01.1 Dialogue": "Narratrice: Dialogue un.\nMadame Lefèvre: Bonjour ! Je suis Madame Lefèvre. Vous vous appelez comment ?\nCamila: Bonjour, madame ! Je m'appelle Camila Souza.\nMadame Lefèvre: Enchantée, madame Souza.\nCamila: Enchantée !\nNarratrice: Dialogue deux.\nThomas: Salut ! Je m'appelle Thomas. Tu t'appelles comment ?\nCamila: Salut, Thomas ! Je suis Camila.\nThomas: Enchanté, Camila !\nCamila: Enchantée !\nNarratrice: Dialogue trois.\nNadia: Bonsoir !\nCamila: Bonsoir ! Je suis Camila.\nNadia: Salut, Camila ! Je m'appelle Nadia. Enchantée !\nCamila: Enchantée ! Au revoir, Nadia !\nNadia: Au revoir ! À demain !",
+   "01.2 Répétez les mots": "Narratrice: Bonjour\nNarratrice: Salut\nNarratrice: Bonsoir\nNarratrice: Bonne nuit\nNarratrice: Au revoir\nNarratrice: À demain\nNarratrice: À bientôt\nNarratrice: Enchanté",
+   "01.3 Répétez les phrases": "Narratrice: Je m'appelle Camila.\nNarratrice: Je suis Thomas.\nNarratrice: Tu t'appelles comment ?\nNarratrice: Vous vous appelez comment ?\nNarratrice: Enchanté !\nNarratrice: Enchantée !"
+  }
+ },
+ "images": {
+  "fr-a1-unite-01": {
+   "A": "two people shaking hands greeting morning",
+   "B": "young friends waving hello street",
+   "C": "city street evening lights restaurant",
+   "D": "bedroom night bedside lamp",
+   "E": "woman waving goodbye door",
+   "F": "colleagues leaving office evening",
+   "G": "friends waving goodbye train station",
+   "H": "two people shaking hands smiling introduction"
+  }
+ }
+}
