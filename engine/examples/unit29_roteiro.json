@@ -1,0 +1,27 @@
+{
+ "material": "speak-essentials",
+ "characters": {
+  "Lucy": "en-US-Neural2-C",
+  "Man": "en-US-Neural2-A",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "a1-unit-29": {
+   "29.1 Store": "Narrator: It's December in Chicago, and it's very cold. Lucy is in a clothes store downtown. She needs a warm sweater for the City Coffee holiday party.\nMan: Good afternoon! Can I help you?\nLucy: Yes, please. Do you have any sweaters? I need something warm for a party on Saturday.\nMan: Yes, we do. They're over here. What size are you?\nLucy: I usually wear a small.\nMan: OK. This one comes in blue, gray and red. Which color do you like?\nLucy: Hmm... I like the red one. Where can I try it on?\nMan: The changing rooms are at the back of the store, next to the shoes.\nNarrator: A few minutes later...\nMan: So, how is it?\nLucy: It's really nice, but it doesn't fit. It's too big. Do you have it in an extra small?\nMan: Let me check... Yes, here you are. Oh, that looks great on you! Red really suits you.\nLucy: Thanks! It's perfect. How much is it?\nMan: It's on sale today, so it's only forty-five dollars.\nLucy: Great! I'll take it.\nMan: How would you like to pay, in cash or by card?\nLucy: By credit card, please.\nMan: Here's your receipt. Have a great party!",
+   "29.2 Repeat words": "Narrator: clothes\nNarrator: coat\nNarrator: dress\nNarrator: jeans\nNarrator: shirt\nNarrator: shoes\nNarrator: skirt\nNarrator: socks\nNarrator: sweater",
+   "29.3 Repeat phrases": "Narrator: Do you have any sweaters?\nNarrator: What size are you?\nNarrator: Where can I try it on?\nNarrator: It doesn't fit. It's too big.\nNarrator: Red really suits you.\nNarrator: How much is it?\nNarrator: By credit card, please."
+  }
+ },
+ "images": {
+  "a1-unit-29": {
+   "A": "winter coat on hanger",
+   "B": "dress on hanger",
+   "C": "folded blue jeans",
+   "D": "white shirt on hanger",
+   "E": "pair of leather shoes",
+   "F": "pleated skirt on hanger",
+   "G": "pair of wool socks",
+   "H": "knitted sweater folded"
+  }
+ }
+}
