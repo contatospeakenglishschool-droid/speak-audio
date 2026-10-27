@@ -1,0 +1,27 @@
+{
+ "material": "speak-essentials",
+ "characters": {
+  "Ana": "en-US-Neural2-F",
+  "Marcos": "en-US-Neural2-A",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "a1-unit-30": {
+   "30.1 Kitchen": "Narrator: It's Saturday morning in São Paulo. Ana's parents are coming for lunch tomorrow. Ana and Marcos are checking the kitchen before they go to the supermarket.\nAna: So, what can we cook for my parents tomorrow? My mom loves lasagna.\nMarcos: Lasagna is a lot of work! Let's check the kitchen first and make a list.\nAna: OK. Do we have any pasta?\nMarcos: No, we don't have any pasta. But we have a lot of rice and some beans.\nAna: What about meat? Do we have any chicken?\nMarcos: Yes, there's some chicken in the freezer. It's enough for five people.\nAna: Great! And vegetables? Do we have any onions and garlic?\nMarcos: We have an onion, but we don't have any garlic. I'm writing garlic on the list.\nAna: We need some tomatoes and a lettuce for the salad too.\nMarcos: Right. Your dad loves cheese bread. Do we have any cheese?\nAna: No, there isn't any cheese, so let's buy some. Oh, and there isn't any coffee! We drink a lot of coffee in this house.\nMarcos: OK, so no lasagna. Chicken with rice and beans, a big salad, and cheese bread with coffee after lunch.\nAna: Perfect! A real Brazilian Sunday lunch. Let's go!",
+   "30.2 Repeat words": "Narrator: an apple\nNarrator: some bread\nNarrator: some cheese\nNarrator: an egg\nNarrator: some garlic\nNarrator: a lettuce\nNarrator: an onion\nNarrator: a potato",
+   "30.3 Repeat sentences": "Narrator: We have some beans.\nNarrator: We don't have any garlic.\nNarrator: Do we have any onions?\nNarrator: There isn't any cheese.\nNarrator: We drink a lot of coffee."
+  }
+ },
+ "images": {
+  "a1-unit-30": {
+   "A": "single red apple",
+   "B": "loaf of bread on wooden board",
+   "C": "piece of cheese wedge",
+   "D": "single brown egg",
+   "E": "garlic bulb close up",
+   "F": "fresh lettuce head",
+   "G": "single onion",
+   "H": "single potato"
+  }
+ }
+}
