@@ -1,0 +1,29 @@
+{
+ "material": "speak-essentials",
+ "characters": {
+  "Paulo": "en-US-Neural2-I",
+  "Ana": "en-US-Neural2-F",
+  "Lourdes": "en-US-Chirp3-HD-Gacrux",
+  "Buddy": "en-US-Standard-B",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "a1-unit-33": {
+   "33.1 Robots": "Paulo: Hi everyone, and welcome back to my channel! Today I'm at my grandmother's house in Rio Claro, and my sister is here too. She's a doctor. So, what will robots do for us in the next ten years?\nAna: Robots will certainly be very important. For example, robots will clean our houses. A lot of people have robot vacuum cleaners now, and in the future most people will have one.\nPaulo: Great! So I'll relax on the sofa, and the robot will clean my apartment. Will robots teach our children?\nAna: I don't think robots will teach children. Computers will be important at school, but robots won't be very good teachers. Children need people.\nPaulo: And what about hospitals?\nAna: I believe robots will help doctors with operations. Some hospitals already use robots in operations. And I predict that one day we'll have very small robots inside our bodies. They'll probably be very expensive at first.\nPaulo: Will robots be dangerous?\nAna: Robots in wars will possibly be dangerous. But people control robots. I think people will always be more dangerous than robots!\nPaulo: Good point. And now, a surprise for Grandma! This is Buddy, a small robot for older people. Say hello, Buddy.\nBuddy: Hello. Nice to meet you. I can play games and help you remember your medicine.\nLourdes: Oh, how lovely! Let's play cards!\nBuddy: No. I don't want to.\nLourdes: What? I'm ninety-six, and I always win at cards!\nPaulo: Sorry, Grandma! Buddy still has some technical problems. I'm turning him off. I hope he'll be ready next week.\nLourdes: Well, I won't wait for a robot. Get the cards, Paulo!",
+   "33.2 Repeat word pairs": "Narrator: won't, want\nNarrator: note, not\nNarrator: hope, hop\nNarrator: own, on\nNarrator: robot",
+   "33.3 Repeat sentences": "Narrator: I'll relax on the sofa.\nNarrator: Robots will certainly be important.\nNarrator: They won't be good teachers.\nNarrator: I want a robot.\nNarrator: I won't buy a robot.\nNarrator: I hope he'll be ready soon."
+  }
+ },
+ "images": {
+  "a1-unit-33": {
+   "A": "humanoid robot friendly",
+   "B": "robot caring elderly person",
+   "C": "robot vacuum cleaner floor",
+   "D": "surgical robot operating room",
+   "E": "mars rover",
+   "F": "military drone",
+   "G": "police drone",
+   "H": "robot teacher classroom"
+  }
+ }
+}
