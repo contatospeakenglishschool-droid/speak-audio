@@ -1,0 +1,30 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Neural2-A",
+  "Marco": "it-IT-Neural2-F",
+  "Giulia": "it-IT-Neural2-E",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Narrator": "it-IT-Wavenet-F"
+ },
+ "pauses": {"06.2": 2000, "06.3": 2200},
+ "units": {
+  "it-a1-unita-06": {
+   "06.1 Dialogo": "Narrator: Dialogo uno. Allo studio, in pausa pranzo.\nMarco: Allora, Júlia, ti piace Bologna?\nJúlia: Sì, mi piace molto! Mi piacciono i portici e le piazze.\nMarco: E il cibo? Ti piacciono i tortellini?\nJúlia: Sì, mi piacciono tantissimo! Ma non mi piace la mortadella.\nMarco: Non ti piace la mortadella? Ma sei a Bologna!\nNarrator: Dialogo due. Sulle scale.\nDavide: Júlia, che cosa ti piace fare nel tempo libero?\nJúlia: Mi piace leggere e mi piace ballare. Soprattutto il forró!\nDavide: Il forró? Che cos'è?\nJúlia: È una musica brasiliana. E a te che cosa piace?\nDavide: A me piace il calcio. Il Napoli, naturalmente! Ti piace il calcio?\nJúlia: No, a me non piace.\nDavide: E ti piace cucinare?\nJúlia: Sì, molto!\nDavide: Anche a me!\nNarrator: Dialogo tre. Al bar.\nGiulia: Júlia, ti piacciono i film italiani?\nJúlia: Sì, mi piace molto il cinema.\nGiulia: Sabato c'è il cinema all'aperto in piazza Maggiore. A me piacciono i film vecchi, di Fellini.\nJúlia: Anche a me!\nGiulia: E a Davide piace il cinema?\nJúlia: No, a Davide piace solo il calcio!",
+   "06.2 Ripeti accento": "Narrator: piace\nNarrator: piacciono\nNarrator: leggere\nNarrator: cinema\nNarrator: musica\nNarrator: sabato\nNarrator: Mi piacciono i tortellini.\nNarrator: Mi piace leggere.",
+   "06.3 Ripeti risposte": "Narrator: Ti piace il cinema?\nNarrator: Anche a me!\nNarrator: A me no.\nNarrator: Non mi piace il calcio.\nNarrator: Neanche a me.\nNarrator: A me sì!\nNarrator: Le piace Bologna, signora?"
+  }
+ },
+ "images": {
+  "it-a1-unita-06": {
+   "A": "woman reading book sofa",
+   "B": "man cooking pasta kitchen",
+   "C": "couple dancing",
+   "D": "soccer ball football field",
+   "E": "woman listening music headphones",
+   "F": "cinema hall red seats screen",
+   "G": "traveler suitcase airport",
+   "H": "man swimming pool"
+  }
+ }
+}
