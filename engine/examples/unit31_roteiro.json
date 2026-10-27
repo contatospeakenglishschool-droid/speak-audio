@@ -1,0 +1,27 @@
+{
+ "material": "speak-essentials",
+ "characters": {
+  "Ana": "en-US-Neural2-F",
+  "Host": "en-US-Neural2-H",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "a1-unit-31": {
+   "31.1 Doctor": "Host: Good morning and welcome back to Healthy Life! Today our doctor from São Paulo is here to answer your questions about fruit and vegetables. Good morning!\nAna: Good morning! I'm happy to be here.\nHost: Our first question is from Bruno in Recife. How many servings of fruit and vegetables do I need every day?\nAna: The World Health Organization says at least five servings a day. And try to eat the rainbow: red, orange, yellow, green and purple food. Different colors give you different vitamins.\nHost: Carla from Curitiba loves strawberries. She asks: How many strawberries are one serving?\nAna: Seven strawberries are one serving. With bigger fruit, it's easy. One banana or one apple is one serving.\nHost: Pedro from Belo Horizonte doesn't eat many vegetables. He asks: How much corn is one serving?\nAna: Three big spoons of corn or peas are one serving. You can have them with your rice and beans.\nHost: Next, Paula from Salvador. I don't really like vegetables. Can I eat only fruit?\nAna: Fruit is great, but you need vegetables too. Start with a little. Try a few carrots or a little broccoli at lunch.\nHost: And our last question. Is juice healthy?\nAna: A small glass of juice is one serving, but only one. Two glasses of juice still count as one serving, and juice has a lot of sugar. So don't drink too much juice. Eat the fruit!\nHost: Great advice. Thank you so much, doctor!",
+   "31.2 Repeat words": "Narrator: bananas\nNarrator: broccoli\nNarrator: carrots\nNarrator: corn\nNarrator: eggplant\nNarrator: grapes\nNarrator: peas\nNarrator: strawberries",
+   "31.3 Repeat sentences": "Narrator: How many strawberries?\nNarrator: How much corn?\nNarrator: I don't eat much fruit.\nNarrator: Just a few grapes, please.\nNarrator: A little milk, please.\nNarrator: A glass of orange juice."
+  }
+ },
+ "images": {
+  "a1-unit-31": {
+   "A": "bunch of bananas",
+   "B": "broccoli close up",
+   "C": "fresh carrots",
+   "D": "corn cob",
+   "E": "eggplant aubergine",
+   "F": "purple grapes bunch",
+   "G": "green peas in pod",
+   "H": "fresh strawberries"
+  }
+ }
+}
