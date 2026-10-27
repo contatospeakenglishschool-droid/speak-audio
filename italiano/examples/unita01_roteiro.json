@@ -1,0 +1,30 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Neural2-A",
+  "Marco": "it-IT-Neural2-F",
+  "Giulia": "it-IT-Neural2-E",
+  "Signora Rossi": "it-IT-Wavenet-E",
+  "Narrator": "it-IT-Wavenet-F"
+ },
+ "pauses": {"01.2": 2200, "01.3": 2500},
+ "units": {
+  "it-a1-unita-01": {
+   "01.1 Dialogo": "Narrator: Dialogo uno.\nSignora Rossi: Buongiorno! Lei è la signora Souza?\nJúlia: Sì, sono io. Buongiorno!\nSignora Rossi: Piacere, sono Paola Rossi.\nJúlia: Piacere! Mi chiamo Júlia.\nSignora Rossi: Come sta, signora?\nJúlia: Bene, grazie. E Lei?\nSignora Rossi: Molto bene, grazie. Benvenuta a Bologna!\nNarrator: Dialogo due.\nMarco: Ciao! Tu sei Júlia, la nuova architetta?\nJúlia: Sì, sono io. Ciao! E tu come ti chiami?\nMarco: Mi chiamo Marco. Piacere!\nJúlia: Piacere, Marco.\nMarco: Allora, come stai? È il primo giorno!\nJúlia: Bene, grazie. Un po' stanca. E tu?\nMarco: Benissimo!\nNarrator: Dialogo tre.\nGiulia: Buonasera!\nJúlia: Buonasera! Un tè, per favore.\nGiulia: Ecco. Lei è nuova qui?\nJúlia: Sì, sono Júlia. Sono brasiliana.\nGiulia: Júlia? Come me! Io mi chiamo Giulia. Ma diamoci del tu!\nJúlia: Volentieri!\nGiulia: Allora... ciao, Júlia! A domani!\nJúlia: Arrivederci... ehm, no: ciao, Giulia! A domani!",
+   "01.2 Ripeti suoni": "Narrator: ciao\nNarrator: piacere\nNarrator: arrivederci\nNarrator: buongiorno\nNarrator: Giulia\nNarrator: mi chiamo\nNarrator: che cosa\nNarrator: Bologna\nNarrator: signora",
+   "01.3 Ripeti domande": "Narrator: Come ti chiami?\nNarrator: Come si chiama?\nNarrator: Come stai?\nNarrator: Come sta?\nNarrator: E tu?\nNarrator: E Lei?\nNarrator: Tu sei Marco?\nNarrator: Lei è la signora Rossi?"
+  }
+ },
+ "images": {
+  "it-a1-unita-01": {
+   "A": "two young women friends waving hello street",
+   "B": "espresso cup morning sunlight cafe table",
+   "C": "italian city street evening lights",
+   "D": "bedroom night bedside lamp",
+   "E": "woman waving goodbye leaving",
+   "F": "business handshake two people office",
+   "G": "barista handing coffee cup to customer",
+   "H": "friends saying goodbye outside cafe"
+  }
+ }
+}
