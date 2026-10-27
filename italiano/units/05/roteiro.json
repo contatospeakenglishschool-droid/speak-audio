@@ -1,0 +1,29 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Neural2-A",
+  "Marco": "it-IT-Neural2-F",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Narrator": "it-IT-Wavenet-F"
+ },
+ "pauses": {"05.2": 2300, "05.3": 2000},
+ "units": {
+  "it-a1-unita-05": {
+   "05.1 Dialogo": "Narrator: Dialogo uno. Allo studio, la mattina.\nMarco: Júlia, scusa, che ore sono?\nJúlia: Sono le nove e un quarto.\nMarco: Le nove e un quarto? Sono in ritardo! La riunione è alle nove!\nJúlia: Tranquillo, Marco. La riunione è alle dieci.\nMarco: Ah, meno male!\nNarrator: Dialogo due. In pausa pranzo.\nMarco: A che ora finisci di lavorare, di solito?\nJúlia: Finisco alle sei. Poi vado in palestra.\nMarco: In palestra? Io non vado mai in palestra! La sera esco con gli amici o guardo la TV.\nJúlia: E la mattina? A che ora parti da casa?\nMarco: Parto alle otto e mezza, in bicicletta.\nNarrator: Dialogo tre. La sera, sulle scale.\nJúlia: Ciao, Davide! Esci?\nDavide: Sì, esco con gli amici. Andiamo in piazza Santo Stefano.\nJúlia: Divertiti! Io dormo presto: la mattina apro lo studio alle otto.\nDavide: Alle otto? Io la mattina dormo fino alle dieci! Ma la sera studio fino all'una.\nJúlia: All'una?\nDavide: Sì. Di notte capisco meglio!",
+   "05.2 Ripeti ore": "Narrator: Che ore sono?\nNarrator: Sono le otto.\nNarrator: È l'una.\nNarrator: È mezzogiorno.\nNarrator: Sono le sette e mezza.\nNarrator: Sono le nove e un quarto.\nNarrator: Sono le sei meno un quarto.\nNarrator: A che ora?\nNarrator: Alle otto e mezza.",
+   "05.3 Ripeti sc": "Narrator: esco\nNarrator: esci\nNarrator: finisco\nNarrator: finisci\nNarrator: capisco\nNarrator: capisci\nNarrator: uscire\nNarrator: Esci stasera?\nNarrator: Finisco alle sei."
+  }
+ },
+ "images": {
+  "it-a1-unita-05": {
+   "A": "woman having breakfast coffee kitchen morning",
+   "B": "man riding bicycle city street",
+   "C": "woman working laptop office desk",
+   "D": "colleagues having lunch together restaurant",
+   "E": "woman workout gym",
+   "F": "friends drinking together bar evening",
+   "G": "man watching television sofa",
+   "H": "woman sleeping in bed"
+  }
+ }
+}
