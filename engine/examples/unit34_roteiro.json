@@ -1,0 +1,27 @@
+{
+ "material": "speak-essentials",
+ "characters": {
+  "Mia": "en-US-Neural2-E",
+  "Ana": "en-US-Neural2-F",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "a1-unit-34": {
+   "34.1 Messages": "Narrator: Mia, the night nurse, sends Ana a voice message. Then Ana answers.\nMia: Hi! I have a problem. I want to travel to Salvador in July, but I never have any money at the end of the month. I spend a lot on coffee, delivery food and taxis. What should I do?\nAna: Hi! Don't worry about it. I have some tips for you. First, you shouldn't buy coffee at the hospital café every night. Make coffee at home and take it to work. And you can bring your dinner and heat it up in the microwave in the nurses' room. Water bottles are expensive too, so fill up your own bottle at home.\nAna: It's also very expensive to eat out and order delivery food all the time. You could invite friends to your place and cook together. It's cheaper and more fun! Before you buy something new, think about it for thirty days. If you still want it after a month, buy it. And don't throw away your old phone. You can repair it!\nAna: You should give up taxis and take the subway. It's cheaper, and you don't need to worry about traffic. Oh, and if you need new clothes, hold on until January. A lot of stores have sales then. Salvador is waiting for you!",
+   "34.2 Repeat phrasal verbs": "Narrator: eat out\nNarrator: fill up\nNarrator: give up\nNarrator: heat up\nNarrator: hold on\nNarrator: think about\nNarrator: throw away\nNarrator: worry about",
+   "34.3 Repeat sentences": "Narrator: You should save some money.\nNarrator: You shouldn't eat out every day.\nNarrator: You could cook at home.\nNarrator: Don't throw it away!\nNarrator: Can you lend me fifty reais?\nNarrator: Can I borrow your bike?"
+  }
+ },
+ "images": {
+  "a1-unit-34": {
+   "A": "couple dinner restaurant table",
+   "B": "filling water bottle tap",
+   "C": "hand refusing cigarette",
+   "D": "microwave oven food",
+   "E": "man looking at watch waiting",
+   "F": "woman thinking pensive",
+   "G": "throwing paper in trash bin",
+   "H": "worried man bills"
+  }
+ }
+}
