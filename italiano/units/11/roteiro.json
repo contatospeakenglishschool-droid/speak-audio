@@ -1,0 +1,31 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Neural2-A",
+  "Marco": "it-IT-Neural2-F",
+  "Giulia": "it-IT-Neural2-E",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Signora Rossi": "it-IT-Wavenet-E",
+  "Narrator": "it-IT-Wavenet-F"
+ },
+ "pauses": {"11.2": 2000, "11.3": 2500},
+ "units": {
+  "it-a1-unita-11": {
+   "11.1 Dialogo": "Narrator: Dialogo uno. Lunedì mattina, allo studio.\nMarco: Ciao, Júlia! Com'è andato il fine settimana?\nJúlia: Benissimo! Sabato sono andata a Firenze con i miei genitori. Ho visto il Duomo e ho mangiato la bistecca fiorentina.\nMarco: E Luca?\nJúlia: Luca è venuto con noi e ha fatto la guida!\nMarco: E domenica?\nJúlia: Domenica sono rimasta a casa e ho dormito tanto.\nNarrator: Dialogo due. Al bar.\nGiulia: Davide, che cosa hai fatto sabato sera?\nDavide: Sono uscito con gli amici. Sono andato a una festa e sono tornato a casa alle tre!\nGiulia: Alle tre? E domenica hai studiato?\nDavide: No... non ho studiato. Ho guardato la partita del Napoli.\nGiulia: E il Napoli ha vinto?\nDavide: No, ha perso!\nNarrator: Dialogo tre. Sulle scale.\nSignora Rossi: Buongiorno, signora Souza. I Suoi genitori sono partiti?\nJúlia: Sì, sono partiti ieri sera. Hanno preso il treno per Roma.\nSignora Rossi: E Bologna è piaciuta?\nJúlia: Moltissimo! Hanno visto le torri, i portici... e hanno mangiato tantissimo!\nSignora Rossi: E Lei è stanca?\nJúlia: Un po'. Ieri ho lavorato tutto il giorno.",
+   "11.2 Ripeti doppie": "Narrator: fatto\nNarrator: letto\nNarrator: scritto\nNarrator: detto\nNarrator: messo\nNarrator: Ho fatto una passeggiata.\nNarrator: Ho letto un libro.",
+   "11.3 Ripeti frasi": "Narrator: Com'è andato il fine settimana?\nNarrator: Che cosa hai fatto sabato?\nNarrator: Sabato scorso sono andata a Firenze.\nNarrator: Ieri sera sono uscito con gli amici.\nNarrator: Due giorni fa ho visto un film.\nNarrator: Domenica sono rimasto a casa."
+  }
+ },
+ "images": {
+  "it-a1-unita-11": {
+   "A": "florence cathedral duomo",
+   "B": "florentine steak bistecca",
+   "C": "friends party dancing night",
+   "D": "football stadium match crowd",
+   "E": "high speed train italy",
+   "F": "people walking under arcades bologna",
+   "G": "art museum gallery visitors",
+   "H": "ponte vecchio florence"
+  }
+ }
+}
