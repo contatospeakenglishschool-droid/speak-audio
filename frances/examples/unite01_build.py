@@ -164,7 +164,7 @@ def build(teacher):
 <p style="margin-top:2mm"><b>2. Complétez le dialogue.</b></p>
 <div class="msg"><b>A :</b> Salut ! Je m'appelle Thomas. Tu t'appelles comment ?<br><b>B :</b> {A("Salut ! Je m'appelle …", "min-width:60mm")}<br><b>A :</b> Enchanté !<br><b>B :</b> {A("Enchanté(e) !", "min-width:60mm")}<br><b>A :</b> Au revoir !<br><b>B :</b> {A("Au revoir ! / À demain !", "min-width:60mm")}</div>
 <p style="margin-top:2mm"><b>3. Écrivez.</b> Je m'appelle … <div class="wline"></div></p>""",
-    22, """<p>Au prochain cours : lisez les devoirs à voix haute. Commencez par une salutation (<i>Bonjour ! / Bonsoir !</i>) et demandez à l'élève : <i>Tu t'appelles comment ?</i> Dans l'unité 02 : <i>Ça va ?</i> et l'alphabet.</p>""")
+    22, """<p>Au prochain cours : lisez les devoirs à voix haute. Commencez par une salutation (<i>Bonjour ! / Bonsoir !</i>) et demandez à l'élève : <i>Tu t'appelles comment ?</i> Dans l'unité 02 : l'alphabet, les nombres de 0 à 20 et les phrases utiles de la classe (<i>Pardon ? Je ne comprends pas.</i>).</p>""")
 
     b.extra("Transcriptions", f"""
 {sub("01.1", "Camila à Lyon (lent et naturel)")}

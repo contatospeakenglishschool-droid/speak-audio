@@ -2,30 +2,30 @@
  "material": "speak-essentiel",
  "characters": {
   "Camila": "fr-FR-Neural2-F",
-  "Nadia": "fr-FR-Chirp3-HD-Kore",
-  "Madame Lefèvre": "fr-FR-Studio-A",
+  "Thomas": "fr-FR-Neural2-G",
   "Madame Girard": "fr-FR-Chirp3-HD-Leda",
   "Hugo": "fr-FR-Chirp3-HD-Puck",
   "Narratrice": "fr-FR-Chirp3-HD-Aoede"
  },
- "pauses": {"02.2": 2500, "02.3": 1800},
+ "pauses": {"02.2": 2500, "02.3": 1800, "02.4": 1800},
  "units": {
   "fr-a1-unite-02": {
-   "02.1 Dialogue": "Narratrice: Dialogue un.\nCamila: Bonjour, Madame Lefèvre !\nMadame Lefèvre: Bonjour, Camila ! Comment allez-vous ?\nCamila: Bien, merci. Et vous ?\nMadame Lefèvre: Très bien, merci.\nNarratrice: Dialogue deux.\nMadame Girard: Bonjour ! Vous êtes madame Souza ?\nCamila: Oui, je suis Camila Souza.\nMadame Girard: Souza... Comment ça s'écrit ?\nCamila: Esse... O... U... Zède... A.\nMadame Girard: Merci !\nNarratrice: Dialogue trois.\nNadia: Salut, Camila ! Ça va ?\nCamila: Ça va. Je suis fatiguée. Et toi ?\nNadia: Super, merci ! Camila, c'est Hugo. Il est étudiant.\nHugo: Salut, Camila !\nCamila: Salut, Hugo ! Enchantée !",
-   "02.2 Répétez les mots": "Narratrice: Super !\nNarratrice: Très bien !\nNarratrice: Bien.\nNarratrice: Ça va.\nNarratrice: Pas mal.\nNarratrice: Pas très bien.\nNarratrice: fatigué\nNarratrice: malade",
-   "02.3 L'alphabet": "Narratrice: A\nNarratrice: bé\nNarratrice: cé\nNarratrice: dé\nNarratrice: eu\nNarratrice: effe\nNarratrice: gé\nNarratrice: hache\nNarratrice: i\nNarratrice: ji\nNarratrice: ka\nNarratrice: elle\nNarratrice: emme\nNarratrice: enne\nNarratrice: o\nNarratrice: pé\nNarratrice: ku\nNarratrice: erre\nNarratrice: esse\nNarratrice: té\nNarratrice: u\nNarratrice: vé\nNarratrice: double vé\nNarratrice: ixe\nNarratrice: i grec\nNarratrice: zède"
+   "02.1 Dialogue": "Narratrice: Dialogue un.\nMadame Girard: Bonjour, madame ! Vous vous appelez comment ?\nCamila: Bonjour ! Je m'appelle Camila Souza.\nMadame Girard: Souza... Ça s'écrit comment ?\nCamila: Esse... O... U... Zède... A.\nMadame Girard: Merci. Et votre numéro de téléphone ?\nCamila: Zéro six, douze, quinze, zéro huit, vingt.\nMadame Girard: Pardon ? Vous pouvez répéter, s'il vous plaît ?\nCamila: Zéro six... douze... quinze... zéro huit... vingt.\nMadame Girard: Merci, madame !\nNarratrice: Dialogue deux.\nHugo: Salut ! Je m'appelle Hugo. Appartement seize.\nCamila: Salut, Hugo ! Je suis Camila, appartement quatorze. Hugo... ça s'écrit comment ?\nHugo: Hache... U... Gé... O.\nCamila: Merci ! À bientôt, Hugo !\nNarratrice: Dialogue trois.\nThomas: Camila, le code wifi, c'est Lyon dix-neuf.\nCamila: Pardon ? Je ne comprends pas.\nThomas: Elle... I grec... O... Enne... dix-neuf.\nCamila: D'accord ! Merci, Thomas !",
+   "02.2 Phrases utiles": "Narratrice: Pardon ?\nNarratrice: Je ne comprends pas.\nNarratrice: Vous pouvez répéter ?\nNarratrice: Plus lentement, s'il vous plaît.\nNarratrice: Ça s'écrit comment ?\nNarratrice: D'accord !\nNarratrice: Merci !\nNarratrice: Je ne sais pas.",
+   "02.3 Les nombres": "Narratrice: zéro\nNarratrice: un\nNarratrice: deux\nNarratrice: trois\nNarratrice: quatre\nNarratrice: cinq\nNarratrice: six\nNarratrice: sept\nNarratrice: huit\nNarratrice: neuf\nNarratrice: dix\nNarratrice: onze\nNarratrice: douze\nNarratrice: treize\nNarratrice: quatorze\nNarratrice: quinze\nNarratrice: seize\nNarratrice: dix-sept\nNarratrice: dix-huit\nNarratrice: dix-neuf\nNarratrice: vingt",
+   "02.4 L'alphabet": "Narratrice: A\nNarratrice: bé\nNarratrice: cé\nNarratrice: dé\nNarratrice: eu\nNarratrice: effe\nNarratrice: gé\nNarratrice: hache\nNarratrice: i\nNarratrice: ji\nNarratrice: ka\nNarratrice: elle\nNarratrice: emme\nNarratrice: enne\nNarratrice: o\nNarratrice: pé\nNarratrice: ku\nNarratrice: erre\nNarratrice: esse\nNarratrice: té\nNarratrice: u\nNarratrice: vé\nNarratrice: double vé\nNarratrice: ixe\nNarratrice: i grec\nNarratrice: zède"
   }
  },
  "images": {
   "fr-a1-unite-02": {
-   "A": "woman jumping joy happy outdoors",
-   "B": "man smiling thumbs up",
-   "C": "woman smiling drinking coffee",
-   "D": "man shrugging shoulders",
-   "E": "woman relaxed smiling sofa",
-   "F": "sad woman looking out window",
-   "G": "tired man yawning",
-   "H": "sick woman in bed thermometer"
+   "A": "man hand behind ear listening",
+   "B": "confused woman looking at laptop",
+   "C": "woman raising hand asking question meeting",
+   "D": "teacher explaining to adult student one to one",
+   "E": "hand writing name on notepad",
+   "F": "woman smiling hand on heart thank you",
+   "G": "man making ok gesture",
+   "H": "woman shrug unsure"
   }
  }
 }
