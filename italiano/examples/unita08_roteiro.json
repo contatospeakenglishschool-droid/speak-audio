@@ -1,0 +1,29 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Neural2-A",
+  "Marco": "it-IT-Neural2-F",
+  "Receptionist": "it-IT-Chirp3-HD-Aoede",
+  "Narrator": "it-IT-Wavenet-F"
+ },
+ "pauses": {"08.2": 2200, "08.3": 2500},
+ "units": {
+  "it-a1-unita-08": {
+   "08.1 Dialogo": "Narrator: Dialogo uno. Al telefono con l'albergo.\nReceptionist: Hotel Due Torri, buongiorno!\nJúlia: Buongiorno. Vorrei prenotare una camera doppia per tre notti, dal dieci al tredici dicembre.\nReceptionist: Certo. A che nome?\nJúlia: Souza. È per i miei genitori: vengono dal Brasile.\nReceptionist: Perfetto. La camera costa novanta euro a notte, con la colazione inclusa.\nJúlia: C'è il parcheggio?\nReceptionist: No, mi dispiace. Ma ci sono dei parcheggi vicino alla stazione.\nJúlia: E dall'aeroporto come ci arrivano?\nReceptionist: Ci arrivano in autobus. C'è un autobus ogni dieci minuti.\nNarrator: Dialogo due. Allo studio.\nMarco: Allora, vengono i tuoi genitori?\nJúlia: Sì! Arrivano il dieci, dal Brasile. Vengo anche io all'aeroporto.\nMarco: E dove dormono?\nJúlia: All'Hotel Due Torri, nel centro.\nMarco: Bello! E poi andate a Firenze?\nJúlia: Sì, ci andiamo sabato. Luca dice che ci va tutti i giorni!\nNarrator: Dialogo tre. In albergo.\nReceptionist: Buonasera. Ha una prenotazione?\nJúlia: Sì, a nome Souza. Per i miei genitori.\nReceptionist: Ecco la chiave: camera ventuno, al secondo piano.\nJúlia: C'è l'ascensore?\nReceptionist: Sì, è in fondo al corridoio, accanto alla scala.\nJúlia: E a che ora è la colazione?\nReceptionist: Dalle sette alle dieci, nella sala al primo piano.",
+   "08.2 Ripeti preposizioni": "Narrator: al secondo piano\nNarrator: alla stazione\nNarrator: dall'aeroporto\nNarrator: dalle sette alle dieci\nNarrator: nella sala\nNarrator: in fondo al corridoio\nNarrator: sulla scrivania",
+   "08.3 Ripeti frasi": "Narrator: Vorrei prenotare una camera doppia.\nNarrator: Per tre notti, dal dieci al tredici.\nNarrator: Quanto costa a notte?\nNarrator: La colazione è inclusa?\nNarrator: C'è il parcheggio?\nNarrator: A che ora è la colazione?"
+  }
+ },
+ "images": {
+  "it-a1-unita-08": {
+   "A": "hotel room double bed",
+   "B": "hotel single room bed",
+   "C": "hotel room key card",
+   "D": "hotel reception desk",
+   "E": "elevator doors hotel",
+   "F": "hotel breakfast buffet",
+   "G": "suitcase luggage travel",
+   "H": "car parking lot"
+  }
+ }
+}
