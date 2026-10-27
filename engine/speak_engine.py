@@ -29,6 +29,12 @@ def lang_tag():
     label, svg = FLAGS[LANG]
     return f'<span style="white-space:nowrap">{svg}&nbsp;{label}</span>'
 SEP = " &nbsp;•&nbsp; "
+# School name and website in the footer (clickable link) and in the PDF author.
+# Language layers override them: _se.SCHOOL = "Speak! Language School"; _se.SITE = "speaklanguageschool.lovable.app"
+SCHOOL = "Speak! English School"
+SITE = "speakenglishschool.lovable.app"
+def foot_left():
+    return f'<span>© {SCHOOL} · <a href="https://{SITE}" style="color:inherit;text-decoration:none">{SITE}</a></span>'
 def setup(band, audio_json=None, img_dir="img", lang="en-US"):
     """band: text after 'SPEAK! ESSENTIALS • ', e.g. 'A1 · UNIT 21' or 'A1 · REVIEW 3'. lang: key of FLAGS."""
     global BAND, IMG_DIR, LANG
@@ -208,7 +214,7 @@ class Book:
             foot_r = f"<b>{self.sb_no}</b>"
         top = "style='top:92mm'" if cover else ""
         self.pages.append(f'<div class="page">{band}{cover}<div class="body" {top}>{body}</div>{notes}'
-                          f'<div class="foot"><span>© Speak! English School · speakenglishschool.lovable.app</span><span>{foot_r}</span></div></div>')
+                          f'<div class="foot">{foot_left()}<span>{foot_r}</span></div></div>')
 
     def extra(self, title, body):
         """Teacher-only page (overview, scripts)."""
@@ -216,11 +222,11 @@ class Book:
             return
         self.pages.append(f'<div class="page"><div class="band tg"><span>SPEAK! ESSENTIALS{SEP}{BAND.replace(" · ", SEP)}{SEP}{lang_tag()}</span><span class="lbl">TEACHER\'S GUIDE</span></div>'
                           f'<div class="body">{self.sec("T", title, "")}{body}</div>'
-                          f'<div class="foot"><span>© Speak! English School · speakenglishschool.lovable.app</span><span>Teacher only</span></div></div>')
+                          f'<div class="foot">{foot_left()}<span>Teacher only</span></div></div>')
 
     def html(self):
         import re
-        h = f"<html><head><meta charset='utf-8'><style>{CSS}</style></head><body>{''.join(self.pages)}</body></html>"
+        h = f"<html><head><meta charset='utf-8'><meta name='author' content='{SCHOOL}'><style>{CSS}</style></head><body>{''.join(self.pages)}</body></html>"
         return re.sub(r'<li value="?(\d+)"?>', lambda m: f'<li style="list-style:none;margin-left:-5mm">{m.group(1)}.&nbsp; ', h)
 
 

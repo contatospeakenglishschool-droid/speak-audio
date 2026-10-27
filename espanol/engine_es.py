@@ -10,6 +10,10 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."
 import speak_engine as _se
 from speak_engine import *
 
+# Non-English lines use the new school name and website (footer link + PDF author)
+_se.SCHOOL = "Speak! Language School"
+_se.SITE = "speaklanguageschool.lovable.app"
+
 # es-419 = Latin American Spanish; home base Mexico City, so the Mexican flag
 _se.FLAGS["es-419"] = ("ESPAÑOL", '<svg viewBox="0 0 15 9" width="15" height="9" style="width:4.2mm;height:2.6mm;vertical-align:-0.35mm;border-radius:.35mm;box-shadow:0 0 0 .2mm rgba(255,255,255,.35)">'
                                   '<rect width="5" height="9" fill="#006847"/><rect x="5" width="5" height="9" fill="#fff"/><rect x="10" width="5" height="9" fill="#CE1126"/>'

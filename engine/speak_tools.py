@@ -16,7 +16,7 @@ def lock(prefix, pwfile):
     for k in ("SB", "TB"):
         n = f"{prefix} - {k}"
         w = PdfWriter(clone_from=n + "_draft.pdf")
-        w.add_metadata({"/Author": "Speak! English School", "/Title": os.path.basename(n)})
+        w.add_metadata({"/Author": (w.metadata or {}).get("/Author") or "Speak! English School", "/Title": os.path.basename(n)})  # keeps the school set by the engine
         w.encrypt(user_password="", owner_password=pw, permissions_flag=perms, algorithm="AES-256")
         w.write(n + ".pdf")
         os.remove(n + "_draft.pdf")

@@ -10,6 +10,10 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."
 import speak_engine as _se
 from speak_engine import *
 
+# Non-English lines use the new school name and website (footer link + PDF author)
+_se.SCHOOL = "Speak! Language School"
+_se.SITE = "speaklanguageschool.lovable.app"
+
 _se.FLAGS["de-DE"] = ("DEUTSCH", '<svg viewBox="0 0 15 9" width="15" height="9" style="width:4.2mm;height:2.6mm;vertical-align:-0.35mm;border-radius:.35mm;box-shadow:0 0 0 .2mm rgba(255,255,255,.35)">'
                                  '<rect width="15" height="3" fill="#000"/><rect y="3" width="15" height="3" fill="#DD0000"/><rect y="6" width="15" height="3" fill="#FFCE00"/></svg>')
 
