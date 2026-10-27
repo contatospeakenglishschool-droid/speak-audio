@@ -17,10 +17,22 @@ PHOTOS = []
 import qrcode, io as _io
 import json as _json, os as _os
 AUDIO = {}
-def setup(band, audio_json=None, img_dir="img"):
-    """band: text after 'SPEAK! ESSENTIALS · ', e.g. 'A1 · UNIT 21' or 'A1 · REVIEW 3'."""
-    global BAND, IMG_DIR
-    BAND, IMG_DIR = band, img_dir
+LANG = "en-US"
+_STRIPES = "".join(f'<rect y="{i*10/13:.3f}" width="19" height="{10/13:.3f}" fill="#B22234"/>' for i in range(0, 13, 2))
+_STARS = "".join(f'<circle cx="{0.75+c*1.25 + (0.62 if r % 2 else 0):.2f}" cy="{0.6+r*0.62:.2f}" r="0.2" fill="#fff"/>' for r in range(8) for c in range(6 if r % 2 == 0 else 5))
+FLAGS = {
+    # language code: (label, inline SVG flag 19x10)
+    "en-US": ("ENGLISH", f'<svg viewBox="0 0 19 10" width="19" height="10" style="width:5.2mm;height:2.75mm;vertical-align:-0.35mm;border-radius:.35mm;box-shadow:0 0 0 .2mm rgba(255,255,255,.35)">'
+                          f'<rect width="19" height="10" fill="#fff"/>{_STRIPES}<rect width="7.6" height="5.385" fill="#3C3B6E"/>{_STARS}</svg>'),
+}
+def lang_tag():
+    label, svg = FLAGS[LANG]
+    return f'<span style="white-space:nowrap">{svg}&nbsp;{label}</span>'
+SEP = " &nbsp;•&nbsp; "
+def setup(band, audio_json=None, img_dir="img", lang="en-US"):
+    """band: text after 'SPEAK! ESSENTIALS • ', e.g. 'A1 · UNIT 21' or 'A1 · REVIEW 3'. lang: key of FLAGS."""
+    global BAND, IMG_DIR, LANG
+    BAND, IMG_DIR, LANG = band, img_dir, lang
     AUDIO.clear()
     if audio_json and _os.path.exists(audio_json):
         AUDIO.update(_json.load(open(audio_json)))
@@ -186,8 +198,8 @@ class Book:
     def page(self, body, notes_h, tnotes, cover=""):
         """A mirrored page: same body in both books; the notes zone is 'My notes' (SB) or teacher notes (TG)."""
         self.sb_no += 1
-        label = "TEACHER'S GUIDE" if self.T else "STUDENT BOOK"
-        band = "" if cover else f'<div class="band {"tg" if self.T else ""}"><span>SPEAK! ESSENTIALS · {BAND}</span><span class="lbl">{label}</span></div>'
+        label = "TEACHER'S GUIDE" if self.T else "STUDENT'S BOOK"
+        band = "" if cover else f'<div class="band {"tg" if self.T else ""}"><span>SPEAK! ESSENTIALS{SEP}{BAND.replace(" · ", SEP)}{SEP}{lang_tag()}</span><span class="lbl">{label}</span></div>'
         if self.T:
             notes = f'<div class="notes tg" style="height:{notes_h}mm"><div class="h">TEACHER\'S NOTES</div>{tnotes}</div>'
             foot_r = f"Student Book p. {self.sb_no}"
@@ -202,7 +214,7 @@ class Book:
         """Teacher-only page (overview, scripts)."""
         if not self.T:
             return
-        self.pages.append(f'<div class="page"><div class="band tg"><span>SPEAK! ESSENTIALS · {BAND}</span><span class="lbl">TEACHER\'S GUIDE</span></div>'
+        self.pages.append(f'<div class="page"><div class="band tg"><span>SPEAK! ESSENTIALS{SEP}{BAND.replace(" · ", SEP)}{SEP}{lang_tag()}</span><span class="lbl">TEACHER\'S GUIDE</span></div>'
                           f'<div class="body">{self.sec("T", title, "")}{body}</div>'
                           f'<div class="foot"><span>© Speak! English School · speakenglishschool.lovable.app</span><span>Teacher only</span></div></div>')
 
@@ -235,7 +247,7 @@ def cover_html(T, kick, title, subt, chips):
     pattern = "<br>".join(["SPEAK SPEAK SPEAK SPEAK SPEAK SPEAK"] * 8)
     ch = "".join(f"<div><b>{a}</b>{b}</div>" for a, b in chips)
     return (f'<div class="cover"><div class="pattern">{pattern}</div><div class="in"><div class="logo">Speak<span>!</span> <i>Essentials</i></div>'
-            f'<div class="kick">{kick} · {"TEACHER\'S GUIDE" if T else "STUDENT BOOK"}</div><div class="title">{title}</div><div class="subt">{subt}</div></div>'
+            f'<div class="kick">{kick.replace(" · ", SEP)}{SEP}{"TEACHER\'S GUIDE" if T else "STUDENT\'S BOOK"}{SEP}{lang_tag()}</div><div class="title">{title}</div><div class="subt">{subt}</div></div>'
             f'<div class="chips">{ch}</div></div>')
 
 def photo_grid(T, photos):
