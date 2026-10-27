@@ -10,21 +10,9 @@
  "pauses": {"01.2": 2500, "01.3": 3000},
  "units": {
   "de-a1-einheit-01": {
-   "01.1 Dialog": "Narrator: Dialog eins.\nHerr Schneider: Guten Morgen! Ich bin Klaus Schneider. Wie heißen Sie?\nRafael: Guten Morgen! Ich heiße Rafael Costa.\nHerr Schneider: Freut mich, Herr Costa.\nRafael: Freut mich auch!\nNarrator: Dialog zwei.\nLena: Hallo! Ich heiße Lena. Wie heißt du?\nRafael: Hallo, Lena! Ich bin Rafael.\nLena: Freut mich, Rafael!\nNarrator: Dialog drei.\nAylin: Guten Abend!\nRafael: Guten Abend! Ich bin Rafael.\nAylin: Hallo, Rafael! Ich bin Aylin. Freut mich!\nRafael: Freut mich auch! Tschüss, Aylin!\nAylin: Tschüss! Bis morgen!",
+   "01.1 Dialog": "Narrator: Dialog eins.\nHerr Schneider: Guten Morgen! Ich bin Klaus Schneider. Wie heißen Sie?\nRafael: Guten Morgen! Ich heiße Rafael Costa.\nHerr Schneider: Freut mich, Herr Costa. Wie geht es Ihnen?\nRafael: Gut, danke. Und Ihnen?\nHerr Schneider: Sehr gut, danke.\nNarrator: Dialog zwei.\nLena: Hallo! Ich heiße Lena. Wie heißt du?\nRafael: Hallo, Lena! Ich bin Rafael.\nLena: Freut mich, Rafael! Wie geht's?\nRafael: Gut, danke. Und dir?\nLena: Super!\nNarrator: Dialog drei.\nAylin: Guten Abend! Ich bin Aylin. Wie geht's?\nRafael: Guten Abend! Es geht. Und dir?\nAylin: Gut, danke.\nRafael: Tschüss, Aylin!\nAylin: Tschüss, Rafael! Bis morgen!",
    "01.2 Wiederhole Wörter": "Narrator: Hallo\nNarrator: Guten Morgen\nNarrator: Guten Tag\nNarrator: Guten Abend\nNarrator: Gute Nacht\nNarrator: Tschüss\nNarrator: Auf Wiedersehen\nNarrator: Freut mich",
-   "01.3 Wiederhole Sätze": "Narrator: Ich heiße Rafael.\nNarrator: Ich bin Lena.\nNarrator: Wie heißt du?\nNarrator: Wie heißen Sie?\nNarrator: Freut mich!\nNarrator: Freut mich auch!"
-  }
- },
- "images": {
-  "de-a1-einheit-01": {
-   "A": "man waving hand",
-   "B": "coffee cup breakfast morning sunlight window",
-   "C": "business people greeting handshake office lobby daylight",
-   "D": "city street evening lights",
-   "E": "bedroom night bedside lamp",
-   "F": "shop assistant saying goodbye to customer",
-   "G": "friends greeting each other hug",
-   "H": "two people shaking hands smiling introduction"
+   "01.3 Wiederhole Sätze": "Narrator: Ich heiße Rafael.\nNarrator: Wie heißt du?\nNarrator: Wie heißen Sie?\nNarrator: Wie geht's?\nNarrator: Wie geht es Ihnen?\nNarrator: Gut, danke. Und dir?\nNarrator: Gut, danke. Und Ihnen?\nNarrator: Super! Gut. Es geht. Schlecht."
   }
  }
 }

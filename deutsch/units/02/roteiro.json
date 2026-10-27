@@ -2,8 +2,8 @@
  "material": "speak-essenziell",
  "characters": {
   "Rafael": "de-DE-Neural2-H",
+  "Lena": "de-DE-Neural2-G",
   "Aylin": "de-DE-Chirp3-HD-Kore",
-  "Herr Schneider": "de-DE-Studio-B",
   "Frau Krüger": "de-DE-Chirp3-HD-Leda",
   "Jonas": "de-DE-Chirp3-HD-Puck",
   "Narrator": "de-DE-Chirp3-HD-Aoede"
@@ -11,21 +11,9 @@
  "pauses": {"02.2": 2500, "02.3": 1800},
  "units": {
   "de-a1-einheit-02": {
-   "02.1 Dialog": "Narrator: Dialog eins.\nRafael: Guten Morgen, Herr Schneider!\nHerr Schneider: Guten Morgen, Herr Costa! Wie geht es Ihnen?\nRafael: Gut, danke. Und Ihnen?\nHerr Schneider: Sehr gut, danke.\nNarrator: Dialog zwei.\nFrau Krüger: Guten Tag! Sind Sie Herr Costa?\nRafael: Ja, ich bin Rafael Costa.\nFrau Krüger: Wie schreibt man Costa?\nRafael: Tse... Oh... Es... Teh... Ah.\nFrau Krüger: Danke!\nNarrator: Dialog drei.\nAylin: Hallo, Rafael! Wie geht's?\nRafael: Es geht. Ich bin müde. Und dir?\nAylin: Super, danke! Rafael, das ist Jonas. Er ist Student.\nJonas: Hallo, Rafael!\nRafael: Hallo, Jonas! Freut mich!",
-   "02.2 Wiederhole Wörter": "Narrator: Super!\nNarrator: Sehr gut!\nNarrator: Gut.\nNarrator: Es geht.\nNarrator: Nicht so gut.\nNarrator: Schlecht.\nNarrator: müde\nNarrator: krank",
+   "02.1 Dialog": "Narrator: Dialog eins.\nFrau Krüger: Guten Tag! Wie heißen Sie?\nRafael: Rafael Costa.\nFrau Krüger: Wie schreibt man das?\nRafael: Tse... Oh... Es... Teh... Ah.\nFrau Krüger: Danke. Woher kommen Sie, Herr Costa?\nRafael: Ich komme aus Brasilien.\nNarrator: Dialog zwei.\nLena: Hallo, Rafael! Wie geht's?\nRafael: Gut, danke. Und dir?\nLena: Super! Sag mal, wo wohnst du?\nRafael: Ich wohne in Altona.\nLena: Ich wohne auch in Altona!\nNarrator: Dialog drei.\nAylin: Hallo, Rafael! Das ist Jonas.\nJonas: Hallo! Woher kommst du?\nRafael: Ich komme aus Brasilien. Und du?\nJonas: Ich komme aus Österreich, aus Wien.",
+   "02.2 Wiederhole Länder": "Narrator: Brasilien\nNarrator: Deutschland\nNarrator: Österreich\nNarrator: Italien\nNarrator: Spanien\nNarrator: Portugal\nNarrator: Frankreich\nNarrator: Japan",
    "02.3 Das Alphabet": "Narrator: Ah\nNarrator: Beh\nNarrator: Tseh\nNarrator: Deh\nNarrator: Eh\nNarrator: Eff\nNarrator: Geh\nNarrator: Hah\nNarrator: Ih\nNarrator: Jott\nNarrator: Kah\nNarrator: Ell\nNarrator: Emm\nNarrator: Enn\nNarrator: Oh\nNarrator: Peh\nNarrator: Kuh\nNarrator: Err\nNarrator: Ess\nNarrator: Teh\nNarrator: Uh\nNarrator: Fau\nNarrator: Weh\nNarrator: Ix\nNarrator: Üpsilon\nNarrator: Tsett\nNarrator: Ä\nNarrator: Ö\nNarrator: Ü\nNarrator: Ess-tsett"
-  }
- },
- "images": {
-  "de-a1-einheit-02": {
-   "A": "woman jumping joy happy outdoors",
-   "B": "man smiling thumbs up",
-   "C": "woman smiling drinking coffee",
-   "D": "man shrugging shoulders",
-   "E": "sad woman looking out window",
-   "F": "man head in hands stress",
-   "G": "tired man yawning",
-   "H": "sick woman in bed thermometer"
   }
  }
 }
