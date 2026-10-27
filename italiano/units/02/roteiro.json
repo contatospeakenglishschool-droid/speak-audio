@@ -1,0 +1,30 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Neural2-A",
+  "Marco": "it-IT-Neural2-F",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Signora Rossi": "it-IT-Wavenet-E",
+  "Narrator": "it-IT-Wavenet-F"
+ },
+ "pauses": {"02.2": 2200, "02.3": 2200},
+ "units": {
+  "it-a1-unita-02": {
+   "02.1 Dialogo": "Narrator: Dialogo uno.\nMarco: Júlia, tu di dove sei? Di Rio de Janeiro?\nJúlia: No, sono di Belo Horizonte.\nMarco: Belo Horizonte? Dov'è?\nJúlia: È nel sud-est del Brasile, vicino a Rio.\nMarco: E parli inglese?\nJúlia: Sì, e un po' di spagnolo. E tu, Marco? Sei di Bologna?\nMarco: Sì, sono bolognese. Ma mia madre è francese, di Lione.\nNarrator: Dialogo due.\nDavide: Ciao! Sei la nuova vicina?\nJúlia: Sì, sono Júlia. Piacere!\nDavide: Piacere, io sono Davide. Senti, hai la password del Wi-Fi?\nJúlia: No, non ho la password. Ho un problema anche io!\nDavide: Ah, va bene. Sei spagnola?\nJúlia: No, sono brasiliana.\nDavide: Brasiliana! Io ho un'amica brasiliana, Bia. È di Salvador.\nJúlia: E tu? Sei di Bologna?\nDavide: No, sono di Napoli. Sono qui per l'università.\nNarrator: Dialogo tre.\nSignora Rossi: Signora Souza, ha un documento, per il contratto?\nJúlia: Sì, ho il passaporto. Ecco.\nSignora Rossi: Grazie. Ma questo è un passaporto italiano!\nJúlia: Sì, ho la cittadinanza italiana. Mio nonno è italiano, di Treviso.\nSignora Rossi: Ah, che bello! Allora Lei è italiana e brasiliana!\nJúlia: Esatto!",
+   "02.2 Ripeti H muta": "Narrator: ho\nNarrator: o\nNarrator: hai\nNarrator: ai\nNarrator: ha\nNarrator: a\nNarrator: Ho un passaporto.\nNarrator: Hai la password?\nNarrator: Lei ha un documento?",
+   "02.3 Ripeti nazionalità": "Narrator: italiano, italiana\nNarrator: brasiliano, brasiliana\nNarrator: spagnolo, spagnola\nNarrator: tedesco, tedesca\nNarrator: americano, americana\nNarrator: francese\nNarrator: inglese\nNarrator: portoghese\nNarrator: giapponese"
+  }
+ },
+ "images": {
+  "it-a1-unita-02": {
+   "A": "italian flag waving",
+   "B": "brazil flag waving",
+   "C": "portugal flag waving",
+   "D": "france flag waving",
+   "E": "spain flag waving",
+   "F": "germany flag waving",
+   "G": "usa flag waving",
+   "H": "japan flag waving"
+  }
+ }
+}
