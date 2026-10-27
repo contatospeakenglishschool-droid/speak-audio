@@ -1,0 +1,27 @@
+{
+ "material": "speak-essentials",
+ "characters": {
+  "Tom": "en-US-Neural2-D",
+  "Kate": "en-US-Neural2-G",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "a1-unit-32": {
+   "32.1 Lunch": "Narrator: It's December in Chicago. Tom calls his sister Kate. He wants to have lunch with her before Christmas.\nKate: Hello?\nTom: Hi Kate! It's Tom. Let's have lunch together this week. Are you very busy?\nKate: I'm always busy in December, but let me look at my planner. What are you doing this weekend?\nTom: I'm free on Saturday.\nKate: Sorry, I'm going to clean the bakery on Saturday, and that takes all day. And on Sunday I'm having brunch with Lucy at eleven.\nTom: That's OK. I can't do Sunday anyway. I'm going to watch the Bears game with some friends.\nKate: So what about Friday? I'm going to make pizza in the evening, but I'm free for lunch.\nTom: Sorry, I'm taking my Portuguese exam on Friday at eleven.\nKate: Your Portuguese exam? Good luck! Well, I'm free for lunch on Monday or Tuesday.\nTom: Oh no, I'm not. I'm going to go jogging on Monday at lunchtime, and on Tuesday I'm seeing the dentist at half past eleven. What about Wednesday?\nKate: No, sorry. I'm meeting a new supplier at one o'clock. But I'm not doing anything on Thursday.\nTom: Thursday is perfect for me too! Where do you want to go?\nKate: Let's go to City Coffee. Lucy says they have a great new sandwich.",
+   "32.2 Repeat time phrases": "Narrator: on Monday\nNarrator: on Friday evening\nNarrator: at eleven\nNarrator: at half past eleven\nNarrator: in the morning\nNarrator: in December",
+   "32.3 Repeat sentences": "Narrator: What are you doing on Friday?\nNarrator: I'm having brunch with Lucy.\nNarrator: I'm going to clean the bakery.\nNarrator: Are you going to watch the game?\nNarrator: I'm not doing anything on Thursday.\nNarrator: I'm gonna call you tomorrow."
+  }
+ },
+ "images": {
+  "a1-unit-32": {
+   "A": "woman cleaning house mopping floor",
+   "B": "woman doing yoga at home",
+   "C": "man getting haircut barber",
+   "D": "man jogging in park",
+   "E": "business meeting office table",
+   "F": "empty dentist chair clinic",
+   "G": "student writing exam paper",
+   "H": "couple watching movie at home"
+  }
+ }
+}
