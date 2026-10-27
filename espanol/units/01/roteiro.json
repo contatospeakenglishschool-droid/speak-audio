@@ -1,0 +1,33 @@
+{
+ "material": "speak-esencial",
+ "characters": {
+  "Pedro": "es-US-Chirp3-HD-Charon",
+  "Lucía": "es-US-Chirp3-HD-Kore",
+  "Doña Carmen": "es-US-Chirp3-HD-Gacrux",
+  "Paco": "es-US-Chirp3-HD-Puck",
+  "Narradora": "es-US-Chirp3-HD-Aoede"
+ },
+ "pauses": {
+  "01.2": 2500,
+  "01.3": 3000
+ },
+ "units": {
+  "es-a1-unidad-01": {
+   "01.1 Diálogo": "Narradora: Diálogo uno.\nDoña Carmen: Buenos días. Soy Carmen Ruiz. ¿Cómo se llama usted?\nPedro: Buenos días, señora. Me llamo Pedro Almeida.\nDoña Carmen: Mucho gusto, señor Almeida.\nPedro: Mucho gusto, señora Ruiz.\nNarradora: Diálogo dos.\nLucía: ¡Hola! Me llamo Lucía. ¿Cómo te llamas?\nPedro: ¡Hola, Lucía! Soy Pedro.\nLucía: Mucho gusto, Pedro.\nPedro: Igualmente.\nNarradora: Diálogo tres.\nPaco: ¡Buenas noches!\nPedro: ¡Buenas noches! Soy Pedro.\nPaco: ¡Hola, Pedro! Soy Paco. Mucho gusto.\nPedro: Igualmente. ¡Adiós, Paco!\nPaco: ¡Hasta mañana!",
+   "01.2 Repite palabras": "Narradora: Hola\nNarradora: Buenos días\nNarradora: Buenas tardes\nNarradora: Buenas noches\nNarradora: Adiós\nNarradora: Hasta luego\nNarradora: Hasta mañana\nNarradora: Mucho gusto",
+   "01.3 Repite frases": "Narradora: Me llamo Pedro.\nNarradora: Soy Lucía.\nNarradora: ¿Cómo te llamas?\nNarradora: ¿Cómo se llama usted?\nNarradora: Mucho gusto.\nNarradora: Igualmente."
+  }
+ },
+ "images": {
+  "es-a1-unidad-01": {
+   "A": "man waving hand smiling",
+   "B": "coffee cup breakfast morning sunlight window",
+   "C": "mexico city street afternoon",
+   "D": "mexico city night street",
+   "E": "woman waving goodbye",
+   "F": "friends hug goodbye",
+   "G": "alarm clock morning bed",
+   "H": "business people greeting handshake"
+  }
+ }
+}
