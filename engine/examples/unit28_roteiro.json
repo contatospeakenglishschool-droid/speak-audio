@@ -1,0 +1,28 @@
+{
+ "material": "speak-essentials",
+ "characters": {
+  "Paulo": "en-US-Neural2-I",
+  "Woman": "en-US-Neural2-H",
+  "Man": "en-US-Neural2-A",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "a1-unit-28": {
+   "28.1 Rio": "Narrator: It's Friday. Paulo is in Rio de Janeiro for a photo job. Listen to his busy day.\nWoman: Good morning, and welcome to Rio! Here's your room key. Do you have any questions?\nPaulo: Yes. What time does breakfast start?\nWoman: It starts at six thirty, on the first floor.\nMan: Good morning! Can I help you?\nPaulo: Did you make this cheese bread today?\nMan: Yes, we did. We make it every morning at five o'clock.\nWoman: Hello! Can I help you?\nPaulo: Yes, please. Do you have something for a headache?\nWoman: Yes, we do. Take one of these after lunch with some water.\nPaulo: Excuse me. Why did the machine keep my card?\nMan: Because you typed the wrong password three times. Don't worry, we can help you.\nPaulo: I want to send this package to São Paulo. Which is faster, SEDEX or PAC?\nWoman: SEDEX is faster, but it's more expensive.\nPaulo: Hi! I'm here for the photo shoot. Who usually answers the phone here? Nobody answered this morning.\nMan: Bia usually answers the phone, but she's on vacation this week. Sorry about that!\nPaulo: Excuse me. Who painted this picture? It's beautiful.\nWoman: Candido Portinari painted it in nineteen thirty-five. It's called Coffee.\nPaulo: I know I'm late, but when did the movie start?\nMan: It started ten minutes ago. Do you want to go in?\nPaulo: Yes, please! What a day!",
+   "28.2 Repeat question words": "Narrator: what\nNarrator: which\nNarrator: who\nNarrator: whose\nNarrator: where\nNarrator: when\nNarrator: why\nNarrator: how much",
+   "28.3 Repeat questions": "Narrator: Do you have any cheese bread?\nNarrator: Did you make it today?\nNarrator: Where do you live?\nNarrator: What time does breakfast start?\nNarrator: Who painted this picture?\nNarrator: Whose bag is this?"
+  }
+ },
+ "images": {
+  "a1-unit-28": {
+   "A": "bakery counter fresh bread display",
+   "B": "bank teller counter",
+   "C": "hotel reception desk",
+   "D": "empty movie theater red seats",
+   "E": "art museum gallery paintings wall",
+   "F": "modern office desk computer",
+   "G": "pharmacy green cross sign",
+   "H": "post office counter parcels"
+  }
+ }
+}
