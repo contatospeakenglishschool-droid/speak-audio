@@ -1,0 +1,30 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Neural2-A",
+  "Marco": "it-IT-Neural2-F",
+  "Giulia": "it-IT-Neural2-E",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Narrator": "it-IT-Wavenet-F"
+ },
+ "pauses": {"04.2": 1800, "04.3": 2500},
+ "units": {
+  "it-a1-unita-04": {
+   "04.1 Dialogo": "Narrator: Dialogo uno. Al banco, la mattina.\nGiulia: Buongiorno, ragazzi! Che cosa prendete?\nJúlia: Vorrei un cappuccino e un cornetto, per favore.\nMarco: Per me un caffè.\nGiulia: Il cornetto vuoto o alla crema?\nJúlia: Alla crema, grazie.\nMarco: Júlia, in Brasile prendi il caffè piccolo così?\nJúlia: No, in Brasile il caffè è grande! Ma questo è buonissimo.\nNarrator: Dialogo due. Alla cassa.\nJúlia: Quant'è?\nGiulia: Allora: un cappuccino, un caffè e un cornetto... sono tre euro e settanta.\nJúlia: Ecco cinque euro.\nGiulia: E un euro e trenta di resto. Ecco lo scontrino. Grazie!\nMarco: Grazie, Júlia! Domani offro io.\nNarrator: Dialogo tre. Il pomeriggio, al tavolo.\nGiulia: Ciao, Júlia! Ciao, Davide! Che cosa prendete?\nJúlia: Vorrei un cappuccino, per favore.\nGiulia: Un cappuccino? Alle quattro del pomeriggio? Va bene... sei brasiliana!\nDavide: Io prendo un tramezzino e due bottiglie d'acqua frizzante.\nGiulia: Perfetto. Due acque, un tramezzino e un cappuccino.\nDavide: Il conto, per favore.\nGiulia: Sono dodici euro.\nDavide: Dodici euro? Ah, è vero: al tavolo costa di più!",
+   "04.2 Ripeti numeri": "Narrator: venti\nNarrator: ventuno\nNarrator: ventotto\nNarrator: trenta\nNarrator: trentatré\nNarrator: quaranta\nNarrator: cinquanta\nNarrator: sessanta\nNarrator: settanta\nNarrator: ottanta\nNarrator: novanta\nNarrator: cento\nNarrator: un euro e venti\nNarrator: tre euro e settanta\nNarrator: dodici euro e cinquanta",
+   "04.3 Ripeti frasi": "Narrator: Vorrei un caffè, per favore.\nNarrator: Per me un cappuccino.\nNarrator: Prendo un cornetto alla crema.\nNarrator: Quant'è?\nNarrator: Quanto costa un tramezzino?\nNarrator: Posso pagare con la carta?\nNarrator: Il conto, per favore."
+  }
+ },
+ "images": {
+  "it-a1-unita-04": {
+   "A": "espresso cup saucer",
+   "B": "cappuccino cup foam",
+   "C": "croissant pastry plate",
+   "D": "fresh orange juice glass",
+   "E": "glass of sparkling water",
+   "F": "triangle sandwich white bread",
+   "G": "sugar cubes bowl",
+   "H": "paper receipt cash register"
+  }
+ }
+}
