@@ -1,0 +1,30 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Neural2-A",
+  "Marco": "it-IT-Neural2-F",
+  "Giulia": "it-IT-Neural2-E",
+  "Salumiere": "it-IT-Chirp3-HD-Charon",
+  "Narrator": "it-IT-Wavenet-F"
+ },
+ "pauses": {"10.2": 2000, "10.3": 2500},
+ "units": {
+  "it-a1-unita-10": {
+   "10.1 Dialogo": "Narrator: Dialogo uno. Al bar, la mattina.\nGiulia: Allora, Júlia, che cosa fai oggi?\nJúlia: Devo fare la spesa. Stasera ceno a casa con i miei genitori e con Marco. Sai dov'è un buon mercato?\nGiulia: Sì! Vai al Mercato delle Erbe, in via Ugo Bassi. E devi provare il parmigiano: è molto buono.\nNarrator: Dialogo due. Al mercato.\nSalumiere: Buongiorno, signora. Desidera?\nJúlia: Buongiorno. Vorrei un etto di prosciutto crudo e mezzo chilo di parmigiano.\nSalumiere: Ecco. Altro?\nJúlia: Sì, del pane, per favore. Mezzo chilo.\nSalumiere: E dei pomodori? Sono molto buoni oggi.\nJúlia: No, grazie, i pomodori ci sono già a casa. Basta così. Quant'è?\nSalumiere: Sono diciotto euro e cinquanta.\nNarrator: Dialogo tre. Al telefono.\nMarco: Júlia, devo portare qualcosa stasera?\nJúlia: Sì, puoi portare del vino? E... sai cucinare i tortellini?\nMarco: Certo che so cucinare i tortellini! Sono bolognese!\nJúlia: Perfetto. Allora stasera cucini tu!\nMarco: Ah... Va bene.",
+   "10.2 Ripeti GLI": "Narrator: bottiglia\nNarrator: aglio\nNarrator: famiglia\nNarrator: voglio\nNarrator: luglio\nNarrator: biglietto\nNarrator: Vorrei una bottiglia d'olio.",
+   "10.3 Ripeti frasi": "Narrator: Desidera?\nNarrator: Vorrei un etto di prosciutto.\nNarrator: Mezzo chilo di parmigiano, per favore.\nNarrator: Altro?\nNarrator: No, basta così, grazie.\nNarrator: Quant'è?"
+  }
+ },
+ "images": {
+  "it-a1-unita-10": {
+   "A": "prosciutto slices",
+   "B": "parmesan cheese wheel",
+   "C": "bread loaf bakery",
+   "D": "tomatoes market",
+   "E": "fruit market stall",
+   "F": "bottle of red wine",
+   "G": "olive oil bottle",
+   "H": "italian food market stall"
+  }
+ }
+}
