@@ -1,0 +1,19 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Neural2-A",
+  "Marco": "it-IT-Neural2-F",
+  "Giulia": "it-IT-Neural2-E",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Uomo": "it-IT-Chirp3-HD-Charon",
+  "Narrator": "it-IT-Wavenet-F"
+ },
+ "pauses": {"R1.2": 3800},
+ "units": {
+  "it-a1-ripasso-1": {
+   "R1.1 Intervista": "Narrator: È dicembre. Davide fa un progetto per l'università: «Stranieri a Bologna». Oggi intervista Júlia.\nDavide: Allora, Júlia, come ti chiami e di dove sei?\nJúlia: Mi chiamo Júlia Souza. Sono brasiliana, di Belo Horizonte. Ma ho anche il passaporto italiano: mio nonno è di Treviso.\nDavide: Che lavoro fai?\nJúlia: Sono architetta. Lavoro in uno studio in via Indipendenza.\nDavide: Com'è la tua giornata?\nJúlia: La mattina faccio colazione al bar di Giulia: un cappuccino e un cornetto. Costa due euro e sessanta. Poi apro lo studio alle otto. Finisco di lavorare alle sei e vado in palestra. La sera non esco molto.\nDavide: Che cosa ti piace di Bologna?\nJúlia: Mi piacciono i portici e le piazze. E mi piacciono i tortellini! Ma non mi piace la mortadella.\nDavide: Lo so! E il calcio?\nJúlia: No, il calcio non mi piace per niente!\nDavide: Che cosa c'è vicino a casa tua?\nJúlia: C'è una farmacia, ci sono due supermercati e c'è il bar di Giulia, naturalmente.\nDavide: E la tua famiglia?\nJúlia: I miei genitori vengono a Bologna il dieci dicembre. Dormono all'Hotel Due Torri, nel centro. Poi andiamo a Firenze.\nDavide: Grazie, Júlia! Ultima domanda: parli bene italiano?\nJúlia: Un po'! E capisco meglio di notte... come te!",
+   "R1.2 Dettato": "Narrator: Ascolta e scrivi i numeri, le ore e i prezzi.\nNarrator: Uno. Sono le otto e mezza.\nNarrator: Due. È l'una.\nNarrator: Tre. Un cappuccino costa un euro e quaranta.\nNarrator: Quattro. Il mio numero è tre, tre, tre... diciannove, quindici, zero sette.\nNarrator: Cinque. La camera ventuno è al secondo piano.\nNarrator: Sei. Nella classe ci sono diciassette studenti.\nNarrator: Sette. La colazione è dalle sette alle dieci.\nNarrator: Otto. La camera costa novanta euro a notte.",
+   "R1.3 Dialoghi": "Narrator: Dialogo uno.\nMarco: Buongiorno! Vorrei un caffè e un cornetto, per favore.\nGiulia: Il cornetto vuoto o alla crema?\nMarco: Vuoto. Quant'è?\nGiulia: Sono due euro e trenta.\nMarco: Ecco. Posso pagare con la carta?\nGiulia: Certo!\nNarrator: Dialogo due.\nJúlia: Scusi, c'è una farmacia qui vicino?\nUomo: Sì, ci sono due farmacie. Una è in via Verdi, accanto alla chiesa.\nJúlia: È lontano?\nUomo: No. Va dritto e prende la prima strada a sinistra.\nJúlia: Grazie mille!"
+  }
+ }
+}
