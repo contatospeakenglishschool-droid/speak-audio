@@ -1,0 +1,30 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Neural2-A",
+  "Marco": "it-IT-Neural2-F",
+  "Giulia": "it-IT-Neural2-E",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Narrator": "it-IT-Wavenet-F"
+ },
+ "pauses": {"13.2": 2000, "13.3": 2500},
+ "units": {
+  "it-a1-unita-13": {
+   "13.1 Dialogo": "Narrator: Dialogo uno. Allo studio, la mattina.\nMarco: Júlia, tu arrivi sempre presto! A che ora ti svegli?\nJúlia: Mi sveglio alle sei e mezza. Mi alzo subito, mi faccio la doccia e mi vesto velocemente.\nMarco: Io invece mi sveglio alle otto e mi alzo lentamente... molto lentamente!\nJúlia: E fai colazione?\nMarco: Raramente. Prendo un caffè al bar e basta.\nNarrator: Dialogo due. Davide racconta la sua giornata tipo.\nDavide: Di solito mi sveglio tardi, verso le dieci. Mi lavo, mi vesto e vado all'università in bicicletta. Il pomeriggio studio in biblioteca. La sera mi rilasso con gli amici e mi addormento verso l'una.\nNarrator: Dialogo tre. Al bar.\nJúlia: Giulia, a che ora ti alzi?\nGiulia: Mi alzo alle cinque!\nJúlia: Alle cinque?\nGiulia: Sì. Mi preparo velocemente e alle sei apro il bar. Il pomeriggio mi riposo un'ora.\nJúlia: E la domenica?\nGiulia: La domenica mi sveglio tranquillamente alle undici. Finalmente!",
+   "13.2 Ripeti avverbi": "Narrator: velocemente\nNarrator: lentamente\nNarrator: tranquillamente\nNarrator: normalmente\nNarrator: raramente\nNarrator: finalmente\nNarrator: Mi vesto velocemente.",
+   "13.3 Ripeti frasi": "Narrator: Di solito mi sveglio alle sette.\nNarrator: Mi alzo subito.\nNarrator: Mi faccio la doccia.\nNarrator: Mi vesto e faccio colazione.\nNarrator: La sera mi rilasso.\nNarrator: Mi addormento verso mezzanotte."
+  }
+ },
+ "images": {
+  "it-a1-unita-13": {
+   "A": "woman waking up alarm clock bed morning",
+   "B": "man stretching getting out of bed",
+   "C": "shower head water",
+   "D": "toothbrush toothpaste bathroom",
+   "E": "man getting dressed shirt",
+   "F": "woman combing hair mirror",
+   "G": "woman relaxing sofa reading",
+   "H": "bedside lamp night bedroom"
+  }
+ }
+}
