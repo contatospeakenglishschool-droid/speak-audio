@@ -1,0 +1,159 @@
+{
+ "material": "speak-essentials",
+ "characters": {
+  "Ana": "en-US-Neural2-F",
+  "Tom": "en-US-Neural2-D",
+  "Kate": "en-US-Neural2-G",
+  "Lucy": "en-US-Neural2-C",
+  "Mia": "en-US-Neural2-E",
+  "Rita": "en-US-Chirp3-HD-Aoede",
+  "Paulo": "en-US-Neural2-I",
+  "Marcos": "en-US-Neural2-A",
+  "Sam": "en-US-Neural2-A",
+  "Reporter": "en-US-Studio-O",
+  "Host": "en-US-Studio-O",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "a1-unit-01": {
+   "1.1 Dialogue at the coffee shop": "Tom: Hello! I'm Tom.\nAna: Hi, Tom. I'm Ana.\nTom: Nice to meet you, Ana.\nAna: Nice to meet you too.\nTom: Where are you from?\nAna: I'm from Brazil. I'm from São Paulo. And you?\nTom: I'm from the USA. I'm from Chicago.\nAna: Are you a student?\nTom: No, I'm not. I'm a teacher. Are you a teacher?\nAna: No, I'm not. I'm a doctor.\nTom: How are you today?\nAna: I'm fine, thanks. I'm a little tired. And you?\nTom: I'm good. Oh, this is my friend, Lucy. She's a student.\nLucy: Hi, Ana!\nAna: Hi, Lucy! Nice to meet you.",
+   "1.2 Short forms": "Narrator: I'm.\nNarrator: You're.\nNarrator: He's.\nNarrator: She's.\nNarrator: It's.\nNarrator: We're.\nNarrator: They're.\nNarrator: I'm Ana.\nNarrator: You're a teacher.\nNarrator: He's from Chicago.\nNarrator: She's a student.\nNarrator: It's a city.\nNarrator: We're friends.\nNarrator: They're happy.",
+   "1.3 Questions": "Narrator: Are you a student?\nNarrator: Are you tired?\nNarrator: Is she a doctor?\nNarrator: What's your name?\nNarrator: Where are you from?\nNarrator: How are you?"
+  },
+  "a1-unit-02": {
+   "2.1 Dialogue Anas first English class": "Tom: Hi, Ana! How are you?\nAna: I'm good, thanks. And you?\nTom: I'm fine. OK, this is our first class. Do you have a notebook?\nAna: Yes, I do. I have a new notebook.\nTom: Great. Do you have a pen?\nAna: Yes, I do. I have two pens.\nTom: Good. Do you have a laptop?\nAna: No, I don't. But I have my phone.\nTom: That's OK. And Lucy? Does she have a laptop?\nAna: Yes, she does. She has a new laptop.\nTom: Great. Oh no! I don't have my keys!\nAna: Your keys? They're on the table.\nTom: Ah, thank you, Ana!",
+   "2.2 have and has": "Narrator: Have.\nNarrator: Has.\nNarrator: I have a phone.\nNarrator: She has a phone.\nNarrator: Don't.\nNarrator: Doesn't.\nNarrator: I don't have a laptop.\nNarrator: He doesn't have a laptop.\nNarrator: We have two bags.\nNarrator: Ana has an umbrella.",
+   "2.3 Questions and short answers": "Narrator: Do you have a pen?\nNarrator: Yes, I do.\nNarrator: Do you have a laptop?\nNarrator: No, I don't.\nNarrator: Does she have a bag?\nNarrator: Yes, she does.\nNarrator: Does he have keys?\nNarrator: No, he doesn't."
+  },
+  "a1-unit-03": {
+   "3.1 Dialogue Anas family photo": "Tom: Is that a photo of your family?\nAna: Yes, it is. This is my husband, Marcos.\nTom: And who's this?\nAna: That's our son, Leo. He's eight.\nTom: He's very cute! Do you have a daughter?\nAna: No, we don't. We have one son.\nTom: And who are they?\nAna: They're my parents, Carlos and Rosa. They live in São Paulo.\nTom: Do you have brothers or sisters?\nAna: Yes, I have one brother, Paulo. This is Paulo and his wife, Julia.\nTom: Do they have children?\nAna: Yes, they do. They have a daughter, Bia. She's Leo's cousin.\nTom: It's a beautiful family!\nAna: Thank you! And you, Tom? Do you have a big family?\nTom: No, I don't. I have one sister. Her name's Kate.",
+   "3.2 Family words": "Narrator: Mother.\nNarrator: Father.\nNarrator: Brother.\nNarrator: Sister.\nNarrator: Son.\nNarrator: Daughter.\nNarrator: Husband.\nNarrator: Wife.\nNarrator: Parents.\nNarrator: Children.\nNarrator: Cousin.\nNarrator: This is my mother.\nNarrator: His name's Paulo.\nNarrator: Her name's Kate.",
+   "3.3 Questions": "Narrator: Who's this?\nNarrator: This is my brother.\nNarrator: Is this your sister?\nNarrator: Yes, it is.\nNarrator: Do you have children?\nNarrator: Yes, I do.\nNarrator: I have a son.\nNarrator: Do you have brothers or sisters?\nNarrator: No, I don't."
+  },
+  "a1-unit-04": {
+   "4.1 Two conversations Anas day": "Narrator: Conversation one.\nAna: Excuse me, Mia. What time is it?\nMia: It's nine fifteen.\nAna: Thanks. What time is the meeting?\nMia: It's at ten o'clock.\nAna: OK. And lunch?\nMia: Lunch is at twelve thirty.\nAna: Great. My English class is at six p.m. today.\nMia: Six? That's late!\nNarrator: Conversation two.\nMarcos: Ana, what time is it?\nAna: It's seven o'clock.\nMarcos: What time is dinner?\nAna: It's at seven thirty.\nMarcos: And the soccer game?\nAna: The game is at eight forty-five.\nMarcos: Perfect. And Leo's bedtime?\nAna: At nine. It's a school day tomorrow!",
+   "4.2 Numbers and times": "Narrator: Thirteen.\nNarrator: Thirty.\nNarrator: Fourteen.\nNarrator: Forty.\nNarrator: Fifteen.\nNarrator: Fifty.\nNarrator: Sixteen.\nNarrator: Sixty.\nNarrator: It's nine fifteen.\nNarrator: It's seven thirty.\nNarrator: It's ten forty-five.\nNarrator: It's twelve o'clock.",
+   "4.3 Questions": "Narrator: What time is it?\nNarrator: It's nine o'clock.\nNarrator: What time is the meeting?\nNarrator: It's at ten.\nNarrator: Excuse me, do you have the time?\nNarrator: Sure.\nNarrator: It's three thirty."
+  },
+  "a1-unit-05": {
+   "5.1 Lucys job interview": "Rita: Hi, Lucy. I'm Rita, the manager. Please sit down.\nLucy: Thank you. Nice to meet you.\nRita: So, you want the job at City Coffee?\nLucy: Yes, I do.\nRita: Great. Can you make coffee?\nLucy: Yes, I can. I can make very good coffee!\nRita: Good. Can you use a cash register?\nLucy: No, I can't. But I can learn.\nRita: That's OK. Can you speak Spanish? Many customers speak Spanish.\nLucy: Yes, I can. I can speak English and Spanish.\nRita: Excellent. Can you work on weekends?\nLucy: Yes, I can. But I can't work on Monday mornings. I have a class.\nRita: No problem. The job is on Saturdays and Sundays, from eight a.m. to four p.m.\nLucy: Perfect!\nRita: OK, Lucy. The job is yours!\nLucy: Really? Thank you so much!",
+   "5.2 can and cant": "Narrator: I can swim.\nNarrator: I can't swim.\nNarrator: She can cook.\nNarrator: She can't cook.\nNarrator: We can dance.\nNarrator: We can't dance.\nNarrator: He can drive.\nNarrator: He can't drive.",
+   "5.3 Questions and short answers": "Narrator: Can you swim?\nNarrator: Yes, I can.\nNarrator: Can you drive?\nNarrator: No, I can't.\nNarrator: Can she speak Spanish?\nNarrator: Yes, she can.\nNarrator: Can they cook?\nNarrator: No, they can't."
+  },
+  "a1-unit-06": {
+   "6.1 Mia at City Coffee": "Lucy: Good morning! A coffee?\nMia: Yes, please. A big coffee!\nLucy: You look tired. Do you work at night?\nMia: Yes, I do. I work at City Hospital, with Ana.\nLucy: Oh, Ana! Are you a doctor too?\nMia: No, I'm not. I help the doctors and the patients.\nLucy: So you're a nurse!\nMia: That's right. I start work at seven p.m. and I finish at seven a.m.\nLucy: Wow! Do you sleep in the day?\nMia: Yes, I do. I go home, I take a shower and I go to bed at nine a.m.\nLucy: And you get up in the afternoon?\nMia: Yes. I get up at four p.m. and I have breakfast at five.\nLucy: Breakfast at five p.m.? That's funny!\nMia: I know! And I don't have lunch.\nLucy: Does Ana work at night too?\nMia: No, she doesn't. She works in the day. She starts at eight a.m.\nLucy: Is your job easy?\nMia: No, it isn't. But I love my job.\nLucy: Here's your coffee. Have a good day! Oh, sorry, have a good night!\nMia: Ha ha! Thanks, Lucy.",
+   "6.2 The three sounds of s": "Narrator: works.\nNarrator: gets.\nNarrator: starts.\nNarrator: goes.\nNarrator: has.\nNarrator: plays.\nNarrator: finishes.\nNarrator: watches.\nNarrator: teaches.\nNarrator: She works at a hospital.\nNarrator: He goes to work by bus.\nNarrator: She finishes at seven.",
+   "6.3 Questions and short answers": "Narrator: Do you work at night?\nNarrator: Yes, I do.\nNarrator: Does she have breakfast?\nNarrator: No, she doesn't.\nNarrator: Do you get up early?\nNarrator: No, I don't.\nNarrator: Does he work on Saturdays?\nNarrator: Yes, he does."
+  },
+  "a1-unit-07": {
+   "7.1 Tom and Lucy at City Coffee": "Lucy: Hi, Tom! It's Saturday. What do you do on the weekends?\nTom: I usually go to the gym on Saturday morning. And I often meet friends in the afternoon. What about you?\nLucy: Well, I work here on Saturdays and Sundays. In the evening, I always watch TV.\nTom: How often do you go jogging?\nLucy: Jogging? I hardly ever go jogging. Maybe once a year!\nTom: Ha ha! Do you cook?\nLucy: No, I never cook. I usually order pizza. And you?\nTom: I cook every day. I love cooking!\nLucy: How often do you travel?\nTom: Twice a year. In winter, I sometimes go skiing.\nLucy: Wow! I rarely travel. But this summer, I want to relax on the beach!\nTom: Good idea!",
+   "7.2 Adverbs of frequency": "Narrator: always.\nNarrator: usually.\nNarrator: often.\nNarrator: sometimes.\nNarrator: rarely.\nNarrator: hardly ever.\nNarrator: never.\nNarrator: I always watch TV.\nNarrator: I usually order pizza.\nNarrator: I hardly ever go jogging.\nNarrator: I never cook.",
+   "7.3 Questions up or down": "Narrator: What do you do on Saturdays?\nNarrator: Do you cook?\nNarrator: How often do you travel?\nNarrator: Does she go jogging?"
+  },
+  "a1-unit-08": {
+   "8.1 On the radio": "Reporter: Hello! I'm from City Radio. Can I ask you some questions?\nLucy: Sure!\nReporter: What do you like doing on the weekends?\nLucy: I love going shopping. I always buy new clothes!\nReporter: Do you like taking the bus?\nLucy: No, I don't. I really hate it. It's very slow. I prefer taking the train, but it's expensive.\nReporter: And what don't you like doing?\nLucy: Well, I'm a student, so I have homework. I don't like doing homework!\nReporter: Ha ha! Thank you. Hello! Can I ask you some questions too?\nKate: Yes, of course.\nReporter: What do you like doing in your free time?\nKate: I really like spending time with my family. My brother Tom lives here, and we often have dinner together.\nReporter: Do you like cooking?\nKate: Not really. But I love baking cakes!\nReporter: And do you like going shopping?\nKate: No, I don't. I hate going shopping! I prefer reading a good book at home.\nReporter: Thank you very much!",
+   "8.2 The ing sound": "Narrator: going.\nNarrator: doing.\nNarrator: taking.\nNarrator: baking.\nNarrator: reading.\nNarrator: shopping.\nNarrator: spending.\nNarrator: cleaning.\nNarrator: I love going shopping.\nNarrator: I don't like doing homework.",
+   "8.3 Strong feelings": "Narrator: I love going shopping.\nNarrator: I hate taking the bus.\nNarrator: I really like it!\nNarrator: I prefer the train."
+  },
+  "a1-review-1": {
+   "R1.1 Ana in Chicago": "Ana: Tom! Hi!\nTom: Ana! Welcome to Chicago! How are you?\nAna: I'm fine, thanks, but I'm a little tired.\nTom: Of course. What time is it in São Paulo now?\nAna: It's ten thirty there. Here it's eight thirty.\nTom: Do you have your things?\nAna: Yes. I have my bag, my laptop and my phone.\nTom: Great. Ana, this is Lucy. She works here.\nLucy: Hi, Ana! Nice to meet you. Can I get you a coffee?\nAna: Yes, please. A big coffee!\nLucy: How is your family?\nAna: They're great. My son, Leo, is at home with his father and his grandparents.\nTom: So, what do you do here in Chicago?\nAna: I have a conference every day. It starts at nine and it finishes at five.\nLucy: Do you like going shopping? Chicago has great stores.\nAna: I love going shopping! But I never have time.\nLucy: I can go with you on Monday afternoon!\nAna: Really? Thank you, Lucy!",
+   "R1.2 Word stress": "Narrator: customer.\nNarrator: fifteen.\nNarrator: guitar.\nNarrator: husband.\nNarrator: umbrella.\nNarrator: notebook.\nNarrator: relax.\nNarrator: breakfast.",
+   "R1.3 Social English": "Kate: Hi! How are you?\nAna: I'm fine, thanks. And you?\nKate: Great, thanks. My name's Kate. What's your name?\nAna: I'm Ana. Nice to meet you.\nKate: Nice to meet you too. Where are you from?\nAna: I'm from Brazil, from São Paulo.\nKate: So, what do you do in your free time?\nAna: I usually go to the gym. And I love reading.\nKate: How often do you go to the gym?\nAna: Three times a week. Do you like cooking?\nKate: Not really. But I love baking cakes!"
+  },
+  "a1-unit-10": {
+   "9.1 Sweet Kate": "Kate: Hi, I'm Kate. This is my bakery, Sweet Kate. I bake cakes and pies every morning. Lots of people come here. Before school, children come in. They always ask for candy. They love it because it's cheap. At ten o'clock, an old man visits me. He asks for something small, like a doughnut. He never buys cake. Maybe he doesn't like it. At lunchtime, some teenagers come in. They're always hungry, so they buy pancakes and share them. In the afternoon, office workers want chocolate. They love it because it helps them work. My brother Tom comes every Friday. He buys cookies for his students. They love them! And me? It's funny. I don't eat sweet things very often. But when it's hot, I love ice cream!",
+   "9.2 Silent letters": "Narrator: doughnut.\nNarrator: chocolate.\nNarrator: write.\nNarrator: know.\nNarrator: listen.\nNarrator: half.",
+   "9.3 Linking with pronouns": "Narrator: I love it.\nNarrator: Call me.\nNarrator: I know him.\nNarrator: Help them!\nNarrator: This cake is for her.\nNarrator: Come with us!"
+  },
+  "a1-unit-11": {
+   "11.1 After the party": "Kate: What a great party! OK, let's tidy up. Tom, is this your phone?\nTom: Yes, that's my phone. Thanks, Kate.\nKate: And this ID card? Lucy, is it yours?\nLucy: Yes, it's mine! Thank you!\nTom: I think these are Rita's glasses.\nKate: Yes, they're hers. And these are her headphones too.\nLucy: Kate, is this your jacket?\nKate: No, it isn't mine. It's Tom's.\nTom: Oh, yes, it's mine. Thanks!\nLucy: Whose keys are these? Are they yours, Tom?\nTom: No, they aren't. They're Kate's. She has the keys to the bakery.\nKate: Oh! Yes, they're mine.\nTom: And what about this backpack? Is it yours, Lucy?\nLucy: No, it's yours! Your name is on it!\nTom: Ha ha! Silly me!",
+   "11.2 whose  whos  their  theyre  there  final z": "Narrator: Whose phone is this?\nNarrator: Who's Kate?\nNarrator: their car.\nNarrator: they're here.\nNarrator: over there.\nNarrator: yours.\nNarrator: hers.\nNarrator: ours.\nNarrator: theirs.\nNarrator: Tom's.",
+   "11.3 Questions up or down": "Narrator: Is it yours?\nNarrator: No, it's mine.\nNarrator: Whose is it?\nNarrator: It's Kate's.\nNarrator: Are they hers?\nNarrator: Yes, they're hers."
+  },
+  "a1-unit-12": {
+   "12.1 Anas garden": "Tom: Hi, Ana! Where are you?\nAna: Hi, Tom! I'm at home, in my garden. Look! This is my favorite place.\nTom: Wow, it's beautiful! What's that?\nAna: This? It's a bench. I sit here and have my coffee every morning.\nTom: Nice! And are those flowers?\nAna: Yes! These flowers are from my mother. They need water every day.\nTom: And that tree is very tall!\nAna: Yes, that tree is fifty years old. It has a lot of lemons.\nTom: Is that a gate over there?\nAna: Yes. And that's our dog! He always runs out of that gate!\nTom: Ha ha! I live in an apartment. I don't have a garden. But I have a small balcony with two potted plants.\nAna: That's nice too! Show me those plants next time!\nTom: OK, I will!",
+   "12.2 th  short and long i": "Narrator: this.\nNarrator: that.\nNarrator: these.\nNarrator: those.\nNarrator: they.\nNarrator: mother.\nNarrator: this.\nNarrator: these.\nNarrator: sit.\nNarrator: seat.\nNarrator: live.\nNarrator: leave.\nNarrator: it.\nNarrator: eat.",
+   "12.3 Which word do you hear": "Narrator: I like this flower.\nNarrator: Do you like these plants?\nNarrator: This is my house.\nNarrator: These are my neighbors."
+  },
+  "a1-unit-13": {
+   "13.1 At City Coffee": "Lucy: Hi! What can I get you?\nPaulo: Hi! Can I have a coffee with cream, please?\nLucy: Sure. Small or large?\nPaulo: Small, please.\nLucy: For here or to go?\nPaulo: For here, please.\nLucy: Anything else?\nPaulo: Do you have any snacks?\nLucy: Yes, we have muffins, cookies and sandwiches.\nPaulo: OK. A blueberry muffin, please. How much is that?\nLucy: That's five fifty.\nPaulo: Here you are.\nLucy: Thank you! Can I have your name for the cup?\nPaulo: Paulo. P-A-U-L-O.\nLucy: Thanks, Paulo. Your coffee is coming right up!",
+   "13.2 Prices": "Narrator: thirteen.\nNarrator: thirty.\nNarrator: fourteen.\nNarrator: forty.\nNarrator: fifteen.\nNarrator: fifty.\nNarrator: sixteen.\nNarrator: sixty.\nNarrator: That's three fifty.\nNarrator: That's fourteen dollars.\nNarrator: That's six sixty.\nNarrator: That's thirty dollars.",
+   "13.3 Polite questions": "Narrator: Can I have a coffee, please?\nNarrator: Small or large?\nNarrator: How much is that?\nNarrator: Here you are."
+  },
+  "a1-unit-14": {
+   "14.1 Lucys new apartment": "Lucy: Hi, I'm Lucy, and this is my new apartment! Come in! Let's start in the living room. There are two armchairs here. There's also a lamp next to the armchair, because I love watching TV in the evening. This is the kitchen. It's small, but there's a table in front of the window, and there are two chairs. Now, this is my office. I'm a student, so I need a desk! There's a desk for my computer, and behind the desk, there are shelves for my books. And finally, my bedroom. Next to the bed, there's a mirror, and on the right, there's a big wardrobe for my clothes. I love shopping, remember? Is my apartment big? No, it isn't. But it's my home sweet home!",
+   "14.2 Linking": "Narrator: There's a lamp.\nNarrator: There's a mirror in my room.\nNarrator: There are two chairs.\nNarrator: in front of the window.\nNarrator: There are two chairs.\nNarrator: They are new.",
+   "14.3 Questions and short answers": "Narrator: Is there a desk?\nNarrator: Yes, there is.\nNarrator: Are there shelves?\nNarrator: No, there aren't.\nNarrator: Is there an armchair?\nNarrator: No, there isn't."
+  },
+  "a1-unit-15": {
+   "15.1 Ana checks in": "Sam: Good evening! Welcome to the Lake View Hotel.\nAna: Hi! I have a reservation. My name is Ana Silva.\nSam: Let me see… Yes, Ana Silva, for three nights. Can I see your passport, please?\nAna: Sure. Here you are.\nSam: Thank you. Here's your key card. You're in Room five-oh-four, on the fifth floor.\nAna: Great, thanks. I have some questions. Is there a gym?\nSam: Yes, there is. The gym is downstairs, in the basement. It's open from six a.m. to ten p.m.\nAna: Perfect. And is there a pool?\nSam: Sorry, there isn't a pool. But there's a restaurant on the second floor. Breakfast is from seven to ten.\nAna: Great. And what's the Wi-Fi password?\nSam: It's lakeview, one word.\nAna: Thanks. And where's the elevator?\nSam: It's at the end of the corridor, through those doors. But I'm sorry, it isn't working right now. The stairs are next to the elevator.\nAna: Oh no! Five floors with my big bag!\nSam: Don't worry. I can help you with your bag. Enjoy your stay!",
+   "15.2 Floors": "Narrator: first.\nNarrator: second.\nNarrator: third.\nNarrator: fourth.\nNarrator: fifth.\nNarrator: sixth.\nNarrator: seventh.\nNarrator: eighth.\nNarrator: ninth.\nNarrator: tenth.",
+   "15.3 Where is it": "Narrator: I'm in Room five-oh-four.\nNarrator: It's on the fifth floor.\nNarrator: The gym is downstairs.\nNarrator: at the end of the corridor.\nNarrator: Go through those doors.\nNarrator: What's the Wi-Fi password?"
+  },
+  "a1-unit-16": {
+   "16.1 Toms animal quiz": "Tom: Hi, Kate! I have an animal quiz for my students tomorrow. Can I try it with you?\nKate: Sure! But I'm busy, so be quick!\nTom: OK. Question one. Which animals are faster: camels or elephants?\nKate: Hmm… Elephants are bigger, but camels are faster, I think.\nTom: Correct! Camels can run at forty miles per hour. Elephants run at fifteen.\nKate: Ha! That's easy.\nTom: Question two. Which animals are heavier: lions or tigers?\nKate: Lions! They're the kings!\nTom: No, sorry. Tigers are heavier. A tiger weighs about four hundred and eighty-seven pounds. A lion weighs about four hundred.\nKate: Oh, really?\nTom: Question three. Which animals are more dangerous to people: sharks or snakes?\nKate: Sharks, of course! I watch the movies!\nTom: No! Snakes are more dangerous. Sharks kill about six people every year. Snakes kill about one hundred thousand!\nKate: One hundred thousand? Wow!\nTom: Last question. Which animals are more intelligent: chimps or dolphins?\nKate: Chimps. They're more like us.\nTom: Well, it's difficult to say. But dolphins have a better memory than chimps.\nKate: So I have one point. You're a terrible quiz master, Tom!\nTom: Ha! And you're a worse player than my students!",
+   "16.2 Weak forms and stress": "Narrator: Camels are faster than elephants.\nNarrator: Snakes are more dangerous than sharks.\nNarrator: The desert is hotter than the forest.",
+   "16.3 The er ending": "Narrator: faster.\nNarrator: bigger.\nNarrator: heavier.\nNarrator: funnier.\nNarrator: better.\nNarrator: worse.\nNarrator: smarter.\nNarrator: slower."
+  },
+  "a1-unit-17": {
+   "17.1 Travel podcast": "Host: Hi, everyone! Welcome to Travel Talk. Today I'm here with Paulo, a travel photographer from Brazil. Hi, Paulo!\nPaulo: Hi! Thanks for having me.\nHost: Let's start with an easy question. What's the easiest country to visit?\nPaulo: I think New Zealand. People speak English, and they're very friendly. It's one of the safest countries in the world. But it's the farthest country from my home. It's more than twenty hours by plane!\nHost: And what's the most expensive country?\nPaulo: Switzerland! A cheap lunch is twenty-five dollars, and a hotel is three hundred and fifty dollars a night. But it's one of the prettiest countries in the world. The mountains are amazing.\nHost: What's the smallest country you know?\nPaulo: The Vatican, in Rome. It's the smallest country in the world. Only about eight hundred people live there.\nHost: And the hottest place?\nPaulo: Death Valley, in California. In summer, it's more than fifty degrees Celsius. Take a lot of water!\nHost: Wow! And finally, what's the best place in the world?\nPaulo: That's easy. My home, São Paulo! It has the best food in the world!\nHost: Ha! Thanks, Paulo!",
+   "17.2 Countries and languages word stress": "Narrator: China, Chinese.\nNarrator: Italy, Italian.\nNarrator: Japan, Japanese.\nNarrator: Portugal, Portuguese.",
+   "17.3 Superlatives": "Narrator: the smallest.\nNarrator: the hottest.\nNarrator: the most expensive.\nNarrator: one of the prettiest.\nNarrator: the best in the world."
+  },
+  "a1-review-2": {
+   "R2.1 Back at Sweet Kate": "Kate: Welcome to Sweet Kate! What can I get you?\nAna: Hi, Kate! Can I have a black coffee and a slice of chocolate cake, please?\nKate: Sure. And for you, Paulo?\nPaulo: An orange juice and a muffin, please. How much is that?\nKate: That's twelve fifty.\nTom: Hi, Ana! Hi, Paulo! Is this bag yours, Paulo?\nPaulo: No, it isn't mine. It's Ana's.\nAna: Yes, it's mine! Thanks, Tom.\nTom: So, how is your hotel?\nAna: It's great. My room is on the tenth floor, and there's a pool on the roof.\nPaulo: But the elevator isn't working… again!\nTom: Oh no! Hey, look at this quiz for my students. Which is the biggest city in the world?\nPaulo: Tokyo?\nTom: Correct! It's bigger than São Paulo.\nPaulo: Yes, but São Paulo has the best food in the world!\nKate: And the best cakes?\nAna: No, Kate. Your cakes are the best in the world. I love them!",
+   "R2.2 Which sound": "Narrator: fifty.\nNarrator: thirteen.\nNarrator: these.\nNarrator: sit.\nNarrator: There are.",
+   "R2.3 Social English": "Kate: Hi! What can I get you?\nPaulo: Can I have a tea, please?\nKate: Sure. Small or large?\nPaulo: Large, please. How much is that?\nKate: That's three fifty.\nPaulo: Here you are.\nSam: Good evening! Here's your key card. You're in Room ten-twenty.\nAna: Thanks. Is there a gym?\nSam: Yes. It's on the second floor.\nAna: And where's the elevator?\nSam: It's at the end of the corridor."
+  },
+  "a1-unit-19": {
+   "19.1 Summer and winter a video call": "Tom: Hi, Ana! What are you doing?\nAna: Hi, Tom! I'm sitting in my garden, and I'm having a cold juice. It's very hot today!\nTom: Really? What's the temperature?\nAna: It's thirty-two degrees. That's about ninety in Fahrenheit. The sun is shining and the sky is blue.\nTom: Wow! Here in Chicago, it's snowing! Look out of the window.\nAna: Oh, it's beautiful! Are people walking in the snow?\nTom: Yes, they are. People are wearing big coats and hats. And the wind is blowing. It's minus five degrees. That's about twenty-three in Fahrenheit.\nAna: Brr! What are you wearing?\nTom: I'm wearing two sweaters! And I'm drinking hot chocolate.\nAna: Ha! It's summer here in December. Leo and Marcos are swimming in the pool right now.\nTom: Lucky you! Is it always hot in São Paulo in December?\nAna: Usually, yes. But it often rains in the afternoon. Look, the sky is getting dark… Oh no, it's starting to rain!\nTom: Ha! Now we're both inside!",
+   "19.2 The ing sound": "Narrator: raining.\nNarrator: snowing.\nNarrator: shining.\nNarrator: blowing.\nNarrator: wearing.\nNarrator: swimming.\nNarrator: walking.\nNarrator: drinking.",
+   "19.3 Contractions": "Narrator: I'm wearing a coat.\nNarrator: It's raining.\nNarrator: They're walking in the snow.\nNarrator: She isn't swimming.\nNarrator: We aren't working today."
+  },
+  "a1-unit-20": {
+   "20.1 A beach vacation": "Tom: Hi, Ana! Where are you? I can hear the ocean!\nAna: Hi, Tom! I'm on vacation in Bahia with my family. I'm at the beach.\nTom: Lucky you! What are you doing right now?\nAna: I'm sunbathing and talking to you!\nTom: Ha! Where's Marcos?\nAna: He's swimming in the ocean. He swims every morning on vacation.\nTom: And what's Leo doing?\nAna: He's eating ice cream. Chocolate, of course! He loves chocolate.\nTom: Is Paulo there too?\nAna: Yes, he is. He's in the city. He's taking photos of the old streets and buildings in Salvador. He takes a lot of photos. It's his job!\nTom: And your parents? What are they doing?\nAna: They're buying souvenirs at the market.\nTom: Why are they buying souvenirs?\nAna: So they can give them to their friends.\nTom: That's nice. Well, I'm working today, and it's snowing again!\nAna: Oh, poor Tom! Hey, Leo's ice cream looks delicious. Now I want ice cream too!",
+   "20.2 Wh questions": "Narrator: What are you doing?\nNarrator: Where is he swimming?\nNarrator: Why are they buying souvenirs?\nNarrator: What is Leo eating?",
+   "20.3 Contractions": "Narrator: What's Leo doing?\nNarrator: Where's Marcos?\nNarrator: Who's swimming?\nNarrator: What're you doing?\nNarrator: Where're they going?"
+  }
+ },
+ "pauses": {
+  "1.2": 2000,
+  "1.3": 2000,
+  "2.2": 2000,
+  "2.3": 2000,
+  "3.2": 2000,
+  "3.3": 2000,
+  "4.2": 2000,
+  "4.3": 2000,
+  "5.2": 2000,
+  "5.3": 2000,
+  "6.2": 2000,
+  "6.3": 2000,
+  "7.2": 2000,
+  "7.3": 2000,
+  "8.2": 2000,
+  "8.3": 2000,
+  "R1.2": 2000,
+  "9.2": 2000,
+  "9.3": 2000,
+  "11.2": 2000,
+  "11.3": 2000,
+  "12.2": 2000,
+  "12.3": 2000,
+  "13.2": 2000,
+  "13.3": 2000,
+  "14.2": 2000,
+  "14.3": 2000,
+  "15.2": 2000,
+  "15.3": 2000,
+  "16.2": 2000,
+  "16.3": 2000,
+  "17.2": 2000,
+  "17.3": 2000,
+  "R2.2": 2000,
+  "19.2": 2000,
+  "19.3": 2000,
+  "20.2": 2000,
+  "20.3": 2000
+ }
+}
