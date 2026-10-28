@@ -2,7 +2,7 @@
  "material": "speak-bridge",
  "characters": {
   "Paulo": "en-US-Neural2-I",
-  "Jess": "en-US-Neural2-H",
+  "Jess": "en-US-Studio-O",
   "Narrator": "en-US-Neural2-J"
  },
  "units": {

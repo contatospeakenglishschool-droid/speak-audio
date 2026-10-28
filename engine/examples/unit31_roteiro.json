@@ -2,7 +2,7 @@
  "material": "speak-essentials",
  "characters": {
   "Ana": "en-US-Neural2-F",
-  "Host": "en-US-Neural2-H",
+  "Host": "en-US-Studio-O",
   "Narrator": "en-US-Neural2-J"
  },
  "units": {

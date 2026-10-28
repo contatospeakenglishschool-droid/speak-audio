@@ -1,7 +1,7 @@
 {
  "material": "speak-bridge",
  "characters": {
-  "Reporter": "en-US-Neural2-H",
+  "Reporter": "en-US-Studio-O",
   "Narrator": "en-US-Neural2-J"
  },
  "units": {
