@@ -1,0 +1,27 @@
+{
+ "material": "speak-bridge",
+ "characters": {
+  "Paulo": "en-US-Neural2-I",
+  "Jess": "en-US-Neural2-H",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "a2-unit-01": {
+   "01.1 Shelter": "Narrator: Paulo now lives in New York. His first job there is taking photos of the animals at Brooklyn Paws, an animal shelter, for its adoption website. Jess works at the shelter.\nJess: Hi! You must be Paulo, the photographer. Welcome to Brooklyn Paws!\nPaulo: Thanks! So, I'm taking photos for your website today. Who do we start with?\nJess: Let's start with the dogs, Max and Rocky.\nPaulo: Which one is which? What does Max look like?\nJess: Max has light brown fur, and Rocky is dark brown with a white spot on his nose.\nPaulo: And what's Max like?\nJess: He's very playful. He likes chasing balls all day.\nPaulo: What about Rocky? What does he like doing?\nJess: He likes to sit and watch people. He's a very calm dog. Look, he's next to the door. He'd like to go out for a walk.\nJess: Now come and meet the cats. My two favorites are Luna and Ginger.\nPaulo: What do they look like?\nJess: Luna is pale gray with dark stripes, and Ginger is bright orange.\nPaulo: Ginger is coming over to us. Maybe she'd like a snack.\nJess: Maybe, but she also really likes people. She's very sociable! But Luna doesn't like other cats.\nPaulo: So what's Luna like?\nJess: She's a little lazy. Look at her on the sofa. She'd like to take a nap. Would you like to meet some more animals?\nPaulo: Yes, I would! But first, I think Ginger would like my sandwich!",
+   "01.2 Repeat words": "Narrator: bright\nNarrator: dark\nNarrator: deep\nNarrator: light\nNarrator: pale\nNarrator: shiny\nNarrator: spotted\nNarrator: striped",
+   "01.3 Repeat questions": "Narrator: What does she look like?\nNarrator: What's she like?\nNarrator: What does she like doing?\nNarrator: Would she like a snack?\nNarrator: Yes, she would."
+  }
+ },
+ "images": {
+  "a2-unit-01": {
+   "A": "bright red flowers",
+   "B": "dark purple plums",
+   "C": "deep blue sea",
+   "D": "light green leaves",
+   "E": "pale pink seashell",
+   "F": "dog shiny black eyes close up",
+   "G": "dalmatian spotted fur",
+   "H": "zebra stripes close up"
+  }
+ }
+}
