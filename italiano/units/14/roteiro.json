@@ -1,0 +1,30 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Neural2-A",
+  "Marco": "it-IT-Neural2-F",
+  "Giulia": "it-IT-Neural2-E",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Narrator": "it-IT-Wavenet-F"
+ },
+ "pauses": {"14.2": 2000, "14.3": 2500},
+ "units": {
+  "it-a1-unita-14": {
+   "14.1 Dialogo": "Narrator: Dialogo uno. Al bar, Júlia mostra delle foto.\nJúlia: Guarda, Giulia: questa è la mia famiglia. Questi sono i miei genitori.\nGiulia: Che belli! Come si chiama tua madre?\nJúlia: Mia madre si chiama Lúcia e mio padre si chiama Roberto. E questo è mio fratello Bruno: è il più giovane della famiglia.\nGiulia: E questo cane?\nJúlia: È il nostro cane, Biscotto. È il più simpatico di tutti!\nNarrator: Dialogo due. Al telefono.\nMarco: Júlia, domenica c'è il pranzo a casa dei miei genitori. Vieni?\nJúlia: Volentieri! Chi c'è?\nMarco: Mia madre, mio padre, Luca e mia nonna. Mia nonna è la persona più simpatica della famiglia. E fa le tagliatelle più buone di Bologna!\nNarrator: Dialogo tre. Lunedì, sulle scale.\nDavide: Allora, Júlia, com'è andato il pranzo dalla famiglia di Marco?\nJúlia: Benissimo! Mi sono divertita tantissimo. La nonna di Marco mi ha insegnato a fare le tagliatelle.\nDavide: E quanto è durato?\nJúlia: Mi sono seduta a tavola all'una e mi sono alzata alle cinque!\nDavide: Ah, il pranzo della domenica in Italia è così!",
+   "14.2 Ripeti dittonghi": "Narrator: mio, mia\nNarrator: miei\nNarrator: tuoi\nNarrator: suoi\nNarrator: uomo\nNarrator: suocera\nNarrator: I miei genitori e i tuoi nonni.",
+   "14.3 Ripeti frasi": "Narrator: Questa è mia madre.\nNarrator: Questi sono i miei genitori.\nNarrator: Mio fratello è il più giovane della famiglia.\nNarrator: Come si chiama tua sorella?\nNarrator: Mi sono divertita tantissimo.\nNarrator: Mi sono alzato tardi."
+  }
+ },
+ "images": {
+  "it-a1-unita-14": {
+   "A": "mother and adult daughter smiling",
+   "B": "father and adult son portrait",
+   "C": "grandparents elderly couple smiling",
+   "D": "adult brother and sister",
+   "E": "married couple husband wife",
+   "F": "dog portrait",
+   "G": "cat portrait",
+   "H": "family lunch table italian sunday"
+  }
+ }
+}
