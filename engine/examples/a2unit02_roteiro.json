@@ -1,0 +1,19 @@
+{
+ "material": "speak-bridge",
+ "characters": {
+  "Reporter": "en-US-Neural2-H",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "a2-unit-02": {
+   "02.1 Article": "Reporter: Is your password strong enough? For years, companies told us to create complex passwords full of numbers and symbols, and to change them every few months. Today, security experts in the United States give different advice.\nReporter: One. Longer is better. The Cybersecurity and Infrastructure Security Agency, or CISA, recommends using passwords of at least sixteen characters. A passphrase of five to seven random words, like pizza river lamp yellow tiger, is easy to remember but very difficult to hack.\nReporter: Two. Change the default password. Experts warn people not to keep the default password on a new phone, computer or router. Attackers often know these passwords.\nReporter: Three. One password for each account. You should avoid using the same password on different websites. If attackers hack one account, they can try the same password everywhere.\nReporter: Four. Don't write it down. Many people write their passwords on paper or in a document on their computer. Experts say we should stop doing this, because other people can find them easily.\nReporter: Five. Fewer rules. NIST, another government agency, says companies shouldn't force people to change their passwords on a schedule. They should allow people to use long, simple passphrases.\nReporter: Six. Let software help. If you don't want to lose your accounts, consider using a password manager. It's software that creates and remembers strong passwords for you. Computers don't mind remembering hundreds of long passwords. That's what they're designed to do! And if you need to protect important accounts, turn on multifactor authentication, like a code by text message or your fingerprint.",
+   "02.2 Repeat words": "Narrator: complex\nNarrator: default\nNarrator: hack\nNarrator: security\nNarrator: software\nNarrator: strong\nNarrator: technology\nNarrator: weak",
+   "02.3 Repeat sentences": "Narrator: Avoid using the same password.\nNarrator: Stop writing your passwords on paper.\nNarrator: Consider using a password manager.\nNarrator: I want you to help me.\nNarrator: They warned us not to click the link."
+  }
+ },
+ "images": {
+  "a2-unit-02": {
+   "A": "laptop login screen password"
+  }
+ }
+}
