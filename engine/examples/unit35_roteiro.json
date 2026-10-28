@@ -1,0 +1,28 @@
+{
+ "material": "speak-essentials",
+ "characters": {
+  "Guide": "en-US-Neural2-H",
+  "Paulo": "en-US-Neural2-I",
+  "Ana": "en-US-Neural2-F",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "a1-unit-35": {
+   "35.1 Safari": "Narrator: Paulo, Ana and Marcos are visiting Green Valley Safari Park near São Paulo. Before they drive in, they listen to the visitor information.\nGuide: Hello, visitors, and welcome to Green Valley Safari Park! Your safety is very important to us, so please listen carefully to these rules. First, you must stay in your car. Monkeys look cute, but they can be dangerous, so you must not open your windows or doors. You can't leave the road for any reason. If your car breaks down, call the emergency number on your ticket. Don't touch or feed the animals. You can take photographs, of course, but you mustn't use a flash. Drive slowly, and watch out for animals. This is their home! Please remember that this is a no-smoking area. At the end of your visit, you can buy souvenirs in our shop. Enjoy your visit!\nPaulo: Great! I'm a photographer, so I'm going to take a lot of pictures. Where's my flash?\nAna: You mustn't use a flash! Didn't you listen? And close the window! There's a monkey on the car!\nPaulo: Oh no! He has my sunglasses!",
+   "35.2 Repeat words": "Narrator: must\nNarrator: mustn't\nNarrator: can\nNarrator: can't\nNarrator: don't",
+   "35.3 Repeat sentences": "Narrator: You must stay in your car.\nNarrator: You mustn't open the windows.\nNarrator: You can take photographs.\nNarrator: You can't leave the road.\nNarrator: Don't feed the animals."
+  }
+ },
+ "images": {
+  "a1-unit-35": {
+   "A": "souvenir shop stuffed animals",
+   "B": "car driving safari road zebras",
+   "C": "hand feeding giraffe",
+   "D": "person getting out of car",
+   "E": "off road jeep dirt track",
+   "F": "car window open giraffe",
+   "G": "tourist taking photo of elephant",
+   "H": "hand touching elephant"
+  }
+ }
+}
