@@ -31,6 +31,9 @@ def lang_tag():
 SEP = " &nbsp;•&nbsp; "
 # School name and website in the footer (clickable link) and in the PDF author.
 # Language layers override them: _se.SCHOOL = "Speak! Language School"; _se.SITE = "speaklanguageschool.lovable.app"
+# Series name per CEFR level (the A1 line is "Essentials"). Set it in the unit script or language layer:
+#   EN: A1 Essentials · A2 Bridge · B1 Progress · B2 Independence · C1 Fluency · C2 Mastery
+SERIES = "Essentials"
 SCHOOL = "Speak! English School"
 SITE = "speakenglishschool.lovable.app"
 def foot_left():
@@ -205,7 +208,7 @@ class Book:
         """A mirrored page: same body in both books; the notes zone is 'My notes' (SB) or teacher notes (TG)."""
         self.sb_no += 1
         label = "TEACHER'S GUIDE" if self.T else "STUDENT'S BOOK"
-        band = "" if cover else f'<div class="band {"tg" if self.T else ""}"><span>SPEAK! ESSENTIALS{SEP}{BAND.replace(" · ", SEP)}{SEP}{lang_tag()}</span><span class="lbl">{label}</span></div>'
+        band = "" if cover else f'<div class="band {"tg" if self.T else ""}"><span>SPEAK! {SERIES.upper()}{SEP}{BAND.replace(" · ", SEP)}{SEP}{lang_tag()}</span><span class="lbl">{label}</span></div>'
         if self.T:
             notes = f'<div class="notes tg" style="height:{notes_h}mm"><div class="h">TEACHER\'S NOTES</div>{tnotes}</div>'
             foot_r = f"Student Book p. {self.sb_no}"
@@ -220,7 +223,7 @@ class Book:
         """Teacher-only page (overview, scripts)."""
         if not self.T:
             return
-        self.pages.append(f'<div class="page"><div class="band tg"><span>SPEAK! ESSENTIALS{SEP}{BAND.replace(" · ", SEP)}{SEP}{lang_tag()}</span><span class="lbl">TEACHER\'S GUIDE</span></div>'
+        self.pages.append(f'<div class="page"><div class="band tg"><span>SPEAK! {SERIES.upper()}{SEP}{BAND.replace(" · ", SEP)}{SEP}{lang_tag()}</span><span class="lbl">TEACHER\'S GUIDE</span></div>'
                           f'<div class="body">{self.sec("T", title, "")}{body}</div>'
                           f'<div class="foot">{foot_left()}<span>Teacher only</span></div></div>')
 
@@ -252,7 +255,7 @@ def cover_html(T, kick, title, subt, chips):
     """chips: list of 3 (label, text)."""
     pattern = "<br>".join(["SPEAK SPEAK SPEAK SPEAK SPEAK SPEAK"] * 8)
     ch = "".join(f"<div><b>{a}</b>{b}</div>" for a, b in chips)
-    return (f'<div class="cover"><div class="pattern">{pattern}</div><div class="in"><div class="logo">Speak<span>!</span> <i>Essentials</i></div>'
+    return (f'<div class="cover"><div class="pattern">{pattern}</div><div class="in"><div class="logo">Speak<span>!</span> <i>{SERIES}</i></div>'
             f'<div class="kick">{kick.replace(" · ", SEP)}{SEP}{"TEACHER\'S GUIDE" if T else "STUDENT\'S BOOK"}{SEP}{lang_tag()}</div><div class="title">{title}</div><div class="subt">{subt}</div></div>'
             f'<div class="chips">{ch}</div></div>')
 
