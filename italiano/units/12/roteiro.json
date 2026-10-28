@@ -1,0 +1,30 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Neural2-A",
+  "Marco": "it-IT-Neural2-F",
+  "Giulia": "it-IT-Neural2-E",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Narrator": "it-IT-Wavenet-F"
+ },
+ "pauses": {"12.2": 2000, "12.3": 2600},
+ "units": {
+  "it-a1-unita-12": {
+   "12.1 Dialogo": "Narrator: Dialogo uno. Allo studio.\nJúlia: Marco, sabato voglio cucinare il ragù. Come si fa?\nMarco: Allora: si tagliano la cipolla, la carota e il sedano. Si mette l'olio nella pentola e si cuociono le verdure.\nJúlia: E la carne?\nMarco: La metti dopo, con un po' di vino rosso. Poi si aggiunge il pomodoro e si cuoce per tre ore.\nJúlia: Tre ore?\nMarco: Sì! Il vero ragù si fa così.\nNarrator: Dialogo due. Al supermercato.\nJúlia: Davide, le carote dove sono?\nDavide: Le carote? Le trovi lì, accanto alle patate.\nJúlia: E la carne macinata?\nDavide: La prendi al banco della carne.\nJúlia: Quante bottiglie di passata di pomodoro compro?\nDavide: Ne compri due. E il vino?\nJúlia: Il vino lo porta Marco!\nNarrator: Dialogo tre. Sabato sera, a casa di Júlia.\nGiulia: Mmm, che profumo! Hai fatto tu il ragù?\nJúlia: Sì, con la ricetta di Marco.\nGiulia: Posso assaggiare?\nJúlia: Certo! Ne vuoi un po'?\nGiulia: Sì, grazie... È buonissimo! Brava, Júlia!",
+   "12.2 Ripeti suoni": "Narrator: cipolla\nNarrator: cucina\nNarrator: chilo\nNarrator: cucchiaio\nNarrator: aggiungere\nNarrator: funghi\nNarrator: spaghetti\nNarrator: Si aggiungono i funghi.",
+   "12.3 Ripeti ricetta": "Narrator: Si taglia la cipolla.\nNarrator: Si mette l'olio nella pentola.\nNarrator: Si aggiunge il pomodoro.\nNarrator: Si cuoce per tre ore.\nNarrator: La carne? La metti dopo.\nNarrator: Quante bottiglie? Ne compri due."
+  }
+ },
+ "images": {
+  "it-a1-unita-12": {
+   "A": "onion on cutting board",
+   "B": "fresh carrots",
+   "C": "cooking pot on stove",
+   "D": "minced meat raw",
+   "E": "eggs in carton",
+   "F": "salt shaker",
+   "G": "kitchen knife cutting board",
+   "H": "tagliatelle with bolognese ragu"
+  }
+ }
+}
