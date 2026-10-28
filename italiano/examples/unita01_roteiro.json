@@ -1,11 +1,11 @@
 {
  "material": "speak-essenziale",
  "characters": {
-  "Júlia": "it-IT-Neural2-A",
-  "Marco": "it-IT-Neural2-F",
-  "Giulia": "it-IT-Neural2-E",
-  "Signora Rossi": "it-IT-Wavenet-E",
-  "Narrator": "it-IT-Wavenet-F"
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
  },
  "pauses": {"01.2": 2200, "01.3": 2500},
  "units": {

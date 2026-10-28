@@ -1,12 +1,12 @@
 {
  "material": "speak-essenziale",
  "characters": {
-  "Júlia": "it-IT-Neural2-A",
-  "Marco": "it-IT-Neural2-F",
-  "Giulia": "it-IT-Neural2-E",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
   "Luca": "it-IT-Chirp3-HD-Fenrir",
   "Davide": "it-IT-Chirp3-HD-Puck",
-  "Narrator": "it-IT-Wavenet-F"
+  "Narrator": "it-IT-Chirp3-HD-Kore"
  },
  "pauses": {"03.2": 1800, "03.3": 2000},
  "units": {

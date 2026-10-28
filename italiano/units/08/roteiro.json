@@ -1,10 +1,10 @@
 {
  "material": "speak-essenziale",
  "characters": {
-  "Júlia": "it-IT-Neural2-A",
-  "Marco": "it-IT-Neural2-F",
-  "Receptionist": "it-IT-Chirp3-HD-Aoede",
-  "Narrator": "it-IT-Wavenet-F"
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Receptionist": "it-IT-Chirp3-HD-Vindemiatrix",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
  },
  "pauses": {"08.2": 2200, "08.3": 2500},
  "units": {
