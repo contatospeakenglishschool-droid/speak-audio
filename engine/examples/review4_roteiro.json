@@ -1,0 +1,29 @@
+{
+ "material": "speak-essentials",
+ "characters": {
+  "Ana": "en-US-Neural2-F",
+  "Tom": "en-US-Neural2-D",
+  "Woman": "en-US-Neural2-H",
+  "Mia": "en-US-Neural2-E",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "a1-review-4": {
+   "R4.1 Airport": "Narrator: It's December the twenty-eighth. Tom is at the airport in São Paulo, and Ana is there to meet him.\nAna: Welcome back to São Paulo! How was the flight?\nTom: Long, but OK! Thanks for coming. Whose car is this? Is it new?\nAna: It's Marcos's car. Mine is at the mechanic. So, what do you want to do first?\nTom: First, I need some summer clothes! In Chicago it's minus ten degrees, and I only have sweaters and a coat.\nAna: No problem. There's a big mall near my house. You can try on some shorts and T-shirts there.\nAna: And tomorrow we're going to the supermarket. We're making a big dinner for New Year's Eve, and we don't have any rice. We need a lot of fruit too.\nTom: How many people are coming?\nAna: About twelve! My parents, Paulo, Grandma Lourdes and some friends. Paulo is bringing his robot, Buddy. He says it works now!\nTom: Will it play cards with Grandma this time?\nAna: Probably not! I think Grandma will win again.\nTom: And on New Year's Day?\nAna: We're going to the beach in Santos. But remember, you should use a lot of sunscreen. The sun is very strong here. And in the car, you must wear your seat belt!\nTom: Yes, doctor! Oh, and I want to save some money on this trip. Any tips?\nAna: Don't take taxis everywhere. You could take the subway with us. And don't worry about restaurants. You're eating at my house!\nTom: Perfect. I'm going to love this week!",
+   "R4.2 Write can or cant": "Narrator: Listen and check can or can't.\nNarrator: You can take photos.\nNarrator: You can't leave the road.\nNarrator: You can buy souvenirs here.\nNarrator: You can't smoke in this area.\nNarrator: You can't touch the animals.\nNarrator: You can park here.\nNarrator: You can try it on over there.\nNarrator: You can't eat in the museum.",
+   "R4.3 Dialogues": "Narrator: Dialogue one.\nTom: Excuse me. Can I try on these shorts?\nWoman: Of course. What size are you?\nTom: I'm a medium.\nWoman: The changing rooms are over there.\nTom: Hmm... they don't fit. Do you have them in a large?\nWoman: Yes, here you are.\nTom: Perfect. How much are they?\nWoman: They're on sale, only eighty reais.\nTom: Great! I'll pay by card.\nNarrator: Dialogue two.\nMia: Can you lend me twenty reais? I'm worried about money again.\nAna: Sure. But what should you do? You should make coffee at home!\nMia: I know. And my old phone is broken.\nAna: Don't throw it away. You can repair it!"
+  }
+ },
+ "pauses": {
+  "R4.2": 3000
+ },
+ "images": {
+  "a1-review-4": {
+   "A": "bank teller counter",
+   "B": "knitted sweater folded",
+   "C": "single onion",
+   "D": "strawberries in a bowl",
+   "E": "empty dentist chair clinic"
+  }
+ }
+}
