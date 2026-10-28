@@ -1,0 +1,22 @@
+{
+ "material": "speak-bridge",
+ "characters": {"Host": "en-US-Studio-O", "Paulo": "en-US-Neural2-I", "Narrator": "en-US-Neural2-J"},
+ "units": {"a2-unit-03": {
+  "03.1 Podcast": "Host: Welcome to Green City, the podcast about nature in New York. Today I'm not in the studio. I'm walking in the North Woods, a forty-acre woodland in the north of Central Park. My guide is a Brazilian photographer who lives here now. He's a tour guide too, and every Saturday he takes visitors on a very slow walk. Hi Paulo!\nPaulo: Hi! Thanks for having me. And welcome to my favorite place in the city.\nHost: So what are we doing today?\nPaulo: We're forest bathing. The idea comes from Japan, where people call it shinrin-yoku. It just means time with the trees. There are no rules. You walk slowly, you breathe and you use your five senses.\nHost: I love that idea. In New York everybody walks fast!\nPaulo: I know. That's why I think the city needs this. OK, let's start with our eyes. I'm looking at this old oak tree. What do you see?\nHost: It looks enormous! The trunk is really thick, and the branches go up to the sky. The leaves are turning orange and red.\nPaulo: That's right. It's October, so the colors change every week. Now close your eyes. What do you hear?\nHost: I'm listening very carefully... I hear water. And birds. It sounds so peaceful. I can't believe we're in Manhattan!\nPaulo: That water is the Loch, a small stream. It runs through the woods to a lake called the Harlem Meer. Now take a leaf and smell it.\nHost: I'm smelling it now... It smells fresh, like rain. And the ground smells a little sweet.\nPaulo: Now touch the bark of this tree.\nHost: OK, I'm touching it. It feels rough and cold. And this moss feels soft, like a carpet!\nPaulo: In Brazil I always did this with my grandmother Lourdes. She has a mango tree in her yard, and the mangoes taste so sweet!\nHost: There's no fruit here today. But this apple from my bag tastes great!\nPaulo: Ha! That works too. So how do you feel now?\nHost: I feel much calmer. Honestly, I understand why people come back every week. I want to do this again.\nPaulo: Most people say the same thing. You don't need a big forest in the mountains. You only need some trees and some time.\nHost: That's all for today. For information about the Saturday walks, visit our website. See you next week on Green City!",
+  "03.2 Repeat words": "Narrator: leaf\nNarrator: leaves\nNarrator: branch\nNarrator: branches\nNarrator: root\nNarrator: roots\nNarrator: rough\nNarrator: smooth",
+  "03.3 Repeat sentences": "Narrator: It looks enormous.\nNarrator: It sounds so peaceful.\nNarrator: It smells fresh.\nNarrator: It tastes sweet.\nNarrator: It feels rough.\nNarrator: I can hear the birds."
+ }},
+ "images": {"a2-unit-03": {
+  "A": "bare tree branches against sky",
+  "B": "single white flower blossom on branch close up",
+  "C": "red apple hanging on tree branch",
+  "D": "green leaves close up",
+  "E": "tree roots forest floor",
+  "F": "acorn seed close up",
+  "G": "big tree trunk forest",
+  "H": "dry twig isolated white background",
+  "I": "forest at night moon",
+  "J": "amazon rainforest river",
+  "K": "snowy forest winter"
+ }}
+}
