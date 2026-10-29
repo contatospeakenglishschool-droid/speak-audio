@@ -1,0 +1,30 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"17.2": 2000, "17.3": 2500},
+ "units": {
+  "it-a1-unita-17": {
+   "17.1 Dialogo": "Narrator: Dialogo uno. Una mattina di novembre, sulle scale.\nJúlia: Buongiorno, signora Rossi! Che freddo oggi!\nSignora Rossi: Buongiorno, Júlia. Sì, fa freddo e c'è la nebbia. A Bologna, in novembre, c'è spesso la nebbia.\nJúlia: A Belo Horizonte adesso fa caldo: è primavera!\nSignora Rossi: Davvero? Allora in Brasile le stagioni sono al contrario!\nNarrator: Dialogo due. Al bar.\nGiulia: Júlia, quando arrivano i tuoi genitori?\nJúlia: Arrivano il quindici dicembre e ripartono il sette gennaio.\nGiulia: Che bello, vedono il Natale in Italia! Ma attenzione: a dicembre fa molto freddo e a volte nevica.\nJúlia: Lo so. Mia madre ha già comprato un cappotto!\nNarrator: Dialogo tre. Davide ha un'idea per il fine settimana.\nDavide: Júlia, sabato andiamo a fare una passeggiata sui colli?\nJúlia: Volentieri! Che tempo fa sabato?\nDavide: Aspetta, guardo le previsioni... Sabato piove. Ma domenica c'è il sole e ci sono diciotto gradi.\nJúlia: Allora andiamo domenica!\nDavide: Perfetto: domenica, il primo dicembre.",
+   "17.2 Ripeti la O finale": "Narrator: freddo\nNarrator: caldo\nNarrator: tempo\nNarrator: vento\nNarrator: nuvoloso\nNarrator: autunno\nNarrator: Oggi fa freddo e c'è vento.",
+   "17.3 Ripeti frasi": "Narrator: Che tempo fa oggi?\nNarrator: Fa caldo e c'è il sole.\nNarrator: Piove e fa freddo.\nNarrator: In inverno a volte nevica.\nNarrator: Ci sono diciotto gradi.\nNarrator: Il mio compleanno è il primo maggio."
+  }
+ },
+ "images": {
+  "it-a1-unita-17": {
+   "A": "sunny day blue sky sun",
+   "B": "rain drops window",
+   "C": "snow street winter",
+   "D": "fog foggy road",
+   "E": "wind trees storm blowing",
+   "F": "clouds cloudy sky",
+   "G": "thunderstorm lightning",
+   "H": "umbrella rain street"
+  }
+ }
+}
