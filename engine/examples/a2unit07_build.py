@@ -9,8 +9,8 @@ from speak_engine import *
 _se.SERIES = "Bridge"
 setup(band="A2 · UNIT 07", audio_json="audio_a2-unit-07.json", img_dir="img")
 
-PHOTOS = [("A", "break my arm", "arm in a cast"), ("B", "cut my finger", "bandaged finger"), ("C", "burn my hand", "hot oven"), ("D", "sprain my ankle", "ankle brace"),
-          ("E", "break my leg", "leg in a cast"), ("F", "fall off my bike", "bike on the road"), ("G", "slip on the ice", "icy path"), ("H", "break a glass", "broken glass")]
+PHOTOS = [("A", "break my arm", "arm in a cast"), ("B", "cut my finger", "bandaged finger"), ("C", "burn my hand", "hand over a hot pan"), ("D", "sprain my ankle", "ankle brace"),
+          ("E", "break my leg", "leg in a cast"), ("F", "fall off my bike", "man on a bike"), ("G", "slip on the ice", "icy path"), ("H", "break a glass", "broken glass")]
 
 _r = json.load(open("roteiro.json"))["units"]["a2-unit-07"]
 SCRIPT = [tuple(x.split(": ", 1)) for x in _r["07.1 Urgent care"].split("\n")]
