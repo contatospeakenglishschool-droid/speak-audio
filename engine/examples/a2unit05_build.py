@@ -154,13 +154,16 @@ def build(teacher):
     words = [("receipt", "noun"), ("island", "noun"), ("Wednesday", "noun"), ("comfortable", "adjective"), ("knife", "noun"), ("quickly", "adverb")]
     wt = "".join(f"<td style='text-align:center;height:10mm'><b>{w}</b><br>{R(p)}</td>" for w, p in words)
     defs = ["a hot, wet day → <i>humid</i>", "a person who lives near you → <i>neighbor</i>", "the opposite of <i>always</i> → <i>never</i>", "you use it to cut food → <i>knife</i>"]
-    nato = "A Alfa · B Bravo · E Echo · G Golf · I India · J Juliett · M Mike · N November · P Papa · V Victor · W Whiskey · Y Yankee"
+    NATO = ["Alfa", "Bravo", "Charlie", "Delta", "Echo", "Foxtrot", "Golf", "Hotel", "India", "Juliett", "Kilo", "Lima", "Mike",
+            "November", "Oscar", "Papa", "Quebec", "Romeo", "Sierra", "Tango", "Uniform", "Victor", "Whiskey", "X-ray", "Yankee", "Zulu"]
+    cell = lambda w: f"<td style='text-align:center;padding:.8mm .5mm'><b style='color:#0f4a5a'>{w[0]}</b><br><span class='small'>{w}</span></td>"
+    nato = "".join("<tr>" + "".join(cell(w) for w in NATO[r * 9:(r + 1) * 9]) + ("<td></td>" if r == 2 else "") + "</tr>" for r in range(3))
     b.page(f"""{sec(6, "Speaking", "12 min")}
 {sub("A", "Word challenge. Your teacher asks about these words: How do you spell it? What kind of word is it? What does it mean?", "4 min")}
 <table style="table-layout:fixed;margin-top:0"><tr>{wt}</tr></table>
 {sub("B", "Change roles. Your teacher explains a word but doesn't say it. Ask questions and guess the word.", "4 min")}
 <div class="msg" style="max-width:none;padding:1.5mm 4mm"><b>Teacher:</b> It's something you use to cut food. <b>You:</b> What kind of word is it? <b>Teacher:</b> A noun. <b>You:</b> Is it a knife? How do you spell it? <b>Teacher:</b> K-N-I-F-E. The K is silent!</div>
-<div class="box" style="margin-top:1.5mm"><h4>THE NATO ALPHABET</h4>Pilots, doctors and call centers use words to say letters clearly. Use them for difficult letters: <b>E</b> as in Echo, <b>I</b> as in India.<br><span class="small">{nato}</span></div>
+<div class="box" style="margin-top:1.5mm"><h4>THE NATO ALPHABET</h4>Pilots, doctors and call centers use words to say letters clearly. Use them for difficult letters: <b>E</b> as in Echo, <b>I</b> as in India.<table style="table-layout:fixed;margin:1mm 0 0;font-size:8pt">{nato}</table></div>
 {sub("C", "You and new words.", "4 min")}
 <ol><li>How do you learn new words? Do you write them in a notebook or use an app?</li><li>Which English word is the most difficult for you to spell? And to pronounce?</li>
 <li>Spell your email address using the NATO alphabet for the difficult letters.</li></ol>""",
