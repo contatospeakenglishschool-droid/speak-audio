@@ -1,0 +1,12 @@
+{
+ "material": "speak-bridge",
+ "characters": {"Paulo": "en-US-Neural2-I", "Maya": "en-US-Studio-O", "Neighbor": "en-US-Chirp3-HD-Charon", "Tom": "en-US-Neural2-D", "Carol": "en-US-Chirp3-HD-Leda", "Narrator": "en-US-Neural2-J"},
+ "units": {"a2-unit-06": {
+  "06.1 Conversations": "Narrator: Conversation one.\nPaulo: Hi Maya, do you have a minute? I read the reviews of your Brooklyn food tour. Well done! Twenty five-star reviews this month!\nMaya: Oh, you're too kind. It was a team effort.\nPaulo: Maybe, but I know you're really good at talking to tourists. Keep up the good work!\nMaya: I'll take that, thanks!\nNarrator: Conversation two.\nPaulo: Good morning! Congratulations on the new baby! What a cute little girl!\nNeighbor: Thank you! Her name is Olivia.\nPaulo: How's she sleeping? I never hear her at night.\nNeighbor: Not too bad, actually.\nPaulo: Glad to hear it. Good luck!\nNarrator: Conversation three.\nPaulo: Hey, I saw your photos. You ran the Chicago Marathon! Congratulations!\nTom: Thanks! It was really hard, but I finished in four hours and twenty minutes.\nPaulo: Wow, good job! I really like the T-shirt with your time on it.\nTom: I'm glad you like it! Next year, the New York City Marathon. Are you in?\nPaulo: Me? I get tired on the subway stairs!\nNarrator: Conversation four.\nCarol: Hi Paulo! Can you see me?\nPaulo: Hi! Yes, I can. Wow, you look great today!\nCarol: You too!\nPaulo: That dress really suits you. Where did you get it?\nCarol: Actually, my boss gave it to me for my birthday.\nPaulo: Your boss? What a nice boss! Say hi to her for me.",
+  "06.2 Repeat phrases": "Narrator: Well done!\nNarrator: Good job!\nNarrator: Congratulations!\nNarrator: What a cute baby!\nNarrator: Keep up the good work.\nNarrator: That color really suits you.",
+  "06.3 Repeat responses": "Narrator: Thanks!\nNarrator: You're too kind.\nNarrator: It was a team effort.\nNarrator: I'm glad you like it.\nNarrator: You too!\nNarrator: I'll take that, thanks."
+ }},
+ "images": {"a2-unit-06": {
+  "A": "colleagues office meeting laptop", "B": "neighbors talking over fence", "C": "adult students classroom", "D": "couple holding hands walking",
+  "E": "two women friends laughing coffee", "F": "roommates cooking apartment kitchen", "G": "amateur soccer team celebrating", "H": "boss talking to employee office"}}
+}
