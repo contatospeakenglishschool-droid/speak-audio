@@ -1,0 +1,10 @@
+{
+ "material": "speak-bridge",
+ "characters": {"Jake": "en-US-Chirp3-HD-Charon", "Ana": "en-US-Neural2-F", "Marcos": "en-US-Neural2-A", "Narrator": "en-US-Neural2-J"},
+ "units": {"a2-unit-08": {
+  "08.1 First day": "Jake: Hi, I'm Jake. I'm your guide this week. Welcome to Florida!\nAna: Thanks! I'm Ana, and this is my husband, Marcos. We're so excited.\nJake: Great. Safety is very important to us, so I need to ask you some questions first. Have you ever been kayaking?\nAna: Yes, I have. I've kayaked many times. My cousin Carol lives in Orlando, and last year we kayaked on a river near her house.\nJake: And you, Marcos?\nMarcos: No, I've never been kayaking. But I can swim very well.\nJake: Good to know. On Tuesday we're going to Crystal River. Have you ever swum with manatees?\nMarcos: Manatees? I've never even seen a manatee!\nJake: They're big, gentle sea animals. In winter, hundreds of them come to the warm springs there.\nAna: Wow! I saw one in a documentary, but I've never seen one in real life.\nJake: You'll love it. And on Thursday we have the zip line. Have you ever done a zip line?\nMarcos: Yes, I have. I did one in the mountains in Brazil when I was twenty. I loved it!\nAna: I haven't. I'm a little afraid of heights.\nJake: That's OK. You can watch if you prefer. One last question. Have you ever camped?\nAna: Marcos has. I haven't. I prefer hotels!\nJake: Well, on Friday night we're camping in a state park. It's beautiful, I promise.\nAna: Camping? OK... We're on vacation. Let's try new things!",
+  "08.2 Repeat participles": "Narrator: been\nNarrator: done\nNarrator: gone\nNarrator: seen\nNarrator: swum\nNarrator: ridden\nNarrator: run\nNarrator: thrown",
+  "08.3 Repeat questions": "Narrator: Have you ever been to the United States?\nNarrator: Have you ever ridden a horse?\nNarrator: Yes, I have.\nNarrator: No, I haven't.\nNarrator: When did you go?\nNarrator: Did you like it?"
+ }},
+ "images": {"a2-unit-08": {"A": "hiker mountain summit", "B": "snorkeling in the ocean", "C": "woman horseback riding", "D": "kayaking on river", "E": "tent camping forest", "F": "skydiving", "G": "zip line", "H": "marathon runners"}}
+}
