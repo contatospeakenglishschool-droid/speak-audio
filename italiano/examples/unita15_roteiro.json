@@ -1,0 +1,30 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"15.2": 2000, "15.3": 2500},
+ "units": {
+  "it-a1-unita-15": {
+   "15.1 Dialogo": "Narrator: Dialogo uno. La signora Rossi mostra un appartamento a Júlia.\nSignora Rossi: Ecco l'appartamento, Júlia. È al terzo piano, proprio sopra il Suo.\nJúlia: Che bello! È molto luminoso.\nSignora Rossi: Questo è il soggiorno. C'è un divano, ci sono due poltrone e c'è anche un balcone.\nJúlia: E la cucina dov'è?\nSignora Rossi: È accanto al soggiorno. E qui ci sono due camere da letto e un bagno.\nJúlia: Quanto costa l'affitto?\nSignora Rossi: Settecento euro al mese.\nNarrator: Dialogo due. Al telefono.\nMarco: Allora, Júlia, com'è la casa nuova?\nJúlia: È grande e luminosa! Ci sono due camere da letto, così i miei genitori possono venire in Italia.\nMarco: C'è una lavatrice?\nJúlia: Sì, è in bagno. E il divano è rosso e le poltrone sono verdi. Molto italiano!\nNarrator: Dialogo tre. Il giorno del trasloco.\nDavide: Júlia, dove metto questa lampada?\nJúlia: Accanto al divano, per favore.\nDavide: E lo specchio?\nJúlia: Dietro la porta del bagno.\nDavide: E questa scatola? Che cosa c'è dentro?\nJúlia: Ci sono i miei libri. Sotto il letto, grazie!\nDavide: Ecco fatto! E adesso una pizza sul balcone?\nJúlia: Perfetto!",
+   "15.2 Ripeti la Z": "Narrator: stanza\nNarrator: terrazza\nNarrator: piazza\nNarrator: zona\nNarrator: mezzo\nNarrator: pranzo\nNarrator: Una stanza con terrazza in zona piazza Maggiore.",
+   "15.3 Ripeti frasi": "Narrator: C'è un balcone.\nNarrator: Ci sono due camere da letto.\nNarrator: La cucina è accanto al soggiorno.\nNarrator: La lampada è accanto al divano.\nNarrator: Lo specchio è dietro la porta.\nNarrator: Il divano è rosso e le poltrone sono verdi."
+  }
+ },
+ "images": {
+  "it-a1-unita-15": {
+   "A": "living room sofa interior",
+   "B": "kitchen interior modern",
+   "C": "bedroom bed interior",
+   "D": "bathroom interior sink",
+   "E": "balcony plants apartment",
+   "F": "red sofa",
+   "G": "floor lamp",
+   "H": "wall mirror"
+  }
+ }
+}
