@@ -1,0 +1,23 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Uomo": "it-IT-Chirp3-HD-Charon",
+  "Impiegata": "it-IT-Chirp3-HD-Vindemiatrix",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"R2.2": 3800},
+ "units": {
+  "it-a1-ripasso-2": {
+   "R2.1 Conversazione": "Narrator: È febbraio. Domani arriva Bruno, il fratello di Júlia. Al bar, Giulia e Júlia parlano dei programmi... e degli ultimi mesi.\nGiulia: Allora, Júlia, sei pronta? Domani arriva tuo fratello!\nJúlia: Sì! Arriva con il treno da Milano alle dieci e venti, al binario cinque.\nGiulia: E che cosa fate il primo giorno?\nJúlia: Prima andiamo al Mercato delle Erbe. Devo comprare del prosciutto e mezzo chilo di parmigiano.\nGiulia: E poi cucini tu?\nJúlia: Sì, faccio il ragù. Adesso lo so fare benissimo! Si cuoce per tre ore.\nGiulia: Brava! E dove dorme Bruno?\nJúlia: Nella mia casa nuova. C'è una camera per lui, accanto al bagno.\nGiulia: Bruno è giovane... Si alza presto come te?\nJúlia: No! Lui si sveglia tardi e si addormenta tardissimo. Io invece mi alzo sempre alle sei e mezza.\nGiulia: E domenica?\nJúlia: Domenica siamo invitati a pranzo dai genitori di Marco. La nonna di Marco è la persona più simpatica di Bologna!\nGiulia: Hai visto le previsioni?\nJúlia: Sì. Sabato c'è il sole, ma domenica piove e fa freddo. Per fortuna Bruno ha comprato un cappotto.\nGiulia: E i tuoi genitori? Quando sono venuti a dicembre, che cosa avete fatto?\nJúlia: Siamo andati a Firenze e abbiamo mangiato la bistecca. Il viaggio è stato bellissimo!\nGiulia: Allora, buon divertimento con Bruno!",
+   "R2.2 Dettato": "Narrator: Ascolta e scrivi le ore, le date e i numeri.\nNarrator: Uno. Il treno parte alle diciotto e quaranta.\nNarrator: Due. Il treno arriva al binario nove.\nNarrator: Tre. Vorrei due etti di prosciutto.\nNarrator: Quattro. Il mio compleanno è il primo aprile.\nNarrator: Cinque. Oggi ci sono tre gradi.\nNarrator: Sei. L'affitto è di seicentocinquanta euro al mese.\nNarrator: Sette. Bruno arriva il quindici febbraio.\nNarrator: Otto. Mi alzo alle sei e mezza.",
+   "R2.3 Dialoghi": "Narrator: Dialogo uno. Al mercato.\nJúlia: Buongiorno! Vorrei due etti di prosciutto, per favore.\nUomo: Ecco a Lei. Altro?\nJúlia: Sì, del parmigiano: mezzo chilo, per favore.\nUomo: E il pane? Abbiamo il pane fresco di oggi.\nJúlia: Sì, lo compro!\nNarrator: Dialogo due. Alla stazione.\nJúlia: Buongiorno, un biglietto per Milano, per favore.\nImpiegata: Solo andata? Il treno parte alle dieci dal binario tre.\nJúlia: Il treno parte dal binario tre?\nImpiegata: Sì, ma oggi è in ritardo di venti minuti: fa freddo e c'è la neve.\nJúlia: Va bene, grazie!"
+  }
+ },
+ "images": {
+  "it-a1-ripasso-2": {
+   "A": "market stall vegetables fruit"
+  }
+ }
+}
