@@ -10,17 +10,17 @@ setup(band="A1 · UNITÀ 17", audio_json=os.path.join(HERE, "audio_it-a1-unita-1
 PHOTOS = [("A", "il sole", "sole"), ("B", "la pioggia", "pioggia"), ("C", "la neve", "neve"), ("D", "la nebbia", "nebbia"),
           ("E", "il vento", "vento"), ("F", "le nuvole", "nuvole"), ("G", "il temporale", "temporale"), ("H", "l'ombrello", "ombrello")]
 
-SCRIPT = [("Narratore", "Dialogo uno. Una mattina di novembre, sulle scale."), ("Júlia", "Buongiorno, signora Rossi! Che freddo oggi!"),
-          ("Signora Rossi", "Buongiorno, Júlia. Sì, fa freddo e c'è la nebbia. A Bologna, in novembre, c'è spesso la nebbia."),
-          ("Júlia", "A Belo Horizonte adesso fa caldo: è primavera!"), ("Signora Rossi", "Davvero? Allora in Brasile le stagioni sono al contrario!"),
-          ("Narratore", "Dialogo due. Al bar."), ("Giulia", "Júlia, quando arrivano i tuoi genitori?"),
-          ("Júlia", "Arrivano il quindici dicembre e ripartono il sette gennaio."),
-          ("Giulia", "Che bello, vedono il Natale in Italia! Ma attenzione: a dicembre fa molto freddo e a volte nevica."),
-          ("Júlia", "Lo so. Mia madre ha già comprato un cappotto!"),
+SCRIPT = [("Narratore", "Dialogo uno. Una mattina di gennaio, sulle scale."), ("Júlia", "Buongiorno, signora Rossi! Che freddo oggi!"),
+          ("Signora Rossi", "Buongiorno, Júlia. Sì, fa freddo e c'è la nebbia. A Bologna, in gennaio, c'è spesso la nebbia."),
+          ("Júlia", "A Belo Horizonte adesso fa caldo: è estate!"), ("Signora Rossi", "Davvero? Allora in Brasile le stagioni sono al contrario!"),
+          ("Narratore", "Dialogo due. Al bar."), ("Giulia", "Júlia, quando arriva tuo fratello?"),
+          ("Júlia", "Arriva il quindici febbraio e riparte il sette marzo."),
+          ("Giulia", "Che bello, vede il Carnevale in Italia! Ma attenzione: a febbraio fa ancora freddo e a volte nevica."),
+          ("Júlia", "Lo so. Bruno ha già comprato un cappotto!"),
           ("Narratore", "Dialogo tre. Davide ha un'idea per il fine settimana."), ("Davide", "Júlia, sabato andiamo a fare una passeggiata sui colli?"),
           ("Júlia", "Volentieri! Che tempo fa sabato?"),
           ("Davide", "Aspetta, guardo le previsioni... Sabato piove. Ma domenica c'è il sole e ci sono diciotto gradi."),
-          ("Júlia", "Allora andiamo domenica!"), ("Davide", "Perfetto: domenica, il primo dicembre.")]
+          ("Júlia", "Allora andiamo domenica!"), ("Davide", "Perfetto: domenica, il primo febbraio.")]
 S172 = ["freddo", "caldo", "tempo", "vento", "nuvoloso", "autunno", "Oggi fa freddo e c'è vento."]
 S173 = ["Che tempo fa oggi?", "Fa caldo e c'è il sole.", "Piove e fa freddo.", "In inverno a volte nevica.", "Ci sono diciotto gradi.", "Il mio compleanno è il primo maggio."]
 
@@ -54,35 +54,35 @@ def build(teacher):
     b.extra("Panoramica della lezione · 55 min", """
 <table><tr><th>Fase</th><th>Tempo</th><th>Obiettivo</th><th>Pagina</th></tr>
 <tr><td>1 Riscaldamento</td><td>8 min</td><td>8 foto del tempo · le stagioni</td><td>1</td></tr>
-<tr><td>2 Ascolto</td><td>10 min</td><td>Nebbia, Natale e una passeggiata: tre dialoghi</td><td>2</td></tr>
+<tr><td>2 Ascolto</td><td>10 min</td><td>Nebbia, Carnevale e una passeggiata: tre dialoghi</td><td>2</td></tr>
 <tr><td>3 Grammatica</td><td>10 min</td><td>Che tempo fa? · mesi e stagioni · le date</td><td>3–4</td></tr>
 <tr><td>4 Laboratorio di pronuncia</td><td>5 min</td><td>La O finale · parlare del tempo</td><td>4</td></tr>
 <tr><td>5 Pratica</td><td>8 min</td><td>Le previsioni in Italia · le date · fa / c'è / ho</td><td>5</td></tr>
 <tr><td>6 Parlare</td><td>12 min</td><td>Il tempo in Brasile e in Italia · le tue stagioni</td><td>6</td></tr>
 <tr><td>7 Conclusione</td><td>2 min</td><td>Autovalutazione (unità 14–17) e compiti</td><td>7</td></tr></table>
-<div class="box sand"><h4>LA STORIA CONTINUA</h4>È novembre: a Bologna fa freddo e c'è la nebbia, mentre a Belo Horizonte è primavera. I genitori di Júlia arrivano il 15 dicembre e ripartono il 7 gennaio: vedono il Natale in Italia (e la madre ha già comprato un cappotto). Davide propone una passeggiata sui colli: sabato piove, quindi vanno domenica, il primo dicembre.</div>
+<div class="box sand"><h4>LA STORIA CONTINUA</h4>È gennaio: a Bologna fa freddo e c'è la nebbia, mentre a Belo Horizonte è estate. Bruno, il fratello di Júlia, arriva il 15 febbraio e riparte il 7 marzo: vede il Carnevale in Italia (e ha già comprato un cappotto). Davide propone una passeggiata sui colli: sabato piove, quindi vanno domenica, il primo febbraio.</div>
 <div class="box"><h4>IL PROBLEMA PER I BRASILIANI</h4><i>È freddo oggi</i> ✗ → <b>fa freddo</b>. <i>Fa sole</i> ✗ → <b>c'è il sole</b>. <i>Sono freddo</i> ✗ → <b>ho freddo</b> (la persona). <i>L'uno maggio</i> ✗ → <b>il primo maggio</b>. <i>In 1995</i> ✗ → <b>nel 1995</b>.</div>
 <div class="box"><h4>LA REALTÀ ITALIANA</h4>In autunno e in inverno la <b>nebbia</b> è tipica della Pianura Padana (Bologna, Milano). Gli italiani guardano spesso <b>il meteo</b> (le previsioni del tempo) al telegiornale o sull'app. Le temperature sono in gradi Celsius, come in Brasile.</div>
 <div class="box"><h4>AUDIO</h4>Traccia 17.1 Tre dialoghi (lento e naturale) · Traccia 17.2 La O finale · Traccia 17.3 Parlare del tempo</div>""")
 
     # Page 2
-    tt = [("A Bologna in novembre", "fa freddo, c'è la nebbia"), ("A Belo Horizonte adesso", "fa caldo, è primavera"), ("I genitori arrivano", "il 15 dicembre"),
-          ("I genitori ripartono", "il 7 gennaio"), ("Sabato", "piove"), ("Domenica", "c'è il sole, 18 gradi")]
+    tt = [("A Bologna in gennaio", "fa freddo, c'è la nebbia"), ("A Belo Horizonte adesso", "fa caldo, è estate"), ("Bruno arriva", "il 15 febbraio"),
+          ("Bruno riparte", "il 7 marzo"), ("Sabato", "piove"), ("Domenica", "c'è il sole, 18 gradi")]
     ttr = "".join(f"<tr><td style='width:52mm'><b>{a}</b></td><td>{A(x, 'min-width:62mm')}</td></tr>" for a, x in tt)
-    gp = [("A Bologna, in novembre, c'è spesso la", "nebbia", "."), ("In Brasile le stagioni sono al", "contrario", "!"),
-          ("A dicembre fa molto freddo e a volte", "nevica", "."), ("Domenica è il", "primo", "dicembre.")]
+    gp = [("A Bologna, in gennaio, c'è spesso la", "nebbia", "."), ("In Brasile le stagioni sono al", "contrario", "!"),
+          ("A febbraio fa ancora freddo e a volte", "nevica", "."), ("Domenica è il", "primo", "febbraio.")]
     gl = [f'<li value="{i+1}">{a} {A(x, "min-width:20mm")}{c}</li>' for i, (a, x, c) in enumerate(gp)]
-    b.page(f"""{sec(2, "Ascolto: nebbia, Natale e una passeggiata", "10 min")}
-<p>È novembre. Júlia parla del tempo con la signora Rossi, con Giulia al bar e con Davide.</p>
+    b.page(f"""{sec(2, "Ascolto: nebbia, Carnevale e una passeggiata", "10 min")}
+<p>È gennaio. Júlia parla del tempo con la signora Rossi, con Giulia al bar e con Davide.</p>
 {audiocard(["17.1 · SLOW", "17.1 · NATURAL"])}
 {sub("A", "Ascolta e completa.", "4 min", "17.1 · SLOW")}
 <table style="margin:0">{ttr}</table>
 {sub("B", "Ascolta di nuovo e completa.", "4 min", "17.1 · NATURAL")}
 <ol>{"".join(gl)}</ol>
-{sub("C", "Perché la madre di Júlia ha comprato un cappotto?", "2 min")}
-<div class="wline">{R("Perché a dicembre in Italia fa molto freddo e a volte nevica.")}</div>""",
+{sub("C", "Perché Bruno, il fratello di Júlia, ha comprato un cappotto?", "2 min")}
+<div class="wline">{R("Perché a febbraio in Italia fa ancora freddo e a volte nevica.")}</div>""",
     24, """<ol><li>A: versione <b>lenta</b>. Accettare risposte brevi (<i>freddo, nebbia</i>). <i>I colli</i> = le colline vicino a Bologna.</li>
-<li>B: versione <b>naturale</b>. <i>Il primo dicembre</i>: per il giorno 1 si usa l'ordinale (pagina 3).</li></ol>""")
+<li>B: versione <b>naturale</b>. <i>Il primo febbraio</i>: per il giorno 1 si usa l'ordinale (pagina 3).</li></ol>""")
 
     # Page 3
     w = [("fa", "caldo · freddo · bel tempo · brutto tempo"), ("c'è", "il sole · il vento · la nebbia · un temporale"), ("piove · nevica", "(verbi)"),
@@ -186,7 +186,7 @@ Anno: <b>nel</b> 1995, <b>nel</b> 2026<br><span class="small">Ordinali: primo, s
     22, """<p>Prossima lezione: controllare le correzioni. Poi l'insegnante chiede: <i>Che giorno è oggi? Che tempo fa?</i> La prossima unità è il <b>Ripasso 2</b> (unità 10–17).</p>""")
 
     b.extra("Trascrizioni audio", f"""
-{sub("17.1", "Nebbia, Natale e una passeggiata (lento e naturale)")}
+{sub("17.1", "Nebbia, Carnevale e una passeggiata (lento e naturale)")}
 <p style="line-height:1.45">{"<br>".join(f"<b>{n}:</b> {t}" for n, t in SCRIPT)}</p>
 {sub("17.2", "La O finale")}
 <p>{" · ".join(S172)}</p>

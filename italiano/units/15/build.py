@@ -15,7 +15,7 @@ SCRIPT = [("Narratore", "Dialogo uno. La signora Rossi mostra un appartamento a 
           ("Júlia", "E la cucina dov'è?"), ("Signora Rossi", "È accanto al soggiorno. E qui ci sono due camere da letto e un bagno."),
           ("Júlia", "Quanto costa l'affitto?"), ("Signora Rossi", "Settecento euro al mese."),
           ("Narratore", "Dialogo due. Al telefono."), ("Marco", "Allora, Júlia, com'è la casa nuova?"),
-          ("Júlia", "È grande e luminosa! Ci sono due camere da letto, così i miei genitori possono venire in Italia."), ("Marco", "C'è una lavatrice?"),
+          ("Júlia", "È grande e luminosa! Ci sono due camere da letto, così mio fratello Bruno può venire a trovarmi."), ("Marco", "C'è una lavatrice?"),
           ("Júlia", "Sì, è in bagno. E il divano è rosso e le poltrone sono verdi. Molto italiano!"),
           ("Narratore", "Dialogo tre. Il giorno del trasloco."), ("Davide", "Júlia, dove metto questa lampada?"), ("Júlia", "Accanto al divano, per favore."),
           ("Davide", "E lo specchio?"), ("Júlia", "Dietro la porta del bagno."), ("Davide", "E questa scatola? Che cosa c'è dentro?"),
@@ -59,7 +59,7 @@ def build(teacher):
 <tr><td>5 Pratica</td><td>8 min</td><td>Il disegno del soggiorno · c'è / ci sono · i colori</td><td>5</td></tr>
 <tr><td>6 Parlare</td><td>12 min</td><td>Un annuncio (domande) · la tua casa</td><td>6</td></tr>
 <tr><td>7 Conclusione</td><td>2 min</td><td>Autovalutazione (unità 12–15) e compiti</td><td>7</td></tr></table>
-<div class="box sand"><h4>LA STORIA CONTINUA</h4>Júlia vuole una casa più grande per ospitare i suoi genitori. La signora Rossi le mostra un appartamento al terzo piano, proprio sopra il suo: soggiorno con balcone, due camere da letto, settecento euro al mese. Júlia racconta a Marco che il divano è rosso e le poltrone sono verdi. Il giorno del trasloco Davide la aiuta a mettere a posto le cose; alla fine, una pizza sul balcone.</div>
+<div class="box sand"><h4>LA STORIA CONTINUA</h4>Júlia vuole una casa più grande per ospitare la sua famiglia: suo fratello Bruno vuole venire a trovarla. La signora Rossi le mostra un appartamento al terzo piano, proprio sopra il suo: soggiorno con balcone, due camere da letto, settecento euro al mese. Júlia racconta a Marco che il divano è rosso e le poltrone sono verdi. Il giorno del trasloco Davide la aiuta a mettere a posto le cose; alla fine, una pizza sul balcone.</div>
 <div class="box"><h4>IL PROBLEMA PER I BRASILIANI</h4><i>Ci è un balcone</i> ✗ → <b>c'è un balcone</b>. <i>C'è due camere</i> ✗ → <b>ci sono due camere</b> (plurale). <i>Accanto il divano</i> ✗ → <b>accanto al divano</b>. <i>Le sedie sono rossa</i> ✗ → <b>rosse</b>: i colori si accordano come gli altri aggettivi (tranne <i>blu, rosa, viola</i>).</div>
 <div class="box"><h4>LA REALTÀ ITALIANA</h4>Nelle città italiane quasi tutti abitano in un <b>appartamento in condominio</b>. Il <b>piano terra</b> è a livello della strada; il primo piano è sopra. Spesso l'affitto non comprende le <b>spese condominiali</b> e le bollette: bisogna sempre chiedere.</div>
 <div class="box"><h4>AUDIO</h4>Traccia 15.1 Tre dialoghi (lento e naturale) · Traccia 15.2 La Z · Traccia 15.3 Descrivere la casa</div>""")
@@ -79,10 +79,10 @@ def build(teacher):
 {sub("B", "Ascolta di nuovo e completa.", "4 min", "15.1 · NATURAL")}
 {twocol(gl, 4)}
 {sub("C", "Perché Júlia vuole due camere da letto?", "2 min")}
-<div class="wline">{R("Perché così i suoi genitori possono venire in Italia (e dormire da lei).")}</div>""",
+<div class="wline">{R("Perché così suo fratello Bruno può venire a trovarla (e dormire da lei).")}</div>""",
     26, """<ol><li>A: versione <b>lenta</b>. 2: c'è <b>un</b> divano e ci sono due <b>poltrone</b>. 4: le camere sono <b>due</b>. La signora Rossi dà del <i>Lei</i>: <i>sopra il Suo</i> (appartamento).</li>
 <li>B: versione <b>naturale</b>. <i>Il trasloco</i> = quando cambi casa e porti tutte le tue cose.</li>
-<li>C: collegamento con l'unità 14 (la famiglia di Júlia in Brasile).</li></ol>""")
+<li>C: collegamento con l'unità 14 (Bruno, il fratello più giovane di Júlia).</li></ol>""")
 
     # Page 3
     pr = [("sopra", "La finestra è sopra il divano."), ("sotto", "Il gatto è sotto il tavolino."), ("davanti a", "Il tappeto è davanti al divano."),
