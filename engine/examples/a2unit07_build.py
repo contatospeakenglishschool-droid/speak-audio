@@ -47,7 +47,8 @@ def build(teacher):
 <tr><td>4 Pronunciation lab</td><td>5 min</td><td>Contractions · past participles</td><td>4</td></tr>
 <tr><td>5 Practice</td><td>8 min</td><td>Have / has + past participle · Word builder: treatments</td><td>5</td></tr>
 <tr><td>6 Speaking</td><td>12 min</td><td>Mime it! · doctor and patient role-play</td><td>6</td></tr>
-<tr><td>7 Wrap-up</td><td>2 min</td><td>Progress check · irregular verbs · homework (50–75 words)</td><td>7</td></tr></table>
+<tr><td>7 Wrap-up</td><td>2 min</td><td>Progress check · irregular verbs · homework (50–75 words)</td><td>7</td></tr>
+<tr><td>+ Grammar reference</td><td>–</td><td>The present perfect: form, uses, present perfect or past simple</td><td>8</td></tr></table>
 <div class="box sand"><h4>THE STORY CONTINUES</h4>A bad day in Chicago. At an urgent care center, the doctor (one-off voice, Studio-O) sees three patients: <b>Tom</b> slipped on the ice on his way to school and sprained his ankle; <b>Lucy</b> fell off her bike when a car door opened in front of her (she was wearing a helmet!) and broke her arm; and <b>Kate and Rita</b> had an accident in Kate's bakery: Kate burned her hand and Rita cut her finger. In the US, people go to <b>urgent care</b> for injuries that are not life-threatening and to the <b>ER</b> (emergency room) for emergencies; the emergency number is 911.</div>
 <div class="box"><h4>KEY PROBLEM FOR BRAZILIANS</h4>Portuguese uses a different structure for recent events, so students say <i>I just slip</i> ✗ or <i>I have just slipped yesterday</i> ✗. Teach <b>I've just slipped</b> (recent, no time) vs <b>I slipped an hour ago</b> (past simple + time). Watch participles: <i>He's cutted</i> ✗ → <b>cut</b>; <i>I haven't broke</i> ✗ → <b>broken</b>; <i>What have you did?</i> ✗ → <b>done</b>. Note: Americans often use the past simple with <i>just</i> (<i>I just slipped</i>); both are correct.</div>
 <div class="box"><h4>AUDIO</h4>Track 07.1 Three dialogues (slow and natural) · Track 07.2 Sentences · Track 07.3 Past participles</div>""")
@@ -166,6 +167,9 @@ def build(teacher):
 <p style="margin-top:1.5mm"><b>2. A message (50–75 words).</b> You've just had a small accident. Write a message to a friend: say what has happened (present perfect) and give the details: when, where, how (past simple).</p>
 <div class="wline"></div><div class="wline"></div><div class="wline"></div><div class="wline"></div>""",
     18, """<p>Next class: start with a quick verb quiz (you say the verb, the student says the past and the participle). Check the message: present perfect for the news, past simple for the details.</p>""")
+
+    import grammar_ref
+    grammar_ref.present_perfect(b)
 
     b.extra("Audio scripts", f"""
 {sub("07.1", "Three dialogues at urgent care (slow and natural)")}

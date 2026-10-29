@@ -50,7 +50,8 @@ def build(teacher):
 <tr><td>4 Pronunciation lab</td><td>5 min</td><td>Irregular participles · Have you ever…?</td><td>4</td></tr>
 <tr><td>5 Practice</td><td>8 min</td><td>Ana's message · Word builder: go / do / ride</td><td>5</td></tr>
 <tr><td>6 Speaking</td><td>12 min</td><td>Truth or lie? · find out more</td><td>6</td></tr>
-<tr><td>7 Wrap-up</td><td>2 min</td><td>Progress check and homework (50–75 words)</td><td>7</td></tr></table>
+<tr><td>7 Wrap-up</td><td>2 min</td><td>Progress check and homework (50–75 words)</td><td>7</td></tr>
+<tr><td>+ Grammar reference</td><td>–</td><td>The present perfect: form, uses, present perfect or past simple</td><td>8</td></tr></table>
 <div class="box sand"><h4>THE STORY CONTINUES</h4>It's summer in Brazil and winter in Florida: <b>Ana and Marcos</b> are on an adventure vacation near cousin Carol's home. On the first day, their guide Jake (invented; one-off male voice, Chirp 3 HD Charon) asks about their experiences: kayaking, swimming with manatees, a zip line, camping. Facts: Crystal River, Florida, is the largest natural winter refuge for manatees in the world; hundreds gather at its warm springs in winter, and it is the only place in the US where swimming with wild manatees is legal (Smithsonian Magazine, "There's Only One Place in the United States Where It's Legal to Swim With Wild Manatees"; US Fish and Wildlife Service, Crystal River National Wildlife Refuge).</div>
 <div class="box"><h4>KEY PROBLEM FOR BRAZILIANS</h4>Portuguese uses one past form for all finished experiences, so students mix the forms: <i>I have been in Florida last year</i> ✗ → <b>I went to Florida last year</b>; <i>Have you ever went…?</i> ✗ → <b>been</b>; and answer <i>Have you ever…?</i> with <i>Yes, I did</i> ✗ → <b>Yes, I have</b>. Also <i>I have gone to Orlando twice</i> ✗ → <b>been</b> (gone = still there). Note: Americans sometimes say <i>Did you ever…?</i>; teach <i>Have you ever…?</i> as the standard form.</div>
 <div class="box"><h4>AUDIO</h4>Track 08.1 The first day (slow and natural) · Track 08.2 Past participles · Track 08.3 Questions and answers</div>""")
@@ -162,6 +163,9 @@ def build(teacher):
 <p style="margin-top:2mm"><b>2. My best adventure (50–75 words).</b> Write about an exciting experience. Start with the present perfect (<i>I've been… / I've done…</i>), then give details with the past simple: when, where, who with, how you felt.</p>
 <div class="wline"></div><div class="wline"></div><div class="wline"></div><div class="wline"></div><div class="wline"></div>""",
     18, """<p>Next class: ask follow-up questions about the student's adventure (<i>When did you…? Was it scary?</i>). Check present perfect vs past simple and the participles.</p>""")
+
+    import grammar_ref
+    grammar_ref.present_perfect(b)
 
     b.extra("Audio scripts", f"""
 {sub("08.1", "The first day (slow and natural)")}
