@@ -1,0 +1,10 @@
+{
+ "material": "speak-bridge",
+ "characters": {"Tom": "en-US-Neural2-D", "Ana": "en-US-Neural2-F", "Narrator": "en-US-Neural2-J"},
+ "units": {"a2-unit-05": {
+  "05.1 Online class": "Tom: OK, let's read the email from your cousin together. Can you read the first sentence, please?\nAna: Sure. Life in Orlando is great, but the weather is very... how do you say the next word?\nTom: Humid.\nAna: Humid. What does humid mean?\nTom: It means the air is hot and wet. Like Rio de Janeiro in the summer.\nAna: Ah, OK. Can we say Orlando has a lot of humid?\nTom: Good question, but no. Humid is an adjective. The noun is humidity, so you can say Orlando has a lot of humidity.\nAna: Got it. And here. Last weekend I got a terrible sunburn at Cocoa Beach. What kind of word is sunburn?\nTom: It's a noun. It means red and painful skin after too much sun.\nAna: Ouch! How do you spell it? Is it one word or two?\nTom: One word. S-U-N-B-U-R-N.\nAna: And in the photo, what do you call this white cream on her face?\nTom: That's sunscreen. You put it on before you go to the beach.\nAna: Carol really needs more sunscreen! I have one more question. How do you pronounce this word? R-E-C-E-I-P-T.\nTom: Receipt. The P is silent.\nAna: A silent P? English spelling is crazy!\nTom: It is sometimes! Now cover the email. Can you remember how to spell humid?\nAna: H-U-M-I-D.\nTom: Perfect. Well done!",
+  "05.2 Repeat letters": "Narrator: A, H, J, K.\nNarrator: B, C, D, E, G, P, T, V, Z.\nNarrator: F, L, M, N, S, X.\nNarrator: I, Y.\nNarrator: O.\nNarrator: Q, U, W.\nNarrator: R.",
+  "05.3 Repeat questions": "Narrator: How do you say the next word?\nNarrator: What does humid mean?\nNarrator: Can we say this?\nNarrator: What kind of word is it?\nNarrator: How do you spell it?\nNarrator: What do you call this?\nNarrator: How do you pronounce this word?"
+ }},
+ "images": {"a2-unit-05": {"A": "open notebook dictionary pen desk", "B": "woman sunscreen on nose beach"}}
+}
