@@ -1,0 +1,10 @@
+{
+ "material": "speak-bridge",
+ "characters": {"Kate": "en-US-Neural2-G", "Lucy": "en-US-Neural2-C", "Narrator": "en-US-Neural2-J"},
+ "units": {"a2-unit-11": {
+  "11.1 Surprise party": "Kate: Is Tom at school?\nLucy: Yes, he's been at school since eight. He doesn't suspect anything! I've never organized a surprise party before. Have you?\nKate: Yes, I have. I've made a list of everything we need to do. Have you bought his present yet?\nLucy: Yes, I have. I bought him a new pair of running shoes last weekend. His old ones are terrible!\nKate: Perfect. And I invited the guests two weeks ago. Megan can't come, but she's already sent a card from Seattle.\nLucy: That's so nice. We've already ordered the pizzas, right?\nKate: Right, but they haven't arrived yet. The delivery is at six thirty.\nLucy: Have you made the cake yet?\nKate: No, I still haven't made it. Can you believe it? I make cakes every day for my customers, but I haven't had time for my own brother!\nLucy: Ha! What kind of cake does he like?\nKate: Carrot cake with chocolate frosting. It's a Brazilian recipe. Ana sent it to me.\nLucy: Yum! And is the bakery ready for the party?\nKate: Almost. I've just cleaned the tables and moved the chairs. Look!\nLucy: It looks great! When are we going to blow up the balloons?\nKate: Oh no! I've forgotten to buy the balloons!\nLucy: Don't worry. I'll go to the store and get some now. My arm is fine. I can carry them!\nKate: Thanks! I'll start the cake.",
+  "11.2 Repeat words": "Narrator: already\nNarrator: yet\nNarrator: still\nNarrator: just\nNarrator: surprise\nNarrator: balloons\nNarrator: decorations\nNarrator: invitations",
+  "11.3 Repeat sentences": "Narrator: Have you bought his present yet?\nNarrator: Yes, I've already bought it.\nNarrator: No, I haven't made the cake yet.\nNarrator: I still haven't made it.\nNarrator: I've just cleaned the tables."
+ }},
+ "images": {"a2-unit-11": {"A": "man blowing up balloon", "B": "wrapping gift paper", "C": "baking cake kitchen", "D": "party invitation card", "E": "party decorations garland", "F": "pizza delivery box", "G": "birthday candles cake", "H": "party guests surprise"}}
+}
