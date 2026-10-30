@@ -68,3 +68,25 @@ def present_perfect_for_since(b):
 <tr><td>C. not finished: started in the past, true now (Unit 09)</td><td>for · since · How long…?</td><td>I've lived in Seattle for eleven years.</td></tr></table>
 <div class="box sand" style="margin-top:1.5mm"><h4>DON'T SAY</h4><s>I live here since 2015.</s> → I<b>'ve lived</b> here since 2015. · <s>I know her for ten years.</s> → I<b>'ve known</b> her for ten years. · <s>since ten years</s> → <b>for</b> ten years · <s>for 2020</s> → <b>since</b> 2020 · <s>How long do you live here?</s> → How long <b>have you lived</b> here?</div>""",
     16, """<p>The most common Brazilian mistake: <i>I live here since…</i>. Draw the bar: it starts at <b>since</b>; its length is <b>for</b>. Convert: <i>since 2015 → for eleven years</i>.</p>""")
+
+
+def present_perfect_already_yet(b):
+    """One-page reference: already, yet, still (and just) with the present perfect, plus a recap of the four uses."""
+    b.page(f"""{b.sec("+", "Grammar reference: already, yet, still and just", "")}
+<div class="box" style="margin-top:0"><h4>WHAT ARE THEY FOR?</h4>When we check a list of things to do (a party, a trip, work), we use the present perfect with <b>already</b>, <b>yet</b>, <b>still</b> and <b>just</b>. They tell us if something is <b>done</b> or <b>not done</b>, and how we feel about it.</div>
+<table style="table-layout:fixed;margin-top:1mm;font-size:8.8pt"><tr><th style="width:22mm">word</th><th>meaning</th><th>sentence type</th><th>position</th><th>example</th></tr>
+<tr><td><b>already</b></td><td>done, maybe sooner than expected</td><td>positive (and surprised questions)</td><td>between <i>have</i> and the participle</td><td>We've <b>already</b> ordered the pizzas.</td></tr>
+<tr><td><b>yet</b></td><td>not done, but we expect it</td><td>questions and negatives</td><td>at the end</td><td>Have you made the cake <b>yet</b>? · The pizzas haven't arrived <b>yet</b>.</td></tr>
+<tr><td><b>still</b></td><td>not done, and it's a problem / a surprise</td><td>negatives</td><td>before <i>haven't / hasn't</i></td><td>I <b>still</b> haven't made the cake!</td></tr>
+<tr><td><b>just</b></td><td>done a very short time ago</td><td>positive</td><td>between <i>have</i> and the participle</td><td>I've <b>just</b> cleaned the tables.</td></tr></table>
+<h4 style="color:#0f4a5a;margin:1.5mm 0 .5mm">A TYPICAL CHECKLIST CONVERSATION</h4>
+<div class="msg" style="max-width:none;padding:1.5mm 4mm;font-size:8.8pt;line-height:1.5"><b>A:</b> Have you invited the guests <b>yet</b>? <b>B:</b> Yes, I've <b>already</b> invited them. I sent the messages last week.<br><b>A:</b> And the cake? <b>B:</b> No, I haven't made it <b>yet</b>. / Oh no, I <b>still</b> haven't made it! <b>A:</b> Don't worry. I've <b>just</b> bought the eggs.</div>
+<p class="small" style="margin:.8mm 0">Remember: with a finished time, use the past simple: <i>I invited them <b>two weeks ago</b>.</i> In American English you will also hear the past simple with these words (<i>Did you eat yet? I already ate.</i>); both are correct, but learn the present perfect first.</p>
+<h4 style="color:#0f4a5a;margin:1.5mm 0 .5mm">THE PRESENT PERFECT: FOUR USES</h4>
+<table style="table-layout:fixed;margin-top:0;font-size:8.6pt"><tr><th>use</th><th>key words</th><th>example</th></tr>
+<tr><td>A. recent news, result now (Unit 07)</td><td>just</td><td>I've just cut my finger.</td></tr>
+<tr><td>B. life experiences (Unit 08)</td><td>ever · never · before</td><td>Have you ever swum with manatees?</td></tr>
+<tr><td>C. not finished, true now (Unit 09)</td><td>for · since · How long…?</td><td>I've lived here for eleven years.</td></tr>
+<tr><td>D. checking what's done (Unit 11)</td><td>already · yet · still</td><td>Have you bought the present yet?</td></tr></table>
+<div class="box sand" style="margin-top:1.5mm"><h4>DON'T SAY</h4><s>I haven't yet finished.</s> → I haven't finished <b>yet</b>. · <s>I already have done it.</s> → I'<b>ve already done</b> it. · <s>I still not have called.</s> → I <b>still haven't</b> called. · <s>Have you made it still?</s> → … <b>yet</b>? · <s>I've already sent it last week.</s> → I <b>sent</b> it last week.</div>""",
+    16, """<p>Make a real checklist with the student (their week, a trip, a party) and ask <i>Have you… yet?</i> The student answers with <i>already / not… yet / still haven't</i>. Correct the word position first; meaning comes easily.</p>""")
