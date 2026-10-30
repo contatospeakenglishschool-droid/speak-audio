@@ -6,6 +6,7 @@ for _d in ("/home/claude/speak-audio/engine", os.path.join(os.path.dirname(os.pa
         sys.path.insert(0, _d); break
 import speak_engine as _se
 from speak_engine import *
+import grammar_ref
 _se.SERIES = "Bridge"
 setup(band="A2 · UNIT 07", audio_json="audio_a2-unit-07.json", img_dir="img")
 
@@ -44,11 +45,11 @@ def build(teacher):
 <tr><td>1 Warm-up</td><td>8 min</td><td>Accidents and injuries</td><td>1</td></tr>
 <tr><td>2 Listening</td><td>10 min</td><td>Three dialogues at an urgent care center in Chicago</td><td>2</td></tr>
 <tr><td>3 Language focus</td><td>10 min</td><td>Present perfect: form · just · present result</td><td>3</td></tr>
-<tr><td>4 Pronunciation lab</td><td>5 min</td><td>Contractions · past participles</td><td>4</td></tr>
-<tr><td>5 Practice</td><td>8 min</td><td>Have / has + past participle · Word builder: treatments</td><td>5</td></tr>
-<tr><td>6 Speaking</td><td>12 min</td><td>Mime it! · doctor and patient role-play</td><td>6</td></tr>
-<tr><td>7 Wrap-up</td><td>2 min</td><td>Progress check · irregular verbs · homework (50–75 words)</td><td>7</td></tr>
-<tr><td>+ Grammar reference</td><td>–</td><td>The present perfect: form, uses, present perfect or past simple</td><td>8</td></tr></table>
+<tr><td>+ Grammar reference</td><td>–</td><td>The present perfect: form, uses, present perfect or past simple</td><td>4</td></tr>
+<tr><td>4 Pronunciation lab</td><td>5 min</td><td>Contractions · past participles</td><td>5</td></tr>
+<tr><td>5 Practice</td><td>8 min</td><td>Have / has + past participle · Word builder: treatments</td><td>6</td></tr>
+<tr><td>6 Speaking</td><td>12 min</td><td>Mime it! · doctor and patient role-play</td><td>7</td></tr>
+<tr><td>7 Wrap-up</td><td>2 min</td><td>Progress check · irregular verbs · homework (50–75 words)</td><td>8</td></tr></table>
 <div class="box sand"><h4>THE STORY CONTINUES</h4>A bad day in Chicago. At an urgent care center, the doctor (one-off voice, Studio-O) sees three patients: <b>Tom</b> slipped on the ice on his way to school and sprained his ankle; <b>Lucy</b> fell off her bike when a car door opened in front of her (she was wearing a helmet!) and broke her arm; and <b>Kate and Rita</b> had an accident in Kate's bakery: Kate burned her hand and Rita cut her finger. In the US, people go to <b>urgent care</b> for injuries that are not life-threatening and to the <b>ER</b> (emergency room) for emergencies; the emergency number is 911.</div>
 <div class="box"><h4>KEY PROBLEM FOR BRAZILIANS</h4>Portuguese uses a different structure for recent events, so students say <i>I just slip</i> ✗ or <i>I have just slipped yesterday</i> ✗. Teach <b>I've just slipped</b> (recent, no time) vs <b>I slipped an hour ago</b> (past simple + time). Watch participles: <i>He's cutted</i> ✗ → <b>cut</b>; <i>I haven't broke</i> ✗ → <b>broken</b>; <i>What have you did?</i> ✗ → <b>done</b>. Note: Americans often use the past simple with <i>just</i> (<i>I just slipped</i>); both are correct.</div>
 <div class="box"><h4>AUDIO</h4>Track 07.1 Three dialogues (slow and natural) · Track 07.2 Sentences · Track 07.3 Past participles</div>""")
@@ -90,7 +91,10 @@ def build(teacher):
 <table style="table-layout:fixed;margin-top:0;font-size:9pt"><tr>{"".join(f"<td style='text-align:center'>{v} → {A(p, 'min-width:12mm')}</td>" for v, p in (("break", "broken"), ("fall", "fallen"), ("cut", "cut"), ("hurt", "hurt"), ("do", "done"), ("be", "been")))}</tr></table>
 <div class="box sand"><h4>RULE</h4>Present perfect = a past action + a result <b>now</b>: <i>I've just cut my finger</i> (it's bleeding now). With a finished time, use the past simple: <i>I cut my finger <b>this morning</b> / <b>an hour ago</b></i>.</div>""",
     24, """<ol><li>A: draw a timeline: past action → result now. <i>'s</i> can be <i>is</i> or <i>has</i>: <i>She's burned</i> = she <b>has</b> burned (followed by a participle).</li>
-<li>C: <i>burn</i> → <i>burned</i> in American English (<i>burnt</i> is British). The full irregular verb list is on page 7.</li></ol>""")
+<li>C: <i>burn</i> → <i>burned</i> in American English (<i>burnt</i> is British). The full irregular verb list is on page 8.</li></ol>""")
+
+    # Grammar reference (before Common mistakes)
+    grammar_ref.present_perfect(b)
 
     # Page 4
     b.page(f"""{sub("D", "Common mistakes for Brazilians", "2 min")}
@@ -142,7 +146,7 @@ def build(teacher):
 <div class="msg" style="max-width:none;padding:1.5mm 4mm"><b>Teacher:</b> You've just slipped on a banana peel… and you've hurt your back! <b>You:</b> Yes!</div>
 {sub("B", "Role-play: at urgent care. You are the patient; your teacher is the doctor. Then change roles.", "6 min")}
 <div class="two"><div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.8pt"><b>Patient</b><br>• Choose an accident from A.<br>• Explain what's happened and when.<br>• Ask: <i>Have I broken it? What should I do?</i></div>
-<div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.8pt"><b>Doctor</b><br>• Start: <i>What's happened to you? / What have you done to yourself?</i><br>• Check: <i>Can I touch it? Does it hurt?</i><br>• Give a treatment from page 5.</div></div>""",
+<div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.8pt"><b>Doctor</b><br>• Start: <i>What's happened to you? / What have you done to yourself?</i><br>• Check: <i>Can I touch it? Does it hurt?</i><br>• Give a treatment from page 6.</div></div>""",
     26, """<ol><li>A: if mime is difficult online, the student can describe the scene in simple words: <i>I'm in the kitchen… Oops!</i></li>
 <li>B: check the contrast: <i>I've just fallen</i> (no time) vs <i>It happened an hour ago</i> (past simple).</li></ol>""")
 
@@ -168,8 +172,6 @@ def build(teacher):
 <div class="wline"></div><div class="wline"></div><div class="wline"></div><div class="wline"></div>""",
     18, """<p>Next class: start with a quick verb quiz (you say the verb, the student says the past and the participle). Check the message: present perfect for the news, past simple for the details.</p>""")
 
-    import grammar_ref
-    grammar_ref.present_perfect(b)
 
     b.extra("Audio scripts", f"""
 {sub("07.1", "Three dialogues at urgent care (slow and natural)")}

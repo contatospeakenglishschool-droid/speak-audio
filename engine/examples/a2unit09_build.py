@@ -11,7 +11,7 @@ _se.SERIES = "Bridge"
 setup(band="A2 · UNIT 09", audio_json="audio_a2-unit-09.json", img_dir="img")
 
 PHOTOS = [("A", "graduate from college", "graduation"), ("B", "start a new job", "handshake"), ("C", "get married", "wedding rings"), ("D", "have a baby", "baby feet"),
-          ("E", "buy a car", "car"), ("F", "move to a new house", "moving boxes"), ("G", "open a store", "open sign"), ("H", "get a dog", "puppy")]
+          ("E", "buy a car", "new car"), ("F", "move to a new house", "moving boxes"), ("G", "open a store", "ribbon cutting"), ("H", "get a dog", "puppy")]
 
 _r = json.load(open("roteiro.json"))["units"]["a2-unit-09"]
 SCRIPT = [tuple(x.split(": ", 1)) for x in _r["09.1 Messages"].split("\n")]
@@ -52,11 +52,11 @@ def build(teacher):
 <tr><td>1 Warm-up</td><td>8 min</td><td>Life events</td><td>1</td></tr>
 <tr><td>2 Reading</td><td>10 min</td><td>Messages on a classmates website: Tom finds an old friend (with audio)</td><td>2</td></tr>
 <tr><td>3 Language focus</td><td>10 min</td><td>Present perfect for unfinished situations · for and since · How long…?</td><td>3</td></tr>
-<tr><td>4 Pronunciation lab</td><td>5 min</td><td>Weak for · questions with How long</td><td>4</td></tr>
-<tr><td>5 Practice</td><td>8 min</td><td>Rewrite with for / since · Word builder: life stages</td><td>5</td></tr>
-<tr><td>6 Speaking</td><td>12 min</td><td>The class reunion · How long have you…?</td><td>6</td></tr>
-<tr><td>7 Wrap-up</td><td>2 min</td><td>Progress check and homework (50–75 words)</td><td>7</td></tr>
-<tr><td>+ Grammar reference</td><td>–</td><td>For and since · the three uses of the present perfect</td><td>8</td></tr></table>
+<tr><td>+ Grammar reference</td><td>–</td><td>For and since · the three uses of the present perfect</td><td>4</td></tr>
+<tr><td>4 Pronunciation lab</td><td>5 min</td><td>Weak for · questions with How long</td><td>5</td></tr>
+<tr><td>5 Practice</td><td>8 min</td><td>Rewrite with for / since · Word builder: life stages</td><td>6</td></tr>
+<tr><td>6 Speaking</td><td>12 min</td><td>The class reunion · How long have you…?</td><td>7</td></tr>
+<tr><td>7 Wrap-up</td><td>2 min</td><td>Progress check and homework (50–75 words)</td><td>8</td></tr></table>
 <div class="box sand"><h4>THE STORY CONTINUES</h4>On a classmates website, <b>Tom</b> finds Megan (invented; one-off female voice, Studio-O), a friend from Lakeside College (invented), class of 2010. She moved to Seattle in 2015 and is a nurse at a children's hospital; Tom has taught at a Chicago high school since 2012 and online since 2020 (one of his students is Ana). Tom has a cat, Pancake; Megan has a dog, Biscuit. They plan to meet at Sweet Kate in March. The "for" numbers count from 2026.</div>
 <div class="box"><h4>KEY PROBLEM FOR BRAZILIANS</h4>Portuguese uses the present for situations that continue, so students say <i>I live here since 2015</i> ✗ → <b>I've lived here since 2015</b>; <i>I know her for ten years</i> ✗ → <b>I've known her for ten years</b>; <i>How long do you live here?</i> ✗ → <b>How long have you lived here?</b> They also mix <i>for / since</i>: <i>since ten years</i> ✗ → <b>for ten years</b>.</div>
 <div class="box"><h4>AUDIO</h4>Track 09.1 The messages (slow and natural) · Track 09.2 For and since · Track 09.3 Sentences</div>""")
@@ -100,9 +100,12 @@ def build(teacher):
 {sub("C", "Make the question. Then answer about Megan and Tom.", "3 min")}
 <ol><li>How long / Megan / live / in Seattle? {R("How long has Megan lived in Seattle? — For eleven years. / Since 2015.")}<div class="wline"></div></li>
 <li>How long / Tom / have / Pancake? {R("How long has Tom had Pancake? — For five years.")}<div class="wline"></div></li></ol>
-<div class="box sand"><h4>RULE</h4>Started in the past + true now → <b>present perfect</b> (not the present!): <i>I've lived here since 2015</i>, not <s>I live here since 2015</s>. Ask with <b>How long have you…?</b> More on page 8.</div>""",
+<div class="box sand"><h4>RULE</h4>Started in the past + true now → <b>present perfect</b> (not the present!): <i>I've lived here since 2015</i>, not <s>I live here since 2015</s>. Ask with <b>How long have you…?</b> More on page 4.</div>""",
     24, """<ol><li>A: draw a timeline: a point (past simple) vs a bar that continues to now (present perfect).</li>
 <li>B: practice converting: <i>since 2015 → for eleven years</i> (from 2026).</li></ol>""")
+
+    # Grammar reference (before Common mistakes)
+    grammar_ref.present_perfect_for_since(b)
 
     # Page 4
     b.page(f"""{sub("D", "Common mistakes for Brazilians", "2 min")}
@@ -173,7 +176,6 @@ def build(teacher):
 <div class="wline"></div><div class="wline"></div><div class="wline"></div><div class="wline"></div><div class="wline"></div>""",
     18, """<p>Next class: the student reads the reply aloud and you ask follow-up questions: <i>How long have you…? When did you…?</i> Then start the Review (Unit 10).</p>""")
 
-    grammar_ref.present_perfect_for_since(b)
 
     b.extra("Audio scripts", f"""
 {sub("09.1", "The messages (slow and natural)")}

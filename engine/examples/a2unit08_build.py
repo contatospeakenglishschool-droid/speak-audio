@@ -6,6 +6,7 @@ for _d in ("/home/claude/speak-audio/engine", os.path.join(os.path.dirname(os.pa
         sys.path.insert(0, _d); break
 import speak_engine as _se
 from speak_engine import *
+import grammar_ref
 _se.SERIES = "Bridge"
 setup(band="A2 · UNIT 08", audio_json="audio_a2-unit-08.json", img_dir="img")
 
@@ -47,11 +48,11 @@ def build(teacher):
 <tr><td>1 Warm-up</td><td>8 min</td><td>Adventure activities · past participles</td><td>1</td></tr>
 <tr><td>2 Listening</td><td>10 min</td><td>Ana and Marcos's first day of an adventure vacation in Florida</td><td>2</td></tr>
 <tr><td>3 Language focus</td><td>10 min</td><td>Present perfect for experiences vs past simple for details · been / gone</td><td>3</td></tr>
-<tr><td>4 Pronunciation lab</td><td>5 min</td><td>Irregular participles · Have you ever…?</td><td>4</td></tr>
-<tr><td>5 Practice</td><td>8 min</td><td>Ana's message · Word builder: go / do / ride</td><td>5</td></tr>
-<tr><td>6 Speaking</td><td>12 min</td><td>Truth or lie? · find out more</td><td>6</td></tr>
-<tr><td>7 Wrap-up</td><td>2 min</td><td>Progress check and homework (50–75 words)</td><td>7</td></tr>
-<tr><td>+ Grammar reference</td><td>–</td><td>The present perfect: form, uses, present perfect or past simple</td><td>8</td></tr></table>
+<tr><td>+ Grammar reference</td><td>–</td><td>The present perfect: form, uses, present perfect or past simple</td><td>4</td></tr>
+<tr><td>4 Pronunciation lab</td><td>5 min</td><td>Irregular participles · Have you ever…?</td><td>5</td></tr>
+<tr><td>5 Practice</td><td>8 min</td><td>Ana's message · Word builder: go / do / ride</td><td>6</td></tr>
+<tr><td>6 Speaking</td><td>12 min</td><td>Truth or lie? · find out more</td><td>7</td></tr>
+<tr><td>7 Wrap-up</td><td>2 min</td><td>Progress check and homework (50–75 words)</td><td>8</td></tr></table>
 <div class="box sand"><h4>THE STORY CONTINUES</h4>It's summer in Brazil and winter in Florida: <b>Ana and Marcos</b> are on an adventure vacation near cousin Carol's home. On the first day, their guide Jake (invented; one-off male voice, Chirp 3 HD Charon) asks about their experiences: kayaking, swimming with manatees, a zip line, camping. Facts: Crystal River, Florida, is the largest natural winter refuge for manatees in the world; hundreds gather at its warm springs in winter, and it is the only place in the US where swimming with wild manatees is legal (Smithsonian Magazine, "There's Only One Place in the United States Where It's Legal to Swim With Wild Manatees"; US Fish and Wildlife Service, Crystal River National Wildlife Refuge).</div>
 <div class="box"><h4>KEY PROBLEM FOR BRAZILIANS</h4>Portuguese uses one past form for all finished experiences, so students mix the forms: <i>I have been in Florida last year</i> ✗ → <b>I went to Florida last year</b>; <i>Have you ever went…?</i> ✗ → <b>been</b>; and answer <i>Have you ever…?</i> with <i>Yes, I did</i> ✗ → <b>Yes, I have</b>. Also <i>I have gone to Orlando twice</i> ✗ → <b>been</b> (gone = still there). Note: Americans sometimes say <i>Did you ever…?</i>; teach <i>Have you ever…?</i> as the standard form.</div>
 <div class="box"><h4>AUDIO</h4>Track 08.1 The first day (slow and natural) · Track 08.2 Past participles · Track 08.3 Questions and answers</div>""")
@@ -93,6 +94,9 @@ def build(teacher):
 <div class="box sand"><h4>TIME WORDS</h4>Present perfect: <b>ever, never, before, many times, twice</b> · Past simple: <b>yesterday, last year, in 2023, when I was twenty, two weeks ago</b></div>""",
     24, """<ol><li>A: draw a "life line": experiences anywhere on the line (present perfect) vs a point with a date (past simple). A conversation usually starts with the present perfect and continues with the past simple.</li>
 <li>B: 5–6 show the typical pattern: question in present perfect, details in past simple.</li></ol>""")
+
+    # Grammar reference (before Common mistakes)
+    grammar_ref.present_perfect(b)
 
     # Page 4
     b.page(f"""{sub("C", "Common mistakes for Brazilians", "2 min")}
@@ -164,8 +168,6 @@ def build(teacher):
 <div class="wline"></div><div class="wline"></div><div class="wline"></div><div class="wline"></div><div class="wline"></div>""",
     18, """<p>Next class: ask follow-up questions about the student's adventure (<i>When did you…? Was it scary?</i>). Check present perfect vs past simple and the participles.</p>""")
 
-    import grammar_ref
-    grammar_ref.present_perfect(b)
 
     b.extra("Audio scripts", f"""
 {sub("08.1", "The first day (slow and natural)")}
