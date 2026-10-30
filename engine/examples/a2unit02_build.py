@@ -6,6 +6,7 @@ for _d in ("/home/claude/speak-audio/engine", os.path.join(os.path.dirname(os.pa
         sys.path.insert(0, _d); break
 import speak_engine as _se
 from speak_engine import *
+import grammar_ref
 _se.SERIES = "Bridge"
 setup(band="A2 · UNIT 02", audio_json="audio_a2-unit-02.json", img_dir="img")
 
@@ -60,10 +61,11 @@ def build(teacher):
 <tr><td>1 Warm-up</td><td>8 min</td><td>Online security vocabulary</td><td>1</td></tr>
 <tr><td>2 Reading</td><td>10 min</td><td>A news article: "Is your password strong enough?" (with audio)</td><td>2</td></tr>
 <tr><td>3 Language focus</td><td>10 min</td><td>Verbs from the article · verb + to / verb + -ing / verb + object + to</td><td>3</td></tr>
-<tr><td>4 Pronunciation lab</td><td>5 min</td><td>Word stress in tech words · verb patterns in sentences</td><td>4</td></tr>
-<tr><td>5 Practice</td><td>8 min</td><td>Make sentences · Word builder: internet verbs</td><td>5</td></tr>
-<tr><td>6 Speaking</td><td>12 min</td><td>Guess the verb · your online habits</td><td>6</td></tr>
-<tr><td>7 Wrap-up</td><td>2 min</td><td>Progress check and homework (50–75 words)</td><td>7</td></tr></table>
+<tr><td>+ Grammar reference</td><td>–</td><td>Verb + to, verb + -ing, verb + person + to</td><td>4</td></tr>
+<tr><td>4 Pronunciation lab</td><td>5 min</td><td>Word stress in tech words · verb patterns in sentences</td><td>5</td></tr>
+<tr><td>5 Practice</td><td>8 min</td><td>Make sentences · Word builder: internet verbs</td><td>6</td></tr>
+<tr><td>6 Speaking</td><td>12 min</td><td>Guess the verb · your online habits</td><td>7</td></tr>
+<tr><td>7 Wrap-up</td><td>2 min</td><td>Progress check and homework (50–75 words)</td><td>8</td></tr></table>
 <div class="box"><h4>HOW THIS GUIDE WORKS</h4>Every page looks like the Student Book page with the same number. Your notes are in the <b>yellow box</b>; <span class="red">answers in red</span> are not in the Student Book. This is the first Speak! Bridge reading: the article is original, and the audio (track 02.1) lets the student read and listen.</div>
 <div class="box sand"><h4>THE STORY CONTINUES</h4>Last week someone hacked the email account of Kate's bakery in Chicago. Her brother Tom sends her an article from an American tech news website about strong passwords. Facts in the article come from CISA (Cybersecurity and Infrastructure Security Agency, cisa.gov, "Use Strong Passwords": at least 16 characters, or a passphrase of 5–7 random words; a different password for each account; a password manager; multifactor authentication) and NIST (National Institute of Standards and Technology, Digital Identity Guidelines SP 800-63B: no forced password changes on a schedule; allow long passphrases).</div>
 <div class="box"><h4>KEY PROBLEM FOR BRAZILIANS</h4>Portuguese uses <i>que</i> + a clause where English uses an object + to: <i>I want that you help me</i> ✗ → <b>I want you to help me</b>. Students also use <i>to</i> after verbs that need <i>-ing</i>: <i>avoid to use, enjoy to cook</i> ✗ → <b>avoid using, enjoy cooking</b>; and <i>suggest me to</i> ✗ → <b>suggest + -ing</b>.</div>
@@ -108,6 +110,9 @@ def build(teacher):
 <div class="box sand"><h4>BOTH ARE OK</h4><b>like, love, hate, prefer</b> + to or -ing: I like to cook / I like cooking. · Negative with an object: They warned us <b>not to</b> click the link.</div>""",
     24, """<ol><li>A: <i>want</i> is the extra verb. Check the meanings with real examples from the student's life.</li>
 <li>C: <i>dislike</i> is only + -ing. <i>stop + -ing</i> = not continue; <i>stop to + verb</i> = stop in order to do something (He stopped to buy coffee) — mention it only if the student asks.</li></ol>""")
+
+    # Grammar reference (before Common mistakes)
+    grammar_ref.verb_patterns(b)
 
     # Page 4
     b.page(f"""{sub("D", "Common mistakes for Brazilians", "2 min")}

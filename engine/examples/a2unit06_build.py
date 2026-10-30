@@ -6,6 +6,7 @@ for _d in ("/home/claude/speak-audio/engine", os.path.join(os.path.dirname(os.pa
         sys.path.insert(0, _d); break
 import speak_engine as _se
 from speak_engine import *
+import grammar_ref
 _se.SERIES = "Bridge"
 setup(band="A2 · UNIT 06", audio_json="audio_a2-unit-06.json", img_dir="img")
 
@@ -44,10 +45,11 @@ def build(teacher):
 <tr><td>1 Warm-up</td><td>8 min</td><td>Relationships</td><td>1</td></tr>
 <tr><td>2 Listening</td><td>10 min</td><td>Four short conversations: Paulo is a nice guy</td><td>2</td></tr>
 <tr><td>3 Language focus</td><td>10 min</td><td>Praising, complimenting, congratulating · polite responses</td><td>3</td></tr>
-<tr><td>4 Pronunciation lab</td><td>5 min</td><td>Enthusiastic intonation · responses</td><td>4</td></tr>
-<tr><td>5 Practice</td><td>8 min</td><td>Cross out the extra words · Word builder: personality adjectives</td><td>5</td></tr>
-<tr><td>6 Speaking</td><td>12 min</td><td>Make me say it! · compliments in Brazil and the US</td><td>6</td></tr>
-<tr><td>7 Wrap-up</td><td>2 min</td><td>Progress check and homework (50–75 words)</td><td>7</td></tr></table>
+<tr><td>+ Grammar reference</td><td>–</td><td>Praising, complimenting, congratulating · responses</td><td>4</td></tr>
+<tr><td>4 Pronunciation lab</td><td>5 min</td><td>Enthusiastic intonation · responses</td><td>5</td></tr>
+<tr><td>5 Practice</td><td>8 min</td><td>Cross out the extra words · Word builder: personality adjectives</td><td>6</td></tr>
+<tr><td>6 Speaking</td><td>12 min</td><td>Make me say it! · compliments in Brazil and the US</td><td>7</td></tr>
+<tr><td>7 Wrap-up</td><td>2 min</td><td>Progress check and homework (50–75 words)</td><td>8</td></tr></table>
 <div class="box sand"><h4>THE STORY CONTINUES</h4>Paulo is a nice guy. In New York he praises Maya, a colleague at the travel agency (invented), for her Brooklyn food tour; he congratulates his neighbor on the new baby, Olivia; he congratulates Tom, who ran the Chicago Marathon; and on a video call he compliments his cousin <b>Carol</b> in Orlando. <b>Carol speaks for the first time</b> (fixed voice: Chirp 3 HD Leda). Maya uses the voice for one-off women (Studio-O), the neighbor a natural male voice (Chirp 3 HD Charon).</div>
 <div class="box"><h4>KEY PROBLEM FOR BRAZILIANS</h4>In Portuguese one word covers birthdays and achievements, so students say <i>Congratulations!</i> ✗ on someone's birthday → <b>Happy birthday!</b> Congratulations is for achievements and news (a new job, a baby, a wedding). Also: <i>Congratulations for</i> ✗ → <b>on</b>; <i>That dress suits to you</i> ✗ → <b>suits you</b>; <i>You made a great job</i> ✗ → <b>did</b>. And Brazilians often reject compliments (<i>Oh, this old thing?</i>): in English, a simple <b>Thanks!</b> is better.</div>
 <div class="box"><h4>AUDIO</h4>Track 06.1 Four conversations (slow and natural) · Track 06.2 Nice phrases · Track 06.3 Responses</div>""")
@@ -95,6 +97,9 @@ def build(teacher):
 <div class="box sand"><h4>PATTERNS</h4><b>What a</b> + adjective + noun: <i>What a nice boss!</i> · <b>What</b> + adjective + plural/uncountable noun: <i>What beautiful eyes! What great hair!</i><br><b>Congratulations on</b> + noun / -ing: <i>Congratulations on your new job / on passing the test!</i> · <b>good at</b> + -ing (Unit 04!)</div>""",
     24, """<ol><li>A: drill each phrase with real enthusiasm. The fixed part (<i>What a…</i>, <i>Congratulations on…</i>) never changes; change only the adjective and noun.</li>
 <li>B: ask: <i>In Brazil, do people accept compliments easily?</i> In the US, a simple <i>Thanks!</i> is normal.</li></ol>""")
+
+    # Grammar reference (before Common mistakes)
+    grammar_ref.being_nice(b)
 
     # Page 4
     b.page(f"""{sub("C", "Common mistakes for Brazilians", "2 min")}

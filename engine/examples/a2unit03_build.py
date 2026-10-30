@@ -6,6 +6,7 @@ for _d in ("/home/claude/speak-audio/engine", os.path.join(os.path.dirname(os.pa
         sys.path.insert(0, _d); break
 import speak_engine as _se
 from speak_engine import *
+import grammar_ref
 _se.SERIES = "Bridge"
 setup(band="A2 · UNIT 03", audio_json="audio_a2-unit-03.json", img_dir="img")
 
@@ -46,10 +47,11 @@ def build(teacher):
 <tr><td>1 Warm-up</td><td>8 min</td><td>Parts of a tree</td><td>1</td></tr>
 <tr><td>2 Listening</td><td>10 min</td><td>A podcast: forest bathing in Central Park</td><td>2</td></tr>
 <tr><td>3 Language focus</td><td>10 min</td><td>Sense verbs as actions and descriptions · state verbs · present simple and continuous</td><td>3</td></tr>
-<tr><td>4 Pronunciation lab</td><td>5 min</td><td>Singular and plural · sense sentences</td><td>4</td></tr>
-<tr><td>5 Practice</td><td>8 min</td><td>Paulo's blog · correct the mistakes · Word builder: sense adjectives</td><td>5</td></tr>
-<tr><td>6 Speaking</td><td>12 min</td><td>Guess the place · nature and the senses</td><td>6</td></tr>
-<tr><td>7 Wrap-up</td><td>2 min</td><td>Progress check and homework (50–75 words)</td><td>7</td></tr></table>
+<tr><td>+ Grammar reference</td><td>–</td><td>Action and state verbs · sense verbs · simple or continuous</td><td>4</td></tr>
+<tr><td>4 Pronunciation lab</td><td>5 min</td><td>Singular and plural · sense sentences</td><td>5</td></tr>
+<tr><td>5 Practice</td><td>8 min</td><td>Paulo's blog · correct the mistakes · Word builder: sense adjectives</td><td>6</td></tr>
+<tr><td>6 Speaking</td><td>12 min</td><td>Guess the place · nature and the senses</td><td>7</td></tr>
+<tr><td>7 Wrap-up</td><td>2 min</td><td>Progress check and homework (50–75 words)</td><td>8</td></tr></table>
 <div class="box sand"><h4>THE STORY CONTINUES</h4>Paulo, now a photographer and tour guide in New York, takes visitors on slow Saturday walks in the <b>North Woods</b> of Central Park. The host of <i>Green City</i>, a podcast about nature in New York (invented), tries forest bathing with him. Paulo remembers his grandmother Lourdes's mango tree in Brazil. Facts: the North Woods is a 40-acre woodland in the north of Central Park, and the Loch is a stream that runs through it into the Harlem Meer (Central Park Conservancy, centralparknyc.org, "North Woods" and "The Loch"). Forest bathing (<i>shinrin-yoku</i>) comes from Japan, where the term was created in 1982 (The Washington Post, "Forest bathing is great for your health").</div>
 <div class="box"><h4>KEY PROBLEM FOR BRAZILIANS</h4>Portuguese often uses the continuous with state verbs, so students say <i>I'm hearing a noise, I'm understanding</i> ✗ → <b>I hear / I can hear a noise, I understand</b>. They also use the continuous for descriptions (<i>The soup is tasting good</i> ✗ → <b>tastes good</b>), adverbs after sense verbs (<i>It smells well</i> ✗ → <b>good</b>) and the calque <i>I feel the smell of coffee</i> ✗ → <b>I can smell coffee</b>.</div>
 <div class="box"><h4>AUDIO</h4>Track 03.1 The podcast (slow and natural) · Track 03.2 Words · Track 03.3 Sentences</div>""")
@@ -96,6 +98,9 @@ def build(teacher):
 <div class="box sand"><h4>RULE</h4>State verbs are not usually continuous: <i>I love it</i> (not <i>I'm loving it</i>). <b>think</b> has two meanings: <i>I think it's beautiful</i> (opinion, simple) · <i>What are you thinking about?</i> (action, continuous).</div>""",
     24, """<ol><li>A: point out that <b>look / smell / taste / feel / sound</b> + adjective work like <i>be</i>: <i>It smells fresh</i> = it is fresh (to my nose).</li>
 <li>B: <i>think</i> here = opinion ("I think the city needs this"). <i>have</i> (= own) is also a state verb: <i>She has a mango tree.</i></li></ol>""")
+
+    # Grammar reference (before Common mistakes)
+    grammar_ref.action_state_verbs(b)
 
     # Page 4
     b.page(f"""{sub("D", "Common mistakes for Brazilians", "2 min")}

@@ -6,6 +6,7 @@ for _d in ("/home/claude/speak-audio/engine", os.path.join(os.path.dirname(os.pa
         sys.path.insert(0, _d); break
 import speak_engine as _se
 from speak_engine import *
+import grammar_ref
 _se.SERIES = "Bridge"
 setup(band="A2 · UNIT 04", audio_json="audio_a2-unit-04.json", img_dir="img")
 
@@ -49,10 +50,11 @@ def build(teacher):
 <tr><td>1 Warm-up</td><td>8 min</td><td>The phone test</td><td>1</td></tr>
 <tr><td>2 Listening</td><td>10 min</td><td>A radio call-in show about nomophobia</td><td>2</td></tr>
 <tr><td>3 Language focus</td><td>10 min</td><td>Adjective + preposition · noun + preposition · preposition + -ing</td><td>3</td></tr>
-<tr><td>4 Pronunciation lab</td><td>5 min</td><td>Weak prepositions · linking</td><td>4</td></tr>
-<tr><td>5 Practice</td><td>8 min</td><td>Lucy's email · preposition + -ing · Word builder: phone verbs</td><td>5</td></tr>
-<tr><td>6 Speaking</td><td>12 min</td><td>Are you the same as me? · phone rules</td><td>6</td></tr>
-<tr><td>7 Wrap-up</td><td>2 min</td><td>Progress check and homework (50–75 words)</td><td>7</td></tr></table>
+<tr><td>+ Grammar reference</td><td>–</td><td>Adjective / noun / verb + preposition</td><td>4</td></tr>
+<tr><td>4 Pronunciation lab</td><td>5 min</td><td>Weak prepositions · linking</td><td>5</td></tr>
+<tr><td>5 Practice</td><td>8 min</td><td>Lucy's email · preposition + -ing · Word builder: phone verbs</td><td>6</td></tr>
+<tr><td>6 Speaking</td><td>12 min</td><td>Are you the same as me? · phone rules</td><td>7</td></tr>
+<tr><td>7 Wrap-up</td><td>2 min</td><td>Progress check and homework (50–75 words)</td><td>8</td></tr></table>
 <div class="box sand"><h4>THE STORY CONTINUES</h4>Back in Chicago: Lucy (student and weekend barista at City Coffee) calls <i>Chicago Talks</i>, a radio show (invented), where psychologist Dr. Alan Brooks (invented) talks about <b>nomophobia</b>, the fear of being without your phone. She takes her phone everywhere, even into the shower. Dr. Brooks gives her two rules: no phone at dinner, no phone in the bedroom. Facts: about nine in ten American adults (91%) own a smartphone (Pew Research Center, Mobile Fact Sheet, 2025); distracted driving killed 3,275 people in the United States in 2023 (NHTSA, "Distracted Driving in 2023", April 2025).</div>
 <div class="box"><h4>KEY PROBLEM FOR BRAZILIANS</h4>Prepositions don't translate one to one: <i>worried with</i> ✗ → <b>worried about</b>; <i>married with</i> ✗ → <b>married to</b>; <i>different of</i> ✗ → <b>different from</b>; <i>good in</i> ✗ → <b>good at</b>. And after a preposition students use the base form: <i>tired of wait</i> ✗ → <b>tired of waiting</b>; <i>afraid of to lose</i> ✗ → <b>afraid of losing</b>.</div>
 <div class="box"><h4>AUDIO</h4>Track 04.1 The radio show (slow and natural) · Track 04.2 Phrases · Track 04.3 Sentences · Dr. Brooks uses a new voice (Chirp 3 HD Charon).</div>""")
@@ -98,6 +100,9 @@ def build(teacher):
 <div class="box sand"><h4>MORE USEFUL PAIRS</h4><b>good at</b> (cooking) · <b>excited about</b> · <b>different from</b> · <b>married to</b> · <b>proud of</b> · <b>depend on</b> · <b>in contact with</b><br>Preposition + -ing: I'm afraid <b>of losing</b> it. Thanks <b>for calling</b>. She's good <b>at cooking</b>.</div>""",
     24, """<ol><li>A: elicit the nouns after the prepositions: <i>this feeling, the number, contact, this way</i>; <i>losing / feeling</i> work like nouns (gerunds).</li>
 <li>B: these combinations must be memorized. C: do it fast, 10–12 words, then swap roles.</li></ol>""")
+
+    # Grammar reference (before Common mistakes)
+    grammar_ref.word_prepositions(b)
 
     # Page 4
     b.page(f"""{sub("D", "Common mistakes for Brazilians", "2 min")}

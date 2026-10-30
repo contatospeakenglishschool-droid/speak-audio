@@ -6,6 +6,7 @@ for _d in ("/home/claude/speak-audio/engine", os.path.join(os.path.dirname(os.pa
         sys.path.insert(0, _d); break
 import speak_engine as _se
 from speak_engine import *
+import grammar_ref
 _se.SERIES = "Bridge"
 setup(band="A2 · UNIT 01", audio_json="audio_a2-unit-01.json", img_dir="img")
 
@@ -48,10 +49,11 @@ def build(teacher):
 <tr><td>1 Warm-up</td><td>8 min</td><td>Shades and patterns: bright, pale, spotted, striped…</td><td>1</td></tr>
 <tr><td>2 Listening</td><td>10 min</td><td>Paulo's first job in New York: photos at an animal shelter</td><td>2</td></tr>
 <tr><td>3 Language focus</td><td>10 min</td><td>Four questions with like · like doing / like to do</td><td>3</td></tr>
-<tr><td>4 Pronunciation lab</td><td>5 min</td><td>Shade and pattern words · the four questions</td><td>4</td></tr>
-<tr><td>5 Practice</td><td>8 min</td><td>Shelter profiles · Word builder: appearance or personality?</td><td>5</td></tr>
-<tr><td>6 Speaking</td><td>12 min</td><td>Information gap: animal or volunteer? · people you know</td><td>6</td></tr>
-<tr><td>7 Wrap-up</td><td>2 min</td><td>Progress check and homework (50–75 words)</td><td>7</td></tr></table>
+<tr><td>+ Grammar reference</td><td>–</td><td>Four questions with like: form, meaning, short answers</td><td>4</td></tr>
+<tr><td>4 Pronunciation lab</td><td>5 min</td><td>Shade and pattern words · the four questions</td><td>5</td></tr>
+<tr><td>5 Practice</td><td>8 min</td><td>Shelter profiles · Word builder: appearance or personality?</td><td>6</td></tr>
+<tr><td>6 Speaking</td><td>12 min</td><td>Information gap: animal or volunteer? · people you know</td><td>7</td></tr>
+<tr><td>7 Wrap-up</td><td>2 min</td><td>Progress check and homework (50–75 words)</td><td>8</td></tr></table>
 <div class="box"><h4>WELCOME TO SPEAK! BRIDGE (A2)</h4>Same 7-page structure as Speak! Essentials, with more vocabulary, longer conversations, a Word builder and longer written homework. Every page looks like the Student Book page with the same number. Your notes are in the <b>yellow box</b>; <span class="red">answers in red</span> are not in the Student Book.</div>
 <div class="box sand"><h4>THE STORY CONTINUES</h4>A new chapter: <b>Paulo now lives in New York</b>, where he works as a photographer and tour guide. His first job is taking photos for Brooklyn Paws, an animal shelter (an invented place) that finds homes for dogs and cats. Jess, who works there, introduces the animals: playful Max, calm Rocky, sociable Ginger and lazy Luna… who would like a nap. Later in the course we'll also meet Carol, Ana's cousin in Florida.</div>
 <div class="box"><h4>KEY PROBLEM FOR BRAZILIANS</h4>In Portuguese, one question covers both appearance and personality, so students say <i>How is he?</i> ✗ (that asks about health). Teach <b>What's he like?</b> (personality) and <b>What does he look like?</b> (appearance). Also: <i>He likes play</i> ✗ → <b>likes playing / likes to play</b>; <i>Would you like?</i> — <i>Yes, I like</i> ✗ → <b>Yes, I would</b>; <i>brown hairs</i> ✗ → <b>brown hair</b>.</div>
@@ -95,6 +97,9 @@ def build(teacher):
 'd = would: She<b>'d</b> like a snack. · He<b>'d</b> like to go out.</div>""",
     24, """<ol><li>A: the four questions sound similar. Say one question; the student says the type of answer it needs. Then change roles.</li>
 <li>B: American English prefers <i>like to do</i> a little; British English prefers <i>like doing</i>. Both are fine.</li></ol>""")
+
+    # Grammar reference (before Common mistakes)
+    grammar_ref.questions_with_like(b)
 
     # Page 4
     b.page(f"""{sub("D", "Common mistakes for Brazilians", "2 min")}

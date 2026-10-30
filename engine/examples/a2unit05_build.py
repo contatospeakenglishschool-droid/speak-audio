@@ -6,6 +6,7 @@ for _d in ("/home/claude/speak-audio/engine", os.path.join(os.path.dirname(os.pa
         sys.path.insert(0, _d); break
 import speak_engine as _se
 from speak_engine import *
+import grammar_ref
 _se.SERIES = "Bridge"
 setup(band="A2 · UNIT 05", audio_json="audio_a2-unit-05.json", img_dir="img")
 
@@ -51,10 +52,11 @@ def build(teacher):
 <tr><td>1 Warm-up</td><td>8 min</td><td>Letter names and spelling</td><td>1</td></tr>
 <tr><td>2 Listening</td><td>10 min</td><td>An online class: Ana reads an email from her cousin Carol</td><td>2</td></tr>
 <tr><td>3 Language focus</td><td>10 min</td><td>Parts of speech · what to learn about each one</td><td>3</td></tr>
-<tr><td>4 Pronunciation lab</td><td>5 min</td><td>Letters by vowel sound · classroom questions</td><td>4</td></tr>
-<tr><td>5 Practice</td><td>8 min</td><td>Complete the questions · Word builder: word families</td><td>5</td></tr>
-<tr><td>6 Speaking</td><td>12 min</td><td>Word challenge · the NATO alphabet · learning vocabulary</td><td>6</td></tr>
-<tr><td>7 Wrap-up</td><td>2 min</td><td>Progress check and homework (50–75 words)</td><td>7</td></tr></table>
+<tr><td>+ Grammar reference</td><td>–</td><td>Parts of speech · word families · classroom questions</td><td>4</td></tr>
+<tr><td>4 Pronunciation lab</td><td>5 min</td><td>Letters by vowel sound · classroom questions</td><td>5</td></tr>
+<tr><td>5 Practice</td><td>8 min</td><td>Complete the questions · Word builder: word families</td><td>6</td></tr>
+<tr><td>6 Speaking</td><td>12 min</td><td>Word challenge · the NATO alphabet · learning vocabulary</td><td>7</td></tr>
+<tr><td>7 Wrap-up</td><td>2 min</td><td>Progress check and homework (50–75 words)</td><td>8</td></tr></table>
 <div class="box sand"><h4>THE STORY CONTINUES</h4>Ana has an online class with Tom. They read an email from <b>Carol, Ana's cousin, who lives in Orlando, Florida</b> (her first appearance; voice Chirp 3 HD Leda when she speaks). Carol works at a dental office, got a sunburn at Cocoa Beach and is surprised by sales tax, which is not included in the shelf price in the US. Ana asks Tom about the new words. The email is original; Cocoa Beach is on Florida's Atlantic coast, about an hour's drive east of Orlando.</div>
 <div class="box"><h4>KEY PROBLEM FOR BRAZILIANS</h4>Classroom questions copied from Portuguese: <i>How do you call this?</i> ✗ → <b>What do you call this?</b>; <i>What means humid?</i> ✗ → <b>What does humid mean?</b>; <i>How you spell?</i> ✗ → <b>How do you spell it?</b>; <i>I have a doubt</i> ✗ → <b>I have a question</b>. Letter names E/I, G/J and A/E are also confusing.</div>
 <div class="box"><h4>AUDIO</h4>Track 05.1 The online class (slow and natural) · Track 05.2 Letters · Track 05.3 Classroom questions</div>""")
@@ -101,6 +103,9 @@ def build(teacher):
 <div class="box sand"><h4>TIP</h4>A good dictionary tells you the part of speech: <b>humid</b> <i>adj.</i>, <b>humidity</b> <i>n.</i> When you write a new word in your notebook, write the part of speech too.</div>""",
     24, """<ol><li>B: many words can be two parts of speech: <i>love, drink, call</i> (noun and verb). Ask the student for an example sentence of each.</li>
 <li>C: ask for an example of each: <i>go – went</i>, <i>advice</i>, <i>them</i>…</li></ol>""")
+
+    # Grammar reference (before Common mistakes)
+    grammar_ref.parts_of_speech(b)
 
     # Page 4
     groups = ["/eɪ/", "/iː/", "/ɛ/", "/aɪ/", "/oʊ/", "/uː/", "/ɑr/"]

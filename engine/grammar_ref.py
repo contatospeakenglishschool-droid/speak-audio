@@ -90,3 +90,146 @@ def present_perfect_already_yet(b):
 <tr><td>D. checking what's done (Unit 11)</td><td>already · yet · still</td><td>Have you bought the present yet?</td></tr></table>
 <div class="box sand" style="margin-top:1.5mm"><h4>DON'T SAY</h4><s>I haven't yet finished.</s> → I haven't finished <b>yet</b>. · <s>I already have done it.</s> → I'<b>ve already done</b> it. · <s>I still not have called.</s> → I <b>still haven't</b> called. · <s>Have you made it still?</s> → … <b>yet</b>? · <s>I've already sent it last week.</s> → I <b>sent</b> it last week.</div>""",
     16, """<p>Make a real checklist with the student (their week, a trip, a party) and ask <i>Have you… yet?</i> The student answers with <i>already / not… yet / still haven't</i>. Correct the word position first; meaning comes easily.</p>""")
+
+
+# ---------- shared helpers for the A2 reference pages ----------
+def _h(t):
+    return f'<h4 style="color:#0f4a5a;margin:1.5mm 0 .5mm">{t}</h4>'
+
+
+def _tbl(head, rows, size="8.8pt"):
+    th = "".join(f"<th>{h}</th>" for h in head)
+    tr = "".join("<tr>" + "".join(f"<td>{c}</td>" for c in r) + "</tr>" for r in rows)
+    return f'<table style="table-layout:fixed;margin-top:0;font-size:{size}"><tr>{th}</tr>{tr}</table>'
+
+
+def _dont(items):
+    return '<div class="box sand" style="margin-top:1.5mm"><h4>DON\'T SAY</h4>' + " · ".join(f"<s>{a}</s> → {b}" for a, b in items) + "</div>"
+
+
+def questions_with_like(b):
+    """Unit 01: four questions with like."""
+    b.page(f"""{b.sec("+", "Grammar reference: four questions with like", "")}
+<div class="box" style="margin-top:0"><h4>ONE WORD, FOUR QUESTIONS</h4><b>Like</b> can be a <b>preposition</b> (= similar to) or a <b>verb</b> (= enjoy). That's why English has four different questions with <i>like</i>. Each one asks for different information.</div>
+{_tbl(["question", "it asks about…", "answer"], [
+    ["<b>What's he like?</b>", "personality / character (preposition <i>like</i>)", "He's friendly, calm and a little lazy."],
+    ["<b>What does he look like?</b>", "appearance (look + like)", "He's tall, with short brown hair. / He looks like his dad."],
+    ["<b>What does he like (doing)?</b>", "preferences, hobbies (verb <i>like</i>)", "He likes playing ball. / He likes pizza."],
+    ["<b>Would he like…?</b>", "a wish or an offer (would like = want, polite)", "Yes, he would. / He'd like a nap!"]])}
+{_h("FORM")}
+{_tbl(["", "personality", "appearance", "likes", "wishes"], [
+    ["he / she / it", "What's she like?", "What does she look like?", "What does she like doing?", "Would she like a coffee?"],
+    ["I / you / we / they", "What are they like?", "What do they look like?", "What do they like doing?", "Would you like to come?"]], "8.4pt")}
+<p class="small" style="margin:.8mm 0">In the first two questions, <i>like</i> is a preposition, so it never changes: <i>What does she look <b>like</b>?</i> (not <i>likes</i>). After the verb <i>like</i>: <b>-ing</b> or <b>to</b> (<i>He likes playing / to play</i>). After <i>would like</i>: <b>to</b> + verb or a noun (<i>I'd like to go / I'd like a coffee</i>).</p>
+{_h("DESCRIBING PEOPLE AND ANIMALS")}
+{_tbl(["personality", "appearance", "colors and patterns"], [["friendly · calm · lazy · playful · shy · sociable · funny", "tall · short · slim · big · curly / straight hair · beard", "light / dark / bright / pale + color · spotted · striped · shiny"]])}
+<div class="box" style="margin-top:1.5mm"><h4>SHORT ANSWERS</h4><i>Would you like a coffee?</i> → <b>Yes, I would. / Yes, please.</b> (not <i>Yes, I like</i>) · <i>Do you like coffee?</i> → <b>Yes, I do.</b></div>
+{_dont([("How is he? (personality)", "<b>What's he like?</b>"), ("What does she looks like?", "What does she <b>look</b> like?"), ("He likes play.", "He likes <b>playing</b> / <b>to play</b>."), ("Would you like? — Yes, I like.", "<b>Yes, I would.</b>"), ("brown hairs", "brown <b>hair</b>")])}""",
+    16, """<p><i>How is he?</i> asks about health. Practice the four questions with a real person or pet the student knows: you ask all four, then the student asks you.</p>""")
+
+
+def verb_patterns(b):
+    """Unit 02: verb + to, verb + -ing, verb + person + to."""
+    b.page(f"""{b.sec("+", "Grammar reference: verb patterns", "")}
+<div class="box" style="margin-top:0"><h4>WHAT COMES AFTER THE VERB?</h4>When two verbs are together, the <b>first verb</b> decides the form of the second: <b>to + verb</b>, <b>verb + -ing</b>, or <b>a person + to + verb</b>. There is no easy rule: learn the verb with its pattern, like a phrase.</div>
+{_tbl(["verb + to", "verb + -ing", "verb + person + to"], [
+    ["agree · decide · hope · learn · need · plan · promise · refuse · want · would like", "avoid · consider · dislike · don't mind · enjoy · finish · give up · keep · practice · recommend · stop · suggest · can't stand", "advise · allow · ask · invite · remind · teach · tell · want · warn"],
+    ["<i>I need <b>to change</b> my password.</i>", "<i>Avoid <b>using</b> the same password.</i>", "<i>They warned <b>us to be</b> careful.</i>"]])}
+{_h("BOTH ARE POSSIBLE")}
+<p class="small" style="margin:.5mm 0"><b>like · love · hate · prefer · start · begin</b> + to or -ing, same meaning: <i>I like to cook / I like cooking.</i></p>
+{_h("NEGATIVES AND PREPOSITIONS")}
+{_tbl(["form", "example"], [
+    ["verb + <b>not to</b>", "<i>Experts warn people <b>not to keep</b> the default password.</i>"],
+    ["preposition + <b>-ing</b>", "<i>I'm interested <b>in learning</b>. Thanks <b>for helping</b>.</i>"],
+    ["make / let + person + verb (no to)", "<i>My boss <b>let me leave</b> early. It <b>made me laugh</b>.</i>"]])}
+<div class="box" style="margin-top:1.5mm"><h4>CAREFUL: SAME VERB, DIFFERENT MEANING</h4><b>stop + -ing</b> = not continue: <i>He stopped smoking.</i> · <b>stop + to</b> = stop in order to do something: <i>He stopped to buy coffee.</i><br><b>remember / forget + to</b> = a future duty: <i>Remember to call Mom!</i> · <b>remember + -ing</b> = a past memory: <i>I remember meeting her.</i></div>
+{_dont([("I want that you help me.", "I want <b>you to help</b> me."), ("Avoid to use…", "Avoid <b>using</b>…"), ("I enjoy to cook.", "I enjoy <b>cooking</b>."), ("She suggested me to go.", "She suggested <b>going</b>."), ("I need change it.", "I need <b>to change</b> it.")])}""",
+    16, """<p>Students should write new verbs in their notebook with the pattern: <i>avoid + -ing, want + (person) + to</i>. Quick drill: you say a verb, the student makes a true sentence.</p>""")
+
+
+def action_state_verbs(b):
+    """Unit 03: action and state verbs, sense verbs, simple vs continuous."""
+    b.page(f"""{b.sec("+", "Grammar reference: action verbs and state verbs", "")}
+<div class="box" style="margin-top:0"><h4>TWO KINDS OF VERBS</h4><b>Action verbs</b> describe things we <b>do</b> (walk, look at, touch): they can be continuous. <b>State verbs</b> describe things that just <b>are</b>: feelings, thoughts, senses, possession (love, know, hear, have). They are <b>not usually continuous</b>.</div>
+{_tbl(["action verbs (simple or continuous)", "state verbs (usually simple)"], [
+    ["walk · run · listen to · look at · touch · smell (a leaf) · taste (the soup) · take · talk", "<b>feelings:</b> love · like · hate · want · need · prefer<br><b>thinking:</b> know · understand · believe · remember · think (= opinion)<br><b>senses:</b> see · hear · smell / taste / feel / look / sound + adjective<br><b>possession:</b> have (= own) · belong"],
+    ["<i>Right now we<b>'re walking</b> in the park.</i>", "<i>I <b>love</b> this place. I <b>hear</b> birds. I <b>understand</b>.</i>"]])}
+{_h("SENSE VERBS: ACTION OR DESCRIPTION?")}
+{_tbl(["action (continuous possible)", "description (simple + adjective)"], [
+    ["I'm looking at the tree.", "It <b>looks</b> enormous."], ["I'm smelling the leaf.", "It <b>smells</b> fresh."],
+    ["I'm tasting the soup.", "It <b>tastes</b> delicious."], ["I'm touching the bark.", "It <b>feels</b> rough."], ["I'm listening to the music.", "It <b>sounds</b> beautiful. · I <b>hear</b> it."]])}
+<p class="small" style="margin:.8mm 0">After a sense verb, use an <b>adjective</b>, not an adverb: <i>It smells <b>good</b></i> (not <i>well</i>). With a noun, use <b>like</b>: <i>It smells <b>like</b> rain. She looks <b>like</b> her mother.</i></p>
+{_h("PRESENT SIMPLE OR CONTINUOUS? (ACTION VERBS)")}
+{_tbl(["present simple: routines, always true", "present continuous: now, around now"], [["<i>He <b>takes</b> visitors to the park every Saturday.</i>", "<i>Today we<b>'re walking</b> slowly.</i>"]])}
+<div class="box" style="margin-top:1.5mm"><h4>TWO MEANINGS</h4><b>think</b>: <i>I think it's beautiful</i> (opinion) · <i>What are you thinking about?</i> (action). <b>have</b>: <i>She has a dog</i> (own) · <i>We're having lunch</i> (action: eat).</div>
+{_dont([("I'm hearing a noise.", "I <b>hear</b> / <b>can hear</b> a noise."), ("The soup is tasting good.", "The soup <b>tastes</b> good."), ("It smells well.", "It smells <b>good</b>."), ("I'm understanding.", "I <b>understand</b>."), ("I feel the smell of coffee.", "I <b>can smell</b> coffee.")])}""",
+    16, """<p>Test: can you say it with "right now, I am…" and it's something you choose to do? Then it's an action. Bring real objects (a lemon, a mug of coffee) and practice both forms.</p>""")
+
+
+def word_prepositions(b):
+    """Unit 04: adjective + preposition, noun + preposition."""
+    b.page(f"""{b.sec("+", "Grammar reference: words + prepositions", "")}
+<div class="box" style="margin-top:0"><h4>FIXED PAIRS</h4>Many adjectives and nouns are followed by a <b>fixed preposition</b>. The preposition is often different from Portuguese, so learn the word and the preposition together, like one phrase. After the preposition: a <b>noun</b>, a <b>pronoun</b> or <b>verb + -ing</b>.</div>
+{_tbl(["adjective + preposition", "example"], [
+    ["afraid <b>of</b> · scared <b>of</b> · tired <b>of</b> · proud <b>of</b>", "<i>I'm afraid of losing my phone.</i>"],
+    ["worried <b>about</b> · excited <b>about</b> · happy <b>about</b>", "<i>She's worried about the test.</i>"],
+    ["interested <b>in</b> · good <b>at</b> · bad <b>at</b>", "<i>He's interested in art. I'm good at cooking.</i>"],
+    ["familiar <b>with</b> · bored <b>with</b> · in contact <b>with</b>", "<i>Are you familiar with this app?</i>"],
+    ["responsible <b>for</b> · famous <b>for</b> · married <b>to</b> · different <b>from</b>", "<i>Who's responsible for the money?</i>"]])}
+{_tbl(["noun + preposition", "example"], [
+    ["the fear <b>of</b> · a photo <b>of</b>", "<i>the fear of being without your phone</i>"],
+    ["an increase <b>in</b> · interest <b>in</b>", "<i>an increase in online shopping</i>"],
+    ["a reason <b>for</b> · a need <b>for</b>", "<i>the reasons for the problem</i>"],
+    ["a solution <b>to</b> · an answer <b>to</b>", "<i>a solution to the problem</i>"],
+    ["separation <b>from</b> · a message <b>from</b>", "<i>separation from your phone</i>"]])}
+{_h("VERBS + PREPOSITIONS (USEFUL TOO)")}
+<p class="small" style="margin:.5mm 0">depend <b>on</b> · listen <b>to</b> · wait <b>for</b> · look <b>for</b> · think <b>about</b> · talk <b>to</b> someone <b>about</b> something · belong <b>to</b></p>
+<div class="box" style="margin-top:1.5mm"><h4>STUDY TIP</h4>Make a diagram: one circle for each preposition (<b>of</b>, <b>about</b>, <b>in</b>, <b>with</b>, <b>for</b>, <b>to</b>), and write the words inside. Add new words when you find them in a text.</div>
+{_dont([("worried with", "worried <b>about</b>"), ("married with", "married <b>to</b>"), ("different of", "different <b>from</b>"), ("good in", "good <b>at</b>"), ("depend of", "depend <b>on</b>"), ("tired of wait", "tired of <b>waiting</b>")])}""",
+    16, """<p>Quick game: you say the word, the student says the preposition and a true sentence (<i>proud… of: I'm proud of my son</i>). Correct the Portuguese-style prepositions immediately.</p>""")
+
+
+def parts_of_speech(b):
+    """Unit 05: parts of speech, word families, classroom questions."""
+    b.page(f"""{b.sec("+", "Grammar reference: parts of speech and word families", "")}
+<div class="box" style="margin-top:0"><h4>WHY IT MATTERS</h4>Knowing the <b>part of speech</b> of a word tells you <b>where it goes</b> in a sentence and <b>how it changes</b>. A good dictionary always shows it: <b>humid</b> <i>adj.</i>, <b>humidity</b> <i>n.</i></div>
+{_tbl(["part of speech", "job", "examples", "what to learn"], [
+    ["<b>noun</b> <i>n.</i>", "a person, thing, place, idea", "cousin, receipt, beach, humidity", "countable or uncountable? plural?"],
+    ["<b>verb</b> <i>v.</i>", "an action or a state", "spell, mean, go, know", "regular or irregular? (go – went – gone)"],
+    ["<b>adjective</b> <i>adj.</i>", "describes a noun", "humid, terrible, silent", "comparative? (hotter, more humid)"],
+    ["<b>adverb</b> <i>adv.</i>", "describes a verb or adjective", "slowly, really, always", "how? how often? position"],
+    ["<b>pronoun</b> <i>pron.</i>", "replaces a noun", "she, her, it, them", "subject or object?"],
+    ["<b>preposition</b> <i>prep.</i>", "connects a word to a noun", "at, on, from, next to", "time or place?"]], "8.5pt")}
+{_h("WORD FAMILIES: USEFUL ENDINGS")}
+{_tbl(["change", "endings", "examples"], [
+    ["adjective → noun", "-ity · -ness", "humid → humidity · electric → electricity · happy → happiness"],
+    ["verb → noun", "-tion · -sion · -ment", "inform → information · decide → decision · pronounce → pronunciation · move → movement"],
+    ["adjective → adverb", "-ly", "careful → carefully · easy → easily (good → <b>well</b>!)"]], "8.4pt")}
+{_h("CLASSROOM QUESTIONS")}
+{_tbl(["you want to know…", "ask"], [
+    ["a word / the meaning", "<b>How do you say</b> this in English? · <b>What does</b> humid <b>mean</b>?"], ["if it's correct / the part of speech", "<b>Can we say</b> this? · <b>What kind of word is it?</b>"],
+    ["spelling, pronunciation, names", "<b>How do you spell / pronounce</b> it? · <b>What do you call</b> this?"]], "8.4pt")}
+{_dont([("How do you call this?", "<b>What do you call</b> this?"), ("What means humid?", "What <b>does</b> humid <b>mean</b>?"), ("How you spell it?", "How <b>do you</b> spell it?"), ("I have a doubt.", "I have a <b>question</b>.")])}""",
+    16, """<p>Encourage the student to write every new word with its part of speech and one example. Use the classroom questions in every class: don't answer questions asked in Portuguese structure; ask the student to rephrase.</p>""")
+
+
+def being_nice(b):
+    """Unit 06: functional language: praising, complimenting, congratulating."""
+    b.page(f"""{b.sec("+", "Language reference: being nice in English", "")}
+<div class="box" style="margin-top:0"><h4>FUNCTIONS</h4>Some phrases do a <b>job</b> in a conversation. The fixed part never changes; you only change the adjective or noun. Say them with <b>energy</b>: a flat <i>Well done</i> can sound sarcastic.</div>
+{_tbl(["function", "when?", "phrases"], [
+    ["<b>praising</b>", "someone's work, actions or choices", "Well done! · Good job! · Great work! · Keep up the good work! · I know you're good at… · I really like the… you chose."],
+    ["<b>complimenting</b>", "how someone looks or what they have", "You look great today! · That color really suits you. · What a beautiful dress! · I love your… · Where did you get it?"],
+    ["<b>congratulating</b>", "good news, achievements", "Congratulations on your new job! · Glad to hear it! · Good luck! · That's wonderful news!"]], "8.6pt")}
+{_h("PATTERNS")}
+{_tbl(["pattern", "example"], [
+    ["What a + adjective + singular noun!", "<i>What a cute baby! What a nice boss!</i>"],
+    ["What + adjective + plural / uncountable noun!", "<i>What beautiful eyes! What great hair!</i>"],
+    ["Congratulations on + noun / -ing", "<i>Congratulations on the baby / on passing the test!</i>"],
+    ], "8.4pt")}
+{_h("RESPONDING POLITELY")}
+{_tbl(["response", "use it to…"], [
+    ["Thanks! · You're too kind.", "accept praise or a compliment"], ["It was a team effort.", "share the praise (modest)"],
+    ["You too! · I'm glad you like it.", "return it / react to their feelings"], ["Actually, my sister gave it to me.", "explain where you got something"]], "8.4pt")}
+{_dont([("Congratulations! (birthday)", "<b>Happy birthday!</b>"), ("Congratulations for…", "Congratulations <b>on</b>…"), ("That dress suits to you.", "That dress <b>suits you</b>."), ("You made a great job.", "You <b>did</b> a great job."), ("You're too much kind.", "You're <b>too kind</b>."), ("What a beautiful!", "What a beautiful <b>dress</b>!")])}""",
+    16, """<p>Brazilians often reject compliments ("Oh, this old thing?"). In English, accepting with <i>Thanks!</i> is polite. Practice: compliment the student on something real and wait for a natural response.</p>""")
