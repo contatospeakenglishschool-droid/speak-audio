@@ -1,0 +1,30 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"19.2": 2000, "19.3": 2500},
+ "units": {
+  "it-a1-unita-19": {
+   "19.1 Dialogo": "Narrator: Dialogo uno. Bruno è a Bologna. Marco telefona a Júlia.\nMarco: Ciao, Júlia! Ti va di andare al cinema venerdì sera, con Bruno?\nJúlia: Mi dispiace, venerdì non posso: devo lavorare fino a tardi. Ma sabato sono libera.\nMarco: Allora sabato volete venire a una partita di basket? Bologna è la città del basket!\nJúlia: Volentieri! Bruno vuole proprio vedere una partita. A che ora ci vediamo?\nMarco: Alle otto, davanti al palazzetto.\nJúlia: Perfetto, a sabato!\nNarrator: Dialogo due. Al bar.\nJúlia: Giulia, giovedì sera facciamo un aperitivo a casa mia. Vuoi venire?\nGiulia: Che gentile, grazie! Ma giovedì non posso: devo chiudere il bar tardi. Possiamo fare mercoledì?\nJúlia: Mercoledì va benissimo. Alle sette?\nGiulia: Alle sette. Porto io il vino!\nNarrator: Dialogo tre. Stasera, sulle scale.\nDavide: Júlia! Ti va di venire a una festa stasera? Viene anche la mia band.\nJúlia: Grazie, Davide, ma stasera non posso. Sono stanca e domani devo alzarmi alle sei e mezza.\nDavide: Dai! Puoi venire solo per un'ora!\nJúlia: No, davvero. Magari un'altra volta. Ma Bruno vuole venire, sicuramente!\nDavide: Benissimo, allora passo a prendere Bruno alle dieci.",
+   "19.2 Ripeti i verbi modali": "Narrator: posso, possiamo\nNarrator: devo, dobbiamo\nNarrator: voglio, vogliamo\nNarrator: puoi, vuoi\nNarrator: possono, vogliono\nNarrator: Vogliamo uscire, ma dobbiamo lavorare.",
+   "19.3 Ripeti frasi": "Narrator: Ti va di andare al cinema?\nNarrator: Vuoi venire a cena da me?\nNarrator: Volentieri! A che ora ci vediamo?\nNarrator: Mi dispiace, non posso: devo lavorare.\nNarrator: Magari un'altra volta.\nNarrator: Ci vediamo alle otto davanti al cinema."
+  }
+ },
+ "images": {
+  "it-a1-unita-19": {
+   "A": "cinema theater seats screen",
+   "B": "basketball game arena",
+   "C": "aperitif spritz drinks table",
+   "D": "party friends dancing adults",
+   "E": "concert crowd stage lights",
+   "F": "art gallery museum visitors",
+   "G": "couple walking park",
+   "H": "restaurant dinner table candles"
+  }
+ }
+}
