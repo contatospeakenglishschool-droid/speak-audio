@@ -233,3 +233,26 @@ def being_nice(b):
     ["You too! · I'm glad you like it.", "return it / react to their feelings"], ["Actually, my sister gave it to me.", "explain where you got something"]], "8.4pt")}
 {_dont([("Congratulations! (birthday)", "<b>Happy birthday!</b>"), ("Congratulations for…", "Congratulations <b>on</b>…"), ("That dress suits to you.", "That dress <b>suits you</b>."), ("You made a great job.", "You <b>did</b> a great job."), ("You're too much kind.", "You're <b>too kind</b>."), ("What a beautiful!", "What a beautiful <b>dress</b>!")])}""",
     16, """<p>Brazilians often reject compliments ("Oh, this old thing?"). In English, accepting with <i>Thanks!</i> is polite. Practice: compliment the student on something real and wait for a natural response.</p>""")
+
+
+def friendly_emails(b):
+    """Unit 12: informal email structure, phrases, informal vs formal."""
+    b.page(f"""{b.sec("+", "Language reference: writing a friendly email", "")}
+<div class="box" style="margin-top:0"><h4>SEVEN PARTS, ALWAYS IN THIS ORDER</h4>A friendly email to a friend, a cousin or a colleague you know well is <b>informal</b>: first names, contractions (<i>I'm, it's</i>) and set phrases. The set phrases must be exact: one small mistake changes the impression.</div>
+{_tbl(["part", "job", "phrases"], [
+    ["1 greeting", "say hello (first name + comma)", "Hi Paulo, · Hello Paulo, · Dear Paulo,"],
+    ["2 opening", "connect with the last contact", "It's great to hear from you! · I hope you're doing well. · Thanks a lot for writing! · I'm sorry to hear that…"],
+    ["3 reason for writing", "the main point (most important)", "I'm writing to tell you that… · I just wanted to ask you… · I wanted to let you know that…"],
+    ["4 details / news", "plans, suggestions, news", "We could… · How about…? · Did I tell you that…? · Guess what?"],
+    ["5 call to action", "what the reader should do next", "Let me know what you think. · Call me later. · Send me the details. · Tell me what you'd like to do."],
+    ["6 closing", "finish the email", "Anyway, I have to go now. · I'm looking forward to seeing you. · I hope to hear from you soon."],
+    ["7 sign-off", "say goodbye + your first name", "Love, Carol (family, close friends) · Take care, · Best wishes, · Cheers,"]], "8.4pt")}
+{_h("INFORMAL OR FORMAL?")}
+{_tbl(["", "friendly email", "formal email"], [
+    ["greeting", "Hi Paulo,", "Dear Mr. Silva, / Dear Ms. Clark, (last name!)"],
+    ["style", "contractions: I'm, it's, don't", "full forms: I am, it is, do not"],
+    ["closing", "I'm looking forward to seeing you!", "I look forward to hearing from you."],
+    ["sign-off", "Love, / Take care, / Cheers,", "Best regards, / Sincerely, + full name"]], "8.4pt")}
+<p class="small" style="margin:.8mm 0"><b>Punctuation:</b> a comma after the greeting and the sign-off; start the first sentence with a capital letter. <b>looking forward to + -ing</b> (to is a preposition): <i>looking forward to <b>seeing</b> you</i>.</p>
+{_dont([("Dear Mr. Paulo,", "Dear Paulo, / Dear Mr. Silva,"), ("Hello to David,", "Hello David,"), ("I'm writing to say about…", "I'm writing to <b>tell you about</b>…"), ("Waiting for your answer.", "I'm looking forward to hearing from you."), ("Kisses, / Att.", "Love, / Best regards,"), ("looking forward to see you", "looking forward to <b>seeing</b> you")])}""",
+    16, """<p>Many Brazilians translate their Portuguese email habits (the abbreviation for "regards", "kisses", "waiting for your answer"). Show the seven parts as a checklist: the student checks their own email part by part before sending it.</p>""")
