@@ -1,0 +1,10 @@
+{
+ "material": "speak-bridge",
+ "characters": {"Carol": "en-US-Chirp3-HD-Leda", "Narrator": "en-US-Neural2-J"},
+ "units": {"a2-unit-12": {
+  "12.1 Email": "Carol: Hi Paulo.\nCarol: It's great to hear from you! Congratulations on your new tours in Brooklyn! What are the tourists like?\nCarol: I'm writing to tell you that I'm coming to New York next month, and I'd like to see you if you're interested in showing me around.\nCarol: I'll be in the city from Friday to Sunday. We could go to that pizza place we went to last year. Or maybe you have a new favorite place? Let me know what you think. I promise to be on time this time!\nCarol: Anyway, I have to go now. I've just finished work, and I'm going to the gym. Did I tell you that I've given up eating sugar? I haven't had any dessert for three weeks! And fruit tastes amazing now.\nCarol: Love, Carol.",
+  "12.2 Repeat phrases": "Narrator: It's great to hear from you.\nNarrator: I hope you're doing well.\nNarrator: I'm writing to tell you that...\nNarrator: Let me know what you think.\nNarrator: I'm looking forward to seeing you.\nNarrator: Take care.",
+  "12.3 Repeat sentences": "Narrator: I'd like to see you.\nNarrator: I promise to be on time.\nNarrator: I'm looking forward to hearing from you.\nNarrator: Thanks a lot for writing!\nNarrator: I just wanted to ask you a question."
+ }},
+ "images": {"a2-unit-12": {"A": "woman typing laptop coffee"}}
+}
