@@ -33,3 +33,38 @@ def present_perfect(b):
 <div class="two"><div class="box sand" style="margin-top:1mm"><h4>BEEN OR GONE?</h4><i>Carol has <b>been</b> to Miami.</i> (she went and came back)<br><i>Carol has <b>gone</b> to Miami.</i> (she's in Miami now)</div>
 <div class="box sand" style="margin-top:1mm"><h4>DON'T SAY</h4><s>I have been in Florida last year.</s> → I <b>went</b> to Florida last year.<br><s>Have you ever went…?</s> → been · <s>Yes, I did.</s> → Yes, I <b>have</b>.</div></div>""",
     16, """<p>Use this page whenever the student hesitates between the present perfect and the past simple. Draw the timeline: the dot is the action, the dotted line connects it to now. The next units add more uses (<i>for / since, already / yet</i>). In American English the past simple is common with <i>just</i> (<i>I just ate</i>); both are correct.</p>""")
+
+
+_TIMELINE2 = """<svg viewBox="0 0 520 70" width="100%" height="17mm" xmlns="http://www.w3.org/2000/svg" font-family="Inter, sans-serif">
+<line x1="20" y1="38" x2="500" y2="38" stroke="#77acb5" stroke-width="2"/>
+<polygon points="500,38 490,33 490,43" fill="#77acb5"/>
+<text x="20" y="62" font-size="11" fill="#7d858a">PAST</text><text x="440" y="62" font-size="11" fill="#7d858a">NOW</text>
+<line x1="450" y1="22" x2="450" y2="54" stroke="#176074" stroke-width="2"/>
+<rect x="150" y="31" width="300" height="14" rx="3" fill="#cbbca0" opacity=".75"/>
+<line x1="150" y1="20" x2="150" y2="54" stroke="#9a7b4f" stroke-width="2"/>
+<text x="112" y="16" font-size="11" fill="#9a7b4f" font-weight="700">since 2015 (start)</text>
+<text x="230" y="16" font-size="11" fill="#176074" font-weight="700">for eleven years (length) →</text>
+<text x="168" y="62" font-size="11" fill="#9a7b4f">I've lived in Seattle… and I still live there</text></svg>"""
+
+
+def present_perfect_for_since(b):
+    """One-page reference: present perfect for unfinished situations + for / since + How long, with a recap of the three uses."""
+    b.page(f"""{b.sec("+", "Grammar reference: present perfect with for and since", "")}
+<div class="box" style="margin-top:0"><h4>A NEW USE: SITUATIONS THAT ARE NOT FINISHED</h4>We use the present perfect for something that <b>started in the past and is still true now</b>. Portuguese uses the present here, but English uses the present perfect.
+{_TIMELINE2}</div>
+<div class="two"><div><table style="table-layout:fixed;margin-top:0;font-size:8.8pt"><tr><th>finished (past simple)</th><th>not finished (present perfect)</th></tr>
+<tr><td>I <b>lived</b> in Chicago for five years. (I don't live there now.)</td><td>I<b>'ve lived</b> in Seattle for eleven years. (I live there now.)</td></tr>
+<tr><td>She <b>worked</b> at a bank. (not now)</td><td>She<b>'s worked</b> at the hospital since 2015. (still there)</td></tr></table></div>
+<div><table style="table-layout:fixed;margin-top:0;font-size:8.8pt"><tr><th>for + a length of time</th><th>since + the start</th></tr>
+<tr><td>for ten minutes · for two days · for six months · for eleven years · for ages · for a long time</td><td>since 9 o'clock · since Tuesday · since March · since 2015 · since I was a child · since college</td></tr></table></div></div>
+<h4 style="color:#0f4a5a;margin:1.5mm 0 .5mm">QUESTIONS AND ANSWERS</h4>
+<table style="table-layout:fixed;margin-top:0;font-size:8.8pt"><tr><td><b>How long have you</b> lived here? — I've lived here <b>for</b> three years. / <b>since</b> 2023.</td><td><b>How long has she</b> had her dog? — She's had him <b>for</b> two years.</td></tr>
+<tr><td><b>How long have you known</b> Megan? — I've known her <b>since</b> college.</td><td>I <b>haven't seen</b> you <b>for</b> ages! (negative = the time without it)</td></tr></table>
+<p class="small" style="margin:.8mm 0">State verbs (be, have, know, live, work) are very common in this use: <i>We've been married for eight years. I've known her since 2010.</i></p>
+<h4 style="color:#0f4a5a;margin:1.5mm 0 .5mm">THE PRESENT PERFECT SO FAR: THREE USES</h4>
+<table style="table-layout:fixed;margin-top:0;font-size:8.6pt"><tr><th>use</th><th>key words</th><th>example</th></tr>
+<tr><td>A. recent news, result now (Unit 07)</td><td>just</td><td>I've just cut my finger.</td></tr>
+<tr><td>B. life experiences (Unit 08)</td><td>ever · never · before · twice</td><td>Have you ever swum with manatees?</td></tr>
+<tr><td>C. not finished: started in the past, true now (Unit 09)</td><td>for · since · How long…?</td><td>I've lived in Seattle for eleven years.</td></tr></table>
+<div class="box sand" style="margin-top:1.5mm"><h4>DON'T SAY</h4><s>I live here since 2015.</s> → I<b>'ve lived</b> here since 2015. · <s>I know her for ten years.</s> → I<b>'ve known</b> her for ten years. · <s>since ten years</s> → <b>for</b> ten years · <s>for 2020</s> → <b>since</b> 2020 · <s>How long do you live here?</s> → How long <b>have you lived</b> here?</div>""",
+    16, """<p>This is the most "Brazilian" mistake of all: <i>I live here since…</i>. Draw the timeline: the bar starts at the <b>since</b> point and continues to now; its length is the <b>for</b> part. Practice by converting: <i>since 2015 → for eleven years</i> (use the current year).</p>""")
