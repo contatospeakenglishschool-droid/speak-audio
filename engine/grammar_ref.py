@@ -256,3 +256,26 @@ def friendly_emails(b):
 <p class="small" style="margin:.8mm 0"><b>Punctuation:</b> a comma after the greeting and the sign-off; start the first sentence with a capital letter. <b>looking forward to + -ing</b> (to is a preposition): <i>looking forward to <b>seeing</b> you</i>.</p>
 {_dont([("Dear Mr. Paulo,", "Dear Paulo, / Dear Mr. Silva,"), ("Hello to David,", "Hello David,"), ("I'm writing to say about…", "I'm writing to <b>tell you about</b>…"), ("Waiting for your answer.", "I'm looking forward to hearing from you."), ("Kisses, / Att.", "Love, / Best regards,"), ("looking forward to see you", "looking forward to <b>seeing</b> you")])}""",
     16, """<p>Many Brazilians translate their Portuguese email habits (the abbreviation for "regards", "kisses", "waiting for your answer"). Show the seven parts as a checklist: the student checks their own email part by part before sending it.</p>""")
+
+
+def zero_first_conditional(b):
+    """Unit 13: zero and first conditionals (cause and effect, facts and predictions)."""
+    b.page(f"""{b.sec("+", "Grammar reference: zero and first conditionals", "")}
+<div class="box" style="margin-top:0"><h4>CAUSE AND EFFECT</h4>Conditional sentences have <b>two clauses</b> (a clause = a subject + a verb): a <b>cause / condition</b> and an <b>effect / result</b>. The <b>zero conditional</b> talks about facts that are always true. The <b>first conditional</b> talks about a <b>possible future</b> and its result.</div>
+{_tbl(["", "zero conditional", "first conditional"], [
+    ["use", "facts, science, things that always happen", "predictions: a real possibility in the future"],
+    ["form", "<b>When / If</b> + present simple, present simple", "<b>If</b> + present simple, <b>will / won't</b> + verb"],
+    ["examples", "<i>When ice <b>melts</b>, sea levels <b>rise</b>.</i><br><i>If you <b>heat</b> water to 100 °C, it <b>boils</b>.</i>", "<i>If we <b>protect</b> forests, the trees <b>will help</b> us.</i><br><i>If it <b>rains</b> tomorrow, I<b>'ll stay</b> home.</i>"]])}
+{_h("CLAUSE ORDER AND COMMAS")}
+{_tbl(["condition first: use a comma", "result first: no comma"], [["<i>If we don't change<b>,</b> temperatures will keep rising.</i>", "<i>Temperatures will keep rising if we don't change.</i>"], ["<i>When you turn off the lights<b>,</b> you use less energy.</i>", "<i>You use less energy when you turn off the lights.</i>"]])}
+{_h("WHEN OR IF?")}
+<p class="small" style="margin:.5mm 0"><b>when</b> = it will happen / it always happens: <i>When I get home, I'll call you.</i> · <b>if</b> = maybe it happens: <i>If I get the job, I'll call you.</i> Also <b>as</b> (= when, while something changes): <i>As the Earth gets hotter, storms get stronger.</i></p>
+{_h("NEGATIVES AND QUESTIONS")}
+{_tbl(["form", "example"], [
+    ["if + don't / doesn't", "<i>If we <b>don't stop</b> burning coal, the problem <b>will get</b> worse.</i>"],
+    ["won't in the result", "<i>If you take the bus, you <b>won't need</b> to park.</i>"],
+    ["questions", "<i>What <b>will happen</b> if sea levels rise? · <b>Will</b> you come if it rains?</i>"],
+    ["unless (= if not)", "<i>Things won't change <b>unless</b> we act.</i>"]])}
+<div class="box" style="margin-top:1.5mm"><h4>NO WILL IN THE IF CLAUSE</h4>The <b>if</b> part uses the present simple even when we talk about the future: <i>If it <b>rains</b> tomorrow…</i> (not <i>If it will rain</i>).</div>
+{_dont([("If it will rain, I'll stay home.", "If it <b>rains</b>, I'll stay home."), ("If we protect forests, the trees help us tomorrow.", "… the trees <b>will help</b> us."), ("When ice melt, sea levels rises.", "When ice <b>melts</b>, sea levels <b>rise</b>."), ("If I will have time, I call you.", "If I <b>have</b> time, I<b>'ll call</b> you.")])}""",
+    16, """<p>Portuguese uses a special future form after "if" and "when", so students put <i>will</i> in the if clause. Drill the "hump" intonation: the condition goes up, the result comes down. Practice with chains: <i>If I wake up late, I'll miss the bus. If I miss the bus…</i></p>""")
