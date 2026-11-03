@@ -321,3 +321,25 @@ def sequencers(b):
 <p class="small" style="margin:.5mm 0"><b>made with</b> + an ingredient: <i>The shake is made with oat milk.</i> · <b>made from</b> + what it was before: <i>The fries are made from sweet potatoes.</i> · <b>made of</b> + a material: <i>The bags are made of recycled paper.</i></p>
 {_dont([("Firstly burger was dry.", "<b>The first</b> burger was dry. / <b>First,</b> the burger was dry."), ("At first, we ordered fries. Second, …", "<b>First,</b> we ordered fries."), ("We waited an hour. Finally!", "… <b>At last!</b>"), ("It's bigger then the other one.", "bigger <b>than</b>")])}""",
     16, """<p>Students mix up <i>first / at first</i> and <i>finally / at last</i>. Mime it: count on your fingers for <i>first, second, then</i>; an unhappy face that turns happy for <i>at first … but then</i>; look at your watch and sigh for <i>at last</i>.</p>""")
+
+
+def defining_relative_clauses(b):
+    """Unit 16: defining relative clauses with who, which, that, where; leaving out the object pronoun."""
+    b.page(f"""{b.sec("+", "Grammar reference: who, which, that, where", "")}
+<div class="box" style="margin-top:0"><h4>WHAT IS A RELATIVE CLAUSE?</h4>A <b>defining relative clause</b> gives information that we <b>need</b> to know which person, thing or place we mean. It starts with <b>who, which, that</b> or <b>where</b> and has a verb. We use it a lot to <b>define</b> or explain things: <i>A thrift store is a store <b>where you can buy second-hand clothes</b>.</i></div>
+{_tbl(["pronoun", "for…", "examples"], [
+    ["<b>who</b> (or <b>that</b>)", "people", "<i>Grace is a designer <b>who</b> makes jackets out of old jeans.</i>"],
+    ["<b>that</b> (or <b>which</b>)", "things, animals", "<i>Denim is a material <b>that</b> lasts for years.</i> (<i>that</i> is more common in American English)"],
+    ["<b>where</b>", "places (= in that place)", "<i>She has a studio <b>where</b> she makes bags.</i>"]])}
+{_h("TWO SENTENCES → ONE")}
+{_tbl(["two sentences", "one sentence"], [
+    ["Grace is a designer. <s>She</s> makes jackets.", "Grace is a designer <b>who</b> makes jackets."],
+    ["She uses materials. <s>The materials</s> don't damage the environment.", "She uses materials <b>that</b> don't damage the environment."],
+    ["She has a studio in Chicago. She makes bags <s>there</s>.", "She has a studio in Chicago <b>where</b> she makes bags."]])}
+<p class="small" style="margin:.8mm 0">The pronoun <b>replaces</b> a word: don't repeat it. <i>The jeans that people throw away <s>them</s></i>. No comma before a defining relative clause.</p>
+{_h("WHEN CAN WE LEAVE OUT WHO / WHICH / THAT?")}
+<div class="two"><div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.8pt"><b>Subject: keep it</b> (a verb comes next)<br><i>Grace is a designer <b>who makes</b> jackets.</i><br><i>It's something <b>that keeps</b> you warm.</i></div>
+<div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.8pt"><b>Object: you can leave it out</b> (a person/subject comes next)<br><i>the clothes (<b>that</b>) <b>we</b> don't wear</i><br><i>It's something (<b>that</b>) <b>you</b> wear on your feet.</i></div></div>
+<div class="box" style="margin-top:1.5mm"><h4>DEFINITIONS GAME</h4><i>It's a person who… · It's something that / something you… · It's a place where…</i> → <i>It's a place where you buy clothes.</i> (a store)</div>
+{_dont([("The dress that I bought it is small.", "The dress (that) I bought is small."), ("She's the designer which makes bags.", "… the designer <b>who</b> makes bags."), ("It's the store what I buy jeans.", "It's the store <b>where</b> I buy jeans."), ("A thrift store is a place that you can buy cheap clothes.", "… a place <b>where</b> you can buy…")])}""",
+    16, """<p>Portuguese uses one word for all of these, so students say <i>the person which</i> or <i>the store what</i>, and they repeat the object (<i>the dress that I bought it</i>). Practice the definitions game: it uses all three pronouns naturally.</p>""")
