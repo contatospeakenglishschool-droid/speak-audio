@@ -1,0 +1,10 @@
+{
+ "material": "speak-bridge",
+ "characters": {"Tom": "en-US-Neural2-D", "Paulo": "en-US-Neural2-I", "Narrator": "en-US-Neural2-J"},
+ "units": {"a2-unit-18": {
+  "18.1 After the movie": "Tom: So, did you like the movie, Paulo?\nPaulo: Honestly? No, I didn't.\nTom: Neither did I. It was too long, and it was pretty boring.\nPaulo: I agree. But I like the actor who played the hero.\nTom: Me too. He's really great!\nPaulo: Yeah, he's an amazing actor. I like all his movies.\nTom: So do I, especially the comedies.\nPaulo: But it wasn't funny when that guy answered his phone in the middle of the movie.\nTom: No, it wasn't. It was really rude. I didn't like that at all.\nPaulo: Neither did I. Anyway, I'm really hungry.\nTom: So am I! Where should we go?\nPaulo: Well, I don't like fast food.\nTom: Me neither. Hey, have you ever had Chicago deep-dish pizza?\nPaulo: No, I haven't. I've always wanted to try it.\nTom: Then let's go! Deep-dish pizza became famous at a pizzeria right here in Chicago in nineteen forty-three.\nPaulo: Great idea. I can eat a whole pizza.\nTom: I can't! Deep-dish is really heavy. One slice is like a meal!",
+  "18.2 Repeat replies": "Narrator: Me too.\nNarrator: Me neither.\nNarrator: So do I.\nNarrator: Neither do I.\nNarrator: So am I.\nNarrator: Neither am I.\nNarrator: So did I.\nNarrator: Neither did I.\nNarrator: So can I.\nNarrator: I can't.",
+  "18.3 Repeat dialogues": "Narrator: I'm really hungry. So am I!\nNarrator: I didn't like the movie. Neither did I.\nNarrator: I like comedies. So do I.\nNarrator: I don't like fast food. Me neither.\nNarrator: I can eat a whole pizza. I can't!"
+ }},
+ "images": {"a2-unit-18": {"A": "movie theater audience", "B": "deep dish pizza", "C": "seafood platter shrimp crab"}}
+}

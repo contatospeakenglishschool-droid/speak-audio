@@ -365,3 +365,26 @@ def phone_calls(b):
 <div class="box" style="margin-top:1mm"><h4>SAYING NUMBERS</h4>Say phone and order numbers one digit at a time: <i>4-7-2-9-1</i> = four, seven, two, nine, one. 0 = <i>oh</i> or <i>zero</i>. Repeat the number to check.</div></div>
 {_dont([("Who is speaking?", "Who's <b>calling</b>, please? / Who's this?"), ("I'm Kate. (on the phone)", "<b>It's</b> Kate. / <b>This is</b> Kate."), ("Wait a moment. (formal)", "Please <b>hold on</b> a moment."), ("Can you talk more high?", "Can you <b>speak up</b>?")])}""",
     16, """<p>Brazilian students translate the Portuguese question word for word as <i>Who is speaking?</i> and say <i>I'm Kate</i> on the phone; in English we say <i>It's Kate / This is Kate</i>. Practice the calls back to back, like a real call.</p>""")
+
+
+def so_neither(b):
+    """Unit 18: agreeing and disagreeing with so / neither + auxiliary, me too / me neither."""
+    b.page(f"""{b.sec("+", "Grammar reference: so am I, neither do I", "")}
+<div class="box" style="margin-top:0"><h4>SAYING YOU HAVE SOMETHING IN COMMON</h4>To agree, we <b>don't repeat the main verb</b>. We use <b>so</b> (after a positive sentence) or <b>neither</b> (after a negative sentence) + the <b>auxiliary</b> + the subject. Informal and easy: <b>Me too · Me neither</b>.</div>
+{_tbl(["the first sentence", "agree: positive", "agree: negative"], [
+    ["be (am / is / are)", "<i>I'm hungry.</i> → <b>So am I.</b>", "<i>I'm not tired.</i> → <b>Neither am I.</b>"],
+    ["present simple", "<i>I like comedies.</i> → <b>So do I.</b><br><i>Tom likes pizza.</i> → <b>So does Paulo.</b>", "<i>I don't like fast food.</i> → <b>Neither do I.</b>"],
+    ["past simple", "<i>I loved it.</i> → <b>So did I.</b>", "<i>I didn't like the movie.</i> → <b>Neither did I.</b>"],
+    ["can / will / should", "<i>I can swim.</i> → <b>So can I.</b>", "<i>I won't go.</i> → <b>Neither will I.</b>"],
+    ["present perfect", "<i>I've been to Miami.</i> → <b>So have I.</b>", "<i>I haven't tried it.</i> → <b>Neither have I.</b>"],
+    ["any sentence (informal)", "<b>Me too.</b>", "<b>Me neither.</b>"]], "8.6pt")}
+<p class="small" style="margin:.8mm 0"><b>Word order:</b> so / neither + <b>auxiliary + subject</b>: <i>So <b>do I</b></i> (not <s>So I do</s>) · <i>Neither <b>did Kate</b></i>. <b>Same tense</b> as the first sentence: <i>I went</i> → <i>So <b>did</b> I</i>.</p>
+{_h("DISAGREEING")}
+{_tbl(["the first sentence", "disagree", "polite"], [
+    ["<i>I like that actor.</i>", "<b>I don't.</b>", "<i>Really? Sorry, but I don't.</i>"],
+    ["<i>I'm not hungry.</i>", "<b>I am.</b>", "<i>Oh, I am!</i>"],
+    ["<i>I haven't been to New York.</i>", "<b>I have.</b>", "<i>I have! It's amazing.</i>"],
+    ["<i>I can't cook.</i>", "<b>I can.</b>", "<i>Really? I can.</i>"]])}
+<div class="box" style="margin-top:1.5mm"><h4>NEITHER: TWO PRONUNCIATIONS</h4><b>neither</b> = /ˈniːðər/ (NEE-ther) or /ˈnaɪðər/ (NIGH-ther). Both are correct in American English. In very informal American English you'll also hear <i>Me either</i>.</div>
+{_dont([("I don't like fast food. – Me too.", "<b>Me neither.</b> / <b>Neither do I.</b>"), ("I like pizza. – So I do.", "<b>So do I.</b>"), ("I'm hungry. – So do I.", "<b>So am I.</b> (be → am)"), ("I didn't go. – Neither I.", "<b>Neither did I.</b>")])}""",
+    16, """<p>Portuguese has no auxiliary in short answers, so students say <i>Me too</i> after negative sentences. Quick drill: say true sentences about yourself; the student answers fast (<i>So do I · Neither am I · I don't</i>).</p>""")
