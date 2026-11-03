@@ -299,3 +299,25 @@ def conjunctions(b):
 <div class="box" style="margin-top:1.5mm"><h4>EVERY CLAUSE NEEDS A SUBJECT</h4>In English, the second clause needs its own subject: <i>Although solar power works in most places, <b>it</b> takes up a lot of space.</i> (not <i>…, takes up a lot of space</i>)</div>
 {_dont([("Because it's cheap, so I use it.", "<b>Because</b> it's cheap, I use it. / It's cheap, <b>so</b> I use it."), ("Although they're noisy, but they're cheap.", "<b>Although</b> they're noisy, they're cheap."), ("Hydropower is reliable, because is old.", "Hydropower is reliable because <b>it</b> is old."), ("I like wind turbines. Because they're beautiful.", "I like wind turbines <b>because</b> they're beautiful.")])}""",
     16, """<p>Portuguese often drops the subject and can use two connectors together (a cause word plus a result word, or a contrast word plus "but"), so students write <i>Because… so…</i> and <i>Although… but…</i>. Show the three relationships with colors on the board: green = adding, red = contrast, blue = cause and effect.</p>""")
+
+
+def sequencers(b):
+    """Unit 15: sequencing words (first, second, then, next, finally, last) and at first / but then / at last."""
+    b.page(f"""{b.sec("+", "Grammar reference: first, then, at first, at last", "")}
+<div class="box" style="margin-top:0"><h4>ORGANIZING WHAT YOU SAY</h4><b>Sequencers</b> put ideas in order. They help the listener follow a list, a story, a recipe or an opinion. We usually put them at the <b>start</b> of the sentence, with a <b>comma</b>.</div>
+{_tbl(["position", "words", "examples"], [
+    ["start", "<b>First, · Firstly,</b>", "<i><b>First,</b> there's no meat in any of the burgers.</i>"],
+    ["middle", "<b>Second, · Secondly, · Then, · Next, · After that,</b>", "<i><b>Second,</b> the buns are made with cricket flour. <b>Then,</b> there are no potato fries.</i>"],
+    ["end", "<b>Finally, · Lastly, · The last thing is…</b>", "<i><b>Finally,</b> the shake is made with oat milk.</i>"]])}
+<p class="small" style="margin:.8mm 0"><b>first, second, third, last</b> can also go before a noun: <i>the <b>first</b> burger · the <b>third</b> thing we ordered · the <b>last</b> strange thing</i>. Don't use <i>firstly / secondly / thirdly</i> before a noun.</p>
+{_h("A CHANGE OF FEELING: AT FIRST … BUT THEN …")}
+<div class="two"><div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.8pt"><b>at first</b> = in the beginning (my first feeling)<br><b>but then</b> = my feeling changed<br><i><b>At first,</b> you didn't want to try it, <b>but then</b> you tasted mine and loved it!</i></div>
+<div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.8pt"><b>at last</b> = finally, after a long wait (happy!)<br><i><b>At last,</b> something different!</i><br><i>The pizza is here. <b>At last!</b></i></div></div>
+{_tbl(["don't mix them up", "meaning", "example"], [
+    ["<b>first</b> vs <b>at first</b>", "number 1 in a list · my feeling in the beginning", "<i>First, we ordered burgers.</i> · <i>At first, I didn't like it.</i>"],
+    ["<b>finally / lastly</b> vs <b>at last</b>", "the last item · after a long wait", "<i>Finally, we had a shake.</i> · <i>We waited an hour. At last!</i>"],
+    ["<b>then</b> vs <b>than</b>", "next (time) · in comparisons", "<i>Then we had fries.</i> · <i>The fries were better than the burger.</i>"]])}
+{_h("DESCRIBING FOOD: MADE WITH / FROM / OF")}
+<p class="small" style="margin:.5mm 0"><b>made with</b> + an ingredient: <i>The shake is made with oat milk.</i> · <b>made from</b> + what it was before: <i>The fries are made from sweet potatoes.</i> · <b>made of</b> + a material: <i>The bags are made of recycled paper.</i></p>
+{_dont([("Firstly burger was dry.", "<b>The first</b> burger was dry. / <b>First,</b> the burger was dry."), ("At first, we ordered fries. Second, …", "<b>First,</b> we ordered fries."), ("We waited an hour. Finally!", "… <b>At last!</b>"), ("It's bigger then the other one.", "bigger <b>than</b>")])}""",
+    16, """<p>Students mix up <i>first / at first</i> and <i>finally / at last</i>. Mime it: count on your fingers for <i>first, second, then</i>; an unhappy face that turns happy for <i>at first … but then</i>; look at your watch and sigh for <i>at last</i>.</p>""")
