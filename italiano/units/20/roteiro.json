@@ -1,0 +1,30 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"20.2": 2000, "20.3": 2500},
+ "units": {
+  "it-a1-unita-20": {
+   "20.1 Dialogo": "Narrator: Dialogo uno. Allo studio.\nMarco: Júlia, oggi devo andare a prendere l'ingegnere Ferri alla stazione, ma non la conosco. Com'è?\nJúlia: È alta, ha i capelli corti e biondi e porta gli occhiali. Ha circa cinquant'anni.\nMarco: E di carattere?\nJúlia: È molto gentile, ma un po' seria. Ah, porta sempre una giacca rossa!\nMarco: Perfetto, allora la trovo subito.\nNarrator: Dialogo due. Al bar.\nGiulia: Júlia, com'è tuo fratello? Non lo conosco ancora.\nJúlia: Bruno è alto e magro, ha i capelli ricci e neri e gli occhi castani. È molto simpatico, ma un po' pigro!\nGiulia: Ha la barba?\nJúlia: Sì, ha la barba.\nGiulia: Ah, allora l'ho visto ieri qui al bar! Ha preso tre cornetti!\nNarrator: Dialogo tre. Sulle scale.\nDavide: Júlia, tuo fratello è proprio divertente! Alla festa ha conosciuto una ragazza, Chiara.\nJúlia: Davvero? Com'è?\nDavide: È bassa e ha i capelli lunghi e rossi.\nJúlia: E di carattere?\nDavide: È abbastanza timida, ma molto intelligente. Studia medicina.\nJúlia: Bene! Bruno parla sempre... lei ascolta!",
+   "20.2 Ripeti C e CH": "Narrator: simpatico, simpatici\nNarrator: simpatica, simpatiche\nNarrator: amico, amici\nNarrator: amica, amiche\nNarrator: antipatico, antipatici\nNarrator: I miei amici sono simpatici e le mie amiche sono simpatiche.",
+   "20.3 Ripeti frasi": "Narrator: Com'è tuo fratello?\nNarrator: È alto e magro.\nNarrator: Ha i capelli ricci e neri.\nNarrator: Ha gli occhi castani e porta gli occhiali.\nNarrator: È molto simpatico, ma un po' pigro.\nNarrator: Lei è abbastanza timida, ma molto intelligente."
+  }
+ },
+ "images": {
+  "it-a1-unita-20": {
+   "A": "woman long hair portrait",
+   "B": "man short hair portrait",
+   "C": "woman curly hair portrait",
+   "D": "man beard portrait",
+   "E": "woman glasses portrait",
+   "F": "blue eyes close up",
+   "G": "senior man grey hair portrait",
+   "H": "bald man portrait"
+  }
+ }
+}
