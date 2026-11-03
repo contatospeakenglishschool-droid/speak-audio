@@ -343,3 +343,25 @@ def defining_relative_clauses(b):
 <div class="box" style="margin-top:1.5mm"><h4>DEFINITIONS GAME</h4><i>It's a person who… · It's something that / something you… · It's a place where…</i> → <i>It's a place where you buy clothes.</i> (a store)</div>
 {_dont([("The dress that I bought it is small.", "The dress (that) I bought is small."), ("She's the designer which makes bags.", "… the designer <b>who</b> makes bags."), ("It's the store what I buy jeans.", "It's the store <b>where</b> I buy jeans."), ("A thrift store is a place that you can buy cheap clothes.", "… a place <b>where</b> you can buy…")])}""",
     16, """<p>Portuguese uses one word for all of these, so students say <i>the person which</i> or <i>the store what</i>, and they repeat the object (<i>the dress that I bought it</i>). Practice the definitions game: it uses all three pronouns naturally.</p>""")
+
+
+def phone_calls(b):
+    """Unit 17 (functional): phone call routines, informal and formal, phrasal verbs, voicemail, numbers."""
+    b.page(f"""{b.sec("+", "Language reference: phone calls", "")}
+<div class="box" style="margin-top:0"><h4>PHONE ROUTINES</h4>Phone calls follow the same steps every time. Choose the <b>style</b>: <b>informal</b> with friends and family, <b>formal</b> with businesses and people you don't know. Phrases with ↔ work in both.</div>
+{_tbl(["step", "informal", "formal"], [
+    ["answer the phone", "Hello? · Hi! · Tom's phone.", "Hello, Lakeview Hotel. Linda speaking. How can I help you?"],
+    ["ask for someone", "Is Tom there?", "Could I speak to Mr. Bennett, please?"],
+    ["say who you are", "It's Kate. · This is Kate.", "It's Kate Miller, from Sweet Kate Bakery. ↔"],
+    ["ask who is calling", "Who's this?", "Who's calling, please?"],
+    ["ask someone to wait", "Hang on a minute.", "Please hold on a moment."],
+    ["connect the call", "I'll get him.", "I'll put you through."],
+    ["the person isn't there", "Sorry, he can't come to the phone. · He isn't here.", "I'm afraid Mr. Bennett isn't available."],
+    ["messages", "Can you tell him (that) I called? · I'll pass that on.", "I'd like to leave a message, please. · I'll make sure he gets the message."],
+    ["check and repeat", "Did you get that? · Sorry, can you speak up?", "Would you like me to say that again? · Could you say that again, please?"]], "8.4pt")}
+{_h("PHRASAL VERBS FOR PHONES")}
+<p class="small" style="margin:.5mm 0"><b>pick up</b> = answer · <b>hang up</b> = end the call · <b>hang up on someone</b> = end the call angrily · <b>speak up</b> = speak more loudly · <b>break up</b> = your voice is on and off · <b>get through (to)</b> = make contact · <b>put through</b> = connect · <b>hang on / hold on</b> = wait · <b>call back</b> = call again later</p>
+<div class="two"><div class="box" style="margin-top:1mm"><h4>A VOICEMAIL IN 5 STEPS</h4>1 <i>Hi, Tom! It's Paulo here.</i> 2 <i>I'm calling to tell you that…</i> 3 details (time, place, number) 4 <i>Can you text me to confirm?</i> 5 <i>See you later! / Talk soon!</i></div>
+<div class="box" style="margin-top:1mm"><h4>SAYING NUMBERS</h4>Say phone and order numbers one digit at a time: <i>4-7-2-9-1</i> = four, seven, two, nine, one. 0 = <i>oh</i> or <i>zero</i>. Repeat the number to check.</div></div>
+{_dont([("Who is speaking?", "Who's <b>calling</b>, please? / Who's this?"), ("I'm Kate. (on the phone)", "<b>It's</b> Kate. / <b>This is</b> Kate."), ("Wait a moment. (formal)", "Please <b>hold on</b> a moment."), ("Can you talk more high?", "Can you <b>speak up</b>?")])}""",
+    16, """<p>Brazilian students translate the Portuguese question word for word as <i>Who is speaking?</i> and say <i>I'm Kate</i> on the phone; in English we say <i>It's Kate / This is Kate</i>. Practice the calls back to back, like a real call.</p>""")
