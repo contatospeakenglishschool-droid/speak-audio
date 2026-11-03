@@ -1,0 +1,30 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Luca": "it-IT-Chirp3-HD-Fenrir",
+  "Cameriere": "it-IT-Chirp3-HD-Charon",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"22.2": 2000, "22.3": 2500},
+ "units": {
+  "it-a1-unita-22": {
+   "22.1 Dialogo": "Narrator: Dialogo uno. Al telefono.\nCameriere: Trattoria Il Portico, buonasera!\nJúlia: Buonasera. Vorrei prenotare un tavolo per sabato sera.\nCameriere: Per quante persone?\nJúlia: Per tre persone.\nCameriere: A che ora?\nJúlia: Alle otto e mezza.\nCameriere: Mi dispiace, alle otto e mezza è tutto pieno. Alle nove va bene?\nJúlia: Sì, va bene.\nCameriere: A che nome?\nJúlia: Souza. S, O, U, Z, A.\nCameriere: Perfetto. Tre persone, sabato alle nove. Arrivederci!\nNarrator: Dialogo due. Sabato sera, alla trattoria.\nCameriere: Buonasera! Ecco il menù. Che cosa vi porto da bere?\nMarco: Una bottiglia di vino rosso della casa e un'acqua frizzante, per favore.\nCameriere: Come antipasto?\nLuca: Un tagliere di salumi per tutti.\nCameriere: E di primo?\nJúlia: Io vorrei le tagliatelle al ragù.\nLuca: Per me i tortellini in brodo.\nMarco: Io non prendo il primo. Di secondo prendo la cotoletta alla bolognese.\nCameriere: Con un contorno? Abbiamo patate al forno o insalata mista.\nMarco: Le patate al forno, grazie.\nJúlia: Scusi, il tiramisù è fatto in casa?\nCameriere: Sì, signora, lo facciamo noi.\nJúlia: Allora dopo lo prendo!\nLuca: Lo prendo anch'io.\nNarrator: Dialogo tre. Il conto.\nMarco: Scusi, il conto, per favore.\nCameriere: Subito. Ecco: sono novantasei euro, con il coperto.\nJúlia: Facciamo alla romana? Trentadue euro a testa.\nLuca: No, no! Stasera offro io. Oggi è il compleanno di Marco!\nJúlia: Davvero? Tanti auguri, Marco!\nMarco: Grazie! E grazie, Luca. Finalmente paghi tu!\nLuca: Si può pagare con la carta?\nCameriere: Certo, nessun problema.",
+   "22.2 Ripeti QU": "Narrator: acqua\nNarrator: quanto\nNarrator: qualcosa\nNarrator: quattro\nNarrator: cinquanta\nNarrator: Quanto costa un'acqua? Quattro euro.",
+   "22.3 Ripeti frasi": "Narrator: Vorrei prenotare un tavolo per due.\nNarrator: Che cosa ci consiglia?\nNarrator: Per me le tagliatelle al ragù.\nNarrator: Di secondo prendo la cotoletta.\nNarrator: Il conto, per favore.\nNarrator: Si può pagare con la carta?"
+  }
+ },
+ "images": {
+  "it-a1-unita-22": {
+   "A": "italian antipasto cured meats board",
+   "B": "tagliatelle ragu pasta plate",
+   "C": "breaded cutlet plate",
+   "D": "roasted potatoes side dish",
+   "E": "tiramisu dessert",
+   "F": "restaurant bill receipt table",
+   "G": "waiter serving restaurant",
+   "H": "restaurant menu card table"
+  }
+ }
+}
