@@ -1,0 +1,31 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"24.2": 2000, "24.3": 2500},
+ "units": {
+  "it-a1-unita-24": {
+   "24.1 Dialogo": "Narrator: Dialogo uno. Allo studio.\nMarco: Júlia, che sport fai?\nJúlia: Faccio nuoto due volte alla settimana. E qualche volta corro ai Giardini Margherita.\nMarco: Brava! E sai giocare a calcio?\nJúlia: Certo, sono brasiliana! Gioco spesso con le mie amiche.\nMarco: Perfetto! Giovedì sera giochiamo a calcetto con i colleghi e manca una persona. Vieni?\nJúlia: Volentieri! A che ora?\nMarco: Alle otto, al campo vicino allo studio. Ah, l'ingegnere Ferri gioca in porta!\nNarrator: Dialogo due. Sulle scale.\nDavide: Júlia, vai in piscina? Posso venire con te?\nJúlia: Certo! Ma tu sai nuotare?\nDavide: Ehm... no, non so nuotare. Sono di Napoli, vado sempre al mare, ma non nuoto mai! Gioco solo a pallavolo sulla spiaggia.\nJúlia: Allora fai un corso! In piscina c'è un corso per adulti il martedì e il giovedì.\nDavide: Il giovedì gioco a basket con l'università. Il martedì va bene.\nJúlia: Perfetto! In un mese sai nuotare.\nNarrator: Dialogo tre. Al bar.\nGiulia: Buongiorno, signora Rossi! Come mai in tuta?\nSignora Rossi: Ogni mattina cammino un'ora in collina. E il lunedì e il mercoledì faccio yoga.\nGiulia: Ogni mattina? Io non faccio mai sport!\nSignora Rossi: Mai? Neanche una passeggiata?\nGiulia: Raramente. Però guardo sempre il Bologna in televisione!\nSignora Rossi: Guardare il calcio non è uno sport, cara!\nGiulia: Per me sì: soffro tantissimo!",
+   "24.2 Ripeti R e RR": "Narrator: caro, carro\nNarrator: coro, corro\nNarrator: sera, serra\nNarrator: tori, torri\nNarrator: correre, la corsa\nNarrator: Corro ogni sera ai Giardini.",
+   "24.3 Ripeti frasi": "Narrator: Che sport fai?\nNarrator: Faccio nuoto due volte alla settimana.\nNarrator: Gioco a calcio con i colleghi.\nNarrator: Sai nuotare? No, non so nuotare.\nNarrator: Non faccio mai sport.\nNarrator: Cammino ogni mattina."
+  }
+ },
+ "images": {
+  "it-a1-unita-24": {
+   "A": "people playing football soccer",
+   "B": "swimmer swimming pool",
+   "C": "volleyball game",
+   "D": "tennis player court",
+   "E": "woman running park",
+   "F": "cyclist road bike",
+   "G": "yoga class",
+   "H": "skiing snow mountain"
+  }
+ }
+}
