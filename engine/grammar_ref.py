@@ -279,3 +279,23 @@ def zero_first_conditional(b):
 <div class="box" style="margin-top:1.5mm"><h4>NO WILL IN THE IF CLAUSE</h4>The <b>if</b> part uses the present simple even when we talk about the future: <i>If it <b>rains</b> tomorrow…</i> (not <i>If it will rain</i>).</div>
 {_dont([("If it will rain, I'll stay home.", "If it <b>rains</b>, I'll stay home."), ("If we protect forests, the trees help us tomorrow.", "… the trees <b>will help</b> us."), ("When ice melt, sea levels rises.", "When ice <b>melts</b>, sea levels <b>rise</b>."), ("If I will have time, I call you.", "If I <b>have</b> time, I<b>'ll call</b> you.")])}""",
     16, """<p>Portuguese uses a special future form after "if" and "when", so students put <i>will</i> in the if clause. Drill the "hump" intonation: the condition goes up, the result comes down.</p>""")
+
+
+def conjunctions(b):
+    """Unit 14: conjunctions that join two clauses (and, but, so, because, although, while, if) and commas."""
+    b.page(f"""{b.sec("+", "Grammar reference: conjunctions and commas", "")}
+<div class="box" style="margin-top:0"><h4>JOINING TWO IDEAS</h4>A <b>clause</b> is a part of a sentence with a <b>subject + verb</b>. A <b>conjunction</b> joins two clauses and shows the relationship between the ideas: <b>adding</b> information, <b>contrast</b> (a different idea), or <b>cause and effect</b> (reason and result).</div>
+{_tbl(["relationship", "conjunctions", "examples"], [
+    ["adding", "<b>and</b>", "<i>Solar power works in many places<b>, and</b> it's much cheaper now.</i>"],
+    ["contrast", "<b>but · although · while</b>", "<i>Fossil fuels will run out<b>, but</b> the sun's energy won't.</i><br><i>Wind turbines are cheap to operate <b>although</b> they can be noisy.</i><br><i>Fossil fuels cause climate change <b>while</b> renewable energy is cleaner.</i>"],
+    ["cause → effect", "<b>because</b> (cause) · <b>so</b> (result) · <b>if</b> (condition)", "<i>Heat pumps are reliable <b>because</b> they rarely break down.</i><br><i>Solar panels are cheaper now<b>, so</b> many people install them.</i><br><i><b>If</b> the rivers get low<b>,</b> there isn't enough water.</i>"]])}
+{_h("BECAUSE OR SO?")}
+<p class="small" style="margin:.5mm 0"><b>because</b> + the reason: <i>I take the bus <b>because</b> it's cheaper.</i> · <b>so</b> + the result: <i>The bus is cheaper<b>, so</b> I take it.</i> Use one or the other, never both in the same sentence.</p>
+{_h("COMMAS: A SIMPLE GUIDE")}
+{_tbl(["conjunction", "in the middle", "at the start"], [
+    ["<b>and · but · so</b>", "comma before it (usual): <i>It's an old idea<b>, but</b> it's reliable.</i>", "not at the start of a sentence in writing"],
+    ["<b>because · although · while · if</b>", "no comma: <i>We need a mix <b>because</b> every type has problems.</i>", "comma after the first clause: <i><b>Because</b> every type has problems<b>,</b> we need a mix.</i>"]])}
+<p class="small" style="margin:.8mm 0"><b>One subject, two verbs = one clause, no comma:</b> <i>Solar panels don't work at night and take up a lot of space.</i> · <b>Two subjects = two clauses:</b> <i>Solar panels don't work at night<b>, and</b> they take up a lot of space.</i></p>
+<div class="box" style="margin-top:1.5mm"><h4>EVERY CLAUSE NEEDS A SUBJECT</h4>In English, the second clause needs its own subject: <i>Although solar power works in most places, <b>it</b> takes up a lot of space.</i> (not <i>…, takes up a lot of space</i>)</div>
+{_dont([("Because it's cheap, so I use it.", "<b>Because</b> it's cheap, I use it. / It's cheap, <b>so</b> I use it."), ("Although they're noisy, but they're cheap.", "<b>Although</b> they're noisy, they're cheap."), ("Hydropower is reliable, because is old.", "Hydropower is reliable because <b>it</b> is old."), ("I like wind turbines. Because they're beautiful.", "I like wind turbines <b>because</b> they're beautiful.")])}""",
+    16, """<p>Portuguese often drops the subject and can use two connectors together (a cause word plus a result word, or a contrast word plus "but"), so students write <i>Because… so…</i> and <i>Although… but…</i>. Show the three relationships with colors on the board: green = adding, red = contrast, blue = cause and effect.</p>""")
