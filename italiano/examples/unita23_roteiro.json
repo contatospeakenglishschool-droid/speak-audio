@@ -1,0 +1,31 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"23.2": 2000, "23.3": 2500},
+ "units": {
+  "it-a1-unita-23": {
+   "23.1 Dialogo": "Narrator: Dialogo uno. Venerdì sera, a casa di Júlia.\nJúlia: Giulia, mi insegni a fare il tiramisù? Al Portico ho mangiato un tiramisù buonissimo!\nGiulia: Certo, è facile! Prima separa le uova.\nJúlia: Così?\nGiulia: Brava. Adesso sbatti i tuorli con lo zucchero. Poi aggiungi il mascarpone e mescola bene.\nJúlia: E la panna?\nGiulia: No, non usare la panna! Il tiramisù vero non ha la panna.\nJúlia: Va bene. E adesso?\nGiulia: Bagna i savoiardi nel caffè, ma non troppo! Fai uno strato di savoiardi e uno di crema. Alla fine metti il cacao.\nJúlia: Lo mangiamo subito?\nGiulia: No! Metti il tiramisù in frigo per sei ore. E non toccare!\nNarrator: Dialogo due. Sabato, al telefono.\nDavide: Pronto, Marco? Dove siete?\nMarco: Io e Giulia siamo davanti ai Giardini Margherita. Ma voi dove siete?\nDavide: Allora: entrate dal cancello grande e andate sempre dritto.\nMarco: Dritto... e poi?\nDavide: Al laghetto girate a sinistra. Passate il bar e cercate un grande albero. Siamo lì, sotto l'albero!\nMarco: Portiamo qualcosa da bere?\nDavide: No, non comprate niente, abbiamo tutto. E Júlia ha portato il tiramisù!\nMarco: Allora arriviamo subito!\nNarrator: Dialogo tre. Domenica, sulle scale.\nSignora Rossi: Davide, scusa, un momento!\nDavide: Buongiorno, signora Rossi. Mi dica.\nSignora Rossi: Per favore, non lasciare la bicicletta nell'ingresso. Metti la bici in cortile.\nDavide: Ha ragione, scusi.\nSignora Rossi: E butta la plastica il martedì, non il lunedì!\nDavide: Va bene, signora.\nSignora Rossi: Stasera tu e i tuoi compagni studiate da te, vero? Allora, ragazzi, non fate rumore dopo le undici e chiudete bene il portone.\nDavide: Certo, signora. Non si preoccupi.\nSignora Rossi: Bravo. E la prossima volta porta anche a me un po' di tiramisù!",
+   "23.2 Ripeti S": "Narrator: scendi\nNarrator: spegni\nNarrator: sbatti\nNarrator: stai attento\nNarrator: studia\nNarrator: Scendi alla prossima fermata e stai attento!",
+   "23.3 Ripeti frasi": "Narrator: Gira a destra e vai sempre dritto.\nNarrator: Non girare a sinistra.\nNarrator: Prendete l'autobus tredici.\nNarrator: Non comprate niente!\nNarrator: Mescola bene e aspetta.\nNarrator: Metti il tiramisù in frigo."
+  }
+ },
+ "images": {
+  "it-a1-unita-23": {
+   "A": "turn right road sign",
+   "B": "people crossing street zebra crossing",
+   "C": "passengers getting off bus",
+   "D": "stirring bowl whisk kitchen",
+   "E": "open refrigerator food",
+   "F": "no smoking sign",
+   "G": "hand light switch",
+   "H": "finger pressing doorbell"
+  }
+ }
+}
