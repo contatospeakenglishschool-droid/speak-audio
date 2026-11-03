@@ -1,0 +1,31 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"21.2": 2000, "21.3": 2500},
+ "units": {
+  "it-a1-unita-21": {
+   "21.1 Dialogo": "Narrator: Dialogo uno. Allo studio, il martedì dopo Pasqua.\nMarco: Ciao, Júlia! Com'è andato il ponte di Pasqua? Dove sei andata?\nJúlia: Sono andata a Napoli con Giulia! Siamo partite venerdì e siamo tornate ieri sera.\nMarco: Che bello! Come siete andate? In treno?\nJúlia: Sì, con il Frecciarossa. Tre ore e mezza.\nMarco: E che cosa avete fatto?\nJúlia: Abbiamo visitato il centro storico, abbiamo mangiato la pizza... e domenica abbiamo preso il traghetto per Capri!\nMarco: Capri! Io ci sono stato dieci anni fa. È bellissima.\nJúlia: E tu? Che cosa hai fatto?\nMarco: Niente di speciale. Sono rimasto a Bologna e ho dormito molto!\nNarrator: Dialogo due. Sulle scale.\nDavide: Júlia! Allora, Napoli? Com'è andata?\nJúlia: Benissimo! Siamo andate alla pizzeria di tuo zio, in via dei Tribunali.\nDavide: E com'è la pizza di mio zio?\nJúlia: La migliore della mia vita!\nDavide: Siete salite sul Vesuvio?\nJúlia: No, non ci siamo state. Sabato ha piovuto tutto il giorno.\nDavide: Che peccato! Allora la prossima volta.\nJúlia: E tu, quando sei tornato a Napoli l'ultima volta?\nDavide: A Natale, quattro mesi fa. Mia madre mi aspetta!\nNarrator: Dialogo tre. Al bar.\nSignora Rossi: Giulia, sei andata a Napoli con Júlia, vero?\nGiulia: Sì, signora. Abbiamo fatto un viaggio bellissimo. Lei conosce Napoli?\nSignora Rossi: Certo! Ci sono stata in viaggio di nozze, quarant'anni fa.\nGiulia: Davvero? E dove siete andati?\nSignora Rossi: Siamo stati a Napoli, a Capri e a Sorrento. Abbiamo fatto il bagno tutti i giorni.\nGiulia: E l'estate scorsa? Dov'è andata in vacanza?\nSignora Rossi: Sono andata in montagna, in Trentino, con mia sorella. Ma Capri... Capri è un'altra cosa!",
+   "21.2 Ripeti esclamazioni": "Narrator: Che bello!\nNarrator: Che peccato!\nNarrator: Che fortuna!\nNarrator: Che buono!\nNarrator: Che caldo!\nNarrator: Siamo andate a Capri. Che bello!",
+   "21.3 Ripeti frasi": "Narrator: Dove sei andato in vacanza?\nNarrator: Sono andata a Napoli con un'amica.\nNarrator: Siamo partite venerdì e siamo tornate lunedì.\nNarrator: Abbiamo visitato il centro e abbiamo mangiato la pizza.\nNarrator: Ci sono stato dieci anni fa.\nNarrator: Non ci sono mai stata."
+  }
+ },
+ "images": {
+  "it-a1-unita-21": {
+   "A": "beach umbrellas italy sea",
+   "B": "mountains alps hiking",
+   "C": "people swimming in the sea",
+   "D": "ferry boat at sea",
+   "E": "suitcase packed travel",
+   "F": "woman sunbathing beach",
+   "G": "tourist taking photo with camera",
+   "H": "camping tent"
+  }
+ }
+}
