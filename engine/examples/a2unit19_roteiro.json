@@ -1,0 +1,22 @@
+{
+ "material": "speak-bridge",
+ "characters": {
+  "Host": "en-US-Studio-O",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "a2-unit-19": {
+   "19.1 Grace Kelly": "Host: Welcome to Hollywood History. Today's story is about an American movie star who became a real princess: Grace Kelly.\nHost: Grace Kelly was born in Philadelphia in nineteen twenty-nine. Her family was rich and famous in the city. After high school, she moved to New York and studied acting.\nHost: In the nineteen fifties, she became a big Hollywood star. She made three movies with the director Alfred Hitchcock, and in nineteen fifty-five, she won an Oscar for Best Actress.\nHost: That same year, she went to the Cannes Film Festival in France. During the trip, she visited the palace in Monaco, a very small country near France, and she met Prince Rainier the Third for the first time.\nHost: They wrote letters to each other for months. In January nineteen fifty-six, they announced their engagement, and in April, they got married in Monaco. More than thirty million people watched the royal wedding on live TV.\nHost: Grace didn't make any more movies. She became Princess Grace of Monaco. She and Rainier had three children: Caroline, Albert and Stephanie. As a princess, she worked with many charities, and she helped children and artists.\nHost: In September nineteen eighty-two, she had a terrible car accident on a mountain road in Monaco. She died the next day. People in Monaco, in the United States and around the world felt very sad.\nHost: Today, her son Albert is the Prince of Monaco. And people still remember the American actress who became a princess.",
+   "19.2 Past endings": "Narrator: watched. helped. worked. announced.\nNarrator: moved. followed. called. studied.\nNarrator: wanted. started. visited. decided.",
+   "19.3 Irregular verbs": "Narrator: become, became\nNarrator: begin, began\nNarrator: feel, felt\nNarrator: give, gave\nNarrator: get, got\nNarrator: have, had\nNarrator: make, made\nNarrator: meet, met\nNarrator: write, wrote\nNarrator: win, won"
+  }
+ },
+ "images": {
+  "a2-unit-19": {
+   "A": "monaco palace",
+   "B": "monaco harbor",
+   "C": "royal wedding bride",
+   "D": "philadelphia city"
+  }
+ }
+}

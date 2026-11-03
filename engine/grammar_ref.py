@@ -388,3 +388,24 @@ def so_neither(b):
 <div class="box" style="margin-top:1.5mm"><h4>NEITHER: TWO PRONUNCIATIONS</h4><b>neither</b> = /ˈniːðər/ (NEE-ther) or /ˈnaɪðər/ (NIGH-ther). Both are correct in American English. In very informal American English you'll also hear <i>Me either</i>.</div>
 {_dont([("I don't like fast food. – Me too.", "<b>Me neither.</b> / <b>Neither do I.</b>"), ("I like pizza. – So I do.", "<b>So do I.</b>"), ("I'm hungry. – So do I.", "<b>So am I.</b> (be → am)"), ("I didn't go. – Neither I.", "<b>Neither did I.</b>")])}""",
     16, """<p>Portuguese has no auxiliary in short answers, so students say <i>Me too</i> after negative sentences. Quick drill: say true sentences about yourself; the student answers fast (<i>So do I · Neither am I · I don't</i>).</p>""")
+
+
+def past_simple_review(b):
+    """Unit 19: past simple review: regular -ed (spelling and three sounds), irregular verbs, did questions and negatives."""
+    b.page(f"""{b.sec("+", "Grammar reference: the past simple (review)", "")}
+<div class="box" style="margin-top:0"><h4>FINISHED ACTIONS IN THE PAST</h4>We use the past simple for finished actions and events, often with a <b>time reference</b>: <i>in 1956 · last year · two days ago · when she was 16 · after high school</i>. It's the tense of biographies and stories.</div>
+{_tbl(["", "form", "examples"], [
+    ["positive", "verb + <b>-ed</b> or irregular form (all persons)", "<i>Grace <b>moved</b> to New York. She <b>met</b> the prince in 1955.</i>"],
+    ["negative", "<b>didn't</b> + base verb", "<i>She <b>didn't make</b> any more movies.</i> (not <s>didn't made</s>)"],
+    ["question", "<b>Did</b> + subject + base verb", "<i><b>Did</b> she <b>win</b> an Oscar? When <b>did</b> they <b>get</b> married?</i>"],
+    ["short answer", "Yes, … did. / No, … didn't.", "<i>Yes, she <b>did</b>. / No, she <b>didn't</b>.</i>"],
+    ["be", "was / were · wasn't / weren't", "<i>Her family <b>was</b> rich. They <b>were</b> happy. <b>Was</b> she American?</i>"]], "8.6pt")}
+{_h("REGULAR VERBS: SPELLING")}
+<p class="small" style="margin:.5mm 0">most verbs + <b>-ed</b>: work → worked · ends in <b>-e</b> + <b>-d</b>: move → moved · consonant + <b>y</b> → <b>-ied</b>: study → studied (but play → played) · short verb, one vowel + one consonant → double: stop → stopped, plan → planned</p>
+{_h("REGULAR VERBS: THREE SOUNDS")}
+{_tbl(["/t/", "/d/", "/ɪd/ (an extra syllable)"], [
+    ["after p, k, s, sh, ch, f: <i>helped, worked, announced, watched</i>", "after other sounds: <i>moved, followed, called, studied, married</i>", "only after <b>t</b> or <b>d</b>: <i>wanted, started, visited, decided</i>"]])}
+{_h("COMMON IRREGULAR VERBS")}
+<p class="small" style="margin:.5mm 0">be → was/were · become → became · begin → began · feel → felt · get → got · give → gave · go → went · have → had · make → made · meet → met · speak → spoke · take → took · win → won · write → wrote</p>
+{_dont([("Did she won an Oscar?", "Did she <b>win</b>…?"), ("She didn't made movies.", "She didn't <b>make</b>…"), ("They work-ED together. (2 syllables)", "worked = one syllable /wɜːrkt/"), ("When they got married?", "When <b>did</b> they <b>get</b> married?")])}""",
+    16, """<p>Brazilian students often pronounce every <i>-ed</i> as an extra syllable (<i>work-ed, watch-ed</i>). The extra syllable is only after <b>t</b> or <b>d</b>. In questions with <i>did</i>, the main verb goes back to the base form.</p>""")
