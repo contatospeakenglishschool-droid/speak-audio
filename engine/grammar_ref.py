@@ -409,3 +409,36 @@ def past_simple_review(b):
 <p class="small" style="margin:.5mm 0">be → was/were · become → became · begin → began · feel → felt · get → got · give → gave · go → went · have → had · make → made · meet → met · speak → spoke · take → took · win → won · write → wrote</p>
 {_dont([("Did she won an Oscar?", "Did she <b>win</b>…?"), ("She didn't made movies.", "She didn't <b>make</b>…"), ("They work-ED together. (2 syllables)", "worked = one syllable /wɜːrkt/"), ("When they got married?", "When <b>did</b> they <b>get</b> married?")])}""",
     16, """<p>Brazilian students often pronounce every <i>-ed</i> as an extra syllable (<i>work-ed, watch-ed</i>). The extra syllable is only after <b>t</b> or <b>d</b>. In questions with <i>did</i>, the main verb goes back to the base form.</p>""")
+
+
+_TIMELINE_PC = """<svg viewBox="0 0 520 64" width="100%" height="15mm" xmlns="http://www.w3.org/2000/svg" font-family="Inter, sans-serif">
+<line x1="20" y1="34" x2="500" y2="34" stroke="#77acb5" stroke-width="2"/>
+<polygon points="500,34 490,29 490,39" fill="#77acb5"/>
+<text x="20" y="58" font-size="11" fill="#7d858a">PAST</text><text x="460" y="58" font-size="11" fill="#7d858a">NOW</text>
+<path d="M110 34 Q170 14 230 34 Q290 54 350 34" fill="none" stroke="#cbbca0" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="120" y="12" font-size="11" fill="#9a7b4f" font-weight="700">was sleeping (long action, in progress)</text>
+<line x1="245" y1="20" x2="245" y2="48" stroke="#176074" stroke-width="3"/>
+<text x="252" y="58" font-size="11" fill="#176074" font-weight="700">passed (short action)</text></svg>"""
+
+
+def past_continuous(b):
+    """Unit 21: past continuous, and past continuous + past simple (while / when)."""
+    b.page(f"""{b.sec("+", "Grammar reference: the past continuous", "")}
+<div class="box" style="margin-top:0"><h4>AN ACTION IN PROGRESS IN THE PAST</h4>The past continuous describes an action that was <b>in progress</b> at a moment in the past. It often sets the scene at the start of a story; the past simple tells the events, one after the other.
+{_TIMELINE_PC}
+<p class="small" style="margin:0"><i>While the hare <b>was sleeping</b>, the tortoise <b>passed</b> him.</i></p></div>
+{_h("1. FORM: was / were + verb-ing")}
+{_tbl(["", "I / he / she / it", "you / we / they"], [
+    ["<b>positive</b>", "The hare <b>was watching</b> the tortoise.", "The ants <b>were working</b>."],
+    ["<b>negative</b>", "He <b>wasn't listening</b>.", "They <b>weren't playing</b>."],
+    ["<b>question</b>", "<b>Was</b> he <b>sleeping</b>?", "What <b>were</b> you <b>doing</b>?"],
+    ["<b>short answers</b>", "Yes, he <b>was</b>. / No, he <b>wasn't</b>.", "Yes, they <b>were</b>. / No, they <b>weren't</b>."]], "8.6pt")}
+<p class="small" style="margin:.8mm 0"><b>-ing spelling:</b> work → working · take → taking (no <b>e</b>) · run → running, sit → sitting (double) · lie → lying</p>
+{_h("2. PAST SIMPLE OR PAST CONTINUOUS?")}
+{_tbl(["past simple: finished actions, events in order", "past continuous: a longer action in progress, the background"], [
+    ["<i>The hare <b>looked</b> back. He <b>didn't see</b> the tortoise, so he <b>decided</b> to rest.</i>", "<i>One day, a hare <b>was watching</b> a tortoise. He <b>was laughing</b>.</i>"],
+    ["<b>when</b> + short action: <i>I was cooking <b>when</b> the phone rang.</i>", "<b>while</b> + long action: <i><b>While</b> I was cooking, the phone rang.</i>"]], "8.6pt")}
+{_h("3. STATE VERBS: NO -ING")}
+<p class="small" style="margin:.5mm 0">Verbs for thoughts, feelings and senses don't usually take <b>-ing</b>: <b>know, think</b> (= believe), <b>believe, want, like, love, see, hear, need</b>. <i>The hare <b>thought</b> it was funny.</i> (not <s>was thinking</s>) · <i>He <b>didn't see</b> the tortoise.</i> (not <s>wasn't seeing</s>)</p>
+{_dont([("I was knowing the answer.", "I <b>knew</b> the answer."), ("I was cooking when the phone was ringing.", "…when the phone <b>rang</b>."), ("They was working.", "They <b>were</b> working."), ("What you were doing?", "What <b>were you</b> doing?")])}""",
+    16, """<p>Draw the timeline: the wavy line is the long action, the short line is the event that interrupts it. In natural speech <i>was</i> and <i>were</i> are weak (/wəz/, /wər/), but strong in short answers: <i>Yes, I was.</i></p>""")
