@@ -479,3 +479,27 @@ def used_to(b):
 <p class="small" style="margin:.8mm 0"><b>Now = present simple + usually:</b> <i>I <b>usually</b> get up at six.</i> (not <s>I use to get up at six</s>). <b>used to</b> is only for the past.<br><b>Pronunciation:</b> <i>used to</i> = /ˈjuːstə/ (like <i>yoost-tuh</i>). <i>I <b>used</b> a map</i> (= utilized) = /juːzd/.</p>
 {_dont([("I use to live in Recife.", "I <b>used</b> to live in Recife."), ("I didn't used to like coffee.", "I didn't <b>use</b> to like coffee."), ("I use to get up at six. (now)", "I <b>usually</b> get up at six."), ("I used to go to Paris last year.", "I <b>went</b> to Paris last year.")])}""",
     22, """<p>In Portuguese, one verb works for past and present habits, so Brazilians often use <i>use to</i> for the present too. Contrast: <i>I used to drink soda. Now I usually drink water.</i> In fast speech the <i>-d</i> of <i>used</i> disappears, which is why students write <i>use to</i> in positive sentences.</p>""")
+
+
+def second_conditional(b):
+    """A2 Unit 23: second conditional (unreal or unlikely present/future), compared with zero and first."""
+    b.page(f"""{b.sec("+", "Grammar reference: the second conditional", "")}
+<div class="box" style="margin-top:0"><h4>IMAGINING A DIFFERENT REALITY</h4>The <b>second conditional</b> talks about situations in the <b>present or future</b> that are <b>not real</b> or <b>not likely</b>. We use a past form after <b>if</b>, but the meaning is <b>not past</b>.<br>
+<span class="small"><b>Reality:</b> <i>I don't have much free time, so I don't go to many games.</i> → <b>Imagined:</b> <i>If I <b>had</b> more free time, I<b>'d go</b> to every home game.</i></span></div>
+{_h("1. FORM")}
+{_tbl(["condition (if clause)", "result"], [
+    ["<b>If</b> + past simple<br><i>If the tickets <b>were</b> cheaper,</i>", "<b>would / wouldn't</b> + verb<br><i>more families <b>would go</b>.</i>"],
+    ["<i>If I <b>had</b> more money,</i>", "<i>I<b>'d buy</b> a season ticket.</i> ('d = would)"],
+    ["<i>If they <b>didn't train</b>,</i>", "<i>they <b>wouldn't win</b>.</i>"]], "8.6pt")}
+<p class="small" style="margin:.8mm 0"><b>Question:</b> <i>What <b>would</b> you <b>do</b> if you <b>won</b> the lottery?</i> · <b>Short answers:</b> <i>Yes, I <b>would</b>. / No, I <b>wouldn't</b>.</i><br>
+<b>Order:</b> <i>If I had time, I'd go.</i> = <i>I'd go if I had time.</i> (comma only when <b>if</b> comes first)<br>
+<b>be:</b> <i>If I / he / she / it <b>were</b>…</i> is correct in all English; <i>was</i> is common in conversation. Advice: <i>If I <b>were</b> you, I'd…</i></p>
+{_h("2. ZERO, FIRST OR SECOND?")}
+{_tbl(["", "form", "example", "meaning"], [
+    ["<b>zero</b>", "if + present, present", "<i>If you heat ice, it melts.</i>", "always true"],
+    ["<b>first</b>", "if + present, will", "<i>If we win on Sunday, we'll celebrate.</i>", "real, possible"],
+    ["<b>second</b>", "if + past, would", "<i>If we won every game, it wouldn't be special.</i>", "imagined, unlikely"]], "8.4pt")}
+{_h("3. FROM REALITY TO IMAGINATION")}
+<p class="small" style="margin:.5mm 0">Change the tense and, very often, positive ↔ negative: <i>He <b>doesn't like</b> training, so he <b>isn't</b> fit.</i> → <i>If he <b>liked</b> training, he<b>'d be</b> fit.</i></p>
+{_dont([("If I would have money, I would travel.", "If I <b>had</b> money, I'd travel."), ("If I had time, I will go.", "…I <b>would</b> go."), ("If I won, I travel the world.", "…I <b>would travel</b>…"), ("I would be happy if they would win.", "…if they <b>won</b>.")])}""",
+    20, """<p>The key Brazilian error is <i>would</i> in the if clause. Use the hump intonation: rising on the condition, falling on the result. In speech, <i>I'd</i> /aɪd/ and <i>I'll</i> /aɪl/ are easy to confuse; drill both.</p>""")

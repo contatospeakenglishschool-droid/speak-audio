@@ -1,0 +1,15 @@
+{
+ "material": "speak-bridge",
+ "characters": {"Reporter": "en-US-Studio-O", "Narrator": "en-US-Neural2-J"},
+ "pauses": {"23.3": 3000},
+ "units": {"a2-unit-23": {
+  "23.1 Lovable losers no more": "Reporter: Lovable losers no more? Why Chicago still loves the Cubs.\nReporter: For more than a hundred years, the Chicago Cubs were baseball's favorite underdog. The team didn't win the World Series from nineteen oh eight to two thousand sixteen. That's one hundred and eight years without a title, one of the longest waits in American sports.\nReporter: Many fans blamed a goat. According to a famous Chicago legend, in nineteen forty-five a local tavern owner, Billy Sianis, tried to bring his goat to a World Series game at Wrigley Field. The goat wasn't allowed in, and the story says that Sianis put a curse on the team. The Cubs didn't play in another World Series for seventy-one years.\nReporter: Then, in November two thousand sixteen, everything changed. The Cubs were losing the World Series three games to one, but they won three games in a row. In Game Seven, they beat Cleveland eight to seven in ten innings. That Friday, about five million people came to the victory parade and rally, according to city officials.\nReporter: Today, the Cubs are a normal team again. Some seasons are good, and some are bad. But the fans haven't changed. We asked people at a coffee shop in Chicago how they feel about their team.\nReporter: \"If the Cubs won every year, it wouldn't feel so special,\" says Tom, a teacher. Rita, the manager of the coffee shop, agrees. \"If I had more free time, I'd go to every home game. And if the tickets were cheaper, more families would go.\" For Kate, who owns a bakery, it isn't about winning. \"I'd still be a fan if they lost every game this season. That's what fans do.\"\nReporter: So, is winning the most important thing? Not in Chicago. As one fan told us, \"If winning were easy, nobody would care.\"",
+  "23.2 Repeat: I'd and wouldn't": "Narrator: I'd go\nNarrator: I'd go to every game.\nNarrator: If I had more time, I'd go to every game.\nNarrator: we'd win\nNarrator: If we trained more, we'd win.\nNarrator: It wouldn't feel special.\nNarrator: Would you go?\nNarrator: Yes, I would.",
+  "23.3 Will or would": "Narrator: One. I'll call you later.\nNarrator: Two. I'd call you later.\nNarrator: Three. We'd win more games.\nNarrator: Four. We'll win the next game.\nNarrator: Five. She'd love it.\nNarrator: Six. They'll be here soon."
+ }},
+ "images": {"a2-unit-23": {
+  "A": "empty stadium seats", "B": "sports fans cheering stadium", "C": "coach whistle", "D": "sports jersey hanging",
+  "E": "gold trophy cup", "F": "stadium scoreboard", "G": "soccer training cones", "H": "soccer ball in goal net",
+  "I": "Wrigley Field Chicago", "J": "baseball glove and ball"
+ }}
+}
