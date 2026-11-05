@@ -1,0 +1,33 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Commessa": "it-IT-Chirp3-HD-Vindemiatrix",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {
+  "01.2": 2000,
+  "01.3": 2500
+ },
+ "units": {
+  "it-a2-unita-01": {
+   "01.1 Dialogo": "Narrator: Dialogo uno. Settembre. Júlia è tornata dal Brasile e va al bar di Giulia.\nGiulia: Ciao Júlia! Bentornata! Com'è andata in Brasile?\nJúlia: Benissimo, grazie! Ma ho un problema: sabato Luca, il fratello di Marco, si sposa a Firenze e io non so che cosa mettermi!\nGiulia: Un matrimonio! Che bello! Hai un vestito elegante?\nJúlia: Ho solo un vestito nero, ma è vecchio. E il bianco?\nGiulia: No, il bianco no! Quello è solo per la sposa. Senti, oggi pomeriggio sono libera. Ti accompagno io in via Indipendenza.\nJúlia: Grazie, sei un tesoro! Dobbiamo trovare anche un regalo per gli sposi.\nGiulia: E Bruno? Viene anche lui?\nJúlia: Sì, Luca ha invitato anche lui. Ma Bruno ha solo jeans e magliette!\nNarrator: Dialogo due. In un negozio di vestiti.\nCommessa: Buongiorno! Desidera?\nJúlia: Buongiorno. Cerco un vestito per un matrimonio.\nCommessa: Che taglia porta?\nJúlia: La quarantadue.\nCommessa: Allora... Le piace questo vestito blu? O quello verde, in vetrina?\nJúlia: Posso provare tutti e due?\nCommessa: Certo, il camerino è lì in fondo.\nJúlia: Giulia, come mi sta?\nGiulia: Il blu ti sta benissimo! Il verde è bello, ma è meno elegante del blu.\nJúlia: Quanto costa questo?\nCommessa: Questo costa novanta euro. Quello verde costa sessantacinque.\nJúlia: Il blu è più caro del verde... ma mi piace di più. Lo prendo!\nCommessa: Benissimo. Si accomodi alla cassa.\nNarrator: Dialogo tre. La sera, sulle scale.\nDavide: Ciao Júlia! Quante borse! Hai fatto shopping?\nJúlia: Sì, con Giulia. Per il matrimonio di Luca ho comprato un vestito blu.\nDavide: E quella borsa grande?\nJúlia: È per Bruno: gli ho comprato una camicia e una cravatta.\nDavide: Una cravatta? Ma a Bruno le cravatte non piacciono!\nJúlia: Lo so, ma a me sì! E a un matrimonio la cravatta è importante.\nDavide: E agli sposi che cosa regalate?\nJúlia: Gli regaliamo un buono per il viaggio di nozze. Vogliono andare in Portogallo.\nDavide: Bella idea! E Bruno ha una giacca?\nJúlia: No... Gli puoi prestare una giacca tu?\nDavide: Certo! Ho una giacca grigia. È più elegante di quella di mio fratello... e meno cara di una nuova!",
+   "01.2 Ripeti domanda e affermazione": "Narrator: Ti sta bene. Ti sta bene?\nNarrator: Le piace. Le piace?\nNarrator: È caro. È caro?\nNarrator: Viene anche lui. Viene anche lui?\nNarrator: Lo prendo. Lo prendo?\nNarrator: Gli telefoni. Gli telefoni?",
+   "01.3 Domanda o affermazione": "Narrator: Le piace il blu?\nNarrator: Costa novanta euro.\nNarrator: Gli regaliamo un buono?\nNarrator: Viene anche Bruno?\nNarrator: È più caro del verde.\nNarrator: Ti sta bene."
+  }
+ },
+ "images": {
+  "it-a2-unita-01": {
+   "A": "blazer jacket on hanger",
+   "B": "elegant blue dress",
+   "C": "white shirt folded",
+   "D": "skirt woman fashion",
+   "E": "trousers pants folded",
+   "F": "leather shoes pair",
+   "G": "necktie",
+   "H": "fitting room clothing store"
+  }
+ }
+}
