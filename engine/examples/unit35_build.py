@@ -76,19 +76,21 @@ def build(teacher):
 
     # Page 3
     b.page(f"""{sec(3, "Language focus: rules", "10 min")}
-{sub("A", "Read the rules from the safari park. Then choose the correct option.", "5 min")}
+{sub("A", "Study the table. The rules are from the safari park.", "3 min")}
 <table style="table-layout:fixed;font-size:9.3pt"><tr><th>must / mustn't</th><th>can / can't</th><th>imperatives</th></tr>
 <tr><td>You <b>must</b> stay in your car.<br>You <b>mustn't</b> use a flash.</td><td>You <b>can</b> take photographs.<br>You <b>can't</b> leave the road.</td><td><b>Drive</b> slowly.<br><b>Don't</b> feed the animals.</td></tr></table>
+<div class="box" style="margin-top:1mm"><h4>RULES</h4><b>must</b> + verb (no <i>to</i>) = it's necessary · <b>mustn't</b> / <b>can't</b> = it's not OK · <b>can</b> = it's OK, your choice.<br><b>Imperatives</b> have no subject: <i>Drive slowly.</i> The negative is <b>Don't</b> + verb: <i>Don't feed the animals.</i></div>
+<div class="box sand" style="margin-top:1mm"><h4>REMEMBER</h4><b>must</b> is the same for all people: I / you / he / she / we / they <b>must</b>. ✗ <i>he musts</i><br>
+Rules on signs: <b>No smoking.</b> = You can't smoke. · <b>No photos.</b> = You mustn't take photos.</div>
+{sub("B", "Choose the correct option.", "3 min")}
 <ol><li><i>must</i> and <i>mustn't</i> explain {ch(["advice", "rules and laws"], "rules and laws")}. After them, we use the verb {ch(["with to", "without to"], "without to")}.</li>
 <li><i>must</i> = it's {ch(["necessary", "your choice"], "necessary")}. <i>can</i> = it's {ch(["necessary", "OK, your choice"], "OK, your choice")}.</li>
 <li><i>can't</i> has the same meaning as {ch(["mustn't", "must"], "mustn't")}.</li>
 <li>Imperatives {ch(["need", "don't need"], "don't need")} a subject. The negative is <b>Don't</b> + verb.</li></ol>
-{sub("B", "Necessary, OK or not OK? Write N, OK or X.", "3 min")}
-<ol><li>You must buy a ticket. {A("N", "min-width:9mm")}</li><li>You can park here. {A("OK", "min-width:9mm")}</li><li>Don't smoke. {A("X", "min-width:9mm")}</li><li>You mustn't run. {A("X", "min-width:9mm")}</li><li>You can't swim here. {A("X", "min-width:9mm")}</li></ol>
-<div class="box sand"><h4>REMEMBER</h4><b>must</b> is the same for all people: I / you / he / she / we / they <b>must</b>. ✗ <i>he musts</i><br>
-Rules on signs: <b>No smoking.</b> = You can't smoke. · <b>No photos.</b> = You mustn't take photos.</div>""",
-    26, """<ol><li>A: <i>mustn't</i> and <i>must</i> are very different: mustn't = not OK; must = necessary. Compare with <i>should</i> (Unit 34): advice, not a rule.</li>
-<li>B: then ask about rules at the student's work or building.</li></ol>""")
+{sub("C", "Necessary, OK or not OK? Write N, OK or X.", "3 min")}
+<ol><li>You must buy a ticket. {A("N", "min-width:9mm")}</li><li>You can park here. {A("OK", "min-width:9mm")}</li><li>Don't smoke. {A("X", "min-width:9mm")}</li><li>You mustn't run. {A("X", "min-width:9mm")}</li><li>You can't swim here. {A("X", "min-width:9mm")}</li></ol>""",
+    26, """<ol><li>A–B: <i>mustn't</i> and <i>must</i> are very different: mustn't = not OK; must = necessary. Compare with <i>should</i> (Unit 34): advice, not a rule.</li>
+<li>C: then ask about rules at the student's work or building.</li></ol>""")
 
     # Page 4
     b.page(f"""{sub("C", "Common mistakes for Brazilians", "2 min")}

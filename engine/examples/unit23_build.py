@@ -105,18 +105,19 @@ def build(teacher):
         o = [R(f"<u>{x}</u>") if (T and x == right) else x for x in o]
         return f"<li>{s} <b><i>{o[0]}</i></b> / <b><i>{o[1]}</i></b>.</li>"
     b.page(f"""{sec(3, "Language focus: was / were", "10 min")}
-{sub("A", "Read the sentences from the exhibition.", "2 min")}
-<div class="bank" style="background:#fff;font-weight:600">He was a famous soccer player. · Her parents were rich. · She wasn't from Rio. · Was she famous in her time? Yes, she was.</div>
-{sub("B", "Study the table.", "4 min")}
+{sub("A", "Study the table.", "4 min")}
 <table style="table-layout:fixed"><tr><th style="width:28mm"></th><th>Positive</th><th>Negative</th><th>Question</th><th>Short answers</th></tr>
 <tr><td><b>I / he / she / it</b></td><td>I <b>was</b> happy.<br>She <b>was</b> a singer.</td><td>I <b>wasn't</b> at home.<br>He <b>wasn't</b> rich.</td><td><b>Was</b> she famous?</td><td>Yes, she <b>was</b>.<br>No, she <b>wasn't</b>.</td></tr>
 <tr><td><b>you / we / they</b></td><td>We <b>were</b> at work.<br>They <b>were</b> poor.</td><td>You <b>weren't</b> late.<br>They <b>weren't</b> famous.</td><td><b>Were</b> they rich?</td><td>Yes, they <b>were</b>.<br>No, they <b>weren't</b>.</td></tr>
 <tr><td><b>Wh- questions</b></td><td colspan="4">Where <b>was</b> she born? · When <b>were</b> you born? · Who <b>was</b> the painter? · What <b>was</b> he famous for?</td></tr></table>
-{sub("C", "Choose the correct option.", "3 min")}
-<ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>
 <div class="two"><div class="box" style="margin-top:1mm"><h4>NOW AND THE PAST</h4>am / is → <b>was</b><br>are → <b>were</b><br>I'm / she's (contractions) → I <b>was</b> / she <b>was</b> (no contractions)</div>
-<div class="box sand" style="margin-top:1mm"><h4>BE BORN</h4>I <b>was born</b> in 1990. (year)<br>She <b>was born</b> in Portugal. (country, city)<br>He <b>was born</b> on May 15. (date)</div></div>""",
-    24, """<ol><li>B: present has three forms (<i>am, is, are</i>); the past has only two (<i>was, were</i>). Drill the table: you say <i>she</i>, the student says <i>she was / she wasn't / Was she…?</i></li>
+<div class="box sand" style="margin-top:1mm"><h4>BE BORN</h4>I <b>was born</b> in 1990. (year)<br>She <b>was born</b> in Portugal. (country, city)<br>He <b>was born</b> on May 15. (date)</div></div>
+{sub("B", "Read the sentences from the exhibition. Then choose the correct option.", "3 min")}
+<div class="bank" style="background:#fff;font-weight:600">He was a famous soccer player. · Her parents were rich. · She wasn't from Rio. · Was she famous in her time? Yes, she was.</div>
+<ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>
+{sub("C", "Your turn. Complete with was, were, wasn't or weren't. Then answer the questions.", "3 min")}
+<ol><li>Where {A("were", "min-width:14mm")} you born?</li><li>{A("Was", "min-width:14mm")} your grandmother a teacher?</li><li>My parents {A("were / weren't", "min-width:24mm")} at home yesterday.</li></ol>""",
+    24, """<ol><li>A: present has three forms (<i>am, is, are</i>); the past has only two (<i>was, were</i>). Drill the table: you say <i>she</i>, the student says <i>she was / she wasn't / Was she…?</i> C: the student answers about their real life.</li>
 <li>BE BORN: in English it is two words: <b>was born</b>. Brazilians often forget <i>was</i>. Ask: <i>When were you born?</i></li></ol>""")
 
     # Page 4

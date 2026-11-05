@@ -98,10 +98,10 @@ def build(teacher):
 <div class="bank" style="background:#fff;font-weight:600">Rita <u>started</u> her career in 1966. · Her time with Os Mutantes <u>ended</u> in 1972. · They <u>married</u> in 1996. · People <u>listened</u> to her songs.</div>
 <div class="box" style="margin-top:0"><h4>PAST SIMPLE</h4>We use the past simple for <b>finished actions in the past</b>, often with a time: <i>in 1966, last night, yesterday, two years ago</i>.<br>
 The form is the <b>same for all people</b>: I / you / he / she / we / they <b>worked</b>. (No <i>-s</i>, no <i>was</i>: <s>She was worked</s> ✗)</div>
-{sub("B", "Spelling. Choose the correct option.", "4 min")}
-<ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>
-<table style="table-layout:fixed;margin-top:1mm"><tr><th>+ -d</th><th>+ -ed</th><th>double + -ed</th><th>-y → -ied</th></tr>
+{sub("B", "Spelling. Study the table. Then choose the correct option.", "4 min")}
+<table style="table-layout:fixed;margin-top:0;margin-bottom:1mm"><tr><th>+ -d</th><th>+ -ed</th><th>double + -ed</th><th>-y → -ied</th></tr>
 <tr><td>move → moved<br>release → released</td><td>start → started<br>play → played</td><td>stop → stopped<br>plan → planned</td><td>marry → married<br>study → studied</td></tr></table>
+<ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>
 {sub("C", "Write the past simple.", "3 min")}
 {twocol(vl, 5)}""",
     27, """<ol><li>A: point at the time words. <i>She is worked</i> and <i>She was worked</i> are common mistakes: the past simple is <b>one word</b>.</li>

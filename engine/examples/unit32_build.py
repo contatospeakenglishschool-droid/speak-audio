@@ -75,23 +75,25 @@ def build(teacher):
 
     # Page 3
     b.page(f"""{sec(3, "Language focus: talking about the future", "10 min")}
-{sub("A", "Read the sentences from the phone call. Then choose the correct option.", "4 min")}
+{sub("A", "Study the table. The sentences are from the phone call.", "3 min")}
 <table style="table-layout:fixed;font-size:9.3pt"><tr><th>Present continuous</th><th>be going to + verb</th></tr>
 <tr><td>I'm having brunch with Lucy at eleven.<br>I'm taking my Portuguese exam on Friday at eleven.<br>I'm meeting a new supplier at one o'clock.</td>
 <td>I'm going to clean the bakery on Saturday.<br>I'm going to watch the Bears game.<br>I'm going to make pizza in the evening.</td></tr></table>
+<div class="box" style="margin-top:1mm"><h4>WHICH FORM?</h4><b>Present continuous</b> = an arrangement, often with other people and a fixed time: <i>I'm meeting a supplier at one.</i><br><b>be going to</b> = a plan or intention, sometimes with no fixed time: <i>I'm going to clean the bakery.</i> Both talk about the <b>future</b>.</div>
+<div class="box sand" style="margin-top:1mm"><h4>REMEMBER</h4><b>be</b> + going to + base form: I<b>'m</b> going to study. ✗ <i>I going to study</i><br>
+With <i>go</i>, we usually say <b>I'm going to the bank</b> (not <i>I'm going to go to the bank</i>, but both are correct).</div>
+{sub("B", "Choose the correct option.", "2 min")}
 <ol><li>Present continuous sentences are often {ch(["arrangements with other people", "plans just for me"], "arrangements with other people")}, with a fixed time.</li>
 <li><i>Be going to</i> sentences are often {ch(["arrangements with other people", "plans or intentions"], "plans or intentions")}, sometimes with no fixed time.</li>
 <li>Both forms talk about the {ch(["present", "future"], "future")} here.</li></ol>
-{sub("B", "Complete the table.", "4 min")}
+{sub("C", "Complete the table.", "4 min")}
 <table style="table-layout:fixed;font-size:9.3pt"><tr><th style="width:24mm"></th><th>be going to</th><th>present continuous</th></tr>
 <tr><td><b>+</b></td><td>She {A("'s going to", "min-width:22mm")} clean the bakery.</td><td>She {A("'s meeting", "min-width:22mm")} a supplier at one.</td></tr>
 <tr><td><b>–</b></td><td>I {A("'m not going to", "min-width:26mm")} watch the game.</td><td>I {A("'m not doing", "min-width:22mm")} anything on Thursday.</td></tr>
 <tr><td><b>?</b></td><td>{A("Are", "min-width:12mm")} you going to make pizza?</td><td>What {A("are", "min-width:12mm")} you doing this weekend?</td></tr>
-<tr><td><b>short answers</b></td><td colspan="2">Yes, I am. / No, I'm not. · Yes, she is. / No, she isn't.</td></tr></table>
-<div class="box sand"><h4>REMEMBER</h4><b>be</b> + going to + base form: I<b>'m</b> going to study. ✗ <i>I going to study</i><br>
-With <i>go</i>, we usually say <b>I'm going to the bank</b> (not <i>I'm going to go to the bank</i>, but both are correct).</div>""",
-    26, """<ol><li>A: the difference is small and native speakers often use both. The key idea: present continuous = it's in the planner, with a time or with other people.</li>
-<li>B: drill the contractions: <i>She's going to · I'm not going to · What are you doing?</i></li></ol>""")
+<tr><td><b>short answers</b></td><td colspan="2">Yes, I am. / No, I'm not. · Yes, she is. / No, she isn't.</td></tr></table>""",
+    26, """<ol><li>A–B: the difference is small and native speakers often use both. The key idea: present continuous = it's in the planner, with a time or with other people.</li>
+<li>C: drill the contractions: <i>She's going to · I'm not going to · What are you doing?</i></li></ol>""")
 
     # Page 4
     b.page(f"""{sub("C", "Common mistakes for Brazilians", "2 min")}

@@ -83,6 +83,8 @@ def build(teacher):
     box = lambda x: f"<td style='width:9mm;text-align:center'><b>{R(x) if T else '☐'}</b></td>"
     pt = "".join(f"<tr><td class='small'><b>{t}</b></td><td>{q}</td>{box(a)}<td>{r}</td>{box(c)}</tr>" for t, q, a, r, c in phr)
     b.page(f"""{sec(3, "Language focus: in a clothes store", "10 min")}
+<div class="box sand" style="margin-top:0"><h4>HOW MUCH / HOW MANY · IT / THEY</h4><b>How much</b> = a price, or things we can't count (money, time). <b>How many</b> + plural noun: How many <b>colors</b>? How many <b>pairs</b>?<br>
+One item: <b>it</b>. This sweater: How much <b>is it</b>? Can I try <b>it</b> on? &nbsp;·&nbsp; Jeans, shoes, socks: <b>they</b>. These jeans: How much <b>are they</b>? Can I try <b>them</b> on?</div>
 {sub("A", "Who says it? Write S (sales clerk) or C (customer).", "4 min")}
 <table style="table-layout:fixed;font-size:9pt"><tr><th style="width:20mm"></th><th>Question</th><th style="width:9mm">S/C</th><th>Answer</th><th style="width:9mm">S/C</th></tr>{pt}</table>
 {sub("B", "How much or how many? Choose the correct word.", "3 min")}
@@ -90,8 +92,7 @@ def build(teacher):
 <li>How {ch(["much", "many"], "many")} colors does it come in? Three.</li>
 <li>How {ch(["much", "many"], "many")} pairs of jeans do you have?</li>
 <li>How {ch(["much", "many"], "much")} money do you spend on clothes?</li></ol>
-<div class="box sand"><h4>HOW MUCH / HOW MANY · IT / THEY</h4><b>How much</b> = a price, or things we can't count (money, time). <b>How many</b> + plural noun: How many <b>colors</b>? How many <b>pairs</b>?<br>
-One item: <b>it</b>. This sweater: How much <b>is it</b>? Can I try <b>it</b> on? &nbsp;·&nbsp; Jeans, shoes, socks: <b>they</b>. These jeans: How much <b>are they</b>? Can I try <b>them</b> on?</div>""",
+""",
     26, """<ol><li>A: then drill the phrases as a mini dialogue: you are the clerk, the student is the customer; change roles. <b>suits</b> /suːts/.</li>
 <li>B: countable and uncountable nouns come back in a later unit; here, just <i>much</i> for prices and money, <i>many</i> + plural.</li></ol>""")
 

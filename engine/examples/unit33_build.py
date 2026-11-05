@@ -75,22 +75,24 @@ def build(teacher):
 
     # Page 3
     b.page(f"""{sec(3, "Language focus: will for predictions", "10 min")}
-{sub("A", "Read the sentences from the video. Then choose the correct option.", "4 min")}
+{sub("A", "Study the table.", "3 min")}
+<table style="table-layout:fixed;font-size:9.3pt"><tr><td style="width:28mm"><b>+</b></td><td>Robots <b>will</b> clean our houses. · I<b>'ll</b> relax.</td></tr>
+<tr><td><b>–</b></td><td>Robots <b>won't</b> be good teachers.</td></tr>
+<tr><td><b>?</b></td><td><b>Will</b> robots teach our children? — Yes, they <b>will</b>. / No, they <b>won't</b>.</td></tr>
+<tr><td><b>wh-?</b></td><td>When <b>will</b> robots explore Mars?</td></tr></table>
+<div class="box" style="margin-top:1mm"><h4>WILL</h4><b>will / won't</b> + verb (no <i>to</i>) for predictions. It's the same for all people (✗ <i>wills</i>). <b>won't</b> = will not · <b>I'll</b> = I will. <i>I don't think… will</i> = a negative idea.</div>
+{sub("B", "Read the sentences from the video. Then choose the correct option.", "3 min")}
 <div class="bank" style="background:#fff;font-weight:600">So I<u>'ll</u> relax on the sofa, and the robot <u>will clean</u> my apartment. · I don't think robots <u>will teach</u> children. · Robots <u>won't be</u> very good teachers. · <u>Will</u> robots <u>be</u> dangerous?</div>
 <ol><li>After <i>will</i> and <i>won't</i>, we use the verb {ch(["with to", "without to"], "without to")}.</li>
 <li><i>won't</i> = {ch(["will not", "want not"], "will not")}. &nbsp; <i>I'll</i> = {ch(["I will", "I am"], "I will")}.</li>
 <li><i>I don't think robots will…</i> is a {ch(["positive", "negative"], "negative")} idea.</li>
 <li><i>Will</i> is the same for all people: I / you / he / she / we / they {ch(["will", "wills"], "will")}.</li></ol>
-<table style="table-layout:fixed;font-size:9.3pt"><tr><td style="width:28mm"><b>+</b></td><td>Robots <b>will</b> clean our houses. · I<b>'ll</b> relax.</td></tr>
-<tr><td><b>–</b></td><td>Robots <b>won't</b> be good teachers.</td></tr>
-<tr><td><b>?</b></td><td><b>Will</b> robots teach our children? — Yes, they <b>will</b>. / No, they <b>won't</b>.</td></tr>
-<tr><td><b>wh-?</b></td><td>When <b>will</b> robots explore Mars?</td></tr></table>
-{sub("B", "How sure are you? Put the adverbs in order: 100% → 50%.", "3 min")}
-<p>possibly · certainly · probably &nbsp; → &nbsp; {A("certainly", "min-width:18mm")} 100% · {A("probably", "min-width:18mm")} 80% · {A("possibly", "min-width:18mm")} 50%</p>
-<div class="box sand"><h4>PREDICTIONS: USEFUL PHRASES</h4><b>I think / I believe / I predict / I hope</b> robots will help doctors. · <b>I don't think</b> robots will teach children.<br>
-Adverbs go <b>after will</b> and <b>before won't</b>: Robots <b>will certainly</b> be important. · They <b>probably won't</b> be good teachers.</div>""",
-    26, """<ol><li>A: <i>will</i> is the same for all subjects, like <i>can</i> (Unit 05). The contraction <i>'ll</i> is very weak: say <i>I'll</i> like <i>aisle</i>.</li>
-<li>B: ask the student to make one sentence with each adverb about real life: <i>It will probably rain tomorrow.</i></li></ol>""")
+{sub("C", "How sure are you? Put the adverbs in order: 100% → 50%.", "3 min")}
+<div class="box sand" style="margin:0 0 1mm"><h4>PREDICTIONS: USEFUL PHRASES</h4><b>I think / I believe / I predict / I hope</b> robots will help doctors. · <b>I don't think</b> robots will teach children.<br>
+Adverbs go <b>after will</b> and <b>before won't</b>: Robots <b>will certainly</b> be important. · They <b>probably won't</b> be good teachers.</div>
+<p>possibly · certainly · probably &nbsp; → &nbsp; {A("certainly", "min-width:18mm")} 100% · {A("probably", "min-width:18mm")} 80% · {A("possibly", "min-width:18mm")} 50%</p>""",
+    26, """<ol><li>A–B: <i>will</i> is the same for all subjects, like <i>can</i> (Unit 05). The contraction <i>'ll</i> is very weak: say <i>I'll</i> like <i>aisle</i>.</li>
+<li>C: ask the student to make one sentence with each adverb about real life: <i>It will probably rain tomorrow.</i></li></ol>""")
 
     # Page 4
     b.page(f"""{sub("C", "Common mistakes for Brazilians", "2 min")}

@@ -79,22 +79,23 @@ def build(teacher):
               ("where", "a place"), ("when", "a time"), ("why", "a reason"), ("how much", "a price")]
     qw = lambda xs: "".join(f"<tr><td><b>{w}</b></td><td>{A(m, 'min-width:38mm')}</td></tr>" for w, m in xs)
     b.page(f"""{sec(3, "Language focus: questions", "10 min")}
-{sub("A", "Complete Paulo's questions with do, does or did. Then answer the questions below.", "4 min")}
+{sub("A", "Study the table. The questions are from Paulo's day.", "3 min")}
 <table style="table-layout:fixed"><tr><th style="width:30mm"></th><th>Present simple</th><th>Past simple</th></tr>
-<tr><td><b>Yes/no</b></td><td>{A("Do")} you have something for a headache?</td><td>{A("Did")} you make this cheese bread today?</td></tr>
-<tr><td><b>Wh- question</b></td><td>What time {A("does")} breakfast start?</td><td>When {A("did")} the movie start?</td></tr>
-<tr><td><b>Subject question</b></td><td>Who usually answers the phone?</td><td>Who painted this picture?</td></tr></table>
+<tr><td><b>Yes/no</b></td><td><b>Do</b> you have something for a headache?</td><td><b>Did</b> you make this cheese bread today?</td></tr>
+<tr><td><b>Wh- question</b></td><td>What time <b>does</b> breakfast start?</td><td>When <b>did</b> the movie start?</td></tr>
+<tr><td><b>Subject question</b></td><td>Who usually <b>answers</b> the phone?</td><td>Who <b>painted</b> this picture?</td></tr></table>
+<div class="box sand"><h4>QUESTION ORDER</h4>(question word) + <b>do / does / did</b> + subject + base form: Where <b>do</b> you live? · How much <b>does</b> it cost? · Why <b>did</b> the machine keep my card?<br>
+<b>Subject questions</b>: Who / What + verb, no <i>do / does / did</i>: Who <b>lives</b> with you? · Who <b>painted</b> it?</div>
+{sub("B", "Choose the correct option.", "3 min")}
 <ol><li>After do, does and did, the verb is in the {ch(["base form", "past form"], "base form")}.</li>
 <li>We use <i>does</i> with {ch(["he, she, it", "I, you, we, they"], "he, she, it")}.</li>
 <li>In <i>Who painted this picture?</i>, <i>who</i> is the {ch(["subject", "object"], "subject")}: the person who did the action.</li>
 <li>In subject questions, we {ch(["use", "don't use"], "don't use")} do, does or did.</li></ol>
-{sub("B", "Question words. What information do they ask for? Use the box.", "4 min")}
+{sub("C", "Question words. What information do they ask for? Use the box.", "4 min")}
 <div class="bank">a choice · a person · a place · a price · a reason · a time · an activity or a thing · the owner</div>
-<div class="two"><div><table style="margin:0">{qw(words8[:4])}</table></div><div><table style="margin:0">{qw(words8[4:])}</table></div></div>
-<div class="box sand"><h4>QUESTION ORDER</h4>(question word) + <b>do / does / did</b> + subject + base form: Where <b>do</b> you live? · How much <b>does</b> it cost? · Why <b>did</b> the machine keep my card?<br>
-<b>Subject questions</b>: Who / What + verb, no <i>do / does / did</i>: Who <b>lives</b> with you? · Who <b>painted</b> it?</div>""",
-    27, """<ol><li>A: elicit the rule from the examples before you explain it. Drill the six questions with the right intonation (page 4).</li>
-<li>B: <b>whose</b> asks about the owner: <i>Whose bag is this? It's mine.</i> Remind the student of Unit 11 (possessives).</li></ol>""")
+<div class="two"><div><table style="margin:0">{qw(words8[:4])}</table></div><div><table style="margin:0">{qw(words8[4:])}</table></div></div>""",
+    27, """<ol><li>A: explain the table, then B checks the rule. Drill the six questions with the right intonation (page 4).</li>
+<li>C: <b>whose</b> asks about the owner: <i>Whose bag is this? It's mine.</i> Remind the student of Unit 11 (possessives).</li></ol>""")
 
     # Page 4
     b.page(f"""{sub("C", "Common mistakes for Brazilians", "2 min")}

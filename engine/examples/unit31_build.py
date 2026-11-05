@@ -74,24 +74,25 @@ def build(teacher):
 
     # Page 3
     b.page(f"""{sec(3, "Language focus: quantity", "10 min")}
-{sub("A", "Read the sentences from the radio show. Then choose the correct word.", "4 min")}
-<div class="bank" style="background:#fff;font-weight:600">How <u>many</u> strawberries are one serving? · How <u>much</u> corn is one serving? · Pedro doesn't eat <u>many</u> vegetables. · Don't drink too <u>much</u> juice. · Try <u>a few</u> carrots or <u>a little</u> broccoli.</div>
-<ol><li>We use <i>how many</i> and <i>not many</i> with {ch(["countable", "uncountable"], "countable")} nouns.</li>
-<li>We use <i>how much</i> and <i>not much</i> with {ch(["countable", "uncountable"], "uncountable")} nouns.</li>
-<li><i>a few</i> and <i>a little</i> mean {ch(["a big quantity", "a small quantity"], "a small quantity")}.</li>
-<li>We use <i>a few</i> with {ch(["countable", "uncountable"], "countable")} nouns and <i>a little</i> with {ch(["countable", "uncountable"], "uncountable")} nouns.</li></ol>
+{sub("A", "Study the table.", "3 min")}
 <table style="table-layout:fixed;font-size:9.3pt"><tr><th style="width:34mm"></th><th>countable (carrots, grapes)</th><th>uncountable (corn, juice, fruit)</th></tr>
 <tr><td><b>?</b></td><td>How <b>many</b> carrots do you eat?</td><td>How <b>much</b> juice do you drink?</td></tr>
 <tr><td><b>–</b> (a small quantity)</td><td>I don't eat <b>many</b> carrots.</td><td>I don't drink <b>much</b> juice.</td></tr>
 <tr><td><b>+</b> small quantity</td><td>I eat <b>a few</b> grapes.</td><td>I drink <b>a little</b> juice.</td></tr>
 <tr><td><b>+</b> big quantity</td><td>I eat <b>a lot of</b> grapes.</td><td>I drink <b>a lot of</b> juice.</td></tr></table>
-{sub("B", "Containers and measures. Match.", "3 min")}
+<div class="box sand" style="margin-top:1mm"><h4>REMEMBER</h4>We don't usually use <i>much</i> in positive sentences: <i>I eat much fruit</i> ✗ → I eat <b>a lot of</b> fruit. With uncountable nouns, use a container to count: <b>two glasses of</b> juice, <b>three spoons of</b> corn.</div>
+{sub("B", "Read the sentences from the radio show. Then choose the correct word.", "3 min")}
+<div class="bank" style="background:#fff;font-weight:600">How <u>many</u> strawberries are one serving? · How <u>much</u> corn is one serving? · Pedro doesn't eat <u>many</u> vegetables. · Don't drink too <u>much</u> juice. · Try <u>a few</u> carrots or <u>a little</u> broccoli.</div>
+<ol><li>We use <i>how many</i> and <i>not many</i> with {ch(["countable", "uncountable"], "countable")} nouns.</li>
+<li>We use <i>how much</i> and <i>not much</i> with {ch(["countable", "uncountable"], "uncountable")} nouns.</li>
+<li><i>a few</i> and <i>a little</i> mean {ch(["a big quantity", "a small quantity"], "a small quantity")}.</li>
+<li>We use <i>a few</i> with {ch(["countable", "uncountable"], "countable")} nouns and <i>a little</i> with {ch(["countable", "uncountable"], "uncountable")} nouns.</li></ol>
+{sub("C", "Containers and measures. Match.", "3 min")}
 <div class="two"><div><ol><li>a glass of {A("juice", "min-width:16mm")}</li><li>a bowl of {A("soup", "min-width:16mm")}</li><li>a cup of {A("coffee", "min-width:16mm")}</li></ol></div>
 <div><ol><li value="4">a slice of {A("pizza", "min-width:16mm")}</li><li value="5">a spoon of {A("sugar", "min-width:16mm")}</li><li value="6">a piece of {A("cake", "min-width:16mm")}</li></ol></div></div>
-<div class="bank" style="margin-top:1mm">cake · coffee · juice · pizza · soup · sugar</div>
-<div class="box sand"><h4>REMEMBER</h4>We don't usually use <i>much</i> in positive sentences: <i>I eat much fruit</i> ✗ → I eat <b>a lot of</b> fruit. With uncountable nouns, use a container to count: <b>two glasses of</b> juice, <b>three spoons of</b> corn.</div>""",
-    26, """<ol><li>A: <i>not many / not much</i> = a small quantity, not zero. Drill the table with real questions: <i>How much water do you drink?</i></li>
-<li>B: accept other logical answers (a cup of tea, a glass of water).</li></ol>""")
+<div class="bank" style="margin-top:1mm">cake · coffee · juice · pizza · soup · sugar</div>""",
+    26, """<ol><li>A–B: <i>not many / not much</i> = a small quantity, not zero. Drill the table with real questions: <i>How much water do you drink?</i></li>
+<li>C: accept other logical answers (a cup of tea, a glass of water).</li></ol>""")
 
     # Page 4
     b.page(f"""{sub("C", "Common mistakes for Brazilians", "2 min")}

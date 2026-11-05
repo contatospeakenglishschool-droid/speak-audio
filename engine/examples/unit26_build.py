@@ -81,13 +81,13 @@ def build(teacher):
 {sub("A", "Read the sentences from the conversation.", "1 min")}
 <div class="bank" style="background:#fff;font-weight:600">On Saturday I <u>bought</u> these new shoes. · They <u>cost</u> a hundred and seventy reais. · I <u>met</u> my friends at the movie theater.</div>
 <div class="box" style="margin-top:0"><h4>IRREGULAR VERBS</h4>Regular verbs add <b>-ed</b> (work → work<b>ed</b>). Many common verbs are <b>irregular</b>: they have a special past form, and you need to learn it. buy → <b>bought</b>, meet → <b>met</b>.</div>
+<div class="box sand"><h4>QUESTIONS AND NEGATIVES</h4>Same as regular verbs: <b>did / didn't + base form</b>.<br>
+What movie <b>did</b> you <b>see</b>? · <b>Did</b> you <b>have</b> a good time? · I <b>didn't go</b> with them. · No, I <b>didn't drive</b>.</div>
 {sub("B", "Complete the table. Use the audio script or your memory.", "4 min")}
 <div class="two"><div><table style="margin:0">{th}{t1}</table></div><div><table style="margin:0">{th}{t2}</table></div></div>
 {sub("C", "Answer the questions.", "2 min")}
 <ol><li>Which two verbs have the same spelling in the base form and the past? {R("cost, read")}</li>
-<li>Which verb changes the most? {R("go → went")}</li></ol>
-<div class="box sand"><h4>QUESTIONS AND NEGATIVES</h4>Same as regular verbs: <b>did / didn't + base form</b>.<br>
-What movie <b>did</b> you <b>see</b>? · <b>Did</b> you <b>have</b> a good time? · I <b>didn't go</b> with them. · No, I <b>didn't drive</b>.</div>""",
+<li>Which verb changes the most? {R("go → went")}</li></ol>""",
     25, """<ol><li>B: test the student: you say the base form, the student says the past, then change roles.</li>
 <li>C: <i>read</i> has the same spelling but a different sound: /riːd/ → /red/. Remind the student of Unit 25: after <i>did</i>, no past form.</li></ol>""")
 

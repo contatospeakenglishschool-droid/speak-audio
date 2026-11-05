@@ -74,21 +74,23 @@ def build(teacher):
 
     # Page 3
     b.page(f"""{sec(3, "Language focus: giving advice", "10 min")}
-{sub("A", "Read Ana's advice. Then choose the correct option.", "4 min")}
+{sub("A", "Study the table. The advice is from Ana.", "3 min")}
 <table style="table-layout:fixed;font-size:9.3pt"><tr><th>should / shouldn't</th><th>can / could</th><th>imperatives</th></tr>
 <tr><td>You <b>should</b> give up taxis.<br>You <b>shouldn't</b> buy coffee every night.</td><td>You <b>can</b> repair it!<br>You <b>could</b> invite friends to your place.</td><td><b>Make</b> coffee at home.<br><b>Don't throw</b> away your old phone.</td></tr></table>
+<div class="box" style="margin-top:1mm"><h4>GIVING ADVICE</h4><b>should / shouldn't</b> + verb (no <i>to</i>) = advice: <i>You should save money.</i> · <b>can / could</b> = an idea, less direct: <i>You could repair it.</i><br><b>Imperatives</b> are more direct and have no subject: <i>Make coffee at home. Don't throw it away.</i> · <i>should</i> is the same for all people: ✗ <i>she shoulds</i></div>
+{sub("B", "Choose the correct option.", "3 min")}
 <ol><li>We use <i>should</i> and <i>shouldn't</i> to {ch(["give advice", "talk about rules and laws"], "give advice")}.</li>
 <li>After <i>should</i>, <i>can</i> and <i>could</i>, we use the verb {ch(["with to", "without to"], "without to")}.</li>
 <li><i>can</i> and <i>could</i> are {ch(["more direct", "less direct"], "less direct")} than <i>should</i>: they're ideas.</li>
 <li>Imperatives (<i>Make… / Don't…</i>) are {ch(["more direct", "less direct"], "more direct")}, and they {ch(["need", "don't need"], "don't need")} a subject.</li></ol>
-{sub("B", "Money verbs. Match the verbs and the meanings.", "4 min")}
+{sub("C", "Money verbs. Match the verbs and the meanings.", "4 min")}
 <div class="bank">borrow · earn · lend · save · spend</div>
+<div class="box sand" style="margin:0 0 1mm"><h4>LEND OR BORROW?</h4>Mia: "Can you <b>lend</b> me fifty reais?" (Ana gives) · Mia: "Can I <b>borrow</b> fifty reais?" (Mia takes)</div>
 <ol><li>{A("earn", "min-width:16mm")} = get money from your job</li><li>{A("save", "min-width:16mm")} = keep money for later</li>
 <li>{A("spend", "min-width:16mm")} = use money to buy things</li><li>{A("lend", "min-width:16mm")} = give money to a person for some time</li>
-<li>{A("borrow", "min-width:16mm")} = take money from a person and give it back later</li></ol>
-<div class="box sand"><h4>LEND OR BORROW?</h4>Mia: "Can you <b>lend</b> me fifty reais?" (Ana gives) · Mia: "Can I <b>borrow</b> fifty reais?" (Mia takes)<br><i>should</i> is the same for all people: I / you / he / she / we / they <b>should</b>. ✗ <i>she shoulds</i></div>""",
-    24, """<ol><li>A: drill the advice as a chain: you say a problem, the student gives advice with <i>should</i>, then <i>could</i>, then an imperative.</li>
-<li>B: in Portuguese one verb means both <i>lend</i> and <i>borrow</i>; act it out with a pen.</li></ol>""")
+<li>{A("borrow", "min-width:16mm")} = take money from a person and give it back later</li></ol>""",
+    24, """<ol><li>A–B: drill the advice as a chain: you say a problem, the student gives advice with <i>should</i>, then <i>could</i>, then an imperative.</li>
+<li>C: in Portuguese one verb means both <i>lend</i> and <i>borrow</i>; act it out with a pen.</li></ol>""")
 
     # Page 4
     b.page(f"""{sub("C", "Common mistakes for Brazilians", "2 min")}

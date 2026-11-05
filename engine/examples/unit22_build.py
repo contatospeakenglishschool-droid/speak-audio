@@ -105,14 +105,14 @@ def build(teacher):
     np = ["I'm seeing the dentist on Monday.", "I'm having dinner with my parents tomorrow.", "I'm sitting on the bus and reading a book.", "I'm flying to Rio next month."]
     npl = "".join(f'<li>{x} {R("← NOT a plan: it is happening now") if (T and i == 2) else ""}</li>' for i, x in enumerate(np))
     b.page(f"""{sec(3, "Language focus: now, usually or a plan?", "10 min")}
-{sub("A", "Read the sentences from the messages.", "3 min")}
+{sub("A", "Study the table. The examples are from the messages.", "3 min")}
 <table style="table-layout:fixed"><tr><th style="width:42mm">Form and use</th><th>Examples</th><th style="width:44mm">Time words</th></tr>{ut}</table>
+<div class="box"><h4>STATE VERBS</h4>Some verbs are about feelings and the mind, not actions: <b>need, want, love, like, hate, know</b>. We don't use them with -ing.
+I <b>need</b> to go. ✓ &nbsp; <s>I'm needing to go.</s> ✗ &nbsp;·&nbsp; I <b>love</b> trains. ✓ &nbsp; <s>I'm loving trains.</s> ✗</div>
 {sub("B", "Choose the correct option.", "3 min")}
 <ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>
 {sub("C", "Which sentence is NOT a future plan?", "2 min")}
-<ol type="a">{npl}</ol>
-<div class="box"><h4>STATE VERBS</h4>Some verbs are about feelings and the mind, not actions: <b>need, want, love, like, hate, know</b>. We don't use them with -ing.
-I <b>need</b> to go. ✓ &nbsp; <s>I'm needing to go.</s> ✗ &nbsp;·&nbsp; I <b>love</b> trains. ✓ &nbsp; <s>I'm loving trains.</s> ✗</div>""",
+<ol type="a">{npl}</ol>""",
     24, """<ol><li>A: simple × continuous is a review of Units 19–20. The <b>new</b> use is the third line: present continuous for plans. A plan usually has a <b>time</b> (on Friday) and <b>other people</b> (we, my parents).</li>
 <li>Drill: say a time word, the student makes a sentence: <i>right now → I'm sitting at home.</i></li></ol>""")
 

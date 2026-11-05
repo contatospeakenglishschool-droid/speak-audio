@@ -97,11 +97,7 @@ def build(teacher):
         o = [R(f"<u>{x}</u>") if (T and x == right) else x for x in o]
         return f"<li>{s} <b><i>{o[0]}</i></b> / <b><i>{o[1]}</i></b>.</li>"
     b.page(f"""{sec(3, "Language focus: did and didn't", "10 min")}
-{sub("A", "Read the sentences from the video.", "2 min")}
-<div class="bank" style="background:#fff;font-weight:600">When <u>did</u> you <u>move</u> to São Paulo? · I <u>didn't finish</u> school. · Why <u>didn't</u> you <u>finish</u> school? · <u>Did</u> you <u>need</u> to work? Yes, I <u>did</u>.</div>
-{sub("B", "Choose the correct option.", "3 min")}
-<ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>
-{sub("C", "Study the table.", "4 min")}
+{sub("A", "Study the table.", "3 min")}
 <table style="table-layout:fixed"><tr><th style="width:30mm"></th><th>I / you / he / she / it / we / they</th></tr>
 <tr><td><b>Positive</b></td><td>She <b>lived</b> in Rio Claro.</td></tr>
 <tr><td><b>Negative</b></td><td>She <b>didn't live</b> in Rio de Janeiro. (didn't = did not)</td></tr>
@@ -109,8 +105,13 @@ def build(teacher):
 <tr><td><b>Short answers</b></td><td>Yes, she <b>did</b>. · No, she <b>didn't</b>.</td></tr>
 <tr><td><b>Wh- questions</b></td><td>Where <b>did</b> she <b>live</b>? · When <b>did</b> they <b>move</b>? · How long <b>did</b> you <b>work</b> there? · Why <b>didn't</b> you <b>stay</b>?</td></tr></table>
 <div class="box"><h4>PRESENT AND PAST</h4>Present: <b>do / does</b>, <b>don't / doesn't</b> (two forms) → Past: <b>did</b>, <b>didn't</b> (one form for everybody!).<br>
-Do you work? → <b>Did</b> you work? · She doesn't work. → She <b>didn't</b> work.</div>""",
-    27, """<ol><li>B: compare with Unit 6 (<i>do / does</i>). The good news: the past is easier, <b>did</b> for all people.</li>
+Do you work? → <b>Did</b> you work? · She doesn't work. → She <b>didn't</b> work.</div>
+{sub("B", "Read the sentences from the video. Then choose the correct option.", "3 min")}
+<div class="bank" style="background:#fff;font-weight:600">When <u>did</u> you <u>move</u> to São Paulo? · I <u>didn't finish</u> school. · Why <u>didn't</u> you <u>finish</u> school? · <u>Did</u> you <u>need</u> to work? Yes, I <u>did</u>.</div>
+<ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>
+{sub("C", "Your turn. Complete the questions with did and the verb. Then ask your teacher.", "3 min")}
+<ol><li>Where {A("did", "min-width:10mm")} you {A("grow up", "min-width:16mm")}? (grow up)</li><li>When {A("did", "min-width:10mm")} you {A("start", "min-width:14mm")} school? (start)</li><li>{A("Did", "min-width:10mm")} you {A("like", "min-width:12mm")} school? (like)</li></ol>""",
+    27, """<ol><li>A: compare with Unit 6 (<i>do / does</i>). The good news: the past is easier, <b>did</b> for all people. B: the student checks the rule with sentences from the video.</li>
 <li>C: drill with the student's life: <i>Did you live in another city? Where did you study?</i> Insist on short answers: <i>Yes, I did.</i></li></ol>""")
 
     # Page 4

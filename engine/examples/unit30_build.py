@@ -84,10 +84,10 @@ def build(teacher):
 <tr><td><b>+</b></td><td>We have <b>some</b> beans.</td><td>There's <b>some</b> chicken in the freezer.</td></tr>
 <tr><td><b>–</b></td><td>We don't have <b>any</b> eggs.</td><td>We don't have <b>any</b> pasta.</td></tr>
 <tr><td><b>?</b></td><td>Do we have <b>any</b> onions?</td><td>Do we have <b>any</b> cheese?</td></tr></table>
+<div class="box sand" style="margin-top:1mm"><h4>A LOT OF / LOTS OF</h4>For a big amount: We have <b>a lot of</b> rice. · We drink <b>lots of</b> coffee. · There are <b>a lot of</b> eggs.<br>Don't forget the <b>a</b> in <i>a lot of</i>, and no <b>a</b> in <i>lots of</i>.</div>
 <ol><li>We use <i>some</i> in {ch(["positive", "negative"], "positive")} sentences.</li>
 <li>We use <i>any</i> in {ch(["positive", "negative"], "negative")} sentences and in questions.</li>
-<li>We use <i>a lot of</i> with {ch(["only plural nouns", "plural and uncountable nouns"], "plural and uncountable nouns")}.</li></ol>
-<div class="box sand"><h4>A LOT OF / LOTS OF</h4>For a big amount: We have <b>a lot of</b> rice. · We drink <b>lots of</b> coffee. · There are <b>a lot of</b> eggs.<br>Don't forget the <b>a</b> in <i>a lot of</i>, and no <b>a</b> in <i>lots of</i>.</div>""",
+<li>We use <i>a lot of</i> with {ch(["only plural nouns", "plural and uncountable nouns"], "plural and uncountable nouns")}.</li></ol>""",
     26, """<ol><li>A: some words are countable in Portuguese but not in English: <i>pasta, bread, information</i>. Plural form = countable.</li>
 <li>B: offers and requests often use <i>some</i> in questions (<i>Would you like some coffee?</i>), but keep the simple rule for now.</li></ol>""")
 

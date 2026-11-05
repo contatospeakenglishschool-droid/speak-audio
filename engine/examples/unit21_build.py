@@ -6,7 +6,7 @@ setup(band="A1 · UNIT 21", audio_json="audio_a1-unit-21.json", img_dir="img")
 
 PHOTOS = [("A", "a bakery", "bakery"), ("B", "a bank", "bank"), ("C", "a movie theater", "movie theater"), ("D", "a museum", "museum"),
           ("E", "a pharmacy", "pharmacy"), ("F", "a post office", "post office"), ("G", "a supermarket", "supermarket"), ("H", "traffic lights", "traffic lights")]
-MAP = open("/home/claude/u21/townmap.svg").read()
+import unit21_townmap; MAP = unit21_townmap.townmap()
 def themap(h):
     return MAP.replace('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260">',
                        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" style="width:{h*400/260:.0f}mm;height:{h}mm;display:block;margin:0 auto;border-radius:2mm">')
@@ -96,9 +96,9 @@ def build(teacher):
 {sub("B", "Giving directions and saying where it is.", "4 min")}
 <div class="two"><div><table style="margin:0"><tr><th colspan="2">Directions</th></tr>{gt}</table></div>
 <div><table style="margin:0"><tr><th>Where is it?</th></tr>{"".join(f"<tr><td>{w}</td></tr>" for w in where)}</table></div></div>
+<div class="box"><h4>IMPERATIVE</h4>To give directions, we use the base verb with no subject: <b>Go</b> straight. <b>Turn</b> right. <b>Cross</b> the street. Negative: <b>Don't</b> turn left.</div>
 {sub("C", "Choose the correct option.", "4 min")}
-<ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>
-<div class="box"><h4>IMPERATIVE</h4>To give directions, we use the base verb with no subject: <b>Go</b> straight. <b>Turn</b> right. <b>Cross</b> the street. Negative: <b>Don't</b> turn left.</div>""",
+<ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>""",
     24, """<ol><li>A: three ways to ask. <i>Is there a…?</i> = Unit 14. All of them start with <b>Excuse me</b>.</li>
 <li>B: act it out: the student gives you directions and you walk with your fingers on the map.</li></ol>""")
 
