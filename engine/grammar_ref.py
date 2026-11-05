@@ -442,3 +442,40 @@ def past_continuous(b):
 <p class="small" style="margin:.5mm 0">Verbs for thoughts, feelings and senses don't usually take <b>-ing</b>: <b>know, think</b> (= believe), <b>believe, want, like, love, see, hear, need</b>. <i>The hare <b>thought</b> it was funny.</i> (not <s>was thinking</s>) · <i>He <b>didn't see</b> the tortoise.</i> (not <s>wasn't seeing</s>)</p>
 {_dont([("I was knowing the answer.", "I <b>knew</b> the answer."), ("I was cooking when the phone was ringing.", "…when the phone <b>rang</b>."), ("They was working.", "They <b>were</b> working."), ("What you were doing?", "What <b>were you</b> doing?")])}""",
     16, """<p>Draw the timeline: the wavy line is the long action, the short line is the event that interrupts it. In natural speech <i>was</i> and <i>were</i> are weak (/wəz/, /wər/), but strong in short answers: <i>Yes, I was.</i></p>""")
+
+
+_TIMELINE_UT = """<svg viewBox="0 0 520 64" width="100%" height="15mm" xmlns="http://www.w3.org/2000/svg" font-family="Inter, sans-serif">
+<line x1="20" y1="34" x2="500" y2="34" stroke="#77acb5" stroke-width="2"/>
+<polygon points="500,34 490,29 490,39" fill="#77acb5"/>
+<text x="20" y="58" font-size="11" fill="#7d858a">PAST</text><text x="460" y="58" font-size="11" fill="#7d858a">NOW</text>
+<g fill="#cbbca0"><circle cx="70" cy="34" r="5"/><circle cx="110" cy="34" r="5"/><circle cx="150" cy="34" r="5"/><circle cx="190" cy="34" r="5"/><circle cx="230" cy="34" r="5"/><circle cx="270" cy="34" r="5"/></g>
+<text x="60" y="14" font-size="11" fill="#9a7b4f" font-weight="700">used to watch TV every evening (a habit then)</text>
+<line x1="320" y1="20" x2="320" y2="48" stroke="#176074" stroke-width="2" stroke-dasharray="3 3"/>
+<text x="330" y="58" font-size="11" fill="#7d858a">Pepper arrives</text>
+<text x="360" y="14" font-size="11" fill="#176074" font-weight="700">now: walks every day</text></svg>"""
+
+
+def used_to(b):
+    """A2 Unit 22: used to / didn't use to for past habits and states."""
+    b.page(f"""{b.sec("+", "Grammar reference: used to", "")}
+<div class="box" style="margin-top:0"><h4>THINGS THAT WERE TRUE BEFORE, BUT NOT NOW</h4><b>used to + verb</b> talks about <b>habits</b> (repeated actions) and <b>states</b> in the past that are different now. It is great for comparing <b>then</b> and <b>now</b>.
+{_TIMELINE_UT}
+<p class="small" style="margin:0"><i>I <b>used to watch</b> TV every evening. Now I go out for walks with Pepper.</i></p></div>
+{_h("1. FORM: the same for all persons")}
+{_tbl(["", "example", "remember"], [
+    ["<b>positive</b>", "I / She / They <b>used to</b> work all day.", "<b>used</b> with <b>-d</b>"],
+    ["<b>negative</b>", "I <b>didn't use to</b> know my neighbors.", "<b>didn't</b> + <b>use</b> (no -d)"],
+    ["<b>yes/no question</b>", "<b>Did</b> you <b>use to</b> have a pet?", "<b>did</b> + <b>use</b> (no -d)"],
+    ["<b>short answers</b>", "Yes, I <b>did</b>. / No, I <b>didn't</b>.", "not <s>Yes, I used.</s>"],
+    ["<b>wh- question</b>", "What kind of dogs <b>did</b> she <b>use to</b> have?", "wh- + did + subject + use to"]], "8.6pt")}
+{_h("2. HABITS AND STATES")}
+{_tbl(["habits: repeated actions", "states: be, have, know, like, live, think"], [
+    ["<i>She <b>used to</b> walk her dogs twice a day.</i>", "<i>I <b>used to</b> be so stressed.</i>"],
+    ["<i>We <b>used to</b> go to the beach every summer.</i>", "<i>They <b>used to</b> have a cat.</i>"]], "8.6pt")}
+{_h("3. USED TO OR PAST SIMPLE?")}
+{_tbl(["used to: repeated or for a long time, and different now", "past simple: one time, or a fixed number of times"], [
+    ["<i>I <b>used to</b> visit my grandmother on Sundays.</i>", "<i>I <b>visited</b> my grandmother last Sunday.</i>"],
+    ["<i>He <b>used to</b> live in Recife.</i>", "<i>He <b>lived</b> in Recife for ten years.</i> (also OK)"]], "8.6pt")}
+<p class="small" style="margin:.8mm 0"><b>Now = present simple + usually:</b> <i>I <b>usually</b> get up at six.</i> (not <s>I use to get up at six</s>). <b>used to</b> is only for the past.<br><b>Pronunciation:</b> <i>used to</i> = /ˈjuːstə/ (like <i>yoost-tuh</i>). <i>I <b>used</b> a map</i> (= utilized) = /juːzd/.</p>
+{_dont([("I use to live in Recife.", "I <b>used</b> to live in Recife."), ("I didn't used to like coffee.", "I didn't <b>use</b> to like coffee."), ("I use to get up at six. (now)", "I <b>usually</b> get up at six."), ("I used to go to Paris last year.", "I <b>went</b> to Paris last year.")])}""",
+    22, """<p>In Portuguese, one verb works for past and present habits, so Brazilians often use <i>use to</i> for the present too. Contrast: <i>I used to drink soda. Now I usually drink water.</i> In fast speech the <i>-d</i> of <i>used</i> disappears, which is why students write <i>use to</i> in positive sentences.</p>""")

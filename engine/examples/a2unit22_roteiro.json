@@ -1,0 +1,15 @@
+{
+ "material": "speak-bridge",
+ "characters": {"Kate": "en-US-Neural2-G", "Rita": "en-US-Chirp3-HD-Aoede", "Narrator": "en-US-Neural2-J"},
+ "pauses": {"22.3": 3000},
+ "units": {"a2-unit-22": {
+  "22.1 Kate and Pepper": "Kate: Rita! Hi! I haven't seen you for ages. When was it... eight months ago?\nRita: I think so. It was at the spring festival in the park. And who's this?\nKate: This is Pepper. I adopted her from an animal shelter three months ago.\nRita: Oh, she's beautiful! But a dog is a lot of work, isn't it? You're always so busy at the bakery.\nKate: I used to think that too. But honestly, Pepper has changed my life a lot. I used to work all day and then watch TV on the sofa every evening. Now I go out for walks with her two or three times a day.\nRita: Two or three times a day? When do you find the time?\nKate: Well, the problem was that I didn't use to have a good routine. Now I get up at six, we go for a long walk, and then I go to the bakery. I feel so much better.\nRita: I don't think I could do that. I'm at the coffee shop from seven in the morning, and I'm really tired when I get home. And who cleans up after her?\nKate: I do! That's part of the deal.\nRita: And dogs are expensive. There's the food, the vet...\nKate: Yes, they cost money. But spending time with her really helps me relax. I used to be so stressed. And Pepper has helped me make lots of new friends too. I didn't use to know any of my neighbors, but now everyone wants to stop and talk to me... well, to her!\nRita: That's so nice. You know, my grandmother had dogs all her life, and she lived to ninety-five.\nKate: Really? That makes sense. I read about a study from the American Heart Association. People with dogs had a lower risk of dying early.\nRita: Maybe I need a dog too! But I always sneeze when I'm near dogs. I think I'm a little allergic.\nKate: Oh no! What kind of dogs did your grandmother use to have?\nRita: Small ones. She used to have two at the same time, and they used to sleep on her bed!",
+  "22.2 Repeat: used to": "Narrator: used to\nNarrator: used to sit\nNarrator: I used to sit\nNarrator: I used to sit on the sofa every evening.\nNarrator: didn't use to\nNarrator: I didn't use to know my neighbors.\nNarrator: Did you use to have a pet?\nNarrator: Yes, I did.\nNarrator: I used to be so stressed.\nNarrator: What did she use to have?",
+  "22.3 Used to or used": "Narrator: One. I used to live in Recife.\nNarrator: Two. I used my phone to pay.\nNarrator: Three. She used to play the guitar.\nNarrator: Four. We used the stairs.\nNarrator: Five. He used a map on the trip.\nNarrator: Six. They used to have a cat."
+ }},
+ "images": {"a2-unit-22": {
+  "A": "parrot portrait", "B": "rabbit portrait", "C": "hamster portrait", "D": "goldfish in bowl",
+  "E": "lizard portrait", "F": "snake portrait", "G": "guinea pig portrait", "H": "kitten portrait",
+  "I": "woman walking dog in park", "J": "dog shelter kennel"
+ }}
+}
