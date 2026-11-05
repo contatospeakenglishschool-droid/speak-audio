@@ -1,0 +1,20 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Cameriere": "it-IT-Chirp3-HD-Charon",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"R3.2": 5000},
+ "units": {
+  "it-a1-ripasso-3": {
+   "R3.1 Conversazione": "Narrator: È la fine di luglio. Domani lo studio chiude per le vacanze. Júlia e Marco parlano prima di andare a casa.\nMarco: Allora, Júlia, quando parti per il Brasile?\nJúlia: Parto sabato mattina. Ma prima devo fare la valigia!\nMarco: Ti va di fare un aperitivo stasera? Vengono anche Giulia e Davide.\nJúlia: Volentieri! A che ora?\nMarco: Alle sette, in piazza Santo Stefano.\nJúlia: Perfetto. Ah, Bruno mi ha mandato una foto con Chiara!\nMarco: Davvero? Com'è Chiara? Io non la conosco.\nJúlia: È bassa e ha i capelli lunghi e rossi. È molto simpatica.\nMarco: E tu che cosa fai in Brasile?\nJúlia: Vado a Belo Horizonte dalla mia famiglia. Poi passo una settimana al mare, a Bahia. Faccio nuoto tutti i giorni!\nMarco: Io invece vado nelle Dolomiti con Luca. Non so sciare, ma d'estate cammino in montagna.\nJúlia: Ci sei già stato?\nMarco: Sì, ci sono stato due anni fa. È bellissimo!\nJúlia: E per il tuo compleanno, l'anno prossimo, prenoto io un tavolo al Portico.\nMarco: Va bene, ma il dolce lo offro io!\nJúlia: Affare fatto! Allora a stasera.\nMarco: A stasera! E buone vacanze!",
+   "R3.2 Dettato": "Narrator: Ascolta e scrivi le frasi.\nNarrator: Uno. Ti va di venire al cinema sabato?\nNarrator: Due. Mio fratello ha i capelli ricci e porta gli occhiali.\nNarrator: Tre. L'anno scorso sono andata a Capri.\nNarrator: Quattro. Per me un risotto, per favore.\nNarrator: Cinque. Gira a destra e prendi l'autobus.\nNarrator: Sei. Non so nuotare.\nNarrator: Sette. Buone feste e tanti auguri!\nNarrator: Otto. Abito qui da un anno.",
+   "R3.3 Dialoghi": "Narrator: Dialogo uno. Sulle scale.\nJúlia: Davide, ecco le chiavi di casa mia.\nDavide: Grazie! Che cosa devo fare?\nJúlia: Innaffia le piante il lunedì e il giovedì. E metti la posta sul tavolo.\nDavide: Va bene. E le finestre?\nJúlia: Non aprire le finestre se piove!\nDavide: Tranquilla. Buon viaggio, Júlia!\nNarrator: Dialogo due. All'aperitivo.\nCameriere: Buonasera! Che cosa prendete?\nGiulia: Per me uno spritz, per favore.\nDavide: Io vorrei una birra media.\nCameriere: Volete anche qualcosa da mangiare?\nMarco: Sì, un tagliere di salumi e formaggi per tutti.\nJúlia: E alla fine il conto, per favore. Offro io!"
+  }
+ },
+ "images": {}
+}
