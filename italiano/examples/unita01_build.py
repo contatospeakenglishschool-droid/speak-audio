@@ -97,9 +97,9 @@ def build(teacher):
 <div><table style="margin:0"><tr><th colspan="2">chiamarsi</th></tr>{tc}</table></div></div>
 {sub("B", "Informale o formale?", "3 min")}
 <table style="margin:0"><tr><th>tu (informale)</th><th>Lei (formale)</th></tr>{tr_}</table>
+<div class="box"><h4>TU O LEI?</h4><b>tu</b> = amici, famiglia, colleghi giovani, bambini. <b>Lei</b> = persone che non conosci, persone più anziane, negozi, uffici. Con il <b>Lei</b> il verbo è come per <i>lui / lei</i>: Lei <b>è</b>, Lei <b>si chiama</b>. Il soggetto spesso non si dice: <i>(Io) sono Júlia.</i></div>
 {sub("C", "Scegli l'opzione corretta.", "4 min")}
-<ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>
-<div class="box"><h4>TU O LEI?</h4><b>tu</b> = amici, famiglia, colleghi giovani, bambini. <b>Lei</b> = persone che non conosci, persone più anziane, negozi, uffici. Con il <b>Lei</b> il verbo è come per <i>lui / lei</i>: Lei <b>è</b>, Lei <b>si chiama</b>. Il soggetto spesso non si dice: <i>(Io) sono Júlia.</i></div>""",
+<ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>""",
     24, """<ol><li>A: far notare che <i>Lei è</i> e <i>lei è</i> hanno la stessa forma: il contesto (e la maiuscola) aiuta.</li>
 <li>B/C: chiedere allo studente esempi della sua vita: <i>Con il tuo medico usi il tu o il Lei?</i></li></ol>""")
 

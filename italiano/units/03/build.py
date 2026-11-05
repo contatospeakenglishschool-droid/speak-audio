@@ -94,9 +94,9 @@ def build(teacher):
 {sub("B", "I verbi in -are: lavorare e abitare.", "3 min")}
 <div class="two"><div><table style="margin:0"><tr><th></th><th>lavorare</th><th>abitare</th></tr>{tv}</table></div>
 <div class="box" style="margin:0"><h4>COME LAVORARE</h4>Anche: <b>studiare</b> (studio, studi, studia), <b>parlare</b>, <b>pagare</b>, <b>arrivare</b>, <b>pranzare</b>.<br><i>Che lavoro fai?</i> → <b>Sono</b> architetta. / <b>Lavoro come</b> architetta.</div></div>
+<div class="box"><h4>DOVE?</h4><b>abitare a</b> + città: <i>a Bologna, a Firenze</i>. <b>abitare in</b> + via / paese: <i>in via Santo Stefano, in Brasile, in Italia</i>. <b>lavorare in</b> + luogo: <i>in uno studio, in una pizzeria</i>.</div>
 {sub("C", "Scegli l'opzione corretta.", "4 min")}
-<ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>
-<div class="box"><h4>DOVE?</h4><b>abitare a</b> + città: <i>a Bologna, a Firenze</i>. <b>abitare in</b> + via / paese: <i>in via Santo Stefano, in Brasile, in Italia</i>. <b>lavorare in</b> + luogo: <i>in uno studio, in una pizzeria</i>.</div>""",
+<ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>""",
     22, """<ol><li>A: <i>uno</i> anche davanti a <i>ps, gn, y</i>, ma all'A1 basta <i>s + consonante</i> e <i>z</i>. Con <i>essere</i> + lavoro spesso non c'è l'articolo: <i>Sono architetta</i>.</li>
 <li>B: <i>studiare</i>: io studio, tu studi (una sola <i>i</i>). C: <i>in Brasile</i> ma <i>a São Paulo</i>.</li></ol>""")
 

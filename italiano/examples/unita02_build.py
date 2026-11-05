@@ -101,9 +101,9 @@ def build(teacher):
 <div class="two"><div><table style="margin:0"><tr><th>-o (uomo)</th><th>-a (donna)</th></tr>{tn}</table></div>
 <div><table style="margin:0"><tr><th>-e (uomo e donna)</th></tr>{"".join(f"<tr><td>{x}</td></tr>" for x in nate)}</table>
 <table style="margin-top:2mm"><tr><th colspan="3">avere</th></tr>{tv}</table></div></div>
+<div class="box"><h4>REGOLA</h4>Città → <b>di</b>: <i>Sono di Bologna.</i> Paese → nazionalità: <i>Sono brasiliana.</i> Le nazionalità si scrivono con la <b>lettera minuscola</b>: <i>italiano</i>, non <i>Italiano</i>. La lingua = la forma maschile: <i>parlo italiano, inglese, spagnolo</i>.</div>
 {sub("C", "Scegli l'opzione corretta.", "4 min")}
-<ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>
-<div class="box"><h4>REGOLA</h4>Città → <b>di</b>: <i>Sono di Bologna.</i> Paese → nazionalità: <i>Sono brasiliana.</i> Le nazionalità si scrivono con la <b>lettera minuscola</b>: <i>italiano</i>, non <i>Italiano</i>. La lingua = la forma maschile: <i>parlo italiano, inglese, spagnolo</i>.</div>""",
+<ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>""",
     23, """<ol><li>B: chiedere allo studente: <i>E tu? Sei brasiliano o brasiliana?</i> Le nazionalità in <b>-e</b> non cambiano.</li>
 <li>Avere: i brasiliani pensano a «tenere», ma <i>tenere</i> = avere in mano. Per il possesso si usa <b>avere</b>: <i>Io tengo</i> ✗ → <i>Ho</i>.</li></ol>""")
 

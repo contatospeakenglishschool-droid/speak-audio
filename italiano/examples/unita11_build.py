@@ -99,9 +99,9 @@ def build(teacher):
 <div><table style="margin:0"><tr><th colspan="3">essere + participio (-o / -a)</th></tr>{te}</table>
 <p class="small" style="margin-top:1mm">Con <b>essere</b> il participio cambia: Marco è andat<b>o</b>, Júlia è andat<b>a</b>.</p></div></div>
 <div class="two"><div>{sub("B", "Participi irregolari.", "2 min")}<table style="margin:0">{ti}</table></div>
-<div>{sub("C", "Scegli l'opzione corretta.", "2 min")}<ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>
-<div class="box"><h4>AVERE O ESSERE?</h4>Quasi tutti i verbi: <b>avere</b>. Movimento e stato: <b>essere</b>: <i>andare, venire, uscire, tornare, partire, arrivare, rimanere, stare</i>.</div></div></div>
-<div class="box sand" style="margin-top:1mm"><h4>QUANDO?</h4><b>ieri</b> · <b>ieri sera</b> · <b>sabato scorso</b> · <b>la settimana scorsa</b> · <b>due giorni fa</b> · <b>il fine settimana</b></div>""",
+<div><div class="box"><h4>AVERE O ESSERE?</h4>Quasi tutti i verbi: <b>avere</b>. Movimento e stato: <b>essere</b>: <i>andare, venire, uscire, tornare, partire, arrivare, rimanere, stare</i>.</div></div></div>
+<div class="box sand" style="margin-top:1mm"><h4>QUANDO?</h4><b>ieri</b> · <b>ieri sera</b> · <b>sabato scorso</b> · <b>la settimana scorsa</b> · <b>due giorni fa</b> · <b>il fine settimana</b></div>
+{sub("C", "Scegli l'opzione corretta.", "2 min")}<ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>""",
     23, """<ol><li>A: la regola dell'accordo con <i>essere</i>: per ora basta <i>-o / -a</i> al singolare. <i>Sono partiti</i> (plurale) = solo da capire.</li>
 <li>Per i brasiliani: il passato che usano ogni giorno in portoghese corrisponde qui al passato prossimo, non al passato remoto.</li></ol>""")
 

@@ -102,9 +102,9 @@ def build(teacher):
 <div class="two"><div><table style="margin:0"><tr><th colspan="2">Singolare → plurale</th></tr>{tp}</table></div>
 <div><table style="margin:0"><tr><th colspan="2">prendere (verbi in -ere)</th></tr>{tv}</table>
 <div class="box" style="margin-top:2mm"><h4>VORREI</h4><b>Vorrei</b> + cosa = modo gentile per ordinare. Anche: <b>Per me…</b> / <b>Prendo…</b></div></div></div>
+<div class="box"><h4>REGOLA</h4>Le parole con l'accento finale (<i>caffè, tè</i>) e le parole straniere (<i>bar, toast</i>) <b>non cambiano</b> al plurale. Anche <b>euro</b> non cambia: <i>un euro, tre euro</i>.</div>
 {sub("C", "Scegli l'opzione corretta.", "4 min")}
-<ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>
-<div class="box"><h4>REGOLA</h4>Le parole con l'accento finale (<i>caffè, tè</i>) e le parole straniere (<i>bar, toast</i>) <b>non cambiano</b> al plurale. Anche <b>euro</b> non cambia: <i>un euro, tre euro</i>.</div>""",
+<ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>""",
     22, """<ol><li>A: <i>lo</i> segue la stessa regola di <i>uno</i> (unità 3). <i>l'</i> davanti a vocale per maschile e femminile.</li>
 <li>B: altri verbi in <i>-ere</i>: <i>leggere, scrivere, vedere</i>. Gli altri plurali degli articoli (<i>i, gli, le</i>) arrivano nella prossima unità.</li></ol>""")
 

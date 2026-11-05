@@ -89,9 +89,9 @@ def build(teacher):
 <div class="two"><div>{sub("A", "Il partitivo (= un po' di).", "3 min")}<table style="margin:0">{tp}</table></div>
 <div>{sub("B", "dovere e sapere + infinito.", "3 min")}<table style="margin:0"><tr><th></th><th>dovere</th><th>sapere</th></tr>{tds}</table>
 <div class="box" style="margin-top:2mm"><h4>ESEMPI</h4><b>Devo</b> fare la spesa. · <b>Devi</b> provare il parmigiano! · <b>Sai</b> cucinare? · <b>Sai</b> dov'è il mercato? · <b>Non so</b>.</div></div></div>
+<div class="box"><h4>QUANTITÀ E MOLTO</h4><b>un etto di</b> · <b>mezzo chilo di</b> · <b>un chilo di</b> (due <b>chili</b>) · <b>una bottiglia di</b> · <b>un pacco di</b> · <b>un po' di</b>. Dopo la quantità: solo <b>di</b>, senza articolo. <b>Molto</b> + aggettivo non cambia (<i>è molto buono</i>); <b>molto</b> + nome è come un aggettivo: <i>molto pane, molta frutta, molti pomodori, molte mele</i>.</div>
 {sub("C", "Scegli l'opzione corretta.", "4 min")}
-<ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>
-<div class="box"><h4>QUANTITÀ E MOLTO</h4><b>un etto di</b> · <b>mezzo chilo di</b> · <b>un chilo di</b> (due <b>chili</b>) · <b>una bottiglia di</b> · <b>un pacco di</b> · <b>un po' di</b>. Dopo la quantità: solo <b>di</b>, senza articolo. <b>Molto</b> + aggettivo non cambia (<i>è molto buono</i>); <b>molto</b> + nome è come un aggettivo: <i>molto pane, molta frutta, molti pomodori, molte mele</i>.</div>""",
+<ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>""",
     20, """<ol><li>A: <i>del pane</i> = un po' di pane. Stessa logica delle preposizioni articolate (unità 8).</li>
 <li>B: <i>sapere</i> + infinito = avere la capacità (<i>So nuotare</i>). <i>Potere</i> = è possibile (<i>Posso venire</i>).</li></ol>""")
 

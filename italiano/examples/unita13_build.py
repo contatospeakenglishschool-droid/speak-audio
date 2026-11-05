@@ -92,9 +92,9 @@ def build(teacher):
 <p class="small" style="margin-top:1mm">-o → <b>-amente</b> (lento → lentamente) · -e → <b>-emente</b> (veloce → velocemente) · -le → <b>-lmente</b> (normale → normalmente)</p></div></div>
 {sub("C", "La frequenza.", "1 min")}
 <div class="bank" style="background:#fff">{fq}</div>
+<div class="box"><h4>REGOLA</h4>Il pronome <b>mi / ti / si</b> va prima del verbo: <i>Mi sveglio. Non mi sveglio.</i> Con <b>farsi la doccia</b>: <i>mi faccio, ti fai, si fa la doccia</i>. Gli avverbi in <i>-mente</i> vanno dopo il verbo: <i>Mi vesto <b>velocemente</b></i>.</div>
 {sub("D", "Scegli l'opzione corretta.", "3 min")}
-<ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>
-<div class="box"><h4>REGOLA</h4>Il pronome <b>mi / ti / si</b> va prima del verbo: <i>Mi sveglio. Non mi sveglio.</i> Con <b>farsi la doccia</b>: <i>mi faccio, ti fai, si fa la doccia</i>. Gli avverbi in <i>-mente</i> vanno dopo il verbo: <i>Mi vesto <b>velocemente</b></i>.</div>""",
+<ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>""",
     25, """<ol><li>A: <i>Lei si alza</i> (formale) e <i>lei si alza</i> (Giulia) hanno la stessa forma. <i>Svegliarsi</i> ≠ <i>alzarsi</i>: prima apro gli occhi, poi esco dal letto.</li>
 <li>B/C: chiedere subito: <i>Fai colazione velocemente o tranquillamente? Spesso o raramente?</i></li></ol>""")
 

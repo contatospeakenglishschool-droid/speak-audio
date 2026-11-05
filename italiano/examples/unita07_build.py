@@ -96,9 +96,9 @@ def build(teacher):
 {sub("B", "Indicazioni (tu / Lei).", "2 min")}<table style="margin:0">{td}</table></div>
 <div>{sub("C", "in + articolo", "2 min")}<table style="margin:0">{tp}</table>
 <table style="margin-top:2mm"><tr><th colspan="2">potere</th></tr>{to}</table></div></div>
+<div class="box"><h4>DOVE?</h4><b>accanto a</b> · <b>di fronte a</b> · <b>vicino a</b> · <b>tra</b> … <b>e</b> … · <b>lontano</b> · <b>a piedi</b>. Ordinali: <b>primo, secondo, terzo, quarto, quinto</b> — come un aggettivo: <i>la prima strada, il secondo semaforo</i>.</div>
 {sub("D", "Scegli l'opzione corretta.", "4 min")}
-<ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>
-<div class="box"><h4>DOVE?</h4><b>accanto a</b> · <b>di fronte a</b> · <b>vicino a</b> · <b>tra</b> … <b>e</b> … · <b>lontano</b> · <b>a piedi</b>. Ordinali: <b>primo, secondo, terzo, quarto, quinto</b> — come un aggettivo: <i>la prima strada, il secondo semaforo</i>.</div>""",
+<ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>""",
     18, """<ol><li>B: <i>Va / Gira</i> (Lei, formale) e <i>Vai / Giri</i> (tu): sono forme del presente, molto usate per dare indicazioni.</li>
 <li>C: stessa logica degli articoli. <i>accanto al bar = a + il</i>: le altre preposizioni articolate arrivano nell'unità 8.</li></ol>""")
 

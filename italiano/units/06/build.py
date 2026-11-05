@@ -98,9 +98,9 @@ def build(teacher):
 <div><table style="margin:0"><tr><th>A chi?</th><th></th><th>Esempio</th></tr>{tp}</table></div></div>
 {sub("B", "Reagire: sono d'accordo o no?", "3 min")}
 <table style="margin:0"><tr><th>Frase</th><th>Sono d'accordo</th><th>Non sono d'accordo</th></tr>{tr_}</table>
+<div class="box"><h4>REGOLA</h4>Con <b>piacere</b> il soggetto è la cosa che piace: <i>La pizza</i> (soggetto) <i>mi piace</i>. Per questo: una cosa → <b>piace</b>, più cose → <b>piacciono</b>. Per dire «molto»: <i>mi piace <b>molto</b> / <b>tantissimo</b></i>; per dire «zero»: <i>non mi piace <b>per niente</b></i>.</div>
 {sub("C", "Scegli l'opzione corretta.", "4 min")}
-<ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>
-<div class="box"><h4>REGOLA</h4>Con <b>piacere</b> il soggetto è la cosa che piace: <i>La pizza</i> (soggetto) <i>mi piace</i>. Per questo: una cosa → <b>piace</b>, più cose → <b>piacciono</b>. Per dire «molto»: <i>mi piace <b>molto</b> / <b>tantissimo</b></i>; per dire «zero»: <i>non mi piace <b>per niente</b></i>.</div>""",
+<ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>""",
     20, """<ol><li>A: <i>gli piace / le piace</i> (a lui / a lei) = solo da riconoscere; all'A1 basta <i>A Davide piace…</i></li>
 <li>B: fare 4–5 frasi veloci sui gusti dell'insegnante; lo studente reagisce con le quattro risposte.</li></ol>""")
 

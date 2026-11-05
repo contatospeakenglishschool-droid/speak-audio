@@ -95,9 +95,9 @@ def build(teacher):
 <div class="box" style="margin:0"><h4>A CHE ORA?</h4><b>alle</b> otto · <b>alle</b> sei e mezza<br><b>all'</b>una · <b>a</b> mezzogiorno<br><i>fino alle dieci</i> · <i>dalle nove alle sei</i><br>Gli articoli al plurale: <b>il → i</b> (i giorni) · <b>lo / l' → gli</b> (gli amici, gli studenti) · <b>la / l' → le</b> (le ore, le amiche)</div></div>
 {sub("B", "Verbi in -ire e verbi irregolari.", "3 min")}
 <table style="margin:0"><tr><th></th><th>dormire</th><th>finire (-isc-)</th><th>andare</th><th>uscire</th></tr>{tv}</table>
+<div class="box"><h4>NON… MAI</h4>In italiano servono due negazioni: <b>non</b> + verbo + <b>mai</b>. <i>Marco <b>non</b> va <b>mai</b> in palestra.</i> Come <i>dormire</i>: <i>partire, aprire, sentire</i>. Come <i>finire</i>: <i>capire, preferire, pulire</i>.</div>
 {sub("C", "Scegli l'opzione corretta.", "4 min")}
-<ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>
-<div class="box"><h4>NON… MAI</h4>In italiano servono due negazioni: <b>non</b> + verbo + <b>mai</b>. <i>Marco <b>non</b> va <b>mai</b> in palestra.</i> Come <i>dormire</i>: <i>partire, aprire, sentire</i>. Come <i>finire</i>: <i>capire, preferire, pulire</i>.</div>""",
+<ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>""",
     20, """<ol><li>A: <i>alle</i> = <i>a + le</i> (le preposizioni articolate arrivano nell'unità 7). B: <i>-isc-</i> solo con io, tu, lui/lei.</li>
 <li><i>andare</i> e <i>uscire</i> sono irregolari: imparare a memoria. <i>Vado in palestra / in ufficio</i> ma <i>a casa / a scuola</i>.</li></ol>""")
 

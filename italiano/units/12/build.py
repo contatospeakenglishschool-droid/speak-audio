@@ -92,9 +92,9 @@ def build(teacher):
 <table style="margin:0"><tr><th style="width:26mm">la cosa</th><th style="width:14mm">pronome</th><th>esempio</th></tr>{tp}</table>
 <div class="two"><div>{sub("B", "Ne = di questo / di questi (quantità).", "2 min")}<div class="bank" style="background:#fff;font-weight:500">{"<br>".join(ne)}</div></div>
 <div>{sub("C", "Si + verbo: le istruzioni.", "2 min")}<table style="margin:0">{ts}</table></div></div>
+<div class="box"><h4>REGOLA</h4>Il pronome va <b>prima del verbo</b>: <i>Lo compro.</i> Con la negazione: <i>Non lo compro.</i> Con <b>ne</b> si dice la quantità dopo il verbo: <i>Ne compro <b>due</b> / un po' / molti</i>. Nelle ricette si usa <b>si</b> + verbo alla terza persona.</div>
 {sub("D", "Scegli l'opzione corretta.", "3 min")}
-<ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>
-<div class="box"><h4>REGOLA</h4>Il pronome va <b>prima del verbo</b>: <i>Lo compro.</i> Con la negazione: <i>Non lo compro.</i> Con <b>ne</b> si dice la quantità dopo il verbo: <i>Ne compro <b>due</b> / un po' / molti</i>. Nelle ricette si usa <b>si</b> + verbo alla terza persona.</div>""",
+<ol>{"".join(rule(i, *r) for i, r in enumerate(rules))}</ol>""",
     22, """<ol><li>A: il pronome ha lo stesso genere e numero della cosa (<i>la carne → la; le carote → le</i>).</li>
 <li>B: senza <i>ne</i> la frase <i>compro due</i> non è completa in italiano. C: <i>si</i> = «la gente, tutti»: forma molto usata nelle ricette e nei cartelli.</li></ol>""")
 
