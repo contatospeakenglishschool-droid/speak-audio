@@ -212,3 +212,36 @@ def sapere_conoscere(b):
 {_dont([("So Matteo.", "<b>Conosco</b> Matteo."), ("Conosco nuotare.", "<b>So</b> nuotare."), ("Conosco dove abita.", "<b>So</b> dove abita."),
         ("Ci vuole cinque minuti.", "Ci <b>vogliono</b> cinque minuti."), ("Giulia ha dovuto andata in banca.", "Giulia <b>è dovuta andare</b> in banca.")])}""",
     16, """<p>Il portoghese ha la stessa coppia <i>saber / conhecer</i>: basta la domanda chiave: <i>è una persona o un posto?</i> → <b>conoscere</b>. <i>Ci vuole</i> corrisponde a <i>leva / é preciso</i>; l'errore tipico è <i>ci vuole</i> con il plurale.</p>""")
+
+
+def futuro_semplice(b):
+    """A2 Ponte 07: il futuro semplice (forme, irregolari), se + presente/futuro, bisogna + infinito."""
+    forms = [("io", "torn<b>erò</b>", "prend<b>erò</b>", "part<b>irò</b>", "<b>sarò</b>"),
+             ("tu", "torn<b>erai</b>", "prend<b>erai</b>", "part<b>irai</b>", "<b>sarai</b>"),
+             ("lui / lei / Lei", "torn<b>erà</b>", "prend<b>erà</b>", "part<b>irà</b>", "<b>sarà</b>"),
+             ("noi", "torn<b>eremo</b>", "prend<b>eremo</b>", "part<b>iremo</b>", "<b>saremo</b>"),
+             ("voi", "torn<b>erete</b>", "prend<b>erete</b>", "part<b>irete</b>", "<b>sarete</b>"),
+             ("loro", "torn<b>eranno</b>", "prend<b>eranno</b>", "part<b>iranno</b>", "<b>saranno</b>")]
+    irr = [("perdono una vocale", "andare → <b>andrò</b> · avere → <b>avrò</b> · dovere → <b>dovrò</b> · potere → <b>potrò</b> · sapere → <b>saprò</b> · vedere → <b>vedrò</b> · vivere → <b>vivrò</b>"),
+           ("doppia <b>rr</b>", "volere → <b>vorrò</b> · venire → <b>verrò</b> · rimanere → <b>rimarrò</b> · bere → <b>berrò</b>"),
+           ("tengono la <b>a</b>", "fare → <b>farò</b> · dare → <b>darò</b> · stare → <b>starò</b>"),
+           ("-care, -gare · -ciare, -giare", "cercare → <b>cercherò</b> · pagare → <b>pagherò</b> · cominciare → <b>comincerò</b> · mangiare → <b>mangerò</b>")]
+    usi = [("<b>progetti e previsioni</b>", "<i>A ottobre correrò la maratona. · Sarà un anno pieno di novità.</i>"),
+           ("<b>promesse</b>", "<i>Le porterò un regalo dal Brasile.</i>"),
+           ("<b>una supposizione</b> (forse è così)", "<i>Davide non risponde: dormirà ancora.</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: il futuro semplice", "")}
+<div class="box" style="margin-top:0"><h4>A CHE COSA SERVE?</h4>Il futuro parla di <b>progetti</b>, <b>previsioni</b> e <b>promesse</b>. Nel parlato, per un futuro vicino e sicuro si usa spesso il <b>presente</b>: <i>Domani parto.</i> = <i>Domani partirò.</i> Il futuro ha la stessa radice del condizionale (unità 05): <i>vorrei → vorrò, andrei → andrò</i>.</div>
+{_h("1. LA FORMA")}
+{_tbl(["", "-are: tornare", "-ere: prendere", "-ire: partire", "essere"], forms, "8.6pt", ["26mm", None, None, None, None])}
+<p class="small" style="margin:.6mm 0">Nei verbi in <b>-are</b> la <b>a</b> diventa <b>e</b>: <i>tornare → torn<b>e</b>rò</i>. L'accento è sull'ultima sillaba di <i>io</i> e <i>lui/lei</i>: <i>tornerò, tornerà</i> (con l'accento scritto!).</p>
+{_h("2. GLI IRREGOLARI (COME IL CONDIZIONALE)")}
+{_tbl(["gruppo", "verbi"], irr, "8.6pt", ["40mm", None])}
+<p class="small" style="margin:.6mm 0">Il futuro di <b>ci vuole</b>: <i>ci vorrà un mese · ci vorranno otto mesi</i>.</p>
+<div class="two"><div>{_h("3. QUANDO SI USA?")}
+{_tbl(["uso", "esempio"], usi, "8.4pt", ["30mm", None])}</div>
+<div>{_h("4. SE… E BISOGNA")}
+<div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><b>se + presente</b>, poi presente, futuro o imperativo:<br><i>Se finisco tutto, <b>parto</b> / <b>partirò</b> tranquilla.</i><br><i>Se il cliente telefona, <b>chiamalo</b>!</i><br>anche <b>se + futuro, futuro</b>: <i>Se avrò tempo, verrò.</i></div>
+<div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt;margin-top:1mm"><b>bisogna + infinito</b> = è necessario (per tutti; non cambia):<br><i>Bisogna finire il progetto. · Bisogna comprare i regali.</i></div></div></div>
+{_dont([("tornarò · comprarò", "torn<b>e</b>rò · compr<b>e</b>rò"), ("poterò · volerò", "<b>potrò · vorrò</b>"), ("Bisognamo partire.", "<b>Bisogna</b> partire."),
+        ("Se avrò tempo, ti chiamarò.", "…ti chiam<b>e</b>rò.")])}""",
+    16, """<p>In Brasile il futuro sintetico (<i>voltarei</i>) si usa poco: lo studente preferisce <i>vou voltar</i>. In italiano <i>vado a tornare</i> non esiste: si usa il futuro o il presente. Stessa radice del condizionale: ripassare le due tabelle insieme.</p>""")
