@@ -1,0 +1,34 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Impiegato": "it-IT-Chirp3-HD-Charon",
+  "Luca": "it-IT-Chirp3-HD-Fenrir",
+  "Passante": "it-IT-Chirp3-HD-Vindemiatrix",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {
+  "08.2": 3000,
+  "08.3": 2500
+ },
+ "units": {
+  "it-a2-unita-08": {
+   "08.1 Dialogo": "Narrator: Dialogo uno. Fine febbraio. Júlia è tornata dal Brasile e oggi è all'ufficio postale.\nJúlia: Buongiorno. Mi scusi, devo rinnovare il permesso di soggiorno. È questo lo sportello giusto?\nImpiegato: Sì, signora. Ha il kit?\nJúlia: Eccolo. Ho già compilato il modulo.\nImpiegato: Bene. Mi dia il passaporto, per favore. E la fotocopia.\nJúlia: Ecco. Devo firmare?\nImpiegato: Sì, firmi qui e qui. Ma non chiuda la busta! Prima la devo controllare.\nJúlia: Va bene. Quanto costa?\nImpiegato: Trenta euro per la spedizione, più la marca da bollo. Paghi qui, con la carta o in contanti.\nJúlia: E quando sarà pronto il permesso?\nImpiegato: Fra qualche mese. Non si preoccupi: conservi bene la ricevuta, è importante.\nJúlia: Grazie mille!\nImpiegato: Prego. E la prossima volta prenda il numero all'ingresso, signora!\nNarrator: Dialogo due. Sabato. Luca e Sara sono a Bologna. In via Rizzoli, Luca chiede informazioni a una signora.\nLuca: Mi scusi, signora, sa dov'è la basilica di Santo Stefano?\nPassante: Santo Stefano? Sì, non è lontano. Vada dritto per via Rizzoli fino alle Due Torri.\nLuca: Fino alle Due Torri, d'accordo.\nPassante: Lì giri a destra in via Santo Stefano. Continui dritto per cinque minuti: la basilica è sulla sinistra.\nLuca: Grazie! E mi può consigliare una buona trattoria?\nPassante: Vada in via Clavature, dietro piazza Maggiore: ce ne sono tante. Ma non ordini gli spaghetti alla bolognese: qui non esistono! Prenda le tagliatelle al ragù.\nLuca: Ah, ecco! Grazie mille, signora.\nPassante: Si figuri! Buona giornata.\nNarrator: Dialogo tre. La sera, Júlia porta il caffè brasiliano alla signora Rossi.\nSignora Rossi: Júlia, bentornata! Entri, entri! Si sieda qui, vicino al termosifone.\nJúlia: Grazie! Ecco il caffè, come promesso. E grazie per le piante!\nSignora Rossi: Che profumo! Lo prepariamo subito. Ma mi racconti tutto: com'è andato il Carnevale?\nJúlia: Bellissimo! Ho ballato tre giorni con le mie cugine.\nSignora Rossi: Mi faccia vedere le foto! Oh, questa è la Sua mamma? Le somiglia tantissimo!\nJúlia: Sì! Ah, signora, la posta... c'è una lettera per me?\nSignora Rossi: Sì, eccola. Ma non si preoccupi: è solo la bolletta della luce.\nJúlia: Meno male! Grazie di tutto.\nSignora Rossi: Si figuri. E la prossima volta mi porti anche un po' di sole brasiliano!",
+   "08.2 Ripeti con gentilezza": "Narrator: Mi scusi, signora.\nNarrator: Si sieda, prego.\nNarrator: Mi dia il passaporto, per favore.\nNarrator: Non si preoccupi.\nNarrator: Vada dritto e giri a destra.\nNarrator: Mi faccia vedere le foto!",
+   "08.3 Tu o Lei": "Narrator: Gira a destra.\nNarrator: Giri a sinistra.\nNarrator: Prenda il numero.\nNarrator: Prendi la busta.\nNarrator: Scusa, sai dov'è la posta?\nNarrator: Scusi, sa dov'è la stazione?"
+  }
+ },
+ "images": {
+  "it-a2-unita-08": {
+   "A": "post office counter",
+   "B": "envelope letter",
+   "C": "filling form pen",
+   "D": "queue ticket number machine",
+   "E": "people waiting queue",
+   "F": "postage stamps",
+   "G": "bologna two towers",
+   "H": "tagliatelle ragu"
+  }
+ }
+}

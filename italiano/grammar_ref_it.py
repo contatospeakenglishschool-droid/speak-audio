@@ -245,3 +245,30 @@ def futuro_semplice(b):
 {_dont([("tornarò · comprarò", "torn<b>e</b>rò · compr<b>e</b>rò"), ("poterò · volerò", "<b>potrò · vorrò</b>"), ("Bisognamo partire.", "<b>Bisogna</b> partire."),
         ("Se avrò tempo, ti chiamarò.", "…ti chiam<b>e</b>rò.")])}""",
     16, """<p>In Brasile il futuro sintetico (<i>voltarei</i>) si usa poco: lo studente preferisce <i>vou voltar</i>. In italiano <i>vado a tornare</i> non esiste: si usa il futuro o il presente. Stessa radice del condizionale: ripassare le due tabelle insieme.</p>""")
+
+
+def imperativo_formale(b):
+    """A2 Ponte 08: l'imperativo formale (Lei), irregolari, negativo, pronomi prima del verbo; confronto con tu."""
+    forms = [("-are", "girare · firmare · pagare", "gir<b>i</b>! · firm<b>i</b>! · pagh<b>i</b>!", "gira! · firma! · paga!"),
+             ("-ere", "prendere · chiudere", "prend<b>a</b>! · chiud<b>a</b>!", "prendi! · chiudi!"),
+             ("-ire", "sentire · finire", "sent<b>a</b>! · fin<b>isca</b>!", "senti! · finisci!")]
+    irr = [("andare", "<b>vada</b>"), ("fare", "<b>faccia</b>"), ("dare", "<b>dia</b>"), ("stare", "<b>stia</b>"), ("dire", "<b>dica</b>"),
+           ("venire", "<b>venga</b>"), ("uscire", "<b>esca</b>"), ("essere", "<b>sia</b>"), ("avere", "<b>abbia</b>"), ("sedersi", "<b>si sieda</b>")]
+    irl = "".join(f"<tr><td>{a}</td><td>{f}</td></tr>" for a, f in irr)
+    pr = [("Mi dia il passaporto.", "Dammi il passaporto."), ("Si sieda!", "Siediti!"), ("Mi racconti tutto.", "Raccontami tutto."),
+          ("La controlli.", "Controllala."), ("Non si preoccupi!", "Non preoccuparti!")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: l'imperativo formale (Lei)", "")}
+<div class="box" style="margin-top:0"><h4>A CHE COSA SERVE?</h4>Con le persone che non conosciamo, negli uffici, nei negozi e per strada usiamo il <b>Lei</b>. L'imperativo formale serve per dare istruzioni e consigli in modo cortese: <i>Firmi qui. · Vada dritto. · Si sieda, prego.</i> Per l'imperativo informale (<i>tu</i>) vedi l'unità 04.</div>
+{_h("1. LA FORMA: LE VOCALI SI SCAMBIANO")}
+{_tbl(["verbi", "infinito", "Lei", "tu (unità 04)"], forms, "8.6pt", ["14mm", "40mm", None, None])}
+<p class="small" style="margin:.6mm 0">Trucco: i verbi in <b>-are</b> prendono la <b>-i</b>, i verbi in <b>-ere/-ire</b> prendono la <b>-a</b>: il contrario del <i>tu</i>. <i>pagare → paghi</i>, <i>cercare → cerchi</i> (con la <b>h</b>). Negativo: <b>non</b> + la stessa forma: <i>Non chiuda la busta!</i></p>
+<div class="two"><div>{_h("2. GLI IRREGOLARI")}
+<table style="margin-top:0;font-size:8.6pt"><tr><th>verbo</th><th>Lei</th></tr>{irl}</table>
+<p class="small" style="margin:.6mm 0">Molti vengono dalla forma <i>io</i> del presente: <i>(io) faccio → faccia · vengo → venga · esco → esca · dico → dica</i>.</p></div>
+<div>{_h("3. I PRONOMI VANNO PRIMA")}
+<p style="margin:0 0 .5mm;font-size:8.6pt">Con il <b>Lei</b> i pronomi vanno <b>prima</b> del verbo e non si attaccano (con il <i>tu</i> vanno dopo):</p>
+{_tbl(["Lei", "tu"], pr, "8.6pt")}
+<p class="small" style="margin:.6mm 0">Espressioni fisse: <b>Mi scusi! · Senta! · Prego, si accomodi. · Si figuri! · Mi dica.</b></p></div></div>
+{_dont([("Signora, firma qui.", "Signora, <b>firmi</b> qui."), ("Prendi il numero, signore.", "<b>Prenda</b> il numero."), ("Dia mi il passaporto.", "<b>Mi dia</b> il passaporto."),
+        ("Non si preoccupa!", "Non si <b>preoccupi</b>!"), ("Vadi dritto.", "<b>Vada</b> dritto.")])}""",
+    16, """<p>Il portoghese ha la stessa logica (<i>o senhor vire à direita, assine aqui</i>): -are → -i, -ere/-ire → -a. Errori tipici: <i>vadi</i> e <i>facci</i> per analogia, e il pronome attaccato (<i>diami</i>). Fare tante istruzioni brevi a voce.</p>""")
