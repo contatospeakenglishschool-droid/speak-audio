@@ -1,0 +1,34 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {
+  "09.2": 3000,
+  "09.3": 2500
+ },
+ "units": {
+  "it-a2-unita-09": {
+   "09.1 Dialogo": "Narrator: Dialogo uno. Marzo. Allo studio, Marco e Júlia aspettano la risposta del Comune.\nJúlia: Allora, Marco? Ci sono notizie dal Comune?\nMarco: Ancora niente. Secondo me la decisione arriva venerdì.\nJúlia: Che ansia! Tu che cosa pensi? Vinciamo noi?\nMarco: Penso che il nostro progetto sia il migliore: un giardino con gli alberi, le panchine e una pista ciclabile. Ma credo che gli altri studi abbiano idee molto buone.\nJúlia: Io spero che il Comune scelga noi. Abbiamo lavorato tantissimo!\nMarco: Anch'io lo spero. E se non vinciamo, pazienza: abbiamo imparato tanto.\nNarrator: Dialogo due. Al bar di Giulia. Davide legge il giornale.\nDavide: Avete visto? Gli affitti a Bologna sono aumentati ancora.\nGiulia: Non mi sorprende. Secondo me Bologna è diventata troppo cara. Penso che per gli studenti sia difficilissimo trovare una stanza.\nDavide: È vero. Però io credo che sia ancora la città più bella d'Italia: è piccola, ma piena di vita.\nJúlia: Sono d'accordo con Davide! Mi sembra che qui la gente viva bene: si va dappertutto in bicicletta.\nGiulia: In bicicletta? Con la pioggia? Non sono d'accordo!\nDavide: Va bene, va bene... Comunque spero che a ottobre non piova: c'è la mia maratona!\nNarrator: Dialogo tre. Venerdì sera, la signora Rossi incontra Júlia sulle scale.\nSignora Rossi: Júlia! Ho letto sul giornale che il Comune ha scelto un progetto per il nuovo giardino in Bolognina. Spero che sia il vostro!\nJúlia: Sì, signora! È il nostro! Marco mi ha telefonato un'ora fa.\nSignora Rossi: Che bella notizia! Penso che sia un regalo per tutto il quartiere. Ci vuole più verde in città.\nJúlia: Lo penso anch'io. I lavori cominceranno a maggio.\nSignora Rossi: E quando sarà pronto?\nJúlia: Credo che sia pronto a settembre. Spero che Lei venga all'inaugurazione!\nSignora Rossi: Ma certo! E porterò anche Franco e Briciola. Credo che a Briciola piacciano molto i giardini!",
+   "09.2 Ripeti le opinioni": "Narrator: Secondo me Bologna è troppo cara.\nNarrator: Penso che sia la città più bella.\nNarrator: Spero che il Comune scelga noi.\nNarrator: Sono d'accordo con te.\nNarrator: Non sono d'accordo!\nNarrator: Spero che Lei venga.",
+   "09.3 Indicativo o congiuntivo": "Narrator: Penso che sia caro.\nNarrator: Secondo me è caro.\nNarrator: Spero che venga.\nNarrator: So che viene.\nNarrator: Credo che abbia ragione.\nNarrator: Sono sicura che ha ragione."
+  }
+ },
+ "images": {
+  "it-a2-unita-09": {
+   "A": "newspaper reading coffee",
+   "B": "architectural model city",
+   "C": "city park bench trees",
+   "D": "for rent sign apartment",
+   "E": "bike lane city",
+   "F": "friends discussing cafe table",
+   "G": "construction site crane",
+   "H": "ribbon cutting ceremony scissors"
+  }
+ }
+}

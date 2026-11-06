@@ -272,3 +272,30 @@ def imperativo_formale(b):
 {_dont([("Signora, firma qui.", "Signora, <b>firmi</b> qui."), ("Prendi il numero, signore.", "<b>Prenda</b> il numero."), ("Dia mi il passaporto.", "<b>Mi dia</b> il passaporto."),
         ("Non si preoccupa!", "Non si <b>preoccupi</b>!"), ("Vadi dritto.", "<b>Vada</b> dritto.")])}""",
     16, """<p>Il portoghese ha la stessa logica (<i>o senhor vire à direita, assine aqui</i>): -are → -i, -ere/-ire → -a. Errori tipici: <i>vadi</i> e <i>facci</i> per analogia, e il pronome attaccato (<i>diami</i>). Fare tante istruzioni brevi a voce.</p>""")
+
+
+def congiuntivo_presente(b):
+    """A2 Ponte 09: primo contatto con il congiuntivo presente dopo penso, credo, spero, mi sembra che; secondo me + indicativo; di + infinito."""
+    forms = [("io / tu / lui / lei / Lei", "parl<b>i</b>", "prend<b>a</b>", "dorm<b>a</b>", "<b>sia</b>", "<b>abbia</b>"),
+             ("noi", "parl<b>iamo</b>", "prend<b>iamo</b>", "dorm<b>iamo</b>", "<b>siamo</b>", "<b>abbiamo</b>"),
+             ("voi", "parl<b>iate</b>", "prend<b>iate</b>", "dorm<b>iate</b>", "<b>siate</b>", "<b>abbiate</b>"),
+             ("loro", "parl<b>ino</b>", "prend<b>ano</b>", "dorm<b>ano</b>", "<b>siano</b>", "<b>abbiano</b>")]
+    trig = [("<b>penso che · credo che · mi sembra che</b>", "un'opinione", "<i>Penso che il nostro progetto <b>sia</b> il migliore.</i>"),
+            ("<b>spero che</b>", "una speranza", "<i>Spero che il Comune <b>scelga</b> noi.</i>"),
+            ("<b>non sono sicuro/a che · non so se</b>", "un dubbio", "<i>Non sono sicura che <b>venga</b>.</i>")]
+    ind = [("<b>secondo me · per me</b>", "<i>Secondo me Bologna <b>è</b> troppo cara.</i>"),
+           ("<b>so che · sono sicuro/a che · è vero che</b>", "<i>So che <b>viene</b>. · Sono sicura che <b>ha</b> ragione.</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: primo incontro con il congiuntivo", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Il <b>congiuntivo</b> è il modo delle <b>opinioni</b>, delle <b>speranze</b> e dei <b>dubbi</b>: non presenta un fatto sicuro, ma quello che pensiamo o speriamo. Buona notizia: le forme di <i>io, tu, lui, lei</i> le conosci già, sono come l'imperativo formale dell'unità 08 (<i>Vada! → Spero che vada</i>).</div>
+{_h("1. LA FORMA")}
+{_tbl(["", "-are: parlare", "-ere: prendere", "-ire: dormire", "essere", "avere"], forms, "8.6pt", ["34mm", None, None, None, None, None])}
+<p class="small" style="margin:.6mm 0">Le tre persone singolari sono <b>uguali</b>: per questo spesso aggiungiamo il soggetto (<i>Penso che <b>tu</b> abbia ragione</i>). Irregolari come l'imperativo formale: <b>vada, faccia, dia, stia, dica, venga, esca, scelga, possa, voglia, debba, sappia</b>.</p>
+{_h("2. DOPO QUALI ESPRESSIONI?")}
+{_tbl(["espressione + che", "per…", "esempio"], trig, "8.6pt", ["56mm", "24mm", None])}
+<div class="two"><div>{_h("3. ATTENZIONE: CON L'INDICATIVO")}
+{_tbl(["espressione", "esempio"], ind, "8.4pt", ["34mm", None])}</div>
+<div>{_h("4. STESSO SOGGETTO: DI + INFINITO")}
+<div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt">Se il soggetto è lo stesso, niente <i>che</i>:<br><i>(Io) spero che <b>(io)</b> vinca</i> ✗ → <i>Spero <b>di vincere</b>.</i><br><i>Penso <b>di partire</b> a maggio.</i><br><i>Credo <b>di avere</b> ragione.</i><br>Soggetto diverso: <i>Spero che <b>tu</b> vinca.</i></div></div></div>
+{_dont([("Penso che è caro.", "Penso che <b>sia</b> caro."), ("Secondo me sia caro.", "Secondo me <b>è</b> caro."), ("Spero che vadi bene.", "Spero che <b>vada</b> bene."),
+        ("Spero che io vinca.", "Spero <b>di vincere</b>."), ("Penso che sì.", "Penso <b>di sì</b>.")])}""",
+    16, """<p>In portoghese c'è il <i>subjuntivo</i>, ma dopo <i>acho que</i> si usa l'indicativo (<i>acho que é caro</i>): da qui l'errore <i>penso che è</i>. Basta un primo contatto con <i>sia, abbia, vada, faccia</i>; il resto al B1.</p>""")
