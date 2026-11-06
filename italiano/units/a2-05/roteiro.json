@@ -1,0 +1,34 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {
+  "05.2": 3000,
+  "05.3": 2500
+ },
+ "units": {
+  "it-a2-unita-05": {
+   "05.1 Dialogo": "Narrator: Dialogo uno. Inizio dicembre. Allo studio, lunedì mattina.\nMarco: Júlia, scusa, potresti farmi un favore?\nJúlia: Certo, dimmi.\nMarco: Domani arriva un cliente importante da Milano. Potresti preparare tu la presentazione? Io dovrei finire il progetto per il Comune.\nJúlia: Va bene. Però mi servirebbe il tuo computer: il mio è lentissimo.\nMarco: Prendilo pure! E... ti dispiacerebbe andare a prendere il cliente alla stazione alle dieci?\nJúlia: Veramente alle dieci avrei il dentista. Potrei andare alle undici?\nMarco: Nessun problema, gli scrivo un messaggio. Grazie, sei un tesoro! Ti offrirei un caffè, ma...\nJúlia: Ma dovresti finire il progetto. Lo so!\nNarrator: Dialogo due. A pranzo, al bar di Giulia.\nGiulia: Allora, ragazzi, che cosa fate a Natale?\nDavide: Io resto a Bologna, come sempre. Ma mi piacerebbe tanto andare in montagna, in Trentino, a sciare.\nGiulia: Io invece vorrei chiudere il bar per una settimana e dormire! E tu, Júlia? Torni in Brasile?\nJúlia: Vorrei tanto... Mi mancano la mia famiglia e il sole. Ma il biglietto costa milleottocento euro!\nDavide: Milleottocento? Io non lo comprerei mai a quel prezzo!\nGiulia: E Bruno che cosa farebbe?\nJúlia: Bruno resterebbe qui comunque: ha gli esami a gennaio.\nDavide: Allora potremmo fare una cena tutti insieme la sera della vigilia!\nGiulia: Che bella idea! Io porterei il panettone.\nNarrator: Dialogo tre. La sera, sulle scale, Júlia incontra la signora Rossi.\nSignora Rossi: Buonasera, Júlia. Ha l'aria triste. Che cosa c'è?\nJúlia: Vorrei passare il Natale con la mia famiglia, ma i voli sono carissimi.\nSignora Rossi: Al suo posto, io farei una videochiamata con la famiglia la sera della vigilia. E dovrebbe cercare un volo per febbraio: costano molto meno.\nJúlia: Ha ragione. Potrei andare in Brasile a Carnevale!\nSignora Rossi: Brava. E... Le piacerebbe pranzare da me il giorno di Natale? Viene anche mio fratello Franco. E Briciola, naturalmente.\nJúlia: Mi piacerebbe moltissimo! Potrei portare anche Bruno?\nSignora Rossi: Certo! Più siamo, meglio è.",
+   "05.2 Ripeti le doppie": "Narrator: Vorrei un caffè.\nNarrator: Mi piacerebbe sciare.\nNarrator: Potremmo cenare insieme.\nNarrator: Dovrebbe cercare un volo.\nNarrator: Io non lo comprerei.\nNarrator: Ti dispiacerebbe aiutarmi?",
+   "05.3 Presente o condizionale": "Narrator: Vorrei un tè.\nNarrator: Puoi aiutarmi?\nNarrator: Mi piacerebbe partire.\nNarrator: Devi riposarti.\nNarrator: Dovresti studiare.\nNarrator: Andiamo al cinema."
+  }
+ },
+ "images": {
+  "it-a2-unita-05": {
+   "A": "panettone",
+   "B": "video call laptop family",
+   "C": "boarding pass airplane ticket",
+   "D": "skiing mountains",
+   "E": "train station platform italy",
+   "F": "business presentation meeting",
+   "G": "cappuccino cup",
+   "H": "christmas tree living room"
+  }
+ }
+}

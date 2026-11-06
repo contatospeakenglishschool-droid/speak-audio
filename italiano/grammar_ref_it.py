@@ -151,3 +151,35 @@ def imperativo_informale(b):
 {_dont([("Non prendi l'antibiotico!", "Non <b>prendere</b> l'antibiotico!"), ("Ti riposa!", "<b>Riposati</b>!"), ("Dami un abbraccio!", "<b>Dammi</b> un abbraccio!"),
         ("Lo chiama!", "<b>Chiamalo</b>!"), ("Ragazzi, non giocare!", "Ragazzi, non <b>giocate</b>!")])}""",
     16, """<p>In Brasile l'imperativo di tutti i giorni è spesso uguale al presente (<i>pega, toma</i>): per questo lo studente dice <i>non prendi!</i>. Regola d'oro: <b>tu negativo = non + infinito</b>. I pronomi doppi (<i>dammelo</i>) arrivano più avanti.</p>""")
+
+
+def condizionale_presente(b):
+    """A2 Ponte 05: il condizionale presente (forme regolari e irregolari; richieste gentili, desideri, consigli, proposte)."""
+    forms = [("io", "parl<b>erei</b>", "prend<b>erei</b>", "dorm<b>irei</b>", "<b>sarei</b>"),
+             ("tu", "parl<b>eresti</b>", "prend<b>eresti</b>", "dorm<b>iresti</b>", "<b>saresti</b>"),
+             ("lui / lei / Lei", "parl<b>erebbe</b>", "prend<b>erebbe</b>", "dorm<b>irebbe</b>", "<b>sarebbe</b>"),
+             ("noi", "parl<b>eremmo</b>", "prend<b>eremmo</b>", "dorm<b>iremmo</b>", "<b>saremmo</b>"),
+             ("voi", "parl<b>ereste</b>", "prend<b>ereste</b>", "dorm<b>ireste</b>", "<b>sareste</b>"),
+             ("loro", "parl<b>erebbero</b>", "prend<b>erebbero</b>", "dorm<b>irebbero</b>", "<b>sarebbero</b>")]
+    irr = [("perdono una vocale", "andare → <b>andrei</b> · avere → <b>avrei</b> · dovere → <b>dovrei</b> · potere → <b>potrei</b> · sapere → <b>saprei</b> · vedere → <b>vedrei</b> · vivere → <b>vivrei</b>"),
+           ("doppia <b>rr</b>", "volere → <b>vorrei</b> · venire → <b>verrei</b> · rimanere → <b>rimarrei</b> · bere → <b>berrei</b>"),
+           ("tengono la <b>a</b>", "fare → <b>farei</b> · dare → <b>darei</b> · stare → <b>starei</b>"),
+           ("-care, -gare · -ciare, -giare", "cercare → <b>cercherei</b> · pagare → <b>pagherei</b> · cominciare → <b>comincerei</b> · mangiare → <b>mangerei</b>")]
+    usi = [("<b>chiedere in modo gentile</b>", "<i>Vorrei un cappuccino. · Potresti aiutarmi? · Ti dispiacerebbe…?</i>"),
+           ("<b>un desiderio</b>", "<i>Mi piacerebbe sciare. · Vorrei tanto tornare in Brasile.</i>"),
+           ("<b>un consiglio</b>", "<i>Dovresti riposarti. · Al tuo posto, io cercherei un volo per febbraio.</i>"),
+           ("<b>una proposta</b>", "<i>Potremmo fare una cena insieme!</i>"),
+           ("<b>che cosa farei</b> (un'ipotesi)", "<i>Io non lo comprerei mai! · Bruno resterebbe qui.</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: il condizionale presente", "")}
+<div class="box" style="margin-top:0"><h4>A CHE COSA SERVE?</h4>Il condizionale è il tempo della <b>gentilezza</b> e dei <b>desideri</b>: rende le richieste più morbide (<i>voglio → <b>vorrei</b></i>), esprime un desiderio, dà un consiglio e dice che cosa faremmo in una situazione.</div>
+{_h("1. LA FORMA REGOLARE")}
+{_tbl(["", "-are: parlare", "-ere: prendere", "-ire: dormire", "essere"], forms, "8.6pt", ["26mm", None, None, None, None])}
+<p class="small" style="margin:.6mm 0">Nei verbi in <b>-are</b> la <b>a</b> diventa <b>e</b>: <i>parlare → parl<b>e</b>rei</i>, <i>telefonare → telefon<b>e</b>rei</i>. <b>noi</b> ha sempre la doppia <b>m</b>: <i>potre<b>mm</b>o, andre<b>mm</b>o</i>.</p>
+{_h("2. GLI IRREGOLARI")}
+{_tbl(["gruppo", "verbi"], irr, "8.6pt", ["40mm", None])}
+<p class="small" style="margin:.6mm 0"><b>piacere</b>: <i>mi piacerebbe</i> + infinito o singolare · <i>mi piacerebbero</i> + plurale. Lo stesso per <b>servire</b>: <i>mi servirebbe il computer</i>.</p>
+{_h("3. QUANDO SI USA?")}
+{_tbl(["uso", "esempi"], usi, "8.6pt", ["46mm", None])}
+{_dont([("Voglio un caffè. (al bar)", "<b>Vorrei</b> un caffè."), ("parlarei · comprarei", "parl<b>e</b>rei · compr<b>e</b>rei"), ("poterei · volerei", "<b>potrei · vorrei</b>"),
+        ("mi piacerei andare", "mi <b>piacerebbe</b> andare"), ("potremo", "potre<b>mm</b>o")])}""",
+    16, """<p>In portoghese il <i>futuro do pretérito</i> funziona allo stesso modo (<i>eu gostaria, você poderia</i>), quindi l'uso è facile. Gli errori sono di forma: la <b>a</b> dei verbi in <i>-are</i>, gli irregolari e la doppia <b>m</b> di <i>noi</i>.</p>""")
