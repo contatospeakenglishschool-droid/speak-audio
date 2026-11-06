@@ -1,0 +1,34 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {
+  "03.2": 3000,
+  "03.3": 2500
+ },
+ "units": {
+  "it-a2-unita-03": {
+   "03.1 Dialogo": "Narrator: Dialogo uno. Un lunedì di novembre. Júlia arriva allo studio tardi, con i vestiti bagnati.\nMarco: Júlia! Sono le dieci! Che cosa è successo?\nJúlia: Che mattina! Pioveva e io andavo allo studio in bicicletta, come sempre.\nMarco: Con la pioggia? Sei coraggiosa!\nJúlia: Aspetta... Mentre attraversavo piazza Maggiore, all'improvviso un cane è uscito da sotto un portico e io sono caduta in una pozzanghera!\nMarco: Oddio! Ti sei fatta male?\nJúlia: No, per fortuna. Solo un po' al ginocchio. Un signore anziano mi ha aiutato. Era gentilissimo: aveva un cappello grigio e un ombrello enorme.\nMarco: E il cane?\nJúlia: Il cane? Era del signore! Si chiamava Briciola e mi guardava tutto contento.\nNarrator: Dialogo due. A pranzo, al bar di Giulia.\nDavide: Júlia, lo sai che cosa è successo a tuo fratello sabato sera?\nJúlia: No! Che cosa ha fatto Bruno?\nDavide: Era in biblioteca e studiava per l'esame di storia. Era stanchissimo e a un certo punto si è addormentato sul libro.\nGiulia: No! E poi?\nDavide: Quando si è svegliato, erano le dieci di sera. Le luci erano spente e la porta era chiusa!\nJúlia: Ecco perché mi ha telefonato alle dieci e mezza! Io guardavo un film e non ho risposto.\nDavide: Allora ha chiamato me, e io ho telefonato al custode. Alla fine è uscito a mezzanotte.\nGiulia: Povero Bruno! E l'esame com'è andato?\nDavide: Benissimo! Ha preso trenta. Il libro era un ottimo cuscino!\nNarrator: Dialogo tre. La sera, la signora Rossi bussa alla porta di Júlia.\nSignora Rossi: Buonasera, Júlia. Come sta il ginocchio?\nJúlia: Il ginocchio? Come lo sa?\nSignora Rossi: Me l'ha detto mio fratello Franco! Stamattina passeggiava con il suo cane in piazza Maggiore e ha visto una ragazza brasiliana che cadeva dalla bicicletta.\nJúlia: Il signore con il cappello grigio era suo fratello?\nSignora Rossi: Proprio lui! E Briciola chiede scusa. Ecco, Le ho portato una torta.",
+   "03.2 Ripeti frasi del racconto": "Narrator: Mentre attraversavo la piazza, all'improvviso un cane è uscito.\nNarrator: Pioveva e io andavo in bicicletta.\nNarrator: Studiava e a un certo punto si è addormentato.\nNarrator: Quando si è svegliato, la porta era chiusa.\nNarrator: Io guardavo un film e non ho risposto.\nNarrator: Alla fine è uscito a mezzanotte.",
+   "03.3 Imperfetto o passato prossimo": "Narrator: Marco leggeva il giornale.\nNarrator: Júlia ha preso l'autobus.\nNarrator: Pioveva tutto il giorno.\nNarrator: Bruno ha studiato storia.\nNarrator: Davide dormiva sul divano.\nNarrator: Giulia ha aperto il bar."
+  }
+ },
+ "images": {
+  "it-a2-unita-03": {
+   "A": "umbrella rain street",
+   "B": "puddle rain reflection",
+   "C": "small dog wet",
+   "D": "library reading room",
+   "E": "knee band aid",
+   "F": "keys bunch",
+   "G": "closed wooden door",
+   "H": "alarm clock bed"
+  }
+ }
+}

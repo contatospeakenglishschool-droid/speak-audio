@@ -87,3 +87,41 @@ def imperfetto(b):
 {_dont([("Quando ero piccola, ho abitato a Belo Horizonte.", "…<b>abitavo</b> a Belo Horizonte."), ("Io facevevo…", "<b>facevo</b>"),
         ("Era sei anni.", "<b>Avevo</b> sei anni."), ("C'era tanti turisti.", "<b>C'erano</b> tanti turisti."), ("Parlávamo.", "parla<b>va</b>mo")])}""",
     16, """<p>Il portoghese ha lo stesso tempo (<i>pretérito imperfeito</i>), quindi l'uso è facile: la difficoltà è la forma. Far coniugare <i>essere</i> e <i>fare</i> a voce. L'età si dice con <b>avere</b>.</p>""")
+
+
+_LINEA_STORIA = """<svg viewBox="0 0 520 64" width="100%" height="15mm" xmlns="http://www.w3.org/2000/svg" font-family="Inter, sans-serif">
+<line x1="20" y1="34" x2="500" y2="34" stroke="#77acb5" stroke-width="2"/><polygon points="500,34 490,29 490,43" fill="#77acb5"/>
+<rect x="60" y="27" width="330" height="14" rx="3" fill="#cbbca0" opacity=".75"/>
+<text x="64" y="16" font-size="11" fill="#9a7b4f" font-weight="700">mentre attraversavo la piazza (imperfetto: lo sfondo)</text>
+<line x1="250" y1="14" x2="250" y2="54" stroke="#176074" stroke-width="2.5"/><circle cx="250" cy="34" r="7" fill="#176074"/>
+<text x="160" y="60" font-size="11" fill="#176074" font-weight="700">all'improvviso un cane è uscito (passato prossimo)</text></svg>"""
+
+
+def imperfetto_passato_prossimo(b):
+    """A2 Ponte 03: imperfetto e passato prossimo insieme per raccontare; mentre, all'improvviso, quando; ricapitolazione dei tempi del passato."""
+    pat = [("<b>A. sfondo + fatto</b><br>un'azione in corso viene interrotta", "imperfetto + passato prossimo",
+            "<i>Mentre <b>attraversavo</b> la piazza, un cane <b>è uscito</b>.</i>"),
+           ("<b>B. due azioni in corso</b><br>nello stesso momento", "imperfetto + imperfetto",
+            "<i>Io <b>guardavo</b> un film, mentre Bruno <b>studiava</b>.</i>"),
+           ("<b>C. una serie di fatti</b><br>uno dopo l'altro", "passato prossimo + passato prossimo",
+            "<i>Si <b>è svegliato</b>, <b>ha telefonato</b> e alla fine <b>è uscito</b>.</i>")]
+    mark = [("<b>mentre</b> (+ imperfetto)", "<b>all'improvviso · a un certo punto</b> (+ passato prossimo)"),
+            ("<b>sempre · di solito · ogni giorno</b>", "<b>una volta · ieri · sabato sera · alle dieci</b>"),
+            ("<b>quando</b> + imperfetto = in quel periodo: <i>Quando ero piccola…</i>", "<b>quando</b> + passato prossimo = in quel momento: <i>Quando si è svegliato…</i>"),
+            ("<b>sapevo</b> = conoscevo l'informazione", "<b>ho saputo</b> = ho scoperto, mi hanno detto")]
+    rec = [("presente", "<i>Studio italiano da un anno.</i>", "A1"), ("passato prossimo", "<i>Ieri sono andata a Firenze.</i> · un fatto finito", "A1 · 11, 21"),
+           ("imperfetto", "<i>Da bambina abitavo a Belo Horizonte.</i> · abitudini, descrizioni", "A2 · 02"),
+           ("imperfetto + passato prossimo", "<i>Pioveva quando sono uscita.</i> · raccontare una storia", "A2 · 03")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: imperfetto e passato prossimo", "")}
+<div class="box" style="margin-top:0"><h4>COME UN FILM</h4>Quando raccontiamo una storia, l'<b>imperfetto</b> descrive lo <b>sfondo</b> (com'era, che cosa succedeva, che tempo faceva) e il <b>passato prossimo</b> racconta i <b>fatti</b>, le azioni che fanno andare avanti la storia.
+{_LINEA_STORIA}</div>
+{_h("1. TRE COMBINAZIONI")}
+{_tbl(["che cosa succede", "tempi", "esempio"], pat, "8.6pt", ["52mm", "44mm", None])}
+{_h("2. LE PAROLE CHE AIUTANO")}
+{_tbl(["di solito → imperfetto", "di solito → passato prossimo"], mark, "8.6pt")}
+<p class="small" style="margin:.6mm 0">Lo sfondo di una storia usa quasi sempre l'imperfetto: <b>era</b> (lunedì, tardi, buio), <b>c'era / c'erano</b>, <b>faceva</b> freddo, <b>pioveva</b>, <b>avevo</b> fame, <b>ero</b> stanca.</p>
+{_h("3. I TEMPI DEL PASSATO FINO A QUI")}
+{_tbl(["tempo", "esempio e uso", "unità"], rec, "8.6pt", ["46mm", None, "24mm"])}
+{_dont([("Mentre ho attraversato la piazza, un cane è uscito.", "Mentre <b>attraversavo</b>…"), ("Quando sono arrivata, la porta è stata chiusa.", "…la porta <b>era</b> chiusa."),
+        ("All'improvviso il telefono suonava.", "All'improvviso il telefono <b>ha suonato</b>."), ("Quando ero arrivata, la porta era chiusa.", "Quando <b>sono arrivata</b>…")])}""",
+    16, """<p>Domanda chiave: <i>Sfondo o fatto?</i> La barra = imperfetto, il punto = passato prossimo. In portoghese è uguale: il problema è la forma.</p>""")
