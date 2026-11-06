@@ -611,3 +611,35 @@ def comparatives_superlatives(b):
 <b>Superlative + group:</b> <i>the most creative <b>in</b> my family · the best coffee <b>of</b> all · the worst coffee I've <b>ever</b> had</i></p>
 {_dont([("It's more better.", "It's <b>better</b>."), ("He's more rude than me.", "He's <b>ruder than</b> me."), ("She's the most happiest.", "She's <b>the happiest</b>."), ("Lattes are sweeter then black coffee.", "sweeter <b>than</b>"), ("It's very stronger.", "It's <b>much</b> stronger.")])}""",
     16, """<p>In fast speech, <i>than</i> is weak /ðən/ and <i>the</i> is weak /ðə/; stress the adjectives. Brazilians often say <i>more better</i>, a direct translation from Portuguese, and confuse <i>than</i> and <i>then</i> in writing. <i>Further</i> is also correct for distance.</p>""")
+
+
+_ADV_POS = """<svg viewBox="0 0 520 58" width="100%" height="14mm" xmlns="http://www.w3.org/2000/svg" font-family="Inter, sans-serif">
+<rect x="10" y="8" width="110" height="26" rx="5" fill="#d9ecef"/><text x="65" y="25" font-size="12" fill="#176074" font-weight="700" text-anchor="middle">FRONT</text>
+<rect x="130" y="8" width="70" height="26" rx="5" fill="#eef1f2"/><text x="165" y="25" font-size="12" fill="#43494d" text-anchor="middle">I'm</text>
+<rect x="210" y="8" width="110" height="26" rx="5" fill="#d9ecef"/><text x="265" y="25" font-size="12" fill="#176074" font-weight="700" text-anchor="middle">MID</text>
+<rect x="330" y="8" width="70" height="26" rx="5" fill="#eef1f2"/><text x="365" y="25" font-size="12" fill="#43494d" text-anchor="middle">going…</text>
+<rect x="410" y="8" width="100" height="26" rx="5" fill="#d9ecef"/><text x="460" y="25" font-size="12" fill="#176074" font-weight="700" text-anchor="middle">END</text>
+<text x="65" y="50" font-size="10.5" fill="#7d858a" text-anchor="middle">Today,</text><text x="265" y="50" font-size="10.5" fill="#7d858a" text-anchor="middle">probably / usually</text>
+<text x="460" y="50" font-size="10.5" fill="#7d858a" text-anchor="middle">carefully · outside · today</text></svg>"""
+
+
+def adverb_position(b):
+    """A2 Unit 28: types of adverbs and their position in the sentence (front, mid, end, before an adjective)."""
+    b.page(f"""{b.sec("+", "Grammar reference: adverbs and word order", "")}
+<div class="box" style="margin-top:0"><h4>WHERE DOES THE ADVERB GO?</h4>Adverbs add information: <b>when, how often, how sure, how, where</b> or <b>how much</b>. Different types go in different positions.
+{_ADV_POS}</div>
+{_h("1. TYPES AND POSITIONS")}
+{_tbl(["type", "examples", "position", "example sentence"], [
+    ["<b>time</b> (when?)", "today · last year · yesterday · next week", "end or front", "<i>I started making ice cream <b>last year</b>. / <b>Today</b> I'm making strawberry.</i>"],
+    ["<b>frequency</b> (how often?)", "always · usually · often · sometimes · never", "mid", "<i>People <b>usually</b> want to try something new.</i>"],
+    ["<b>certainty</b> (how sure?)", "probably · definitely", "mid", "<i>I'm <b>probably</b> going to try seaweed. I'll <b>definitely</b> call you.</i>"],
+    ["<b>manner</b> (how?)", "carefully · quickly · well · better · hard", "end", "<i>Research your recipe <b>carefully</b>. He plays the piano <b>well</b>.</i>"],
+    ["<b>place</b> (where?)", "here · there · outside · inside · home", "end", "<i>People want to spend time <b>outside</b>.</i>"],
+    ["<b>degree</b> (how much?)", "really · very · too · so", "before the adjective", "<i>That's <b>really</b> interesting. It's <b>too</b> spicy.</i>"]], "8.4pt")}
+{_h("2. MID POSITION: BEFORE THE MAIN VERB, AFTER BE")}
+{_tbl(["main verb", "be", "auxiliary (will, have, can…) + verb"], [
+    ["<i>I <b>usually get</b> coffee on my way to work.</i>", "<i>It<b>'s always</b> time for ice cream! She<b>'s never</b> late.</i>", "<i>They<b>'ll definitely be</b> happy. I've <b>often fallen</b> asleep.</i>"]], "8.6pt")}
+<p class="small" style="margin:.8mm 0"><b>Irregular adverbs:</b> good → <b>well</b> (not <s>goodly</s>) · fast → <b>fast</b> · hard → <b>hard</b> · comparative: well → <b>better</b>. Most others: adjective + <b>-ly</b> (careful → carefully, quick → quickly).<br>
+<b>End position order:</b> how → where → when: <i>I worked <b>hard</b> <b>at home</b> <b>yesterday</b>.</i></p>
+{_dont([("I get usually coffee.", "I <b>usually get</b> coffee."), ("I like very much ice cream.", "I like ice cream <b>very much</b>."), ("She speaks English good.", "She speaks English <b>well</b>."), ("I'm going to probably buy it.", "I'm <b>probably</b> going to buy it.")])}""",
+    22, """<p>The biggest problem for Brazilians is putting the adverb between the verb and the object (<i>I like very much pizza</i>, <i>I drink always coffee</i>). Rule of thumb: never separate a verb from its object. Exceptions exist; at A2, the table is enough.</p>""")
