@@ -1,0 +1,12 @@
+{
+ "material": "speak-bridge",
+ "characters": {"Lucy": "en-US-Neural2-C", "Ana": "en-US-Neural2-F", "Narrator": "en-US-Neural2-J"},
+ "units": {"a2-unit-24": {
+  "24.1 Pepper is a winner": "Lucy: Pepper is a winner. By Lucy.\nLucy: Last Sunday, I was playing in a soccer game in the park with some students who go to a different college. The score was two to two, and Kate's dog Pepper was watching. Pepper and I used to practice in the park every weekend, so she knew how to play.\nLucy: Suddenly, Pepper ran onto the field and picked up the ball in her mouth. At first, I thought she was going to bring the ball to me, but then she ran to the goal and dropped the ball in. \"If Pepper weren't a dog, we would count that goal!\" laughed a player on the other team. Although we didn't win the game, Pepper was the hero of the day.",
+  "24.2 Repeat: telling a story": "Narrator: Suddenly...\nNarrator: Suddenly, Pepper ran onto the field.\nNarrator: At first, I thought she was going to bring the ball to me.\nNarrator: But then... she ran to the goal!\nNarrator: \"Don't go in there,\" he shouted.\nNarrator: \"It's too dangerous.\"\nNarrator: Although we didn't win, Pepper was the hero of the day.",
+  "24.3 My dog saved my life": "Ana: My dog saved my life!\nAna: When I was a child, my family had a house at the beach in Ubatuba, and we used to go there every summer. One morning, I was walking on the beach with my dog, Mel. I threw a ball to Mel, but she didn't catch it. The ball went into a hole in the rocks. It was a cave!\nAna: When Mel and I went into the cave where the ball was, we saw some drawings on the walls. They looked very old. I wanted to stay and look at them, but Mel wasn't happy in the cave, so she pulled me out. A fisherman was walking past. \"Don't go in there,\" he shouted. \"It's too dangerous.\" Suddenly, some rocks fell down and closed the cave forever."
+ }},
+ "images": {"a2-unit-24": {
+  "A": "dog with soccer ball on grass", "B": "sea cave rocks beach", "C": "dog with bone", "D": "notebook and pen writing", "E": "funny looking dog portrait"
+ }}
+}

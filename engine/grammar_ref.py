@@ -503,3 +503,30 @@ def second_conditional(b):
 <p class="small" style="margin:.5mm 0">Change the tense and, very often, positive ↔ negative: <i>He <b>doesn't like</b> training, so he <b>isn't</b> fit.</i> → <i>If he <b>liked</b> training, he<b>'d be</b> fit.</i></p>
 {_dont([("If I would have money, I would travel.", "If I <b>had</b> money, I'd travel."), ("If I had time, I will go.", "…I <b>would</b> go."), ("If I won, I travel the world.", "…I <b>would travel</b>…"), ("I would be happy if they would win.", "…if they <b>won</b>.")])}""",
     20, """<p>The key Brazilian error is <i>would</i> in the if clause. Use the hump intonation: rising on the condition, falling on the result. In speech, <i>I'd</i> /aɪd/ and <i>I'll</i> /aɪl/ are easy to confuse; drill both.</p>""")
+
+
+def story_writing(b):
+    """A2 Unit 24 (writing lesson): language reference for writing a story: four areas, direct speech, linkers, A2 checklist."""
+    b.page(f"""{b.sec("+", "Language reference: writing a story", "")}
+<div class="box" style="margin-top:0"><h4>WHAT MAKES A GOOD STORY?</h4>Teachers and exams (for example, Cambridge B1 Preliminary) look at <b>four areas</b>: <b>1. the task</b> (follow the instructions: first sentence, topic, number of words), <b>2. the reader</b> (keep them interested until the end), <b>3. organization</b> (a clear order and paragraphs) and <b>4. language</b> (a good range of grammar and vocabulary, few mistakes with easy language).</div>
+{_h("1. DIRECT SPEECH: American punctuation")}
+{_tbl(["rule", "example"], [
+    ["double quotation marks \" \" around the exact words", "<i><b>\"</b>Don't go in there,<b>\"</b> he shouted.</i>"],
+    ["the comma, ? or ! goes <b>inside</b> the quotation marks", "<i>\"It's too dangerous<b>,</b>\" he said. · \"Are you OK<b>?</b>\" she asked.</i>"],
+    ["a new sentence inside the speech starts with a capital letter", "<i>\"Don't go in there,\" he shouted. \"<b>I</b>t's too dangerous.\"</i>"],
+    ["reporting verbs make speech more alive", "<b>said · asked · shouted · whispered · laughed · answered · explained · cried</b>"]], "8.6pt")}
+{_h("2. LINKERS FOR A STORY")}
+{_tbl(["start / set the scene", "events in order", "surprise or change", "contrast and end"], [
+    ["<i>Last Sunday, … · One morning, … · When I was a child, …</i>", "<i>First, … · Then, … · After that, … · Later, …</i>", "<i>Suddenly, … · At first, … but then … · To my surprise, …</i>", "<i>Although … · In the end, … · Finally, …</i>"]], "8.4pt")}
+{_h("3. YOUR A2 CHECKLIST: show what you know")}
+{_tbl(["language", "example", "unit"], [
+    ["past continuous to set the scene", "<i>I <b>was playing</b> in a soccer game.</i>", "21"],
+    ["past simple for the events", "<i>Pepper <b>ran</b> onto the field.</i>", "19"],
+    ["used to for past habits", "<i>We <b>used to</b> practice every weekend.</i>", "22"],
+    ["state verbs without -ing", "<i>She <b>knew</b> how to play.</i> (not <s>was knowing</s>)", "03"],
+    ["relative clauses", "<i>students <b>who</b> go to a different college · the cave <b>where</b> the ball was</i>", "16"],
+    ["conjunctions", "<i>and · but · so · although</i>", "14"],
+    ["second conditional", "<i>If Pepper <b>weren't</b> a dog, we <b>would</b> count that goal!</i>", "23"]], "8.4pt")}
+<p class="small" style="margin:.8mm 0"><b>Before you finish:</b> plan for one minute (10–12 key words) · use two or three paragraphs · count your words · check your verbs, punctuation and spelling.</p>
+{_dont([("Don't go in there, he shouted.", "<b>\"</b>Don't go in there,<b>\"</b> he shouted."), ("\"It's dangerous\", he said.", "\"It's dangerous<b>,</b>\" he said."), ("Firstly, I thought she…", "<b>At first,</b> I thought she…"), ("Although we lost, but she was a hero.", "<b>Although</b> we lost, she was a hero.")])}""",
+    16, """<p>A story doesn't need to be true; personal experience is a great starting point. <i>Firstly</i> lists points in an essay; <i>At first … but then</i> shows a change in a story.</p>""")
