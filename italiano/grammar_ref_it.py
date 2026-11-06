@@ -183,3 +183,32 @@ def condizionale_presente(b):
 {_dont([("Voglio un caffè. (al bar)", "<b>Vorrei</b> un caffè."), ("parlarei · comprarei", "parl<b>e</b>rei · compr<b>e</b>rei"), ("poterei · volerei", "<b>potrei · vorrei</b>"),
         ("mi piacerei andare", "mi <b>piacerebbe</b> andare"), ("potremo", "potre<b>mm</b>o")])}""",
     16, """<p>In portoghese il <i>futuro do pretérito</i> funziona allo stesso modo (<i>eu gostaria, você poderia</i>), quindi l'uso è facile. Gli errori sono di forma: la <b>a</b> dei verbi in <i>-are</i>, gli irregolari e la doppia <b>m</b> di <i>noi</i>.</p>""")
+
+
+def sapere_conoscere(b):
+    """A2 Ponte 06: sapere e conoscere; ci vuole / ci vogliono; i verbi modali al passato prossimo."""
+    sc = [("<b>sapere</b> + infinito: una capacità", "<i>So fare il cappuccino. · Sai usare questa macchina?</i>"),
+          ("<b>sapere</b> + che, se, dove, quando, perché…", "<i>Non so perché è tornato. · Sai se ha esperienza?</i>"),
+          ("<b>sapere</b> + un'informazione", "<i>Sai il suo numero? · Lo so!</i>"),
+          ("<b>conoscere</b> + persone", "<i>Conosco un ragazzo, Matteo.</i>"),
+          ("<b>conoscere</b> + luoghi, cose, lingue (bene, per esperienza)", "<i>Conosco la zona universitaria. · Questa macchina non la conosco.</i>")]
+    pp = [("<b>ho conosciuto</b> = ho incontrato la prima volta", "<i>Ho conosciuto Matteo sabato.</i>"),
+          ("<b>ho saputo</b> = ho scoperto, mi hanno detto", "<i>Oggi ho saputo che vuole imparare il portoghese.</i>")]
+    mod = [("lavorare → <b>avere</b>", "<i>Matteo <b>ha dovuto</b> lavorare da solo.</i>"),
+           ("andare, tornare → <b>essere</b>", "<i>Giulia <b>è dovuta</b> andare in banca. · Matteo <b>è dovuto</b> tornare.</i>"),
+           ("solo il modale", "<i>Volevo restare, ma non <b>ho potuto</b>.</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: sapere, conoscere, ci vuole", "")}
+<div class="box" style="margin-top:0"><h4>DUE VERBI DIVERSI</h4><b>Sapere</b> = un'informazione o una capacità. <b>Conoscere</b> = una persona, un luogo, una cosa che hai incontrato o provato.</div>
+{_h("1. SAPERE O CONOSCERE?")}
+{_tbl(["uso", "esempio"], sc, "8.6pt", ["70mm", None])}
+<p class="small" style="margin:.6mm 0"><b>sapere</b>: so, sai, sa, sappiamo, sapete, sanno · <b>conoscere</b>: cono<b>sc</b>o [sk], cono<b>sc</b>i [sci], conosce, conosciamo, conoscete, cono<b>sc</b>ono [sk]. Al passato prossimo il significato cambia un po':</p>
+{_tbl(["passato prossimo", "esempio"], pp, "8.6pt", ["70mm", None])}
+<div class="two"><div>{_h("2. CI VUOLE / CI VOGLIONO")}
+<div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt">= è necessario (tempo, cose, qualità)<br><b>ci vuole</b> + singolare: <i>Ci vuole <b>una persona</b> in più. · Ci vuole <b>pazienza</b>.</i><br><b>ci vogliono</b> + plurale: <i>Ci vogliono <b>cinque minuti</b>. · Ci vogliono <b>settimane</b>.</i><br>con <b>per</b> + infinito: <i>Per fare un cappuccino ci vuole il latte.</i><br>passato: <i>c'è voluta un'ora · ci sono voluti due giorni</i></div></div>
+<div>{_h("3. I MODALI AL PASSATO PROSSIMO")}
+<p style="margin:0 0 .5mm;font-size:8.6pt"><b>dovere, potere, volere</b> prendono l'ausiliare del verbo all'infinito:</p>
+{_tbl(["infinito", "esempio"], mod, "8.4pt", ["26mm", None])}
+<p class="small" style="margin:.6mm 0">Nel parlato si sente anche <i>ho dovuto andare</i>. <b>volevo</b> (imperfetto) = l'intenzione; <b>ho voluto</b> = l'ho fatto.</p></div></div>
+{_dont([("So Matteo.", "<b>Conosco</b> Matteo."), ("Conosco nuotare.", "<b>So</b> nuotare."), ("Conosco dove abita.", "<b>So</b> dove abita."),
+        ("Ci vuole cinque minuti.", "Ci <b>vogliono</b> cinque minuti."), ("Giulia ha dovuto andata in banca.", "Giulia <b>è dovuta andare</b> in banca.")])}""",
+    16, """<p>Il portoghese ha la stessa coppia <i>saber / conhecer</i>: basta la domanda chiave: <i>è una persona o un posto?</i> → <b>conoscere</b>. <i>Ci vuole</i> corrisponde a <i>leva / é preciso</i>; l'errore tipico è <i>ci vuole</i> con il plurale.</p>""")

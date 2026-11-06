@@ -1,0 +1,33 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Matteo": "it-IT-Chirp3-HD-Charon",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {
+  "06.2": 3000,
+  "06.3": 2500
+ },
+ "units": {
+  "it-a2-unita-06": {
+   "06.1 Dialogo": "Narrator: Dialogo uno. Metà gennaio, al bar di Giulia.\nGiulia: Ragazzi, ho un problema. Dopo le feste il bar è sempre pieno: ci vuole una persona in più per il fine settimana.\nJúlia: Hai messo un annuncio?\nGiulia: Sì, ma ci vogliono settimane per trovare la persona giusta. E io non conosco nessuno.\nDavide: Io conosco un ragazzo, Matteo. È il cugino di un mio collega. Sa fare un cappuccino perfetto e sa parlare inglese e spagnolo.\nGiulia: Davvero? E sai se ha esperienza?\nDavide: Sì, ha lavorato due anni in un hotel a Londra. Però non so perché è tornato.\nGiulia: Perfetto! Mi dai il suo numero? Lo chiamo oggi.\nNarrator: Dialogo due. Il giorno dopo, il colloquio.\nGiulia: Buongiorno! Lei è Matteo?\nMatteo: Sì, buongiorno. Mi dispiace per il ritardo: c'era traffico.\nGiulia: Nessun problema. Allora, che esperienza ha?\nMatteo: Ho lavorato due anni come barista in un hotel a Londra. Lì ho imparato a fare il latte art.\nGiulia: Interessante! E perché è tornato in Italia?\nMatteo: Mia nonna è stata male e sono dovuto tornare a Bologna. Volevo restare a Londra, ma non ho potuto.\nGiulia: Mi dispiace. Sa usare questa macchina del caffè? È un po' vecchia.\nMatteo: Questa non la conosco, ma so usare tutte le macchine professionali. Ci vogliono cinque minuti per imparare.\nGiulia: Conosce il quartiere?\nMatteo: Sì, abito in via Zamboni. Conosco bene la zona universitaria.\nGiulia: Il lavoro è il sabato e la domenica, dalle sette alle due. Le va bene?\nMatteo: Benissimo. Quando potrei cominciare?\nGiulia: Facciamo una prova sabato?\nMatteo: Volentieri!\nNarrator: Dialogo tre. Sabato sera, al bar.\nJúlia: Allora, com'è andata la prova?\nGiulia: Benissimo! Matteo ha fatto cento cappuccini e i clienti lo adorano. Ha dovuto lavorare da solo per un'ora, perché io sono dovuta andare in banca.\nDavide: Visto? Io conosco le persone giuste!\nGiulia: E sai una cosa? Oggi ho saputo che Matteo vuole imparare il portoghese: vorrebbe lavorare a Lisbona.\nJúlia: Allora gli insegno io! Conosco un ottimo metodo.\nDavide: E lui ti insegna il latte art!\nGiulia: Ci vuole pazienza con tutti e due!",
+   "06.2 Ripeti conoscere": "Narrator: Conosco Matteo.\nNarrator: Conosci il quartiere?\nNarrator: Lei conosce questa macchina?\nNarrator: Conosciamo un buon bar.\nNarrator: Conoscete Bologna?\nNarrator: Conoscono tutti i clienti.",
+   "06.3 Suono dolce o duro": "Narrator: conosco\nNarrator: conosci\nNarrator: scuola\nNarrator: pesce\nNarrator: tasca\nNarrator: uscire"
+  }
+ },
+ "images": {
+  "it-a2-unita-06": {
+   "A": "resume cv paper desk",
+   "B": "job interview",
+   "C": "espresso machine",
+   "D": "latte art barista",
+   "E": "help wanted sign window",
+   "F": "business handshake",
+   "G": "apron barista",
+   "H": "office desk computer"
+  }
+ }
+}
