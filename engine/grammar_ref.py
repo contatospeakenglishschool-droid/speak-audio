@@ -590,3 +590,24 @@ def adjective_modifiers(b):
     ["cheerful", "miserable", "relaxed", "stressed"]], "8.4pt")}
 {_dont([("He is too nice. I like him!", "He's <b>really / very</b> nice. I like him!"), ("She's a bit friendly.", "She's <b>really</b> friendly."), ("He seems a nice person.", "He <b>seems like</b> a nice person."), ("She sounds greatly.", "She <b>sounds great</b>.")])}""",
     16, """<p>The key problem is <i>too</i>: Brazilians translate <i>muito</i> as <i>too</i> (<i>too beautiful</i> ✗). Check with: <i>Is it a problem?</i> If not, use <i>really</i> or <i>very</i>. Before a noun, use <i>really</i> or <i>very</i> (<i>a really nice guy</i>), not <i>so</i> or <i>too</i>.</p>""")
+
+
+def comparatives_superlatives(b):
+    """A2 Unit 27: comparatives and superlatives, with modifiers (slightly, a bit, a little, much, a lot)."""
+    b.page(f"""{b.sec("+", "Grammar reference: comparatives and superlatives", "")}
+<div class="box" style="margin-top:0"><h4>TWO THINGS OR THE WHOLE GROUP?</h4><b>Comparative</b> = we compare <b>two</b> people or things, usually with <b>than</b>: <i>Black coffee drinkers are <b>moodier than</b> latte drinkers.</i><br>
+<b>Superlative</b> = we compare one with <b>all the others</b> in a group, with <b>the</b>: <i>Latte drinkers are <b>the most generous</b>.</i></div>
+{_h("1. FORM")}
+{_tbl(["adjective", "comparative", "superlative", "spelling"], [
+    ["<b>one syllable</b><br>rude · strong · big", "rud<b>er</b> than · strong<b>er</b> than · bi<b>gger</b> than", "<b>the</b> rud<b>est</b> · <b>the</b> strong<b>est</b> · <b>the</b> bi<b>ggest</b>", "-e → -r / -st · one vowel + one consonant: double it (big → bigger)"],
+    ["<b>two syllables ending in -y</b><br>moody · happy · easy", "mood<b>ier</b> than · happ<b>ier</b> than", "<b>the</b> mood<b>iest</b> · <b>the</b> happ<b>iest</b>", "y → i"],
+    ["<b>two or more syllables</b><br>(also -ed / -ing adjectives)", "<b>more</b> anxious than · <b>more</b> relaxed than", "<b>the most</b> anxious · <b>the most</b> relaxed", "no -er / -est"],
+    ["<b>irregular</b><br>good · bad · far", "<b>better</b> · <b>worse</b> · <b>farther</b> than", "<b>the best</b> · <b>the worst</b> · <b>the farthest</b>", "learn them!"]], "8.4pt")}
+{_h("2. HOW BIG IS THE DIFFERENCE?")}
+{_tbl(["small difference", "big difference"], [
+    ["<b>slightly · a bit · a little</b> + comparative<br><i>Lattes are <b>slightly</b> more bitter than cappuccinos.</i><br><i>I'm <b>a bit</b> more patient than my brother.</i>",
+     "<b>much · a lot</b> + comparative<br><i>Black coffee is <b>much</b> stronger than a latte.</i><br><i>They're <b>a lot</b> more relaxed about their health.</i>"]], "8.6pt")}
+<p class="small" style="margin:.8mm 0">Modifiers go <b>before</b> the comparative. We don't use <i>very</i> with comparatives: <s>very stronger</s> → <b>much</b> stronger.<br>
+<b>Superlative + group:</b> <i>the most creative <b>in</b> my family · the best coffee <b>of</b> all · the worst coffee I've <b>ever</b> had</i></p>
+{_dont([("It's more better.", "It's <b>better</b>."), ("He's more rude than me.", "He's <b>ruder than</b> me."), ("She's the most happiest.", "She's <b>the happiest</b>."), ("Lattes are sweeter then black coffee.", "sweeter <b>than</b>"), ("It's very stronger.", "It's <b>much</b> stronger.")])}""",
+    16, """<p>In fast speech, <i>than</i> is weak /ðən/ and <i>the</i> is weak /ðə/; stress the adjectives. Brazilians often say <i>more better</i>, a direct translation from Portuguese, and confuse <i>than</i> and <i>then</i> in writing. <i>Further</i> is also correct for distance.</p>""")
