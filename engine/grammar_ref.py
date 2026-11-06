@@ -554,3 +554,39 @@ def ed_ing_adjectives(b):
     ["depressed", "depressing", "surprised", "surprising"]], "8.4pt")}
 {_dont([("I'm boring. Let's go out!", "I'm <b>bored</b>. Let's go out!"), ("I'm interesting in music.", "I'm <b>interested in</b> music."), ("The trip was excited.", "The trip was <b>exciting</b>."), ("It was a scaring movie.", "It was a <b>scary</b> movie.")])}""",
     16, """<p>Brazilian students very often say <i>I'm boring</i> when they mean they feel bored, and they laugh when they discover what it means. Quick test: if you can add <i>very</i> and it describes how a person feels, use -ed.</p>""")
+
+
+_SCALE_MOD = """<svg viewBox="0 0 520 64" width="100%" height="15mm" xmlns="http://www.w3.org/2000/svg" font-family="Inter, sans-serif">
+<defs><linearGradient id="gm" x1="0" x2="1"><stop offset="0" stop-color="#d9ecef"/><stop offset="1" stop-color="#176074"/></linearGradient></defs>
+<rect x="20" y="26" width="360" height="12" rx="6" fill="url(#gm)"/>
+<text x="20" y="18" font-size="11" fill="#7d858a">weaker</text><text x="330" y="18" font-size="11" fill="#7d858a">stronger</text>
+<text x="22" y="56" font-size="11.5" fill="#176074" font-weight="700">a bit / a little</text>
+<text x="150" y="56" font-size="11.5" fill="#176074" font-weight="700">(no word)</text>
+<text x="250" y="56" font-size="11.5" fill="#176074" font-weight="700">really / very · so</text>
+<rect x="400" y="22" width="104" height="20" rx="4" fill="#f6efe2" stroke="#cbbca0"/>
+<text x="413" y="36" font-size="11.5" fill="#9a4b2f" font-weight="700">too = a problem</text></svg>"""
+
+
+def adjective_modifiers(b):
+    """A2 Unit 26: personality adjectives with modifiers (a bit, a little, really, very, so, too) and seem / sound."""
+    b.page(f"""{b.sec("+", "Grammar reference: modifiers · seem and sound", "")}
+<div class="box" style="margin-top:0"><h4>WHAT ARE MODIFIERS?</h4>Modifiers are small words that go <b>before an adjective</b> and make it stronger or weaker: <i>She's <b>really</b> smart. He's <b>a bit</b> shy.</i>
+{_SCALE_MOD}</div>
+{_h("1. FORM AND USE")}
+{_tbl(["modifier", "use", "examples"], [
+    ["<b>really · very</b>", "make the adjective stronger; positive or negative adjectives", "<i>She's <b>really</b> smart. That's <b>very</b> rude.</i>"],
+    ["<b>so</b>", "stronger, often with emotion; usually about information we already have", "<i>She says thank you. She's <b>so</b> polite!</i>"],
+    ["<b>a bit · a little</b>", "make a <b>negative</b> adjective softer and more polite", "<i>He's <b>a bit</b> dishonest. He's <b>a little</b> miserable.</i>"],
+    ["<b>too</b>", "more than we want: there is a <b>problem</b>", "<i>He's <b>too</b> shy to share an apartment.</i>"]], "8.6pt")}
+<p class="small" style="margin:.8mm 0"><b>Very or too?</b> <i>The coffee is <b>very</b> hot.</i> (but I can drink it) · <i>The coffee is <b>too</b> hot.</i> (I can't drink it!)</p>
+{_h("2. SEEM AND SOUND: WHEN WE AREN'T SURE")}
+{_tbl(["", "+ adjective", "+ like + noun", "when?"], [
+    ["<b>be</b>", "<i>She <b>is</b> cheerful.</i>", "<i>She<b>'s</b> a cheerful person.</i>", "we know the person"],
+    ["<b>seem</b>", "<i>She <b>seems</b> cheerful.</i>", "<i>She <b>seems like</b> a nice person.</i>", "from what we see or know"],
+    ["<b>sound</b>", "<i>She <b>sounds</b> great!</i>", "<i>He <b>sounds like</b> trouble.</i>", "from what we hear or read"]], "8.6pt")}
+{_h("3. OPPOSITES")}
+{_tbl(["positive", "negative", "positive", "negative"], [
+    ["confident", "shy", "honest", "<b>dis</b>honest"], ["polite", "rude", "friendly", "<b>un</b>friendly"], ["smart", "not very smart", "interesting", "boring"],
+    ["cheerful", "miserable", "relaxed", "stressed"]], "8.4pt")}
+{_dont([("He is too nice. I like him!", "He's <b>really / very</b> nice. I like him!"), ("She's a bit friendly.", "She's <b>really</b> friendly."), ("He seems a nice person.", "He <b>seems like</b> a nice person."), ("She sounds greatly.", "She <b>sounds great</b>.")])}""",
+    16, """<p>The key problem is <i>too</i>: Brazilians translate <i>muito</i> as <i>too</i> (<i>too beautiful</i> ✗). Check with: <i>Is it a problem?</i> If not, use <i>really</i> or <i>very</i>. Before a noun, use <i>really</i> or <i>very</i> (<i>a really nice guy</i>), not <i>so</i> or <i>too</i>.</p>""")

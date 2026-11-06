@@ -1,0 +1,13 @@
+{
+ "material": "speak-bridge",
+ "characters": {"Lucy": "en-US-Neural2-C", "Ben": "en-US-Chirp3-HD-Charon", "Narrator": "en-US-Neural2-J"},
+ "pauses": {"26.3": 3000},
+ "units": {"a2-unit-26": {
+  "26.1 A new roommate": "Lucy: OK, Ben, we have three messages from people who want to rent Emma's old room. I asked everyone to write a few lines about themselves.\nBen: Great. That will give us an idea of their personalities.\nLucy: Right. So, the first one is from Derek. He says he needs the biggest bedroom and a parking space.\nBen: That's very rude. Emma's room is the smallest one! And we don't even have a parking space.\nLucy: I know. He also says he often has friends over until three in the morning, and he wants to pay the rent when he can.\nBen: Really? That's strange. Maybe he's a bit dishonest.\nLucy: I agree. We'd be crazy to choose Derek. He sounds like trouble. What about the next one?\nBen: This one is from Priya. She says she's a medical student.\nLucy: Wow. I guess she's really smart. That's a difficult course.\nBen: Yes, and she does yoga and bakes her own bread. She seems cheerful!\nLucy: And she even says thank you for reading her message. She's so polite!\nBen: OK, the last one is from Sam.\nLucy: Oh, I know Sam. He comes into City Coffee every morning.\nBen: What's he like?\nLucy: He's all right, but he's a little miserable. He never smiles, and he plays the drums in a heavy metal band.\nBen: Hmm. I'm not sure I want to hear drums every night.\nLucy: And I'm surprised he wants to share an apartment. I thought he was too shy. He told me he was really happy living by himself.\nBen: Let's go with Priya, then. She sounds great!\nLucy: I agree. I'll text her right now.",
+  "26.2 Repeat: adjectives and modifiers": "Narrator: That's very rude.\nNarrator: She's really smart.\nNarrator: She's so polite!\nNarrator: He's a bit dishonest.\nNarrator: He's a little miserable.\nNarrator: He's too shy.\nNarrator: She seems cheerful.\nNarrator: She sounds great!",
+  "26.3 Word stress": "Narrator: cheerful\nNarrator: confident\nNarrator: dishonest\nNarrator: friendly\nNarrator: honest\nNarrator: miserable\nNarrator: polite\nNarrator: relaxed\nNarrator: unfriendly"
+ }},
+ "images": {"a2-unit-26": {
+  "A": "apartment door keys", "B": "parking garage", "C": "stethoscope", "D": "drum kit", "E": "homemade bread loaf", "F": "cozy apartment living room", "G": "notebook pen desk"
+ }}
+}
