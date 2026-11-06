@@ -1,0 +1,13 @@
+{
+ "material": "speak-bridge",
+ "characters": {"Lucy": "en-US-Neural2-C", "Rita": "en-US-Chirp3-HD-Aoede", "Narrator": "en-US-Neural2-J"},
+ "pauses": {"25.3": 3000},
+ "units": {"a2-unit-25": {
+  "25.1 Coffee break": "Rita: So, did you watch Kingdom of Fire last night?\nLucy: Of course! I never miss it. What did you think?\nRita: Well, to be honest, I thought it was a bit boring.\nLucy: Boring? How can you say that? Weren't you excited when the dragons flew in and started fighting the king?\nRita: That was a bit surprising, I guess. But the fight went on for too long. I got annoyed after about five minutes, so I went to make some popcorn.\nLucy: I know what you mean, but I love that show. And now I'm really worried about the princess!\nRita: After that, I watched Fix My House. Do you ever watch it?\nLucy: Every week! It's always interesting, although I often feel shocked by the changes they make to the houses.\nRita: Exactly! I was amazed by the color they painted the kitchen this week. It was really dark green, but it actually looked good.\nLucy: What's really confusing is how they can do so much in just one week. Do you think it's real?\nRita: Probably not... but who knows? It's hard to tell with TV. Anyway, our break is over. Back to work!",
+  "25.2 Repeat: -ed and -ing": "Narrator: I was bored.\nNarrator: It was boring.\nNarrator: I'm really interested in history.\nNarrator: The documentary was interesting.\nNarrator: I got annoyed.\nNarrator: It was so annoying!\nNarrator: Are you scared of snakes?\nNarrator: Snakes are scary.",
+  "25.3 Three -ed sounds": "Narrator: amazed\nNarrator: annoyed\nNarrator: bored\nNarrator: depressed\nNarrator: disappointed\nNarrator: excited\nNarrator: interested\nNarrator: relaxed\nNarrator: shocked\nNarrator: worried"
+ }},
+ "images": {"a2-unit-25": {
+  "A": "tv remote control living room", "B": "woman watching tv popcorn", "C": "dragon sculpture", "D": "dark green kitchen interior"
+ }}
+}

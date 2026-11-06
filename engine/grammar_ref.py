@@ -530,3 +530,27 @@ def story_writing(b):
 <p class="small" style="margin:.8mm 0"><b>Before you finish:</b> plan for one minute (10–12 key words) · use two or three paragraphs · count your words · check your verbs, punctuation and spelling.</p>
 {_dont([("Don't go in there, he shouted.", "<b>\"</b>Don't go in there,<b>\"</b> he shouted."), ("\"It's dangerous\", he said.", "\"It's dangerous<b>,</b>\" he said."), ("Firstly, I thought she…", "<b>At first,</b> I thought she…"), ("Although we lost, but she was a hero.", "<b>Although</b> we lost, she was a hero.")])}""",
     16, """<p>A story doesn't need to be true; personal experience is a great starting point. <i>Firstly</i> lists points in an essay; <i>At first … but then</i> shows a change in a story.</p>""")
+
+
+def ed_ing_adjectives(b):
+    """A2 Unit 25: -ed and -ing adjectives (feelings vs things that cause them), be/get/feel, prepositions."""
+    b.page(f"""{b.sec("+", "Grammar reference: -ed and -ing adjectives", "")}
+<div class="box" style="margin-top:0"><h4>HOW I FEEL OR WHAT MAKES ME FEEL?</h4>Many adjectives come from verbs (<i>bore, interest, excite</i>) and have two forms.<br>
+<b>-ed</b> = the <b>feeling</b> (usually a person): <i>I was <b>bored</b>.</i> · <b>-ing</b> = the <b>thing or person that causes</b> the feeling: <i>The show was <b>boring</b>.</i><br>
+<span class="small">Careful: <i>I'm <b>boring</b></i> means other people feel bored with you!</span></div>
+{_h("1. FORM AND VERBS")}
+{_tbl(["", "-ed: feelings", "-ing: the cause"], [
+    ["<b>verbs</b>", "<b>be</b> (a state) · <b>get</b> (a change) · <b>feel</b>: <i>I <b>got</b> annoyed after five minutes. I often <b>feel</b> shocked.</i>", "<b>be</b>, with subjects like <b>it, that, what</b> or a thing: <i><b>That</b> was surprising. <b>What</b>'s confusing is…</i>"],
+    ["<b>spelling</b>", "bore → bored · worry → worried · shock → shocked", "bore → boring (no <b>e</b>) · surprise → surprising · confuse → confusing"],
+    ["<b>pronunciation</b>", "/d/ amazed, bored · /t/ shocked, relaxed · /ɪd/ excited, interested", "-ing /ɪŋ/: don't add an extra sound: <i>boring</i>, not <i>boringue</i>"]], "8.6pt")}
+{_h("2. -ED ADJECTIVE + PREPOSITION")}
+{_tbl(["about", "by", "in", "of", "with"], [
+    ["annoyed · confused · excited · worried", "amazed · shocked · surprised", "interested", "bored · frightened · scared", "bored"]], "8.6pt")}
+<p class="small" style="margin:.8mm 0"><i>I'm <b>interested in</b> history. · She was <b>shocked by</b> the price. · Are you <b>scared of</b> snakes? · I'm <b>bored with / of</b> this show.</i><br>
+<b>Special form:</b> <i>scared</i> → <b>scary</b> (not <s>scaring</s>): <i>That was a <b>scary</b> movie.</i></p>
+{_h("3. COMMON PAIRS")}
+{_tbl(["feeling (-ed)", "cause (-ing)", "feeling (-ed)", "cause (-ing)"], [
+    ["amazed", "amazing", "excited", "exciting"], ["annoyed", "annoying", "frightened", "frightening"], ["confused", "confusing", "interested", "interesting"],
+    ["depressed", "depressing", "surprised", "surprising"]], "8.4pt")}
+{_dont([("I'm boring. Let's go out!", "I'm <b>bored</b>. Let's go out!"), ("I'm interesting in music.", "I'm <b>interested in</b> music."), ("The trip was excited.", "The trip was <b>exciting</b>."), ("It was a scaring movie.", "It was a <b>scary</b> movie.")])}""",
+    16, """<p>Brazilian students very often say <i>I'm boring</i> when they mean they feel bored, and they laugh when they discover what it means. Quick test: if you can add <i>very</i> and it describes how a person feels, use -ed.</p>""")
