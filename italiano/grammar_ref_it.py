@@ -125,3 +125,29 @@ def imperfetto_passato_prossimo(b):
 {_dont([("Mentre ho attraversato la piazza, un cane è uscito.", "Mentre <b>attraversavo</b>…"), ("Quando sono arrivata, la porta è stata chiusa.", "…la porta <b>era</b> chiusa."),
         ("All'improvviso il telefono suonava.", "All'improvviso il telefono <b>ha suonato</b>."), ("Quando ero arrivata, la porta era chiusa.", "Quando <b>sono arrivata</b>…")])}""",
     16, """<p>Domanda chiave: <i>Sfondo o fatto?</i> La barra = imperfetto, il punto = passato prossimo. In portoghese è uguale: il problema è la forma.</p>""")
+
+
+def imperativo_informale(b):
+    """A2 Ponte 04: l'imperativo informale (tu, noi, voi), affermativo e negativo, irregolari, pronomi attaccati."""
+    forms = [("tu", "parl<b>a</b>!", "prend<b>i</b>!", "dorm<b>i</b>!", "fin<b>isci</b>!", "non <b>parlare</b>!"),
+             ("noi", "parl<b>iamo</b>!", "prend<b>iamo</b>!", "dorm<b>iamo</b>!", "fin<b>iamo</b>!", "non <b>parliamo</b>!"),
+             ("voi", "parl<b>ate</b>!", "prend<b>ete</b>!", "dorm<b>ite</b>!", "fin<b>ite</b>!", "non <b>parlate</b>!")]
+    irr = [("andare", "<b>va'</b> / vai", "andate"), ("fare", "<b>fa'</b> / fai", "fate"), ("dare", "<b>da'</b> / dai", "date"),
+           ("stare", "<b>sta'</b> / stai", "state"), ("dire", "<b>di'</b>", "dite"), ("essere", "<b>sii</b>", "<b>siate</b>"), ("avere", "<b>abbi</b>", "<b>abbiate</b>")]
+    irl = "".join(f"<tr><td>{a}</td><td>{t}</td><td>{v}</td></tr>" for a, t, v in irr)
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: l'imperativo informale", "")}
+<div class="box" style="margin-top:0"><h4>A CHE COSA SERVE?</h4>L'imperativo serve per dare <b>consigli</b>, <b>istruzioni</b> e <b>ordini</b>: <i>Bevi tanta acqua! Non uscire!</i> L'imperativo <b>informale</b> si usa con gli amici e la famiglia: <b>tu</b> (una persona), <b>voi</b> (più persone) e <b>noi</b> (una proposta: <i>Andiamo!</i>). L'imperativo formale (<i>Lei</i>) arriva nell'unità 08.</div>
+{_h("1. LA FORMA")}
+{_tbl(["", "-are: parlare", "-ere: prendere", "-ire: dormire", "-ire (-isc-): finire", "negativo"], forms, "8.6pt", ["12mm", None, None, None, "30mm", "28mm"])}
+<p class="small" style="margin:.6mm 0"><b>noi</b> e <b>voi</b> sono uguali al presente. Solo <b>tu</b> dei verbi in <b>-are</b> cambia: <i>tu parli</i> (presente) → <i>parla!</i> (imperativo). Il negativo di <b>tu</b> è <b>non + infinito</b>: <i>Non prendere! Non venire!</i></p>
+<div class="two"><div>{_h("2. GLI IRREGOLARI")}
+<table style="margin-top:0;font-size:8.6pt"><tr><th>verbo</th><th>tu</th><th>voi</th></tr>{irl}</table>
+<p class="small" style="margin:.6mm 0"><i>venire → vieni!</i> · <i>uscire → esci!</i> · <i>bere → bevi!</i> (come il presente)</p></div>
+<div>{_h("3. CON I PRONOMI")}
+<div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><b>affermativo</b>: il pronome va <b>dopo</b> e si attacca al verbo:<br><i>Chiama il medico → Chiama<b>lo</b>! · Scrivi<b>mi</b>! · Prende<b>teli</b>!</i><br>riflessivi: <i>riposar<b>si</b> → Riposa<b>ti</b>! · Riposate<b>vi</b>! · Metti<b>ti</b> la sciarpa!</i></div>
+<div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt;margin-top:1mm"><b>con va', fa', da', di', sta'</b> la consonante si <b>raddoppia</b>:<br><i>da' + mi → da<b>mm</b>i · di' + lo → di<b>ll</b>o · fa' + mi → fa<b>mm</b>i vedere</i><br>eccezione: <b>gli</b> → <i>dagli, digli</i></div>
+<div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt;margin-top:1mm"><b>negativo</b>: due posizioni, stesso significato:<br><i>Non prender<b>li</b>! = Non <b>li</b> prendere!</i> · <i>Non avvicinar<b>ti</b>! = Non <b>ti</b> avvicinare!</i><br>voi: <i>Non portate<b>lo</b>! = Non <b>lo</b> portate!</i></div></div></div>
+<p class="small" style="margin:.8mm 0">L'accento non si sposta quando aggiungiamo il pronome: <u>ri</u>posa → <u>ri</u>posati · <u>chia</u>ma → <u>chia</u>malo · <u>scri</u>vi → <u>scri</u>vimi.</p>
+{_dont([("Non prendi l'antibiotico!", "Non <b>prendere</b> l'antibiotico!"), ("Ti riposa!", "<b>Riposati</b>!"), ("Dami un abbraccio!", "<b>Dammi</b> un abbraccio!"),
+        ("Lo chiama!", "<b>Chiamalo</b>!"), ("Ragazzi, non giocare!", "Ragazzi, non <b>giocate</b>!")])}""",
+    16, """<p>In Brasile l'imperativo di tutti i giorni è spesso uguale al presente (<i>pega, toma</i>): per questo lo studente dice <i>non prendi!</i>. Regola d'oro: <b>tu negativo = non + infinito</b>. I pronomi doppi (<i>dammelo</i>) arrivano più avanti.</p>""")

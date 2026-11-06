@@ -1,0 +1,33 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {
+  "04.2": 3000,
+  "04.3": 2500
+ },
+ "units": {
+  "it-a2-unita-04": {
+   "04.1 Dialogo": "Narrator: Dialogo uno. Fine novembre. Marco non è allo studio e Júlia gli telefona.\nJúlia: Pronto, Marco? Dove sei? Sono le nove e mezza!\nMarco: Ciao, Júlia... Sono a letto. Sto malissimo.\nJúlia: Oh no! Che cosa hai? Che cosa ti fa male?\nMarco: Mi fa male la testa, ho mal di gola e ho la febbre a trentotto e mezzo.\nJúlia: Allora oggi resta a casa! Non venire allo studio, il lavoro lo faccio io.\nMarco: Grazie... Ho anche la tosse e il naso chiuso.\nJúlia: Senti, bevi tanta acqua calda con il miele e riposati. E non uscire con questo freddo!\nMarco: In cucina ho una scatola di antibiotici. Li prendo?\nJúlia: No, non prenderli! Non sono caramelle! Prima chiama il medico e chiedigli un appuntamento.\nMarco: Hai ragione. Lo chiamo subito.\nJúlia: E stasera misurati la febbre. Poi scrivimi un messaggio!\nNarrator: Dialogo due. A pranzo, al bar di Giulia. Davide entra piano piano, con una mano sulla schiena.\nGiulia: Davide, che cosa ti è successo? Cammini come mio nonno!\nDavide: Ieri sera ho giocato a calcetto con Bruno. Pioveva, sono scivolato e adesso mi fa male la schiena.\nJúlia: E Bruno? Sta bene?\nDavide: Insomma... Gli fanno male le ginocchia.\nGiulia: Ragazzi, non siete più bambini! La prossima volta fate stretching prima della partita e non giocate sotto la pioggia!\nDavide: Va bene, mamma!\nJúlia: Davide, ascoltami: mettiti il ghiaccio sulla schiena per venti minuti e non sollevare cose pesanti.\nDavide: Ma oggi pomeriggio devo aiutare Bruno a portare un divano al quarto piano!\nGiulia: Non portarlo! Lascia stare il divano. E dillo anche a Bruno: niente divani questa settimana!\nNarrator: Dialogo tre. Tre giorni dopo, Marco torna allo studio.\nJúlia: Marco! Bentornato! Come stai?\nMarco: Molto meglio, grazie! Il medico mi ha visitato: è solo influenza, niente antibiotici.\nJúlia: Visto? E hai seguito i miei consigli?\nMarco: Tutti! Acqua, miele, letto... E mia madre mi ha portato il brodo di pollo.\nJúlia: Brava la mamma!\nMarco: Allora... dammi un abbraccio!\nJúlia: No, no, non avvicinarti! Prima guarisci bene. E mettiti la sciarpa: fuori ci sono due gradi!",
+   "04.2 Ripeti imperativo e pronomi": "Narrator: Riposati!\nNarrator: Prendilo!\nNarrator: Mettiti il ghiaccio!\nNarrator: Chiamalo subito!\nNarrator: Scrivimi un messaggio!\nNarrator: Non prenderli!",
+   "04.3 Tu o voi": "Narrator: Bevete tanta acqua!\nNarrator: Riposati!\nNarrator: Non uscite!\nNarrator: Non uscire!\nNarrator: Mettetevi la sciarpa!\nNarrator: Chiamalo!"
+  }
+ },
+ "images": {
+  "it-a2-unita-04": {
+   "A": "woman headache hand forehead",
+   "B": "sore throat woman scarf",
+   "C": "back pain man",
+   "D": "digital thermometer fever",
+   "E": "cough syrup spoon",
+   "F": "pills tablets blister pack",
+   "G": "ice pack",
+   "H": "pharmacy green cross sign"
+  }
+ }
+}
