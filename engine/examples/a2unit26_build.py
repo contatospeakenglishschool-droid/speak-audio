@@ -48,14 +48,14 @@ def build(teacher):
     b.extra("Lesson overview · 55 min", """
 <table><tr><th>Stage</th><th>Time</th><th>Aim</th><th>SB page</th></tr>
 <tr><td>1 Warm-up</td><td>8 min</td><td>Personality adjectives · opposites · prefixes</td><td>1</td></tr>
-<tr><td>2 Listening</td><td>10 min</td><td>Lucy and Ben choose a new roommate</td><td>2</td></tr>
+<tr><td>2 Listening</td><td>10 min</td><td>Lucy and Tom choose a new roommate</td><td>2</td></tr>
 <tr><td>3 Language focus</td><td>10 min</td><td>Modifiers: really, very, so, a bit, a little, too · seem and sound</td><td>3</td></tr>
 <tr><td>+ Grammar reference</td><td>–</td><td>Modifiers, very or too, seem and sound, opposites</td><td>4</td></tr>
 <tr><td>4 Pronunciation lab</td><td>4 min</td><td>Stressing modifiers · word stress in adjectives</td><td>5</td></tr>
 <tr><td>5 Practice</td><td>9 min</td><td>Adjectives and modifiers in context · Word builder: -ly adjectives</td><td>6</td></tr>
 <tr><td>6 Writing</td><td>12 min</td><td>A roommate profile (80–100 words)</td><td>7</td></tr>
 <tr><td>7 Wrap-up</td><td>2 min</td><td>Progress check and homework</td><td>8</td></tr></table>
-<div class="box sand"><h4>THE STORY CONTINUES</h4>Lucy (Neural2-C) shares an apartment in Chicago with her friend Ben (Chirp3-HD-Charon). Their roommate Emma has moved out, and three people want her room: Derek (rude and maybe dishonest), Priya, a medical student (smart, cheerful and polite), and Sam, a customer at City Coffee (a little miserable and too shy). They choose Priya. All the applicants are invented, so there are no facts to check.</div>
+<div class="box sand"><h4>THE STORY CONTINUES</h4>Lucy (Neural2-C) and Tom (Neural2-D) share an apartment in Chicago, as in Units 15 and 20. Their roommate Emma has moved out, and three people want her room: Derek (rude and maybe dishonest), Priya, a medical student (smart, cheerful and polite), and Sam, a customer at City Coffee (a little miserable and too shy). They choose Priya. All the applicants are invented, so there are no facts to check.</div>
 <div class="box"><h4>KEY PROBLEM FOR BRAZILIANS</h4>Students translate <i>muito</i> as <i>too</i> (<i>She's too beautiful</i> ✗ when they mean <i>really beautiful</i>), use <i>a bit</i> with positive adjectives (<i>a bit friendly</i> ✗), say <i>seems a nice person</i> without <i>like</i>, and stress <i>polite</i> and <i>dishonest</i> on the first syllable.</div>
 <div class="box"><h4>AUDIO</h4>Track 26.1 A new roommate (slow and natural) · Track 26.2 Repeat: adjectives and modifiers · Track 26.3 Word stress</div>""")
 
@@ -68,7 +68,7 @@ def build(teacher):
             ("I'm surprised he wants to share an apartment. I thought he was", "too", "shy."), ("Let's go with Priya, then. She", "sounds", "great!")]
     gl = [f'<li value="{i+1}">{a} {A(g, "min-width:14mm")} {e}</li>' for i, (a, g, e) in enumerate(gaps)]
     b.page(f"""{sec(2, "Listening: a new roommate", "10 min")}
-<div style="display:flex;gap:2.5mm;align-items:center"><p style="flex:1;margin:0">Lucy shares an apartment in Chicago with her friend Ben. Their roommate Emma has moved out, and three people want her room. Lucy and Ben read their messages.</p>{img('B', 26, 19)}{img('C', 26, 19)}{img('D', 26, 19)}</div>
+<div style="display:flex;gap:2.5mm;align-items:center"><p style="flex:1;margin:0">Lucy and Tom share an apartment in Chicago. Their roommate Emma has moved out, and three people want her room. They read the messages.</p>{img('B', 26, 19)}{img('C', 26, 19)}{img('D', 26, 19)}</div>
 {audiocard(["26.1 · SLOW", "26.1 · NATURAL"])}
 {sub("A", "Listen and match the people with the adjectives. Some people have more than one.", "3 min", "26.1 · SLOW")}
 <div class="bank">cheerful · dishonest · miserable · polite · rude · shy · smart</div>
@@ -94,7 +94,7 @@ def build(teacher):
 <div class="box" style="margin-top:1mm;font-size:9pt;line-height:1.5">She <b>seems</b> cheerful! · She <b>sounds</b> great! · He <b>sounds like</b> trouble.</div>
 <p style="margin:.5mm 0">How are <i>seem</i> and <i>sound</i> different from <i>be</i>? {A("We use them when we aren't sure. Seem = from what we see or know; sound = from what we hear or read. Before a noun, add like.", "min-width:110mm")}</p>
 <div class="box sand"><h4>RULE</h4><b>really / very / so</b> + adjective = stronger · <b>a bit / a little</b> + negative adjective = softer, more polite · <b>too</b> + adjective = a problem. The modifier goes <b>before</b> the adjective. More on the next page: <b>Grammar reference</b>.</div>""",
-    22, """<ol><li>A–B: ask concept questions: <i>Is "too shy" a problem for Lucy and Ben? Is "very smart" a problem?</i> Most errors at this level are with <i>too</i>.</li>
+    22, """<ol><li>A–B: ask concept questions: <i>Is "too shy" a problem for Lucy and Tom? Is "very smart" a problem?</i> Most errors at this level are with <i>too</i>.</li>
 <li>Drill the sentences: the modifier and the adjective are both stressed; <i>seems</i> and <i>sounds</i> are usually not.</li></ol>""")
 
     grammar_ref.adjective_modifiers(b)
@@ -159,7 +159,7 @@ def build(teacher):
              "I'm a bit shy at first, but not for long. My only problem is that I'm sometimes too busy with my studies, so I often stay at the library until late. "
              "Thank you so much for reading my message!")
     b.page(f"""{sec(6, "Writing: a roommate profile", "12 min")}
-<div style="display:flex;gap:3mm;align-items:center"><p style="flex:1;margin:0">Imagine you want to share an apartment with people like Lucy and Ben. You are going to write a short profile about yourself.</p>{img('F', 34, 21)}</div>
+<div style="display:flex;gap:3mm;align-items:center"><p style="flex:1;margin:0">Imagine you want to share an apartment with people like Lucy and Tom. You are going to write a short profile about yourself.</p>{img('F', 34, 21)}</div>
 {sub("A", "Read Priya's message. Underline the modifiers and the personality adjectives.", "3 min")}
 <div class="msg" style="max-width:none;padding:2mm 3mm;font-size:9pt;line-height:1.45">{model}</div>
 <p class="small" style="margin:.5mm 0">{A("really cheerful · very neat · a bit shy · too busy (a problem!)", "min-width:100mm")}</p>
@@ -193,7 +193,7 @@ def build(teacher):
 <p><b>1. Put the words in order to make sentences.</b></p>
 <ol style="line-height:1.45">{rol}</ol>
 <p style="margin-top:1.5mm"><b>2. Finish your roommate profile.</b> Then write 3–4 sentences about a friend or family member. Use <i>seem</i> or <i>sound</i> and at least two modifiers.</p>""",
-    18, """<p>Next class: the student reads the profile aloud. Ask: <i>Would you be a good roommate for Lucy and Ben? Why?</i> Collect the writing to correct.</p>""")
+    18, """<p>Next class: the student reads the profile aloud. Ask: <i>Would you be a good roommate for Lucy and Tom? Why?</i> Collect the writing to correct.</p>""")
 
     b.extra("Audio script", f"""
 {sub("26.1", "A new roommate (slow and natural)")}
