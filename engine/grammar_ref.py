@@ -643,3 +643,28 @@ def adverb_position(b):
 <b>End position order:</b> how → where → when: <i>I worked <b>hard</b> <b>at home</b> <b>yesterday</b>.</i></p>
 {_dont([("I get usually coffee.", "I <b>usually get</b> coffee."), ("I like very much ice cream.", "I like ice cream <b>very much</b>."), ("She speaks English good.", "She speaks English <b>well</b>."), ("I'm going to probably buy it.", "I'm <b>probably</b> going to buy it.")])}""",
     22, """<p>The biggest problem for Brazilians is putting the adverb between the verb and the object (<i>I like very much pizza</i>, <i>I drink always coffee</i>). Rule of thumb: never separate a verb from its object. Exceptions exist; at A2, the table is enough.</p>""")
+
+
+def service_language(b):
+    """A2 Unit 29: language in service situations (air travel): questions, requests, instructions, announcements; intonation."""
+    b.page(f"""{b.sec("+", "Language reference: questions, requests and instructions", "")}
+<div class="box" style="margin-top:0"><h4>WHAT KIND OF SENTENCE IS IT?</h4>At an airport, in a hotel or in a store, you hear four kinds of sentences. If you know which kind it is, you know how to respond: <b>answer</b>, <b>do something</b>, or <b>just listen</b>.</div>
+{_h("1. FOUR KINDS OF SENTENCES")}
+{_tbl(["kind", "what it does", "examples", "you…"], [
+    ["<b>question</b>", "asks for information", "<i>Where are you flying to today? Are you checking any bags?</i>", "answer: <i>To São Paulo. Just this one.</i>"],
+    ["<b>request</b>", "asks you to do something, politely", "<i>May I see your passport, please? Can you open your bag, please?</i>", "do it and say <i>Here you are. / Sure. / Of course.</i>"],
+    ["<b>instruction</b>", "tells you what you need to do", "<i>Place your bag on the scale. Step this way, please.</i>", "do it (you can say <i>OK</i>)"],
+    ["<b>announcement</b>", "information or instructions for many people", "<i>We are about to take off. Please fasten your seat belt.</i>", "listen and do it"]], "8.4pt")}
+<p class="small" style="margin:.8mm 0">Requests with <b>may, can, could</b> sound polite, but at check-in or security you can't say no! <i>Could</i> is a little more polite than <i>can</i>. Passengers use requests too: <i>Could I have some water, please? Do you have any napkins?</i></p>
+{_h("2. INTONATION")}
+{_tbl(["", "examples", "intonation"], [
+    ["<b>yes/no questions and requests</b>", "<i>Are you checking any bags? Can you open your bag?</i>", "rising ↗"],
+    ["<b>wh- questions</b> (where, what, how many…)", "<i>Where are you flying to? Which gate is it?</i>", "falling ↘"]], "8.6pt")}
+{_h("3. USEFUL WORDS AND PHRASES")}
+{_tbl(["at the airport", "meaning"], [
+    ["<b>step</b> this way · <b>place</b> your bag", "walk this way · put your bag (formal)"],
+    ["<b>take off</b> your belt / the plane <b>takes off</b>", "remove (opposite: <b>put on</b>) / leave the ground (opposite: <b>land</b>)"],
+    ["we're <b>about to</b> take off · we'll <b>shortly</b> be passing through the cabin", "very soon (about to = the next thing)"],
+    ["<b>Sorry, which gate? / Could you repeat that, please?</b>", "ask for repetition when you don't understand"]], "8.4pt")}
+{_dont([("Give me some water.", "<b>Could I have</b> some water, please?"), ("I need to take off my belt?", "<b>Do I need to</b> take off my belt?"), ("What?", "<b>Sorry?</b> / <b>Could you repeat that, please?</b>"), ("Here is.", "<b>Here you are.</b>")])}""",
+    24, """<p>Brazilians often use imperatives as requests (<i>Give me a coffee</i>), which sounds rude in English. Practice <i>Could I have…, please?</i> with rising intonation. In the US, people say <i>flight attendant</i> more than <i>cabin crew</i>, and a <i>bin</i> at security.</p>""")

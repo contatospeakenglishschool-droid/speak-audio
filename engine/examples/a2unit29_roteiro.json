@@ -1,0 +1,13 @@
+{
+ "material": "speak-bridge",
+ "characters": {"Ana": "en-US-Neural2-F", "Agent": "en-US-Studio-O", "Attendant": "en-US-Studio-O", "Officer": "en-US-Chirp3-HD-Charon", "Passenger": "en-US-Chirp3-HD-Charon", "Narrator": "en-US-Neural2-J"},
+ "pauses": {"29.3": 3000},
+ "units": {"a2-unit-29": {
+  "29.1 At the airport": "Narrator: Situation one. Check-in.\nAgent: Good morning. Where are you flying to today?\nAna: To São Paulo.\nAgent: May I see your passport, please?\nAna: Here you are.\nAgent: Thank you. Are you checking any bags today?\nAna: Just this one.\nAgent: Did you pack your bag yourself?\nAna: Yes, I did.\nAgent: Place your bag on the scale, please.\nAna: OK.\nAgent: Here's your boarding pass. Go through security and make your way to gate M12. The flight will be ready to board at 4:35.\nAna: Sorry, which gate?\nAgent: Gate M12.\nAna: Thank you.\nNarrator: Situation two. Security.\nOfficer: Place your items in the bin.\nOfficer: Take off your belt and your jacket, please.\nOfficer: Step this way, please.\nOfficer: Are you wearing any jewelry?\nAna: No, I'm not.\nOfficer: Can you open your bag, please?\nAna: Of course.\nNarrator: Situation three. On the plane.\nAna: Excuse me. Are you sure this is your seat? I think I have the aisle seat.\nPassenger: Oh, sorry. You're right. I'm in the wrong seat.\nAttendant: Please place your bags in the overhead bins.\nAna: Oh, no. There's no room!\nPassenger: Try over there. There's some space.\nAttendant: Please fasten your seat belt when we switch on the sign. We are about to take off.\nAttendant: We are experiencing some turbulence, but we'll shortly be passing through the cabin with drinks and snacks.\nPassenger: Great. I really need a coffee.\nAna: So do I!\nAttendant: If you need anything, please ask a flight attendant.\nAna: Oh, no! I'm so sorry. Are you OK? Excuse me! Do you have any napkins? I spilled my coffee!",
+  "29.2 Repeat: questions and requests": "Narrator: Where are you flying to today?\nNarrator: How many bags are you checking?\nNarrator: Are you checking any bags today?\nNarrator: Did you pack your bag yourself?\nNarrator: May I see your passport, please?\nNarrator: Sorry, which gate?",
+  "29.3 Rising or falling?": "Narrator: What time does the flight board?\nNarrator: Is this seat taken?\nNarrator: Which gate is it?\nNarrator: Do you have any napkins?\nNarrator: Where can I buy a coffee?\nNarrator: Can you help me with my bag?"
+ }},
+ "images": {"a2-unit-29": {
+  "A": "airplane window seat view", "B": "airport check in counter", "C": "airplane cabin aisle seats", "D": "airport departure board", "E": "passport boarding pass", "F": "suitcase airport"
+ }}
+}
