@@ -873,3 +873,25 @@ def articles(b):
     ["<b>meals</b>, days, months; go <b>to school / to work / home</b>", "<i>have dinner on Saturday · in April · go to work</i>"]], "8.5pt")}
 {_dont([("The visitors love Hannibal. (in general)", "Visitors love Hannibal."), ("He is engineer.", "He's <b>an</b> engineer."), ("Mississippi is a long river.", "<b>The</b> Mississippi is a long river."), ("I live in the Brazil.", "I live in Brazil."), ("It's oldest cave in Missouri.", "It's <b>the</b> oldest cave in Missouri.")])}""",
     24, """<p>Portuguese uses the definite article for things in general (<i>the life is short</i> ✗), with names and countries (<i>the Brazil</i> ✗), and drops <i>a</i> with jobs. Ask the student: one of many, or exactly which one? Articles need regular review at every level.</p>""")
+
+
+def noun_phrases(b):
+    """A2 Unit 39: noun + noun, noun + preposition phrase, possessive 's / s', of for things."""
+    b.page(f"""{b.sec("+", "Grammar reference: putting nouns together", "")}
+<div class="box" style="margin-top:0"><h4>FOUR WAYS</h4>English joins nouns in four main ways: <b>noun + noun</b> (<i>a coffee cup</i>), <b>noun + preposition + noun</b> (<i>a story about a dog</i>), <b>'s</b> for people and animals (<i>Marcos's laptop</i>) and <b>of</b> for parts of things (<i>the back of the picture</i>).</div>
+{_h("1. NOUN + NOUN: EVERYDAY THINGS")}
+{_tbl(["rule", "examples"], [
+    ["the <b>second</b> noun is the main thing; the first works like an <b>adjective</b>", "<i>milk chocolate</i> = a kind of chocolate · <i>chocolate milk</i> = a kind of milk"],
+    ["the first noun is <b>singular</b>", "<i>a <b>shoe</b> store</i> (✗ shoes store) · <i>a <b>pencil</b> holder</i> · <i>a ten-<b>dollar</b> bill</i>"],
+    ["<b>stress</b> the first noun", "<i>a KITchen table · a BUS stop · a BIRTHday cake</i>"]], "8.5pt")}
+{_h("2. NOUN + PREPOSITION + NOUN: LESS USUAL THINGS")}
+{_tbl(["", "examples"], [
+    ["about · with · on · in · of (containers)", "<i>a story <b>about</b> a dog · the woman <b>with</b> the knife · the cake <b>on</b> the counter · a box <b>of</b> books</i>"]], "8.5pt")}
+{_h("3. 'S AND OF: WHO OR WHAT IT BELONGS TO")}
+{_tbl(["use", "examples"], [
+    ["<b>'s</b>: people, animals, countries, organizations", "<i>Leo's ideas · Kate's dog · Brazil's coast · the company's website</i>"],
+    ["plural owners ending in -s: <b>s'</b>", "<i>my parents' bedroom · the teachers' office</i> (irregular: <i>the children's school</i>)"],
+    ["name ending in -s: <b>s's</b> or <b>s'</b>", "<i>Marcos's laptop</i> (also <i>Marcos' laptop</i>)"],
+    ["<b>of</b>: things, places, parts", "<i>the back <b>of</b> the picture · the end <b>of</b> the story · the roof <b>of</b> the house</i>"]], "8.5pt")}
+{_dont([("the laptop of Marcos", "Marcos's laptop"), ("the house's roof", "the roof of the house"), ("a shoes store", "a shoe store"), ("the kitchen's door", "the kitchen door"), ("a bike boy", "a boy with a bike")])}""",
+    25, """<p>Portuguese puts the main noun first and links with <i>de</i>, so Brazilians say <i>the laptop of Marcos</i>, <i>a cup of coffee</i> when they mean the object (a <i>coffee cup</i> can be empty; a <i>cup of coffee</i> has coffee in it), or mix the order (<i>chocolate milk</i> vs <i>milk chocolate</i>). Ask: which is the main thing? It goes last.</p>""")

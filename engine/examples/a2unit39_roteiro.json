@@ -1,0 +1,13 @@
+{
+ "material": "speak-bridge",
+ "characters": {"Ana": "en-US-Neural2-F", "Narrator": "en-US-Neural2-J"},
+ "pauses": {"39.3": 3000},
+ "units": {"a2-unit-39": {
+  "39.1 Ana's favorite photo": "Ana: This is one of my favorite family photos. My mother, Rosa, took it a couple of years ago, on my father's birthday. It shows the whole family at home together in our kitchen in São Paulo. I remember this day well.\nAna: My husband, Marcos, and our son, Leo, are sitting together at the kitchen table. They're working on Marcos's laptop, and they're writing a story about a dog. They write lots of stories using Leo's ideas. There's a pencil holder on the table because Leo really likes drawing too. And Marcos always has a coffee cup with him, even when it's empty. It's a family joke!\nAna: At the back of the picture, you can see me next to my father, Carlos. They call me the woman with the knife because I do most of the cooking for the family. The cake on the counter is my father's birthday cake.\nAna: At that time, the back wall of the kitchen was green. We changed that recently, and now it's painted white. In the picture frame on the wall is another photo that my mother took. She's very creative.",
+  "39.2 Repeat: compound nouns": "Narrator: the kitchen table\nNarrator: a coffee cup\nNarrator: a pencil holder\nNarrator: a bus stop\nNarrator: the picture frame\nNarrator: a birthday cake",
+  "39.3 Possessive 's: s, z or iz?": "Narrator: Number one. Kate's\nNarrator: Number two. Ana's\nNarrator: Number three. Marcos's\nNarrator: Number four. Rita's\nNarrator: Number five. Tom's\nNarrator: Number six. the boss's"
+ }},
+ "images": {"a2-unit-39": {
+  "A": "milk chocolate bar", "B": "chocolate milk glass", "C": "brown leather texture", "D": "brown leather shoes", "E": "kitchen table laptop coffee", "F": "birthday cake candles", "G": "picture frame on wall"
+ }}
+}
