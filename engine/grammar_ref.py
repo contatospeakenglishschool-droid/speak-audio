@@ -802,3 +802,25 @@ def suggestions_offers(b):
     ["<b>opinion</b>", "will", "<i>We<b>'ll need</b> hats. I think you<b>'ll love</b> the beach.</i>"]], "8.5pt")}
 {_dont([("How about stop at the bakery?", "How about <b>stopping</b> at the bakery?"), ("Let's to go to the beach.", "Let's <b>go</b> to the beach."), ("Why we don't take the train?", "Why <b>don't we</b> take the train?"), ("Lets bring towels.", "<b>Let's</b> bring towels."), ("I bring the drinks! (offer)", "I<b>'ll</b> bring the drinks!")])}""",
     21, """<p>This page reviews Unit 34 (going to / will) in a new function: planning together. Brazilians often add <i>to</i> after <i>Let's</i>, use the base form after <i>How about</i>, and say <i>Why we don't…?</i> Drill the three suggestion forms with rising, friendly intonation.</p>""")
+
+
+def work_emails(b):
+    """A2 Unit 36: the six parts of a work email, semi-formal vs formal, useful phrases."""
+    b.page(f"""{b.sec("+", "Language reference: writing work emails", "")}
+<div class="box" style="margin-top:0"><h4>SIX PARTS OF A WORK EMAIL</h4>People are busy: make your email <b>clear</b> (one topic per paragraph), <b>polite</b> and <b>easy to answer</b> (say what you need). Choose the style for the reader: <b>semi-formal</b> for colleagues, <b>formal</b> for customers and people you have never met.</div>
+{_h("1. USEFUL PHRASES")}
+{_tbl(["part", "semi-formal (colleagues)", "formal (customers, new contacts)"], [
+    ["<b>1 greeting</b>", "<i>Hi Paulo, · Hello Maya,</i>", "<i>Dear Ms. Brooks, · Dear Mr. Jones,</i>"],
+    ["<b>2 opening</b>", "<i>Thanks for your email. · It was good to talk to you yesterday.</i>", "<i>Thank you for your email. · Following our meeting on March 5, …</i>"],
+    ["<b>3 reason for writing</b>", "<i>I'm writing to let you know about… · I just wanted to check…</i>", "<i>I am writing to ask about… · I would like to confirm…</i>"],
+    ["<b>4 call to action</b>", "<i>Let me know if that's OK. · Can you send me the details?</i>", "<i>Please let me know if you are happy with this. · Could you confirm…?</i>"],
+    ["<b>5 closing</b>", "<i>See you on Tuesday! · Looking forward to it.</i>", "<i>I look forward to hearing from you. · I am looking forward to meeting you.</i>"],
+    ["<b>6 signing</b>", "<i>Best, · Thanks, · All the best, + first name</i>", "<i>Kind regards, · Best regards, · Sincerely, + full name</i>"]], "8.2pt")}
+{_h("2. STYLE TIPS")}
+<ul class="small" style="margin:.5mm 0;line-height:1.5"><li><b>Commas:</b> put a comma after the greeting and after the sign-off: <i>Hi Paulo, … Kind regards, Maya</i>. In very formal American business letters, the greeting can end with a colon: <i>Dear Ms. Webster:</i></li>
+<li><b>Contractions</b> (<i>I'm, don't</i>) make an email more informal. Formal emails use full forms: <i>I am, do not</i>.</li>
+<li><b>Titles:</b> <i>Mr.</i> (man), <i>Ms.</i> (woman, married or not) + <b>last name</b>: <i>Dear Ms. Brooks</i>, never <i>Dear Ms. Linda</i>.</li>
+<li><b>look forward to + noun / verb-ing:</b> <i>I look forward to <b>hearing</b> from you.</i> (to is a preposition here)</li>
+<li><b>just</b> makes a request softer and more polite: <i>I just wanted to check the time.</i></li></ul>
+{_dont([("Dear Ms. Linda,", "Dear Ms. <b>Brooks</b>,"), ("I look forward to hear from you.", "I look forward to <b>hearing</b> from you."), ("Hi dear Maya,", "Hi Maya, / Dear Maya,"), ("Kisses, Paulo", "Best, Paulo"), ("I write to inform about the meeting.", "I<b>'m writing</b> to let you know about the meeting.")])}""",
+    23, """<p>Brazilians often bring Portuguese email habits into English: <i>Dear</i> + first name with a title, very long openings, and friendly sign-offs that are too personal for work. In the US, work emails are short and direct but polite; the call to action is essential.</p>""")

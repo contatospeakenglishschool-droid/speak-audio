@@ -1,0 +1,13 @@
+{
+ "material": "speak-bridge",
+ "characters": {"Maya": "en-US-Studio-O", "Narrator": "en-US-Neural2-J"},
+ "pauses": {"36.3": 3000},
+ "units": {"a2-unit-36": {
+  "36.1 An email from Maya": "Maya: Hi Paulo. As you missed the last team meeting, I am writing to let you know about the arrangements for next week's sales meeting. It starts at ten o'clock on Tuesday. Linda Brooks from our head office in Boston is coming to speak to us. I am meeting her at Penn Station at nine.\nMaya: Just like last year, we are going to serve coffee and bagels from around nine forty-five. How about getting the bagels from that nice bakery near the office? Let's make sure we show Linda what a friendly team we are. Could you help her get ready for her talk? There is a big screen in the meeting room, so she just needs to bring her slides.\nMaya: I am worried that Linda might get a bit tired in the afternoon, and she has a long trip back to Boston. So why don't we try to finish early?\nMaya: Please let me know if you are happy with these arrangements. I am really looking forward to Tuesday. I have heard great things about Linda, so I think it is going to be really interesting.\nMaya: Kind regards. Maya.",
+  "36.2 Repeat: email phrases": "Narrator: I'm writing to let you know about the meeting.\nNarrator: Thank you for your email.\nNarrator: Could you let me know by Friday?\nNarrator: Please let me know if you have any questions.\nNarrator: I'm looking forward to hearing from you.\nNarrator: Kind regards.",
+  "36.3 Formal or informal?": "Narrator: Number one. Dear Ms. Brooks.\nNarrator: Number two. Hey! What's up?\nNarrator: Number three. I would like to ask you about the invoice.\nNarrator: Number four. Thanks a lot! See you soon!\nNarrator: Number five. Sincerely.\nNarrator: Number six. Talk soon!"
+ }},
+ "images": {"a2-unit-36": {
+  "A": "woman typing laptop office", "B": "bagels basket", "C": "empty meeting room screen", "D": "man working laptop desk office"
+ }}
+}
