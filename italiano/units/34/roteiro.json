@@ -1,0 +1,30 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Chiara": "it-IT-Chirp3-HD-Achernar",
+  "Venditore": "it-IT-Chirp3-HD-Charon",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"34.2": 2000, "34.3": 3500},
+ "units": {
+  "it-a1-unita-34": {
+   "34.1 Dialogo": "Narrator: Dialogo uno. Sabato mattina, al mercatino dell'usato.\nBruno: Allora, ho preso la stanza in via Zamboni! Ma è vuota. Mi servono una lampada, un tappeto e una sedia.\nChiara: Guarda questa lampada gialla! È carina.\nBruno: Questa? No, è troppo piccola. Mi piace quella lì, quella verde.\nVenditore: Buongiorno, ragazzi! Quella lampada verde costa venti euro.\nBruno: Venti euro? Mi fa uno sconto?\nVenditore: Per voi, quindici.\nBruno: Va bene, la prendo.\nNarrator: Dialogo due. Al banco dei tappeti.\nChiara: Bruno, quale preferisci: questo tappeto rosso o quello blu?\nBruno: Quello blu. Quanto costa?\nVenditore: Trenta euro.\nBruno: E quella sedia bianca?\nVenditore: Dieci euro. Tappeto e sedia insieme, quaranta.\nBruno: Mi fa un prezzo migliore? Trentacinque?\nVenditore: Va bene, trentacinque. Ma solo perché siete simpatici!\nChiara: E questi libri quanto costano?\nVenditore: Quelli? Due euro l'uno.\nChiara: Allora prendo questi tre. Sei euro.\nNarrator: Dialogo tre. La sera, Bruno fa una videochiamata a Júlia.\nJúlia: Allora, fammi vedere la stanza!\nBruno: Ecco. Questa è la lampada verde, quello è il tappeto blu e quella è la sedia bianca.\nJúlia: Che bella! E quei libri?\nBruno: Quelli sono di Chiara. Li ha dimenticati qui.\nJúlia: Ah, li ha dimenticati... Quanto hai speso?\nBruno: Cinquanta euro in tutto.\nJúlia: Bravo! E le pareti? Di che colore sono?\nBruno: Bianche. Ma voglio una parete arancione!\nJúlia: Arancione? E Paolo che cosa dice?\nBruno: Paolo dice di no.",
+   "34.2 Ripeti": "Narrator: caro, carro\nNarrator: sete, sette\nNarrator: nono, nonno\nNarrator: pala, palla\nNarrator: questo, quello, giallo, rosso",
+   "34.3 Una o due": "Narrator: Numero uno. palla.\nNarrator: Numero due. caro.\nNarrator: Numero tre. sette.\nNarrator: Numero quattro. nono.\nNarrator: Numero cinque. carro.\nNarrator: Numero sei. sete."
+  }
+ },
+ "images": {
+  "it-a1-unita-34": {
+   "A": "flea market stall",
+   "B": "vintage lamp",
+   "C": "carpet rug",
+   "D": "wooden chair",
+   "E": "second hand books",
+   "F": "vintage mirror",
+   "G": "colored pencils",
+   "H": "price tag"
+  }
+ }
+}
