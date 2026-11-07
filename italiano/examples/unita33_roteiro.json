@@ -1,0 +1,30 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Chiara": "it-IT-Chirp3-HD-Achernar",
+  "Cassiere": "it-IT-Chirp3-HD-Charon",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"33.2": 2000, "33.3": 3500},
+ "units": {
+  "it-a1-unita-33": {
+   "33.1 Dialogo": "Narrator: Dialogo uno. Venerdì sera, davanti al cinema Due Torri.\nBruno: Allora, che cosa vediamo? C'è Il silenzio della casa. È un horror.\nChiara: No, gli horror no! Non mi piacciono.\nBruno: Va bene. Pianeta rosso è un film di fantascienza, alle otto. Notte a Napoli è un giallo, alle nove e un quarto.\nChiara: E quello con il cane?\nBruno: Il cane di Marta. È una commedia.\nChiara: Una commedia! Voglio ridere un po': questa settimana ho studiato tanto.\nBruno: A che ora comincia?\nChiara: Alle sette e mezza. Così dopo andiamo a mangiare una pizza.\nCassiere: Buonasera.\nBruno: Buonasera. Due biglietti per Il cane di Marta, alle diciannove e trenta. Siamo studenti.\nCassiere: Ridotto studenti: sei euro l'uno. Dodici euro in tutto. Sala tre.\nChiara: Prendiamo anche i popcorn?\nBruno: Certo!\nNarrator: Dialogo due. Dopo il film, in pizzeria.\nBruno: Allora, ti è piaciuto il film?\nChiara: Sì, mi è piaciuto tanto! Ho riso dall'inizio alla fine.\nBruno: Anche a me. Mi è piaciuta molto la protagonista, Marta.\nChiara: E il cane! Mi sono piaciute soprattutto le scene al parco.\nBruno: Però la fine non mi è piaciuta. Troppo veloce.\nChiara: È vero. E i popcorn? Ti sono piaciuti?\nBruno: No, troppo dolci. Ma tu li hai mangiati tutti!\nNarrator: Dialogo tre. Sabato mattina, a casa di Júlia.\nJúlia: Allora, com'è andata ieri sera?\nBruno: Benissimo! Abbiamo visto una commedia e poi siamo andati in pizzeria.\nJúlia: E ti è piaciuta la pizzeria?\nBruno: Sì, mi è piaciuta molto. E mi sono piaciuti i prezzi!\nJúlia: E Chiara? Ti è piaciuta la serata con lei?\nBruno: Júlia! Sì, mi è piaciuta tantissimo. Sabato prossimo la porto a cena da Marco.\nJúlia: Finalmente! Così la conosciamo tutti.",
+   "33.2 Ripeti": "Narrator: gli, figlio, famiglia\nNarrator: voglio, luglio, biglietto\nNarrator: Italia, olio, Giulia\nNarrator: Voglio due biglietti per luglio.",
+   "33.3 Li o gli": "Narrator: Numero uno. biglietto.\nNarrator: Numero due. Italia.\nNarrator: Numero tre. famiglia.\nNarrator: Numero quattro. olio.\nNarrator: Numero cinque. voglio.\nNarrator: Numero sei. Giulia."
+  }
+ },
+ "images": {
+  "it-a1-unita-33": {
+   "A": "cinema building entrance",
+   "B": "cinema ticket office",
+   "C": "popcorn",
+   "D": "cinema screen",
+   "E": "red cinema seats",
+   "F": "couple at the cinema",
+   "G": "pizzeria pizza table",
+   "H": "film poster wall"
+  }
+ }
+}
