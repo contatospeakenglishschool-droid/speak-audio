@@ -725,3 +725,35 @@ def present_for_future(b):
 Later you will add <b>going to</b> (intentions) and <b>will</b> (decisions now, predictions). For fixed plans, the present continuous is the most natural choice.</p>
 {_dont([("Tomorrow I meet my brother for coffee.", "Tomorrow I<b>'m meeting</b> my brother."), ("The bus is leaving at 7:00 every day.", "The bus <b>leaves</b> at 7:00 every day."), ("What time the tour starts?", "What time <b>does</b> the tour <b>start</b>?"), ("You are coming with us?", "<b>Are you</b> coming with us?")])}""",
     16, """<p>Brazilians often use the present simple for personal plans (<i>Tomorrow I go to the doctor</i>), because Portuguese allows it. Ask: <i>Is it a timetable or your plan?</i> Keep <i>going to / will</i> for later units; don't overload the student now.</p>""")
+
+
+_SCALE_PRED = """<svg viewBox="0 0 520 60" width="100%" height="14mm" xmlns="http://www.w3.org/2000/svg" font-family="Inter, sans-serif">
+<defs><linearGradient id="gp" x1="0" x2="1"><stop offset="0" stop-color="#d9ecef"/><stop offset="1" stop-color="#176074"/></linearGradient></defs>
+<rect x="10" y="22" width="500" height="12" rx="6" fill="url(#gp)"/>
+<text x="10" y="14" font-size="11" fill="#7d858a">0% sure</text><text x="455" y="14" font-size="11" fill="#7d858a">100% sure</text>
+<text x="12" y="52" font-size="10.5" fill="#176074" font-weight="700">won't · certainly won't</text>
+<text x="150" y="52" font-size="10.5" fill="#176074" font-weight="700">unlikely to · probably won't</text>
+<text x="300" y="52" font-size="10.5" fill="#176074" font-weight="700">may · might · could</text>
+<text x="420" y="52" font-size="10.5" fill="#176074" font-weight="700">likely to · will</text></svg>"""
+
+
+def predictions(b):
+    """A2 Unit 33: making predictions: will / won't (+ probably, definitely), may / might / could, be likely / unlikely to."""
+    b.page(f"""{b.sec("+", "Grammar reference: making predictions", "")}
+<div class="box" style="margin-top:0"><h4>HOW SURE ARE YOU?</h4>When we talk about the future, we show how sure we are. Choose the words that match your opinion.
+{_SCALE_PRED}</div>
+{_h("1. FORM")}
+{_tbl(["structure", "form", "examples"], [
+    ["<b>will / won't</b>", "will + base form", "<i>The technology <b>will be</b> ready soon. It <b>won't be</b> cheap.</i>"],
+    ["<b>will + adverb</b>", "will + <b>probably / definitely / certainly / possibly</b> + base form<br><b>probably / definitely</b> + won't", "<i>It<b>'ll probably be</b> better for the environment.</i><br><i>They <b>probably won't</b> be ready this year.</i>"],
+    ["<b>may / might / could</b>", "+ base form (no <i>to</i>, no -s)", "<i>They <b>might prevent</b> accidents. We <b>could see</b> big changes.</i>"],
+    ["<b>be likely / unlikely to</b>", "am / is / are + (un)likely + <b>to</b> + base form", "<i>Older people <b>are likely to</b> love them. It<b>'s unlikely to</b> happen soon.</i>"]], "8.4pt")}
+{_h("2. USE")}
+{_tbl(["", "meaning", "notes"], [
+    ["<b>will / won't</b>", "we feel sure", "<i>'ll</i> in speech: <i>It'll be…</i> · <i>won't</i> /woʊnt/ ≠ <i>want</i> /wɑːnt/"],
+    ["<b>may / might / could</b>", "maybe; we're less sure", "<i>may</i> is a little more formal, common in writing; negative: <i>may not, might not</i> (not <s>couldn't</s> for predictions)"],
+    ["<b>if + present, … might / may</b>", "a real situation, but an uncertain result", "<i>If robotaxis <b>become</b> popular, this <b>might result</b> in big changes.</i>"]], "8.6pt")}
+<p class="small" style="margin:.8mm 0"><b>Adverb position:</b> after <i>will</i>, before <i>won't</i>: <i>It will <b>probably</b> rain. · It <b>probably</b> won't rain.</i> (Unit 28: adverbs of certainty go in mid position.)<br>
+<b>Likely</b> is an adjective, so it needs <b>be</b>: <i>It's likely to…</i>, not <s>It likely to…</s>. Opposite: <b>unlikely</b>.</p>
+{_dont([("It will to be cheaper.", "It <b>will be</b> cheaper."), ("They might are safer.", "They <b>might be</b> safer."), ("It's likely be popular.", "It's likely <b>to be</b> popular."), ("I want go by car tomorrow. (= won't)", "I <b>won't</b> go by car tomorrow.")])}""",
+    16, """<p>Brazilians often add <i>to</i> after modals (<i>might to</i>), confuse <i>want</i> and <i>won't</i> in speaking and listening, and use <i>will</i> for every prediction. Practice the scale: ask the student to rate each prediction from 0% to 100%.</p>""")
