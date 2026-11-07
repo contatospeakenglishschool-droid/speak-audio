@@ -1,0 +1,30 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"28.2": 2500, "28.3": 2500},
+ "units": {
+  "it-a1-unita-28": {
+   "28.1 Dialogo": "Narrator: Dialogo uno. Inizio settembre. Júlia è tornata dal Brasile ed entra al bar di Giulia.\nGiulia: Júlia! Bentornata! Quando sei arrivata?\nJúlia: Ieri sera, alle undici. Sono stanchissima!\nGiulia: Allora, com'è andata in Brasile?\nJúlia: Benissimo! Sono stata un mese a Belo Horizonte per stare con la mia famiglia.\nGiulia: E che cosa hai fatto?\nJúlia: Ho mangiato tanto, ho dormito tanto e ho fatto nuoto ogni mattina, come ho promesso!\nGiulia: Brava! Ma perché sei tornata prima? Lo studio apre il quindici.\nJúlia: Perché Bruno arriva a Bologna sabato! Viene per studiare all'università.\nGiulia: Che bello! E dove abita?\nJúlia: Per ora da me. Poi cerca una stanza.\nNarrator: Dialogo due. Il giorno dopo, Júlia passa allo studio. C'è anche Marco.\nMarco: Ciao, Júlia! Sei già qui?\nJúlia: Sì, sono passata per prendere il mio computer. E tu? Sei andato in Sardegna?\nMarco: Sì, con alcuni amici. Quando siamo arrivati, abbiamo affittato una barca per vedere le spiagge più belle.\nJúlia: Che fortuna! Hai fatto tante foto?\nMarco: Tantissime! Guarda questa. Ah, e ho una notizia: mio fratello Luca si sposa!\nJúlia: Davvero? Quando?\nMarco: A fine settembre, a Firenze. Arriva anche il tuo invito!\nJúlia: Un matrimonio italiano! Che emozione!\nNarrator: Dialogo tre. La sera Davide porta le chiavi a Júlia.\nDavide: Ciao, Júlia! Ecco le tue chiavi.\nJúlia: Grazie, Davide! E le piante?\nDavide: Stanno benissimo. Sono passato ogni due giorni per dare l'acqua.\nJúlia: Sei un vero amico! Ho un regalo per te, per dire grazie.\nDavide: Per me? Che cos'è?\nJúlia: Una maglietta della nazionale brasiliana!\nDavide: Fantastica! Quando gioco a calcetto, la metto. Così vinciamo!",
+   "28.2 Ripeti perché per quando": "Narrator: Perché sei tornata?\nNarrator: Perché Bruno arriva.\nNarrator: Viene per studiare.\nNarrator: Quando sei arrivata?\nNarrator: Quando gioco a calcetto, la metto.\nNarrator: Un regalo per dire grazie.",
+   "28.3 Domanda o risposta": "Narrator: Perché sei qui?\nNarrator: Perché lavoro qui.\nNarrator: Quando parti?\nNarrator: Sei tornata.\nNarrator: Sei tornata?\nNarrator: Quando posso."
+  }
+ },
+ "images": {
+  "it-a1-unita-28": {
+   "A": "open suitcase clothes",
+   "B": "airport arrivals hall",
+   "C": "family dinner table brazil",
+   "D": "swimmer swimming pool",
+   "E": "sailboat turquoise sea sardinia",
+   "F": "gift box ribbon",
+   "G": "house keys hand",
+   "H": "houseplants window"
+  }
+ }
+}
