@@ -1,0 +1,30 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
+  "Luca": "it-IT-Chirp3-HD-Fenrir",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"35.2": 2000, "35.3": 4000},
+ "units": {
+  "it-a1-unita-35": {
+   "35.1 Dialogo": "Narrator: Dialogo uno. Metà settembre. Sulle scale, la signora Rossi ha la posta di Júlia.\nSignora Rossi: Buongiorno, Júlia! C'è una lettera per Lei. Viene da Firenze.\nJúlia: Da Firenze? Grazie, signora Rossi! Ah, è l'invito di Luca e Sara!\nSignora Rossi: Un matrimonio! Che bello! Quando si sposano?\nJúlia: Allora, leggo: Luca e Sara sono felici di invitarvi al loro matrimonio. Sabato ventisei settembre, alle undici, nella chiesa di San Miniato al Monte, a Firenze.\nSignora Rossi: San Miniato! È una chiesa bellissima, sopra la città.\nJúlia: Dopo la cerimonia, pranzo e festa a Villa Le Rose, a Fiesole. Rispondete entro il venti settembre.\nSignora Rossi: Il venti? Ma è domenica!\nJúlia: Sì, devo rispondere subito. L'invito è per due persone: per me e per Bruno.\nNarrator: Dialogo due. Júlia telefona a Luca.\nLuca: Pronto?\nJúlia: Ciao Luca, sono Júlia! Ho ricevuto il vostro invito. Grazie mille e congratulazioni!\nLuca: Grazie! Allora, vieni?\nJúlia: Certo, vengo volentieri! E viene anche Bruno.\nLuca: Benissimo! Quando arrivate a Firenze?\nJúlia: Venerdì venticinque lavoro fino alle sette. Allora partiamo sabato mattina, con il treno delle otto e mezza.\nLuca: Perfetto. Il treno arriva alle nove e mezza. Vi vengo a prendere io alla stazione.\nJúlia: Ma Luca, sabato ti sposi! Non hai tempo!\nLuca: Hai ragione! Allora viene Marco. Lui arriva venerdì sera.\nJúlia: Va bene.\nLuca: E domenica c'è un pranzo in famiglia. Venite anche voi?\nJúlia: Mi dispiace, domenica non possiamo. Lunedì Bruno comincia le lezioni all'università.\nLuca: Peccato! Sara ti saluta.\nJúlia: Un bacio a Sara! Ci vediamo il ventisei!\nNarrator: Dialogo tre. La sera, Bruno passa da Júlia.\nJúlia: Bruno, guarda! È arrivato l'invito per il matrimonio di Luca.\nBruno: Che bello! Quando è?\nJúlia: Sabato ventisei settembre.\nBruno: Il ventisei? Ma sabato ho la partita di calcetto con Stefano!\nJúlia: Bruno! È il matrimonio di Luca! Ho già detto di sì per tutti e due.\nBruno: Va bene, va bene, vengo. Posso portare anche Chiara?\nJúlia: No, mi dispiace. L'invito è per due persone: tu e io.\nBruno: Peccato. E a che ora partiamo?\nJúlia: Alle otto e mezza.\nBruno: Alle otto e mezza di sabato? Che sonno! E che cosa mi metto? Ho solo jeans e magliette!\nJúlia: Tranquillo, ci penso io.",
+   "35.2 Ripeti": "Narrator: ventuno, ventotto\nNarrator: trentuno, trentotto\nNarrator: il primo ottobre, l'otto marzo\nNarrator: sabato ventisei settembre\nNarrator: Vengo volentieri! Mi dispiace, non posso.",
+   "35.3 Dettato": "Narrator: Numero uno. Il ventuno marzo.\nNarrator: Numero due. Il primo maggio.\nNarrator: Numero tre. L'otto agosto.\nNarrator: Numero quattro. Il trentuno dicembre.\nNarrator: Numero cinque. Il ventotto febbraio.\nNarrator: Numero sei. Il diciannove luglio."
+  }
+ },
+ "images": {
+  "it-a1-unita-35": {
+   "A": "wedding invitation card",
+   "B": "envelope letter mail",
+   "C": "bride and groom wedding",
+   "D": "church interior wedding",
+   "E": "calendar date",
+   "F": "wedding rings",
+   "G": "wedding cake",
+   "H": "telephone call smartphone"
+  }
+ }
+}
