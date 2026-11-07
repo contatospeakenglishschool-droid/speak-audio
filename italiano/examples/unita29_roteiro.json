@@ -1,0 +1,30 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Proprietaria": "it-IT-Chirp3-HD-Vindemiatrix",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"29.2": 2500, "29.3": 4000},
+ "units": {
+  "it-a1-unita-29": {
+   "29.1 Dialogo": "Narrator: Dialogo uno. Domenica mattina. Bruno è arrivato ieri e abita da Júlia. Insieme guardano gli annunci sul computer.\nBruno: Guarda questa stanza: via San Vitale, trecentocinquanta euro al mese.\nJúlia: Non è male. Ma leggi bene: spese escluse.\nBruno: Ah. E quanto sono le spese?\nJúlia: Di solito cinquanta o sessanta euro al mese. E questa in via Mascarella?\nBruno: Quattrocentottanta euro, spese incluse. Ma è un monolocale!\nJúlia: Per un anno sono quasi seimila euro. Troppo!\nBruno: Hai ragione. Chiamo la signora di via San Vitale.\nNarrator: Dialogo due. Lunedì, in via San Vitale. La proprietaria fa vedere la stanza a Bruno.\nProprietaria: Ecco la stanza. È grande: quattordici metri quadrati.\nBruno: È bella, e c'è anche la scrivania. Quanto costa, esattamente?\nProprietaria: Trecentocinquanta euro al mese, più le spese: luce, gas e internet. Circa sessanta euro.\nBruno: E la cauzione?\nProprietaria: Due mesi: settecento euro.\nBruno: Settecento... Ci penso e La chiamo domani. Grazie, signora.\nNarrator: Dialogo tre. La sera, al bar. Bruno racconta tutto a Davide.\nDavide: Allora, Bruno, hai trovato una stanza?\nBruno: Forse. Trecentocinquanta euro più sessanta di spese, e settecento di cauzione.\nDavide: Il prezzo è giusto, per Bologna. Lo sai che qui un appartamento costa trecentomila euro?\nBruno: Trecentomila? Allora resto in affitto per tutta la vita!\nDavide: Anche io! Senti, il mio collega ha una stanza libera in via Zamboni: trecentottanta euro, spese incluse.\nBruno: Spese incluse? Mi dai il suo numero?\nDavide: Certo! Si chiama Paolo: tre, quattro, sette, due, uno, otto, nove, cinque, zero, sei.",
+   "29.2 Ripeti i numeri": "Narrator: cento, duecento, trecento\nNarrator: mille, duemila, tremila\nNarrator: trecentocinquanta euro\nNarrator: quattrocentottanta euro\nNarrator: seimila euro all'anno\nNarrator: un milione di euro",
+   "29.3 Dettato dei prezzi": "Narrator: Numero uno. Trecentocinquanta euro.\nNarrator: Numero due. Quattrocentottanta euro.\nNarrator: Numero tre. Settecento euro.\nNarrator: Numero quattro. Milleduecento euro.\nNarrator: Numero cinque. Quindicimila euro.\nNarrator: Numero sei. Trecentomila euro."
+  }
+ },
+ "images": {
+  "it-a1-unita-29": {
+   "A": "student bedroom desk",
+   "B": "apartment for rent keys",
+   "C": "euro banknotes",
+   "D": "electricity bill paper",
+   "E": "wifi router",
+   "F": "laptop browsing apartments",
+   "G": "small studio apartment",
+   "H": "apartment building facade bologna"
+  }
+ }
+}
