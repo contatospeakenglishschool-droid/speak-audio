@@ -1,0 +1,30 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Impiegata": "it-IT-Chirp3-HD-Vindemiatrix",
+  "Impiegato": "it-IT-Chirp3-HD-Charon",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"30.2": 2000, "30.3": 4500},
+ "units": {
+  "it-a1-unita-30": {
+   "30.1 Dialogo": "Narrator: Dialogo uno. Mercoledì mattina, alla segreteria studenti dell'università. Bruno si iscrive.\nImpiegata: Buongiorno. Mi dica.\nBruno: Buongiorno. Vorrei iscrivermi al corso di laurea in Storia.\nImpiegata: Va bene. Compiliamo il modulo insieme. Come si chiama?\nBruno: Bruno Souza.\nImpiegata: Come si scrive il cognome?\nBruno: Esse, o, u, zeta, a.\nImpiegata: Con la zeta. Dove è nato?\nBruno: Sono nato a Belo Horizonte, in Brasile.\nImpiegata: E quando è nato?\nBruno: Il quattordici marzo duemilasei.\nImpiegata: Qual è il Suo indirizzo a Bologna?\nBruno: Per ora abito da mia sorella, in via Santo Stefano.\nImpiegata: Bene. Ecco la Sua e-mail dell'università: bruno punto souza, chiocciola, studio punto unibo punto it.\nBruno: Grazie. Quando cominciano le lezioni?\nImpiegata: Il ventotto settembre.\nNarrator: Dialogo due. Il pomeriggio, al centro sportivo universitario.\nImpiegato: Ciao! Dimmi.\nBruno: Ciao. Quali corsi avete il martedì e il giovedì?\nImpiegato: Nuoto, pallavolo e calcetto. Che cosa ti piace?\nBruno: Il calcetto! Quanto costa?\nImpiegato: Trenta euro al mese. Hai la tessera dell'università?\nBruno: Non ancora. Arriva tra una settimana.\nImpiegato: Allora torna con la tessera. Chi è il tuo medico? Serve il certificato medico.\nBruno: Il certificato? Va bene, lo chiedo.\nNarrator: Dialogo tre. La sera, a casa di Júlia.\nJúlia: Allora, com'è andata all'università?\nBruno: Bene! Mi sono iscritto. Ma guarda la tessera...\nJúlia: Bruno Sousa? Con la esse? Hanno sbagliato!\nBruno: Eh sì. Ho detto zeta, ma la signora ha scritto esse.\nJúlia: Che cosa fai adesso?\nBruno: Domani torno in segreteria per cambiare la tessera. E poi vado al centro sportivo.\nJúlia: Perché?\nBruno: Per giocare a calcetto! Come Davide.",
+   "30.2 Ripeti alfabeto": "Narrator: a, bi, ci, di, e, effe, gi\nNarrator: acca, i, elle, emme, enne, o, pi\nNarrator: cu, erre, esse, ti, u, vu, zeta\nNarrator: i lunga, kappa, doppia vu, ics, ipsilon\nNarrator: Come si scrive? Esse, o, u, zeta, a.\nNarrator: chiocciola, punto, trattino",
+   "30.3 Dettato di parole": "Narrator: Numero uno. Bi, o, elle, o, gi, enne, a.\nNarrator: Numero due. Zeta, a, emme, bi, o, enne, i.\nNarrator: Numero tre. Erre, o, doppia esse, i.\nNarrator: Numero quattro. Ci, acca, i, a, erre, a.\nNarrator: Numero cinque. Gi, i, u, elle, i, a.\nNarrator: Numero sei. Esse, ti, o, erre, i, a."
+  }
+ },
+ "images": {
+  "it-a1-unita-30": {
+   "A": "university office counter students",
+   "B": "filling form pen paper",
+   "C": "passport document",
+   "D": "student id card",
+   "E": "university lecture hall",
+   "F": "at sign keyboard email",
+   "G": "medical certificate stethoscope",
+   "H": "volleyball sports hall"
+  }
+ }
+}
