@@ -668,3 +668,37 @@ def service_language(b):
     ["<b>Sorry, which gate? / Could you repeat that, please?</b>", "ask for repetition when you don't understand"]], "8.4pt")}
 {_dont([("Give me some water.", "<b>Could I have</b> some water, please?"), ("I need to take off my belt?", "<b>Do I need to</b> take off my belt?"), ("What?", "<b>Sorry?</b> / <b>Could you repeat that, please?</b>"), ("Here is.", "<b>Here you are.</b>")])}""",
     24, """<p>Brazilians often use imperatives as requests (<i>Give me a coffee</i>), which sounds rude in English. Practice <i>Could I have…, please?</i> with rising intonation. In the US, people say <i>flight attendant</i> more than <i>cabin crew</i>, and a <i>bin</i> at security.</p>""")
+
+
+_PHOTO_POS = """<svg viewBox="0 0 300 150" width="58mm" height="29mm" xmlns="http://www.w3.org/2000/svg" font-family="Inter, sans-serif">
+<rect x="2" y="2" width="296" height="146" rx="6" fill="#f4f8f9" stroke="#77acb5" stroke-width="2"/>
+<rect x="2" y="2" width="296" height="38" rx="6" fill="#e3eff1"/>
+<text x="150" y="26" font-size="12" fill="#176074" font-weight="700" text-anchor="middle">in the background / at the top</text>
+<text x="40" y="84" font-size="12" fill="#176074" font-weight="700" text-anchor="middle">on the left</text>
+<text x="150" y="84" font-size="12" fill="#176074" font-weight="700" text-anchor="middle">in the middle</text>
+<text x="258" y="84" font-size="12" fill="#176074" font-weight="700" text-anchor="middle">on the right</text>
+<text x="150" y="135" font-size="12" fill="#176074" font-weight="700" text-anchor="middle">in the foreground / at the bottom</text></svg>"""
+
+
+def describing_photos(b):
+    """A2 Unit 31: describing a photo: there is/are, present continuous, look / look like / it looks like, maybe / perhaps, positions."""
+    b.page(f"""{b.sec("+", "Language reference: describing a photo", "")}
+<div class="box" style="margin-top:0;display:flex;gap:4mm;align-items:center"><div style="flex:1"><h4>FIVE TOOLS FOR ANY PHOTO</h4>Say <b>what</b> is in the photo, <b>where</b> it is, what people <b>are doing</b>, how they <b>look</b>, and what you <b>guess</b>. You don't need to describe everything. Native speakers use simple language, so you can too.</div>{_PHOTO_POS}</div>
+{_h("1. WHAT AND WHERE: THERE IS / THERE ARE + POSITION")}
+{_tbl(["", "examples", "careful"], [
+    ["<b>there is</b> + singular", "<i><b>There's</b> a woman on the left. <b>There's</b> a window in the background.</i>", "<i>There's</i> = there is"],
+    ["<b>there are</b> + plural", "<i><b>There are</b> two people in this photo. <b>There are</b> some tomatoes at the bottom.</i>", "not <s>There is two people</s>"],
+    ["<b>positions</b>", "<b>in</b> the middle · <b>on</b> the left / right · <b>at</b> the top / bottom · <b>in</b> the background / foreground", "a photo <b>of</b> two people"]], "8.4pt")}
+{_h("2. ACTIONS: PRESENT CONTINUOUS (BUT NOT WITH STATE VERBS)")}
+{_tbl(["actions now", "states (no -ing)"], [
+    ["<i>The man <b>is cutting</b> vegetables. They<b>'re cooking</b>.</i><br>am / is / are + verb-ing", "<i>I think they <b>live</b> together. They <b>look</b> happy. She <b>has</b> a phone.</i><br>live, look (= seem), like, know, have (= own)"]], "8.6pt")}
+{_h("3. LOOK, LOOK LIKE, IT LOOKS LIKE")}
+{_tbl(["form", "followed by", "example"], [
+    ["<b>look</b>", "an adjective", "<i>They <b>look</b> very happy.</i>"],
+    ["<b>look like</b>", "a noun", "<i>He <b>looks like</b> a chef.</i>"],
+    ["<b>it looks like</b>", "a clause (subject + verb)", "<i><b>It looks like</b> they have a lot of time.</i>"]], "8.6pt")}
+{_h("4. GUESSING: MAYBE, PERHAPS, I THINK")}
+<p class="small" style="margin:.5mm 0"><b>Maybe</b> and <b>perhaps</b> go at the <b>beginning</b> of the sentence or clause: <i><b>Maybe</b> they're friends. <b>Perhaps</b> it's the weekend.</i> Also: <i>I think… · They might be…</i><br>
+<b>Their / there / they're</b> sound the same /ðer/: <i><b>Their</b> kitchen</i> (possessive) · <i>over <b>there</b></i> (place) · <i><b>They're</b> cooking</i> (they are).</p>
+{_dont([("There is two people.", "There <b>are</b> two people."), ("They look like happy.", "They <b>look</b> happy."), ("Can be she's his mother.", "<b>Maybe</b> she's his mother."), ("In the photo I can see a man.", "<b>There's</b> a man in the photo.")])}""",
+    16, """<p>Brazilians often say <i>Can be…</i> (a direct translation) for guesses: practice <i>Maybe…</i> and <i>Perhaps…</i> at the start of the sentence. Exam tip: avoid repeating <i>I can see</i>; use <i>there is / there are</i> and positions.</p>""")

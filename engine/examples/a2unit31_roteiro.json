@@ -1,0 +1,11 @@
+{
+ "material": "speak-bridge",
+ "characters": {"Tom": "en-US-Neural2-D", "Ana": "en-US-Neural2-F", "Narrator": "en-US-Neural2-J"},
+ "pauses": {"31.3": 3000},
+ "units": {"a2-unit-31": {
+  "31.1 The photo task": "Tom: OK, let's practice the photo task from the TOEIC Speaking test. In the test, you have a short time to prepare, and then you speak for about thirty seconds. Here's your photo. It shows two people cooking.\nAna: OK... There are two people in this photo... There's a woman on the left... and a man on the right. They're cooking in a kitchen... The man is cutting some vegetables... and the woman is cooking something in a pan. I think they live together... or maybe they're friends. They look very happy... There's a glass of wine and some tomatoes at the bottom of the picture... and there's a window in the background. Perhaps it's the weekend... because it looks like they have a lot of time.\nTom: Great job! That was about thirty seconds.",
+  "31.2 Repeat: describing a photo": "Narrator: There are two people in this photo.\nNarrator: There's a woman on the left.\nNarrator: They're cooking in a kitchen.\nNarrator: They look very happy.\nNarrator: He looks like a chef.\nNarrator: It looks like they have a lot of time.\nNarrator: Maybe they're friends.\nNarrator: Perhaps it's the weekend.",
+  "31.3 There, their or they're": "Narrator: Number one. They're cooking dinner.\nNarrator: Number two. Their kitchen is really big.\nNarrator: Number three. There's a window in the background.\nNarrator: Number four. Put the bag over there.\nNarrator: Number five. They're my new neighbors.\nNarrator: Number six. Their dog is so cute."
+ }},
+ "images": {}
+}
