@@ -824,3 +824,26 @@ def work_emails(b):
 <li><b>just</b> makes a request softer and more polite: <i>I just wanted to check the time.</i></li></ul>
 {_dont([("Dear Ms. Linda,", "Dear Ms. <b>Brooks</b>,"), ("I look forward to hear from you.", "I look forward to <b>hearing</b> from you."), ("Hi dear Maya,", "Hi Maya, / Dear Maya,"), ("Kisses, Paulo", "Best, Paulo"), ("I write to inform about the meeting.", "I<b>'m writing</b> to let you know about the meeting.")])}""",
     23, """<p>Brazilians often bring Portuguese email habits into English: <i>Dear</i> + first name with a title, very long openings, and friendly sign-offs that are too personal for work. In the US, work emails are short and direct but polite; the call to action is essential.</p>""")
+
+
+def gerunds(b):
+    """A2 Unit 37: verb + -ing as a noun (gerund): subject, object, after prepositions, after certain verbs; other -ing uses; spelling."""
+    b.page(f"""{b.sec("+", "Grammar reference: -ing forms (gerunds)", "")}
+<div class="box" style="margin-top:0"><h4>A VERB THAT WORKS LIKE A NOUN</h4>When we use verb + <b>-ing</b> as a noun, it is called a <b>gerund</b>. It can go in the same places as a noun: <i><b>Yoga</b> is relaxing.</i> → <i><b>Swimming</b> is relaxing.</i></div>
+{_h("1. WHERE GERUNDS GO")}
+{_tbl(["position", "examples"], [
+    ["<b>subject</b> of the sentence", "<i><b>Running</b> is an activity you can do in the park. <b>Walking</b> is great exercise.</i>"],
+    ["<b>object</b> of the sentence", "<i>Today we're going to discuss <b>well-being</b>. My friends and I discuss <b>running</b> a lot.</i>"],
+    ["after a <b>preposition</b> (about, for, at, of, before, after…)", "<i>Thanks for <b>joining</b> us. He's good at <b>swimming</b>. I'm thinking about <b>joining</b> a gym.</i>"]], "8.5pt")}
+{_h("2. VERBS FOLLOWED BY A GERUND")}
+{_tbl(["verbs", "examples"], [
+    ["<b>enjoy · dislike · don't mind · miss</b>", "<i>I enjoy <b>running</b>. I miss <b>cycling</b> to work. I don't mind <b>getting</b> up early.</i>"],
+    ["<b>avoid · keep · finish · stop</b>", "<i>I avoid <b>going</b> to the gym. You can keep <b>cycling</b> in bad weather.</i>"],
+    ["<b>consider · suggest · think about</b>", "<i>You should consider <b>changing</b> activities.</i>"],
+    ["<b>look forward to</b> (to = preposition)", "<i>I look forward to <b>running</b> in the snow.</i> ✗ <i>look forward to run</i>"]], "8.5pt")}
+<p class="small" style="margin:.8mm 0">Compare: <b>want, would like, decide, plan, hope, need</b> + <b>to</b> + base form: <i>I want <b>to start</b> running.</i> <b>like, love, hate, start</b> can take both: <i>I love <b>swimming</b> / <b>to swim</b>.</i></p>
+{_h("3. OTHER -ING FORMS (NOT GERUNDS) AND SPELLING")}
+<p class="small" style="margin:.5mm 0"><b>continuous verb</b>: <i>It's <b>raining</b>.</i> · <b>adjective</b>: <i>Exercise can be <b>boring</b>. <b>swimming</b> goggles, <b>running</b> shoes</i> · <b>go + -ing</b> for activities: <i>go <b>running</b>, go <b>swimming</b>, go <b>hiking</b></i><br>
+<b>Spelling:</b> most verbs + -ing (<i>walk → walking</i>) · final <b>-e</b> → drop it (<i>dance → dancing</i>) · one vowel + one consonant → double it (<i>run → running, swim → swimming</i>)</p>
+{_dont([("To walk is the best exercise.", "<b>Walking</b> is the best exercise."), ("I enjoy to run.", "I enjoy <b>running</b>."), ("Thanks for help me.", "Thanks for <b>helping</b> me."), ("You should consider to walk to work.", "You should consider <b>walking</b> to work."), ("Let's go to swim.", "Let's go <b>swimming</b>.")])}""",
+    20, """<p>Portuguese uses the infinitive in most of these places (subject, after prepositions), so Brazilians say <i>To walk is good</i> or <i>Thanks for help me</i>. Drill the verbs in section 2 with personal examples. Earlier units practiced verb + to + base form; here the focus is the gerund.</p>""")
