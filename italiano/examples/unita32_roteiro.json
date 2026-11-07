@@ -1,0 +1,30 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Impiegata": "it-IT-Chirp3-HD-Vindemiatrix",
+  "Passeggero": "it-IT-Chirp3-HD-Charon",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"32.2": 2000, "32.3": 3500},
+ "units": {
+  "it-a1-unita-32": {
+   "32.1 Dialogo": "Narrator: Dialogo uno. Sabato mattina, a casa di Júlia.\nBruno: Júlia, per andare in via Zamboni quale autobus prendo?\nJúlia: L'autobus? No, Bruno! Sono dieci minuti a piedi.\nBruno: Davvero? E come ci arrivo?\nJúlia: Prima vai dritto fino alle Due Torri. Poi giri a destra in via Zamboni. Dopo cinque minuti sei da Paolo.\nBruno: Facile! Ma martedì vado al centro sportivo per il calcetto. È lontano?\nJúlia: Sì, quello è lontano. Ti serve l'autobus. E ti serve anche l'abbonamento.\nNarrator: Dialogo due. Lunedì, alla biglietteria degli autobus.\nImpiegata: Buongiorno, mi dica.\nBruno: Buongiorno. Vorrei un abbonamento per studenti.\nImpiegata: Mensile o annuale?\nBruno: Mensile. Quanto costa?\nImpiegata: Ventisette euro. Mi serve la tessera dell'università.\nBruno: Ecco la tessera. Finalmente con la zeta!\nImpiegata: Come, scusi?\nBruno: Niente, niente. Senta, quale autobus prendo per il centro sportivo?\nImpiegata: Prende il venti in via Rizzoli e scende alla fermata Centro Sportivo. È il capolinea.\nBruno: Ogni quanto passa?\nImpiegata: Ogni dodici minuti, dalle sei di mattina alle undici di sera. Il viaggio dura venticinque minuti.\nBruno: Perfetto, grazie.\nNarrator: Dialogo tre. Martedì pomeriggio, sull'autobus numero venti.\nBruno: Scusi, questo autobus va al centro sportivo?\nPasseggero: Sì, ma prima passa dalla stazione.\nBruno: Ah, bene. E dove scendo?\nPasseggero: Alla sesta fermata, dopo la Fiera. Scendo anch'io lì.\nBruno: Anche Lei va al centro sportivo?\nPasseggero: Sì, gioco a calcetto il martedì.\nBruno: Anch'io! Oggi è la prima volta.\nPasseggero: Allora giochiamo insieme! Io sono Stefano. Dai, prenota la fermata: premi il pulsante rosso.",
+   "32.2 Ripeti": "Narrator: scendere, scendo, scendi\nNarrator: scusi, scuola, uscita\nNarrator: piscina, conoscere, pesce\nNarrator: scheda, tedeschi, schiena",
+   "32.3 Dettato": "Narrator: Numero uno. Scendo.\nNarrator: Numero due. Scusi.\nNarrator: Numero tre. Scheda.\nNarrator: Numero quattro. Uscita.\nNarrator: Numero cinque. Tedeschi.\nNarrator: Numero sei. Piscina."
+  }
+ },
+ "images": {
+  "it-a1-unita-32": {
+   "A": "city bus street",
+   "B": "bus stop",
+   "C": "bus ticket validating machine",
+   "D": "bus driver",
+   "E": "train station platform",
+   "F": "people walking city street",
+   "G": "bus stop button",
+   "H": "football field five a side"
+  }
+ }
+}
