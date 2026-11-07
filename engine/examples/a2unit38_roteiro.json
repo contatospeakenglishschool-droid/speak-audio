@@ -1,0 +1,13 @@
+{
+ "material": "speak-bridge",
+ "characters": {"Paulo": "en-US-Neural2-I", "Narrator": "en-US-Neural2-J"},
+ "pauses": {"38.3": 3000},
+ "units": {"a2-unit-38": {
+  "38.1 Visit Hannibal, Missouri": "Paulo: Visit Hannibal, Missouri. A travel agent describes its top attractions.\nPaulo: Hannibal, on the Mississippi River about a hundred miles north of St. Louis, is where Mark Twain grew up. He was born in eighteen thirty-five in Florida, Missouri, and his family moved to Hannibal when he was four. You'll have a great day exploring the town.\nPaulo: The first place you'll want to visit is the Mark Twain Boyhood Home and Museum. The Clemens family lived in the white house from about eighteen forty-four until eighteen fifty-three. Mark Twain's real name was Samuel Clemens. The museum has several historic buildings, including the Huckleberry Finn House.\nPaulo: Outside the house, there's a white fence, just like the fence that Tom paints in The Adventures of Tom Sawyer. Everyone takes a photo there!\nPaulo: If you have children, the best place to spend an afternoon is Mark Twain Cave, the oldest show cave in Missouri. Twain played there as a boy, and the cave is in Tom Sawyer too. Tours last about an hour.\nPaulo: And if your feet hurt after walking around town, try a river cruise. The Mark Twain Riverboat has one-hour sightseeing cruises, and the guide tells stories about the river. There's also a dinner cruise in the evening.\nPaulo: Another way to end your day is a visit to Rockcliffe Mansion, a big house on a hill above the town. It was finished in nineteen hundred, and some people say it's haunted! Twain visited Hannibal for the last time in nineteen oh two, and there was a reception for him at the mansion.\nPaulo: Hannibal has so much to offer visitors. You'll never forget the day you visited this magical place.",
+  "38.2 Repeat: a, an and the": "Narrator: a great day\nNarrator: an hour\nNarrator: the river\nNarrator: the oldest cave\nNarrator: a big house on a hill\nNarrator: the best place in the town",
+  "38.3 The: /ðə/ or /ði/?": "Narrator: Number one. the cave\nNarrator: Number two. the afternoon\nNarrator: Number three. the boat\nNarrator: Number four. the end\nNarrator: Number five. the town\nNarrator: Number six. the oldest"
+ }},
+ "images": {"a2-unit-38": {
+  "A": "paddle wheel riverboat", "B": "Mississippi River", "C": "cave tour lights", "D": "white picket fence", "E": "victorian mansion", "F": "theater stage curtain"
+ }}
+}

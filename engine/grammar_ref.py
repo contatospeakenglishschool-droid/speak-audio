@@ -847,3 +847,29 @@ def gerunds(b):
 <b>Spelling:</b> most verbs + -ing (<i>walk → walking</i>) · final <b>-e</b> → drop it (<i>dance → dancing</i>) · one vowel + one consonant → double it (<i>run → running, swim → swimming</i>)</p>
 {_dont([("To walk is the best exercise.", "<b>Walking</b> is the best exercise."), ("I enjoy to run.", "I enjoy <b>running</b>."), ("Thanks for help me.", "Thanks for <b>helping</b> me."), ("You should consider to walk to work.", "You should consider <b>walking</b> to work."), ("Let's go to swim.", "Let's go <b>swimming</b>.")])}""",
     20, """<p>Portuguese uses the infinitive in most of these places (subject, after prepositions), so Brazilians say <i>To walk is good</i> or <i>Thanks for help me</i>. Drill the verbs in section 2 with personal examples. Earlier units practiced verb + to + base form; here the focus is the gerund.</p>""")
+
+
+def articles(b):
+    """A2 Unit 38: a/an, the and zero article."""
+    b.page(f"""{b.sec("+", "Grammar reference: articles (a/an, the, no article)", "")}
+<div class="box" style="margin-top:0"><h4>WHICH THING?</h4><b>a/an</b> = one of many, or new information. <b>the</b> = we know exactly which one. <b>no article</b> = things in general, names, meals. Use <b>an</b> before a vowel <i>sound</i>: <i>an hour, an old house</i>, but <i>a university</i> (/juː/).</div>
+{_h("1. A / AN")}
+{_tbl(["use", "examples"], [
+    ["the <b>first time</b> we mention something", "<i>There's <b>a</b> white fence outside the house.</i>"],
+    ["<b>one of many</b> similar things", "<i>You'll have <b>a</b> great day. It's <b>a</b> big house on <b>a</b> hill.</i>"],
+    ["<b>jobs</b>", "<i>Paulo is <b>a</b> travel agent. She's <b>an</b> engineer.</i>"],
+    ["<b>how often</b>, prices and speed", "<i>three times <b>a</b> day · once <b>a</b> week · $20 <b>an</b> hour</i>"]], "8.5pt")}
+{_h("2. THE")}
+{_tbl(["use", "examples"], [
+    ["the <b>second time</b> we mention something", "<i>There's a white fence… Everyone takes a photo at <b>the</b> fence.</i>"],
+    ["we <b>know which one</b> (from the situation)", "<i>The museum is next to the house. Close <b>the</b> door, please.</i>"],
+    ["there is <b>only one</b>", "<i><b>the</b> world, <b>the</b> sun, <b>the</b> internet</i>"],
+    ["<b>superlatives</b> and ordinals", "<i><b>the</b> oldest cave, <b>the</b> best place, <b>the</b> first house</i>"],
+    ["<b>rivers, oceans</b>, some countries, places in town", "<i><b>the</b> Mississippi, <b>the</b> Atlantic, <b>the</b> United States, go to <b>the</b> theater</i>"]], "8.5pt")}
+{_h("3. NO ARTICLE")}
+{_tbl(["use", "examples"], [
+    ["plural and uncountable nouns <b>in general</b>", "<i>Kids love caves. I like history. Visitors love the town.</i>"],
+    ["<b>names</b> of people, most cities, states, countries, continents", "<i>Mark Twain, Hannibal, Missouri, Brazil, South America</i>"],
+    ["<b>meals</b>, days, months; go <b>to school / to work / home</b>", "<i>have dinner on Saturday · in April · go to work</i>"]], "8.5pt")}
+{_dont([("The visitors love Hannibal. (in general)", "Visitors love Hannibal."), ("He is engineer.", "He's <b>an</b> engineer."), ("Mississippi is a long river.", "<b>The</b> Mississippi is a long river."), ("I live in the Brazil.", "I live in Brazil."), ("It's oldest cave in Missouri.", "It's <b>the</b> oldest cave in Missouri.")])}""",
+    24, """<p>Portuguese uses the definite article for things in general (<i>the life is short</i> ✗), with names and countries (<i>the Brazil</i> ✗), and drops <i>a</i> with jobs. Ask the student: one of many, or exactly which one? Articles need regular review at every level.</p>""")
