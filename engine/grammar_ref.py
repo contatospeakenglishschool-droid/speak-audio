@@ -779,3 +779,26 @@ def future_forms(b):
 <b>gonna</b>: in fast, informal speech, <i>going to</i> often sounds like <i>gonna</i> /ˈɡʌnə/. Understand it and use it in speech if you like, but <b>never write it</b>.</p>
 {_dont([("I will meet Danny tomorrow at six. (arranged)", "I<b>'m meeting</b> Danny tomorrow at six."), ("Look at the clouds! It will rain.", "It<b>'s going to</b> rain."), ("I think you're having a great time in Paris.", "I think you<b>'ll have</b> a great time."), ("I'm going to study tomorrow. I gonna study.", "I<b>'m going to</b> study.")])}""",
     16, """<p>This page brings together Units 32, 33 and 34. Brazilians tend to use <i>will</i> for everything, or the present simple for plans (<i>Tomorrow I travel</i>). Ask two questions: <i>Did you decide before? Do you have evidence?</i></p>""")
+
+
+def suggestions_offers(b):
+    """A2 Unit 35: making plans together: suggestions (let's / why don't we / how about), offers (I'll / why don't I), plans and predictions."""
+    b.page(f"""{b.sec("+", "Grammar reference: making plans together", "")}
+<div class="box" style="margin-top:0"><h4>PLANNING WITH FRIENDS</h4>When we plan a day out, we do four things: we <b>suggest</b> ideas, we <b>offer</b> to help, we say what we have <b>already decided</b>, and we <b>predict</b> what will happen.</div>
+{_h("1. SUGGESTIONS")}
+{_tbl(["form", "grammar", "examples"], [
+    ["<b>Let's</b>", "Let's + base form", "<i><b>Let's leave</b> early. <b>Let's not go</b> by car.</i>"],
+    ["<b>Why don't we</b>", "Why don't we + base form?", "<i><b>Why don't we bring</b> our own drinks?</i>"],
+    ["<b>How about / What about</b>", "How about + verb-ing / noun?", "<i><b>How about stopping</b> at the bakery? <b>What about</b> a picnic?</i>"]], "8.5pt")}
+<p class="small" style="margin:.8mm 0"><b>Let's</b> = let us: don't forget the apostrophe. <b>Shall we…?</b> is possible but sounds formal or British in the US.<br>
+<b>Answer a suggestion:</b> <i>Good idea! · That sounds great. · Sure, why not? · I'm not sure. How about…? · Sorry, I can't on Saturday.</i></p>
+{_h("2. OFFERS AND PLANS")}
+{_tbl(["", "form", "examples"], [
+    ["<b>offer</b> (you decide now)", "I'll + base form · Why don't I + base form?", "<i>I<b>'ll bring</b> the sunscreen. <b>Why don't I get</b> some fruit?</i>"],
+    ["<b>plan</b> (decided before)", "be going to + base form", "<i>I<b>'m going to plan</b> the hike tonight. (I decided this yesterday.)</i>"]], "8.5pt")}
+{_h("3. PREDICTIONS")}
+{_tbl(["", "form", "examples"], [
+    ["<b>evidence</b> (a forecast, the sky)", "be going to", "<i>The forecast says it<b>'s going to be</b> hot.</i>"],
+    ["<b>opinion</b>", "will", "<i>We<b>'ll need</b> hats. I think you<b>'ll love</b> the beach.</i>"]], "8.5pt")}
+{_dont([("How about stop at the bakery?", "How about <b>stopping</b> at the bakery?"), ("Let's to go to the beach.", "Let's <b>go</b> to the beach."), ("Why we don't take the train?", "Why <b>don't we</b> take the train?"), ("Lets bring towels.", "<b>Let's</b> bring towels."), ("I bring the drinks! (offer)", "I<b>'ll</b> bring the drinks!")])}""",
+    21, """<p>This page reviews Unit 34 (going to / will) in a new function: planning together. Brazilians often add <i>to</i> after <i>Let's</i>, use the base form after <i>How about</i>, and say <i>Why we don't…?</i> Drill the three suggestion forms with rising, friendly intonation.</p>""")

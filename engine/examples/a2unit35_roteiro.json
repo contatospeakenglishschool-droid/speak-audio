@@ -1,0 +1,13 @@
+{
+ "material": "speak-bridge",
+ "characters": {"Lucy": "en-US-Neural2-C", "Tom": "en-US-Neural2-D", "Priya": "en-US-Chirp3-HD-Kore", "Narrator": "en-US-Neural2-J"},
+ "pauses": {"35.3": 3000},
+ "units": {"a2-unit-35": {
+  "35.1 Planning a day out": "Narrator: It's Wednesday evening in Chicago. Tom, Lucy and their roommate Priya are planning a day out at Indiana Dunes National Park on Saturday.\nLucy: So, is everyone still up for the Dunes on Saturday?\nTom: Yes, definitely!\nPriya: Of course! I really need a day away from the library.\nLucy: Great. We can take the South Shore Line train from downtown to Dune Park, and then we can walk to the trails. Tom, are you going to get the train tickets again?\nTom: Yes, I am. I'm going to buy them on the app, like last time.\nPriya: Perfect. We can pay you back later.\nLucy: And I'm going to plan our hike on the map tonight.\nTom: Just like you always do. You're a great leader!\nPriya: What about food? I'll bake some bread tonight and make sandwiches for everyone. Why don't we all bring our own drinks?\nLucy: That sounds like a good idea. Thanks!\nTom: Why don't I get some fruit and some chips for after lunch?\nPriya: Yes please!\nLucy: I checked the weather forecast, and it's going to be really hot on Saturday. We'll all need hats. I'll bring a big bottle of sunscreen, and we can share it. Let's leave early so it's not too hot for the hike.\nTom: Good idea. And let's bring towels and bathing suits so we can swim in Lake Michigan after the hike!\nPriya: Yes! I've never swum in a lake before.\nLucy: How about stopping at Kate's bakery on the way home? She's selling her coffee ice cream now.\nTom: Ha! You just want free ice cream from my sister.\nPriya: It sounds like a perfect day out. I can't wait!",
+  "35.2 Repeat: suggestions and offers": "Narrator: Let's leave early.\nNarrator: Why don't we bring our own drinks?\nNarrator: How about stopping at the bakery?\nNarrator: I'll bring the sunscreen.\nNarrator: Why don't I get some fruit?\nNarrator: It's going to be hot.",
+  "35.3 Suggestion, offer or prediction?": "Narrator: Number one. How about going by bike?\nNarrator: Number two. I'll carry your bag.\nNarrator: Number three. Look at those clouds. It's going to rain.\nNarrator: Number four. Let's take the train.\nNarrator: Number five. I think you'll love the beach.\nNarrator: Number six. Why don't I make some sandwiches?"
+ }},
+ "images": {"a2-unit-35": {
+  "A": "beach towel rolled", "B": "sunscreen bottle", "C": "hiking backpack", "D": "hiking boots", "E": "sandwich on plate", "F": "potato chips bowl", "G": "Indiana Dunes Lake Michigan beach", "H": "commuter train station platform", "I": "picnic blanket basket park"
+ }}
+}
