@@ -1,0 +1,29 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Commessa": "it-IT-Chirp3-HD-Vindemiatrix",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"31.2": 2000, "31.3": 3500},
+ "units": {
+  "it-a1-unita-31": {
+   "31.1 Dialogo": "Narrator: Dialogo uno. Giovedì mattina, in un negozio di telefonia in via Indipendenza.\nCommessa: Buongiorno. Posso aiutarLa?\nBruno: Buongiorno. Mi serve una SIM italiana. Con il mio numero brasiliano qui spendo troppo.\nCommessa: Certo. Abbiamo tre offerte. Quanti giga Le servono?\nBruno: Mi servono molti giga, perché guardo video e studio online.\nCommessa: Allora c'è Giga 150: centocinquanta giga, minuti e messaggi illimitati, nove euro e novantanove al mese.\nBruno: E posso chiamare in Brasile?\nCommessa: Con Giga 150 no. Con Mondo 50 sì: cinquanta giga e duecento minuti verso l'estero, a dodici euro e novantanove.\nBruno: E la più economica?\nCommessa: Base 20: venti giga e cinquecento minuti, a cinque euro e novantanove.\nBruno: Voglio chiamare mia madre ogni settimana... Ma posso fare le videochiamate con internet, vero?\nCommessa: Sì, certo, con internet sono gratis.\nBruno: Allora prendo Giga 150. Posso pagare con la carta?\nCommessa: Sì. Mi serve anche un documento e il codice fiscale.\nBruno: Ecco il passaporto. E questo è il codice fiscale.\nCommessa: Perfetto. Ecco la SIM. Il Suo nuovo numero è: tre, tre, uno, cinque, sei, due, quattro, zero, otto, sette.\nNarrator: Dialogo due. Mezz'ora dopo, Bruno chiama Júlia.\nJúlia: Pronto?\nBruno: Ciao Júlia, sono Bruno!\nJúlia: Bruno? Non conosco questo numero!\nBruno: È il mio numero nuovo, italiano!\nJúlia: Finalmente! Senti, vuoi venire a cena da Marco stasera?\nBruno: Sì, voglio venire! Posso portare qualcosa?\nJúlia: Puoi comprare il pane? Io porto il dolce.\nBruno: Va bene. A che ora?\nJúlia: Alle otto. Marco vuole conoscere il mio fratellino!\nNarrator: Dialogo tre. Il pomeriggio, a casa di Júlia.\nBruno: Júlia, il telefono è quasi scarico, ma il mio caricabatterie non entra nella presa!\nJúlia: Eh, la spina brasiliana è diversa. Ti serve un adattatore.\nBruno: Posso usare il tuo caricabatterie?\nJúlia: Certo, è sulla scrivania. Ma domani puoi comprare un adattatore in ferramenta.\nBruno: Va bene. Adesso mando un vocale a Paolo, per la stanza in via Zamboni.\nBruno: Ciao Paolo, sono Bruno, l'amico di Davide. Questo è il mio nuovo numero. Voglio vedere la stanza: posso venire sabato mattina? Grazie, ciao!",
+   "31.2 Ripeti": "Narrator: Mi serve una SIM.\nNarrator: Mi servono molti giga.\nNarrator: Posso pagare con la carta?\nNarrator: Può ripetere, per favore?\nNarrator: Vuoi venire a cena?\nNarrator: Voglio vedere la stanza.",
+   "31.3 Domanda o frase": "Narrator: Numero uno. Puoi chiamare stasera?\nNarrator: Numero due. Vuole pagare con la carta.\nNarrator: Numero tre. Posso usare il tuo telefono?\nNarrator: Numero quattro. Ti serve un adattatore.\nNarrator: Numero cinque. Volete venire anche voi?\nNarrator: Numero sei. Possiamo fare una videochiamata."
+  }
+ },
+ "images": {
+  "it-a1-unita-31": {
+   "A": "sim card",
+   "B": "mobile phone shop interior",
+   "C": "smartphone in hand",
+   "D": "phone charger cable",
+   "E": "travel plug adapter",
+   "F": "headphones",
+   "G": "video call on laptop",
+   "H": "wall electrical socket"
+  }
+ }
+}
