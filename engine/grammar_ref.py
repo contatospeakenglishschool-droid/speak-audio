@@ -757,3 +757,25 @@ def predictions(b):
 <b>Likely</b> is an adjective, so it needs <b>be</b>: <i>It's likely to…</i>, not <s>It likely to…</s>. Opposite: <b>unlikely</b>.</p>
 {_dont([("It will to be cheaper.", "It <b>will be</b> cheaper."), ("They might are safer.", "They <b>might be</b> safer."), ("It's likely be popular.", "It's likely <b>to be</b> popular."), ("I want go by car tomorrow. (= won't)", "I <b>won't</b> go by car tomorrow.")])}""",
     16, """<p>Brazilians often add <i>to</i> after modals (<i>might to</i>), confuse <i>want</i> and <i>won't</i> in speaking and listening, and use <i>will</i> for every prediction. Practice the scale: ask the student to rate each prediction from 0% to 100%.</p>""")
+
+
+def future_forms(b):
+    """A2 Unit 34: four future forms compared: present continuous, be going to, will, present simple."""
+    b.page(f"""{b.sec("+", "Grammar reference: four ways to talk about the future", "")}
+<div class="box" style="margin-top:0"><h4>WHICH FUTURE?</h4>English has no single "future tense". We choose the form that shows <b>what kind of future</b> it is: an arrangement, a plan, a prediction or a timetable. Sometimes two forms are possible; the meaning changes a little.</div>
+{_h("1. THE FOUR FORMS")}
+{_tbl(["form", "use", "examples"], [
+    ["<b>present continuous</b><br>am / is / are + verb-ing", "<b>arrangements</b>: fixed plans, often with other people, with a time", "<i>I<b>'m starting</b> at the shelter next week. We<b>'re meeting</b> Danny tomorrow.</i>"],
+    ["<b>be going to</b> + base form", "<b>plans and intentions</b>: you have decided", "<i>I<b>'m going to take</b> a year off. They<b>'re going to learn</b> Portuguese.</i>"],
+    ["", "<b>predictions with evidence</b>: you can see it now", "<i>Look at those clouds. It<b>'s going to rain</b>. Look at the line: we<b>'re going to be</b> busy.</i>"],
+    ["<b>will</b> + base form", "<b>predictions with opinion</b> (I think, I'm sure, probably)", "<i>I think he<b>'ll have</b> a great time. You<b>'ll love</b> it.</i>"],
+    ["", "<b>decisions at the moment of speaking</b>, offers, promises", "<i>The phone's ringing. I<b>'ll get</b> it! I<b>'ll help</b> you.</i>"],
+    ["<b>present simple</b>", "<b>timetables</b> and schedules (Unit 32)", "<i>The class <b>starts</b> in a few weeks. My lesson <b>is</b> on Friday.</i>"]], "8.3pt")}
+{_h("2. GOING TO OR WILL?")}
+{_tbl(["going to", "will"], [
+    ["decided before: <i>I'm going to visit my parents this weekend.</i>", "decided now: <i>Oh, you're not busy? I'll visit you, then!</i>"],
+    ["evidence: <i>He's driving too fast. He's going to have an accident!</i>", "opinion: <i>I think he'll have an accident one day.</i>"]], "8.6pt")}
+<p class="small" style="margin:.8mm 0"><b>going to</b> in the first conditional: <i>If I get the internship, I<b>'m going to go</b> with the vets.</i> (also <i>will</i>)<br>
+<b>gonna</b>: in fast, informal speech, <i>going to</i> often sounds like <i>gonna</i> /ˈɡʌnə/. Understand it and use it in speech if you like, but <b>never write it</b>.</p>
+{_dont([("I will meet Danny tomorrow at six. (arranged)", "I<b>'m meeting</b> Danny tomorrow at six."), ("Look at the clouds! It will rain.", "It<b>'s going to</b> rain."), ("I think you're having a great time in Paris.", "I think you<b>'ll have</b> a great time."), ("I'm going to study tomorrow. I gonna study.", "I<b>'m going to</b> study.")])}""",
+    16, """<p>This page brings together Units 32, 33 and 34. Brazilians tend to use <i>will</i> for everything, or the present simple for plans (<i>Tomorrow I travel</i>). Ask two questions: <i>Did you decide before? Do you have evidence?</i></p>""")

@@ -1,0 +1,13 @@
+{
+ "material": "speak-bridge",
+ "characters": {"Lucy": "en-US-Neural2-C", "Rita": "en-US-Chirp3-HD-Aoede", "Narrator": "en-US-Neural2-J"},
+ "pauses": {"34.3": 3000},
+ "units": {"a2-unit-34": {
+  "34.1 Gap year plans": "Rita: Lucy, I heard you're taking a gap year. Is that true?\nLucy: Yes! You know I'm studying biology at the moment. But I love animals, and I think I might want to change to veterinary medicine. So I'm going to take a year off from college to find out more about that kind of work.\nRita: Wow. What are you going to do?\nLucy: Well, I'm going to volunteer at the animal shelter where Kate found Pepper. I'm starting there next week. I'm also going to learn how to ride a horse. My first lesson is next Friday.\nRita: I guess that will be useful if you become a vet.\nLucy: Of course! And I've applied for an internship at a vet clinic. If I get the internship, I'm going to go with the vets on their farm visits. I can't wait!\nRita: That's great. I hope you get it. You know, my son Danny is planning a gap year too.\nLucy: Really? He just finished high school, right?\nRita: That's right. He and his best friend are going to South America, and they want to start in Brazil! But it's expensive, so they're working at the supermarket on our street. They're going to save all their money until they have enough for the trip.\nLucy: Does he speak Portuguese?\nRita: Not yet. That's the second part of the plan. They're going to learn Portuguese. The class starts in a few weeks.\nLucy: Have they bought their plane tickets?\nRita: Not yet, but they're leaving sometime in the new year. After the trip, he's going to study politics at college.\nLucy: I think he'll have a great time! Oh, look at all those people at the door. It looks like we're going to be busy. Back to work!",
+  "34.2 Repeat: going to and will": "Narrator: I'm going to take a year off.\nNarrator: They're going to save their money.\nNarrator: What are you going to do?\nNarrator: I think he'll have a great time.\nNarrator: It's going to be busy.\nNarrator: I'm starting next week.",
+  "34.3 Which future?": "Narrator: Number one. I'm going to learn to ride a horse.\nNarrator: Number two. I think you'll love it.\nNarrator: Number three. We're leaving in January.\nNarrator: Number four. The class starts at six.\nNarrator: Number five. Look at those clouds. It's going to rain.\nNarrator: Number six. I'm meeting Danny tomorrow."
+ }},
+ "images": {"a2-unit-34": {
+  "A": "backpacker train station", "B": "volunteer animal shelter dog", "C": "horse riding lesson", "D": "veterinarian examining dog", "E": "world map travel planning", "F": "notebook resume desk"
+ }}
+}
