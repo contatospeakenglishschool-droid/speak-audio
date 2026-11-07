@@ -702,3 +702,26 @@ def describing_photos(b):
 <b>Their / there / they're</b> sound the same /ðer/: <i><b>Their</b> kitchen</i> (possessive) · <i>over <b>there</b></i> (place) · <i><b>They're</b> cooking</i> (they are).</p>
 {_dont([("There is two people.", "There <b>are</b> two people."), ("They look like happy.", "They <b>look</b> happy."), ("Can be she's his mother.", "<b>Maybe</b> she's his mother."), ("In the photo I can see a man.", "<b>There's</b> a man in the photo.")])}""",
     16, """<p>Brazilians often say <i>Can be…</i> (a direct translation) for guesses: practice <i>Maybe…</i> and <i>Perhaps…</i> at the start of the sentence. Exam tip: avoid repeating <i>I can see</i>; use <i>there is / there are</i> and positions.</p>""")
+
+
+def present_for_future(b):
+    """A2 Unit 32: present simple (timetables) and present continuous (arrangements) for the future."""
+    b.page(f"""{b.sec("+", "Grammar reference: present tenses for the future", "")}
+<div class="box" style="margin-top:0"><h4>TWO PRESENT TENSES, ONE FUTURE</h4>English often uses <b>present</b> tenses to talk about the <b>future</b>. The time expression (<i>on Monday, at seven, tomorrow</i>) shows that it's the future.<br>
+<b>Present simple</b> = a fixed schedule or timetable (tours, transportation, classes, events). · <b>Present continuous</b> = a personal plan you have already arranged, often with other people.</div>
+{_h("1. FORM AND USE")}
+{_tbl(["", "present simple: timetables", "present continuous: arrangements"], [
+    ["<b>positive</b>", "<i>The flight <b>lands</b> at two. The bus <b>leaves</b> at seven.</i>", "<i>We<b>'re having</b> dinner at six. I<b>'m going</b> on the photo tour.</i>"],
+    ["<b>negative</b>", "<i>The bus <b>doesn't leave</b> until after lunch.</i>", "<i>I<b>'m not coming</b> on the boat trip.</i>"],
+    ["<b>questions</b>", "<i>What time <b>does</b> the boat trip <b>start</b>?</i><br>(question word) + do / does + subject + verb", "<i><b>Are</b> you and Maya <b>coming</b>? What <b>are</b> you <b>doing</b> on Thursday?</i><br>(question word) + am / is / are + subject + verb-ing"],
+    ["<b>typical verbs</b>", "start, finish, open, close, leave, arrive, land, take off", "meet, have dinner, see, go, come, stay, fly, visit"],
+    ["<b>who decided?</b>", "a company, a school, a timetable", "you (and other people): it's in your calendar"]], "8.4pt")}
+{_h("2. COMPARE")}
+{_tbl(["sentence", "why?"], [
+    ["<i>The museum <b>opens</b> at nine tomorrow.</i>", "official schedule"],
+    ["<i>We<b>'re visiting</b> the museum tomorrow morning.</i>", "our arrangement"],
+    ["<i>The movie <b>starts</b> at 8:30, so we<b>'re meeting</b> at eight.</i>", "both: the timetable + our plan"]], "8.6pt")}
+<p class="small" style="margin:.8mm 0"><b>Remember the -s:</b> <i>the bus leave<b>s</b>, the flight land<b>s</b>, the tour start<b>s</b></i>. Linking helps you hear and say it: <i>leaves‿at seven, lands‿at two</i>.<br>
+Later you will add <b>going to</b> (intentions) and <b>will</b> (decisions now, predictions). For fixed plans, the present continuous is the most natural choice.</p>
+{_dont([("Tomorrow I meet my brother for coffee.", "Tomorrow I<b>'m meeting</b> my brother."), ("The bus is leaving at 7:00 every day.", "The bus <b>leaves</b> at 7:00 every day."), ("What time the tour starts?", "What time <b>does</b> the tour <b>start</b>?"), ("You are coming with us?", "<b>Are you</b> coming with us?")])}""",
+    16, """<p>Brazilians often use the present simple for personal plans (<i>Tomorrow I go to the doctor</i>), because Portuguese allows it. Ask: <i>Is it a timetable or your plan?</i> Keep <i>going to / will</i> for later units; don't overload the student now.</p>""")

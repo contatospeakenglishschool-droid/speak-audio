@@ -1,0 +1,12 @@
+{
+ "material": "speak-bridge",
+ "characters": {"Paulo": "en-US-Neural2-I", "Carol": "en-US-Chirp3-HD-Leda", "Narrator": "en-US-Neural2-J"},
+ "units": {"a2-unit-32": {
+  "32.1 The Alaska tour": "Carol: Hi Paulo! I'm so excited about Alaska. Did you get the tour information?\nPaulo: Yes, I'm looking at it now. It says the flight lands in Anchorage at two o'clock on Monday. We meet the guide at the airport, and then a bus takes us to the hotel. The rest of the day is free.\nCarol: Great. Maya and I have a plan for that evening. We're having an early dinner at a seafood restaurant near the hotel. Are you coming with us?\nPaulo: Of course! What time are you meeting?\nCarol: At six. We need to go to bed early, because Tuesday is a busy day.\nPaulo: That's true. The bus leaves at seven to take us to Seward, and the boat trip starts at eleven. It says here that we see glaciers and icebergs, and people usually see whales and sea otters too.\nCarol: I'm taking my warmest jacket. It's cold on the water, even in September.\nPaulo: Good idea. On Wednesday we fly to Fairbanks. The plane leaves at three, and in the evening there's a Northern Lights tour. September is the start of the aurora season there.\nCarol: I really hope we see them! What happens on Thursday?\nPaulo: We can choose. There's a photography tour in the morning or a trip to a hot spring in the afternoon. I'm going on the photography tour, of course. Are you and Maya coming?\nCarol: No way! Maya and I are going to the hot spring. The bus doesn't leave until after lunch, so we can sleep late.\nPaulo: OK. But I'm sharing my best photos with everyone, and you're going to be jealous!\nCarol: We'll see!",
+  "32.2 Repeat: build it up": "Narrator: lands at\nNarrator: lands at two o'clock\nNarrator: The flight lands at two o'clock.\nNarrator: The flight lands at two o'clock on Monday.\nNarrator: leaves at\nNarrator: leaves at seven\nNarrator: The bus leaves at seven.\nNarrator: The bus leaves at seven on Tuesday.",
+  "32.3 Repeat: questions about plans": "Narrator: What time does the boat trip start?\nNarrator: When does the plane leave?\nNarrator: What are you doing on Thursday?\nNarrator: Are you coming with us?\nNarrator: Who are you having dinner with?\nNarrator: Does the bus leave after lunch?"
+ }},
+ "images": {"a2-unit-32": {
+  "A": "glacier alaska", "B": "iceberg", "C": "humpback whale tail", "D": "sea otter portrait", "E": "moose portrait", "F": "hot spring steam", "G": "northern lights aurora", "H": "brown bear portrait"
+ }}
+}
