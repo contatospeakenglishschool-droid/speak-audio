@@ -1,0 +1,30 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
+  "Contadino": "it-IT-Chirp3-HD-Charon",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"14.2": 2500, "14.3": 3500},
+ "units": {
+  "it-a2-unita-14": {
+   "14.1 Testo e dialogo": "Narrator: Prima parte. Il blog del bar di Giulia: la spesa sostenibile.\nGiulia: Da un mese al bar compriamo tutto a chilometro zero. Il latte arriva da una fattoria vicino a Bologna: ne usiamo trenta litri alla settimana. Le uova vengono dai colli: ne compro dieci dozzine ogni lunedì. Il pane lo fa un piccolo forno in via San Vitale: ci vado ogni mattina alle sei, in bicicletta. Perché? Perché la frutta del supermercato viaggia per migliaia di chilometri. Ci ho pensato a lungo e ho deciso: meno plastica e meno sprechi. Le paste del giorno prima le vendiamo a metà prezzo: così non ne buttiamo più. Non è sempre facile. Le fragole a marzo? Non ce ne sono! Ma i clienti sono contenti. E voi? Ci avete mai pensato?\nNarrator: Seconda parte. Sabato mattina, al mercato contadino. Júlia è con la signora Rossi.\nSignora Rossi: Júlia, io ci vengo ogni sabato da vent'anni. Qui la frutta è buonissima.\nJúlia: Che belle fragole! Sono di qui?\nContadino: Sì, signorina, sono dei nostri campi, a dieci chilometri. Quante ne vuole?\nJúlia: Ne prendo mezzo chilo. E le uova?\nContadino: Mi dispiace, oggi non ne ho più. Le ho finite alle nove!\nSignora Rossi: Bisogna arrivare presto. Io ci arrivo alle otto.\nJúlia: E il formaggio? Ce n'è ancora?\nContadino: Sì, ne ho ancora un po'. Ne vuole un etto?\nJúlia: Due etti, grazie. Ho portato la mia borsa di stoffa.\nSignora Rossi: Brava! Niente buste di plastica.\nJúlia: Signora, ma Lei va anche al supermercato?\nSignora Rossi: Ci vado solo per il caffè. Il Suo caffè brasiliano, naturalmente!",
+   "14.2 Ripeti": "Narrator: ci vado, ci vengo, ci arrivo\nNarrator: ne prendo mezzo chilo\nNarrator: non ne ho più\nNarrator: ce n'è, ce ne sono\nNarrator: Ci ho pensato a lungo.",
+   "14.3 Ci o ne": "Narrator: Numero uno. Ci vado ogni sabato.\nNarrator: Numero due. Ne compro un chilo.\nNarrator: Numero tre. Non ne ho più.\nNarrator: Numero quattro. Ci arrivo alle otto.\nNarrator: Numero cinque. Ne vuole un etto?\nNarrator: Numero sei. Ci torno domani."
+  }
+ },
+ "images": {
+  "it-a2-unita-14": {
+   "A": "farmers market stall vegetables",
+   "B": "strawberries basket",
+   "C": "eggs carton",
+   "D": "cheese wheel",
+   "E": "bread bakery loaves",
+   "F": "cotton shopping bag vegetables",
+   "G": "plastic bottles waste",
+   "H": "farmer field harvest"
+  }
+ }
+}

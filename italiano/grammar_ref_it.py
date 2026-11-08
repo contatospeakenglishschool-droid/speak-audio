@@ -378,3 +378,27 @@ def comparativi_superlativi(b):
 {_dont([("È più alto que me.", "È più alto <b>di</b> me."), ("È tanto bravo come Tommaso.", "È bravo <b>quanto</b> / <b>così</b> bravo <b>come</b> Tommaso."),
         ("Parla inglese migliore.", "Parla inglese <b>meglio</b>."), ("È il più migliore.", "È <b>il migliore</b>."), ("Molto bellissimo.", "<b>Bellissimo</b>.")])}""",
     20, """<p>In portoghese <i>melhor</i> vale sia per <i>migliore</i> che per <i>meglio</i>: da qui l'errore <i>parla migliore</i>. Usare la prova "più buono / più bene". <i>Tanto… quanto</i> e <i>così… come</i>: spesso basta solo <i>quanto</i> o <i>come</i> (<i>bravo quanto lui</i>).</p>""")
+
+
+def ne_ci(b):
+    """A2 Ponte 14: ne partitivo (quantità, non… più, ce n'è / ce ne sono) e ci locativo (ci vado) + ci pensare / credere."""
+    ne = [("un numero", "Quante uova compri? — <b>Ne</b> compro dieci dozzine."), ("un peso / una misura", "Quanto formaggio? — <b>Ne</b> prendo due etti. · <b>Ne</b> usiamo trenta litri."),
+          ("una quantità vaga", "<b>Ne</b> ho ancora un po'. · <b>Ne</b> vuole un po'?"), ("zero", "Non <b>ne</b> ho più. · Non <b>ne</b> buttiamo più.")]
+    ci = [("<b>ci</b> = in / a quel posto", "Vai al mercato? — Sì, <b>ci</b> vado ogni sabato. · <b>Ci</b> arrivo alle otto."),
+          ("<b>ci</b> + pensare / credere", "Pensi all'ambiente? — Sì, <b>ci</b> penso. · <b>Ci</b> ho pensato a lungo."),
+          ("<b>c'è / ci sono</b> + ne", "Ci sono fragole? — No, non <b>ce ne</b> sono. · C'è formaggio? — Sì, <b>ce n'è</b> ancora.")]
+    cmp = [("<b>lo, la, li, le</b>", "tutta la cosa", "<i>Le uova? <b>Le</b> ho finite.</i> (tutte)"),
+           ("<b>ne</b>", "una parte, una quantità", "<i>Le uova? <b>Ne</b> ho prese sei.</i> (sei di tutte)"),
+           ("<b>ci</b>", "un luogo (o un'idea con <i>pensare a</i>)", "<i>Al mercato? <b>Ci</b> vado domani.</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: ne e ci", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4><b>Ne</b> e <b>ci</b> sono due piccole parole che evitano di ripetere. <b>Ne</b> sostituisce un nome quando parliamo di una <b>quantità</b> (anche zero). <b>Ci</b> sostituisce un <b>luogo</b> (<i>al mercato, a Bologna, in via San Vitale</i>) e la cosa a cui pensiamo (<i>pensare a…</i>). Tutti e due vanno <b>prima del verbo</b>.</div>
+{_h("1. NE: QUANTO?")}
+{_tbl(["con…", "esempio"], ne, "8.6pt", ["38mm", None])}
+{_h("2. CI: DOVE? A CHE COSA?")}
+{_tbl(["uso", "esempio"], ci, "8.6pt", ["38mm", None])}
+<p class="small" style="margin:.6mm 0">Davanti a <i>ne</i>, <i>ci</i> diventa <b>ce</b>: <i>ce n'è, ce ne sono</i>. Al passato: <i>Ci sono andata ieri. · Ne ho comprat<b>e</b> sei</i> (le uova: accordo, come nell'unità 12).</p>
+{_h("3. LO, NE O CI?")}
+{_tbl(["pronome", "per…", "esempio"], cmp, "8.6pt", ["24mm", "46mm", None])}
+{_dont([("Quanto formaggio? Prendo due etti.", "<b>Ne</b> prendo due etti."), ("Non ho più uova. — Neanche io ho.", "Neanch'io <b>ne</b> ho."),
+        ("Vai al mercato? Sì, vado lì ogni sabato.", "Sì, <b>ci</b> vado."), ("Ci ne sono?", "<b>Ce ne</b> sono?"), ("Penso a questo. → Lo penso.", "<b>Ci</b> penso.")])}""",
+    20, """<p>Il portoghese non ha <i>ne</i> e usa poco <i>ci</i> (<i>vou lá</i>): lo studente tende a ometterli o a dire <i>lì</i>. Non serve vietare <i>lì</i>, ma <i>ci vado</i> è la forma naturale. Lavorare con domande veloci: <i>Quanto? → ne. Dove? → ci.</i></p>""")
