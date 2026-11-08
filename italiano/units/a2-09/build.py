@@ -130,7 +130,7 @@ def build(teacher):
     ea = [("Penso che Marco", "sia", " molto bravo."), ("Credo che Giulia", "abbia", " ragione sugli affitti."), ("Spero che voi", "siate", " contenti del giardino."),
           ("Mi sembra che i turisti", "siano", " sempre di più."), ("Penso che tu", "abbia", " bisogno di una vacanza.")]
     eal = "".join(f"<li>{a} {A(c, 'min-width:18mm')}{z}</li>" for a, c, z in ea)
-    hp = [("Davide corre la maratona a ottobre.", "Spero che Davide finisca la maratona!"), ("Bruno si laurea a luglio.", "Spero che Bruno prenda un bel voto."),
+    hp = [("Davide corre la maratona a ottobre.", "Spero che Davide finisca la maratona!"), ("A giugno Bruno dà il suo primo esame.", "Spero che Bruno prenda un bel voto."),
           ("Giulia vende le colombe a Pasqua.", "Spero che i clienti le comprino tutte."), ("Il giardino sarà pronto a settembre.", "Spero che non ci siano ritardi.")]
     hpl = "".join(f"<li>{a}<div class='wline'>{R(c)}</div></li>" for a, c in hp)
     b.page(f"""{sec(5, "Pratica", "9 min")}

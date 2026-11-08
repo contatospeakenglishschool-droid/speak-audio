@@ -299,3 +299,31 @@ def congiuntivo_presente(b):
 {_dont([("Penso che è caro.", "Penso che <b>sia</b> caro."), ("Secondo me sia caro.", "Secondo me <b>è</b> caro."), ("Spero che vadi bene.", "Spero che <b>vada</b> bene."),
         ("Spero che io vinca.", "Spero <b>di vincere</b>."), ("Penso che sì.", "Penso <b>di sì</b>.")])}""",
     16, """<p>In portoghese c'è il <i>subjuntivo</i>, ma dopo <i>acho que</i> si usa l'indicativo (<i>acho que é caro</i>): da qui l'errore <i>penso che è</i>. Basta un primo contatto con <i>sia, abbia, vada, faccia</i>; il resto al B1.</p>""")
+
+
+def pronomi_diretti_passato(b):
+    """A2 Ponte 11: pronomi diretti con il passato prossimo (accordo del participio); già, non… ancora, appena; il pronome che riprende il nome."""
+    forms = [("il film", "<b>lo</b> vedo", "<b>l'</b>ho vist<b>o</b>", "<i>Il film? L'ho già visto.</i>"),
+             ("la mostra", "<b>la</b> vedo", "<b>l'</b>ho vist<b>a</b>", "<i>La mostra? Non l'ho ancora vista.</i>"),
+             ("i biglietti", "<b>li</b> compro", "<b>li</b> ho comprat<b>i</b>", "<i>I biglietti? Li ho presi ieri.</i>"),
+             ("le foto", "<b>le</b> guardo", "<b>le</b> ho guardat<b>e</b>", "<i>Le foto? Alcune le ho viste.</i>")]
+    adv = [("<b>già</b>", "una cosa fatta (prima del previsto)", "Ho <b>già</b> visto il film. · L'ho <b>già</b> visto."),
+           ("<b>non… ancora</b>", "una cosa non fatta (ma la farò)", "<b>Non</b> ho <b>ancora</b> visto la mostra. · <b>Non</b> l'ho <b>ancora</b> vista."),
+           ("<b>appena</b>", "una cosa fatta un momento fa", "Ho <b>appena</b> sentito Davide. · Siamo <b>appena</b> arrivate.")]
+    cmp = [("pronome <b>diretto</b> (lo, la, li, le)", "il participio <b>cambia</b>", "<i>La mostra? L'ho vist<b>a</b>.</i>"),
+           ("pronome <b>indiretto</b> (gli, le)", "il participio <b>non cambia</b>", "<i>A Giulia? Le ho telefonat<b>o</b>.</i>"),
+           ("nessun pronome", "il participio <b>non cambia</b>", "<i>Ho vist<b>o</b> la mostra.</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: l'ho visto, l'ho vista", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Con il passato prossimo il pronome diretto va <b>prima di avere</b>: <i>lo, la</i> diventano <b>l'</b> e il participio prende il genere e il numero della cosa (<b>-o, -a, -i, -e</b>). Così, anche quando diciamo solo <i>l'ho vista</i>, chi ascolta capisce che parliamo di una cosa femminile.</div>
+{_h("1. LA FORMA")}
+{_tbl(["la cosa", "presente", "passato prossimo", "esempio"], forms, "8.6pt", ["24mm", "24mm", "34mm", None])}
+<p class="small" style="margin:.6mm 0">Davanti a <i>ho, hai, ha, hanno</i> scriviamo <b>l'</b>: <i>l'ho, l'hai, l'ha, l'hanno</i>. <i>Li</i> e <i>le</i> non cambiano mai: <i>li ho, le ho</i>.</p>
+{_h("2. GIÀ, NON… ANCORA, APPENA")}
+{_tbl(["parola", "per dire…", "esempio (va tra avere e il participio)"], adv, "8.6pt", ["24mm", "46mm", None])}
+<div class="two"><div>{_h("3. QUANDO CAMBIA IL PARTICIPIO?")}
+{_tbl(["con…", "", "esempio"], cmp, "8.2pt", ["30mm", "24mm", None])}</div>
+<div>{_h("4. PRIMA LA COSA, POI IL PRONOME")}
+<div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt">Nel parlato mettiamo la cosa all'inizio e poi la riprendiamo con il pronome:<br><i><b>I biglietti li</b> compro io.</i><br><i><b>Il libro l'</b>ho letto tutto.</i><br><i><b>Le birre le</b> pago io!</i><br>Il pronome è obbligatorio: <s>I biglietti compro io.</s></div></div></div>
+{_dont([("Ho visto lo.", "<b>L'ho visto</b>."), ("La mostra? L'ho visto.", "L'ho vist<b>a</b>."), ("I biglietti? Li ho comprato.", "Li ho comprat<b>i</b>."),
+        ("Ancora non ho visto.", "<b>Non</b> l'ho <b>ancora</b> visto."), ("Ho già lo visto.", "<b>L'ho già</b> visto.")])}""",
+    16, """<p>In portoghese il pronome si mette spesso dopo il verbo o si omette (<i>vi ontem</i>), e il participio non cambia. Per lo studente l'accordo <i>l'ho vista</i> non è naturale: farlo ascoltare molte volte (pagina 5B) prima di chiederlo nello scritto.</p>""")

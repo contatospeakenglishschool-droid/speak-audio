@@ -1,0 +1,30 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Chiara": "it-IT-Chirp3-HD-Achernar",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"11.2": 2500, "11.3": 3500},
+ "units": {
+  "it-a2-unita-11": {
+   "11.1 Dialogo": "Narrator: Dialogo uno. Inizio aprile, venerdì pomeriggio. Giulia telefona a Júlia.\nGiulia: Ciao Júlia! Ti va di uscire domani sera?\nJúlia: Volentieri! Che cosa facciamo?\nGiulia: Al cinema danno Notte a Napoli. Andiamo?\nJúlia: L'ho già visto! L'ho visto la settimana scorsa con Marco.\nGiulia: Peccato. E la mostra di fotografia al MAMbo? Le foto di Bologna negli anni Cinquanta.\nJúlia: Quella non l'ho ancora vista. Ottima idea!\nGiulia: Allora i biglietti li compro io, online.\nJúlia: Perfetto. Invitiamo anche Davide?\nGiulia: L'ho appena sentito: domani sera lavora al ristorante.\nNarrator: Dialogo due. Sabato sera, al museo.\nJúlia: Eccomi! Scusa il ritardo. Hai preso i biglietti?\nGiulia: Sì, li ho presi ieri. Eccoli, sono sul telefono.\nJúlia: Brava! Hai già visto qualche foto su internet?\nGiulia: Sì, alcune le ho viste. Ma dal vivo è un'altra cosa.\nJúlia: Guarda questa! È piazza Maggiore nel millenovecentocinquantadue. Quante biciclette!\nGiulia: La signora Rossi l'ha conosciuta così, la piazza.\nJúlia: È vero! Le faccio una foto e gliela mostro domani. Anzi, l'ho appena fatta!\nNarrator: Dialogo tre. Dopo la mostra, in pizzeria. Arrivano Bruno e Chiara.\nBruno: Ciao ragazze! Avete già ordinato?\nGiulia: No, non ancora. Siamo appena arrivate.\nChiara: Allora, la mostra? Vi è piaciuta?\nJúlia: Bellissima! E tu, Bruno? Hai finito di studiare per l'esame?\nBruno: Sì! Il libro di Storia medievale l'ho letto tutto.\nChiara: Non è vero! Non l'hai ancora finito. L'ho visto ieri sulla tua scrivania: eri a pagina cento!\nBruno: Va bene, va bene... l'ho letto a metà.\nGiulia: Ah ah! Allora, ordiniamo?\nBruno: Sì. E le birre le pago io!",
+   "11.2 Ripeti": "Narrator: l'ho visto, l'ho vista\nNarrator: li ho visti, le ho viste\nNarrator: L'ho già visto.\nNarrator: Non l'ho ancora vista.\nNarrator: L'ho appena sentito.\nNarrator: I biglietti li compro io.",
+   "11.3 Che cosa": "Narrator: Numero uno. L'ho vista ieri.\nNarrator: Numero due. L'ho visto due volte.\nNarrator: Numero tre. Li ho comprati online.\nNarrator: Numero quattro. Le ho viste su internet.\nNarrator: Numero cinque. Non l'ho ancora finito.\nNarrator: Numero sei. L'ho appena chiamata."
+  }
+ },
+ "images": {
+  "it-a2-unita-11": {
+   "A": "cinema seats red",
+   "B": "art gallery exhibition visitors",
+   "C": "museum hall",
+   "D": "concert crowd stage",
+   "E": "aperitif spritz drinks",
+   "F": "pizza restaurant table",
+   "G": "theater stage curtain",
+   "H": "football stadium match"
+  }
+ }
+}
