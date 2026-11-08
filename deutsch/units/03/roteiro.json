@@ -1,0 +1,19 @@
+{
+ "material": "speak-essenziell",
+ "characters": {
+  "Rafael": "de-DE-Chirp3-HD-Iapetus",
+  "Lena": "de-DE-Chirp3-HD-Achernar",
+  "Aylin": "de-DE-Chirp3-HD-Kore",
+  "Frau Krüger": "de-DE-Chirp3-HD-Leda",
+  "Jonas": "de-DE-Chirp3-HD-Puck",
+  "Narrator": "de-DE-Chirp3-HD-Aoede"
+ },
+ "pauses": {"03.2": 2500, "03.3": 3000},
+ "units": {
+  "de-a1-einheit-03": {
+   "03.1 Dialog": "Narrator: Dialog eins.\nFrau Krüger: Herr Costa, eine Frage: Was sind Sie von Beruf?\nRafael: Ich bin Informatiker.\nFrau Krüger: Und sind Sie verheiratet?\nRafael: Nein, ich bin nicht verheiratet. Ich bin ledig.\nFrau Krüger: Danke schön!\nNarrator: Dialog zwei.\nRafael: Lena, was bist du von Beruf?\nLena: Ich bin Designerin. Ich arbeite hier bei Nordlicht.\nRafael: Ich arbeite auch bei Nordlicht. Als Informatiker!\nNarrator: Dialog drei.\nRafael: Jonas, was machst du?\nJonas: Ich bin Student. Ich studiere Musik.\nRafael: Und du, Aylin? Was bist du von Beruf?\nAylin: Ich bin Köchin. Ich arbeite hier im Café.",
+   "03.2 Wiederhole Berufe": "Narrator: der Lehrer, die Lehrerin\nNarrator: der Arzt, die Ärztin\nNarrator: der Ingenieur, die Ingenieurin\nNarrator: der Kellner, die Kellnerin\nNarrator: der Verkäufer, die Verkäuferin\nNarrator: der Student, die Studentin\nNarrator: der Koch, die Köchin\nNarrator: der Informatiker, die Informatikerin",
+   "03.3 Wiederhole Sätze": "Narrator: Was bist du von Beruf?\nNarrator: Was sind Sie von Beruf?\nNarrator: Was machst du?\nNarrator: Ich bin Lehrerin.\nNarrator: Ich arbeite als Kellner.\nNarrator: Ich arbeite bei Nordlicht.\nNarrator: Ich bin nicht verheiratet."
+  }
+ }
+}
