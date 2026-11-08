@@ -978,3 +978,24 @@ def purpose_method(b):
 <b>for</b> + noun, never for + verb: <i>I came here <b>to learn</b> English.</i> ✗ <i>for learn</i> · <b>to</b> answers "Why?": <i>Why did you go to the store? <b>To buy</b> tea bags.</i></p>
 {_dont([("I came here for learn English.", "I came here <b>to learn</b> English."), ("Clean it by use a toothbrush.", "Clean it by <b>using</b> a toothbrush."), ("For to fix a zipper, use a candle.", "<b>To</b> fix a zipper, use a candle."), ("I study English for get a better job.", "I study English <b>to get</b> a better job."), ("It works because of the ice melts.", "It works <b>because</b> the ice melts.")])}""",
     20, """<p>The most common Brazilian mistake in this area is <i>for</i> + verb (<i>for learn, for get</i>), because Portuguese uses one word for both purpose and benefit. Drill: <i>Why are you studying English? To…</i></p>""")
+
+
+def passive_present(b):
+    """A2 Unit 45: present simple passive: am/is/are + past participle; by + agent; active vs passive; irregular participles."""
+    b.page(f"""{b.sec("+", "Grammar reference: the passive (present simple)", "")}
+<div class="box" style="margin-top:0"><h4>ACTIVE OR PASSIVE?</h4><b>Active:</b> the subject does the action: <i><b>Marlon</b> creates the models.</i> <b>Passive:</b> the subject receives the action: <i><b>The models</b> are created.</i> We use the passive when the action is more important than who does it, or when we don't know or don't care who does it.</div>
+{_h("1. FORM: AM / IS / ARE + PAST PARTICIPLE")}
+{_tbl(["", "singular", "plural"], [
+    ["<b>positive</b>", "<i>The game <b>is tested</b>.</i>", "<i>The videos <b>are made</b>.</i>"],
+    ["<b>negative</b>", "<i>The budget <b>isn't agreed</b> yet.</i>", "<i>The bugs <b>aren't found</b> easily.</i>"],
+    ["<b>question</b>", "<i><b>Is</b> the game <b>tested</b> by players?</i>", "<i>How <b>are</b> the videos <b>made</b>?</i>"]], "8.5pt")}
+{_h("2. ACTIVE → PASSIVE")}
+{_tbl(["active", "passive"], [
+    ["<i>Annie <b>produces</b> the artwork.</i>", "<i>The artwork <b>is produced</b> (by Annie).</i>"],
+    ["<i>Lots of people <b>test</b> the game.</i>", "<i>The game <b>is tested</b> by lots of people.</i>"]], "8.5pt")}
+<p class="small" style="margin:.8mm 0">The object of the active sentence becomes the subject of the passive. Use <b>by</b> + person only when it's important or interesting.<br>
+<b>Processes</b> and <b>formal texts</b> often use the passive: <i>First the coffee beans <b>are picked</b>. Then they <b>are dried</b> in the sun…</i></p>
+{_h("3. PAST PARTICIPLES")}
+<p class="small" style="margin:.5mm 0"><b>regular:</b> agree → agreed, test → tested, record → recorded · <b>irregular:</b> choose → <b>chosen</b>, find → <b>found</b>, make → <b>made</b>, put → <b>put</b>, write → <b>written</b>, build → <b>built</b>, send → <b>sent</b>, take → <b>taken</b></p>
+{_dont([("The game is test by players.", "The game is <b>tested</b> by players."), ("The videos is made.", "The videos <b>are</b> made."), ("The budget agreed first.", "The budget <b>is</b> agreed first."), ("The artwork is produced for Annie.", "The artwork is produced <b>by</b> Annie."), ("The target audience is choosed.", "The target audience is <b>chosen</b>.")])}""",
+    20, """<p>Brazilians often forget <i>be</i> (<i>The budget agreed</i>), use the base form instead of the participle (<i>is test</i>), or use <i>for</i> instead of <i>by</i>. Only the present simple passive is practiced here; other tenses come at B1.</p>""")
