@@ -957,3 +957,24 @@ def rules_modals(b):
 <p class="small" style="margin:.5mm 0"><b>Pronunciation:</b> <i>have to</i> /ˈhæftə/, <i>has to</i> /ˈhæstə/, <i>supposed to</i> /səˈpoʊstə/ (the d is silent), <i>allowed</i> /əˈlaʊd/.</p>
 {_dont([("You must to wait.", "You must <b>wait</b>."), ("She have to choose a word.", "She <b>has</b> to choose a word."), ("You don't have to cheat! (not allowed)", "You <b>can't</b> cheat!"), ("You're not allow to look.", "You're not <b>allowed</b> to look."), ("You're suppose to listen.", "You're suppos<b>ed</b> to listen.")])}""",
     25, """<p>The key confusion: <i>don't have to</i> looks like "not allowed" to Brazilians (the direct translation into Portuguese can mean both). Make the student say the meaning out loud: necessary? not allowed? your choice? Also watch <i>allow / allowed</i> and <i>suppose / supposed</i> (the -ed is written but hard to hear).</p>""")
+
+
+def purpose_method(b):
+    """A2 Unit 44: purpose and method: to / in order to + base form, for + noun, by + verb-ing, because + clause."""
+    b.page(f"""{b.sec("+", "Grammar reference: explaining how and why", "")}
+<div class="box" style="margin-top:0"><h4>THE RESULT YOU WANT, HOW TO GET IT, AND WHY</h4>A life hack has two parts: the <b>result</b> you want (<i>white sneakers</i>) and <b>how</b> to get it (<i>use toothpaste</i>). Sometimes we also say <b>why</b> it works (<i>because…</i>).</div>
+{_h("1. THE RESULT YOU WANT (PURPOSE)")}
+{_tbl(["form", "grammar", "examples"], [
+    ["<b>to</b>", "to + base form", "<i>Paint your sneakers with beeswax <b>to make</b> them waterproof.</i>"],
+    ["<b>in order to</b>", "in order to + base form (more formal)", "<i><b>In order to remove</b> bad smells, put tea bags in your shoes.</i>"],
+    ["<b>for</b>", "for + noun phrase", "<i><b>For super white sneakers</b>, use toothpaste.</i>"]], "8.5pt")}
+{_h("2. HOW TO GET IT (METHOD)")}
+{_tbl(["form", "grammar", "examples"], [
+    ["<b>by</b>", "by + verb-ing", "<i>Keep your socks together <b>by putting</b> them in a mesh bag.</i>"]], "8.5pt")}
+{_h("3. WHY (REASON)")}
+{_tbl(["form", "grammar", "examples"], [
+    ["<b>because</b>", "because + subject + verb", "<i>This works <b>because the ice melts</b> and turns into steam.</i>"]], "8.5pt")}
+<p class="small" style="margin:.8mm 0"><b>Word order and commas:</b> result first → comma: <i>To fix a zipper, use a pencil.</i> · how first → no comma: <i>Use a pencil to fix a zipper.</i><br>
+<b>for</b> + noun, never for + verb: <i>I came here <b>to learn</b> English.</i> ✗ <i>for learn</i> · <b>to</b> answers "Why?": <i>Why did you go to the store? <b>To buy</b> tea bags.</i></p>
+{_dont([("I came here for learn English.", "I came here <b>to learn</b> English."), ("Clean it by use a toothbrush.", "Clean it by <b>using</b> a toothbrush."), ("For to fix a zipper, use a candle.", "<b>To</b> fix a zipper, use a candle."), ("I study English for get a better job.", "I study English <b>to get</b> a better job."), ("It works because of the ice melts.", "It works <b>because</b> the ice melts.")])}""",
+    20, """<p>The most common Brazilian mistake in this area is <i>for</i> + verb (<i>for learn, for get</i>), because Portuguese uses one word for both purpose and benefit. Drill: <i>Why are you studying English? To…</i></p>""")
