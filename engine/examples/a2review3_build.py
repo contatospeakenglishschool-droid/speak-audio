@@ -184,7 +184,7 @@ def build(teacher):
 <ol><li>the past continuous and the past simple (<i>I was walking… when I saw…</i>) (Unit 21);</li><li>something you used to do or believe (Unit 22);</li>
 <li>one line of direct speech with correct punctuation (Unit 24);</li><li>two adjectives with a modifier and one comparative (Units 25–27).</li></ol>
 <div class="wline"></div><div class="wline"></div><div class="wline"></div><div class="wline"></div>""",
-    18, """<p>Look at the "Not yet" lines and plan two short review activities for the next classes. The homework uses grammar from all nine units: keep it next to the Review 2 email. This is the last review of A2 Bridge.</p>""")
+    18, """<p>Look at the "Not yet" lines and plan two short review activities for the next classes. The homework uses grammar from all nine units: keep it next to the Review 2 email. Next: Unit 31.</p>""")
 
     b.extra("Audio scripts", f"""
 {sub("R3.1", "A goodbye dinner for Ana (slow and natural)")}
