@@ -1,0 +1,31 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Bigliettaia": "it-IT-Chirp3-HD-Vindemiatrix",
+  "Cameriere": "it-IT-Chirp3-HD-Charon",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"12.2": 2500, "12.3": 3500},
+ "units": {
+  "it-a2-unita-12": {
+   "12.1 Dialogo": "Narrator: Dialogo uno. Sabato venticinque aprile, alle sette, alla stazione di Bologna.\nGiulia: Júlia, guarda il tabellone! Il nostro treno: cancellato per sciopero!\nJúlia: No! Dovevamo arrivare a Venezia alle nove. Volevo fare colazione in piazza San Marco!\nGiulia: Calma. Proviamo con il pullman.\nGiulia: Buongiorno. Ci sono ancora biglietti per il pullman per Venezia?\nBigliettaia: Per quello delle otto ne sono rimasti tre.\nJúlia: Ne prendiamo due, grazie!\nNarrator: Dialogo due. A Venezia, a mezzogiorno. Piove.\nGiulia: Piove! Quanti ombrelli hai portato?\nJúlia: Nessuno! Volevo portarne uno, ma l'ho dimenticato a casa.\nGiulia: Io ne ho uno piccolo. Stiamo strette!\nJúlia: Allora, la gondola? Volevo fare un giro in gondola.\nGiulia: Ottanta euro? No, grazie. Entriamo in un bacaro: mangiamo i cicchetti!\nCameriere: Buongiorno! Quanti cicchetti volete?\nGiulia: Ne prendiamo sei: due con il baccalà, due con le sarde e due con il prosciutto. E due ombre di vino bianco.\nNarrator: Dialogo tre. Lunedì mattina, allo studio.\nMarco: Allora, Venezia? Hai fatto tante foto?\nJúlia: Ne ho fatte trecento! Ma è stato un viaggio... particolare.\nMarco: Cioè?\nJúlia: Sabato c'era lo sciopero dei treni e abbiamo dovuto prendere il pullman. Poi pioveva e io non avevo l'ombrello.\nMarco: E il Palazzo Ducale? Lo volevi vedere da anni!\nJúlia: Volevo entrare, ma c'era una fila di due ore. Non ho potuto vederlo.\nMarco: Peccato! Ma ti è piaciuta?\nJúlia: Moltissimo! Domenica c'era il sole e ho voluto vedere tutto: ho camminato venti chilometri!\nMarco: E le cartoline? Ne hai comprate?\nJúlia: Ne ho comprate cinque. Questa è per te!",
+   "12.2 Ripeti": "Narrator: volevo, dovevo, potevo\nNarrator: volevamo, dovevamo, potevamo\nNarrator: volevano, dovevano, potevano\nNarrator: Volevo entrare, ma non ho potuto.\nNarrator: Ne ho fatte trecento!",
+   "12.3 Ascolta": "Narrator: Numero uno. Volevo partire alle sette.\nNarrator: Numero due. Abbiamo dovuto prendere il pullman.\nNarrator: Numero tre. Dovevamo arrivare alle nove.\nNarrator: Numero quattro. Non ho potuto vederlo.\nNarrator: Numero cinque. Potevo comprare un ombrello.\nNarrator: Numero sei. Ho voluto vedere tutto."
+  }
+ },
+ "images": {
+  "it-a2-unita-12": {
+   "A": "train station departure board",
+   "B": "coach bus travel",
+   "C": "gondola venice",
+   "D": "venice canal houses",
+   "E": "umbrella rain street",
+   "F": "queue of people waiting",
+   "G": "postcards",
+   "H": "doge palace venice"
+  }
+ }
+}

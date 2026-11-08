@@ -327,3 +327,28 @@ def pronomi_diretti_passato(b):
 {_dont([("Ho visto lo.", "<b>L'ho visto</b>."), ("La mostra? L'ho visto.", "L'ho vist<b>a</b>."), ("I biglietti? Li ho comprato.", "Li ho comprat<b>i</b>."),
         ("Ancora non ho visto.", "<b>Non</b> l'ho <b>ancora</b> visto."), ("Ho già lo visto.", "<b>L'ho già</b> visto.")])}""",
     16, """<p>In portoghese il pronome si mette spesso dopo il verbo o si omette (<i>vi ontem</i>), e il participio non cambia. Per lo studente l'accordo <i>l'ho vista</i> non è naturale: farlo ascoltare molte volte (pagina 5B) prima di chiederlo nello scritto.</p>""")
+
+
+def modali_passato_ne(b):
+    """A2 Ponte 12: volevo / ho voluto, dovevo / ho dovuto, potevo / ho potuto; ne con le quantità e l'accordo del participio."""
+    forms = [("volere", "volevo, volevi, voleva, volevamo, volevate, volevano", "ho voluto"),
+             ("dovere", "dovevo, dovevi, doveva, dovevamo, dovevate, dovevano", "ho dovuto"),
+             ("potere", "potevo, potevi, poteva, potevamo, potevate, potevano", "ho potuto")]
+    uses = [("<b>imperfetto</b>: volevo, dovevo, potevo", "un'intenzione, un programma, una possibilità: <b>non sappiamo</b> se è successo (spesso + <i>ma</i>)", "<i>Volevo vedere il Palazzo Ducale, ma c'era la fila.</i><br><i>Dovevamo arrivare alle nove.</i>"),
+            ("<b>passato prossimo</b>: ho voluto, ho dovuto, ho potuto", "una cosa che <b>è successa</b> davvero (o che non è successa: <i>non ho potuto</i>)", "<i>Abbiamo dovuto prendere il pullman.</i><br><i>Non ho potuto vederlo.</i> · <i>Ho voluto vedere tutto.</i>")]
+    ne = [("Quanti ombrelli hai?", "<b>Ne</b> ho uno.", "ne = di ombrelli"), ("Quanti cicchetti volete?", "<b>Ne</b> prendiamo sei.", "ne = di cicchetti"),
+          ("Quante foto hai fatto?", "<b>Ne</b> ho fatt<b>e</b> trecento.", "il participio si accorda: foto → -e"),
+          ("Hai comprato cartoline?", "Sì, <b>ne</b> ho comprat<b>e</b> cinque. / No, non <b>ne</b> ho comprat<b>a</b> nessuna.", "")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: volevo o ho voluto? · ne", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Al passato <i>volere, dovere, potere</i> hanno due forme con un significato diverso. Con l'<b>imperfetto</b> raccontiamo i programmi e le intenzioni (spesso andati male: <i>volevo…, ma…</i>); con il <b>passato prossimo</b> diciamo che cosa è successo davvero. <b>Ne</b> sostituisce un nome quando parliamo di una <b>quantità</b>.</div>
+{_h("1. LA FORMA")}
+{_tbl(["", "imperfetto (regolare)", "passato prossimo"], forms, "8.6pt", ["18mm", None, "30mm"])}
+<p class="small" style="margin:.6mm 0">Con un verbo che vuole <i>essere</i> si può usare <i>essere</i>: <i>Non sono potuta entrare</i> (come <i>Giulia è dovuta andare</i>, unità 06). L'accento dell'imperfetto: vol<b>é</b>vo, volev<b>à</b>mo, vol<b>é</b>vano.</p>
+{_h("2. IMPERFETTO O PASSATO PROSSIMO?")}
+{_tbl(["forma", "per dire…", "esempio"], uses, "8.5pt", ["40mm", "58mm", None])}
+{_h("3. NE CON LE QUANTITÀ")}
+{_tbl(["domanda", "risposta", ""], ne, "8.5pt", ["40mm", "64mm", None])}
+<p class="small" style="margin:.6mm 0"><i>Ne</i> va prima del verbo (<i>ne prendiamo</i>) o si attacca all'infinito (<i>volevo portar<b>ne</b> uno</i>). Al passato il participio si accorda con la cosa: <i>ne ho fatt<b>e</b> trecento</i> (le foto), <i>ne ho comprat<b>i</b> due</i> (i biglietti).</p>
+{_dont([("Volevo vedere il museo e l'ho visto.", "<b>Ho voluto</b> vedere il museo (e l'ho visto)."), ("Ho dovuto partire alle sette, ma il treno era cancellato.", "<b>Dovevo</b> partire…"),
+        ("Quante foto? Ho fatto trecento.", "<b>Ne</b> ho fatt<b>e</b> trecento."), ("Ne ho fatto trecento (foto).", "Ne ho fatt<b>e</b>."), ("Ho uno.", "<b>Ne</b> ho uno.")])}""",
+    21, """<p>In portoghese <i>eu queria / eu quis</i> funziona in modo simile: <i>queria ver, mas…</i> = <i>volevo vedere, ma…</i>. Il problema più grande è <i>ne</i>, che il portoghese non ha: lo studente dice <i>ho uno</i> o <i>ho fatto trecento</i>. Farlo ripetere in domanda e risposta veloce.</p>""")
