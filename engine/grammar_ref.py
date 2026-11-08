@@ -935,3 +935,25 @@ def advice_instructions(b):
 <b>Check you understand:</b> <i>Sorry, could you repeat that? · So, let me check: I have to take two pills now and two before bed?</i></p>
 {_dont([("You must to take one pill.", "You must <b>take</b> one pill."), ("She can't to drive.", "She can't <b>drive</b>."), ("I recommend you this.", "I recommend <b>this</b>. / I recommend (that) you try this."), ("It's important you must rest.", "It's important that you rest."), ("You should to drink water.", "You should <b>drink</b> water.")])}""",
     20, """<p>Brazilians often put <i>to</i> after modals (<i>must to, should to</i>) and say <i>I recommend you this</i>. Drill with a build-up chain: <i>should → should check → You should check → You should check his temperature → … regularly.</i></p>""")
+
+
+def rules_modals(b):
+    """A2 Unit 43: rules and choice: have to, must, can't, don't have to, can, should, be allowed to, be supposed to."""
+    b.page(f"""{b.sec("+", "Grammar reference: talking about rules", "")}
+<div class="box" style="margin-top:0"><h4>NECESSARY, NOT ALLOWED OR YOUR CHOICE?</h4>When we explain a game, a job or a school, we say what is <b>necessary</b>, what is <b>not allowed</b>, what is <b>not necessary</b> (your choice) and what is a <b>good idea</b>.</div>
+{_h("1. THE FORMS")}
+{_tbl(["meaning", "forms", "examples"], [
+    ["<b>necessary</b>", "have to / has to · must", "<i>We have to take turns. It must be a real word.</i>"],
+    ["<b>not allowed</b>", "can't · not allowed to · not supposed to", "<i>You can't say that. You're not allowed to give a clue. You're not supposed to tell me the word.</i>"],
+    ["<b>not necessary</b> (you can choose)", "don't have to / doesn't have to", "<i>You don't have to wait to make a guess.</i>"],
+    ["<b>allowed / possible</b>", "can · be allowed to", "<i>Can I say that? You're allowed to ask for a little help.</i>"],
+    ["<b>a good idea</b> (advice)", "should / shouldn't", "<i>You should explain that rule at the beginning.</i>"]], "8.5pt")}
+{_h("2. GRAMMAR")}
+<ul class="small" style="margin:.5mm 0;line-height:1.5"><li><b>must, can, can't, should</b> + base form (no <i>to</i>, no <i>-s</i>): <i>He must say a letter.</i></li>
+<li><b>have to, be allowed to, be supposed to</b> + <b>to</b> + base form, and they change: <i>She <b>has</b> to… · You'<b>re</b> not allowed to… · They <b>were</b> supposed to…</i></li>
+<li><b>be supposed to</b> = the rule or what people expect (but people don't always follow it): <i>You're supposed to keep the word secret.</i></li></ul>
+{_h("3. BIG DIFFERENCE: MUSTN'T vs DON'T HAVE TO")}
+{_tbl(["can't / mustn't", "don't have to"], [["= it's not allowed: <i>You can't use your phone.</i>", "= it's not necessary, but you can if you want: <i>You don't have to start with A.</i>"]], "8.6pt")}
+<p class="small" style="margin:.5mm 0"><b>Pronunciation:</b> <i>have to</i> /ˈhæftə/, <i>has to</i> /ˈhæstə/, <i>supposed to</i> /səˈpoʊstə/ (the d is silent), <i>allowed</i> /əˈlaʊd/.</p>
+{_dont([("You must to wait.", "You must <b>wait</b>."), ("She have to choose a word.", "She <b>has</b> to choose a word."), ("You don't have to cheat! (not allowed)", "You <b>can't</b> cheat!"), ("You're not allow to look.", "You're not <b>allowed</b> to look."), ("You're suppose to listen.", "You're suppos<b>ed</b> to listen.")])}""",
+    25, """<p>The key confusion: <i>don't have to</i> looks like "not allowed" to Brazilians (the direct translation into Portuguese can mean both). Make the student say the meaning out loud: necessary? not allowed? your choice? Also watch <i>allow / allowed</i> and <i>suppose / supposed</i> (the -ed is written but hard to hear).</p>""")
