@@ -1,0 +1,21 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Luca": "it-IT-Chirp3-HD-Fenrir",
+  "Chiara": "it-IT-Chirp3-HD-Achernar",
+  "Cassiere": "it-IT-Chirp3-HD-Charon",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"R4.2": 5000},
+ "units": {
+  "it-a1-ripasso-4": {
+   "R4.1 Intervista": "Narrator: Domenica venti settembre. Al bar di Giulia, Davide fa un'intervista a Bruno per il suo progetto: i primi giorni in Italia.\nDavide: Allora, Bruno, perché sei venuto a Bologna?\nBruno: Sono venuto per studiare Storia all'università.\nDavide: Come si scrive il tuo cognome?\nBruno: Souza: esse, o, u, zeta, a. Con la zeta, non con la esse!\nDavide: E dove abiti adesso?\nBruno: In via Zamboni, in una stanza. Costa trecentottanta euro al mese, spese incluse.\nDavide: Com'è la stanza?\nBruno: È piccola ma carina. C'è una lampada verde, un tappeto blu e una sedia bianca. Ho comprato tutto al mercatino.\nDavide: Come vai al centro sportivo?\nBruno: Prendo il venti in via Rizzoli e scendo alla sesta fermata. Il viaggio dura venticinque minuti.\nDavide: Che cosa ti serve ancora?\nBruno: Mi servono dei libri per l'università. E un vestito elegante!\nDavide: Un vestito elegante? Perché?\nBruno: Perché sabato ventisei vado al matrimonio di Luca, a Firenze.\nDavide: E il tempo libero? Sei andato al cinema?\nBruno: Sì, con Chiara. Abbiamo visto una commedia. Mi è piaciuta molto, ma la fine no.\nDavide: Ultima domanda: che cosa ti piace di più di Bologna?\nBruno: Le persone! E i tortellini.\nGiulia: Ragazzi, volete un altro caffè?\nBruno: No, grazie. Posso pagare con la carta?\nGiulia: Certo! Ma oggi offro io.",
+   "R4.2 Dettato": "Narrator: Ascolta e scrivi le frasi.\nNarrator: Uno. Bruno è venuto a Bologna per studiare.\nNarrator: Due. La stanza costa trecentottanta euro al mese.\nNarrator: Tre. Come si scrive il tuo cognome?\nNarrator: Quattro. Mi servono un caricabatterie e un adattatore.\nNarrator: Cinque. Prendo l'autobus e scendo alla terza fermata.\nNarrator: Sei. Il film mi è piaciuto, ma la fine no.\nNarrator: Sette. Quanto costa quella lampada verde?\nNarrator: Otto. Il matrimonio è il ventisei settembre.",
+   "R4.3 Dialoghi": "Narrator: Dialogo uno. Al telefono.\nLuca: Ciao Bruno! Júlia mi ha detto che vieni al matrimonio. Sei contento?\nBruno: Sì, moltissimo! Grazie per l'invito.\nLuca: Ti serve qualcosa per sabato?\nBruno: Sì, mi serve una cravatta!\nLuca: Ah ah! Chiedi a Júlia. Allora ci vediamo sabato?\nBruno: Sì, sabato ventisei. Arriviamo alle nove e mezza.\nNarrator: Dialogo due. Al cinema.\nChiara: Buonasera. Due biglietti per la commedia delle diciannove e trenta, per favore.\nCassiere: Siete studenti? Allora sei euro l'uno.\nNarrator: Dopo il film.\nBruno: Ti è piaciuto il film?\nChiara: Sì! Mi sono piaciuti molto gli attori.\nBruno: Andiamo a casa a piedi?\nChiara: Sì, è vicino."
+  }
+ },
+ "images": {}
+}

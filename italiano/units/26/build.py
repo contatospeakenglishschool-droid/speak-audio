@@ -65,7 +65,7 @@ def build(teacher):
 <tr><td>5 Pratica</td><td>8 min</td><td>La linea del tempo di Júlia · fa, da o tra?</td><td>5</td></tr>
 <tr><td>6 Parlare</td><td>12 min</td><td>Hai già…? · il tuo anno · tu e l'italiano</td><td>6</td></tr>
 <tr><td>7 Conclusione</td><td>2 min</td><td>Autovalutazione e compiti</td><td>7</td></tr></table>
-<div class="box sand"><h4>LA STORIA CONTINUA (E FINISCE L'A1)</h4>È passato un anno. Davide intervista di nuovo Júlia per il suo progetto (come nel Ripasso 1): Júlia racconta che cosa ha fatto e ammette che adesso gioca a calcetto, anche se a dicembre «il calcio non le piaceva per niente». Lo studio le rinnova il contratto per altri due anni: l'anno prossimo vuole vedere Venezia e la Sicilia, e Bruno torna a settembre per studiare (o per Chiara, unità 20?). Al bar gli amici le fanno una festa a sorpresa: «Adesso Bologna è casa mia.»</div>
+<div class="box sand"><h4>LA STORIA CONTINUA (E FINISCE IL PRIMO ANNO)</h4>È passato un anno. Davide intervista di nuovo Júlia per il suo progetto (come nel Ripasso 1): Júlia racconta che cosa ha fatto e ammette che adesso gioca a calcetto, anche se a dicembre «il calcio non le piaceva per niente». Lo studio le rinnova il contratto per altri due anni: l'anno prossimo vuole vedere Venezia e la Sicilia, e Bruno torna a settembre per studiare (o per Chiara, unità 20?). Al bar gli amici le fanno una festa a sorpresa: «Adesso Bologna è casa mia.»</div>
 <div class="box"><h4>IL PROBLEMA PER I BRASILIANI</h4>Il portoghese usa <i>há</i> per due idee: <i>moro aqui há um ano</i> → <b>abito qui da un anno</b> (presente + da); <i>cheguei há um ano</i> → <b>sono arrivata un anno fa</b>. <i>Em três meses</i> → <b>tra tre mesi</b> (non <i>in</i>). <i>Já vi</i> → <b>ho già visto</b> (già dopo l'ausiliare). SC + E/I suona come «ch» in <i>chá</i>: <i>capisci</i> ≈ «capíxi».</div>
 <div class="box"><h4>LA REALTÀ ITALIANA</h4>Bologna ha tre soprannomi: <b>la Dotta</b> (l'università più antica del mondo occidentale, del 1088), <b>la Grassa</b> (la cucina: ragù, tortellini, mortadella) e <b>la Rossa</b> (il colore dei tetti e dei portici). Ogni anno arrivano migliaia di studenti e lavoratori stranieri. Nel brindisi si dice <b>Cin cin!</b> o <b>Salute!</b> e ci si guarda negli occhi.</div>
 <div class="box"><h4>AUDIO</h4>Traccia 26.1 Tre dialoghi (lento e naturale) · Traccia 26.2 SC · Traccia 26.3 Raccontare la tua storia</div>""")
@@ -111,7 +111,7 @@ def build(teacher):
 <p class="small"><b>già</b> e <b>ancora</b> vanno tra <i>avere / essere</i> e il participio: <i>sono <b>già</b> andata</i>.</p></div></div>
 {sub("D", "Scegli l'opzione corretta.", "2 min")}
 <ol>{rl}</ol>""",
-    28, """<ol><li>A: è il ripasso di tutto l'A1: passato prossimo (unità 11, 21), presente e riflessivi (unità 13), modali (unità 19), presente per i progetti (unità 25).</li>
+    28, """<ol><li>A: è il ripasso del primo anno di Júlia: passato prossimo (unità 11, 21), presente e riflessivi (unità 13), modali (unità 19), presente per i progetti (unità 25).</li>
 <li>B: è il punto più difficile per i brasiliani, perché <i>há</i> traduce sia <b>fa</b> sia <b>da</b>. Domanda chiave: <i>Da quanto tempo…?</i> → <i>Da</i> + tempo. C: in portoghese <i>já</i> va prima del verbo; in italiano dopo l'ausiliare.</li></ol>""")
 
     # Page 4
@@ -161,7 +161,7 @@ def build(teacher):
 {sub("C", "Tu e l'italiano. Rispondi all'insegnante.", "4 min")}
 <ol style="line-height:1.65"><li>Da quanto tempo studi italiano? Perché hai cominciato?</li><li>Che cosa hai imparato in questo libro? Che cosa è ancora difficile?</li><li>Che cosa vuoi fare in italiano tra un anno?</li></ol>""",
     26, """<ol><li>A: correggere <i>già ho…</i> → <i>ho già…</i>. B: lo studente usa i tre tempi; l'insegnante fa domande: <i>Quando? Con chi? Perché?</i></li>
-<li>C: un buon momento per festeggiare la fine dell'A1. Dopo il Ripasso 3 si comincia l'A2 «Ponte».</li></ol>""")
+<li>C: un buon momento per festeggiare il primo anno di Júlia. Dopo il Ripasso 3 l'A1 continua con le unità 28–35: le prime settimane di Bruno a Bologna.</li></ol>""")
 
     # Page 7
     pc = [("Unità 25", "So fare gli auguri."), ("Unità 26", "So raccontare che cosa ho fatto quest'anno."), ("Unità 26", "So usare fa, da e tra."),
@@ -179,7 +179,7 @@ def build(teacher):
 <ol>{hl}</ol>
 <p style="margin-top:2mm"><b>2. Il mio anno.</b> Scrivi 8 frasi: da quanto tempo studi italiano, che cosa hai fatto quest'anno, che cosa fai adesso e che cosa vuoi fare l'anno prossimo.</p>
 <div class="wline"></div><div class="wline"></div><div class="wline"></div><div class="wline"></div>""",
-    22, """<p>Prossima lezione: lo studente legge il suo testo. Poi il Ripasso 3 (unità 19–26), l'ultima lezione dell'A1.</p>""")
+    22, """<p>Prossima lezione: lo studente legge il suo testo. Poi il Ripasso 3 (unità 19–26).</p>""")
 
     b.extra("Trascrizioni audio", f"""
 {sub("26.1", "Un anno a Bologna (lento e naturale)")}

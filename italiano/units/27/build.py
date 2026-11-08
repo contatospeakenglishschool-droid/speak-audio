@@ -22,7 +22,7 @@ def build(teacher):
 
     # Page 1: cover + photo memory
     cover = cover_html(T, "LIVELLO A1 · RIPASSO 3", "Ripasso 3", "Unità 19–26 · inviti · persone · vacanze · ristorante · istruzioni · sport · feste · un anno",
-                       [("SAI FARE", "controllare che cosa hai imparato nelle unità 19–26 e chiudere il livello A1"),
+                       [("SAI FARE", "controllare che cosa hai imparato nelle unità 19–26"),
                         ("LINGUA", "volere, potere, dovere · è / ha / porta · ci sono stato · vorrei · gira, non girare · giocare a / fare · buon / buona · fa, da, tra"),
                         ("PRONUNCIA", "dettato di frasi · a casa e all'aperitivo")])
     b.page(f"""{sec(1, "Riscaldamento: memoria fotografica", "5 min")}
@@ -160,13 +160,13 @@ def build(teacher):
     b.page(f"""{sec(7, "Riflessione e compiti", "5 min")}
 {sub("A", "Come va? Segna una casella per ogni riga.", "2 min")}
 <table class="ck"><tr><th style="width:17mm"></th><th>In italiano…</th><th style="width:18mm">Facile!</th><th style="width:18mm">A volte</th><th style="width:18mm">Non ancora</th></tr>{cdr}</table>
-{sub("B", "I miei obiettivi per l'A2. Che cosa vuoi ripassare ancora? Scrivi due cose.", "2 min")}
+{sub("B", "I miei obiettivi per le prossime unità. Che cosa vuoi ripassare ancora? Scrivi due cose.", "2 min")}
 <div class="wline"></div><div class="wline"></div>
 {sub("C", "Compiti", "1 min")}
 <p><b>Una cartolina dalle vacanze.</b> Scrivi a un amico italiano (60–80 parole):</p>
 <ol><li>dove sei e con chi (descrivi una persona);</li><li>che cosa hai fatto ieri (passato prossimo);</li><li>che sport fai qui e quante volte;</li><li>un invito per quando torni (ti va di…?) e gli auguri.</li></ol>
 <div class="wline"></div><div class="wline"></div><div class="wline"></div><div class="wline"></div>""",
-    22, """<p>Guardare le righe «Non ancora» e preparare due brevi attività di ripasso prima dell'A2. Il compito usa la grammatica delle unità 19–26: correggerlo e conservarlo come esempio di scrittura di fine A1. Prossimo livello: <b>A2 Ponte · 01 Che cosa mi metto?</b></p>""")
+    22, """<p>Guardare le righe «Non ancora» e preparare due brevi attività di ripasso prima dell'unità 28. Il compito usa la grammatica delle unità 19–26: correggerlo e conservarlo come esempio di scrittura. Prossima lezione: <b>Unità 28 · Il ritorno</b> (settembre: Bruno arriva a Bologna).</p>""")
 
     b.extra("Trascrizioni audio", f"""
 {sub("R3.1", "Júlia e Marco prima delle vacanze (lenta e naturale)")}
