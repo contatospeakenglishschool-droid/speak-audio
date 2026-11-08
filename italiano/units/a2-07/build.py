@@ -11,7 +11,7 @@ _se.SERIES = "Ponte"
 setup(band="A2 · UNITÀ 07", audio_json=os.path.join(HERE, "audio_it-a2-unita-07.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
 PHOTOS = [("A", "la valigia", "valigia"), ("B", "l'agenda", "agenda"), ("C", "il Carnevale", "Carnevale"), ("D", "la maratona", "maratona"),
-          ("E", "l'annaffiatoio", "annaffiatoio"), ("F", "il passaporto", "passaporto"), ("G", "la laurea", "laurea"), ("H", "la colomba", "colomba")]
+          ("E", "l'annaffiatoio", "annaffiatoio"), ("F", "il passaporto", "passaporto"), ("G", "l'esame", "esame"), ("H", "la colomba", "colomba")]
 
 _r = json.load(open(os.path.join(HERE, "roteiro.json")))["units"]["it-a2-unita-07"]
 SCRIPT = [tuple(x.split(": ", 1)) for x in _r["07.1 Dialogo"].split("\n")]
@@ -42,7 +42,7 @@ def build(teacher):
 {photo_grid(T, PHOTOS)}
 {sub("B", "Parla con l'insegnante.", "4 min")}
 <ol><li>Quali di queste cose sono nei tuoi progetti per quest'anno?</li><li>Hai un viaggio in programma? Dove vuoi andare?</li><li>Che cosa ti piacerebbe imparare quest'anno?</li></ol>""",
-    22, """<ol><li>A: <i>la colomba</i> è il dolce di Pasqua (a forma di colomba), come il panettone a Natale. <i>La laurea</i> = il titolo universitario.</li>
+    22, """<ol><li>A: <i>la colomba</i> è il dolce di Pasqua (a forma di colomba), come il panettone a Natale. <i>L'esame</i>: all'università gli esami sono spesso orali.</li>
 <li>B: lo studente usa il presente o il condizionale (unità 05): il futuro arriva nell'ascolto.</li></ol>""", cover=cover)
 
     b.extra("Panoramica della lezione · 55 min", """
@@ -55,9 +55,9 @@ def build(teacher):
 <tr><td>5 Pratica</td><td>9 min</td><td>Il piano di Davide · se… · che cosa bisogna fare prima di un viaggio?</td><td>6</td></tr>
 <tr><td>6 Parlare</td><td>12 min</td><td>L'agenda di Júlia · i tuoi progetti · la catena del «se»</td><td>7</td></tr>
 <tr><td>7 Conclusione</td><td>2 min</td><td>Autovalutazione e compiti</td><td>8</td></tr></table>
-<div class="box sand"><h4>LA STORIA CONTINUA</h4>Fine gennaio. Júlia ha comprato il biglietto: partirà il 5 febbraio e tornerà il 19, due settimane a Belo Horizonte per il Carnevale. Marco le ricorda che bisogna finire il progetto del Comune; a fine febbraio verranno a Bologna Luca e Sara. Al bar Davide annuncia che a ottobre correrà la maratona di Bologna (otto mesi di allenamento, sveglia alle sei); Giulia farà un corso di pasticceria e a Pasqua venderà le sue colombe; Bruno a luglio si laureerà. La sera prima della partenza Júlia lascia le chiavi alla signora Rossi, che innaffierà le piante e prenderà la posta. Júlia le porterà un pacco di caffè brasiliano.</div>
+<div class="box sand"><h4>LA STORIA CONTINUA</h4>Fine gennaio. Júlia ha comprato il biglietto: partirà il 5 febbraio e tornerà il 19, due settimane a Belo Horizonte per il Carnevale. Marco le ricorda che bisogna finire il progetto del Comune; a fine febbraio verranno a Bologna Luca e Sara. Al bar Davide annuncia che a ottobre correrà la maratona di Bologna (otto mesi di allenamento, sveglia alle sei); Giulia farà un corso di pasticceria e a Pasqua venderà le sue colombe; Bruno a giugno darà il suo primo esame all'università. La sera prima della partenza Júlia lascia le chiavi alla signora Rossi, che innaffierà le piante e prenderà la posta. Júlia le porterà un pacco di caffè brasiliano.</div>
 <div class="box"><h4>IL PROBLEMA PER I BRASILIANI</h4>Nel parlato brasiliano il futuro si fa quasi sempre con <i>ir + infinito</i> (<i>vou voltar</i>): lo studente dice <i>vado a tornare</i>, che in italiano non esiste. Altri errori: <i>tornarò</i> (→ <b>tornerò</b>), <i>poterò</i> (→ <b>potrò</b>), l'accento dimenticato nello scritto (<i>tornero</i>) e <i>bisognamo</i> (<i>bisogna</i> non cambia).</div>
-<div class="box"><h4>LA REALTÀ ITALIANA</h4>Anche in Italia c'è il <b>Carnevale</b>: i più famosi sono quelli di Venezia (le maschere) e di Viareggio (i carri). A Carnevale si mangiano le <b>chiacchiere</b> (o <i>sfrappole</i> a Bologna). In Italia ci si <b>laurea</b> con una festa: gli amici regalano una corona d'alloro.</div>
+<div class="box"><h4>LA REALTÀ ITALIANA</h4>Anche in Italia c'è il <b>Carnevale</b>: i più famosi sono quelli di Venezia (le maschere) e di Viareggio (i carri). A Carnevale si mangiano le <b>chiacchiere</b> (o <i>sfrappole</i> a Bologna). All'università gli <b>esami</b> sono spesso orali e il voto va da 18 a 30 (il massimo è <i>30 e lode</i>).</div>
 <div class="box"><h4>AUDIO</h4>Traccia 07.1 Tre dialoghi (lento e naturale) · Traccia 07.2 Il futuro · Traccia 07.3 Presente o futuro?</div>""")
 
     # Page 2
@@ -65,7 +65,7 @@ def build(teacher):
           ("Chi verrà a Bologna a fine febbraio?", "Luca e Sara (il fratello di Marco e sua moglie)")]
     stl = "".join(f"<li>{q} {A(a, 'min-width:58mm')}</li>" for q, a in st)
     who = [("comincerà ad allenarsi a febbraio", "Davide"), ("farà un corso di pasticceria", "Giulia"), ("deve ancora comprare i regali", "Júlia"),
-           ("si laureerà a luglio", "Bruno"), ("si alzerà ogni mattina alle sei", "Davide")]
+           ("darà il primo esame a giugno", "Bruno"), ("si alzerà ogni mattina alle sei", "Davide")]
     wl = "".join(f"<tr><td>{s}</td><td style='width:26mm;text-align:center'>{A(w, 'min-width:18mm')}</td></tr>" for s, w in who)
     b.page(f"""{sec(2, "Ascolto: partirò il cinque febbraio", "10 min")}
 <p>Júlia ha comprato il biglietto per il Brasile, gli amici raccontano i loro progetti e la signora Rossi farà un favore a Júlia.</p>
@@ -133,7 +133,7 @@ def build(teacher):
           ("", "(fare)", "farà", " una visita dal medico. Lui e Bruno "), ("", "(andare)", "andranno", " in palestra tre volte alla settimana. Ci "),
           ("", "(volere)", "vorranno", " otto mesi, ma a ottobre Davide "), ("", "(essere)", "sarà", " pronto!")]
     plt = "".join(f"{a}<i class='small'>{v}</i> {A(c, 'min-width:20mm')}{z}" for a, v, c, z in pl)
-    se = [("Se piove domenica,", "resterò a casa a studiare."), ("Se Bruno si laurea a luglio,", "faremo una grande festa."),
+    se = [("Se piove domenica,", "resterò a casa a studiare."), ("Se Bruno passa il primo esame,", "faremo una grande festa."),
           ("Se Giulia fa le colombe,", "le comprerò per tutta la famiglia."), ("Se la signora Rossi innaffia le piante,", "Júlia le porterà un regalo.")]
     left = "".join(f"<li>{a}</li>" for a, _ in se)
     rgt = [se[1][1], se[3][1], se[0][1], se[2][1]]

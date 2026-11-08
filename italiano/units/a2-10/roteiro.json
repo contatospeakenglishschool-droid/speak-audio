@@ -1,0 +1,19 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Impiegato": "it-IT-Chirp3-HD-Charon",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"R1.2": 5500},
+ "units": {
+  "it-a2-ripasso-1": {
+   "R1.1 Conversazione": "Narrator: Fine marzo. Al bar, Giulia mostra a Júlia le foto che ha stampato: sono sei mesi di ricordi.\nGiulia: Guarda questa! È il matrimonio di Luca e Sara, a settembre.\nJúlia: Che bello! Quel vestito blu mi piace ancora tanto. E guarda Bruno con la cravatta!\nGiulia: Gli stava benissimo. Era più elegante di Davide!\nJúlia: Non dirlo a Davide!\nGiulia: E questa? Sei tu da bambina?\nJúlia: Sì, avevo sei anni. Ero bionda e abitavo in una casa con il giardino.\nGiulia: E qui perché hai il ginocchio fasciato?\nJúlia: È la foto di novembre. Mentre attraversavo piazza Maggiore, all'improvviso è uscito un cane e sono caduta dalla bici.\nGiulia: Ah, sì, Briciola! E poi Marco si è ammalato: aveva la febbre a trentotto e mezzo.\nJúlia: E io gli ho detto: resta a casa e non uscire!\nGiulia: Questa invece è la vigilia di Natale. Che bella cena!\nJúlia: E tu hai portato il panettone. Mi piacerebbe rifare una cena così.\nGiulia: E questo è Matteo, il primo giorno di lavoro. Sa fare dei cappuccini bellissimi.\nJúlia: Adesso lo conosci bene?\nGiulia: Sì, è bravissimo. Per un cappuccino perfetto ci vogliono solo due minuti.\nJúlia: E questa è del Carnevale a Belo Horizonte, con i miei cugini.\nGiulia: Che colori! E quest'estate che cosa farai?\nJúlia: A maggio cominceranno i lavori al giardino. Se tutto va bene, a settembre ci sarà l'inaugurazione. Quindi resterò a Bologna.\nGiulia: Secondo me il vostro progetto è il più bello. Penso che la gente sia molto contenta.\nJúlia: Lo spero! Senti, potresti farmi una copia di queste foto? Vorrei mandarle a mia madre.\nGiulia: Certo! Domani le stampo di nuovo.",
+   "R1.2 Dettato": "Narrator: Ascolta e scrivi le frasi.\nNarrator: Uno. Il blu ti sta benissimo: è più elegante del verde.\nNarrator: Due. Da bambina abitavo in una casa con il giardino.\nNarrator: Tre. Mentre attraversavo la piazza, è uscito un cane.\nNarrator: Quattro. Hai la febbre? Resta a casa e riposati!\nNarrator: Cinque. Potresti chiudere la finestra, per favore?\nNarrator: Sei. Conosco Matteo, ma non so dove abita.\nNarrator: Sette. Se domani piove, resterò a casa.\nNarrator: Otto. Signora, firmi qui e prenda il numero.\nNarrator: Nove. Penso che Bologna sia una città bellissima.",
+   "R1.3 Dialoghi": "Narrator: Dialogo uno. All'ufficio postale.\nImpiegato: Buongiorno, mi dica.\nJúlia: Buongiorno. Vorrei spedire questa busta in Brasile.\nImpiegato: Mi dia la busta, per favore. Sono quattro euro e cinquanta. Firmi qui.\nJúlia: Ecco. Quanto tempo ci vuole?\nImpiegato: Ci vogliono circa due settimane. Non si preoccupi, arriverà.\nNarrator: Dialogo due. Al bar.\nDavide: Ahi! Ho mal di schiena.\nJúlia: Ancora? Secondo me corri troppo. Dovresti riposarti.\nDavide: Ma la maratona è a ottobre! Se non mi alleno, non arriverò alla fine.\nJúlia: Allora va' dal medico. E domani non correre!\nDavide: Va bene. Penso che tu abbia ragione."
+  }
+ },
+ "images": {}
+}

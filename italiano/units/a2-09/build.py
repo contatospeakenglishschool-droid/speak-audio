@@ -53,7 +53,7 @@ def build(teacher):
 <tr><td>4 Laboratorio di pronuncia</td><td>4 min</td><td>La voce dell'opinione · indicativo o congiuntivo?</td><td>5</td></tr>
 <tr><td>5 Pratica</td><td>9 min</td><td>Scegli il modo · essere e avere · speranze per gli amici</td><td>6</td></tr>
 <tr><td>6 Parlare</td><td>12 min</td><td>Sei d'accordo? (dibattito) · le tue speranze</td><td>7</td></tr>
-<tr><td>7 Conclusione</td><td>2 min</td><td>Autovalutazione del livello A2 e compiti</td><td>8</td></tr></table>
+<tr><td>7 Conclusione</td><td>2 min</td><td>Autovalutazione (unità 01–09) e compiti</td><td>8</td></tr></table>
 <div class="box sand"><h4>LA STORIA CONTINUA</h4>Marzo. Marco e Júlia aspettano la risposta del Comune: il loro progetto è un giardino in Bolognina con alberi, panchine e una pista ciclabile. Marco pensa che sia il migliore, Júlia spera che il Comune scelga loro. Al bar Davide legge che gli affitti sono aumentati: Giulia pensa che Bologna sia diventata troppo cara, Davide crede che sia ancora la città più bella d'Italia, Júlia è d'accordo con lui. Venerdì sera la signora Rossi ha letto sul giornale la notizia: il Comune ha scelto il progetto di Marco e Júlia. I lavori cominceranno a maggio e l'inaugurazione sarà a settembre: la signora Rossi verrà con Franco e Briciola.</div>
 <div class="box"><h4>IL PROBLEMA PER I BRASILIANI</h4>Il portoghese ha il congiuntivo (<i>espero que venha</i>), ma dopo <i>acho que</i> usa l'indicativo (<i>acho que é caro</i>). Per questo lo studente dice <i>penso che è caro</i>: con <i>spero che</i> invece sbaglia poco. Altri errori: <i>secondo me sia</i> (→ <b>secondo me è</b>), <i>vadi, facci</i> (→ <b>vada, faccia</b>) e <i>spero che io vinca</i> (→ <b>spero di vincere</b>).</div>
 <div class="box"><h4>LA REALTÀ ITALIANA</h4>Gli italiani amano discutere: al bar si parla di calcio, politica e prezzi, e non essere d'accordo è normale e anche divertente. A Bologna gli <b>affitti</b> sono tra i più cari d'Italia, per i tanti studenti universitari e i turisti. La <b>Bolognina</b> è un quartiere a nord della stazione, oggi in grande trasformazione.</div>
@@ -168,14 +168,14 @@ def build(teacher):
           ("Spero che io trovi un lavoro.", "Spero di trovare un lavoro."), ("Secondo me sia troppo tardi.", "Secondo me è troppo tardi.")]
     hwl = "".join(f"<li>{a} {A(c, 'min-width:42mm')}</li>" for a, c in hw)
     b.page(f"""{sec(7, "Conclusione e compiti", "2 min")}
-{sub("A", "Autovalutazione: il livello A2", "1 min")}
+{sub("A", "Autovalutazione: unità 01–09", "1 min")}
 <table class="ck"><tr><th style="width:20mm"></th><th>In italiano…</th><th style="width:18mm">Facile!</th><th style="width:18mm">A volte</th><th style="width:18mm">Non ancora</th></tr>{pcr}</table>
 {sub("B", "Compiti", "1 min")}
 <p><b>1. Correggi gli errori. Due frasi sono corrette.</b></p>
 <ol style="line-height:1.6">{hwl}</ol>
 <p style="margin-top:2mm"><b>2. La mia città: pro e contro (50–75 parole).</b> Che cosa ti piace e che cosa non ti piace della tua città? Che cosa speri per il futuro? Usa <i>secondo me, penso che, spero che</i>.</p>
 <div class="wline"></div><div class="wline"></div><div class="wline"></div><div class="wline"></div>""",
-    18, """<p>Fine del livello A2! Prossima lezione: lo studente legge il testo e l'insegnante risponde con la sua opinione. Ripassare le unità con più «Non ancora» prima di cominciare il B1 Progresso.</p>""")
+    18, """<p>Prossima lezione: lo studente legge il testo e l'insegnante risponde con la sua opinione. Poi il <b>Ripasso 1</b> (unità 01–09): ripassare prima le unità con più «Non ancora».</p>""")
 
     b.extra("Trascrizioni audio", f"""
 {sub("09.1", "Speriamo bene! (lento e naturale)")}
