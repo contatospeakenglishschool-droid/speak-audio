@@ -1,0 +1,30 @@
+{
+ "material": "speak-essentiel",
+ "characters": {
+  "Camila": "fr-FR-Chirp3-HD-Autonoe",
+  "Nadia": "fr-FR-Chirp3-HD-Kore",
+  "Madame Lefèvre": "fr-FR-Studio-A",
+  "Hugo": "fr-FR-Chirp3-HD-Puck",
+  "Narratrice": "fr-FR-Chirp3-HD-Aoede"
+ },
+ "pauses": {"03.2": 2500, "03.3": 2500},
+ "units": {
+  "fr-a1-unite-03": {
+   "03.1 Dialogue": "Narratrice: Dialogue un.\nMadame Lefèvre: Bonjour, Camila ! Vous êtes portugaise ?\nCamila: Non, madame, je ne suis pas portugaise. Je suis brésilienne.\nMadame Lefèvre: Ah, brésilienne ! Bienvenue à Lyon !\nCamila: Merci, madame !\nNarratrice: Dialogue deux.\nHugo: Nadia, tu es française ?\nNadia: Oui, je suis française. Et toi, Camila, tu es espagnole ?\nCamila: Non, je ne suis pas espagnole. Je suis brésilienne, de Recife.\nNadia: Brésilienne ! Super !\nNarratrice: Dialogue trois.\nHugo: Camila, tu as quel âge ?\nCamila: J'ai trente-deux ans. Et toi ?\nHugo: J'ai vingt-deux ans.\nCamila: Tu es étudiant ?\nHugo: Oui, je suis étudiant.",
+   "03.2 Masculin, féminin": "Narratrice: brésilien... brésilienne\nNarratrice: français... française\nNarratrice: portugais... portugaise\nNarratrice: espagnol... espagnole\nNarratrice: italien... italienne\nNarratrice: canadien... canadienne\nNarratrice: américain... américaine\nNarratrice: belge... belge",
+   "03.3 Les âges": "Narratrice: vingt ans\nNarratrice: vingt-deux ans\nNarratrice: trente ans\nNarratrice: trente-deux ans\nNarratrice: quarante ans\nNarratrice: cinquante ans\nNarratrice: soixante ans\nNarratrice: J'ai trente-deux ans.\nNarratrice: Tu as quel âge ?\nNarratrice: Vous avez quel âge ?"
+  }
+ },
+ "images": {
+  "fr-a1-unite-03": {
+   "A": "christ the redeemer rio de janeiro",
+   "B": "eiffel tower paris",
+   "C": "lisbon yellow tram",
+   "D": "sagrada familia barcelona",
+   "E": "colosseum rome",
+   "F": "chateau frontenac quebec",
+   "G": "grand place brussels",
+   "H": "statue of liberty new york"
+  }
+ }
+}
