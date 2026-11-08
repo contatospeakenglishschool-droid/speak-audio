@@ -915,3 +915,23 @@ def quantifiers(b):
 <p class="small" style="margin:.5mm 0"><b>a chicken</b> (the animal) / <b>chicken</b> (the meat) · <b>a coffee, a juice, a cake</b> (one, for one person) / <b>coffee, juice, cake</b> (in general, or to share): <i>I'll have <b>a</b> coffee, please. · Do you want some cake?</i></p>
 {_dont([("I need an advice.", "I need some advice. / a piece of advice"), ("How many money do you have?", "How <b>much</b> money do you have?"), ("I have many time.", "I have <b>a lot of</b> time."), ("We have plenty rice.", "We have plenty <b>of</b> rice."), ("There are too much people here.", "There are too <b>many</b> people here.")])}""",
     25, """<p>Some nouns are countable in Portuguese but uncountable in English: <i>advice, information, news, furniture, bread, money</i>. Brazilians also say <i>many money</i> and forget <i>of</i> after <i>plenty</i>. <i>A few / a little</i> sound positive; <i>few / little</i> (without <i>a</i>) mean "not enough".</p>""")
+
+
+def advice_instructions(b):
+    """A2 Unit 42: advice vs instructions: should, it's a good idea to, I recommend; must, have to, need to, can't, it's important that."""
+    b.page(f"""{b.sec("+", "Grammar reference: advice and instructions", "")}
+<div class="box" style="margin-top:0"><h4>A GOOD IDEA OR NECESSARY?</h4><b>Advice</b> = a good idea (you can choose). <b>Instructions</b> = necessary (you don't have a choice). Pharmacists, doctors and nurses use both, so listen carefully!</div>
+{_h("1. ADVICE")}
+{_tbl(["form", "grammar", "examples"], [
+    ["<b>should / shouldn't</b>", "+ base form", "<i>You should check his temperature regularly. You shouldn't stay in the sun.</i>"],
+    ["<b>it's a good idea to</b>", "+ base form", "<i>It's a good idea to do some eye exercises every day.</i>"],
+    ["<b>I recommend</b>", "+ noun · + (that) you + base form", "<i>I recommend this sunscreen. I recommend (that) you buy two bottles.</i>"]], "8.5pt")}
+{_h("2. INSTRUCTIONS")}
+{_tbl(["form", "grammar", "examples"], [
+    ["<b>must / have to / need to</b>", "must + base form · have to / need to + base form", "<i>You must take this before meals. You have to put more on every two hours. You need to call the doctor.</i>"],
+    ["<b>can't / must not</b>", "+ base form", "<i>You can't drive while you're taking this medicine.</i>"],
+    ["<b>it's important that</b>", "+ subject + verb (a clause)", "<i>It's important that you limit your time on the computer.</i>"]], "8.5pt")}
+<p class="small" style="margin:.8mm 0"><b>Modal verbs</b> (<i>should, must, can't</i>) have no <i>to</i> after them and no <i>-s</i>: <i>She <b>must take</b></i> ✗ <i>She musts to take</i>. In everyday American English, <i>have to</i> is more common than <i>must</i>.<br>
+<b>Check you understand:</b> <i>Sorry, could you repeat that? · So, let me check: I have to take two pills now and two before bed?</i></p>
+{_dont([("You must to take one pill.", "You must <b>take</b> one pill."), ("She can't to drive.", "She can't <b>drive</b>."), ("I recommend you this.", "I recommend <b>this</b>. / I recommend (that) you try this."), ("It's important you must rest.", "It's important that you rest."), ("You should to drink water.", "You should <b>drink</b> water.")])}""",
+    20, """<p>Brazilians often put <i>to</i> after modals (<i>must to, should to</i>) and say <i>I recommend you this</i>. Drill with a build-up chain: <i>should → should check → You should check → You should check his temperature → … regularly.</i></p>""")
