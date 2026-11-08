@@ -352,3 +352,29 @@ def modali_passato_ne(b):
 {_dont([("Volevo vedere il museo e l'ho visto.", "<b>Ho voluto</b> vedere il museo (e l'ho visto)."), ("Ho dovuto partire alle sette, ma il treno era cancellato.", "<b>Dovevo</b> partire…"),
         ("Quante foto? Ho fatto trecento.", "<b>Ne</b> ho fatt<b>e</b> trecento."), ("Ne ho fatto trecento (foto).", "Ne ho fatt<b>e</b>."), ("Ho uno.", "<b>Ne</b> ho uno.")])}""",
     21, """<p>In portoghese <i>eu queria / eu quis</i> funziona in modo simile: <i>queria ver, mas…</i> = <i>volevo vedere, ma…</i>. Il problema più grande è <i>ne</i>, che il portoghese non ha: lo studente dice <i>ho uno</i> o <i>ho fatto trecento</i>. Farlo ripetere in domanda e risposta veloce.</p>""")
+
+
+def comparativi_superlativi(b):
+    """A2 Ponte 13: comparativo di uguaglianza (così… come, tanto… quanto), superlativo relativo e assoluto (-issimo), meglio / migliore, peggio / peggiore."""
+    cmp = [("<b>più</b> … <b>di</b> / <b>che</b>", "superiorità", "<i>Tommaso ha <b>più</b> esperienza <b>di</b> Elena.</i> · <i>È più facile parlare <b>che</b> scrivere.</i>"),
+           ("<b>meno</b> … <b>di</b>", "inferiorità", "<i>Chiara è <b>meno</b> socievole <b>di</b> Bruno.</i>"),
+           ("<b>(così)</b> … <b>come</b> · <b>(tanto)</b> … <b>quanto</b>", "uguaglianza", "<i>Elena è brava <b>quanto</b> Tommaso.</i> · <i>Non sei <b>così</b> paziente <b>come</b> pensi.</i>")]
+    sup = [("relativo: <b>il / la più</b> … <b>di</b>", "il primo di un gruppo", "<i>La tua stanza è <b>la più</b> disordinata <b>del</b> palazzo.</i>"),
+           ("assoluto: <b>-issimo</b>", "= molto, moltissimo", "<i>bello → bell<b>issimo</b> · gentile → gentil<b>issima</b> · simpatico → simpatic<b>issimi</b></i>")]
+    irr = [("buono", "<b>migliore</b> (= più buono)", "<b>il migliore</b>", "<b>ottimo</b>", "<i>I disegni di Elena sono <b>migliori</b>.</i>"),
+           ("cattivo", "<b>peggiore</b>", "<b>il peggiore</b>", "<b>pessimo</b>", "<i>La stanza di Bruno è <b>peggiore</b> della mia.</i>"),
+           ("bene (avverbio)", "<b>meglio</b>", "—", "<b>benissimo</b>", "<i>Elena parla inglese <b>meglio</b> di lui.</i>"),
+           ("male (avverbio)", "<b>peggio</b>", "—", "<b>malissimo</b>", "<i>Oggi sto <b>peggio</b> di ieri.</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: paragoni e superlativi", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Per descrivere le persone spesso le <b>paragoniamo</b>: <i>più, meno, quanto</i>. Il <b>superlativo</b> dice chi è il primo di un gruppo (<i>la più disordinata del palazzo</i>) o che una qualità è molto forte (<i>bravissima</i>). <i>Buono, cattivo, bene, male</i> hanno anche forme speciali.</div>
+{_h("1. I COMPARATIVI")}
+{_tbl(["forma", "per…", "esempio"], cmp, "8.6pt", ["44mm", "22mm", None])}
+{_h("2. I SUPERLATIVI")}
+{_tbl(["forma", "per…", "esempio"], sup, "8.6pt", ["44mm", "30mm", None])}
+<p class="small" style="margin:.6mm 0"><i>-issimo</i> si accorda: <i>-issimo, -issima, -issimi, -issime</i>. Con <i>-co, -go</i> attenzione all'<i>h</i>: <i>ricco → ricc<b>h</b>issimo, lungo → lung<b>h</b>issimo</i> (ma <i>simpatico → simpaticissimo</i>).</p>
+{_h("3. FORME SPECIALI")}
+{_tbl(["", "comparativo", "superlativo relativo", "assoluto", "esempio"], irr, "8.4pt", ["24mm", "30mm", "26mm", "20mm", None])}
+<div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt;margin-top:1mm"><b>meglio o migliore?</b> Se puoi dire <i>più buono / più buona</i> → <b>migliore</b> (con un nome: <i>il regalo migliore</i>). Se puoi dire <i>più bene</i> → <b>meglio</b> (con un verbo: <i>parla meglio</i>; con <i>è</i> = è una scelta migliore: <i>un libro è meglio</i>).</div>
+{_dont([("È più alto que me.", "È più alto <b>di</b> me."), ("È tanto bravo come Tommaso.", "È bravo <b>quanto</b> / <b>così</b> bravo <b>come</b> Tommaso."),
+        ("Parla inglese migliore.", "Parla inglese <b>meglio</b>."), ("È il più migliore.", "È <b>il migliore</b>."), ("Molto bellissimo.", "<b>Bellissimo</b>.")])}""",
+    20, """<p>In portoghese <i>melhor</i> vale sia per <i>migliore</i> che per <i>meglio</i>: da qui l'errore <i>parla migliore</i>. Usare la prova "più buono / più bene". <i>Tanto… quanto</i> e <i>così… come</i>: spesso basta solo <i>quanto</i> o <i>come</i> (<i>bravo quanto lui</i>).</p>""")

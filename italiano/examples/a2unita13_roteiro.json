@@ -1,0 +1,31 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"13.2": 2500, "13.3": 4000},
+ "units": {
+  "it-a2-unita-13": {
+   "13.1 Dialogo": "Narrator: Dialogo uno. Inizio maggio, al bar. Giulia legge un test su una rivista.\nGiulia: Ragazzi, facciamo questo test: Che tipo sei? Domanda uno: il sabato sera preferisci stare a casa o uscire?\nDavide: Uscire, sempre! Io sono socievolissimo.\nGiulia: Domanda due: sei più ordinato o più disordinato?\nDavide: Mah... sono tanto ordinato quanto disordinato. Dipende dai giorni.\nJúlia: Ma dai! La tua stanza è la più disordinata del palazzo!\nDavide: Non è vero! La stanza di Bruno è peggiore della mia.\nGiulia: Domanda tre: sei paziente?\nDavide: Pazientissimo!\nJúlia: Pazientissimo? Ieri hai aspettato l'autobus due minuti e poi hai preso un taxi!\nGiulia: Ecco il risultato: sei un tipo energico e curioso, ma non sei così paziente come pensi.\nDavide: Questo test è sbagliatissimo!\nNarrator: Dialogo due. Allo studio. Marco e Júlia cercano uno stagista per il progetto del giardino.\nMarco: Allora, chi scegliamo? Elena o Tommaso?\nJúlia: È difficile. Elena è brava quanto Tommaso: tutti e due conoscono bene i programmi di disegno.\nMarco: Sì, ma Tommaso ha più esperienza. Ha lavorato due anni in uno studio di Milano.\nJúlia: È vero, ma i disegni di Elena sono migliori. Sono bellissimi! E lei parla inglese meglio di lui.\nMarco: E il carattere? Tommaso mi sembra un po' arrogante.\nJúlia: Elena invece è gentilissima e molto precisa. Secondo me è la candidata migliore.\nMarco: Va bene, hai ragione. Prendiamo Elena!\nNarrator: Dialogo tre. La sera, Bruno telefona a Júlia.\nBruno: Júlia, ho bisogno di un consiglio. Sabato è il compleanno di Chiara. Che cosa le regalo?\nJúlia: Com'è Chiara? Le piacciono i profumi?\nBruno: No, lei è più semplice di me. È timida e legge tantissimo.\nJúlia: Allora un libro è meglio di un profumo.\nBruno: Ma un libro non è troppo normale?\nJúlia: Un libro della sua scrittrice preferita è il regalo migliore. E poi invitala a cena: è meglio di qualsiasi regalo.\nBruno: Sei la sorella migliore del mondo!\nJúlia: Lo so. Sono bravissima!",
+   "13.2 Ripeti": "Narrator: bello, bellissimo\nNarrator: bravo, bravissima\nNarrator: gentile, gentilissimo\nNarrator: simpatico, simpaticissimo\nNarrator: lungo, lunghissimo\nNarrator: Sono bravissima!",
+   "13.3 Dettato": "Narrator: Numero uno. È bellissima.\nNarrator: Numero due. Sono simpaticissimi.\nNarrator: Numero tre. È pigrissimo.\nNarrator: Numero quattro. Sono gentilissime.\nNarrator: Numero cinque. Un viaggio lunghissimo.\nNarrator: Numero sei. Un uomo ricchissimo."
+  }
+ },
+ "images": {
+  "it-a2-unita-13": {
+   "A": "shy girl hiding face",
+   "B": "friends laughing party",
+   "C": "lazy man sofa",
+   "D": "woman jogging park",
+   "E": "messy room clothes",
+   "F": "tidy desk organized",
+   "G": "child magnifying glass",
+   "H": "person reading book"
+  }
+ }
+}
