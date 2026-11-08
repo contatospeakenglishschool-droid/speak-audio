@@ -895,3 +895,23 @@ def noun_phrases(b):
     ["<b>of</b>: things, places, parts", "<i>the back <b>of</b> the picture · the end <b>of</b> the story · the roof <b>of</b> the house</i>"]], "8.5pt")}
 {_dont([("the laptop of Marcos", "Marcos's laptop"), ("the house's roof", "the roof of the house"), ("a shoes store", "a shoe store"), ("the kitchen's door", "the kitchen door"), ("a bike boy", "a boy with a bike")])}""",
     25, """<p>Portuguese puts the main noun first and links with <i>de</i>, so Brazilians say <i>the laptop of Marcos</i>, <i>a cup of coffee</i> when they mean the object (a <i>coffee cup</i> can be empty; a <i>cup of coffee</i> has coffee in it), or mix the order (<i>chocolate milk</i> vs <i>milk chocolate</i>). Ask: which is the main thing? It goes last.</p>""")
+
+
+def quantifiers(b):
+    """A2 Unit 41: countable/uncountable nouns; some, any, a few, a little, much, many, a lot of, too much/many, enough, plenty of."""
+    b.page(f"""{b.sec("+", "Grammar reference: countable and uncountable nouns, quantifiers", "")}
+<div class="box" style="margin-top:0"><h4>CAN YOU COUNT IT?</h4><b>Countable</b> nouns have a singular and a plural: <i>a chili, two chilies, an onion, onions</i>. <b>Uncountable</b> nouns have no plural and no <i>a/an</i>: <i>rice, milk, spinach, chicken</i> (the meat), <i>money, time, advice, bread</i>. To count them, use a container or unit: <i>a bag of spinach, a can of tomatoes, two pounds of chicken, a piece of advice</i>.</div>
+{_h("1. QUANTIFIERS")}
+{_tbl(["", "plural countable (onions)", "uncountable (rice)", "use"], [
+    ["<b>some</b>", "<i>some onions</i>", "<i>some rice</i>", "positive sentences, offers and requests (<i>Would you like some…?</i>)"],
+    ["<b>any</b>", "<i>any onions</i>", "<i>any rice</i>", "negatives and questions"],
+    ["<b>a few / a little</b>", "<i>a few onions</i>", "<i>a little rice</i>", "a small amount (but enough)"],
+    ["<b>many / much</b>", "<i>many onions</i>", "<i>much rice</i>", "mostly negatives and questions: <i>How many…? How much…?</i>"],
+    ["<b>a lot of / lots of</b>", "<i>a lot of onions</i>", "<i>a lot of rice</i>", "positive sentences (more natural than <i>many / much</i>)"],
+    ["<b>too many / too much</b>", "<i>too many onions</i>", "<i>too much rice</i>", "more than we want: a problem"],
+    ["<b>enough</b>", "<i>enough onions</i>", "<i>enough rice</i>", "the amount we need"],
+    ["<b>plenty of</b>", "<i>plenty of onions</i>", "<i>plenty of rice</i>", "more than enough, with extra: no problem"]], "8.2pt")}
+{_h("2. FOOD: COUNTABLE OR UNCOUNTABLE?")}
+<p class="small" style="margin:.5mm 0"><b>a chicken</b> (the animal) / <b>chicken</b> (the meat) · <b>a coffee, a juice, a cake</b> (one, for one person) / <b>coffee, juice, cake</b> (in general, or to share): <i>I'll have <b>a</b> coffee, please. · Do you want some cake?</i></p>
+{_dont([("I need an advice.", "I need some advice. / a piece of advice"), ("How many money do you have?", "How <b>much</b> money do you have?"), ("I have many time.", "I have <b>a lot of</b> time."), ("We have plenty rice.", "We have plenty <b>of</b> rice."), ("There are too much people here.", "There are too <b>many</b> people here.")])}""",
+    25, """<p>Some nouns are countable in Portuguese but uncountable in English: <i>advice, information, news, furniture, bread, money</i>. Brazilians also say <i>many money</i> and forget <i>of</i> after <i>plenty</i>. <i>A few / a little</i> sound positive; <i>few / little</i> (without <i>a</i>) mean "not enough".</p>""")

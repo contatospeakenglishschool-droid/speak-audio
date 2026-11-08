@@ -1,0 +1,13 @@
+{
+ "material": "speak-bridge",
+ "characters": {"Tom": "en-US-Neural2-D", "Lucy": "en-US-Neural2-C", "Narrator": "en-US-Neural2-J"},
+ "pauses": {"41.3": 3000},
+ "units": {"a2-unit-41": {
+  "41.1 Too much chicken": "Lucy: Hi! I'm back. Is anyone home?\nTom: Yes! I'm in the kitchen.\nLucy: There you are! Good news! I just bought groceries for the weekend!\nTom: But I did the shopping for the weekend. I thought you were busy today.\nLucy: I found some time. You said you didn't have much time.\nTom: Well, let's see what you bought. Do you have many bags?\nLucy: I have four.\nTom: Did you get any chilies?\nLucy: I got some chilies and a pack of green beans. I also bought two red peppers and some onions.\nTom: OK, well, I got a few chilies too, and two pounds of onions. I also got a bag of spinach. Did you get any chicken?\nLucy: I did! I got some chicken and some coconut milk.\nTom: Uh oh. I got some chicken too, and some yogurt.\nLucy: We already have a little yogurt in the fridge.\nTom: So it looks like we have too much chicken. What are we going to do?\nLucy: Well, we could put some in the freezer. Or we could make a big curry and invite Kate and Rita over for dinner tonight.\nTom: That's a great idea! We have enough chicken for everyone, and there's plenty of rice in the cupboard.\nLucy: I'm worried we don't have enough vegetables.\nTom: There are three cans of tomatoes in the cupboard, and I think we'll be OK with the spinach and the green beans. We have too many onions, though!\nLucy: Never mind. We can use them next week. They won't go bad.\nTom: That's true.",
+  "41.2 Repeat: quantities": "Narrator: some chicken\nNarrator: a few chilies\nNarrator: a little yogurt\nNarrator: plenty of rice\nNarrator: too many onions\nNarrator: Do you have much time?",
+  "41.3 How many syllables?": "Narrator: Number one. vegetables\nNarrator: Number two. chocolate\nNarrator: Number three. spinach\nNarrator: Number four. cupboard\nNarrator: Number five. coconut\nNarrator: Number six. yogurt"
+ }},
+ "images": {"a2-unit-41": {
+  "A": "raw chicken breast", "B": "chickens farm", "C": "red bell peppers", "D": "coconut milk bowl", "E": "spinach leaves", "F": "green beans", "G": "yogurt bowl", "H": "red chili peppers", "I": "chicken curry bowl", "J": "grocery bag vegetables"
+ }}
+}
