@@ -1,0 +1,31 @@
+{
+ "material": "speak-esencial",
+ "characters": {
+  "Pedro": "es-US-Chirp3-HD-Charon",
+  "Lucía": "es-US-Chirp3-HD-Kore",
+  "Sofía": "es-ES-Chirp3-HD-Despina",
+  "Paco": "es-US-Chirp3-HD-Puck",
+  "Señor": "es-US-Studio-B",
+  "Narradora": "es-US-Chirp3-HD-Aoede"
+ },
+ "pauses": {"03.2": 2500, "03.3": 3000},
+ "units": {
+  "es-a1-unidad-03": {
+   "03.1 Diálogo": "Narradora: Diálogo uno.\nLucía: Pedro, ¿de dónde eres? ¿De São Paulo?\nPedro: No, soy de Recife. Soy brasileño. ¿Y tú? ¿Eres de aquí?\nLucía: Sí, soy mexicana. Soy de la Ciudad de México.\nNarradora: Diálogo dos.\nSofía: ¡Hola! Soy Sofía, tu vecina.\nPedro: ¡Hola, Sofía! Soy Pedro. ¿Eres mexicana?\nSofía: No, soy española. Soy de Madrid. ¿Y tú?\nPedro: Soy brasileño, de Recife.\nSofía: ¡Ah, Brasil! ¡Qué bien!\nNarradora: Diálogo tres.\nSeñor: Perdón, ¿usted es de Brasil?\nPedro: Sí, soy brasileño. ¿Y usted? ¿De dónde es?\nSeñor: Soy argentino, de Buenos Aires.\nPaco: ¡Y yo soy de Oaxaca! Bienvenidos.",
+   "03.2 Repite palabras": "Narradora: México. Mexicano, mexicana.\nNarradora: Brasil. Brasileño, brasileña.\nNarradora: Argentina. Argentino, argentina.\nNarradora: Colombia. Colombiano, colombiana.\nNarradora: Chile. Chileno, chilena.\nNarradora: Perú. Peruano, peruana.\nNarradora: España. Español, española.\nNarradora: Estados Unidos. Estadounidense.",
+   "03.3 Repite frases": "Narradora: ¿De dónde eres?\nNarradora: Soy de Recife.\nNarradora: Soy brasileño. Soy brasileña.\nNarradora: ¿De dónde es usted?\nNarradora: Ella es española.\nNarradora: Él es de México."
+  }
+ },
+ "images": {
+  "es-a1-unidad-03": {
+   "A": "palacio de bellas artes mexico city",
+   "B": "rio de janeiro christ the redeemer",
+   "C": "buenos aires obelisk",
+   "D": "cartagena colombia colorful street",
+   "E": "santiago chile city mountains",
+   "F": "machu picchu peru",
+   "G": "madrid gran via",
+   "H": "new york skyline"
+  }
+ }
+}
