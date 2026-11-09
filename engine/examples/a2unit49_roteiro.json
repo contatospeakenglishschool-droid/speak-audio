@@ -1,0 +1,13 @@
+{
+ "material": "speak-bridge",
+ "characters": {"Paulo": "en-US-Neural2-I", "Maya": "en-US-Studio-O", "Narrator": "en-US-Neural2-J"},
+ "pauses": {"49.3": 3000},
+ "units": {"a2-unit-49": {
+  "49.1 Discover Brazil": "Maya: OK, Paulo, let's practice your webinar. The clients are going to love it. Start whenever you're ready.\nPaulo: Great. Welcome to Discover Brazil! I'm Paulo, and I was born in São Paulo, so this is my favorite topic. Let's start in Rio de Janeiro. This is Christ the Redeemer. The statue was inaugurated in nineteen thirty-one, on top of Corcovado mountain. And in two thousand seven, it was chosen as one of the New Seven Wonders of the World.\nMaya: Wow. Was it built by a Brazilian?\nPaulo: Not only Brazilians. It was designed by a team of Brazilian and French artists and engineers. Now, this is Brasília, the capital. It was built in less than four years. The city was planned by Lúcio Costa, and many of the buildings were designed by Oscar Niemeyer. Brasília was inaugurated in nineteen sixty.\nMaya: Why was the capital moved there?\nPaulo: To bring development to the center of the country. Before that, the capital was Rio. Next, soccer! This is the Maracanã stadium in Rio. It was opened in nineteen fifty for the World Cup, and it was rebuilt for the World Cup in two thousand fourteen.\nMaya: And who's the man with the hat in this old photo?\nPaulo: That's Alberto Santos-Dumont, a Brazilian pioneer of aviation. In nineteen oh six, his plane, the fourteen-bis, was flown in Paris in front of a big crowd. In Brazil, many people call him the father of aviation.\nMaya: That's amazing. I didn't know any of that!\nPaulo: That's the idea! Brazil is full of surprises.",
+  "49.2 Repeat: the past passive": "Narrator: It was built in four years.\nNarrator: It was inaugurated in nineteen thirty-one.\nNarrator: The buildings were designed by Niemeyer.\nNarrator: When was it opened?\nNarrator: Who was it designed by?\nNarrator: They weren't built in Rio.",
+  "49.3 Is or was?": "Narrator: Number one. The statue is visited by millions of people.\nNarrator: Number two. The stadium was opened in nineteen fifty.\nNarrator: Number three. Coffee is grown in Minas Gerais.\nNarrator: Number four. The city was planned by Lúcio Costa.\nNarrator: Number five. The plane was flown in Paris.\nNarrator: Number six. Portuguese is spoken in Brazil."
+ }},
+ "images": {"a2-unit-49": {
+  "A": "Christ the Redeemer Rio", "B": "Brasilia National Congress", "C": "Maracana stadium", "D": "vintage airplane museum", "E": "webinar laptop presentation", "F": "Rio de Janeiro Sugarloaf"
+ }}
+}

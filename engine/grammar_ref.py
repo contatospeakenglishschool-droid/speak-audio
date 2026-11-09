@@ -1069,3 +1069,23 @@ def opinion_essay(b):
 <p class="small" style="margin:.8mm 0"><b>Checklist:</b> one topic per paragraph · reasons + examples for each point · only <b>one</b> question (in the introduction) · a clear opinion at the end · a range of grammar from Units 37–47 (gerunds, articles, passives, quantifiers, phrasal verbs) · no contractions in formal essays · check spelling and punctuation at the end.</p>
 {_dont([("In my opinion I think organic food is good.", "In my opinion, organic food is good."), ("However organic food is expensive.", "However, organic food is expensive."), ("For example the apples.", "For example, some apples travel very far."), ("I don't agree. Why? Because…", "(one question only, in the introduction)"), ("It's gonna be better.", "It is going to be better.")])}""",
     20, """<p>Brazilian students often write very long sentences, use <i>In my opinion I think</i> (repetition), forget commas after linking words, and ask many rhetorical questions. Focus on structure first, then language.</p>""")
+
+
+def passive_past(b):
+    """A2 Unit 49: past simple passive: was/were + past participle; by; questions; present vs past passive."""
+    b.page(f"""{b.sec("+", "Grammar reference: the passive (past simple)", "")}
+<div class="box" style="margin-top:0"><h4>WHAT HAPPENED (NOT WHO DID IT)</h4>Unit 45 used the present passive for processes (<i>The game <b>is tested</b></i>). We use the <b>past passive</b> for history: buildings, inventions, events. The focus is on the thing, not the person: <i>Brasília <b>was built</b> in less than four years.</i></div>
+{_h("1. FORM: WAS / WERE + PAST PARTICIPLE")}
+{_tbl(["", "singular", "plural"], [
+    ["<b>positive</b>", "<i>The statue <b>was inaugurated</b> in 1931.</i>", "<i>The buildings <b>were designed</b> by Niemeyer.</i>"],
+    ["<b>negative</b>", "<i>It <b>wasn't built</b> in Rio.</i>", "<i>They <b>weren't finished</b> on time.</i>"],
+    ["<b>question</b>", "<i>When <b>was</b> the stadium <b>opened</b>?</i>", "<i><b>Were</b> the plans <b>drawn</b> by Costa?</i>"]], "8.5pt")}
+{_h("2. PRESENT OR PAST PASSIVE?")}
+{_tbl(["present: is / are + participle", "past: was / were + participle"], [
+    ["<i>Portuguese <b>is spoken</b> in Brazil.</i> (now, in general)", "<i>The 14-bis <b>was flown</b> in Paris in 1906.</i> (finished, in the past)"],
+    ["<i>Coffee <b>is grown</b> in Minas Gerais.</i>", "<i>The Maracanã <b>was opened</b> in 1950.</i>"]], "8.5pt")}
+{_h("3. BY + PERSON, AND QUESTIONS WITH WHO")}
+<p class="small" style="margin:.5mm 0">Add <b>by</b> when the person is important: <i>The city was planned <b>by Lúcio Costa</b>.</i> · Ask: <i><b>Who was</b> it designed <b>by</b>?</i> (informal) · <i><b>By whom was</b> it designed?</i> (very formal) · Active: <i>Who designed it?</i><br>
+<b>Irregular participles:</b> build → <b>built</b>, choose → <b>chosen</b>, fly → <b>flown</b>, draw → <b>drawn</b>, write → <b>written</b>, steal → <b>stolen</b>, paint → painted, invent → invented, discover → discovered</p>
+{_dont([("The statue built in 1931.", "The statue <b>was</b> built in 1931."), ("The buildings was designed by Niemeyer.", "The buildings <b>were</b> designed…"), ("It was flied in Paris.", "It was <b>flown</b> in Paris."), ("When was opened the stadium?", "When <b>was the stadium opened</b>?"), ("It was invented for Santos-Dumont.", "…invented <b>by</b> Santos-Dumont.")])}""",
+    20, """<p>This unit extends Unit 45 (present passive) into the past and leads into B1. Typical errors: no <i>was/were</i>, wrong agreement (<i>the buildings was</i>), regular endings on irregular verbs (<i>flied, builded</i>) and question word order.</p>""")
