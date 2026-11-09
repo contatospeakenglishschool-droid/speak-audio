@@ -1024,3 +1024,26 @@ def phrasal_verbs(b):
 Not sure if it separates? Put the noun <b>after</b> the particle: <i>I gave up chocolate.</i> That order is always safe with a noun.</p>
 {_dont([("Heat up it, please.", "Heat <b>it</b> up, please."), ("Mix in them.", "Mix <b>them</b> in."), ("Let's eat up tonight.", "Let's eat <b>out</b> tonight."), ("I'm cutting down sugar.", "I'm cutting down <b>on</b> sugar."), ("Stop picking your food at.", "Stop picking <b>at</b> your food.")])}""",
     25, """<p>Phrasal verbs are very common in spoken and informal written American English. Encourage the student to keep a phrasal verb notebook with three columns: form, meaning, example sentence. A good learner's dictionary shows if a phrasal verb separates.</p>""")
+
+
+def question_forms(b):
+    """A2 Unit 47: questions in all tenses: do/does/did in simple forms, inversion with be/have/will/would/going to, subject questions, intonation."""
+    b.page(f"""{b.sec("+", "Grammar reference: making questions", "")}
+<div class="box" style="margin-top:0"><h4>QUESTION WORD + AUXILIARY + SUBJECT + VERB</h4>Most English questions follow this order: <b>(question word) + auxiliary + subject + main verb</b>. The auxiliary changes with the tense.</div>
+{_h("1. SIMPLE FORMS: ADD DO / DOES / DID")}
+{_tbl(["tense", "question", "auxiliary"], [
+    ["present simple", "<i>How many rings <b>does</b> Saturn <b>have</b>?</i>", "do / does + base form"],
+    ["past simple", "<i>When <b>did</b> the last dodo <b>die</b>?</i>", "did + base form"],
+    ["used to", "<i>What <b>did</b> people <b>use to</b> believe?</i>", "did + use to (no -d)"]], "8.5pt")}
+{_h("2. MULTI-WORD FORMS: CHANGE THE ORDER")}
+{_tbl(["tense", "statement", "question"], [
+    ["present continuous", "<i>The Earth <b>is</b> moving.</i>", "<i>How fast <b>is</b> the Earth moving?</i>"],
+    ["present perfect", "<i>They <b>have</b> sent robots.</i>", "<i>Where <b>have</b> they sent robots?</i>"],
+    ["will (prediction)", "<i>It <b>will</b> approach Earth.</i>", "<i>When <b>will</b> it approach Earth?</i>"],
+    ["going to (plan)", "<i>It<b>'s</b> going to travel to Titan.</i>", "<i>Where <b>is</b> it going to travel?</i>"],
+    ["second conditional", "<i>They <b>would</b> weigh 20 pounds.</i>", "<i>What <b>would</b> they weigh?</i>"]], "8.5pt")}
+{_h("3. SUBJECT QUESTIONS: NO AUXILIARY")}
+<p class="small" style="margin:.5mm 0">When <b>who, what</b> or <b>which</b> is the subject, use statement word order: <i><b>Who discovered</b> the galaxies?</i> (Hubble discovered them.) · <i><b>Which country is going to send</b> people to Mars?</i> Compare: <i>Who <b>did</b> Hubble <b>work</b> with?</i> (object question)</p>
+<p class="small" style="margin:.5mm 0"><b>Intonation:</b> yes/no questions usually go <b>up</b> ↗ (<i>Are you ready?</i>); wh- questions usually go <b>down</b> ↘ (<i>Where do you live?</i>).</p>
+{_dont([("How many rings Saturn has?", "How many rings <b>does</b> Saturn <b>have</b>?"), ("Who did discover the galaxies?", "Who <b>discovered</b> the galaxies?"), ("Where you are going?", "Where <b>are you</b> going?"), ("Did you used to play?", "Did you <b>use</b> to play?"), ("What will it to do?", "What will it <b>do</b>?")])}""",
+    20, """<p>Portuguese makes many questions with intonation only, so Brazilians often keep statement order (<i>Where you live?</i>) or add <i>did</i> to subject questions. Drill a few questions in each tense and keep the intonation rule.</p>""")
