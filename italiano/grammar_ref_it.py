@@ -428,3 +428,26 @@ def stare_gerundio(b):
 {_dont([("Sto abitando a Bologna.", "<b>Abito</b> a Bologna."), ("Sto avendo un problema.", "<b>Ho</b> un problema."),
         ("Sto faccendo / sto fando.", "Sto <b>facendo</b>."), ("Sto per uscendo.", "Sto per <b>uscire</b>."), ("Stanno suonandi.", "Stanno <b>suonando</b>.")])}""",
     20, """<p>In italiano <i>stare + gerundio</i> si usa meno che in portoghese: solo per un'azione proprio in corso. Per situazioni lunghe o abituali si usa il presente (<i>abito, lavoro in uno studio</i>), e con <i>avere, essere, sapere, volere</i> il gerundio progressivo non si usa. Il gerundio è invariabile (mai <i>-andi, -enda</i>).</p>""")
+
+
+def che_cui(b):
+    """A2 Ponte 16: pronomi relativi che (soggetto/oggetto) e cui (dopo preposizione); in cui = dove; il quale (riconoscere)."""
+    che = [("soggetto", "un ufficio postale <b>che</b> apre il pomeriggio", "(l'ufficio postale apre)"),
+           ("oggetto", "la città <b>che</b> vorrei · l'idea <b>che</b> mi piace", "(vorrei la città)")]
+    cui = [("<b>in cui</b>", "la via <b>in cui</b> abito · una piazza <b>in cui</b> i ragazzi suonano", "abito <b>in</b> una via"),
+           ("<b>con cui</b>", "la signora <b>con cui</b> parli sulle scale", "parli <b>con</b> la signora"),
+           ("<b>di cui</b>", "un'idea <b>di cui</b> parla da anni", "parla <b>di</b> un'idea"),
+           ("<b>su cui</b>", "panchine <b>su cui</b> riposare", "riposare <b>su</b> panchine"),
+           ("<b>a cui</b>", "l'amica <b>a cui</b> scrivo", "scrivo <b>a</b> un'amica"),
+           ("<b>per cui</b>", "il motivo <b>per cui</b> vado in bici", "vado in bici <b>per</b> un motivo")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: che e cui", "")}
+<div class="box" style="margin-top:0"><h4>CHE COSA SONO?</h4>I pronomi relativi uniscono due frasi e evitano di ripetere un nome: <i>Vorrei una biblioteca. La biblioteca resta aperta fino alle dieci.</i> → <i>Vorrei una biblioteca <b>che</b> resta aperta fino alle dieci.</i> <b>Che</b> e <b>cui</b> non cambiano mai: maschile, femminile, singolare, plurale.</div>
+{_h("1. CHE: SENZA PREPOSIZIONE")}
+{_tbl(["funzione", "esempio", "perché"], che, "8.6pt", ["24mm", None, "46mm"])}
+{_h("2. CUI: DOPO UNA PREPOSIZIONE")}
+{_tbl(["preposizione + cui", "esempio", "il verbo vuole…"], cui, "8.6pt", ["32mm", None, "46mm"])}
+<div class="two"><div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><b>3. IN CUI O DOVE?</b><br>Per un luogo si può dire anche <b>dove</b>: <i>la via <b>in cui</b> abito = la via <b>dove</b> abito</i>. Per il tempo: <i>il giorno <b>in cui</b> sono arrivata</i>.</div>
+<div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><b>4. IL QUALE (DA RICONOSCERE)</b><br>Nello scritto formale: <i>il quale, la quale, i quali, le quali</i> (<i>la signora <b>con la quale</b> parli</i> = <i>con cui</i>). Nel parlato si usa poco.</div></div>
+{_dont([("La via che abito.", "La via <b>in cui</b> abito."), ("La signora che parlo sempre.", "La signora <b>con cui</b> parlo."),
+        ("Un'idea che parla da anni.", "Un'idea <b>di cui</b> parla."), ("La ragazza cui esco.", "<b>con</b> cui esco"), ("Il libro cui leggo.", "Il libro <b>che</b> leggo.")])}""",
+    20, """<p>In portoghese <i>que</i> va bene quasi sempre nel parlato (<i>a rua que eu moro</i>): lo studente dice <i>la via che abito</i>. Metodo: guardare il verbo della seconda frase: <i>abitare <b>in</b>, parlare <b>con / di</b></i> → la preposizione va davanti a <i>cui</i>. Senza preposizione → <i>che</i>. <i>Cui</i> si pronuncia [kùi], due vocali.</p>""")

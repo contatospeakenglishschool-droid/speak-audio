@@ -1,0 +1,31 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"16.2": 2500, "16.3": 3500},
+ "units": {
+  "it-a2-unita-16": {
+   "16.1 Testi e dialogo": "Narrator: Prima parte. Il Comune di Bologna chiede ai cittadini: com'è la città che vorreste? Ecco tre risposte.\nSignora Rossi: Io vorrei una città in cui gli anziani escono senza paura. Nel mio quartiere ci sono marciapiedi che sono pieni di buche e non ci sono panchine su cui riposare. E vorrei un ufficio postale che apre anche il pomeriggio!\nDavide: La città che vorrei è una città per le biciclette. Ogni mattina vado al lavoro in bici e trovo macchine che parcheggiano sulla pista ciclabile. Vorrei più piste ciclabili e un posto sicuro in cui lasciare la bici.\nGiulia: Io vorrei un quartiere in cui la sera c'è vita: piccoli negozi, una biblioteca che resta aperta fino alle dieci, una piazza in cui i ragazzi possono suonare. La via in cui abito, la sera, è morta!\nNarrator: Seconda parte. Nello studio di Marco. Marco e Júlia leggono le risposte per il progetto del giardino in Bolognina.\nMarco: Júlia, guarda questa: è la signora con cui parli sempre sulle scale?\nJúlia: Sì, è la signora Rossi, la mia vicina! Ha ragione: nel giardino servono panchine su cui gli anziani possono riposare.\nMarco: E Davide vuole un posto per le bici.\nJúlia: Facile: c'è un angolo vicino all'entrata in cui possiamo mettere le rastrelliere.\nMarco: E questa? Una piazza in cui i ragazzi possono suonare.\nJúlia: È Giulia! È un'idea di cui parla da anni.\nMarco: Allora mettiamo un piccolo palco. È l'idea che mi piace di più.\nJúlia: E poi… un giardino senza un bar?\nMarco: Ho capito: un chiosco che fa il caffè brasiliano, vero?\nJúlia: Esatto! L'hai detto tu!",
+   "16.2 Ripeti": "Narrator: la città che vorrei\nNarrator: la piazza in cui suonano\nNarrator: la signora con cui parlo\nNarrator: un'idea di cui parla da anni\nNarrator: le panchine su cui riposare",
+   "16.3 Che, chi, cui o qui": "Narrator: Numero uno. Chi è?\nNarrator: Numero due. La via in cui abito.\nNarrator: Numero tre. Il libro che leggo.\nNarrator: Numero quattro. Vieni qui!\nNarrator: Numero cinque. La ragazza con cui esco.\nNarrator: Numero sei. Chi viene stasera?"
+  }
+ },
+ "images": {
+  "it-a2-unita-16": {
+   "A": "italian town square piazza",
+   "B": "bike lane city",
+   "C": "park bench",
+   "D": "public library reading room",
+   "E": "sidewalk pedestrians street",
+   "F": "post office counter",
+   "G": "children playground",
+   "H": "bus stop city"
+  }
+ }
+}
