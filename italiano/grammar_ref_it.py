@@ -498,3 +498,24 @@ def connettivi_email(b):
 {_dont([("Comunque = como?", "<b>comunque</b> = de qualquer forma"), ("Prezado signor Ferri,", "<b>Gentile</b> signor Ferri,"),
         ("Att., Júlia", "<b>Cordiali saluti</b>, Júlia …"), ("Invece dormire in albergo", "<b>Invece di</b> dormire"), ("Gentile Ferri, come stai?", "come <b>sta</b>?")])}""",
     20, """<p>Falsi amici: <i>comunque</i> non è <i>como</i>; <i>infatti</i> conferma (<i>de fato, realmente</i>); <i>invece</i> = <i>em vez / por outro lado</i>. Nelle mail formali gli italiani non usano <i>abbraccio</i> né <i>bacio</i>: <i>Cordiali saluti</i> (o <i>Distinti saluti</i>, più freddo). Titoli: <i>dottore / dottoressa</i> (laureati), <i>ragioniere</i>, <i>avvocato</i>, <i>ingegnere</i>.</p>""")
+
+
+def verbi_preposizione(b):
+    """A2 Ponte 20: verbi + a / di + infinito; verbi senza preposizione."""
+    va = [("cominciare <b>a</b>", "Ho cominciato <b>a</b> studiare a maggio."), ("continuare <b>a</b>", "Ho continuato <b>a</b> parlare."),
+          ("provare <b>a</b>", "Prova <b>a</b> respirare."), ("aiutare qualcuno <b>a</b>", "Chiara mi ha aiutato <b>a</b> ripassare."),
+          ("imparare <b>a</b> · riuscire <b>a</b>", "Ho imparato <b>a</b> guidare. · Non riesco <b>a</b> dormire.")]
+    vd = [("finire <b>di</b>", "Non ho finito <b>di</b> ripassare."), ("smettere <b>di</b>", "Smetti <b>di</b> preoccuparti!"),
+          ("decidere <b>di</b>", "Ho deciso <b>di</b> non bere il caffè."), ("dimenticare <b>di</b> · ricordarsi <b>di</b>", "Ho dimenticato <b>di</b> dire una data. · Ricordati <b>di</b> portare il documento."),
+          ("promettere <b>di</b> · cercare <b>di</b>", "Ha promesso <b>di</b> smettere. · Cerco <b>di</b> dormire."), ("avere paura <b>di</b> · sperare <b>di</b>", "Ho paura <b>di</b> dimenticare. · Spero <b>di</b> passare.")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: verbi + a / di + infinito", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Quando un verbo è seguito da un altro verbo all'infinito, spesso in mezzo c'è una <b>preposizione</b>: <b>a</b> o <b>di</b>. Non c'è una regola sicura: bisogna <b>impararli insieme</b>, come una parola sola (<i>cominciare a, finire di</i>). Un aiuto: molti verbi di <b>inizio e movimento</b> vogliono <i>a</i>; molti verbi di <b>fine, decisione e memoria</b> vogliono <i>di</i>.</div>
+{_h("1. VERBI + A + INFINITO")}
+{_tbl(["verbo", "esempio"], va, "8.6pt", ["46mm", None])}
+{_h("2. VERBI + DI + INFINITO")}
+{_tbl(["verbo", "esempio"], vd, "8.6pt", ["46mm", None])}
+<div class="two"><div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><b>3. SENZA PREPOSIZIONE</b><br><i>dovere, potere, volere, sapere</i> · <i>preferire, desiderare</i> · <i>piacere</i>: <i>Voglio dormire. · Preferisco restare. · Mi piace studiare.</i></div>
+<div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><b>4. ANCHE VERBI DI MOVIMENTO + A</b><br><i>andare, venire, uscire, tornare</i> + <b>a</b> + infinito: <i>Vado <b>a</b> studiare in biblioteca. · Vieni <b>a</b> mangiare da me?</i></div></div>
+{_dont([("Ho cominciato studiare.", "cominciato <b>a</b> studiare"), ("Ho deciso a partire.", "deciso <b>di</b> partire"), ("Smetti preoccuparti!", "Smetti <b>di</b>…"),
+        ("Voglio di dormire.", "Voglio dormire."), ("Mi ha aiutato di ripassare.", "aiutato <b>a</b> ripassare")])}""",
+    20, """<p>Il portoghese ha preposizioni simili ma non uguali: <i>começar a</i> = <i>cominciare a</i> (facile), ma <i>decidir</i> + infinito senza preposizione → <i>decidere <b>di</b></i>; <i>parar de</i> → <i>smettere <b>di</b></i>; <i>tentar</i> → <i>provare <b>a</b></i> / <i>cercare <b>di</b></i>; <i>esquecer de</i> → <i>dimenticare <b>di</b></i>. Far creare una lista personale "a / di" e aggiungere i verbi nuovi delle prossime unità.</p>""")

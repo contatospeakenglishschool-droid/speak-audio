@@ -1,0 +1,30 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Chiara": "it-IT-Chirp3-HD-Achernar",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"20.2": 2500, "20.3": 3500},
+ "units": {
+  "it-a2-unita-20": {
+   "20.1 Dialoghi": "Narrator: Prima parte. Fine giugno, le sette di mattina. Oggi Bruno ha l'esame di Storia medievale. Telefona a Júlia.\nBruno: Júlia, scusa se ti chiamo così presto. Non riesco a dormire!\nJúlia: Bruno! Sei agitato?\nBruno: Agitatissimo. Ho cominciato a studiare a maggio, ma non ho finito di ripassare l'ultimo capitolo.\nJúlia: Smetti di preoccuparti! Hai studiato per settimane. Chiara ti ha anche aiutato a ripassare.\nBruno: È vero. Però ho paura di dimenticare tutte le date.\nJúlia: Prova a respirare. Hai fatto colazione?\nBruno: Ho deciso di non bere il caffè: mi fa venire l'ansia.\nJúlia: Bravo. E ricordati di portare il documento!\nBruno: Ce l'ho già nello zaino. Grazie, sorellina!\nNarrator: Seconda parte. La sera, al bar di Giulia. Arrivano Bruno e Chiara.\nGiulia: Allora? Com'è andato l'esame?\nBruno: Ho preso ventotto!\nJúlia: Ventotto! Bravissimo! Racconta!\nBruno: Il professore ha cominciato a fare domande su Carlo Magno. Io ho dimenticato di dire una data, però ho continuato a parlare e alla fine gli è piaciuto.\nChiara: E sai che cosa ha deciso di fare adesso?\nGiulia: Che cosa?\nChiara: Ha promesso di smettere di giocare ai videogiochi fino a settembre. C'è un altro esame!\nBruno: Ci provo… ma stasera festeggiamo!\nGiulia: Allora offro io: tre spritz e un'aranciata per lo studente!",
+   "20.2 Ripeti": "Narrator: a presto, a casa, a Roma\nNarrator: comincio a studiare\nNarrator: provo a dormire\nNarrator: ho deciso di partire\nNarrator: Smetti di preoccuparti!",
+   "20.3 A o di": "Narrator: Numero uno. Ho cominciato a studiare.\nNarrator: Numero due. Ho finito di mangiare.\nNarrator: Numero tre. Prova a dormire.\nNarrator: Numero quattro. Ho deciso di partire.\nNarrator: Numero cinque. Smetti di parlare!\nNarrator: Numero sei. Mi aiuti a portare la valigia?"
+  }
+ },
+ "images": {
+  "it-a2-unita-20": {
+   "A": "university lecture hall",
+   "B": "study notes notebook",
+   "C": "highlighter marker book",
+   "D": "alarm clock morning",
+   "E": "stressed student studying",
+   "F": "professor teaching",
+   "G": "backpack",
+   "H": "friends toast celebration drinks"
+  }
+ }
+}
