@@ -1,0 +1,20 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Luca": "it-IT-Chirp3-HD-Fenrir",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Contadino": "it-IT-Chirp3-HD-Charon",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"R2.2": 5500},
+ "units": {
+  "it-a2-ripasso-2": {
+   "R2.1 Conversazione": "Narrator: Domenica 21 giugno, Festa della Musica. Marco e Sara sono al concerto in piazza; al bar di Giulia, Luca chiede a Júlia le novità della primavera.\nLuca: Allora, Júlia, che cosa hai fatto in questi mesi? Marco non mi racconta mai niente!\nJúlia: Tante cose! Ad aprile Giulia mi ha portata a una mostra di foto sulla Bologna degli anni Cinquanta. L'abbiamo vista in un'ora, ma era bellissima.\nGiulia: E il 25 aprile siamo andate a Venezia. Volevamo prendere il treno, ma c'era lo sciopero, quindi abbiamo dovuto prendere il pullman.\nJúlia: E pioveva! Io avevo dimenticato l'ombrello. E al Palazzo Ducale non siamo potute entrare: c'era una fila di due ore.\nGiulia: Però Júlia ha fatto trecento foto. Trecento!\nLuca: Che brava! E allo studio? Marco dice che avete una stagista nuova.\nJúlia: Sì, Elena. È più giovane di noi, ma è bravissima. Ed è ordinata quanto Marco!\nLuca: E Sara mi ha detto che legge il tuo blog, Giulia. Le fragole, le uova…\nGiulia: Ah, sì! Adesso compro tutto a chilometro zero. Le uova? Ne compro dieci dozzine alla settimana. E al mercato contadino ci vado ogni sabato.\nLuca: E tu, Júlia? Marco dice che un sabato alle otto stavi passando l'aspirapolvere!\nJúlia: Che vergogna! Stavo pulendo la casa per una cena, e la signora Rossi è venuta a bussare.\nLuca: E il giardino? Com'è?\nJúlia: Vieni a vederlo domani! C'è un angolo in cui metteremo un piccolo palco, e ci saranno panchine su cui gli anziani possono riposare. È il progetto di cui sono più orgogliosa.\nGiulia: E ci sarà un chiosco che fa il caffè brasiliano!\nLuca: A proposito: qui si paga prima o dopo?\nGiulia: Da me si paga dopo. Però stasera la cena la offro io.\nLuca: Grazie! Comunque il vino l'ho portato io. Ascoltate: stanno per cominciare a suonare. Andiamo in piazza?\nJúlia: Andiamo!",
+   "R2.2 Dettato": "Narrator: Ascolta e scrivi le frasi.\nNarrator: Uno. Il film? L'ho già visto con Marco.\nNarrator: Due. Volevamo entrare, ma non siamo potute entrare.\nNarrator: Tre. Elena è più giovane di Tommaso, ma è bravissima.\nNarrator: Quattro. Le uova? Non ne ho più.\nNarrator: Cinque. Non posso parlare: sto guidando.\nNarrator: Sei. È la via in cui abito da un anno.\nNarrator: Sette. In Italia il cappuccino si beve la mattina.\nNarrator: Otto. Sabato lavoro, però possiamo vederci domenica.",
+   "R2.3 Dialoghi": "Narrator: Dialogo uno. Al mercato contadino.\nContadino: Buongiorno, signorina! Quante fragole vuole?\nJúlia: Ne prendo mezzo chilo. E le uova? Ce ne sono ancora?\nContadino: No, mi dispiace, non ne ho più. Sono le uova più fresche del mercato: finiscono sempre alle nove!\nJúlia: Allora sabato prossimo ci vengo prima.\nNarrator: Dialogo due. Al telefono.\nMarco: Pronto, Júlia? Che cosa stai facendo?\nJúlia: Sto scrivendo una mail alla dottoressa Bianchi. È la signora di cui ti ho parlato.\nMarco: Ricordati: nelle mail formali si scrive Cordiali saluti.\nJúlia: Lo so! Comunque sto per uscire: ci vediamo al bar?"
+  }
+ },
+ "images": {}
+}
