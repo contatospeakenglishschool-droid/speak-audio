@@ -1,7 +1,7 @@
-# B1 Progress: Speak! unit -> Linguahouse lesson (DRAFT, 2026-11-06)
+# B1 Progress: Speak! unit -> Linguahouse lesson (approved structure, 2026-11-09)
 
 Source folder: `My Drive/ENGLISH/LINGUA HOUSE/General English Course/2 English for Life (A2-C1)/2 Intermediate (B1-B2)/` (66 lessons, no Linguahouse reviews).
-Same rules as A2 Bridge: Speak! Review every 10th number, built only on the Speak! units of that block; the last block closes with its own review.
+Block rule (all levels): 9 units + a Review as the 10th = one block; Review numbering restarts at 1 in this level (B1 Review 1–8). Reviews use only the Speak! units of their block. The source ends at unit 73, so units 74–79 are extra Speak! units (no Linguahouse source; topics chosen when we get there, on B1 grammar the course still needs), and Review 8 is unit 80.
 Files: `B1 Progress NN - Title - SB.pdf`; band `B1 · UNIT NN`; audio folder `b1-unit-NN`, `b1-review-N`; Drive `Inglês/B1 Progress/`.
 Notes: LH 43.1 (Taking time out of your relationship) is an extra lesson numbered 43.1 in the folder; "Home improviments" is spelled "Home improvements" in our title.
 
@@ -80,4 +80,12 @@ Notes: LH 43.1 (Taking time out of your relationship) is an extra lesson numbere
 | 71 | Surfing the net | 63 Surfing the net |
 | 72 | Troubleshooting | 64 Troubleshooting |
 | 73 | Slow television | 65 Slow television |
-| 74 | **Review 8** (units 71–73) | — |
+| 74 | Extra Speak! unit (topic chosen later) | — |
+| 75 | Extra Speak! unit (topic chosen later) | — |
+| 76 | Extra Speak! unit (topic chosen later) | — |
+| 77 | Extra Speak! unit (topic chosen later) | — |
+| 78 | Extra Speak! unit (topic chosen later) | — |
+| 79 | Extra Speak! unit (topic chosen later) | — |
+| 80 | **Review 8** (units 71–79) | — |
+
+B1 Progress = 80 units (8 blocks of 10).
