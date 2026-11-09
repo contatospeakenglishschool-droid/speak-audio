@@ -999,3 +999,28 @@ def passive_present(b):
 <p class="small" style="margin:.5mm 0"><b>regular:</b> agree → agreed, test → tested, record → recorded · <b>irregular:</b> choose → <b>chosen</b>, find → <b>found</b>, make → <b>made</b>, put → <b>put</b>, write → <b>written</b>, build → <b>built</b>, send → <b>sent</b>, take → <b>taken</b></p>
 {_dont([("The game is test by players.", "The game is <b>tested</b> by players."), ("The videos is made.", "The videos <b>are</b> made."), ("The budget agreed first.", "The budget <b>is</b> agreed first."), ("The artwork is produced for Annie.", "The artwork is produced <b>by</b> Annie."), ("The target audience is choosed.", "The target audience is <b>chosen</b>.")])}""",
     20, """<p>Brazilians often forget <i>be</i> (<i>The budget agreed</i>), use the base form instead of the participle (<i>is test</i>), or use <i>for</i> instead of <i>by</i>. Only the present simple passive is practiced here; other tenses come at B1.</p>""")
+
+
+def phrasal_verbs(b):
+    """A2 Unit 46: phrasal verbs: form, meaning, grammar; four types; separable with pronouns."""
+    b.page(f"""{b.sec("+", "Grammar reference: phrasal verbs", "")}
+<div class="box" style="margin-top:0"><h4>VERB + PARTICLE</h4>A <b>phrasal verb</b> is a verb + a <b>particle</b> (a small word like <i>up, out, at, in, down, on</i>). The meaning is often different from the verb alone: <i>pick</i> (choose) → <i>pick up</i> (go and get) → <i>pick at</i> (eat very little). Learn three things: the <b>form</b>, the <b>meaning</b> and the <b>grammar</b>.</div>
+{_h("1. FOOD PHRASAL VERBS FROM THIS UNIT")}
+{_tbl(["phrasal verb", "meaning", "example"], [
+    ["<b>eat out</b>", "have a meal in a restaurant", "<i>We eat out on special occasions.</i>"],
+    ["<b>pick up</b>", "go and get something quickly", "<i>I'll pick up some takeout.</i>"],
+    ["<b>pig out</b> (informal)", "eat a lot", "<i>We always pig out at Grandma's.</i>"],
+    ["<b>pick at</b>", "eat very little, without enjoying it", "<i>She picked at her salad.</i>"],
+    ["<b>cut down on</b> / <b>give up</b>", "use less of / stop completely", "<i>I'm cutting down on sugar. He gave up meat.</i>"],
+    ["<b>heat up</b> / <b>turn up</b>", "make hot / make stronger", "<i>Heat up the soup. Turn up the heat.</i>"],
+    ["<b>cut up</b> / <b>mix in</b>", "cut into small pieces / add and mix", "<i>Cut up the strawberries and mix them in.</i>"]], "8.2pt")}
+{_h("2. FOUR TYPES")}
+{_tbl(["type", "grammar", "examples"], [
+    ["1 no object", "verb + particle", "<i>Let's eat out. We pigged out.</i>"],
+    ["2 object, can't separate", "verb + particle + object", "<i>Don't pick at your food.</i> ✗ <i>pick your food at</i>"],
+    ["3 object, can separate", "verb + object + particle / verb + particle + object", "<i>Cut up the onions. / Cut the onions up.</i>"],
+    ["4 three parts", "verb + 2 particles + object", "<i>I'm cutting down on snacks.</i>"]], "8.2pt")}
+<p class="small" style="margin:.8mm 0"><b>Pronouns with type 3:</b> you <b>must</b> separate: <i>Cut <b>them</b> up.</i> ✗ <i>Cut up them.</i> · <i>Heat <b>it</b> up.</i> ✗ <i>Heat up it.</i><br>
+Not sure if it separates? Put the noun <b>after</b> the particle: <i>I gave up chocolate.</i> That order is always safe with a noun.</p>
+{_dont([("Heat up it, please.", "Heat <b>it</b> up, please."), ("Mix in them.", "Mix <b>them</b> in."), ("Let's eat up tonight.", "Let's eat <b>out</b> tonight."), ("I'm cutting down sugar.", "I'm cutting down <b>on</b> sugar."), ("Stop picking your food at.", "Stop picking <b>at</b> your food.")])}""",
+    25, """<p>Phrasal verbs are very common in spoken and informal written American English. Encourage the student to keep a phrasal verb notebook with three columns: form, meaning, example sentence. A good learner's dictionary shows if a phrasal verb separates.</p>""")
