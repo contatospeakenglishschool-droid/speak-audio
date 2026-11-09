@@ -1089,3 +1089,26 @@ def passive_past(b):
 <b>Irregular participles:</b> build → <b>built</b>, choose → <b>chosen</b>, fly → <b>flown</b>, draw → <b>drawn</b>, write → <b>written</b>, steal → <b>stolen</b>, paint → painted, invent → invented, discover → discovered</p>
 {_dont([("The statue built in 1931.", "The statue <b>was</b> built in 1931."), ("The buildings was designed by Niemeyer.", "The buildings <b>were</b> designed…"), ("It was flied in Paris.", "It was <b>flown</b> in Paris."), ("When was opened the stadium?", "When <b>was the stadium opened</b>?"), ("It was invented for Santos-Dumont.", "…invented <b>by</b> Santos-Dumont.")])}""",
     20, """<p>This unit extends Unit 45 (present passive) into the past and leads into B1. Typical errors: no <i>was/were</i>, wrong agreement (<i>the buildings was</i>), regular endings on irregular verbs (<i>flied, builded</i>) and question word order.</p>""")
+
+
+def getting_to_know(b):
+    """B1 Unit 01: getting-to-know-you questions across tenses; showing interest; reply questions."""
+    b.page(f"""{b.sec("+", "Grammar reference: getting to know someone", "")}
+<div class="box" style="margin-top:0"><h4>THE RIGHT QUESTION FOR THE RIGHT TIME</h4>When we meet someone new, we ask about facts, experiences, the present and the past. Each kind of question uses a different tense.</div>
+{_h("1. QUESTIONS AND TENSES")}
+{_tbl(["we ask about…", "tense", "examples"], [
+    ["<b>general facts</b>", "present simple", "<i>Where do you come from? What do you do (for a living)? Do you travel much?</i>"],
+    ["<b>experiences</b> (any time in your life)", "present perfect", "<i>Have you ever been to Peru? Have you been to Brazil before?</i>"],
+    ["<b>duration</b> up to now", "present perfect continuous", "<i>How long have you been learning English?</i> → <i>For ten years.</i>"],
+    ["<b>temporary situations</b> and plans", "present continuous", "<i>Where are you staying? How long are you here for?</i>"],
+    ["<b>a finished past event</b>", "past simple", "<i>When did you arrive? Where did you grow up?</i>"],
+    ["<b>first time</b>", "is this your first…?", "<i>Is this your first time in Chicago?</i>"]], "8.2pt")}
+{_h("2. SHOWING INTEREST")}
+{_tbl(["technique", "examples"], [
+    ["<b>expressions</b>", "<i>Really? · Wow! · That sounds interesting. · That's a shame. · It's a small world!</i>"],
+    ["<b>echo</b> (repeat a key word with rising intonation ↗)", "<i>An English teacher? · On Monday? · Korea?</i>"],
+    ["<b>reply questions</b> (auxiliary + pronoun ↗)", "<i>I work at a hospital. → Do you? · I've been to Japan. → Have you? · I went last year. → Did you?</i>"],
+    ["<b>follow-up questions</b>", "<i>Whereabouts? · Do you enjoy it? · Are you any good?</i>"]], "8.2pt")}
+<p class="small" style="margin:.8mm 0"><b>Since or for?</b> <i>for</i> + a period (<i>for ten years</i>) · <i>since</i> + a starting point (<i>since 2016</i>). <b>Ever</b> goes before the past participle: <i>Have you <b>ever</b> been…?</i> If you say <i>when</i>, use the past simple: <i>I went there <b>two years ago</b>.</i></p>
+{_dont([("How long are you learning English?", "How long <b>have you been learning</b> English?"), ("Did you ever go to Italy?", "<b>Have you ever been</b> to Italy?"), ("I have been to Peru in 2024.", "I <b>went</b> to Peru in 2024."), ("Where you come from?", "Where <b>do you</b> come from?"), ("What do you do? I'm working as a doctor. (permanent)", "I <b>work</b> as a doctor.")])}""",
+    25, """<p>B1 opens with a tense review in a social context. Brazilians often use the present simple or continuous for duration (<i>How long are you studying…?</i>) and use the present perfect with past time words. Reply questions are new and very natural in American English.</p>""")
