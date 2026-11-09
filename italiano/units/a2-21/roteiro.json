@@ -1,0 +1,29 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"21.2": 2500, "21.3": 3500},
+ "units": {
+  "it-a2-unita-21": {
+   "21.1 Dialoghi": "Narrator: Prima parte. Metà luglio, giovedì sera. Domani Giulia e Davide partono per una settimana in Puglia. Júlia è a casa loro.\nGiulia: Júlia, aiutami! La valigia non si chiude.\nJúlia: Fammi vedere… Giulia, hai messo sei paia di scarpe!\nGiulia: Lo so. Prima di chiudere la valigia, devo decidere quali portare.\nJúlia: Prendi i sandali e le scarpe da ginnastica. Basta! Hai messo la crema solare?\nGiulia: Sì: la crema, il costume, il cappello e gli occhiali da sole.\nDavide: Ragazze, ecco la mia lista. Prima di partire: chiudere il gas, svuotare il frigorifero, buttare la spazzatura e dare le chiavi a Júlia.\nJúlia: Così annaffio le piante, vero?\nGiulia: Sì, grazie. Due volte alla settimana, prima di andare in ufficio.\nDavide: E prima di uscire di casa, controllo i documenti: carta d'identità, biglietti del treno, caricabatterie.\nGiulia: Il treno parte alle sette e dieci. Prima di andare a letto, metto la sveglia alle cinque e mezza!\nNarrator: Seconda parte. Venerdì mattina, alle sei e cinquanta. Davide è alla stazione e telefona a Júlia.\nDavide: Júlia, scusa! Sei già sveglia?\nJúlia: Adesso sì… Che cosa è successo?\nDavide: Dopo aver chiuso la porta, ho controllato tutto tre volte: il gas, le finestre, la luce…\nJúlia: E allora?\nDavide: E allora ho lasciato il caricabatterie sul tavolo. E dopo essere arrivata alla stazione, Giulia ha visto che non ha gli occhiali da sole.\nJúlia: Non è grave. In Puglia ci sono i negozi!\nDavide: Hai ragione. Ma c'è un altro problema. Le chiavi di casa… sono ancora nella mia tasca!\nJúlia: Davide! E le piante?\nDavide: Prima di salire sul treno, passo al bar e le lascio a Matteo. Puoi prenderle oggi?\nJúlia: Va bene, ci passo prima di andare in ufficio. Buon viaggio, e mandatemi una foto del mare!\nDavide: Promesso! Ciao!",
+   "21.2 Ripeti": "Narrator: la crema, il costume, il cappello e gli occhiali.\nNarrator: i sandali, le scarpe da ginnastica e le magliette.\nNarrator: il gas, le finestre e la luce.\nNarrator: la carta d'identità, i biglietti e il caricabatterie.\nNarrator: Prima di partire, chiudo il gas.",
+   "21.3 Prima o dopo": "Narrator: Numero uno. Prima di uscire, controllo i documenti.\nNarrator: Numero due. Dopo aver fatto colazione, vado alla stazione.\nNarrator: Numero tre. Prima di andare a letto, metto la sveglia.\nNarrator: Numero quattro. Dopo aver chiuso la valigia, chiamo un taxi.\nNarrator: Numero cinque. Prima di partire, do le chiavi alla vicina.\nNarrator: Numero sei. Dopo essere arrivata in albergo, faccio una doccia."
+  }
+ },
+ "images": {
+  "it-a2-unita-21": {
+   "A": "open suitcase packing clothes",
+   "B": "sunscreen bottle",
+   "C": "swimsuit beach",
+   "D": "sunglasses",
+   "E": "train ticket",
+   "F": "phone charger cable",
+   "G": "sandals",
+   "H": "watering plants watering can"
+  }
+ }
+}

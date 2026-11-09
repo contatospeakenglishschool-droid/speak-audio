@@ -519,3 +519,26 @@ def verbi_preposizione(b):
 {_dont([("Ho cominciato studiare.", "cominciato <b>a</b> studiare"), ("Ho deciso a partire.", "deciso <b>di</b> partire"), ("Smetti preoccuparti!", "Smetti <b>di</b>…"),
         ("Voglio di dormire.", "Voglio dormire."), ("Mi ha aiutato di ripassare.", "aiutato <b>a</b> ripassare")])}""",
     20, """<p>Il portoghese ha preposizioni simili ma non uguali: <i>começar a</i> = <i>cominciare a</i> (facile), ma <i>decidir</i> + infinito senza preposizione → <i>decidere <b>di</b></i>; <i>parar de</i> → <i>smettere <b>di</b></i>; <i>tentar</i> → <i>provare <b>a</b></i> / <i>cercare <b>di</b></i>; <i>esquecer de</i> → <i>dimenticare <b>di</b></i>. Far creare una lista personale "a / di" e aggiungere i verbi nuovi delle prossime unità.</p>""")
+
+
+def prima_di_dopo(b):
+    """A2 Ponte 21: prima di + infinito / nome; dopo + nome; dopo aver / essere + participio (ricettivo)."""
+    pr = [("prima di + <b>infinito</b>", "<b>Prima di partire</b> chiudo il gas. · Metto la sveglia <b>prima di andare</b> a letto."),
+          ("prima di + verbo riflessivo", "<b>Prima di vestirmi</b> faccio la doccia. · <b>Prima di alzarti</b>, guarda l'ora!"),
+          ("prima di + <b>nome</b>", "<b>Prima della</b> partenza · <b>prima di</b> cena · <b>prima delle</b> sette"),
+          ("prima (avverbio)", "<b>Prima</b> faccio la valigia, <b>poi</b> chiamo un taxi.")]
+    do = [("dopo + <b>nome</b>", "<b>Dopo</b> cena · <b>dopo il</b> lavoro · <b>dopo le</b> sei"),
+          ("dopo <b>aver</b> + participio", "<b>Dopo aver chiuso</b> la porta, ho controllato tutto."),
+          ("dopo <b>essere</b> + participio (-o/-a/-i/-e)", "<b>Dopo essere arrivata</b> alla stazione, Giulia ha visto…"),
+          ("dopo (avverbio)", "Prima mangiamo, <b>dopo</b> andiamo al mare.")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: prima di / dopo", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Con <b>prima di</b> e <b>dopo</b> mettiamo due azioni in ordine. Quando la persona è la stessa nelle due azioni, il secondo verbo non si coniuga: <b>prima di</b> + <b>infinito</b> (<i>Prima di partire, chiudo il gas</i>). Per l'azione già finita si usa <b>dopo aver / essere</b> + <b>participio passato</b>: per ora basta riconoscerlo.</div>
+{_h("1. PRIMA DI")}
+{_tbl(["struttura", "esempio"], pr, "8.6pt", ["46mm", None])}
+{_h("2. DOPO")}
+{_tbl(["struttura", "esempio"], do, "8.6pt", ["46mm", None])}
+<div class="two"><div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><b>3. L'ORDINE DELLA FRASE</b><br>Le due parti si possono invertire: <i>Prima di partire, chiudo il gas.</i> = <i>Chiudo il gas prima di partire.</i> L'azione con <i>prima di</i> succede <b>dopo</b>!</div>
+<div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><b>4. AVER O ESSERE?</b><br>Come nel passato prossimo: <i>ho chiuso</i> → <b>dopo aver chiuso</b>; <i>sono arrivato</i> → <b>dopo essere arrivato</b>. <i>Aver</i> = <i>avere</i> senza la <i>-e</i>.</div></div>
+{_dont([("Prima partire, chiudo il gas.", "<b>Prima di</b> partire"), ("Prima di parto…", "Prima di <b>partire</b>"), ("Prima di mi vestire.", "Prima di <b>vestirmi</b>"),
+        ("Dopo di mangiare…", "<b>Dopo aver mangiato</b>… / <b>Dopo</b> pranzo…"), ("Prima de cena.", "Prima <b>di</b> cena")])}""",
+    26, """<p>Il portoghese usa <i>antes de / depois de</i> + infinito per tutte e due: lo studente dice <i>dopo di mangiare</i>. In italiano <i>dopo</i> + infinito semplice è raro: si usa <b>dopo aver mangiato</b> oppure un nome (<i>dopo pranzo</i>). A questo livello pretendere <b>prima di + infinito</b> in produzione; <b>dopo aver + participio</b> solo in comprensione (lo riprenderemo al B1). Attenzione anche a <i>de</i> → <b>di</b>.</p>""")
