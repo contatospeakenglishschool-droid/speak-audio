@@ -451,3 +451,26 @@ def che_cui(b):
 {_dont([("La via che abito.", "La via <b>in cui</b> abito."), ("La signora che parlo sempre.", "La signora <b>con cui</b> parlo."),
         ("Un'idea che parla da anni.", "Un'idea <b>di cui</b> parla."), ("La ragazza cui esco.", "<b>con</b> cui esco"), ("Il libro cui leggo.", "Il libro <b>che</b> leggo.")])}""",
     20, """<p>In portoghese <i>que</i> va bene quasi sempre nel parlato (<i>a rua que eu moro</i>): lo studente dice <i>la via che abito</i>. Metodo: guardare il verbo della seconda frase: <i>abitare <b>in</b>, parlare <b>con / di</b></i> → la preposizione va davanti a <i>cui</i>. Senza preposizione → <i>che</i>. <i>Cui</i> si pronuncia [kùi], due vocali.</p>""")
+
+
+def si_impersonale(b):
+    """A2 Ponte 17: si impersonale (si + 3a sing.), si + verbo plurale con nome plurale, è vietato / è obbligatorio / bisogna + infinito."""
+    si = [("<b>si</b> + verbo (3ª persona singolare)", "Qui <b>si paga</b> prima. · In Italia <b>si mangia</b> tardi. · <b>Non si fuma</b>."),
+          ("<b>si</b> + verbo singolare + nome singolare", "Il cappuccino <b>si beve</b> la mattina. · Il portone <b>si chiude</b>."),
+          ("<b>si</b> + verbo plurale + nome plurale", "Le bici <b>si mettono</b> in cortile. · <b>Si vendono</b> biglietti."),
+          ("<b>si può / si deve</b> + infinito", "Qui <b>si può</b> pagare dopo. · <b>Si deve</b> chiudere il portone.")]
+    reg = [("<b>è vietato</b> + infinito", "non si può (regola)", "<b>È vietato</b> fumare. · <b>È vietato</b> lasciare le bici nell'ingresso."),
+           ("<b>è obbligatorio</b> + infinito", "si deve (regola)", "<b>È obbligatorio</b> fare la raccolta differenziata."),
+           ("<b>è permesso</b> + infinito", "si può", "<b>È permesso</b> entrare con il cane."),
+           ("<b>bisogna</b> + infinito", "è necessario", "<b>Bisogna</b> arrivare presto. (unità 14)")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: il si impersonale, è vietato", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Con il <b>si impersonale</b> parliamo di regole e abitudini <b>di tutti</b>, senza dire chi fa l'azione: <i>Qui <b>si paga</b> prima</i> (= tutti pagano prima). È come il portoghese <i>a gente</i> / <i>se</i>: <i>aqui se paga antes</i>. Per le regole scritte si usa anche <b>è vietato / è obbligatorio + infinito</b>.</div>
+{_h("1. IL SI IMPERSONALE")}
+{_tbl(["forma", "esempio"], si, "8.6pt", ["60mm", None])}
+<p class="small" style="margin:.6mm 0">Con un nome <b>plurale</b> il verbo va al <b>plurale</b>: <i>si mettono le bici, si vendono biglietti</i>. Negazione: <b>non si</b> + verbo (<i>non si stende sul balcone</i>). Con i verbi riflessivi: <b>ci si</b> (<i>ci si siede, ci si alza presto</i>), da riconoscere.</p>
+{_h("2. LE REGOLE")}
+{_tbl(["espressione", "significa", "esempio"], reg, "8.6pt", ["40mm", "32mm", None])}
+<p class="small" style="margin:.6mm 0">Sui cartelli spesso solo: <b>vietato fumare</b>, <b>vietato l'ingresso</b>, <b>obbligatorio il casco</b>. Il contrario di <i>vietato</i> è <i>permesso / consentito</i>.</p>
+{_dont([("Qui paga prima.", "Qui <b>si</b> paga prima."), ("Si mette le bici in cortile.", "Si <b>mettono</b> le bici."), ("È vietato di fumare.", "È vietato fumare."),
+        ("Si non fuma.", "<b>Non si</b> fuma."), ("È obbligatorio che chiudere.", "È obbligatorio chiudere.")])}""",
+    20, """<p>Nel parlato brasiliano si dice spesso <i>aqui paga antes</i>, senza <i>se</i>: lo studente omette <i>si</i>. E dice <i>si vende case</i> (come <i>vende-se casas</i> nel parlato): in italiano <i>si vendono case</i>. Dopo <i>è vietato / obbligatorio</i> nessuna preposizione (non <i>di</i>, non <i>a</i>).</p>""")

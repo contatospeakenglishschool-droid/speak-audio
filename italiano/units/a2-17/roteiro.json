@@ -1,0 +1,30 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Turista": "it-IT-Chirp3-HD-Vindemiatrix",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"17.2": 2500, "17.3": 3500},
+ "units": {
+  "it-a2-unita-17": {
+   "17.1 Dialoghi": "Narrator: Prima parte. Inizio giugno. Júlia trova un avviso nell'ingresso del palazzo e chiede aiuto alla signora Rossi.\nJúlia: Buongiorno, signora Rossi! Ha visto questo avviso? Parla di me?\nSignora Rossi: Ma no, cara! L'amministratore lo scrive ogni anno. Però il bucato sul balcone… forse un po' sì.\nJúlia: Perché? In Brasile si stende dappertutto!\nSignora Rossi: Qui non si stende sul balcone che dà sulla strada. Si stende sul balcone dietro, o in casa.\nJúlia: E la bici? Di solito la lascio nell'ingresso.\nSignora Rossi: Eh, è vietato. Le bici si mettono in cortile. E il portone si chiude sempre, anche di giorno.\nJúlia: E la spazzatura? Non ho capito bene i giorni.\nSignora Rossi: È facile: la plastica si butta il martedì, la carta il venerdì. E il vetro si porta alla campana in fondo alla via.\nJúlia: Quante regole! Va bene, da oggi faccio tutto all'italiana.\nSignora Rossi: Brava. E il sabato alle otto non si passa l'aspirapolvere!\nNarrator: Seconda parte. Al bar di Giulia. Alle tre del pomeriggio entra una turista.\nTurista: Buongiorno! Un cappuccino e un cornetto, per favore.\nGiulia: Certo! Lei non è italiana, vero?\nTurista: No, sono inglese. Perché?\nGiulia: Perché a quest'ora gli italiani non lo prendono. Il cappuccino si beve la mattina; dopo pranzo si prende un caffè.\nTurista: Ah, non lo sapevo! E qui si paga prima o dopo?\nGiulia: In molti bar si paga prima alla cassa, poi si dà lo scontrino al barista. Qui da me si può pagare anche dopo.\nTurista: E se mi siedo al tavolo, costa di più?\nGiulia: In centro, spesso sì: al banco si spende meno. Qui il prezzo è uguale.\nTurista: Perfetto. Allora… un caffè, per favore. Al banco!\nGiulia: Brava, ha imparato subito!",
+   "17.2 Ripeti": "Narrator: Qui si paga prima.\nNarrator: Il cappuccino si beve la mattina.\nNarrator: Le bici si mettono in cortile.\nNarrator: È vietato fumare.\nNarrator: È obbligatorio chiudere il portone.",
+   "17.3 Semplice o doppia": "Narrator: Numero uno. sette\nNarrator: Numero due. caro\nNarrator: Numero tre. cappello\nNarrator: Numero quattro. pena\nNarrator: Numero cinque. cassa\nNarrator: Numero sei. fatto"
+  }
+ },
+ "images": {
+  "it-a2-unita-17": {
+   "A": "no smoking sign",
+   "B": "italian apartment building facade balconies",
+   "C": "old wooden front door building",
+   "D": "recycling bins colored",
+   "E": "cappuccino cup",
+   "F": "espresso bar counter barista",
+   "G": "cash register receipt",
+   "H": "dog on leash walking"
+  }
+ }
+}
