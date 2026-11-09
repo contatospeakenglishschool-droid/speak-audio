@@ -1047,3 +1047,25 @@ def question_forms(b):
 <p class="small" style="margin:.5mm 0"><b>Intonation:</b> yes/no questions usually go <b>up</b> ↗ (<i>Are you ready?</i>); wh- questions usually go <b>down</b> ↘ (<i>Where do you live?</i>).</p>
 {_dont([("How many rings Saturn has?", "How many rings <b>does</b> Saturn <b>have</b>?"), ("Who did discover the galaxies?", "Who <b>discovered</b> the galaxies?"), ("Where you are going?", "Where <b>are you</b> going?"), ("Did you used to play?", "Did you <b>use</b> to play?"), ("What will it to do?", "What will it <b>do</b>?")])}""",
     20, """<p>Portuguese makes many questions with intonation only, so Brazilians often keep statement order (<i>Where you live?</i>) or add <i>did</i> to subject questions. Drill a few questions in each tense and keep the intonation rule.</p>""")
+
+
+def opinion_essay(b):
+    """A2 Unit 48: writing an opinion essay: structure, opinion phrases, linking words, checklist."""
+    b.page(f"""{b.sec("+", "Language reference: writing an opinion essay", "")}
+<div class="box" style="margin-top:0"><h4>WHAT IS AN ESSAY?</h4>An essay (or composition) looks at the <b>positive and negative sides</b> of an issue and gives your <b>opinion</b>. Exams like the TOEIC Writing test, Cambridge and IELTS ask for this kind of text.</div>
+{_h("1. STRUCTURE")}
+{_tbl(["paragraph", "what to do", "example"], [
+    ["<b>1 introduction</b>", "the general topic + why it matters; one question can focus the point", "<i>Organic food is becoming more popular… Do we really need to eat organic food?</i>"],
+    ["<b>2 one side</b>", "reasons and examples for", "<i>Organic food has several benefits. First of all, …</i>"],
+    ["<b>3 the other side</b>", "reasons and examples against", "<i>However, finding organic food can be difficult…</i>"],
+    ["<b>4 conclusion</b>", "your opinion; a suggestion or advice", "<i>In conclusion, you should buy organic food if…</i>"]], "8.2pt")}
+{_h("2. USEFUL LANGUAGE")}
+{_tbl(["function", "phrases"], [
+    ["<b>opinion</b>", "<i>In my opinion, · From my point of view, · As far as I'm concerned, · Personally, I think… · If you ask me, (informal)</i>"],
+    ["<b>adding</b>", "<i>In addition, · Also, · First of all, · Secondly, · Another problem is…</i>"],
+    ["<b>contrast</b>", "<i>However, · On the other hand, · but</i>"],
+    ["<b>reason / example</b>", "<i>because · This is because… · For example, · For instance,</i>"],
+    ["<b>concluding</b>", "<i>In conclusion, · To conclude, · All in all,</i>"]], "8.2pt")}
+<p class="small" style="margin:.8mm 0"><b>Checklist:</b> one topic per paragraph · reasons + examples for each point · only <b>one</b> question (in the introduction) · a clear opinion at the end · a range of grammar from Units 37–47 (gerunds, articles, passives, quantifiers, phrasal verbs) · no contractions in formal essays · check spelling and punctuation at the end.</p>
+{_dont([("In my opinion I think organic food is good.", "In my opinion, organic food is good."), ("However organic food is expensive.", "However, organic food is expensive."), ("For example the apples.", "For example, some apples travel very far."), ("I don't agree. Why? Because…", "(one question only, in the introduction)"), ("It's gonna be better.", "It is going to be better.")])}""",
+    20, """<p>Brazilian students often write very long sentences, use <i>In my opinion I think</i> (repetition), forget commas after linking words, and ask many rhetorical questions. Focus on structure first, then language.</p>""")

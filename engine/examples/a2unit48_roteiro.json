@@ -1,0 +1,13 @@
+{
+ "material": "speak-bridge",
+ "characters": {"Ana": "en-US-Neural2-F", "Narrator": "en-US-Neural2-J"},
+ "pauses": {"48.3": 3000},
+ "units": {"a2-unit-48": {
+  "48.1 Ana's essay": "Ana: Should we buy organic food? An essay by Ana.\nAna: Organic food is becoming more and more popular these days. However, it can be expensive, and some people are asking: do we really need to eat organic food?\nAna: Organic food has several benefits. Many people think it is better for our bodies and for the environment because it is produced without artificial chemicals. In addition, many people are worried about how animals are treated on farms. Farmers who produce organic meat, milk and eggs believe it is important that their animals live in good conditions.\nAna: However, finding organic food at the supermarket can be difficult. In addition, organic fruit and vegetables often cost much more than other fruit and vegetables. Many people do not want to spend so much money to be healthy. Another problem is that some organic food comes from very far away. For example, it may travel thousands of kilometers to reach the store. From my point of view, it is important that we cut down on food miles.\nAna: In conclusion, you should buy organic food if you have enough money, but you do not have to put it on your dinner plate at every meal.",
+  "48.2 Repeat: opinions": "Narrator: In my opinion, organic food is a luxury.\nNarrator: From my point of view, it's important.\nNarrator: As far as I'm concerned, it's too expensive.\nNarrator: If you ask me, schools should teach cooking.\nNarrator: Personally, I think it's a good idea.\nNarrator: In conclusion, we should cook more.",
+  "48.3 Contrast, addition or example?": "Narrator: Number one. However, it can be expensive.\nNarrator: Number two. In addition, it's better for animals.\nNarrator: Number three. For example, apples can travel very far.\nNarrator: Number four. On the other hand, it's difficult to find.\nNarrator: Number five. Also, it uses less plastic.\nNarrator: Number six. For instance, my local market sells it."
+ }},
+ "images": {"a2-unit-48": {
+  "A": "organic vegetables farmers market", "B": "plastic packaging food supermarket", "C": "vegetarian salad plate", "D": "woman writing essay laptop", "E": "adults cooking class kitchen", "F": "fresh fruit market stall"
+ }}
+}
