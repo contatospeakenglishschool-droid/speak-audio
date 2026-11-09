@@ -1,0 +1,30 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"22.2": 2500, "22.3": 3500},
+ "units": {
+  "it-a2-unita-22": {
+   "22.1 Dialoghi": "Narrator: Prima parte. Fine luglio, a Bologna. Sono le tre del pomeriggio e nell'ufficio di Marco e Júlia l'aria condizionata non funziona.\nMarco: Che caldo! Non riesco a pensare.\nJúlia: Quanti gradi ci saranno qui dentro?\nMarco: Mah… saranno trentacinque. E fuori ce ne saranno trentotto.\nJúlia: Hai chiamato il tecnico?\nMarco: Sì, stamattina. Ha detto che arriverà oggi pomeriggio.\nJúlia: Ma sono già le tre! Sarà ancora in pausa pranzo.\nMarco: O sarà in un altro ufficio senza aria condizionata, come noi.\nJúlia: Senti, se domani farà ancora così caldo, lavorerò da casa.\nMarco: D'accordo. E se il tecnico non verrà, lavoreremo tutti e due da casa.\nJúlia: Ogni estate fa più caldo, vero?\nMarco: Sì, è il cambiamento climatico. Nel giardino in Bolognina pianteremo più alberi: faranno ombra.\nNarrator: Seconda parte. La sera, sulle scale. Júlia incontra la signora Rossi.\nSignora Rossi: Buonasera, cara. Che afa, eh? Io ho chiuso le persiane tutto il giorno.\nJúlia: Buonasera, signora. Ho chiamato mio fratello tre volte, ma non risponde.\nSignora Rossi: Sarà in biblioteca. Lì c'è l'aria condizionata!\nJúlia: Alle nove di sera? No… sarà al cinema con Chiara.\nSignora Rossi: Ai miei tempi andavamo tutti ai giardini, con il ventaglio. Bevi molta acqua, mi raccomando.\nJúlia: Grazie. Lei dorme con le finestre aperte?\nSignora Rossi: Sì, ma con le zanzare… Domani dicono che pioverà. Se pioverà, finalmente dormiremo!\nNarrator: Il telefono di Júlia suona.\nBruno: Júlia, mi hai chiamato? Scusa, ero al cinema con Chiara. C'era l'aria condizionata!\nJúlia: Lo sapevo!",
+   "22.2 Ripeti": "Narrator: Mah… saranno trentacinque.\nNarrator: Sarà in biblioteca.\nNarrator: Che ore saranno? Saranno le nove.\nNarrator: Avrà caldo anche lui.\nNarrator: Se pioverà, dormiremo.",
+   "22.3 Futuro o supposizione": "Narrator: Numero uno. Domani farà ancora caldo.\nNarrator: Numero due. Dov'è Bruno? Sarà al cinema.\nNarrator: Numero tre. Che ore sono? Saranno le dieci.\nNarrator: Numero quattro. Il tecnico arriverà domani mattina.\nNarrator: Numero cinque. Marco non risponde: avrà sonno.\nNarrator: Numero sei. Se pioverà, resteremo a casa."
+  }
+ },
+ "images": {
+  "it-a2-unita-22": {
+   "A": "thermometer hot summer sun",
+   "B": "electric fan",
+   "C": "air conditioner unit wall",
+   "D": "italian window shutters",
+   "E": "hand fan",
+   "F": "mosquito",
+   "G": "thunderstorm rain city",
+   "H": "shade under tree park"
+  }
+ }
+}

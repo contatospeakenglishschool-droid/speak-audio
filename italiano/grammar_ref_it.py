@@ -542,3 +542,25 @@ def prima_di_dopo(b):
 {_dont([("Prima partire, chiudo il gas.", "<b>Prima di</b> partire"), ("Prima di parto…", "Prima di <b>partire</b>"), ("Prima di mi vestire.", "Prima di <b>vestirmi</b>"),
         ("Dopo di mangiare…", "<b>Dopo aver mangiato</b>… / <b>Dopo</b> pranzo…"), ("Prima de cena.", "Prima <b>di</b> cena")])}""",
     26, """<p>Il portoghese usa <i>antes de / depois de</i> + infinito per tutte e due: lo studente dice <i>dopo di mangiare</i>. In italiano <i>dopo</i> + infinito semplice è raro: si usa <b>dopo aver mangiato</b> oppure un nome (<i>dopo pranzo</i>). A questo livello pretendere <b>prima di + infinito</b> in produzione; <b>dopo aver + participio</b> solo in comprensione (lo riprenderemo al B1). Attenzione anche a <i>de</i> → <b>di</b>.</p>""")
+
+
+def futuro_supposizione(b):
+    """A2 Ponte 22: futuro di supposizione; se + futuro, futuro."""
+    ir = [("essere", "sarò · sarai · <b>sarà</b> · saremo · sarete · <b>saranno</b>"), ("avere", "avrò · avrai · <b>avrà</b> · avremo · avrete · <b>avranno</b>"),
+          ("esserci", "<b>ci sarà</b> · <b>ci saranno</b>"), ("fare · stare", "<b>farà</b>, faranno · <b>starà</b>, staranno"),
+          ("venire · andare", "<b>verrà</b>, verranno · <b>andrà</b>, andranno")]
+    us = [("supposizione sul <b>presente</b>", "Dov'è Bruno? <b>Sarà</b> al cinema. (= forse è al cinema)"),
+          ("ora ed età", "Che ore sono? <b>Saranno</b> le nove. · Quanti anni ha? <b>Avrà</b> settant'anni."),
+          ("numeri e quantità", "<b>Ci saranno</b> trentotto gradi. · <b>Saranno</b> cento persone."),
+          ("futuro vero", "Domani <b>farà</b> caldo. · Il tecnico <b>arriverà</b> oggi pomeriggio.")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: il futuro di supposizione · se + futuro", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Il futuro semplice (unità 07) non parla solo del futuro. Quando <b>non siamo sicuri</b> di una cosa di <b>adesso</b>, usiamo il futuro: <i>Sarà in biblioteca</i> = <i>forse è in biblioteca</i>. Si usa soprattutto con <b>essere</b> e <b>avere</b>. Con <b>se</b> + futuro facciamo ipotesi sul futuro: <i>Se pioverà, dormiremo.</i></div>
+{_h("1. I FUTURI PIÙ USATI")}
+{_tbl(["verbo", "futuro"], ir, "8.6pt", ["32mm", None])}
+{_h("2. FUTURO O SUPPOSIZIONE?")}
+{_tbl(["uso", "esempio"], us, "8.6pt", ["46mm", None])}
+<div class="two"><div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><b>3. SE + FUTURO, FUTURO</b><br><i>Se domani <b>farà</b> caldo, <b>lavorerò</b> da casa.</i> · <i>Se il tecnico non <b>verrà</b>, <b>lavoreremo</b> da casa.</i> Nel parlato si usa anche il presente: <i>Se piove, resto a casa.</i></div>
+<div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><b>4. CERTO O NON CERTO?</b><br><i>Bruno <b>è</b> al cinema.</i> → lo so. <br><i>Bruno <b>sarà</b> al cinema.</i> → penso, ma non lo so. <br>Parole utili: <i>mah…, forse, probabilmente</i>.</div></div>
+{_dont([("Deve essere in biblioteca.", "<b>Sarà</b> in biblioteca."), ("Quanti gradi saranno qui?", "Quanti gradi <b>ci saranno</b> qui?"), ("Saranno le nove ore.", "<b>Saranno le nove.</b>"),
+        ("Averà caldo.", "<b>Avrà</b> caldo."), ("Esserà al cinema.", "<b>Sarà</b> al cinema.")])}""",
+    29, """<p>Il portoghese esprime la supposizione con <i>deve estar</i>, <i>será que…?</i> o <i>acho que</i>. Lo studente traduce <i>deve essere</i>: non è sbagliato, ma l'italiano parlato preferisce <b>sarà</b>. Far notare il contrasto <i>Bruno è / sarà al cinema</i> con la voce (certezza / dubbio). Nelle frasi con <i>se</i> accettare anche presente + presente (<i>Se piove, resto a casa</i>), molto comune nel parlato.</p>""")
