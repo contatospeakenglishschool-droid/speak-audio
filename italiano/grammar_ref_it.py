@@ -474,3 +474,27 @@ def si_impersonale(b):
 {_dont([("Qui paga prima.", "Qui <b>si</b> paga prima."), ("Si mette le bici in cortile.", "Si <b>mettono</b> le bici."), ("È vietato di fumare.", "È vietato fumare."),
         ("Si non fuma.", "<b>Non si</b> fuma."), ("È obbligatorio che chiudere.", "È obbligatorio chiudere.")])}""",
     20, """<p>Nel parlato brasiliano si dice spesso <i>aqui paga antes</i>, senza <i>se</i>: lo studente omette <i>si</i>. E dice <i>si vende case</i> (come <i>vende-se casas</i> nel parlato): in italiano <i>si vendono case</i>. Dopo <i>è vietato / obbligatorio</i> nessuna preposizione (non <i>di</i>, non <i>a</i>).</p>""")
+
+
+def connettivi_email(b):
+    """A2 Ponte 18: connettivi (infatti, invece, quindi, però, comunque) + la mail formale e informale."""
+    con = [("<b>però</b>", "contrasto (= ma)", "Sara vuole venire, <b>però</b> sabato io lavoro. · È un divano, <b>però</b> è comodo."),
+           ("<b>invece</b>", "il contrario, un confronto", "In Italia si scrive <i>cordiali saluti</i>; in Brasile, <b>invece</b>, <i>um abraço</i>. · <b>invece di</b> + infinito"),
+           ("<b>infatti</b>", "conferma, spiega", "Fa caldo: <b>infatti</b> ieri c'erano 32 gradi."),
+           ("<b>quindi</b>", "conseguenza (= allora)", "Le bici sono per terra, <b>quindi</b> i bambini non giocano."),
+           ("<b>comunque</b>", "in ogni caso, anyway", "Sabato lavoro. <b>Comunque</b> possiamo venire domenica.")]
+    mail = [("saluto", "<b>Gentile</b> signora Bianchi, · <b>Gentile</b> ragionier Ferri, · Buongiorno,", "<b>Ciao</b> Sara! · <b>Cara</b> Sara, · <b>Caro</b> Luca,"),
+            ("inizio", "<b>Le scrivo per</b> chiedere / informare… · Mi chiamo…", "Come stai? · <b>Ti scrivo per</b>…"),
+            ("richiesta", "<b>Potrebbe</b>…? · <b>Vorrei sapere</b> se…", "<b>Puoi</b>…? · <b>Fammi sapere!</b>"),
+            ("chiusura", "<b>La ringrazio</b> e resto in attesa di una Sua risposta.", "Un bacio a tutti! · A presto!"),
+            ("firma", "<b>Cordiali saluti</b>, + nome e cognome", "<b>Un abbraccio</b>, + nome")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: i connettivi e la mail", "")}
+<div class="box" style="margin-top:0"><h4>CHE COSA SONO?</h4>I <b>connettivi</b> sono piccole parole che uniscono le frasi e mostrano il rapporto tra le idee: contrasto, conseguenza, conferma. Rendono un testo chiaro e naturale. In una <b>mail</b> cambiano anche il saluto, il pronome (<i>Lei</i> o <i>tu</i>) e la firma.</div>
+{_h("1. I CONNETTIVI")}
+{_tbl(["connettivo", "per…", "esempio"], con, "8.6pt", ["22mm", "36mm", None])}
+<p class="small" style="margin:.6mm 0"><b>Però</b> e <b>invece</b> possono andare anche dopo il soggetto o alla fine: <i>Io, <b>invece</b>, lavoro. · Hai ragione, <b>però</b>.</i> <b>Infatti!</b> da solo = <i>Exatamente! / Pois é!</i></p>
+{_h("2. LA MAIL: FORMALE O INFORMALE?")}
+{_tbl(["parte", "formale (Lei)", "informale (tu)"], mail, "8.4pt", ["20mm", None, None])}
+{_dont([("Comunque = como?", "<b>comunque</b> = de qualquer forma"), ("Prezado signor Ferri,", "<b>Gentile</b> signor Ferri,"),
+        ("Att., Júlia", "<b>Cordiali saluti</b>, Júlia …"), ("Invece dormire in albergo", "<b>Invece di</b> dormire"), ("Gentile Ferri, come stai?", "come <b>sta</b>?")])}""",
+    20, """<p>Falsi amici: <i>comunque</i> non è <i>como</i>; <i>infatti</i> conferma (<i>de fato, realmente</i>); <i>invece</i> = <i>em vez / por outro lado</i>. Nelle mail formali gli italiani non usano <i>abbraccio</i> né <i>bacio</i>: <i>Cordiali saluti</i> (o <i>Distinti saluti</i>, più freddo). Titoli: <i>dottore / dottoressa</i> (laureati), <i>ragioniere</i>, <i>avvocato</i>, <i>ingegnere</i>.</p>""")

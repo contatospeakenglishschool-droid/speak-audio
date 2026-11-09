@@ -1,0 +1,29 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Luca": "it-IT-Chirp3-HD-Fenrir",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"18.2": 2500, "18.3": 3500},
+ "units": {
+  "it-a2-unita-18": {
+   "18.1 Dialoghi": "Narrator: Prima parte. Nello studio. Júlia deve scrivere una e-mail all'amministratore del palazzo e chiede aiuto a Marco.\nJúlia: Marco, mi aiuti? Scrivo all'amministratore per le biciclette. Ho cominciato così: Ciao, come va?\nMarco: No, no! È una mail formale. Si scrive Gentile e il nome. Come si chiama?\nJúlia: Ragionier Ferri.\nMarco: Allora: Gentile ragionier Ferri. E si usa il Lei, naturalmente.\nJúlia: Va bene. Poi: Le scrivo perché nel cortile non c'è una rastrelliera. Infatti le bici sono tutte per terra, quindi i bambini non possono giocare.\nMarco: Perfetto! Infatti spiega, quindi dà la conseguenza. E alla fine che cosa scrivi?\nJúlia: Un abbraccio, Júlia?\nMarco: Ma no! Cordiali saluti, e poi nome e cognome.\nJúlia: Giusto. In Brasile, invece, anche nelle mail di lavoro si scrive un abbraccio!\nNarrator: Seconda parte. La sera Luca telefona a Júlia da Firenze.\nLuca: Ciao Júlia! Sara ha letto la tua mail. Grazie per l'invito!\nJúlia: Allora venite a Bologna per la Festa della Musica?\nLuca: Sara vuole venire, però sabato io lavoro. Comunque possiamo venire domenica mattina.\nJúlia: Benissimo! E invece di tornare la sera, potete dormire da me.\nLuca: Grazie, ma tu hai solo un divano…\nJúlia: Sì, però è un divano letto. E non è scomodo, te lo giuro!\nLuca: D'accordo. Allora ci vediamo domenica 21. Porto io il vino!",
+   "18.2 Ripeti": "Narrator: Infatti!\nNarrator: Però sabato lavoro.\nNarrator: Comunque possiamo venire.\nNarrator: In Brasile, invece, si scrive un abbraccio.\nNarrator: Quindi?",
+   "18.3 Formale o informale": "Narrator: Numero uno. Gentile signora Bianchi,\nNarrator: Numero due. Ciao Sara!\nNarrator: Numero tre. Le scrivo per chiedere un'informazione.\nNarrator: Numero quattro. Un abbraccio!\nNarrator: Numero cinque. Cordiali saluti.\nNarrator: Numero sei. Fammi sapere!"
+  }
+ },
+ "images": {
+  "it-a2-unita-18": {
+   "A": "laptop email inbox",
+   "B": "handwritten letter envelope",
+   "C": "bicycles parked courtyard",
+   "D": "sofa bed living room",
+   "E": "street music concert evening",
+   "F": "hills countryside bologna",
+   "G": "thermometer hot summer",
+   "H": "hands typing keyboard"
+  }
+ }
+}
