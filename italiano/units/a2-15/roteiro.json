@@ -1,0 +1,31 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"15.2": 2500, "15.3": 3500},
+ "units": {
+  "it-a2-unita-15": {
+   "15.1 Dialoghi": "Narrator: Prima parte. Sabato mattina, fine maggio. Squilla il telefono di Júlia.\nMarco: Ciao Júlia! Che cosa stai facendo?\nJúlia: Ciao Marco! Sto pulendo tutta la casa. Stasera vengono Giulia e Davide a cena.\nMarco: Ah, ecco perché sento questo rumore!\nJúlia: Sì, sto passando l'aspirapolvere. E tu? Che cosa stai facendo?\nMarco: Niente di speciale: sto bevendo un caffè sul balcone. Ma sto per uscire: vado in palestra.\nJúlia: Beato te! Io devo ancora lavare i piatti, stendere il bucato e fare la spesa.\nMarco: Vuoi una mano? Nel pomeriggio sono libero. Porto io il vino.\nJúlia: Grazie, sei un tesoro! Scusa, stanno suonando alla porta. Ti richiamo!\nNarrator: Seconda parte. Alla porta c'è la signora Rossi.\nSignora Rossi: Buongiorno, Júlia. Scusi, ma che cosa sta succedendo? Sento questo rumore da un'ora!\nJúlia: Mi scusi, signora! Sto facendo le pulizie. Stasera ho ospiti.\nSignora Rossi: Capisco. Ma mio fratello Franco è al mare e Briciola sta da me. Sta abbaiando da un'ora, povera!\nJúlia: Oh, mi dispiace! Allora spengo l'aspirapolvere e lavo i pavimenti.\nSignora Rossi: Brava. Ah, Júlia, guardi il balcone: la Sua maglietta sta per cadere!\nJúlia: Oddio, è vero! Grazie, signora!\nNarrator: Terza parte. Sono le otto di sera. Squilla il telefono.\nDavide: Júlia, siamo noi! Stiamo arrivando, ma stiamo ancora cercando parcheggio.\nJúlia: Nessun problema. Marco è già qui: sta aprendo il vino. E io sto per buttare la pasta.\nGiulia: Ciao Júlia! Abbiamo portato una torta di fragole. Le fragole del mercato!\nDavide: Ecco, abbiamo trovato posto. Stiamo per suonare!",
+   "15.2 Ripeti": "Narrator: sto pulendo, stai facendo, sta dormendo\nNarrator: stiamo arrivando, state mangiando, stanno suonando\nNarrator: facendo, bevendo, dicendo\nNarrator: Sto per uscire.\nNarrator: La maglietta sta per cadere!",
+   "15.3 Adesso o tra poco": "Narrator: Numero uno. Sto mangiando.\nNarrator: Numero due. Sto per uscire.\nNarrator: Numero tre. Sta piovendo.\nNarrator: Numero quattro. Il treno sta per partire.\nNarrator: Numero cinque. Stiamo lavando i piatti.\nNarrator: Numero sei. Sta per cominciare il film."
+  }
+ },
+ "images": {
+  "it-a2-unita-15": {
+   "A": "woman vacuuming living room",
+   "B": "washing dishes kitchen sink",
+   "C": "laundry drying rack clothes balcony",
+   "D": "making the bed bedroom",
+   "E": "mopping floor",
+   "F": "ironing shirt",
+   "G": "taking out the trash bag",
+   "H": "setting the table dinner plates"
+  }
+ }
+}

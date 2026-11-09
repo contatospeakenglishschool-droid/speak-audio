@@ -402,3 +402,29 @@ def ne_ci(b):
 {_dont([("Quanto formaggio? Prendo due etti.", "<b>Ne</b> prendo due etti."), ("Non ho più uova. — Neanche io ho.", "Neanch'io <b>ne</b> ho."),
         ("Vai al mercato? Sì, vado lì ogni sabato.", "Sì, <b>ci</b> vado."), ("Ci ne sono?", "<b>Ce ne</b> sono?"), ("Penso a questo. → Lo penso.", "<b>Ci</b> penso.")])}""",
     20, """<p>Il portoghese non ha <i>ne</i> e usa poco <i>ci</i> (<i>vou lá</i>): lo studente tende a ometterli o a dire <i>lì</i>. Non serve vietare <i>lì</i>, ma <i>ci vado</i> è la forma naturale. Lavorare con domande veloci: <i>Quanto? → ne. Dove? → ci.</i></p>""")
+
+
+def stare_gerundio(b):
+    """A2 Ponte 15: stare + gerundio (azione in corso), stare per + infinito (azione imminente), gerundi irregolari, pronomi."""
+    forms = [("io", "<b>sto</b>", "pul<b>endo</b>", "<b>Sto</b> pulendo la casa."), ("tu", "<b>stai</b>", "fac<b>endo</b>", "Che cosa <b>stai</b> facendo?"),
+             ("lui / lei / Lei", "<b>sta</b>", "abbai<b>ando</b>", "Briciola <b>sta</b> abbaiando."), ("noi", "<b>stiamo</b>", "arriv<b>ando</b>", "<b>Stiamo</b> arrivando!"),
+             ("voi", "<b>state</b>", "mangi<b>ando</b>", "Che cosa <b>state</b> mangiando?"), ("loro", "<b>stanno</b>", "suon<b>ando</b>", "<b>Stanno</b> suonando alla porta.")]
+    ger = [("-are → <b>-ando</b>", "parlare → parl<b>ando</b> · passare → pass<b>ando</b> · cercare → cerc<b>ando</b>"),
+           ("-ere → <b>-endo</b>", "bere → <b>bevendo</b> · leggere → legg<b>endo</b> · scrivere → scriv<b>endo</b>"),
+           ("-ire → <b>-endo</b>", "dormire → dorm<b>endo</b> · aprire → apr<b>endo</b> · pulire → pul<b>endo</b>"),
+           ("irregolari", "fare → <b>facendo</b> · bere → <b>bevendo</b> · dire → <b>dicendo</b>")]
+    cmp = [("<b>stare + gerundio</b>", "adesso, in questo momento", "<i>Sto bevendo un caffè.</i>"),
+           ("<b>stare per + infinito</b>", "tra pochissimo (non ancora)", "<i>Sto per uscire.</i> · <i>La maglietta sta per cadere!</i>"),
+           ("<b>presente</b>", "anche adesso: va benissimo!", "<i>Che fai? — Bevo un caffè.</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: stare + gerundio, stare per", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4><b>Stare + gerundio</b> dice che un'azione è <b>in corso</b>, proprio adesso: <i>Sto passando l'aspirapolvere.</i> <b>Stare per + infinito</b> dice che un'azione <b>comincia tra pochissimo</b>: <i>Sto per buttare la pasta.</i> Il verbo <i>stare</i> cambia con la persona; il gerundio non cambia mai.</div>
+{_h("1. LA FORMA")}
+{_tbl(["persona", "stare", "gerundio", "esempio"], forms, "8.6pt", ["26mm", "17mm", "22mm", None])}
+{_h("2. IL GERUNDIO")}
+{_tbl(["verbo", "esempi"], ger, "8.6pt", ["30mm", None])}
+<p class="small" style="margin:.6mm 0">I pronomi vanno <b>prima di stare</b> o <b>attaccati al gerundio</b>: <i><b>Lo</b> sto facendo</i> = <i>Sto facendo<b>lo</b></i>. · <i><b>Mi</b> sto preparando</i> = <i>Sto preparando<b>mi</b></i>. Con <i>stare per</i>: <i><b>Ti</b> sto per chiamare</i> = <i>Sto per chiamar<b>ti</b></i>.</p>
+{_h("3. ADESSO O TRA POCO?")}
+{_tbl(["forma", "quando?", "esempio"], cmp, "8.6pt", ["38mm", "44mm", None])}
+{_dont([("Sto abitando a Bologna.", "<b>Abito</b> a Bologna."), ("Sto avendo un problema.", "<b>Ho</b> un problema."),
+        ("Sto faccendo / sto fando.", "Sto <b>facendo</b>."), ("Sto per uscendo.", "Sto per <b>uscire</b>."), ("Stanno suonandi.", "Stanno <b>suonando</b>.")])}""",
+    20, """<p>In italiano <i>stare + gerundio</i> si usa meno che in portoghese: solo per un'azione proprio in corso. Per situazioni lunghe o abituali si usa il presente (<i>abito, lavoro in uno studio</i>), e con <i>avere, essere, sapere, volere</i> il gerundio progressivo non si usa. Il gerundio è invariabile (mai <i>-andi, -enda</i>).</p>""")
