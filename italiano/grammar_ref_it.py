@@ -564,3 +564,26 @@ def futuro_supposizione(b):
 {_dont([("Deve essere in biblioteca.", "<b>Sarà</b> in biblioteca."), ("Quanti gradi saranno qui?", "Quanti gradi <b>ci saranno</b> qui?"), ("Saranno le nove ore.", "<b>Saranno le nove.</b>"),
         ("Averà caldo.", "<b>Avrà</b> caldo."), ("Esserà al cinema.", "<b>Sarà</b> al cinema.")])}""",
     29, """<p>Il portoghese esprime la supposizione con <i>deve estar</i>, <i>será que…?</i> o <i>acho que</i>. Lo studente traduce <i>deve essere</i>: non è sbagliato, ma l'italiano parlato preferisce <b>sarà</b>. Far notare il contrasto <i>Bruno è / sarà al cinema</i> con la voce (certezza / dubbio). Nelle frasi con <i>se</i> accettare anche presente + presente (<i>Se piove, resto a casa</i>), molto comune nel parlato.</p>""")
+
+
+def esclamazioni_bello_buono(b):
+    """A2 Ponte 23: che…!, quanto…!, com'è…!; bello / buono / grande davanti al nome."""
+    es = [("<b>Che</b> + nome / aggettivo", "<b>Che</b> caldo! · <b>Che</b> bella voce! · <b>Che</b> bello! · <b>Che</b> vergogna!"),
+          ("<b>Quanto / quanta / quanti / quante</b> + nome", "<b>Quanta</b> gente! · <b>Quanti</b> ricordi! · <b>Quante</b> foto!"),
+          ("<b>Quanto</b> + verbo + aggettivo", "<b>Quanto</b> siete abbronzati! · <b>Quanto</b> è caro!"),
+          ("<b>Com'è / come sono</b> + aggettivo", "<b>Com'è</b> brava la cantante! · <b>Come sono</b> buone!")]
+    be = [("bel", "bei", "<b>bel</b> mare · <b>bei</b> ricordi (come <i>il / i</i>)"),
+          ("bello", "begli", "<b>bello</b> spettacolo · <b>begli</b> occhiali (come <i>lo / gli</i>)"),
+          ("bell'", "begli", "<b>bell'</b>albergo · <b>begli</b> alberghi (come <i>l' / gli</i>)"),
+          ("bella / bell'", "belle", "<b>bella</b> voce · <b>bell'</b>idea · <b>belle</b> canzoni (come <i>la / l' / le</i>)")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: le esclamazioni · bello, buono, grande", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Per esprimere entusiasmo o sorpresa usiamo <b>che…!</b>, <b>quanto…!</b> e <b>com'è…!</b>. Gli aggettivi <b>bello</b> e <b>buono</b>, quando vanno <b>prima</b> del nome, cambiano forma come gli articoli: <i>un <b>bel</b> mare, un <b>buon</b> vino</i>. Dopo il nome o dopo <i>essere</i> non cambiano: <i>Il mare è <b>bello</b>.</i></div>
+{_h("1. LE ESCLAMAZIONI")}
+{_tbl(["struttura", "esempio"], es, "8.6pt", ["56mm", None])}
+{_h("2. BELLO PRIMA DEL NOME")}
+{_tbl(["singolare", "plurale", "esempio"], be, "8.6pt", ["24mm", "18mm", None])}
+<div class="two"><div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><b>3. BUONO PRIMA DEL NOME</b><br>Come <i>un / uno / una / un'</i>: <b>buon</b> vino, <b>buon</b> appetito · <b>buono</b> stipendio · <b>buona</b> pizza · <b>buon'</b>idea. Plurale regolare: <b>buoni</b>, <b>buone</b>.</div>
+<div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><b>4. GRANDE</b><br>Prima del nome può diventare <b>gran</b>: <i>un <b>gran</b> caldo, una <b>gran</b> festa</i>. Prima del nome spesso cambia significato: <i>un <b>grande</b> uomo</i> (importante) / <i>un uomo <b>grande</b></i> (alto, grosso).</div></div>
+{_dont([("Che bello mare!", "Che <b>bel</b> mare!"), ("Che belli occhiali!", "Che <b>begli</b> occhiali!"), ("Quanto gente!", "<b>Quanta</b> gente!"),
+        ("Un buono vino.", "Un <b>buon</b> vino."), ("Che una bella voce!", "Che bella voce!")])}""",
+    26, """<p>In portoghese <i>Que lindo!</i>, <i>Quanta gente!</i>, <i>Como é bonita!</i> funzionano come in italiano: la struttura è facile. Il problema sono le <b>forme</b> di <i>bello</i> (lo studente dice <i>bello mare, belli occhiali</i>) e l'articolo dopo <i>che</i> (<i>che una bella voce</i> → <b>che bella voce</b>). Trucco: <i>bello</i> si comporta come l'articolo determinativo, <i>buono</i> come l'indeterminativo. Ripassare gli articoli dell'A1 prima della tabella.</p>""")

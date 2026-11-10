@@ -1,0 +1,30 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"23.2": 2500, "23.3": 3500},
+ "units": {
+  "it-a2-unita-23": {
+   "23.1 Dialoghi": "Narrator: Prima parte. Inizio agosto. Giulia e Davide sono tornati dalla Puglia. Al bar mostrano le foto a Júlia e Marco.\nJúlia: Bentornati! Quanto siete abbronzati!\nGiulia: Guarda questa foto: è Polignano a Mare.\nJúlia: Che bel mare! Com'è blu l'acqua!\nDavide: E abbiamo mangiato benissimo. Che buone le orecchiette! E che buon vino!\nMarco: E dove avete dormito?\nGiulia: In un bell'albergo vicino alla spiaggia. Una camera con un grande balcone sul mare.\nMarco: Giulia, che begli occhiali! Sono nuovi?\nGiulia: Sì, li ho comprati a Lecce. Quelli vecchi sono rimasti a Bologna!\nDavide: Stasera alla Montagnola c'è un concerto all'aperto. Venite?\nJúlia: Che bella idea! Sì, veniamo.\nNarrator: Seconda parte. La sera, al concerto nel parco della Montagnola.\nMarco: Quanta gente! Ci saranno mille persone.\nGiulia: Com'è brava la cantante! Che bella voce!\nDavide: Ho portato quattro birre fresche.\nMarco: Buon'idea! Con questo caldo…\nJúlia: Aspettate… questa canzone è brasiliana! È una bossa nova.\nGiulia: La conosci?\nJúlia: Certo! La cantava sempre mia madre. Che bello! Quanti ricordi!\nMarco: Allora cantala anche tu!\nJúlia: Ma no, che vergogna! …Va bene, solo il ritornello.",
+   "23.2 Ripeti": "Narrator: Che bel mare!\nNarrator: Quanta gente!\nNarrator: Com'è brava la cantante!\nNarrator: Che begli occhiali!\nNarrator: Quanto siete abbronzati!",
+   "23.3 Esclamazione o domanda": "Narrator: Numero uno. Com'è brava!\nNarrator: Numero due. Com'è il concerto?\nNarrator: Numero tre. Quanta gente!\nNarrator: Numero quattro. Quanto costa il biglietto?\nNarrator: Numero cinque. Che bella voce!\nNarrator: Numero sei. Che ore sono?"
+  }
+ },
+ "images": {
+  "it-a2-unita-23": {
+   "A": "outdoor concert summer night",
+   "B": "concert stage lights",
+   "C": "female singer microphone stage",
+   "D": "concert crowd audience",
+   "E": "fireworks night sky",
+   "F": "open air cinema",
+   "G": "orecchiette pasta",
+   "H": "polignano a mare"
+  }
+ }
+}
