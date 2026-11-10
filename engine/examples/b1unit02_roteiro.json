@@ -1,0 +1,22 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Rita": "en-US-Chirp3-HD-Aoede",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-02": {
+   "02.1 Danny calls his mom": "Narrator: It's Danny's second week in São Paulo. He's on a video call with his mom, Rita.\nRita: So, tell me everything! Have you made any friends?\nDanny: Yes, a few. Ana has been amazing. She showed me around Paulista Avenue on Sunday and invited me to dinner with her family.\nRita: That's so thoughtful of her. What's she like?\nDanny: She's really cheerful and generous. She's a bit impatient in traffic, though! She tends to honk a lot.\nRita: Ha! Most drivers do. And what about the people at the hostel?\nDanny: Well, I share a room with a guy from Porto Alegre called Bruno. He's very outgoing and funny. He knows everyone in the hostel.\nRita: He sounds nice.\nDanny: He is, but he's not very tidy. His clothes are always all over the floor. And he can be a bit moody in the morning.\nRita: Ha! You're not very tidy either!\nDanny: True! And then there's Mrs. Lima, the hostel owner. She seems a bit cold at first, but deep down she's really kind. When I was sick last week, she made me soup.\nRita: You were sick? Why didn't you tell me?\nDanny: Mom, it was just a cold! Don't worry. I'm fine.\nRita: I always worry. That's my job. Are you feeling homesick?\nDanny: Sometimes. I miss your pancakes. But honestly, I'm really happy here.\nRita: I'm so proud of you. Call me on Sunday, OK?",
+   "02.2 Repeat: word stress in word families": "Narrator: generous. generosity.\nNarrator: curious. curiosity.\nNarrator: sympathy. sympathetic.\nNarrator: confident. confidence.\nNarrator: embarrassed. embarrassment.\nNarrator: pessimist. pessimistic.\nNarrator: punctual. punctuality.\nNarrator: arrogant. arrogance."
+  }
+ },
+ "images": {
+  "b1-unit-02": {
+   "A": "two women friends talking bench",
+   "B": "young man video call laptop",
+   "C": "wedding cake bakery",
+   "D": "woman thinking window cafe"
+  }
+ }
+}

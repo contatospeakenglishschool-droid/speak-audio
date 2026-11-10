@@ -1112,3 +1112,28 @@ def getting_to_know(b):
 <p class="small" style="margin:.8mm 0"><b>Since or for?</b> <i>for</i> + a period (<i>for ten years</i>) · <i>since</i> + a starting point (<i>since 2016</i>). <b>Ever</b> goes before the past participle: <i>Have you <b>ever</b> been…?</i> If you say <i>when</i>, use the past simple: <i>I went there <b>two years ago</b>.</i></p>
 {_dont([("How long are you learning English?", "How long <b>have you been learning</b> English?"), ("Did you ever go to Italy?", "<b>Have you ever been</b> to Italy?"), ("I have been to Peru in 2024.", "I <b>went</b> to Peru in 2024."), ("Where you come from?", "Where <b>do you</b> come from?"), ("What do you do? I'm working as a doctor. (permanent)", "I <b>work</b> as a doctor.")])}""",
     25, """<p>B1 opens with a tense review in a social context. Brazilians often use the present simple or continuous for duration (<i>How long are you studying…?</i>) and use the present perfect with past time words. Reply questions are new and very natural in American English.</p>""")
+
+
+def describing_character(b):
+    """B1 Unit 02: describing personality: frequency adverbs, can be, tend to, seem, softening."""
+    b.page(f"""{b.sec("+", "Grammar reference: describing character", "")}
+<div class="box" style="margin-top:0"><h4>WHAT'S SHE LIKE?</h4><i>What's she like?</i> asks about personality. <i>What does she look like?</i> asks about appearance. <i>What does she like?</i> asks about her interests.</div>
+{_h("1. HOW OFTEN? ADVERBS OF FREQUENCY")}
+{_tbl(["position", "examples"], [
+    ["<b>after</b> the verb <i>be</i>", "<i>She's <b>usually</b> cheerful. He's <b>never</b> boring. They're <b>often</b> late.</i>"],
+    ["<b>before</b> the main verb", "<i>He <b>always</b> leaves his clothes on the floor. She <b>rarely</b> gets angry.</i>"],
+    ["<b>after</b> the first auxiliary", "<i>She has <b>always</b> been generous. He can <b>sometimes</b> be moody.</i>"],
+    ["<i>sometimes / usually</i> can also start a sentence", "<i><b>Sometimes</b> he can be a bit moody.</i>"]], "8.2pt")}
+{_h("2. TYPICAL BEHAVIOR AND FIRST IMPRESSIONS")}
+{_tbl(["structure", "meaning", "examples"], [
+    ["<b>can be</b> + adjective", "this is sometimes true of the person", "<i>He can be a bit moody in the morning.</i>"],
+    ["<b>tend to</b> + infinitive", "this usually happens", "<i>She tends to honk a lot. He tends to be late.</i>"],
+    ["<b>seem</b> + adjective", "a first impression; maybe not true", "<i>She seems a bit cold at first.</i>"],
+    ["<b>deep down</b>", "the real personality inside", "<i>Deep down, she's really kind.</i>"]], "8.2pt")}
+{_h("3. SOFTENING: SOUNDING POLITE")}
+{_tbl(["structure", "examples"], [
+    ["<b>a bit / a little</b> + negative adjective", "<i>He's a bit lazy. She can be a little impatient.</i>"],
+    ["<b>not very</b> + positive adjective", "<i>He's not very tidy.</i> (softer than <i>He's messy.</i>) <i>She isn't very patient.</i>"],
+    ["<b>…, though</b> (at the end, spoken)", "<i>She's really generous. She's a bit impatient, though.</i>"]], "8.2pt")}
+{_dont([("She is a bit friendly.", "She's <b>very / really</b> friendly. (<i>a bit</i> + negative only)"), ("Always she is late.", "She is <b>always</b> late."), ("He tends to being late.", "He tends <b>to be</b> late."), ("He is a person very kind.", "He's a <b>very kind person</b>."), ("What is she like? – She likes pizza.", "– She's friendly and funny.")])}""",
+    25, """<p>Brazilians often put adverbs of frequency at the start of the sentence (<i>Always she…</i>), use <i>a bit</i> with positive adjectives, and confuse <i>What's she like?</i> with <i>What does she like?</i> Softening is very important in American English: direct negative adjectives (<i>He's lazy.</i>) can sound rude.</p>""")
