@@ -1,0 +1,20 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"R3.2": 5500},
+ "units": {
+  "it-a2-ripasso-3": {
+   "R3.1 Conversazione": "Narrator: Giovedì sera, metà settembre. Al bar di Giulia, Júlia e Marco aspettano Bruno: oggi ha l'ultimo esame dell'estate.\nGiulia: Allora, com'è andato l'esame? Avete notizie?\nJúlia: Non ancora. Non risponde al telefono: sarà ancora all'università.\nMarco: O sarà al mare con Chiara!\nJúlia: Smettila di scherzare! Eccolo, arriva!\nBruno: Ragazzi… ho preso ventinove!\nGiulia: Ventinove! Che bella notizia! Quanto sono contenta!\nJúlia: Bravissimo! Secondo me non hai mai studiato così tanto.\nBruno: Ad agosto ho cominciato a studiare ogni giorno e ho smesso di uscire la sera. E prima di entrare, ho ripassato tutti i capitoli un'altra volta.\nMarco: Ma la signora Rossi dice che eri sempre al mare!\nBruno: Solo qualche giorno! E ho studiato anche in spiaggia, sotto l'ombrellone.\nGiulia: Questo è per te: un tortino al cioccolato. Anzi, un tortone!\nBruno: Per me? Grazie! Júlia, a proposito… la bici me la presti ancora? La mia è dal meccanico.\nJúlia: Te la presto, ma il campanello nuovo non toccarlo: è un regalo!\nMarco: Se domani farà bel tempo, andiamo tutti in bici ai Giardini Margherita?\nBruno: Domani no: ho deciso di dormire tutto il giorno!\nGiulia: Nessuno ti disturberà, promesso. Allora, un brindisi: a Bruno!\nJúlia: A Bruno! Cin cin!",
+   "R3.2 Dettato": "Narrator: Ascolta e scrivi le frasi.\nNarrator: Uno. Ho deciso di smettere di bere il caffè.\nNarrator: Due. Prima di partire, chiudi il gas.\nNarrator: Tre. Dov'è Bruno? Sarà in biblioteca.\nNarrator: Quattro. Che bel mare! Com'è blu l'acqua!\nNarrator: Cinque. Nel quartiere non c'è nessuno.\nNarrator: Sei. La bici? Te la presto volentieri.\nNarrator: Sette. Abbiamo una casetta con un terrazzino.\nNarrator: Otto. Ha detto che va a Milano a ottobre.",
+   "R3.3 Dialoghi": "Narrator: Dialogo uno. Sulle scale.\nSignora Rossi: Júlia, lo sai che la nuova vicina arriva il primo ottobre?\nJúlia: Davvero? Come lo sa?\nSignora Rossi: Me l'ha detto il padrone di casa. Dice che è una ragazza molto simpatica.\nJúlia: Che bella notizia! Se avrà bisogno di qualcosa, la aiuterò io.\nNarrator: Dialogo due. Al telefono.\nMarco: Júlia, dove sei? Il film comincia tra dieci minuti!\nJúlia: Sono in bici, arrivo. Ho finito di lavorare tardi.\nMarco: Prima di venire, compri due bottigliette d'acqua?\nJúlia: Va bene. E Giulia? Viene anche lei?\nMarco: Non lo so, non risponde. Sarà ancora al bar."
+  }
+ },
+ "images": {}
+}
