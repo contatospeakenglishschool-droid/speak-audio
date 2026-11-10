@@ -610,3 +610,26 @@ def indefiniti(b):
 {_dont([("Porto qualche birre.", "qualche <b>birra</b>"), ("Ogni negozi sono chiusi.", "Ogni <b>negozio è</b> chiuso."), ("C'è nessuno.", "<b>Non</b> c'è nessuno."),
         ("Nessuno non le fa così.", "<b>Nessuno</b> le fa così."), ("Ho niente da fare.", "<b>Non</b> ho niente da fare.")])}""",
     26, """<p>In portoghese <i>não tem ninguém</i>, <i>não tenho nada</i> funzionano come in italiano (doppia negazione): è facile. Gli errori sono due: il <b>plurale</b> dopo <i>qualche</i> e <i>ogni</i> (pensano ad <i>alguns</i>, <i>todos</i>) e <i>non</i> davanti a <i>nessuno</i> quando sta all'inizio della frase. <i>Qualche</i> = <i>alguns/algumas</i> ma con il singolare; <i>ogni</i> = <i>cada</i>; <i>ognuno</i> = <i>cada um</i>.</p>""")
+
+
+def pronomi_combinati(b):
+    """A2 Ponte 25: pronomi combinati (ricettivo): me lo, te lo, glielo, ce lo, ve lo."""
+    tb = [("mi → <b>me</b>", "<b>me lo</b>", "<b>me la</b>", "<b>me li</b>", "<b>me le</b>"),
+          ("ti → <b>te</b>", "<b>te lo</b>", "<b>te la</b>", "<b>te li</b>", "<b>te le</b>"),
+          ("gli / le / Le → <b>glie-</b>", "<b>glielo</b>", "<b>gliela</b>", "<b>glieli</b>", "<b>gliele</b>"),
+          ("ci → <b>ce</b>", "<b>ce lo</b>", "<b>ce la</b>", "<b>ce li</b>", "<b>ce le</b>"),
+          ("vi → <b>ve</b>", "<b>ve lo</b>", "<b>ve la</b>", "<b>ve li</b>", "<b>ve le</b>")]
+    ex = [("Mi presti <b>la bici</b>?", "<b>Te la</b> presto."), ("Mi lasci <b>le chiavi</b>?", "<b>Te le</b> lascio."),
+          ("Riporti <b>l'ombrellone</b> alla signora?", "Sì, <b>glielo</b> riporto domenica."), ("Mandi <b>la cartolina</b> a Marco?", "Sì, <b>gliela</b> mando."),
+          ("Chi vi presta <b>la macchina</b>?", "<b>Ce la</b> presta la mamma di Marco.")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: i pronomi combinati", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Quando in una frase ci sono un pronome <b>indiretto</b> (a chi?) e un pronome <b>diretto</b> (che cosa?), si mettono insieme: prima l'indiretto, poi il diretto. L'indiretto cambia la <i>i</i> in <b>e</b>: <i>mi + lo</i> → <b>me lo</b>. Con <i>gli, le</i> e <i>Le</i> si scrive tutto attaccato: <b>glielo, gliela</b>. A questo livello basta <b>capirli</b> e usare <i>me lo / te lo</i>.</div>
+{_h("1. LE FORME")}
+{_tbl(["indiretto", "+ lo", "+ la", "+ li", "+ le"], tb, "8.6pt", ["44mm", None, None, None, None])}
+{_h("2. DOMANDA E RISPOSTA")}
+{_tbl(["domanda", "risposta"], ex, "8.6pt", ["70mm", None])}
+<div class="two"><div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><b>3. DOVE SI METTONO?</b><br>Prima del verbo: <i><b>Te lo</b> presto.</i> Con l'infinito e l'imperativo (tu) si attaccano alla fine: <i>Puoi prestar<b>melo</b>? · Prestami la bici → Presta<b>mela</b>!</i></div>
+<div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><b>4. GLIELO = A LUI, A LEI, A LEI (formale)</b><br><i>Glielo</i> va bene per tutti e tre: <i>Lo do a Marco / a Giulia / a Lei, signora</i> → <b>Glielo</b> do. Il contesto dice chi è.</div></div>
+{_dont([("Mi lo presti?", "<b>Me lo</b> presti?"), ("Ti la presto.", "<b>Te la</b> presto."), ("Lo te presto.", "<b>Te lo</b> presto."),
+        ("Gli lo riporto.", "<b>Glielo</b> riporto."), ("Le la mando.", "<b>Gliela</b> mando.")])}""",
+    28, """<p>In portoghese parlato i pronomi combinati quasi non si usano (<i>Empresta pra mim? — Empresto.</i>), quindi lo studente li evita. A livello A2 l'obiettivo è <b>riconoscerli</b> nell'ascolto e usare in produzione solo <i>me lo / te lo / me la / te la</i> nelle frasi di ogni giorno (<i>Me lo presti? Te lo do.</i>). <i>Glielo</i> e le forme attaccate all'infinito si riprendono al B1. Accettare risposte senza pronome combinato (<i>Sì, la presto a te</i>) se il significato è chiaro, ma riformularle.</p>""")

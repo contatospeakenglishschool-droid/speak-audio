@@ -1,0 +1,29 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"25.2": 2500, "25.3": 3500},
+ "units": {
+  "it-a2-unita-25": {
+   "25.1 Dialoghi": "Narrator: Prima parte. Fine agosto. Sabato Júlia e Marco partono per una settimana a Rimini: hanno affittato una casetta vicino al mare. Júlia bussa alla porta della signora Rossi.\nJúlia: Buongiorno, signora! Posso chiederLe un favore? Lei ha una borsa frigo?\nSignora Rossi: Certo, cara. Te la presto volentieri. Per che cosa ti serve?\nJúlia: Sabato vado a Rimini con Marco, per una settimana.\nSignora Rossi: Rimini! Ci andavo ogni estate da bambina. Allora ti serve anche l'ombrellone. Ce l'ho in cantina: te lo do io.\nJúlia: Davvero? Grazie mille! Glielo riporto domenica prossima.\nSignora Rossi: Non c'è fretta. Ma mi mandi una cartolina?\nJúlia: Certo, gliela mando il primo giorno!\nSignora Rossi: E la macchina? Avete la macchina?\nJúlia: Sì, la mamma di Marco ce la presta per una settimana.\nNarrator: Seconda parte. La sera Bruno telefona a Júlia.\nBruno: Júlia, ho saputo che vai al mare. Mi presti la bici mentre sei via? La mia ha una gomma bucata.\nJúlia: Va bene, te la presto. Ma trattala bene!\nBruno: Promesso. E le chiavi della bici? Me le lasci?\nJúlia: Te le lascio dalla signora Rossi. Passa a prenderle sabato.\nBruno: Perfetto. E… il tuo computer? Il mio è lento e devo studiare per l'esame di settembre.\nJúlia: No, quello non te lo presto: lo porto con me. Va' in biblioteca!\nBruno: Va bene, va bene. Buone vacanze, sorellina!",
+   "25.2 Ripeti": "Narrator: Me lo presti? Te lo presto.\nNarrator: Me la presti? Te la presto.\nNarrator: Me le lasci? Te le lascio.\nNarrator: Glielo riporto domenica.\nNarrator: Gliela mando il primo giorno.",
+   "25.3 Che cosa": "Narrator: Numero uno. Te la presto volentieri.\nNarrator: Numero due. Me lo dai?\nNarrator: Numero tre. Te le lascio dalla signora Rossi.\nNarrator: Numero quattro. Glielo riporto domenica.\nNarrator: Numero cinque. Ce li presta mia madre.\nNarrator: Numero sei. Gliela mando da Rimini."
+  }
+ },
+ "images": {
+  "it-a2-unita-25": {
+   "A": "cooler bag beach",
+   "B": "beach umbrella",
+   "C": "deck chair beach",
+   "D": "city bicycle",
+   "E": "keys",
+   "F": "postcard writing",
+   "G": "laptop computer desk",
+   "H": "flat tire bicycle"
+  }
+ }
+}
