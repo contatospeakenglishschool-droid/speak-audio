@@ -683,3 +683,27 @@ def discorso_indiretto_tonici(b):
 {_dont([("Vieni con io?", "Vieni con <b>me</b>?"), ("È per tu.", "È per <b>te</b>."), ("Secondo io, sì.", "Secondo <b>me</b>, sì."),
         ("Ha detto vado a Milano.", "Ha detto <b>che va</b> a Milano."), ("Lei dice che lei è stanca.", "Dice che è stanca.")])}""",
     26, """<p>In portoghese brasiliano si dice <i>com eu, pra eu, entre eu e você</i>: lo studente trasferisce l'errore (<i>con io, per tu</i>). Ricordare: dopo ogni preposizione → <b>me, te</b>. Nel discorso indiretto il brasiliano spesso omette <i>che</i> (<i>disse que</i> → ok, ma all'orale <i>ele falou: vou embora</i>): pretendere <i>ha detto che</i>. A livello A2 solo <i>dice che / ha detto che</i> con il tempo che non cambia; la concordanza dei tempi (<i>ha detto che andava</i>) è B1.</p>""")
+
+
+def congiuntivo_volonta(b):
+    """A2 Ponte 29: congiuntivo presente (2): volere che, è importante che, bisogna che, sono contento che, ho paura che; forme irregolari."""
+    trig = [("<b>voglio che · preferisco che</b>", "volontà", "<i>Voglio che tutto <b>sia</b> perfetto.</i>"),
+            ("<b>è importante che · bisogna che · è meglio che</b>", "necessità", "<i>Bisogna che il tecnico <b>venga</b> domattina.</i>"),
+            ("<b>sono contento/a che · mi dispiace che</b>", "emozione", "<i>Sono contenta che <b>abbiate</b> messo tante panchine.</i>"),
+            ("<b>ho paura che · spero che</b>", "paura, speranza", "<i>Ho paura che <b>piova</b>. · Spero che non <b>facciano</b> rumore.</i>")]
+    irr = [("andare", "<b>vada</b>", "<b>vadano</b>"), ("fare", "<b>faccia</b>", "<b>facciano</b>"), ("venire", "<b>venga</b>", "<b>vengano</b>"),
+           ("potere", "<b>possa</b>", "<b>possano</b>"), ("dovere", "<b>debba</b>", "<b>debbano</b>"), ("dire", "<b>dica</b>", "<b>dicano</b>"),
+           ("stare · dare", "<b>stia · dia</b>", "<b>stiano · diano</b>"), ("sapere · uscire", "<b>sappia · esca</b>", "<b>sappiano · escano</b>")]
+    rows = [(irr[i][0], irr[i][1], irr[i][2], irr[i + 4][0], irr[i + 4][1], irr[i + 4][2]) for i in range(4)]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: il congiuntivo presente (2)", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Nell'unità 09 hai usato il congiuntivo dopo <i>penso che, credo che, spero che</i>. Il congiuntivo si usa anche quando <b>vogliamo</b> qualcosa da un'altra persona, quando una cosa è <b>necessaria</b> e quando parliamo di <b>emozioni</b> e <b>paure</b>: <i>Voglio che tu <b>venga</b>. · È importante che <b>sia</b> pronto. · Ho paura che <b>piova</b>.</i></div>
+{_h("1. DOPO QUALI ESPRESSIONI?")}
+{_tbl(["espressione + che", "per…", "esempio"], trig, "8.6pt", ["58mm", "26mm", None])}
+{_h("2. LE FORME IRREGOLARI (io, tu, lui, lei, Lei · loro)")}
+{_tbl(["verbo", "io / tu / lui", "loro", "verbo", "io / tu / lui", "loro"], rows, "8.6pt", ["22mm", None, None, "22mm", None, None])}
+<p class="small" style="margin:.6mm 0">Regolari: <i>-are → -i</i> (<i>che parli</i>), <i>-ere / -ire → -a</i> (<i>che prenda, che dorma</i>). <i>Essere → sia, siano</i> · <i>avere → abbia, abbiano</i> · <i>noi → -iamo, voi → -iate</i> (<i>che siate, che abbiate</i>).</p>
+<div class="two"><div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><b>3. STESSO SOGGETTO: INFINITO</b><br><i>Voglio <b>andare</b>.</i> (io voglio, io vado) · <i>Voglio che <b>tu vada</b>.</i> (io voglio, tu vai) · <i>Sono contenta <b>di essere</b> qui.</i> · <i>Ho paura <b>di sbagliare</b>.</i> · <i>È importante <b>arrivare</b> presto.</i> (per tutti)</div>
+<div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><b>4. FATTO SICURO: INDICATIVO</b><br><i>So che <b>viene</b>. · Sono sicuro che <b>è</b> pronto. · È vero che <b>piove</b>. · Secondo me <b>è</b> bellissimo.</i> Il congiuntivo dice un desiderio, un'opinione o un'emozione; l'indicativo dice un fatto.</div></div>
+{_dont([("Voglio che vieni.", "Voglio che <b>venga</b>."), ("È importante che sei puntuale.", "È importante che tu <b>sia</b> puntuale."),
+        ("Voglio che io vado.", "Voglio <b>andare</b>."), ("Sono contenta che siete qui.", "Sono contenta che <b>siate</b> qui."), ("So che venga.", "So che <b>viene</b>.")])}""",
+    27, """<p>In portoghese dopo <i>quero que, é importante que, tenho medo que</i> si usa il <i>subjuntivo</i> (<i>quero que você venha</i>): qui il portoghese aiuta! Far notare il parallelo <i>venha → venga, faça → faccia, seja → sia, tenha → abbia</i>. Il vero problema è la forma: lo studente dice <i>vieni, sei</i> perché le forme del presente sono più frequenti. A livello A2 basta il congiuntivo presente; il passato (<i>che abbia fatto</i>) al B1.</p>""")

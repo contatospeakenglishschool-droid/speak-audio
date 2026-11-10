@@ -1,0 +1,30 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"29.2": 2500, "29.3": 3500},
+ "units": {
+  "it-a2-unita-29": {
+   "29.1 Dialoghi": "Narrator: Prima parte. Venerdì pomeriggio, fine settembre. Domani c'è l'inaugurazione del giardino in Bolognina, il progetto di Marco e Júlia. Sono nel giardino per gli ultimi controlli.\nMarco: Allora: le panchine ci sono, le aiuole sono finite, la rastrelliera per le bici è all'ingresso.\nJúlia: E il palco? È importante che sia pronto per domani: alle dieci suona la banda del quartiere.\nMarco: Il palco è pronto, ma manca la luce. Bisogna che il tecnico venga domattina presto.\nJúlia: Lo chiamo io. Voglio che tutto sia perfetto. E il tempo? Ho paura che piova.\nMarco: Tranquilla: le previsioni dicono sole. E anche se piove, la gente viene lo stesso.\nJúlia: Speriamo! Ah, il discorso: vuoi che lo faccia io?\nMarco: Sì, fallo tu. Ma è meglio che sia corto: cinque minuti al massimo!\nNarrator: Seconda parte. Sabato mattina. Il giardino è pieno di gente. Arriva la signora Rossi con Franco e Briciola.\nSignora Rossi: Júlia! Che bello! Sono contenta che abbiate messo tante panchine. Finalmente posso sedermi all'ombra.\nJúlia: Grazie, signora! È stata un'idea Sua, si ricorda?\nSignora Rossi: Certo. Però spero che i ragazzi non facciano troppo rumore la sera.\nJúlia: Non si preoccupi: il giardino chiude a mezzanotte.\nGiulia: Júlia! Il chiosco è aperto. Voglio che tutti assaggino il caffè brasiliano: oggi lo offro io!\nJúlia: Che brava! Adesso però devo fare il discorso. Marco, che ore sono?\nMarco: Le dieci e mezza. Vai! E ricordati: cinque minuti!\nJúlia: Buongiorno a tutti! Questo giardino è di tutti voi. Speriamo che diventi il posto dove il quartiere si incontra: i bambini, gli anziani, i ragazzi. Grazie, e buon caffè!",
+   "29.2 Ripeti": "Narrator: Che sia, che abbia, che vada, che faccia.\nNarrator: Voglio che tu venga.\nNarrator: È importante che sia tutto pronto.\nNarrator: Ho paura che piova.\nNarrator: Sono contenta che siate qui.",
+   "29.3 Fatto o desiderio": "Narrator: Numero uno. So che viene.\nNarrator: Numero due. Voglio che venga.\nNarrator: Numero tre. È importante che tu sia puntuale.\nNarrator: Numero quattro. Sono sicuro che è pronto.\nNarrator: Numero cinque. Ho paura che piova.\nNarrator: Numero sei. Secondo me è bellissimo."
+  }
+ },
+ "images": {
+  "it-a2-unita-29": {
+   "A": "public park garden city",
+   "B": "park bench",
+   "C": "ribbon cutting ceremony",
+   "D": "outdoor stage",
+   "E": "bicycle parking rack",
+   "F": "playground swing",
+   "G": "kiosk coffee park",
+   "H": "flower bed"
+  }
+ }
+}
