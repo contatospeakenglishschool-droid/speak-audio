@@ -5,6 +5,18 @@ Block rule (all levels): 9 units + a Review as the 10th = one block; Review numb
 Files: `B1 Progress NN - Title - SB.pdf`; band `B1 · UNIT NN`; audio folder `b1-unit-NN`, `b1-review-N`; Drive `Inglês/B1 Progress/`.
 Notes: LH 43.1 (Taking time out of your relationship) is an extra lesson numbered 43.1 in the folder; "Home improviments" is spelled "Home improvements" in our title.
 
+## B1 unit format (approved 2026-11-09; reference build `engine/examples/b1unit01_build.py`)
+Every B1 unit has 8 SB pages, 60 min. TB = cover + Lesson overview + pages + Audio script.
+1. **Warm-up** (8'): one strong photo + 2–3 discussion questions; vocabulary in context (definitions/matching), photos only for concrete words (no 8-photo grid); a quick personal task.
+2. **Listening or Reading** (12'): audio at NATURAL speed first (audiocard order "NN.1 · NATURAL", "NN.1 · SLOW"; slow = support only); gist, detail, and a "Think about it" inference/attitude question; a sand box "NOTICE: USEFUL CHUNKS". Reading texts 250–400 words with skimming, scanning, meaning from context.
+3. **Language focus** (8'): inductive, from the text; RULE box.
+4. **Grammar reference** (study at home).
+5. **Vocabulary lab** (collocations, word building or phrasal verbs) + sand box "WATCH OUT: FALSE FRIENDS AND WORD CHOICE" (grammar mistakes stay in the Grammar reference "Don't say") + **Pronunciation lab** with ONE track (connected speech, sentence stress, intonation).
+6. **Practice** (8'): in connected texts (a message, email or story with gaps or errors) + make questions/sentences in context; no lists of isolated sentences.
+7. **Speaking** (12'): FUNCTIONAL LANGUAGE box (start / keep going / agree-disagree / finish…) + **long turn** (1 min planning, 2 min talk; TB offers 3-2-1 fluency repetition) + 1:1 role-play with the teacher's card in red.
+8. **Wrap-up** (4'): can-do check (this unit only; no cumulative progress check, Reviews do that) + "My language notes" (error log: I said… / Better:) + **writing homework 100–150 words** with a short model text and a checklist.
+Audio per unit: NN.1 (slow + natural), NN.2, NN.3 pronunciation (title with "Repeat" = 2 s pauses).
+
 | Speak! B1 Progress | Title (working) | Linguahouse lesson |
 |---|---|---|
 | 01 | Getting to know someone | 1 Getting to know someone |
