@@ -7,15 +7,12 @@
   "Yuki": "en-US-Studio-O",
   "Narrator": "en-US-Neural2-J"
  },
- "pauses": {
-  "01.3": 3000
- },
+ "pauses": {},
  "units": {
   "b1-unit-01": {
    "01.1 Ana meets Danny": "Narrator: Danny, Rita's son, is in São Paulo at the start of his gap year. Rita asked Ana to show him around, so they meet at a café.\nAna: So, Danny, where are you from? Chicago, right?\nDanny: Yes, I was born and grew up in Chicago.\nAna: Really? Whereabouts in Chicago?\nDanny: Near City Coffee. My mom manages it. I think you know it.\nAna: Yes! I went there when I visited Tom. Have you been to Brazil before?\nDanny: No, this is my first time. But I had a great vacation in Mexico last year.\nAna: And what do you do?\nDanny: I'm taking a gap year before college. I worked at a supermarket for months to save money. What about you?\nAna: I'm a doctor at a hospital here in São Paulo.\nDanny: A doctor? Do you enjoy your work?\nAna: Yes, I do. It's hard, but I love helping people. Right now, I'm also studying for an English test.\nDanny: An English test? Your English is great. How long have you been learning?\nAna: Oh, for about ten years. My online teacher is in Chicago. His name is Tom.\nDanny: Tom? Lucy's roommate? So he's a mutual friend!\nAna: Ha! It's a small world. Do you travel much?\nDanny: Not really, but this year I'm traveling around South America. Have you ever been to Peru?\nAna: Yes, I have, actually. I went there two years ago. The food was fantastic.",
    "01.2 Kate meets Yuki": "Narrator: At Sweet Kate Bakery in Chicago, Kate is talking to a customer.\nKate: So, is this your first time in Chicago?\nYuki: Yes, it is.\nKate: When did you get here?\nYuki: On Monday.\nKate: On Monday? And how long are you here for?\nYuki: Just a week.\nKate: Oh, that's a shame! You need more time to really get to know the city. Where are you staying?\nYuki: At a hotel near the river.\nKate: Nice. Your English is really good. How long have you been learning it?\nYuki: About ten years. My teacher in Tokyo is from New York. Have you been there?\nKate: Not yet, but I have a few friends there.\nYuki: So what do you do in your free time?\nKate: Well, I love baking, of course! And I walk my dog, Pepper, by the lake every morning. How about you? Do you do any sports?\nYuki: Yes, I do aikido.\nKate: Really? Are you any good?\nYuki: Ha! I'm OK.",
-   "01.3 Reply questions": "Narrator: Number one. I work at a hospital.\nNarrator: Number two. I've been to Japan twice.\nNarrator: Number three. I'm learning Portuguese.\nNarrator: Number four. I went to Mexico last year.\nNarrator: Number five. I can play the guitar.\nNarrator: Number six. My mom manages a café.",
-   "01.4 Repeat: showing interest": "Narrator: Really? Whereabouts?\nNarrator: An English teacher?\nNarrator: On Monday?\nNarrator: Oh, have you?\nNarrator: That sounds interesting!\nNarrator: Are you any good?"
+   "01.3 Repeat: connected speech": "Narrator: Where do you come from?\nNarrator: What do you do?\nNarrator: Do you travel much?\nNarrator: Have you ever been to Peru?\nNarrator: How long have you been learning?\nNarrator: When did you get here?\nNarrator: Did you enjoy it?\nNarrator: Oh, have you? Whereabouts?"
   }
  },
  "images": {
