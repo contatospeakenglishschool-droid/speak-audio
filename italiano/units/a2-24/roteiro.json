@@ -1,0 +1,30 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Signor Neri": "it-IT-Chirp3-HD-Charon",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"24.2": 2500, "24.3": 3500},
+ "units": {
+  "it-a2-unita-24": {
+   "24.1 Dialoghi": "Narrator: Prima parte. Il quattordici agosto, la vigilia di Ferragosto. Júlia torna a casa e incontra la signora Rossi nel cortile.\nJúlia: Signora, ma dove sono tutti? Nel quartiere non c'è nessuno!\nSignora Rossi: Eh, cara, a Ferragosto è così. Ogni anno la città si svuota.\nJúlia: Anche il bar di Giulia è chiuso. E il forno, e la farmacia… Ogni negozio ha il cartello \"chiuso per ferie\".\nSignora Rossi: Però nel palazzo c'è ancora qualcuno: il signor Neri del terzo piano, io, tu… e Briciola.\nJúlia: E Franco?\nSignora Rossi: Franco è al mare con sua figlia. Senti, ho un'idea: domani facciamo un pranzo qui in cortile. Ognuno porta qualcosa.\nJúlia: Che bella idea! Io posso fare qualche dolce brasiliano.\nSignora Rossi: Brava. Io faccio le lasagne. E inviti anche tuo fratello?\nJúlia: Certo! Lo chiamo subito.\nNarrator: Seconda parte. Júlia telefona a Bruno.\nJúlia: Bruno, che cosa fai domani?\nBruno: Niente. Chiara è dai suoi genitori, i miei amici sono tutti in vacanza. Non ho niente da fare e nel frigo non c'è niente!\nJúlia: Allora vieni a pranzo da noi, in cortile. Porta qualcosa da bere.\nBruno: Porto qualche birra e un po' di ghiaccio. Arrivo a mezzogiorno!\nNarrator: Il giorno dopo, nel cortile.\nSignor Neri: Buongiorno a tutti! Ho portato un'anguria: l'ho tenuta in frigo tutta la notte.\nSignora Rossi: Allora, qualcuno vuole ancora un po' di lasagne?\nBruno: Io!\nJúlia: Bruno, ne hai già mangiate tre porzioni!\nSignor Neri: Non importa, signora Rossi: le sue lasagne sono le migliori del quartiere. Nessuno le fa così.\nSignora Rossi: Grazie. Allora, l'anno prossimo rifacciamo il pranzo di Ferragosto?\nJúlia: Sì, ogni anno!",
+   "24.2 Ripeti": "Narrator: qualcuno, nessuno, ognuno, qualcosa\nNarrator: Non c'è nessuno.\nNarrator: Ognuno porta qualcosa.\nNarrator: Non ho niente da fare.\nNarrator: Qualcuno vuole ancora un po' di lasagne?",
+   "24.3 Si o no": "Narrator: Numero uno. Nel palazzo c'è qualcuno.\nNarrator: Numero due. Non c'è nessuno al bar.\nNarrator: Numero tre. Ho comprato qualcosa per il pranzo.\nNarrator: Numero quattro. Nel frigo non c'è niente.\nNarrator: Numero cinque. Ogni negozio è chiuso.\nNarrator: Numero sei. Ho visto qualche vicino in cortile."
+  }
+ },
+ "images": {
+  "it-a2-unita-24": {
+   "A": "italian city neighborhood street",
+   "B": "apartment building courtyard",
+   "C": "neighbors talking",
+   "D": "closed shop shutter",
+   "E": "long table outdoor lunch friends",
+   "F": "watermelon slices",
+   "G": "lasagna",
+   "H": "empty street summer city"
+  }
+ }
+}

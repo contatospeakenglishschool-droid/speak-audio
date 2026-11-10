@@ -587,3 +587,26 @@ def esclamazioni_bello_buono(b):
 {_dont([("Che bello mare!", "Che <b>bel</b> mare!"), ("Che belli occhiali!", "Che <b>begli</b> occhiali!"), ("Quanto gente!", "<b>Quanta</b> gente!"),
         ("Un buono vino.", "Un <b>buon</b> vino."), ("Che una bella voce!", "Che bella voce!")])}""",
     26, """<p>In portoghese <i>Que lindo!</i>, <i>Quanta gente!</i>, <i>Como é bonita!</i> funzionano come in italiano: la struttura è facile. Il problema sono le <b>forme</b> di <i>bello</i> (lo studente dice <i>bello mare, belli occhiali</i>) e l'articolo dopo <i>che</i> (<i>che una bella voce</i> → <b>che bella voce</b>). Trucco: <i>bello</i> si comporta come l'articolo determinativo, <i>buono</i> come l'indeterminativo. Ripassare gli articoli dell'A1 prima della tabella.</p>""")
+
+
+def indefiniti(b):
+    """A2 Ponte 24: qualche, qualcuno, qualcosa, ogni, ognuno, nessuno, niente."""
+    ag = [("<b>qualche</b> + nome <b>singolare</b>", "= alcuni / alcune", "Porto <b>qualche</b> birra. · <b>Qualche</b> vicino è rimasto."),
+          ("<b>ogni</b> + nome <b>singolare</b>", "= tutti / tutte", "<b>Ogni</b> negozio è chiuso. · <b>ogni</b> anno, <b>ogni</b> giorno"),
+          ("<b>nessun / nessuna</b> + nome", "= zero", "Non c'è <b>nessun</b> bar aperto. · <b>nessuna</b> farmacia")]
+    pr = [("<b>qualcuno</b>", "una persona (non so chi)", "C'è <b>qualcuno</b> nel palazzo. · <b>Qualcuno</b> vuole ancora lasagne?"),
+          ("<b>qualcosa</b>", "una cosa (non so quale)", "<b>Ognuno</b> porta <b>qualcosa</b>. · Vuoi <b>qualcosa</b> da bere?"),
+          ("<b>ognuno / ognuna</b>", "ogni persona", "<b>Ognuno</b> porta un piatto."),
+          ("<b>nessuno</b>", "zero persone", "<b>Non</b> c'è <b>nessuno</b>. · <b>Nessuno</b> le fa così."),
+          ("<b>niente</b> (= nulla)", "zero cose", "<b>Non</b> ho <b>niente</b> da fare. · <b>Non</b> c'è <b>niente</b> nel frigo.")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: gli indefiniti", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Gli <b>indefiniti</b> indicano persone o cose senza dire esattamente quali o quante: <i>qualcuno, qualcosa, nessuno, niente, ogni, ognuno, qualche</i>. Alcuni vanno <b>con un nome</b> (aggettivi: <i>ogni negozio</i>), altri <b>da soli</b> (pronomi: <i>c'è qualcuno</i>).</div>
+{_h("1. CON UN NOME")}
+{_tbl(["forma", "significato", "esempio"], ag, "8.6pt", ["42mm", "28mm", None])}
+{_h("2. DA SOLI")}
+{_tbl(["forma", "significato", "esempio"], pr, "8.6pt", ["30mm", "40mm", None])}
+<div class="two"><div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><b>3. LA DOPPIA NEGAZIONE</b><br>Dopo il verbo: <b>non</b> + verbo + <b>nessuno / niente</b>: <i>Non c'è nessuno. Non ho niente.</i> Prima del verbo: niente <i>non</i>: <i><b>Nessuno</b> le fa così. <b>Niente</b> è impossibile.</i></div>
+<div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><b>4. SEMPRE SINGOLARE</b><br><i>qualche</i> e <i>ogni</i> vogliono il nome e il verbo al <b>singolare</b>, anche se il significato è plurale: <i><b>Ogni</b> negozio <b>è</b> chiuso. <b>Qualche</b> vicino <b>è</b> rimasto.</i></div></div>
+{_dont([("Porto qualche birre.", "qualche <b>birra</b>"), ("Ogni negozi sono chiusi.", "Ogni <b>negozio è</b> chiuso."), ("C'è nessuno.", "<b>Non</b> c'è nessuno."),
+        ("Nessuno non le fa così.", "<b>Nessuno</b> le fa così."), ("Ho niente da fare.", "<b>Non</b> ho niente da fare.")])}""",
+    26, """<p>In portoghese <i>não tem ninguém</i>, <i>não tenho nada</i> funzionano come in italiano (doppia negazione): è facile. Gli errori sono due: il <b>plurale</b> dopo <i>qualche</i> e <i>ogni</i> (pensano ad <i>alguns</i>, <i>todos</i>) e <i>non</i> davanti a <i>nessuno</i> quando sta all'inizio della frase. <i>Qualche</i> = <i>alguns/algumas</i> ma con il singolare; <i>ogni</i> = <i>cada</i>; <i>ognuno</i> = <i>cada um</i>.</p>""")
