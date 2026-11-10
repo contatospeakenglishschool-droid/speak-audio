@@ -1,0 +1,28 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"26.2": 2500, "26.3": 3500},
+ "units": {
+  "it-a2-unita-26": {
+   "26.1 Dialoghi": "Narrator: Prima parte. Sabato pomeriggio, a Rimini. Júlia e Marco arrivano alla casetta che hanno affittato.\nMarco: Eccola! Guarda, Júlia: una casetta bianca con un giardinetto.\nJúlia: Che carina! Entriamo… Oh, la cucina è piccolissima. È un cucinino!\nMarco: Sì, ma guarda la camera: c'è un lettone enorme!\nJúlia: E c'è anche un terrazzino. Da qui si vede il mare!\nMarco: Dai, prendiamo l'ombrellone della signora Rossi e andiamo in spiaggia.\nNarrator: Seconda parte. Martedì. Júlia e Marco vanno in spiaggia da tre giorni.\nJúlia: Marco, guarda le mie braccia! Sono tutte rosse.\nMarco: Ti ho detto di mettere la crema! E anche le ginocchia sono rosse.\nJúlia: E tu? Perché tieni la mano così?\nMarco: Ieri ho giocato a pallavolo e mi fanno male due dita.\nJúlia: Poverino! Stasera cucino io: ho comprato sei uova e facciamo una frittatina.\nMarco: Una frittatina? Ho una fame da lupo. Facciamo un frittatone!\nNarrator: Terza parte. Mercoledì arriva un temporale. Júlia scrive una cartolina alla signora Rossi.\nJúlia: Cara signora Rossi, saluti da Rimini! La casetta è piccola ma carinissima, con un terrazzino da cui si vede il mare. Il Suo ombrellone è perfetto: tutti i vicini di spiaggia ce lo invidiano! Oggi però c'è un tempaccio: piove e tira vento. Marco ha due dita gonfie e io ho le braccia rosse come un pomodoro, ma siamo felici. Un abbraccione, Júlia.",
+   "26.2 Ripeti": "Narrator: Una casa, una casetta.\nNarrator: Un letto, un lettino, un lettone.\nNarrator: Il tempo, che tempaccio!\nNarrator: Il braccio, le braccia.\nNarrator: Il dito, le dita. L'uovo, le uova.",
+   "26.3 Piccolo o grande": "Narrator: Numero uno. Abbiamo un giardinetto.\nNarrator: Numero due. Nella camera c'è un lettone.\nNarrator: Numero tre. Che tempaccio!\nNarrator: Numero quattro. Sul terrazzino c'è un tavolino.\nNarrator: Numero cinque. Vorrei un bicchierone di tè freddo.\nNarrator: Numero sei. Non dire le parolacce!"
+  }
+ },
+ "images": {
+  "it-a2-unita-26": {
+   "A": "small white beach house",
+   "B": "small balcony sea view",
+   "C": "big double bed bedroom",
+   "D": "sun loungers beach umbrella",
+   "E": "sunburned arms",
+   "F": "bandaged fingers",
+   "G": "eggs in a bowl",
+   "H": "storm over the sea beach"
+  }
+ }
+}

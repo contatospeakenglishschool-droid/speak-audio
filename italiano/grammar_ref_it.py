@@ -633,3 +633,29 @@ def pronomi_combinati(b):
 {_dont([("Mi lo presti?", "<b>Me lo</b> presti?"), ("Ti la presto.", "<b>Te la</b> presto."), ("Lo te presto.", "<b>Te lo</b> presto."),
         ("Gli lo riporto.", "<b>Glielo</b> riporto."), ("Le la mando.", "<b>Gliela</b> mando.")])}""",
     28, """<p>In portoghese parlato i pronomi combinati quasi non si usano (<i>Empresta pra mim? — Empresto.</i>), quindi lo studente li evita. A livello A2 l'obiettivo è <b>riconoscerli</b> nell'ascolto e usare in produzione solo <i>me lo / te lo / me la / te la</i> nelle frasi di ogni giorno (<i>Me lo presti? Te lo do.</i>). <i>Glielo</i> e le forme attaccate all'infinito si riprendono al B1. Accettare risposte senza pronome combinato (<i>Sì, la presto a te</i>) se il significato è chiaro, ma riformularle.</p>""")
+
+
+def nomi_alterati(b):
+    """A2 Ponte 26: nomi alterati (-ino, -etto, -one, -accio) e plurali irregolari (le braccia, le dita, le uova)."""
+    suf = [("<b>-ino / -ina</b>", "piccolo, carino", "il tavolo → il tavol<b>ino</b> · la cucina → il cucin<b>ino</b> · poverino!"),
+           ("<b>-etto / -etta</b>", "piccolo, carino", "la casa → la cas<b>etta</b> · il giardino → il giardin<b>etto</b>"),
+           ("<b>-one</b>", "grande", "il letto → il lett<b>one</b> · il bicchiere → il bicchier<b>one</b> · un abbracci<b>one</b>"),
+           ("<b>-accio / -accia</b>", "brutto, cattivo", "il tempo → il temp<b>accio</b> · la parola → la parol<b>accia</b>")]
+    irr = [("il braccio", "le <b>braccia</b>"), ("il dito", "le <b>dita</b>"), ("il ginocchio", "le <b>ginocchia</b>"), ("il labbro", "le <b>labbra</b>"),
+           ("l'osso", "le <b>ossa</b>"), ("l'uovo", "le <b>uova</b>"), ("il paio", "le <b>paia</b>"), ("il lenzuolo", "le <b>lenzuola</b>")]
+    irr2 = [("la mano", "le <b>mani</b>"), ("l'uomo", "gli <b>uomini</b>"), ("il bue", "i <b>buoi</b>"), ("la radio · la foto · il caffè", "le radio · le foto · i caffè")]
+    rows = [(irr[i][0], irr[i][1], irr[i + 4][0], irr[i + 4][1]) for i in range(4)]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: i nomi alterati e i plurali irregolari", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Con un <b>suffisso</b> alla fine del nome si dice com'è la cosa: piccola, grande, brutta. <i>Una casa piccola e carina</i> → <b>una casetta</b>. Alcuni nomi del corpo e poche altre parole hanno un plurale in <b>-a</b>: <i>il braccio → le braccia</i>. Questi plurali sono <b>femminili</b>.</div>
+{_h("1. I SUFFISSI")}
+{_tbl(["suffisso", "significa", "esempi"], suf, "8.6pt", ["30mm", "30mm", None])}
+<div class="two"><div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><b>ATTENZIONE: I FALSI ALTERATI</b><br>Alcune parole sembrano alterate, ma sono parole nuove: <i>il panino</i> (non è un pane piccolo), <i>il bottone</i>, <i>il limone</i>, <i>il cerotto</i>, <i>il mattone</i>. Si usano come parole normali.</div>
+<div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><b>-ONE DIVENTA MASCHILE</b><br>Spesso un nome femminile con <i>-one</i> diventa maschile: <i>la porta → il portone</i>, <i>la finestra → il finestrone</i>. Con <i>-ino</i> a volte succede lo stesso: <i>la cucina → il cucinino</i>.</div></div>
+{_h("2. PLURALI IN -A (FEMMINILI)")}
+{_tbl(["singolare", "plurale", "singolare", "plurale"], rows, "8.6pt", ["38mm", None, "38mm", None])}
+<p style="font-size:8.6pt;margin:1mm 0">L'aggettivo è femminile plurale: <i>le braccia <b>rosse</b>, le uova <b>fresche</b>, le dita <b>gonfie</b></i>.</p>
+{_h("3. ALTRI PLURALI DA RICORDARE")}
+{_tbl(["singolare", "plurale"], irr2, "8.6pt", ["70mm", None])}
+{_dont([("Ho i bracci rossi.", "Ho <b>le braccia rosse</b>."), ("Mi fanno male due diti.", "Mi fanno male due <b>dita</b>."),
+        ("Ho comprato sei uovi.", "Ho comprato sei <b>uova</b>."), ("Le uova sono freschi.", "Le uova sono <b>fresche</b>."), ("Ho le mane fredde.", "Ho le <b>mani</b> fredde.")])}""",
+    26, """<p>In portoghese <i>-inho</i> si usa moltissimo (<i>cafezinho, rapidinho</i>); in italiano gli alterati sono meno frequenti e non si possono inventare con ogni parola: insegnare quelli più comuni come vocabolario. <i>-one</i> corrisponde a <i>-ão</i> (<i>casarão</i> → <i>casone</i>). Per i plurali in <i>-a</i> il problema è l'accordo: in portoghese <i>os braços</i> è maschile, in italiano <i>le braccia</i> è femminile.</p>""")
