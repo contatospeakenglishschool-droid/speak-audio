@@ -659,3 +659,27 @@ def nomi_alterati(b):
 {_dont([("Ho i bracci rossi.", "Ho <b>le braccia rosse</b>."), ("Mi fanno male due diti.", "Mi fanno male due <b>dita</b>."),
         ("Ho comprato sei uovi.", "Ho comprato sei <b>uova</b>."), ("Le uova sono freschi.", "Le uova sono <b>fresche</b>."), ("Ho le mane fredde.", "Ho le <b>mani</b> fredde.")])}""",
     26, """<p>In portoghese <i>-inho</i> si usa moltissimo (<i>cafezinho, rapidinho</i>); in italiano gli alterati sono meno frequenti e non si possono inventare con ogni parola: insegnare quelli più comuni come vocabolario. <i>-one</i> corrisponde a <i>-ão</i> (<i>casarão</i> → <i>casone</i>). Per i plurali in <i>-a</i> il problema è l'accordo: in portoghese <i>os braços</i> è maschile, in italiano <i>le braccia</i> è femminile.</p>""")
+
+
+def discorso_indiretto_tonici(b):
+    """A2 Ponte 27: discorso indiretto (dice che / ha detto che) e pronomi tonici."""
+    ind = [("«Vado a Milano.»", "Dice che <b>va</b> a Milano.", "Ha detto che <b>va</b> a Milano."),
+           ("«Sono stanca.»", "Dice che <b>è</b> stanca.", "Ha detto che <b>è</b> stanca."),
+           ("«Ho studiato.»", "Dice che <b>ha studiato</b>.", "Ha detto che <b>ha studiato</b>."),
+           ("«Il mio esame è giovedì.»", "Dice che <b>il suo</b> esame è giovedì.", "Ha detto che <b>il suo</b> esame è giovedì.")]
+    ton = [("io", "mi", "<b>me</b>", "per <b>me</b> · con <b>me</b>"), ("tu", "ti", "<b>te</b>", "per <b>te</b> · secondo <b>te</b>"),
+           ("lui / lei / Lei", "lo, gli / la, le / La, Le", "<b>lui / lei / Lei</b>", "con <b>lui</b> · per <b>Lei</b>"),
+           ("noi", "ci", "<b>noi</b>", "da <b>noi</b>"), ("voi", "vi", "<b>voi</b>", "senza <b>voi</b>"), ("loro", "li, le / gli", "<b>loro</b>", "a <b>loro</b>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: il discorso indiretto e i pronomi tonici", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Con il <b>discorso indiretto</b> riportiamo le parole di un'altra persona: <i>«Vado a Milano.»</i> → <i>Il signor Neri <b>dice che</b> va a Milano.</i> I <b>pronomi tonici</b> (<i>me, te, lui, lei…</i>) si usano dopo una preposizione (<i>per te, con me</i>) o quando vogliamo dare importanza alla persona.</div>
+{_h("1. DICE CHE / HA DETTO CHE")}
+{_tbl(["parole dirette", "dice che…", "ha detto che…"], ind, "8.6pt", ["40mm", None, None])}
+<div class="two"><div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><b>CHE COSA CAMBIA?</b><br>Cambia la <b>persona</b>: <i>vado → va, sono → è, ho → ha</i>. Cambiano i possessivi: <i>mio → suo</i>. Dopo <i>dice che</i> il tempo resta uguale. <i>Che</i> non si toglie mai.</div>
+<div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><b>PER INIZIARE UNA NOTIZIA</b><br><i><b>Lo sai che</b> il signor Neri va via?</i> · <i>Hai sentito che…?</i> · <i><b>Chi ti ha detto che</b>…?</i> · <i>Mi ha detto che…</i> · <i>Si dice che…</i></div></div>
+{_h("2. I PRONOMI TONICI")}
+{_tbl(["soggetto", "atono", "tonico", "esempi"], ton, "8.6pt", ["28mm", "40mm", "30mm", None])}
+<div class="two"><div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><b>3. QUANDO SI USANO?</b><br>Dopo le preposizioni: <i>per me, con te, da lui, senza di loro</i>. Per dare enfasi: <i>Mi cerchi?</i> → <i>Cerchi <b>me</b>?</i> (proprio me). Per dire un'opinione: <b>secondo me</b>, <b>per me</b>.</div>
+<div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><b>4. ATTENZIONE</b><br>Dopo <i>anche</i> come soggetto: <i><b>Anch'io</b> vado</i> (soggetto) ma <i>Inviti <b>anche me</b>?</i> (oggetto). <i>Da me</i> = a casa mia: <i>Ceniamo <b>da me</b>?</i></div></div>
+{_dont([("Vieni con io?", "Vieni con <b>me</b>?"), ("È per tu.", "È per <b>te</b>."), ("Secondo io, sì.", "Secondo <b>me</b>, sì."),
+        ("Ha detto vado a Milano.", "Ha detto <b>che va</b> a Milano."), ("Lei dice che lei è stanca.", "Dice che è stanca.")])}""",
+    26, """<p>In portoghese brasiliano si dice <i>com eu, pra eu, entre eu e você</i>: lo studente trasferisce l'errore (<i>con io, per tu</i>). Ricordare: dopo ogni preposizione → <b>me, te</b>. Nel discorso indiretto il brasiliano spesso omette <i>che</i> (<i>disse que</i> → ok, ma all'orale <i>ele falou: vou embora</i>): pretendere <i>ha detto che</i>. A livello A2 solo <i>dice che / ha detto che</i> con il tempo che non cambia; la concordanza dei tempi (<i>ha detto che andava</i>) è B1.</p>""")

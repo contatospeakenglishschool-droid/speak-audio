@@ -1,0 +1,29 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"27.2": 2500, "27.3": 3500},
+ "units": {
+  "it-a2-unita-27": {
+   "27.1 Dialoghi": "Narrator: Prima parte. Domenica, primi di settembre. Júlia e Marco sono tornati da Rimini. Júlia riporta l'ombrellone e la borsa frigo alla signora Rossi.\nJúlia: Buongiorno, signora! Ecco il Suo ombrellone e la borsa frigo. Grazie mille!\nSignora Rossi: Bentornata, cara! Ho ricevuto la tua cartolina: l'ho messa sul frigorifero. E il mare?\nJúlia: Bellissimo, a parte il temporale! E qui? Ci sono novità?\nSignora Rossi: Eh, lo sai che il signor Neri va via? Mi ha detto che a ottobre si trasferisce a Milano, da sua figlia.\nJúlia: Davvero? E chi viene al suo posto?\nSignora Rossi: Non lo so. Il padrone di casa dice che c'è una ragazza interessata. Vedremo!\nJúlia: E Bruno? Ha preso la bici?\nSignora Rossi: Sì. Mi ha detto che è andato in biblioteca tutti i giorni… Ma secondo me è andato al mare con Chiara: era abbronzatissimo!\nNarrator: Seconda parte. La sera Bruno riporta la bici a Júlia.\nBruno: Ciao, sorellina! Ecco la tua bici, sana e salva. E questo è per te.\nJúlia: Per me? Che cos'è?\nBruno: Un campanello nuovo. Quello vecchio non funzionava. È un regalo da parte mia e di Chiara.\nJúlia: Che carini! Grazie. Ma dimmi la verità: sei andato in biblioteca o al mare?\nBruno: In biblioteca! Chi ti ha detto che sono andato al mare?\nJúlia: La signora Rossi. Dice che eri abbronzatissimo.\nBruno: Quella donna vede tutto! Va bene: due giorni al mare con Chiara. Ma ho studiato anche lì, sulla spiaggia!\nJúlia: Secondo me hai studiato poco. E l'esame quando è?\nBruno: Giovedì. Dopo vieni con me a festeggiare?\nJúlia: Con te? Solo se lo passi!",
+   "27.2 Ripeti": "Narrator: Per me? Sì, per te!\nNarrator: Vieni con me o con lui?\nNarrator: Secondo me, sì. Secondo te?\nNarrator: Dice che viene. Ha detto che viene.\nNarrator: Lo sai che il signor Neri va via?",
+   "27.3 Diretto o indiretto": "Narrator: Numero uno. Vado a Milano a ottobre.\nNarrator: Numero due. Dice che va a Milano a ottobre.\nNarrator: Numero tre. Ha detto che è stanca.\nNarrator: Numero quattro. Ho studiato tutti i giorni.\nNarrator: Numero cinque. Marco dice che ha fame.\nNarrator: Numero sei. Ho fame!"
+  }
+ },
+ "images": {
+  "it-a2-unita-27": {
+   "A": "suntanned man",
+   "B": "bicycle bell",
+   "C": "university library students",
+   "D": "moving boxes",
+   "E": "fridge magnets postcards",
+   "F": "two women gossip",
+   "G": "friends toast celebration",
+   "H": "student exam"
+  }
+ }
+}
