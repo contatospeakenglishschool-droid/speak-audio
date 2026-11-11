@@ -1137,3 +1137,28 @@ def describing_character(b):
     ["<b>…, though</b> (at the end, spoken)", "<i>She's really generous. She's a bit impatient, though.</i>"]], "8.2pt")}
 {_dont([("She is a bit friendly.", "She's <b>very / really</b> friendly. (<i>a bit</i> + negative only)"), ("Always she is late.", "She is <b>always</b> late."), ("He tends to being late.", "He tends <b>to be</b> late."), ("He is a person very kind.", "He's a <b>very kind person</b>."), ("What is she like? – She likes pizza.", "– She's friendly and funny.")])}""",
     25, """<p>Brazilians often put adverbs of frequency at the start of the sentence (<i>Always she…</i>), use <i>a bit</i> with positive adjectives, and confuse <i>What's she like?</i> with <i>What does she like?</i> Softening is very important in American English: direct negative adjectives (<i>He's lazy.</i>) can sound rude.</p>""")
+
+
+def past_present_review(b):
+    """B1 Unit 03: tense review: present simple, past simple, present perfect, used to."""
+    b.page(f"""{b.sec("+", "Grammar reference: past and present", "")}
+<div class="box" style="margin-top:0"><h4>FOUR TENSES TO TELL A LIFE STORY</h4>When we talk about someone's life, we mix the present (what is true now), the past (finished events and old habits) and the present perfect (experiences and results up to now).</div>
+{_h("1. THE FOUR TENSES")}
+{_tbl(["tense", "use", "examples"], [
+    ["<b>present simple</b>", "routines and states now", "<i>He lives in Brazil. I don't eat out very often these days.</i>"],
+    ["<b>past simple</b>", "finished events at a known time", "<i>He became a grandmaster in 1972. I went to the movies last night.</i>"],
+    ["<b>present perfect</b>", "experiences (no time given), recent events, results now", "<i>Brazil has produced great players. I've just finished. Have you ever met him?</i>"],
+    ["<b>used to</b> + infinitive", "past habits and states that are not true now", "<i>People used to compare him to Fischer. I used to smoke.</i>"]], "8.2pt")}
+{_h("2. PAST SIMPLE OR PRESENT PERFECT? TIME EXPRESSIONS")}
+{_tbl(["past simple", "present perfect"], [
+    ["<i>yesterday · last week · in 1979 · two years ago · when I was a child</i>", "<i>ever · never · just · already · yet · so far · since 2020 · for three years</i>"],
+    ["<i>I <b>saw</b> her last week.</i>", "<i>I <b>haven't seen</b> her for a long time.</i>"]], "8.2pt")}
+{_h("3. USED TO: FORMS")}
+{_tbl(["form", "examples"], [
+    ["affirmative", "<i>I <b>used to</b> play chess every day.</i>"],
+    ["negative", "<i>I <b>didn't use to</b> like soccer.</i> (or <i>I never used to…</i>)"],
+    ["question", "<i><b>Did</b> you <b>use to</b> play an instrument?</i>"],
+    ["now: present simple", "<i>I used to live in Rio. Now I <b>live</b> in São Paulo.</i>"]], "8.2pt")}
+<p class="small" style="margin:.8mm 0"><b>Used to</b> is only for the past. For present habits, use the present simple (<i>I usually…</i>). For a single past event, use the past simple, not <i>used to</i>: <i>In 1970, he <b>drew</b> a game against Fischer.</i> Don't confuse it with <b>be used to</b> + -ing (= be accustomed to): <i>I'm used to waking up early.</i></p>
+{_dont([("I have been to Rio last year.", "I <b>went</b> to Rio last year."), ("I use to play soccer when I was a kid.", "I <b>used to</b> play…"), ("Did you used to play?", "Did you <b>use to</b> play?"), ("I'm used to play chess on Sundays.", "I <b>used to play</b> (past) / I <b>usually play</b> (now)…"), ("I know him since 2015.", "I<b>'ve known</b> him since 2015.")])}""",
+    25, """<p>Brazilians often use the present perfect with finished time (<i>I have been… last year</i>), write <i>use to</i> in affirmative sentences, and confuse <i>used to</i> with <i>be used to</i>. Remind students that <i>used to</i> and <i>use to</i> sound the same: /ˈjuːstə/.</p>""")

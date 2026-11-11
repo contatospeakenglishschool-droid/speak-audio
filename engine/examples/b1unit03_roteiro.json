@@ -1,0 +1,21 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Host": "en-US-Studio-O",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-03": {
+   "03.1 Mequinho: Brazil's king of chess": "Host: Mequinho. Brazil's king of chess.\nHost: Brazil is famous for soccer, volleyball and Formula One, but not many people know that the country has produced one of the best chess players of the nineteen seventies. His name is Henrique Mecking, but everyone calls him Mequinho.\nHost: Mecking was born in Santa Cruz do Sul, in the state of Rio Grande do Sul, on January twenty-third, nineteen fifty-two. He was a true prodigy. At the age of thirteen, he won the Brazilian championship for the first time. As a teenager, he was already playing in international tournaments against much older opponents, and people used to compare him to the American star Bobby Fischer. In nineteen seventy, he even drew a game against Fischer in Buenos Aires.\nHost: In nineteen seventy-two, he became the first Brazilian grandmaster. Then he won two Interzonal tournaments, in Petrópolis in nineteen seventy-three and in Manila in nineteen seventy-six. These were important competitions for players who wanted to play for the world title. In nineteen seventy-eight, he was the third-best player in the world, behind only Anatoly Karpov and Viktor Korchnoi.\nHost: But then everything changed. Mecking became seriously ill with myasthenia gravis, a disease that makes the muscles very weak. In nineteen seventy-nine, he had to leave a tournament in Rio de Janeiro, and many people believed he would soon die. He didn't play chess at all during the nineteen eighties.\nHost: Mecking became a Catholic, and he believes that his faith helped his health improve. In nineteen ninety-one, he came back to chess, and in two thousand two and two thousand four, he played for Brazil at the Chess Olympiad again, more than thirty years after his first Olympiad. He has never become world champion, but for many Brazilians, he is still the king of chess.",
+   "03.2 Repeat: used to": "Narrator: I used to play chess.\nNarrator: He used to travel a lot.\nNarrator: People used to compare him to Fischer.\nNarrator: Did you use to play any sports?\nNarrator: I didn't use to like soccer.\nNarrator: We used to play every weekend.\nNarrator: Where did you use to live?\nNarrator: She never used to lose."
+  }
+ },
+ "images": {
+  "b1-unit-03": {
+   "A": "chess board game close up",
+   "B": "chess king piece",
+   "C": "men playing chess park",
+   "D": "beach volleyball game"
+  }
+ }
+}
