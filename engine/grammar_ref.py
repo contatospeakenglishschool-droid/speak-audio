@@ -1162,3 +1162,26 @@ def past_present_review(b):
 <p class="small" style="margin:.8mm 0"><b>Used to</b> is only for the past. For present habits, use the present simple (<i>I usually…</i>). For a single past event, use the past simple, not <i>used to</i>: <i>In 1970, he <b>drew</b> a game against Fischer.</i> Don't confuse it with <b>be used to</b> + -ing (= be accustomed to): <i>I'm used to waking up early.</i></p>
 {_dont([("I have been to Rio last year.", "I <b>went</b> to Rio last year."), ("I use to play soccer when I was a kid.", "I <b>used to</b> play…"), ("Did you used to play?", "Did you <b>use to</b> play?"), ("I'm used to play chess on Sundays.", "I <b>used to play</b> (past) / I <b>usually play</b> (now)…"), ("I know him since 2015.", "I<b>'ve known</b> him since 2015.")])}""",
     25, """<p>Brazilians often use the present perfect with finished time (<i>I have been… last year</i>), write <i>use to</i> in affirmative sentences, and confuse <i>used to</i> with <i>be used to</i>. Remind students that <i>used to</i> and <i>use to</i> sound the same: /ˈjuːstə/.</p>""")
+
+
+def describing_appearance(b):
+    """B1 Unit 04: describing appearance: look / look like, be / have, modifiers, word order."""
+    b.page(f"""{b.sec("+", "Grammar reference: describing appearance", "")}
+<div class="box" style="margin-top:0"><h4>FOUR DIFFERENT QUESTIONS</h4><i>What does she <b>look like</b>?</i> → appearance (<i>She's tall, with red hair.</i>) · <i>What's she <b>like</b>?</i> → personality (<i>She's friendly.</i>) · <i>How is she?</i> → health and mood now (<i>She's fine, thanks.</i>) · <i>What does she <b>like</b>?</i> → interests (<i>She likes the beach.</i>)</div>
+{_h("1. BE, HAVE OR WITH?")}
+{_tbl(["structure", "use", "examples"], [
+    ["<b>be</b> + adjective", "age, height, build, skin", "<i>She's tall and slim. He's in his early forties. She's tanned.</i>"],
+    ["<b>have / have got</b> + noun", "hair, eyes, face, beard, glasses", "<i>She has (she's got) curly hair. He has a beard.</i>"],
+    ["noun + <b>with</b>", "to identify a person", "<i>the woman <b>with</b> red hair · a man <b>with</b> a mustache</i>"],
+    ["<b>wear</b>", "glasses, makeup, clothes", "<i>She wears glasses. He's wearing a blue jacket.</i>"]], "8.2pt")}
+{_h("2. LOOK, LOOK LIKE, SEEM")}
+{_tbl(["structure", "examples"], [
+    ["<b>look</b> + adjective", "<i>She looks tired. He looks younger than he is.</i>"],
+    ["<b>look like</b> + noun", "<i>She looks like a college professor. He looks like his father.</i>"],
+    ["<b>seem</b> + adjective (impression)", "<i>He seems a little nervous.</i>"]], "8.2pt")}
+{_h("3. HOW MUCH? MODIFIERS AND APPROXIMATION")}
+{_tbl(["strong", "medium", "soft (for negative ideas)", "approximate"], [
+    ["<i>extremely · really · very</i>", "<i>quite · fairly · pretty</i>", "<i>a bit · a little · slightly</i>", "<i>in her early / mid / late forties · thirtyish · tallish</i>"]], "8.2pt")}
+<p class="small" style="margin:.8mm 0"><b>Word order for hair:</b> length → style → color + <i>hair</i>: <i>long straight dark hair · short curly gray hair</i>. <b>Hair</b> is uncountable: <i>Her hair <b>is</b> red.</i> (A <i>hair</i> = one single hair.) In American English, <i>rather</i> is less common than <i>quite</i>, <i>pretty</i> or <i>a bit</i>.</p>
+{_dont([("She has forty years.", "She's forty. / She's in her forties."), ("He has a long hair. Her hairs are red.", "He has long hair. Her hair is red."), ("He is with a beard.", "He has a beard."), ("She looks like tired.", "She looks tired. / She looks like her mom."), ("He's moreno.", "He has dark hair / brown skin. / He's tanned."), ("She's a bit pretty.", "She's quite / really pretty.")])}""",
+    25, """<p>Brazilians translate <i>ter</i> for age, use <i>hairs</i> as a plural, add <i>like</i> after <i>look</i> before an adjective, and look for one word for <i>moreno/moreninho</i>: in English we need to say if it is the hair, the skin or a tan. Remind the student that comments on weight and age need polite language (Vocabulary lab, page 5).</p>""")

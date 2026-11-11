@@ -1,0 +1,22 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Ana": "en-US-Neural2-F",
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-04": {
+   "04.1 Ana calls Danny: a favor at the airport": "Danny: Hello?\nAna: Hi Danny! It's Ana. Listen, I need a big favor. My cousin Carol is flying in from Orlando tomorrow morning, and I can't pick her up at the airport. I have to work a twelve-hour shift at the hospital. Could you meet her at Guarulhos and bring her to my place? I'll pay for the taxi, of course.\nDanny: Sure, no problem! But I've never met her. What does she look like?\nAna: OK, let me think. She's in her early forties, and she's fairly tall... about my height. She's slim, but quite well-built, because she goes to the gym every day. She's got an oval face and big brown eyes.\nDanny: And her hair?\nAna: Well, that's the tricky part. She used to have long, straight dark hair, like me. But last month she sent me a photo, and she's dyed it red! And now it's shoulder-length and curly. So look for the red curls.\nDanny: Red curls. Got it. Anything else?\nAna: She's quite tanned, because she lives in Florida and she spends every weekend at the beach. Oh, and she wears glasses now, big round ones. She looks a bit like a college professor.\nDanny: Ha! OK. Is she tall like you or shorter?\nAna: About the same. Oh, and don't be surprised if she looks a little tired. It's an overnight flight, and she never sleeps on planes.\nDanny: Fine. And how will she know me?\nAna: I'll send her your photo. Just hold a sign with her name on it. Thank you so much, Danny. You're a lifesaver!\nDanny: No worries. See you tomorrow night!",
+   "04.2 Repeat: linking sounds": "Narrator: She's got an oval face.\nNarrator: He's in his early forties.\nNarrator: She has long and curly hair.\nNarrator: He looks a bit tired.\nNarrator: What does she look like?\nNarrator: She's dyed it red.\nNarrator: He's put on a bit of weight.\nNarrator: She looks like an actress."
+  }
+ },
+ "images": {
+  "b1-unit-04": {
+   "A": "hair salon interior empty chairs mirror",
+   "B": "airport arrivals hall",
+   "C": "hostel bunk beds room",
+   "D": "old family photo album"
+  }
+ }
+}
