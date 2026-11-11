@@ -1,0 +1,29 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Camila": "it-IT-Chirp3-HD-Despina",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"30.2": 2500, "30.3": 3500},
+ "units": {
+  "it-a2-unita-30": {
+   "30.1 Dialoghi": "Narrator: Prima parte. Inizio ottobre. Nel palazzo di Júlia è arrivata la nuova vicina: Camila, una ragazza brasiliana di Recife. Studia Ingegneria. Júlia la presenta a Bruno.\nJúlia: Camila, ti presento mio fratello Bruno. È arrivato a Bologna un anno fa, come te adesso.\nCamila: Piacere, Bruno! Allora mi puoi aiutare: non so da dove cominciare.\nBruno: Certo! Dimmi tutto.\nCamila: Prima di tutto, la segreteria studenti. Ci vado domani?\nBruno: Sì, ma ti consiglio di andarci presto: alle nove c'è già la fila. E il passaporto: fai una fotocopia e portala con te.\nCamila: Va bene. E per l'autobus?\nBruno: Dovresti fare l'abbonamento annuale per studenti: costa poco. Ma secondo me è meglio la bici. Comprala usata, al mercatino.\nCamila: E il codice fiscale? Tutti mi chiedono il codice fiscale!\nBruno: Ah, il codice fiscale! Chiedilo all'Agenzia delle Entrate, subito. Senza codice fiscale non puoi fare niente: né il contratto del telefono, né l'affitto.\nNarrator: Seconda parte. Una settimana dopo, Camila telefona a Bruno.\nCamila: Bruno, aiuto! Ho perso l'abbonamento dell'autobus. Che cosa faccio?\nBruno: Non preoccuparti! Vai all'ufficio abbonamenti e chiedi un duplicato. Porta un documento.\nCamila: Grazie. E poi c'è un'altra cosa: mi sento un po' sola. Non conosco nessuno.\nBruno: È normale. Anch'io il primo mese ero triste. Dovresti iscriverti al centro sportivo: io gioco a calcetto il martedì. E sabato vieni con noi al bar di Giulia!\nCamila: Davvero? Non vi disturbo?\nBruno: Ma figurati! Dammi il tuo numero: ti mando l'indirizzo. E un ultimo consiglio: con me non parlare portoghese. Parliamo italiano!\nCamila: Va bene, va bene… Grazie, Bruno. Sei gentilissimo.",
+   "30.2 Ripeti": "Narrator: Dimmi tutto. Dammi il tuo numero.\nNarrator: Fammi vedere. Vacci presto.\nNarrator: Comprala usata. Chiedilo subito.\nNarrator: Non preoccuparti!\nNarrator: Ti consiglio di andarci presto. Dovresti iscriverti.",
+   "30.3 Che cosa": "Narrator: Numero uno. Portala con te.\nNarrator: Numero due. Chiedilo in segreteria.\nNarrator: Numero tre. Comprala usata.\nNarrator: Numero quattro. Fallo subito.\nNarrator: Numero cinque. Mandameli stasera.\nNarrator: Numero sei. Non perderle!"
+  }
+ },
+ "images": {
+  "it-a2-unita-30": {
+   "A": "passport",
+   "B": "photocopy machine",
+   "C": "city bus",
+   "D": "used bicycles market",
+   "E": "people waiting in line office",
+   "F": "filling in a form",
+   "G": "five a side football indoor",
+   "H": "sad young woman window"
+  }
+ }
+}

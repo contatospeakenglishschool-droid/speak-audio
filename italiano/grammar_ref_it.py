@@ -707,3 +707,32 @@ def congiuntivo_volonta(b):
 {_dont([("Voglio che vieni.", "Voglio che <b>venga</b>."), ("È importante che sei puntuale.", "È importante che tu <b>sia</b> puntuale."),
         ("Voglio che io vado.", "Voglio <b>andare</b>."), ("Sono contenta che siete qui.", "Sono contenta che <b>siate</b> qui."), ("So che venga.", "So che <b>viene</b>.")])}""",
     27, """<p>In portoghese dopo <i>quero que, é importante que, tenho medo que</i> si usa il <i>subjuntivo</i> (<i>quero que você venha</i>): qui il portoghese aiuta! Far notare il parallelo <i>venha → venga, faça → faccia, seja → sia, tenha → abbia</i>. Il vero problema è la forma: lo studente dice <i>vieni, sei</i> perché le forme del presente sono più frequenti. A livello A2 basta il congiuntivo presente; il passato (<i>che abbia fatto</i>) al B1.</p>""")
+
+
+def consigli_imperativo_pronomi(b):
+    """A2 Ponte 30: dare consigli (ti consiglio di, dovresti, perché non…?, è meglio) e l'imperativo con i pronomi (ripasso in uso)."""
+    cs = [("<b>Ti consiglio di</b> + infinito", "<i>Ti consiglio di andarci presto.</i>"), ("<b>Dovresti</b> + infinito (condizionale)", "<i>Dovresti fare l'abbonamento.</i>"),
+          ("<b>Perché non</b> + presente?", "<i>Perché non vieni con noi sabato?</i>"), ("<b>È meglio</b> + infinito", "<i>È meglio comprare una bici usata.</i>"),
+          ("<b>Imperativo</b> (più diretto)", "<i>Vai all'ufficio abbonamenti!</i>")]
+    dv = [("io", "dovrei"), ("tu", "<b>dovresti</b>"), ("lui / lei / Lei", "<b>dovrebbe</b>"), ("noi", "dovremmo"), ("voi", "<b>dovreste</b>"), ("loro", "dovrebbero")]
+    dvr = [(dv[i][0], dv[i][1], dv[i + 3][0], dv[i + 3][1]) for i in range(3)]
+    ip = [("tu: <b>attaccato</b> alla fine", "Compra<b>la</b>! · Chiedi<b>lo</b>! · Porta<b>la</b> con te! · Iscriviti!"),
+          ("tu, negativo: prima o attaccato", "Non <b>la</b> comprare! = Non comprar<b>la</b>! · Non preoccupar<b>ti</b>!"),
+          ("noi / voi: attaccato", "Chiamiamo<b>lo</b>! · Ditemi tutto!"),
+          ("Lei: <b>prima</b> del verbo", "<b>La</b> compri! · <b>Me lo</b> dica! · Non <b>si</b> preoccupi!")]
+    mono = [("di' → <b>dimmi</b>", "da' → <b>dammi</b>", "fa' → <b>fammi</b>", "va' → <b>vacci</b>", "sta' → <b>stammi</b> bene")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: dare consigli e l'imperativo con i pronomi", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Per dare un consiglio in italiano ci sono molti modi, dal più gentile al più diretto: <i>ti consiglio di…, dovresti…, perché non…?, è meglio…</i> e l'imperativo. Con l'imperativo i pronomi (<i>lo, la, mi, ci, ti</i>) si <b>attaccano</b> al verbo: <i>Comprala! Dimmi!</i> (unità 04 e 08).</div>
+{_h("1. I CONSIGLI")}
+{_tbl(["struttura", "esempio"], cs, "8.6pt", ["62mm", None])}
+<div class="two"><div>{_h("2. DOVERE AL CONDIZIONALE")}
+{_tbl(["persona", "dovere", "persona", "dovere"], dvr, "8.6pt", ["24mm", None, "24mm", None])}</div>
+<div>{_h("ATTENZIONE: NIENTE DI")}
+<div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><i>Ti consiglio <b>di</b> andare.</i> (con <i>di</i>)<br><i>Dovresti andare.</i> (senza <i>di</i>)<br><i>È meglio andare.</i> (senza <i>di</i>)<br><i>Ti consiglio <b>il</b> mercatino.</i> (+ nome)</div></div></div>
+{_h("3. L'IMPERATIVO CON I PRONOMI")}
+{_tbl(["persona", "esempi"], ip, "8.6pt", ["52mm", None])}
+{_h("4. DI', DA', FA', VA', STA' + PRONOME: LA CONSONANTE RADDOPPIA")}
+{_tbl(["dire", "dare", "fare", "andare", "stare"], mono, "8.6pt")}
+{_dont([("Ti consiglio andare presto.", "Ti consiglio <b>di</b> andare presto."), ("Dovresti di iscriverti.", "Dovresti iscriverti."),
+        ("La compra! (a un amico)", "<b>Comprala!</b>"), ("Dami il tuo numero.", "<b>Dammi</b> il tuo numero."), ("Non ti preoccupi! (a un amico)", "Non preoccupar<b>ti</b>!")])}""",
+    26, """<p>In portoghese brasiliano si dice <i>me dá, me fala, compra ela</i>: il pronome va prima o resta separato. In italiano con <i>tu</i> il pronome si <b>attacca</b> alla fine (<i>dammi, dimmi, comprala</i>) e con i monosillabi la consonante raddoppia. <i>Non ti preoccupi</i> è la forma di <i>Lei</i> sbagliata: con un amico <i>non preoccuparti</i>. <i>Dovresti</i> è il condizionale dell'unità 05: è il modo più naturale e gentile per un consiglio.</p>""")
