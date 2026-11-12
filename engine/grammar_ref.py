@@ -1257,3 +1257,27 @@ def present_perfect_continuous(b):
 <p class="small" style="margin:.8mm 0">With <i>live</i> and <i>work</i>, both forms are possible with almost the same meaning: <i>I've lived / I've been living here for three months.</i> For a finished time, use the past simple: <i>I <b>worked</b> at a supermarket last year.</i></p>
 {_dont([("I'm living here since July.", "I<b>'ve been living</b> here since July."), ("I've been working here since two years.", "…<b>for</b> two years."), ("How long are you studying English?", "How long <b>have you been studying</b> English?"), ("I've been knowing him for years.", "I<b>'ve known</b> him for years.")])}""",
     25, """<p>Portuguese uses the present tense for this idea, so Brazilians say <i>I live here for three months</i> or <i>I'm living here since July</i>. Practice <i>How long have you been…?</i> as a fixed chunk, and remind students that <i>since</i> needs a point in time.</p>""")
+
+
+def phrasal_verbs_word_order(b):
+    """B1 Unit 08: phrasal verbs at work: separable, inseparable, three-part; object position."""
+    b.page(f"""{b.sec("+", "Grammar reference: phrasal verbs and word order", "")}
+<div class="box" style="margin-top:0"><h4>WHAT ARE PHRASAL VERBS?</h4>A phrasal verb is a verb + a particle (<i>up, down, out, off, on, in…</i>). The meaning is often different from the verb alone: <i>work</i> = do a job, but <i>work out</i> = find a solution. Learn them as one word, with an example.</div>
+{_h("1. THREE TYPES")}
+{_tbl(["type", "word order", "examples"], [
+    ["<b>no object</b>", "verb + particle", "<i>Things are working out. He retired and moved away.</i>"],
+    ["<b>separable</b> (+ object)", "noun: before or after the particle<br><b>pronoun: always in the middle</b>", "<i>She took on a temp. / She took a temp on.</i><br><i>She took <b>him</b> on.</i> (not <s>took on him</s>)"],
+    ["<b>inseparable</b> (+ object)", "the object always goes after", "<i>Can you fill in for me? I'll look after the kids.</i>"],
+    ["<b>three-part</b>", "verb + two particles + object", "<i>Let's get down to work. I'm looking forward to it.</i>"]], "8.2pt")}
+{_h("2. USEFUL PHRASAL VERBS FOR WORK")}
+{_tbl(["phrasal verb", "meaning", "type", "example"], [
+    ["work out", "find a solution, calculate", "separable", "<i>Work out a budget. / Work it out.</i>"],
+    ["take on", "hire; accept work", "separable", "<i>We took on two guides. / We took them on.</i>"],
+    ["lay off", "end someone's job (no fault of theirs)", "separable", "<i>They laid off 50 workers. / They laid them off.</i>"],
+    ["turn down", "say no to an offer", "separable", "<i>I turned down the offer. / I turned it down.</i>"],
+    ["fill in for", "do someone's work while they're away", "three-part", "<i>A temp is filling in for Jen.</i>"],
+    ["get down to", "start doing something seriously", "three-part", "<i>Let's get down to business.</i>"],
+    ["work your way up", "get a better position, step by step", "fixed phrase", "<i>She worked her way up to manager.</i>"]], "8pt")}
+<p class="small" style="margin:.8mm 0"><b>Stress:</b> in spoken English the particle is usually stressed: <i>work OUT, lay OFF, take ON</i>. In formal writing, a one-word verb is often better: <i>hire</i> (take on), <i>reject</i> (turn down), <i>solve</i> (work out).</p>
+{_dont([("They laid off him.", "They laid <b>him off</b>."), ("I turned down it.", "I turned <b>it down</b>."), ("Can you fill for me?", "Can you fill <b>in for</b> me?"), ("We need to work out it.", "We need to work <b>it out</b>.")])}""",
+    25, """<p>The most common mistake is the pronoun after the particle (<i>turn down it</i>). Practice by asking questions that need a pronoun in the answer: <i>Did you take the job? — No, I turned it down.</i> Encourage the student to keep a phrasal-verb page in their notebook with one personal example each.</p>""")

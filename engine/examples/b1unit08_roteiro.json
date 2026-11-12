@@ -1,0 +1,22 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Rita": "en-US-Chirp3-HD-Aoede",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-08": {
+   "08.1 Voice messages: Danny's new job": "Danny: Hi Mom! Big news... I got the job! Carla from City Steps called me on Friday. So, it's part-time, just weekends, and the contract is only for three months. Actually, it isn't even a contract like a normal job. I'm a freelancer, so they pay me for each tour I do. That means no paid vacation and no sick leave, so I can't get sick! But Carla said that if the tourists like me, I can work my way up and become a senior guide. My first tour is on Saturday, and I'm so nervous. Oh, and today there's a metro strike, so I walked to the office. It took me an hour! Anyway, I need to get down to work. I have to learn the history of thirty buildings by Saturday. Love you!\nRita: Danny, that's wonderful news! Congratulations! I'm so proud of you. Being a freelancer is fine for a gap year, but please work out a budget, OK? If you don't work, you don't get paid. Things are crazy here at City Coffee. Jen is on maternity leave, so I've taken on a temp to fill in for her. He's a nice kid, but he's very slow. And guess what? Lucy got that volunteer position at the animal shelter. She doesn't get paid, but she loves it, and it'll look great on her résumé when she applies to vet school. Oh, and your uncle Mike retired last week, after thirty-five years at the same company. Can you imagine? Thirty-five years! Your generation will never do that. Good luck on Saturday, honey. Send me photos!",
+   "08.2 Repeat: phrasal verb stress": "Narrator: I need to work it out.\nNarrator: She took on a temp.\nNarrator: They laid off ten people.\nNarrator: Let's get down to work.\nNarrator: Can you fill in for me?\nNarrator: He worked his way up.\nNarrator: I turned it down.\nNarrator: She's taking time off."
+  }
+ },
+ "images": {
+  "b1-unit-08": {
+   "A": "commuters subway station rush hour",
+   "B": "sao paulo cathedral",
+   "C": "laptop coffee cup cafe table",
+   "D": "wooden stairs steps"
+  }
+ }
+}
