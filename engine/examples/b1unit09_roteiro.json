@@ -1,0 +1,21 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Host": "en-US-Studio-O",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-09": {
+   "09.1 Love at first byte": "Host: Love at first byte.\nHost: For most of the twentieth century, people met their partners in the same few places: at school, at church, in the neighborhood, through their family, and above all, through their friends. Then the internet arrived, and everything started to change.\nHost: In twenty nineteen, three sociologists, Michael Rosenfeld, Reuben Thomas and Sonia Hausen, published a study about how couples in the United States meet. They used a national survey from twenty seventeen, which included more than three thousand people with partners of the opposite sex.\nHost: The results were clear. About thirty-nine percent of the heterosexual couples who met in twenty seventeen met online. In two thousand nine, the figure was about twenty-two percent, and before nineteen ninety-five, it was zero. Among same-sex couples, the number was even higher: about sixty-five percent.\nHost: From the end of the Second World War until about twenty thirteen, the most popular way to meet a partner in the United States was through friends. But around twenty thirteen, meeting online overtook meeting through friends, and since then, it has become the most common way couples meet. At the same time, the traditional ways of meeting, like meeting through family, at church or in the neighborhood, have been declining for decades.\nHost: Technology explains a lot of this change. The graphical web appeared around nineteen ninety-five, and smartphones became popular after two thousand seven. According to the study, phone apps were responsible for at least half of the growth in meeting online between twenty ten and twenty seventeen.\nHost: Interestingly, people are not only meeting online more often. They are also using their friends less. In two thousand nine, about eleven percent of the couples who met online had some help from another person. By twenty seventeen, that number had fallen to less than four percent.\nHost: So, are online relationships weaker? The researchers found no evidence of that. How couples met had no significant effect on the chance of breaking up. In other words, it doesn't matter where you find love. What matters is what you do with it.",
+   "09.2 Repeat: linking in relationship phrases": "Narrator: He asked her out.\nNarrator: They fell in love.\nNarrator: They broke up last year.\nNarrator: They got back together.\nNarrator: We met online.\nNarrator: She got engaged in April.\nNarrator: They hit it off at once.\nNarrator: We split up after a year."
+  }
+ },
+ "images": {
+  "b1-unit-09": {
+   "A": "two coffee cups heart table",
+   "B": "smartphone in hand",
+   "C": "vintage wedding photograph",
+   "D": "couple walking park back view"
+  }
+ }
+}

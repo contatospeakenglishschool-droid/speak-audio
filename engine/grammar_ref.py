@@ -1281,3 +1281,26 @@ def phrasal_verbs_word_order(b):
 <p class="small" style="margin:.8mm 0"><b>Stress:</b> in spoken English the particle is usually stressed: <i>work OUT, lay OFF, take ON</i>. In formal writing, a one-word verb is often better: <i>hire</i> (take on), <i>reject</i> (turn down), <i>solve</i> (work out).</p>
 {_dont([("They laid off him.", "They laid <b>him off</b>."), ("I turned down it.", "I turned <b>it down</b>."), ("Can you fill for me?", "Can you fill <b>in for</b> me?"), ("We need to work out it.", "We need to work <b>it out</b>.")])}""",
     25, """<p>The most common mistake is the pronoun after the particle (<i>turn down it</i>). Practice by asking questions that need a pronoun in the answer: <i>Did you take the job? — No, I turned it down.</i> Encourage the student to keep a phrasal-verb page in their notebook with one personal example each.</p>""")
+
+
+def describing_trends(b):
+    """B1 Unit 09: describing trends and change: past simple, present perfect, present continuous; trend verbs."""
+    b.page(f"""{b.sec("+", "Grammar reference: describing trends", "")}
+<div class="box" style="margin-top:0"><h4>THREE KINDS OF CHANGE</h4>When we talk about how the world is changing, the tense shows <b>when</b> the change happens: a finished change in the past, a change from the past up to now, or a change that is happening now.</div>
+{_h("1. THE TENSES")}
+{_tbl(["tense", "use", "examples"], [
+    ["<b>past simple</b>", "a finished change at a time in the past", "<i>Smartphones <b>became</b> popular after 2007. The internet <b>changed</b> dating in the 1990s.</i>"],
+    ["<b>present perfect</b>", "a change from the past up to now (the result is important now)", "<i>Online dating <b>has become</b> the most common way to meet. Prices <b>have gone up</b>.</i>"],
+    ["<b>present perfect continuous</b>", "a change that started in the past and is still continuing", "<i>Traditional ways of meeting <b>have been declining</b> for decades.</i>"],
+    ["<b>present continuous</b>", "a change in progress now", "<i>People <b>are getting</b> married later. More people <b>are working</b> from home.</i>"]], "8.2pt")}
+{_h("2. USEFUL WORDS FOR TRENDS")}
+{_tbl(["going up", "going down", "other", "describing the speed"], [
+    ["<i>rise · increase · grow · go up · double</i>", "<i>fall · decrease · decline · drop · go down</i>", "<i>overtake · stay the same · reach a peak</i>", "<i>sharply · rapidly · steadily · slowly · slightly</i>"]], "8.2pt")}
+{_h("3. COMPARATIVES FOR CHANGE")}
+{_tbl(["structure", "examples"], [
+    ["<b>more and more</b> + noun / adjective", "<i>More and more couples meet online. Apps are becoming more and more popular.</i>"],
+    ["<b>comparative + and + comparative</b>", "<i>It's getting easier and easier to meet people online.</i>"],
+    ["<b>get / become</b> + comparative", "<i>Phones are getting cheaper. Dating has become faster.</i>"],
+    ["<b>fewer</b> (countable) / <b>less</b> (uncountable)", "<i>People are having fewer children. They spend less time with friends.</i>"]], "8.2pt")}
+{_dont([("The number of online couples has risen in 2017.", "…<b>rose</b> in 2017. (finished time)"), ("More and more people meets online.", "More and more people <b>meet</b> online."), ("People are having less children.", "…<b>fewer</b> children."), ("It's getting more easy.", "It's getting <b>easier</b>.")])}""",
+    25, """<p>Students often use the present perfect with a finished year (<i>has risen in 2017</i>) and <i>less</i> with countable nouns. In speaking, encourage <i>more and more</i> and <i>getting</i> + comparative: they make the student sound natural when talking about change.</p>""")
