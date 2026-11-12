@@ -1304,3 +1304,28 @@ def describing_trends(b):
     ["<b>fewer</b> (countable) / <b>less</b> (uncountable)", "<i>People are having fewer children. They spend less time with friends.</i>"]], "8.2pt")}
 {_dont([("The number of online couples has risen in 2017.", "…<b>rose</b> in 2017. (finished time)"), ("More and more people meets online.", "More and more people <b>meet</b> online."), ("People are having less children.", "…<b>fewer</b> children."), ("It's getting more easy.", "It's getting <b>easier</b>.")])}""",
     25, """<p>Students often use the present perfect with a finished year (<i>has risen in 2017</i>) and <i>less</i> with countable nouns. In speaking, encourage <i>more and more</i> and <i>getting</i> + comparative: they make the student sound natural when talking about change.</p>""")
+
+
+def past_perfect(b):
+    """B1 Unit 11: past perfect simple vs past simple; by the time, already, just, never... before."""
+    b.page(f"""{b.sec("+", "Grammar reference: the past perfect", "")}
+<div class="box" style="margin-top:0"><h4>THE PAST BEFORE THE PAST</h4>When we tell a story in the past, we use the <b>past perfect</b> to go back to an <b>earlier</b> moment: <i>When I met him, he <b>had just moved</b> from Recife.</i> (First he moved, then I met him.)</div>
+{_h("1. FORM: HAD + PAST PARTICIPLE")}
+{_tbl(["", "examples", "short forms"], [
+    ["<b>affirmative</b>", "<i>She <b>had decided</b> to marry him. They <b>had been</b> together for years.</i>", "<i>I'd, you'd, he'd, she'd, we'd, they'd</i>"],
+    ["<b>negative</b>", "<i>He <b>hadn't written</b> for two months.</i>", "<i>hadn't</i> = had not"],
+    ["<b>question</b>", "<i><b>Had</b> you <b>met</b> him before? — Yes, I had. / No, I hadn't.</i>", "same form for all persons"]], "8.2pt")}
+{_h("2. USE")}
+{_tbl(["use", "examples"], [
+    ["an action <b>before</b> another past action", "<i>When the children <b>had left</b> home, they opened the hostel.</i>"],
+    ["the <b>reason</b> for a past situation", "<i>She was angry because he <b>hadn't written</b>.</i>"],
+    ["with <b>by the time</b>", "<i>By the time he asked her out, he <b>had bought</b> 200 rolls.</i>"],
+    ["with <b>already, just, never… before</b>", "<i>I <b>had already</b> decided. He <b>had never</b> been so nervous <b>before</b>.</i>"],
+    ["after <b>thought, knew, realized, found out</b>", "<i>I thought he <b>had found</b> another girl.</i>"]], "8.2pt")}
+{_h("3. PAST SIMPLE OR PAST PERFECT?")}
+{_tbl(["sentence", "meaning"], [
+    ["<i>When I arrived, the party <b>started</b>.</i>", "I arrived, then the party started."],
+    ["<i>When I arrived, the party <b>had started</b>.</i>", "The party started, then I arrived (I was late)."],
+    ["<i>He proposed, and she said yes.</i>", "Events in order: the past simple is enough. Don't use the past perfect for every past action."]], "8.2pt")}
+{_dont([("When I got there, they already left.", "…they <b>had already left</b>."), ("I had met her yesterday.", "I <b>met</b> her yesterday. (one finished action)"), ("Before I came here, I never saw snow.", "…I <b>had never seen</b> snow."), ("He had went home.", "He had <b>gone</b> home.")])}""",
+    25, """<p>Many students either avoid the past perfect or overuse it for any past action (<i>I had gone to the beach last weekend</i>). Show a timeline and ask: <i>Which happened first? Do we need to show it?</i> In speaking, encourage the contraction <i>'d</i> (<i>she'd already left</i>).</p>""")

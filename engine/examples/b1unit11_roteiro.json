@@ -1,0 +1,22 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Mrs. Lima": "en-US-Chirp3-HD-Vindemiatrix",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-11": {
+   "11.1 Gap Year Diaries: a love story": "Danny: Hi everyone, and welcome back to Gap Year Diaries! This week I'm talking about love, and my guest is someone very special: the owner of my hostel, Mrs. Lima. So, how did you meet your husband?\nMrs. Lima: Oh, it's a long story! It was nineteen seventy-eight, and I was nineteen. I worked at my father's bakery here in São Paulo. Every morning, a young man came in and bought one bread roll. Just one! He had just moved from Recife, and he didn't know anyone in the city.\nDanny: And did he ask you out?\nMrs. Lima: Not at first. He was very shy. By the time he finally asked me out, he had bought about two hundred bread rolls! We went on our first date to the movies, and I fell for him that night.\nDanny: That's so romantic! What happened next?\nMrs. Lima: Well, a year later, his company sent him to Manaus. So we had a long-distance relationship for two years. There was no internet, of course, and phone calls were very expensive, so we wrote letters. I still have them all.\nDanny: Was it hard?\nMrs. Lima: Very hard. Once, we even split up. He hadn't written for two months, and I thought he had found another girl. I was so angry! But then his sister called me. He had been sick with a terrible fever, and he hadn't wanted to worry me. So, of course, we made up.\nDanny: And when did he propose?\nMrs. Lima: When he came back, in nineteen eighty-two. He proposed at the bus station, in front of everyone! I said yes immediately. I had already decided to marry him years before. We got married the next year, and we went to Ouro Preto on our honeymoon.\nDanny: How long were you married?\nMrs. Lima: Thirty-six years. We had two children, and when they had grown up and left home, we opened this hostel together. He died six years ago.\nDanny: I'm so sorry.\nMrs. Lima: Thank you, dear. I'm a widow now, but I'm not lonely. I have my children, my grandchildren and a hostel full of young people! And on every anniversary, I still buy one bread roll.\nDanny: That's beautiful. So, what's the secret of a long-term relationship?\nMrs. Lima: Trust. And never go to bed angry. Always make up before you sleep. Oh, and speaking of love... I saw Bruno at the door last night with a girl from your running group.\nDanny: Paula! Yes, Bruno has fallen for her. He asked her out last week, and they went on a date on Saturday. He'd never been so nervous in his life!\nMrs. Lima: I knew it. He'd ironed a shirt. Bruno never irons anything!\nDanny: Ha! That's all for this week. Thanks for listening!",
+   "11.2 Repeat: contracted had": "Narrator: He'd just moved here.\nNarrator: I'd never seen him before.\nNarrator: She'd already decided.\nNarrator: They'd been together for years.\nNarrator: We'd met before.\nNarrator: By the time I arrived, they'd gone.\nNarrator: She hadn't told anyone.\nNarrator: Had you met him before?"
+  }
+ },
+ "images": {
+  "b1-unit-11": {
+   "A": "elderly couple holding hands",
+   "B": "bread rolls basket bakery",
+   "C": "wedding cake",
+   "D": "couple talking coffee shop"
+  }
+ }
+}
