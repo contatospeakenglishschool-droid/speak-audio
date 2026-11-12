@@ -1,0 +1,22 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Camila": "it-IT-Chirp3-HD-Despina",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"R4.2": 5500},
+ "units": {
+  "it-a2-ripasso-4": {
+   "R4.1 Conversazione": "Narrator: Sabato 19 dicembre, la festa di Natale al bar di Giulia. Domani Camila parte per Recife: torna a casa per la prima volta.\nGiulia: Camila, sono contenta che tu sia qui prima di partire!\nCamila: Grazie! Non ci posso credere: sono a Bologna da due mesi e mezzo e mi sembra un anno.\nBruno: Ti ricordi i primi giorni? Non sapevi neanche dov'era la segreteria!\nCamila: E tu mi hai dato un sacco di consigli. Il migliore? Comprala usata! La bici, ovviamente.\nJúlia: E il viaggio? Quanto ci metti ad arrivare a Recife?\nCamila: Ci metto quasi venti ore, con due voli. Ma ce la farò!\nDavide: Ti consiglio di dormire in aereo. E dovresti bere tanta acqua.\nGiulia: Allora, che ne pensi di Bologna, dopo questi mesi?\nCamila: Penso che sia la città perfetta per studiare. Un po' fredda, però!\nBruno: Ah, Camila… e il ragazzo dell'autobus?\nCamila: Ci siamo rivisti! Mentre aspettavo il 20 alla fermata, è arrivato anche lui. Questa volta ci siamo parlati.\nJúlia: E allora? Come si chiama?\nCamila: Si chiama Pietro e studia Storia dell'arte. Ma non ne so molto di più…\nGiulia: Voglio che tu ci racconti tutto a gennaio!\nCamila: Promesso! Torno tra tre settimane.\nDavide: Allora un brindisi: alla prima festa di Natale con Camila!\nJúlia: E al prossimo anno insieme! Cin cin!",
+   "R4.2 Dettato": "Narrator: Ascolta e scrivi le frasi.\nNarrator: Uno. È importante che tu sia puntuale.\nNarrator: Due. Ti consiglio di comprarla usata.\nNarrator: Tre. L'università è nata nell'undicesimo secolo.\nNarrator: Quattro. Ci ho messo tre ore, ma ce l'ho fatta!\nNarrator: Cinque. Ci siamo conosciuti mentre aspettavamo l'autobus.\nNarrator: Sei. Che ne pensi? Penso che sia una buona idea.\nNarrator: Sette. Abito a Bologna da due anni.",
+   "R4.3 Dialoghi": "Narrator: Dialogo uno. Sulle scale.\nSignora Rossi: Júlia, a Natale vai in Brasile?\nJúlia: No, quest'anno resto qui. Ma spero che i miei genitori vengano in primavera.\nSignora Rossi: Allora la vigilia vieni da me! Voglio che tu assaggi i miei tortellini.\nJúlia: Volentieri! Che cosa porto?\nSignora Rossi: Il caffè brasiliano: portalo, mi raccomando!\nNarrator: Dialogo due. Al bar.\nMarco: Davide, ti iscrivi alla maratona anche l'anno prossimo?\nDavide: Certo! Quest'anno ci ho messo tre ore e cinquantotto minuti. L'anno prossimo voglio farcela in tre ore e mezza.\nMarco: Secondo me è troppo. Che ne pensa Giulia?\nDavide: Dice che sono matto. Ma mi aiuta sempre!"
+  }
+ },
+ "images": {}
+}
