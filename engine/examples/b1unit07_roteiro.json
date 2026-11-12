@@ -1,0 +1,22 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Interviewer": "en-US-Studio-O",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-07": {
+   "07.1 Danny's job interview": "Interviewer: Hello Danny, come in. Please have a seat. I'm Carla, the manager of City Steps Tours.\nDanny: Hi, nice to meet you. Thanks for inviting me.\nInterviewer: So, tell me a little about yourself.\nDanny: Sure. I'm from Chicago, and I'm taking a gap year in South America. I'm outgoing, I love history, and I really enjoy meeting new people.\nInterviewer: And how long have you been living in São Paulo?\nDanny: For about three months now. I'm staying at a hostel in the city center.\nInterviewer: Our tours are in English, but the guides need some Portuguese, too. Do you speak it?\nDanny: A little. I've been taking classes since I arrived, so I can have simple conversations. My Portuguese isn't perfect yet, but it's getting better every week.\nInterviewer: Do you have any experience working with the public?\nDanny: Yes. Last year, I worked at a supermarket in Chicago, so I'm used to dealing with customers. And for the last two months, I've been helping the owner of my hostel. I show new guests around the neighborhood and recommend places to eat.\nInterviewer: That's useful. So why do you want to work for City Steps?\nDanny: Well, honestly, I really need the money... I mean... I love this city, and I think tourists should see more than the usual places. I'd like to show them the real São Paulo.\nInterviewer: OK. You know, our tours are three hours long, on foot, rain or shine, and mostly on weekends. Is that a problem for you?\nDanny: Not at all. I've been running with a group in Ibirapuera Park, so I'm in good shape, and I'm free on weekends.\nInterviewer: Good. What would you say is your greatest weakness?\nDanny: I'm not very organized. I sometimes forget small things. But I've been using a planner app on my phone, and it's really helping.\nInterviewer: And how do you deal with difficult customers?\nDanny: I try to stay calm and listen to the problem first. At the supermarket, I learned that most people just want someone to listen.\nInterviewer: Great. Do you have any questions for me?\nDanny: Um, no, I don't think so... Actually, yes! How many people are there in a tour group? And when would I start?\nInterviewer: Groups have up to fifteen people, and we need someone from next month. We'll let you know by Friday.\nDanny: Perfect. Thank you so much for your time.",
+   "07.2 Repeat: weak been": "Narrator: I've been working here for two years.\nNarrator: How long have you been living here?\nNarrator: She's been studying English since March.\nNarrator: We've been waiting for an hour.\nNarrator: I've been using a planner app.\nNarrator: He's been running with a group.\nNarrator: What have you been doing?\nNarrator: They've been looking for a new guide."
+  }
+ },
+ "images": {
+  "b1-unit-07": {
+   "A": "resume paper pen desk",
+   "B": "paulista avenue sao paulo",
+   "C": "empty meeting room chairs table",
+   "D": "office interview room"
+  }
+ }
+}

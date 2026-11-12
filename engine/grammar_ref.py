@@ -1235,3 +1235,25 @@ def talking_about_work(b):
 <p class="small" style="margin:.8mm 0"><b>Questions:</b> <i>Do you have to work on weekends?</i> (not <s>Have you to…?</s>). In American English, <i>have to</i> is much more common than <i>must</i> in conversation.</p>
 {_dont([("I work as doctor.", "I work as <b>a</b> doctor."), ("I'm responsible to answer the phone.", "I'm responsible <b>for answering</b>…"), ("You don't must wear a tie.", "You <b>don't have to</b> wear a tie."), ("I work in a company of software.", "I work <b>for a software company</b>."), ("I'm formed in law.", "I <b>have a degree</b> in law. / I <b>studied</b> law.")])}""",
     25, """<p>Brazilians often drop the article (<i>I'm engineer</i>), use the infinitive after <i>responsible for</i>, and confuse <i>don't have to</i> (not necessary) with <i>mustn't</i> (not allowed): the two have very different meanings. Also check <i>work for</i> (a company) and <i>work in</i> (a place or department).</p>""")
+
+
+def present_perfect_continuous(b):
+    """B1 Unit 07: present perfect continuous with for / since; vs present perfect simple."""
+    b.page(f"""{b.sec("+", "Grammar reference: the present perfect continuous", "")}
+<div class="box" style="margin-top:0"><h4>WHAT IS IT?</h4>We use the present perfect continuous for an activity that <b>started in the past and continues now</b> (or has just stopped), especially to say <b>how long</b>: <i>I've been living in São Paulo for three months.</i> (I started three months ago, and I still live here.)</div>
+{_h("1. FORM: have / has + been + -ing")}
+{_tbl(["", "examples"], [
+    ["<b>positive</b>", "<i>I<b>'ve been taking</b> classes since July. She<b>'s been working</b> here for two years.</i>"],
+    ["<b>negative</b>", "<i>I <b>haven't been sleeping</b> well. He <b>hasn't been feeling</b> well this week.</i>"],
+    ["<b>question</b>", "<i>How long <b>have</b> you <b>been living</b> here? What <b>has</b> she <b>been doing</b>?</i>"]], "8.2pt")}
+{_h("2. FOR OR SINCE?")}
+{_tbl(["for + a period of time", "since + a point in time"], [
+    ["<i>for three months · for two years · for a long time · for ages</i>", "<i>since July · since 2022 · since I arrived · since Monday</i>"]], "8.2pt")}
+{_h("3. CONTINUOUS OR SIMPLE?")}
+{_tbl(["present perfect continuous", "present perfect simple"], [
+    ["the activity and how long: <i>I've been writing emails all morning.</i>", "the result and how many: <i>I've written ten emails.</i>"],
+    ["a recent activity with a result you can see: <i>Your eyes are red. Have you been crying?</i>", "a finished action: <i>I've finished the report.</i>"],
+    ["", "<b>state verbs</b> (know, like, have, be, want): <i>I've known her for years.</i> (not <s>been knowing</s>)"]], "8.2pt")}
+<p class="small" style="margin:.8mm 0">With <i>live</i> and <i>work</i>, both forms are possible with almost the same meaning: <i>I've lived / I've been living here for three months.</i> For a finished time, use the past simple: <i>I <b>worked</b> at a supermarket last year.</i></p>
+{_dont([("I'm living here since July.", "I<b>'ve been living</b> here since July."), ("I've been working here since two years.", "…<b>for</b> two years."), ("How long are you studying English?", "How long <b>have you been studying</b> English?"), ("I've been knowing him for years.", "I<b>'ve known</b> him for years.")])}""",
+    25, """<p>Portuguese uses the present tense for this idea, so Brazilians say <i>I live here for three months</i> or <i>I'm living here since July</i>. Practice <i>How long have you been…?</i> as a fixed chunk, and remind students that <i>since</i> needs a point in time.</p>""")
