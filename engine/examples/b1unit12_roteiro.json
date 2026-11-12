@@ -1,0 +1,21 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Host": "en-US-Studio-O",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-12": {
+   "12.1 A room with a view": "Host: A room with a view.\nHost: Most of us hardly notice our windows. They let in light and air, and that's it. But for older people who spend most of their time at home, a window can be something much more important: a way to stay connected to the world.\nHost: Back in nineteen eighty-one, an American researcher, Graham Rowles, noticed that many older people watched the area just outside their homes from their windows. In this way, they could take part in the life of their community without actually going out.\nHost: In twenty eighteen, Charles Musselwhite, a professor at Swansea University in Wales, decided to look at the topic again. He interviewed forty-two people in the United Kingdom. They were all over sixty-five, and they went outside less than once a week. Many of them had set up their furniture carefully so they could get the best possible view.\nHost: Some liked nature, and other studies have connected views of nature with less stress. But city views mattered too: a busy street, a factory or a building site could be just as interesting. What the interviewees loved most was change, both expected, like the seasons, and unexpected, like roadwork or a storm. They also preferred views with different levels, for example a street close to the house and hills far away.\nHost: The views helped them make sense of the world. What they saw often backed up what they heard on the news. And they didn't just watch. They invented stories about the people outside: who they were, where they worked and what they might be up to. Some even talked to people through the window. However, several of them worried that their neighbors might think they were nosy, so they kept their window-watching a secret.\nHost: Musselwhite believes that technology could help, too. One care home in the United Kingdom, for example, shows a video of a train journey on a screen, like a virtual window. His main message, though, is simple: families and carers should help older people enjoy the view. Maybe our homes should be organized around the window, not the TV.",
+   "12.2 Repeat: must, might, can't": "Narrator: She must be at work.\nNarrator: He might be a manager.\nNarrator: It can't be Frank.\nNarrator: They must be waiting for the bus.\nNarrator: She could be his sister.\nNarrator: That can't be true.\nNarrator: He must live nearby.\nNarrator: They might not be married."
+  }
+ },
+ "images": {
+  "b1-unit-12": {
+   "A": "elderly woman looking out window",
+   "B": "window view city hills",
+   "C": "apartment window plants street view",
+   "D": "busy city street pedestrians from above"
+  }
+ }
+}

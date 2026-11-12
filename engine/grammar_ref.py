@@ -1329,3 +1329,25 @@ def past_perfect(b):
     ["<i>He proposed, and she said yes.</i>", "Events in order: the past simple is enough. Don't use the past perfect for every past action."]], "8.2pt")}
 {_dont([("When I got there, they already left.", "…they <b>had already left</b>."), ("I had met her yesterday.", "I <b>met</b> her yesterday. (one finished action)"), ("Before I came here, I never saw snow.", "…I <b>had never seen</b> snow."), ("He had went home.", "He had <b>gone</b> home.")])}""",
     25, """<p>Many students either avoid the past perfect or overuse it for any past action (<i>I had gone to the beach last weekend</i>). Show a timeline and ask: <i>Which happened first? Do we need to show it?</i> In speaking, encourage the contraction <i>'d</i> (<i>she'd already left</i>).</p>""")
+
+
+def modals_deduction(b):
+    """B1 Unit 12: modals of deduction in the present: must, might, may, could, can't (+ be + -ing)."""
+    b.page(f"""{b.sec("+", "Grammar reference: must, might, can't (deduction)", "")}
+<div class="box" style="margin-top:0"><h4>HOW SURE ARE YOU?</h4>When we don't know something for sure, we use a modal verb to show how certain we are. We make a <b>deduction</b> from what we can see or hear: <i>He's wearing a suit. He <b>must</b> work in an office.</i></div>
+{_h("1. FROM SURE TO IMPOSSIBLE")}
+{_tbl(["how sure?", "modal", "examples"], [
+    ["about 100% sure it's true", "<b>must</b>", "<i>She <b>must</b> be at work. Her car isn't here.</i>"],
+    ["possible (maybe)", "<b>might · may · could</b>", "<i>He <b>might</b> be a manager. It <b>could</b> be his sister.</i>"],
+    ["possible that it's not true", "<b>might not · may not</b>", "<i>They <b>might not</b> be married.</i> (not <s>couldn't</s>)"],
+    ["about 100% sure it's NOT true", "<b>can't</b>", "<i>It <b>can't</b> be Frank. Frank is on vacation.</i>"]], "8.2pt")}
+{_h("2. FORM")}
+{_tbl(["structure", "examples"], [
+    ["modal + <b>be</b>", "<i>She must be tired. That can't be true.</i>"],
+    ["modal + <b>verb</b>", "<i>He must live nearby. She might know him.</i>"],
+    ["modal + <b>be + -ing</b> (now)", "<i>They must be waiting for the bus. He might be looking for a job.</i>"],
+    ["questions", "<i>Who <b>could</b> it be? What <b>might</b> they be doing?</i> (<i>must</i> and <i>can't</i> are rare in questions)"]], "8.2pt")}
+{_h("3. OTHER WAYS TO SPECULATE")}
+<p class="small" style="margin:.5mm 0"><i>He looks like a businessman. · She seems tired. · I bet they're on a first date. · Maybe / Perhaps he's late. · He's probably a manager. · I wonder what they're up to.</i></p>
+{_dont([("He must to be a manager.", "He must <b>be</b> a manager. (no <i>to</i>)"), ("She mustn't be at home. Her car is here.", "She <b>can't</b> be at home… (<i>mustn't</i> = it's forbidden)"), ("It can be Frank, but I'm not sure.", "It <b>could / might</b> be Frank."), ("They must are waiting.", "They must <b>be</b> waiting.")])}""",
+    25, """<p>The two typical problems are <i>mustn't</i> for an impossible deduction (use <i>can't</i>) and <i>can</i> for a possibility about a specific situation (use <i>could / might</i>). Practice with photos or with people outside the window: the student says what they see, then what they think.</p>""")
