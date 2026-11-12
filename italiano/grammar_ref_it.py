@@ -835,3 +835,29 @@ def opinioni_ne(b):
 {_dont([("Penso che è una buona idea.", "Penso che <b>sia</b> una buona idea."), ("Penso che faccio una festa.", "Penso <b>di fare</b> una festa."),
         ("Sono d'accordo a te.", "Sono d'accordo <b>con</b> te."), ("Che pensi di questo?", "Che <b>ne</b> pensi?"), ("Vieni? — Non so, ne penso.", "Non so, <b>ci</b> penso.")])}""",
     26, """<p>Il brasiliano dice <i>o que você acha disso?</i> e traduce <i>che pensi di questo?</i> (comprensibile, ma poco naturale): insegnare il blocco <i>Che ne pensi?</i>. <i>Acho que é</i> → <i>penso che è</i>: ricordare il congiuntivo (unità 09) o usare <i>secondo me</i> + indicativo. <i>Pensar em</i> = <i>pensare a</i> → <i>ci penso</i>; <i>pensar de</i> (opinione) → <i>ne</i>. <i>Concordo</i> esiste anche in italiano ed è corretto.</p>""")
+
+
+def tempi_a2(b):
+    """A2 Ponte 35: tutti i tempi dell'A2 insieme; da / fa / tra; da + presente."""
+    tt = [("presente", "oggi, abitudini", "<i>Adesso <b>parlo</b> italiano tutti i giorni.</i>", "A1"),
+          ("passato prossimo", "fatti finiti", "<i><b>Sono andata</b> a Venezia con Giulia.</i>", "A1 · A2 11"),
+          ("imperfetto", "com'era, sfondo, abitudini passate", "<i>Non <b>conoscevo</b> nessuno.</i>", "A2 02–03"),
+          ("futuro", "progetti, previsioni, supposizioni", "<i>La <b>proverò</b> a casa. · <b>Sarà</b> stanco.</i>", "A2 07 · 22"),
+          ("condizionale", "desideri, consigli gentili", "<i><b>Vorrei</b> visitare la Sicilia. · <b>Dovremmo</b>…</i>", "A2 05 · 30"),
+          ("congiuntivo", "opinioni, speranze, volontà", "<i>Spero che <b>vengano</b>. · Penso che <b>sia</b>…</i>", "A2 09 · 29"),
+          ("imperativo", "istruzioni, consigli diretti", "<i><b>Parlagli</b> tu! · <b>Non preoccuparti!</b></i>", "A2 04 · 08 · 30")]
+    tm = [("<b>fa</b> (passato)", "<i>Sono arrivata due anni <b>fa</b>.</i>", "(há dois anos, atrás)"),
+          ("<b>da</b> + presente (ancora vero)", "<i>Abito a Bologna <b>da</b> due anni.</i>", "(moro aqui há dois anos)"),
+          ("<b>tra / fra</b> (futuro)", "<i><b>Tra</b> un mese è Natale.</i>", "(daqui a um mês)"),
+          ("<b>per</b> (durata finita)", "<i>Ho abitato a Recife <b>per</b> vent'anni.</i>", "(durante, e adesso no)")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: tutti i tempi dell'A2", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Alla fine dell'A2 sai raccontare il <b>passato</b> (che cosa è successo e com'era), parlare del <b>presente</b>, fare <b>progetti</b>, esprimere <b>desideri</b> e <b>speranze</b>. Questa pagina mette tutto insieme. Per ogni tempo trovi l'unità dove l'hai studiato.</div>
+{_h("1. I TEMPI E I MODI DELL'A2")}
+{_tbl(["tempo", "per…", "esempio", "unità"], tt, "8.4pt", ["28mm", "42mm", None, "24mm"])}
+{_h("2. FA, DA, TRA, PER")}
+{_tbl(["parola", "esempio", "in portoghese"], tm, "8.6pt", ["46mm", None, "40mm"])}
+<div class="two"><div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><b>ATTENZIONE: DA + PRESENTE</b><br>Se una cosa è cominciata nel passato ed è <b>ancora vera</b>, si usa il <b>presente</b>: <i>Studio italiano <b>da</b> un anno</i> (e studio ancora). <i>Ho studiato italiano <b>per</b> un anno</i> = adesso non studio più.</div>
+<div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><b>RACCONTARE IN TRE TEMPI</b><br><b>Prima</b> (imperfetto): <i>non capivo niente.</i><br><b>Poi</b> (passato prossimo): <i>ho conosciuto Giulia, ho cominciato a…</i><br><b>Adesso</b> (presente) e <b>in futuro</b> (futuro, condizionale): <i>parlo… vorrei…</i></div></div>
+{_dont([("Abito qui per due anni.", "Abito qui <b>da</b> due anni."), ("Ho abitato qui da due anni.", "<b>Abito</b> qui da due anni."), ("Sono arrivata da due anni.", "Sono arrivata due anni <b>fa</b>."),
+        ("Quando sono arrivata, ha piovuto.", "Quando sono arrivata, <b>pioveva</b>."), ("Spero che vengono.", "Spero che <b>vengano</b>.")])}""",
+    26, """<p>L'errore più importante di questa pagina: il portoghese <i>moro aqui há dois anos</i> diventa <i>ho abitato qui da due anni</i> o <i>abito qui per due anni</i>. In italiano: <b>da</b> + <b>presente</b>. <i>Há dois anos</i> (= tempo fa) è <i>due anni <b>fa</b></i>. Usare questa pagina come ripasso: per ogni riga della tabella 1 chiedere allo studente una frase sulla sua vita.</p>""")

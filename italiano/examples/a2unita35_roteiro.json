@@ -1,0 +1,32 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
+  "Camila": "it-IT-Chirp3-HD-Despina",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"35.2": 2500, "35.3": 3500},
+ "units": {
+  "it-a2-unita-35": {
+   "35.1 Dialoghi": "Narrator: Prima parte. Venerdì 27 novembre: il primo venerdì brasiliano al bar di Giulia. Il bar è pieno.\nGiulia: Non ci posso credere: ci sono più di sessanta persone! La feijoada è finita alle nove!\nMarco: Va bene, lo ammetto: avevate ragione voi. È un successo!\nSignora Rossi: Camila, questa tapioca è buonissima. Me ne fai un'altra?\nCamila: Certo, signora! Con il formaggio o con il cocco?\nSignora Rossi: Con il cocco. E poi voglio la ricetta: la proverò a casa.\nGiulia: Júlia, penso che dovremmo farlo ogni mese.\nJúlia: Sono d'accordo! E il mese prossimo facciamo il pão de queijo.\nNarrator: Seconda parte. Più tardi Davide intervista Júlia per il suo progetto, come un anno fa.\nDavide: Allora, Júlia: due anni a Bologna. Ti ricordi il primo giorno?\nJúlia: Come no! Ero stanchissima, non conoscevo nessuno e non capivo niente quando la gente parlava veloce.\nDavide: E adesso?\nJúlia: Adesso parlo italiano tutti i giorni, lavoro con Marco e ho tanti amici. Il giardino in Bolognina è il progetto di cui sono più orgogliosa.\nDavide: Che cosa ti è piaciuto di più quest'anno?\nJúlia: Tante cose: Venezia con Giulia, la settimana a Rimini, la tua maratona… e stasera, ovviamente!\nDavide: E il futuro? Che cosa farai?\nJúlia: L'anno prossimo vorrei visitare finalmente la Sicilia. E spero che i miei genitori vengano a trovarmi in primavera.\nDavide: Ultima domanda: ti senti bolognese?\nJúlia: Un po' sì! Abito qui da due anni e Bologna è casa mia. Ma il caffè lo bevo ancora brasiliano.",
+   "35.2 Ripeti": "Narrator: Due anni fa non conoscevo nessuno.\nNarrator: Abito qui da due anni.\nNarrator: Adesso parlo italiano tutti i giorni.\nNarrator: L'anno prossimo vorrei visitare la Sicilia.\nNarrator: Spero che i miei genitori vengano a trovarmi.",
+   "35.3 Quando": "Narrator: Numero uno. Non conoscevo nessuno.\nNarrator: Numero due. Lavoro con Marco.\nNarrator: Numero tre. Visiterò la Sicilia.\nNarrator: Numero quattro. Sono andata a Venezia con Giulia.\nNarrator: Numero cinque. I miei genitori verranno in primavera.\nNarrator: Numero sei. Adesso mi sento a casa."
+  }
+ },
+ "images": {
+  "it-a2-unita-35": {
+   "A": "suitcase arrival train station",
+   "B": "photo album memories",
+   "C": "cooking pot stew kitchen",
+   "D": "cheese bread brazil",
+   "E": "microphone interview",
+   "F": "crowded bar people evening",
+   "G": "sicily coast",
+   "H": "calendar planning"
+  }
+ }
+}
