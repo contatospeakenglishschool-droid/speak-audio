@@ -784,3 +784,27 @@ def farcela_metterci(b):
 {_dont([("Ce lo faccio.", "Ce <b>la</b> faccio."), ("Ce l'ho fatto!", "Ce l'ho fatt<b>a</b>!"), ("Ho messo tre ore.", "<b>Ci</b> ho messo tre ore."),
         ("Ci vuole tre ore.", "Ci <b>vogliono</b> tre ore."), ("Ci sono ne due.", "<b>Ce ne sono</b> due.")])}""",
     26, """<p>In portoghese si dice <i>consegui! / dá pra fazer?</i> e <i>demorei três horas / leva uma hora</i>: lo studente traduce con <i>ho demorato</i> (non esiste con questo senso) o <i>prende un'ora</i>. Insegnare le frasi come blocchi fissi: <i>ce la faccio, non ce la faccio più, ce l'ho fatta, quanto ci metti?, ci vuole un'ora</i>. La differenza <i>metterci / volerci</i> è utile ma non va forzata: basta che lo studente la capisca.</p>""")
+
+
+def reciproci_mentre(b):
+    """A2 Ponte 33: verbi reciproci (ci siamo conosciuti, si sono sposati); mentre + imperfetto, quando + passato prossimo."""
+    vr = [("conoscersi", "Ci <b>siamo conosciuti</b> a una festa."), ("vedersi · rivedersi", "Ci <b>vediamo</b> ogni giorno. · Ci <b>siamo rivisti</b>."),
+          ("scriversi · telefonarsi", "Ci <b>scrivevamo</b> e ci <b>telefonavamo</b>."), ("mettersi insieme · lasciarsi", "Si <b>sono messi</b> insieme. · Si <b>sono lasciati</b>."),
+          ("sposarsi · innamorarsi", "Si <b>sono sposati</b> dopo sei mesi. · Si <b>sono innamorati</b>."), ("aiutarsi · salutarsi · parlarsi", "Ci <b>aiutiamo</b>. · Vi <b>siete parlati</b>?")]
+    pr = [("noi", "<b>ci</b> vediamo", "<b>ci</b> siamo visti/e"), ("voi", "<b>vi</b> vedete", "<b>vi</b> siete visti/e"), ("loro", "<b>si</b> vedono", "<b>si</b> sono visti/e")]
+    mq = [("<b>mentre</b> + imperfetto", "un'azione in corso, lo sfondo", "<i>Mentre tutti <b>ballavano</b>, io <b>parlavo</b>.</i> (due azioni lunghe)"),
+          ("<b>quando</b> + passato prossimo", "un'azione breve, un fatto", "<i><b>Quando</b> la musica <b>è finita</b>, lui le <b>ha chiesto</b> il numero.</i>"),
+          ("<b>mentre</b> + imperfetto, passato prossimo", "un'azione interrompe l'altra", "<i>Mentre <b>aspettavo</b> l'autobus, un ragazzo mi <b>ha sorriso</b>.</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: i verbi reciproci e mentre / quando", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Un verbo <b>reciproco</b> dice un'azione che due o più persone fanno <b>l'una con l'altra</b>: <i>Bruno conosce Chiara + Chiara conosce Bruno</i> → <b>Si sono conosciuti</b>. Ha la stessa forma dei verbi riflessivi, ma solo al plurale (<i>ci, vi, si</i>). Per raccontare: <b>mentre</b> + imperfetto (lo sfondo) e <b>quando</b> + passato prossimo (il fatto).</div>
+{_h("1. I VERBI RECIPROCI PIÙ USATI")}
+{_tbl(["verbo", "esempio"], vr, "8.6pt", ["52mm", None])}
+<div class="two"><div>{_h("2. LA FORMA")}
+{_tbl(["persona", "presente", "passato prossimo"], pr, "8.6pt", ["18mm", None, None])}</div>
+<div><div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt;margin-top:4mm"><b>ATTENZIONE</b><br>Al passato prossimo: sempre <b>essere</b> e il participio si accorda: <i>ci siamo conosciut<b>i</b></i> (un ragazzo e una ragazza), <i>ci siamo conosciut<b>e</b></i> (due ragazze). <i>Sposare</i> qualcuno, ma <i>sposarsi con</i> qualcuno; <i>innamorarsi <b>di</b></i> qualcuno.</div></div></div>
+{_h("3. MENTRE E QUANDO")}
+{_tbl(["struttura", "per…", "esempio"], mq, "8.6pt", ["52mm", "40mm", None])}
+{_dont([("Abbiamo conosciuto a una festa.", "<b>Ci siamo conosciuti</b> a una festa."), ("Si sono sposato.", "Si sono sposat<b>i</b>."),
+        ("Mentre ho aspettato, un ragazzo sorrideva.", "Mentre <b>aspettavo</b>, un ragazzo <b>ha sorriso</b>."), ("Si è innamorata con lui.", "Si è innamorata <b>di</b> lui."),
+        ("Ci vediamo? Sì, ci vediamo ieri.", "Sì, <b>ci siamo visti</b> ieri.")])}""",
+    26, """<p>In portoghese <i>nos conhecemos, se casaram</i> funzionano come in italiano, ma lo studente usa <i>avere</i> al passato (<i>abbiamo conosciuto</i>) perché in portoghese l'ausiliare non cambia. <i>Enquanto</i> + <i>imperfeito</i> è uguale a <i>mentre</i> + imperfetto: far notare il parallelo. Errore frequente: <i>casar com</i> → <i>sposare con</i> (corretto: <i>sposare qualcuno</i> o <i>sposarsi con</i>) e <i>apaixonar-se por</i> → <i>innamorarsi di</i>.</p>""")

@@ -1,0 +1,30 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Chiara": "it-IT-Chirp3-HD-Achernar",
+  "Camila": "it-IT-Chirp3-HD-Despina",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"33.2": 2500, "33.3": 3500},
+ "units": {
+  "it-a2-unita-33": {
+   "33.1 Dialoghi": "Narrator: Prima parte. Inizio novembre, sabato sera. Bruno e Chiara stanno insieme da un anno e Júlia fa una cena per loro. C'è anche Camila.\nJúlia: Allora, un brindisi: a Bruno e Chiara, un anno insieme!\nCamila: Auguri! Ma come vi siete conosciuti?\nChiara: Ci siamo conosciuti a una festa, quando Bruno era a Bologna in vacanza da Júlia.\nBruno: Mentre tutti ballavano, io parlavo… e lei ascoltava.\nChiara: Ha parlato per tre ore! Della storia medievale, del calcio, del Brasile…\nJúlia: È vero, mio fratello parla sempre!\nCamila: E poi?\nBruno: Poi sono tornato in Brasile. Ci scrivevamo tutti i giorni e ci telefonavamo la domenica.\nChiara: E quando è tornato a Bologna per studiare, ci siamo rivisti e ci siamo messi insieme.\nCamila: Che romantico! E adesso?\nBruno: Adesso ci vediamo quasi ogni giorno e ci aiutiamo a studiare. Cioè… lei aiuta me.\nNarrator: Seconda parte. Dopo cena. Camila racconta la storia dei suoi genitori.\nCamila: I miei genitori si sono conosciuti al Carnevale di Olinda. Mentre mio padre suonava il frevo con la banda, mia madre ballava davanti a lui.\nJúlia: E poi?\nCamila: Quando la musica è finita, lui le ha chiesto il numero. Si sono sposati dopo sei mesi!\nChiara: Sei mesi? Che coraggio! E tu, Camila? Hai conosciuto qualcuno a Bologna?\nCamila: Mah… ieri, mentre aspettavo l'autobus, un ragazzo mi ha sorriso. Poi è salito sul mio autobus.\nBruno: E vi siete parlati?\nCamila: No! Io sono scesa alla mia fermata… e lui è rimasto sull'autobus.\nJúlia: La prossima volta parlagli tu!",
+   "33.2 Ripeti": "Narrator: Ci siamo conosciuti a una festa.\nNarrator: Ci scrivevamo tutti i giorni.\nNarrator: Si sono sposati dopo sei mesi.\nNarrator: Mentre tutti ballavano, io parlavo.\nNarrator: Mentre aspettavo l'autobus, un ragazzo mi ha sorriso.",
+   "33.3 L'uno con l'altro": "Narrator: Numero uno. Ci siamo visti al bar.\nNarrator: Numero due. Mi sono svegliato tardi.\nNarrator: Numero tre. Si sono sposati a maggio.\nNarrator: Numero quattro. Si è vestita in fretta.\nNarrator: Numero cinque. Ci scriviamo ogni giorno.\nNarrator: Numero sei. Ci laviamo le mani."
+  }
+ },
+ "images": {
+  "it-a2-unita-33": {
+   "A": "house party friends dancing",
+   "B": "young couple laughing",
+   "C": "texting smartphone messages",
+   "D": "engagement ring",
+   "E": "wedding couple",
+   "F": "brazil carnival street",
+   "G": "smile woman",
+   "H": "anniversary cake candles"
+  }
+ }
+}
