@@ -1,0 +1,20 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Ana": "en-US-Neural2-F",
+  "Bruno": "en-US-Chirp3-HD-Fenrir",
+  "Carol": "en-US-Chirp3-HD-Leda",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-review-1": {
+   "R1.1 Gap Year Diaries: a special episode": "Danny: Welcome to a special episode of Gap Year Diaries! I'm recording in the café where I met Ana on my first week in São Paulo. And today I have two guests: Ana and my roommate, Bruno.\nAna: Hi everyone! I remember that day. Danny asked me for directions, and then we discovered that we both know Tom.\nDanny: A mutual friend! So, Bruno, how would you describe me when I first arrived?\nBruno: Honestly? You were a bit shy, and you tended to stay in the room playing video games. You've changed a lot.\nDanny: I used to play for hours every day. Now I hardly ever play. And you can be quite messy, Bruno!\nBruno: That's true. Deep down, I'm a very organized person. My clothes just don't know it.\nAna: And Danny looks different, too. He's been growing a beard for two months.\nBruno: He looks like a pirate.\nDanny: Thanks, guys. So, what's new in your lives? Ana, you work in an emergency department. How's work?\nAna: Hectic, as usual. I've been working twelve-hour shifts all month, so I'm exhausted. But last week my cousin Carol visited, and Danny picked her up at the airport.\nDanny: The woman with red curly hair and big round glasses. I found her in two minutes!\nBruno: And Danny persuaded me to keep running with our group. We've been training for the ten-K race in December.\nDanny: I've stopped eating junk food, and I hope to finish in less than an hour.\nAna: And how's the new job?\nDanny: Great! I've been working as a guide for three weeks now. I'm a freelancer, so I don't have to work every day, but I have to know a lot of history. Last Sunday, another guide was sick, so I filled in for him. And a hotel offered me a full-time job, but I turned it down.\nBruno: Smart. You don't want to spend your gap year at a reception desk.\nDanny: Last question. Bruno, your parents met in a hospital. How are people meeting now?\nBruno: Online, of course. More and more people are using apps. My friends have all met their partners on their phones.\nAna: Things have changed so much. My grandparents met at a church party!\nDanny: Well, that's all for today. Thanks for listening!",
+   "R1.2 Dictation: weak forms": "Narrator: Number one. I used to play video games every day.\nNarrator: Number two. He's been growing a beard for two months.\nNarrator: Number three. I decided to sign up for a race.\nNarrator: Number four. How long have you been living here?\nNarrator: Number five. She's got an oval face.\nNarrator: Number six. You don't have to wear a suit.",
+   "R1.3 Dialogues": "Narrator: Dialogue one.\nCarol: Hi! You must be Danny. Ana told me what you look like.\nDanny: Hi Carol! Welcome to Brazil. How was your flight?\nCarol: Long! I never sleep on planes. Have you been living here for long?\nDanny: For about three months. I've been working as a tour guide.\nCarol: Really? I'd love to do a tour.\nDanny: Would you? I'll take you on Saturday!\nNarrator: Dialogue two.\nBruno: You look tired. What have you been doing?\nDanny: I've been studying the history of the city all morning. I have to give a tour tomorrow.\nBruno: Do you have to wear a uniform?\nDanny: No, I don't have to. But I mustn't be late. Tourists hate waiting.\nBruno: And the hotel job? Did you take it?\nDanny: No, I turned it down. I want to keep traveling."
+  }
+ },
+ "pauses": {
+  "R1.2": 6000
+ }
+}
