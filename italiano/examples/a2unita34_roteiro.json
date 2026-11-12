@@ -1,0 +1,32 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Camila": "it-IT-Chirp3-HD-Despina",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"34.2": 2500, "34.3": 3500},
+ "units": {
+  "it-a2-unita-34": {
+   "34.1 Dialoghi": "Narrator: Prima parte. Metà novembre, al bar. Giulia ha un'idea e chiede l'opinione degli amici.\nGiulia: Ragazzi, ascoltate: penso di fare un venerdì brasiliano al bar, una volta al mese. Che ne pensate?\nDavide: Penso che sia un'idea fantastica! La gente ne parlerà in tutto il quartiere.\nMarco: Mah, io non sono sicuro. Secondo me è rischioso: ai bolognesi piacciono i tortellini, non la feijoada.\nJúlia: Non sono d'accordo con te, Marco. A Bologna ci sono tantissimi studenti stranieri, e anche gli italiani amano provare cose nuove.\nGiulia: Júlia, tu sai cucinare la feijoada?\nJúlia: Certo! Penso di farla con Camila: lei fa anche la tapioca.\nMarco: Va bene, avete ragione voi. Ma io voglio assaggiare tutto prima!\nGiulia: Allora siamo tutti d'accordo. Ne parliamo domani con calma.\nNarrator: Seconda parte. Il giorno dopo, sulle scale. Júlia e Camila incontrano la signora Rossi.\nSignora Rossi: Ragazze, ho sentito del venerdì brasiliano. Ne parla tutto il palazzo!\nCamila: Davvero? E Lei che ne pensa, signora?\nSignora Rossi: Io della cucina brasiliana non ne so niente. Ma credo che sia una bella cosa per il quartiere.\nJúlia: Allora deve venire ad assaggiare!\nSignora Rossi: Ci penso. Ma che cos'è la feijoada?\nCamila: Sono fagioli neri con la carne di maiale. È un piatto un po' pesante…\nSignora Rossi: Pesante? Allora ne prendo solo un po'. E il caffè brasiliano, ovviamente!",
+   "34.2 Ripeti": "Narrator: Che ne pensi? Che ne pensate?\nNarrator: Penso che sia un'idea fantastica.\nNarrator: Penso di farla con Camila.\nNarrator: Sono d'accordo. Non sono d'accordo.\nNarrator: Non ne so niente. Ci penso.",
+   "34.3 D'accordo o no": "Narrator: Numero uno. Sono d'accordo con te.\nNarrator: Numero due. Secondo me non è vero.\nNarrator: Numero tre. Hai ragione.\nNarrator: Numero quattro. Non sono per niente d'accordo.\nNarrator: Numero cinque. Esatto!\nNarrator: Numero sei. Io la penso diversamente."
+  }
+ },
+ "images": {
+  "it-a2-unita-34": {
+   "A": "friends discussing at table cafe",
+   "B": "thumbs up",
+   "C": "thumbs down",
+   "D": "black beans",
+   "E": "tapioca crepe",
+   "F": "chalkboard menu cafe",
+   "G": "raising hands vote",
+   "H": "event poster flyer wall"
+  }
+ }
+}

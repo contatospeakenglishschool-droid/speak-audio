@@ -808,3 +808,30 @@ def reciproci_mentre(b):
         ("Mentre ho aspettato, un ragazzo sorrideva.", "Mentre <b>aspettavo</b>, un ragazzo <b>ha sorriso</b>."), ("Si è innamorata con lui.", "Si è innamorata <b>di</b> lui."),
         ("Ci vediamo? Sì, ci vediamo ieri.", "Sì, <b>ci siamo visti</b> ieri.")])}""",
     26, """<p>In portoghese <i>nos conhecemos, se casaram</i> funzionano come in italiano, ma lo studente usa <i>avere</i> al passato (<i>abbiamo conosciuto</i>) perché in portoghese l'ausiliare non cambia. <i>Enquanto</i> + <i>imperfeito</i> è uguale a <i>mentre</i> + imperfetto: far notare il parallelo. Errore frequente: <i>casar com</i> → <i>sposare con</i> (corretto: <i>sposare qualcuno</i> o <i>sposarsi con</i>) e <i>apaixonar-se por</i> → <i>innamorarsi di</i>.</p>""")
+
+
+def opinioni_ne(b):
+    """A2 Ponte 34: chiedere e dare opinioni; penso di + infinito / penso che + congiuntivo; accordo e disaccordo; ne = di questo, ci = a questo."""
+    ch_ = [("<b>Che ne pensi?</b> · Che ne dici?", "(ne = di questo)"), ("<b>Secondo te?</b> · Per te?", "(informale)"), ("<b>Lei che ne pensa?</b>", "(formale)"), ("<b>Sei d'accordo?</b>", "(sì o no)")]
+    op = [("<b>secondo me / per me</b> + indicativo", "<i>Secondo me <b>è</b> rischioso.</i>"),
+          ("<b>penso che / credo che</b> + congiuntivo (unità 09)", "<i>Penso che <b>sia</b> un'idea fantastica.</i>"),
+          ("<b>penso di</b> + infinito (stesso soggetto)", "<i>Penso <b>di avere</b> ragione.</i> (io penso, io ho ragione)"),
+          ("<b>penso di</b> + infinito = intenzione", "<i>Penso <b>di fare</b> un venerdì brasiliano.</i> (= ho intenzione di)")]
+    ad = [("<b>Sono d'accordo</b> (con te / con Lei) · Concordo.", "<b>Non sono d'accordo</b> (con te)."), ("<b>Hai ragione.</b> · Esatto! · Certo!", "<b>Non è vero.</b> · Io la penso diversamente."),
+          ("<b>Anch'io.</b> · Neanch'io.", "<b>Mah, non sono sicuro/a.</b> · Dipende.")]
+    nc = [("<b>ne</b> = di questo / di + cosa", "Che <b>ne</b> pensi? (pensare <b>di</b>) · <b>Ne</b> parliamo domani. (parlare <b>di</b>) · Non <b>ne</b> so niente. (sapere <b>di</b>)"),
+          ("<b>ne</b> = una parte (unità 14)", "<b>Ne</b> prendo solo un po'."),
+          ("<b>ci</b> = a questo", "<b>Ci</b> penso. (pensare <b>a</b> = riflettere) · Pensi all'esame? — Sì, <b>ci</b> penso sempre.")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: le opinioni e il pronome ne", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Per chiedere un'opinione l'italiano usa <b>Che ne pensi?</b>: <i>ne</i> sostituisce <i>di questo</i> (<i>pensare di</i> qualcosa). Per rispondere: <i>secondo me</i> + indicativo, <i>penso che</i> + congiuntivo, <i>penso di</i> + infinito. Poi si dice se si è d'accordo o no.</div>
+<div class="two"><div>{_h("1. CHIEDERE UN'OPINIONE")}
+{_tbl(["domanda", ""], ch_, "8.6pt", [None, "26mm"])}</div>
+<div>{_h("3. ACCORDO E DISACCORDO")}
+{_tbl(["sono d'accordo", "non sono d'accordo"], ad, "8.4pt")}</div></div>
+{_h("2. DARE UN'OPINIONE")}
+{_tbl(["struttura", "esempio"], op, "8.6pt", ["70mm", None])}
+{_h("4. NE E CI")}
+{_tbl(["pronome", "esempi"], nc, "8.6pt", ["46mm", None])}
+{_dont([("Penso che è una buona idea.", "Penso che <b>sia</b> una buona idea."), ("Penso che faccio una festa.", "Penso <b>di fare</b> una festa."),
+        ("Sono d'accordo a te.", "Sono d'accordo <b>con</b> te."), ("Che pensi di questo?", "Che <b>ne</b> pensi?"), ("Vieni? — Non so, ne penso.", "Non so, <b>ci</b> penso.")])}""",
+    26, """<p>Il brasiliano dice <i>o que você acha disso?</i> e traduce <i>che pensi di questo?</i> (comprensibile, ma poco naturale): insegnare il blocco <i>Che ne pensi?</i>. <i>Acho que é</i> → <i>penso che è</i>: ricordare il congiuntivo (unità 09) o usare <i>secondo me</i> + indicativo. <i>Pensar em</i> = <i>pensare a</i> → <i>ci penso</i>; <i>pensar de</i> (opinione) → <i>ne</i>. <i>Concordo</i> esiste anche in italiano ed è corretto.</p>""")
