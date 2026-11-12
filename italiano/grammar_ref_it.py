@@ -762,3 +762,25 @@ def ordinali_secoli(b):
 {_dont([("La terzo volta.", "La <b>terza</b> volta."), ("Il secolo tredici.", "Il <b>tredicesimo</b> secolo."), ("In 1088.", "<b>Nel</b> 1088."),
         ("Il XIII secolo = il Milletrecento.", "Il XIII secolo = il <b>Duecento</b>."), ("Il undicesimo capitolo.", "L'<b>undicesimo</b> capitolo.")])}""",
     26, """<p>Il portoghese ha <i>décimo primeiro, vigésimo</i>; l'italiano è più regolare: da 11 in poi basta <i>-esimo</i>. La difficoltà vera sono i nomi dei secoli (<i>il Duecento</i> = XIII): far fare sempre la conversione con gli anni. In portoghese si dice <i>em 1088</i>, in italiano <b>nel</b> 1088 (articolo + preposizione). Accento: undic<b>è</b>simo, vent<b>è</b>simo.</p>""")
+
+
+def farcela_metterci(b):
+    """A2 Ponte 32: farcela (ce la faccio, ce l'ho fatta), metterci / volerci (tempo), ce n'è / ce ne sono (ripasso)."""
+    fc = [("io", "ce la <b>faccio</b>", "ce l'<b>ho</b> fatta"), ("tu", "ce la <b>fai</b>", "ce l'<b>hai</b> fatta"), ("lui / lei / Lei", "ce la <b>fa</b>", "ce l'<b>ha</b> fatta"),
+          ("noi", "ce la <b>facciamo</b>", "ce l'<b>abbiamo</b> fatta"), ("voi", "ce la <b>fate</b>", "ce l'<b>avete</b> fatta"), ("loro", "ce la <b>fanno</b>", "ce l'<b>hanno</b> fatta")]
+    tm = [("<b>metterci</b> (soggetto = la persona)", "<i>Quanto <b>ci metti</b> a fare dieci km? — <b>Ci metto</b> cinquanta minuti.</i>", "<i>Ci <b>ho messo</b> tre ore.</i>"),
+          ("<b>volerci</b> (soggetto = il tempo)", "<i><b>Ci vuole</b> un'ora. · <b>Ci vogliono</b> quattro ore.</i>", "<i><b>Ci sono volute</b> quattro ore.</i>")]
+    ce = [("C'è ancora pasta?", "Sì, <b>ce n'è</b> un piatto.", "No, <b>non ce n'è</b> più."), ("Ci sono ancora panini?", "Sì, <b>ce ne sono</b> tre.", "No, <b>non ce ne sono</b> più.")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: farcela, metterci e ce n'è", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Alcuni verbi molto usati hanno dentro dei pronomi fissi. <b>Farcela</b> (= riuscire, avere la forza) e <b>metterci</b> (= usare un certo tempo) sono due di questi: <i>Ce la faccio! · Ci metto un'ora.</i> Il pronome non si riferisce a niente di preciso: è parte del verbo.</div>
+{_h("1. FARCELA: PRESENTE E PASSATO PROSSIMO")}
+{_tbl(["persona", "presente", "passato prossimo"], fc, "8.6pt", ["34mm", None, None])}
+<div class="two"><div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><b>ATTENZIONE</b><br>Nel passato prossimo: <i>ce l'ho fatt<b>a</b></i> (con la <b>a</b>, perché <i>la</i>). <b>Non ce la faccio più</b> = sono stanchissimo. <b>Ce la puoi fare!</b> = incoraggiamento. Con l'infinito: <i>Ce la fai <b>a</b> finire?</i></div>
+<div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><b>RIUSCIRE O FARCELA?</b><br><i>Riesco a correre 42 km</i> = <i>ce la faccio a correre 42 km</i>. <i>Farcela</i> è più colloquiale e si usa molto da solo: <i>Ce la fai? — Sì, ce la faccio!</i></div></div>
+{_h("2. IL TEMPO: METTERCI E VOLERCI")}
+{_tbl(["verbo", "presente", "passato"], tm, "8.6pt", ["46mm", None, "36mm"])}
+{_h("3. CE N'È, CE NE SONO (UNITÀ 14)")}
+{_tbl(["domanda", "sì", "no"], ce, "8.6pt", ["40mm", None, None])}
+{_dont([("Ce lo faccio.", "Ce <b>la</b> faccio."), ("Ce l'ho fatto!", "Ce l'ho fatt<b>a</b>!"), ("Ho messo tre ore.", "<b>Ci</b> ho messo tre ore."),
+        ("Ci vuole tre ore.", "Ci <b>vogliono</b> tre ore."), ("Ci sono ne due.", "<b>Ce ne sono</b> due.")])}""",
+    26, """<p>In portoghese si dice <i>consegui! / dá pra fazer?</i> e <i>demorei três horas / leva uma hora</i>: lo studente traduce con <i>ho demorato</i> (non esiste con questo senso) o <i>prende un'ora</i>. Insegnare le frasi come blocchi fissi: <i>ce la faccio, non ce la faccio più, ce l'ho fatta, quanto ci metti?, ci vuole un'ora</i>. La differenza <i>metterci / volerci</i> è utile ma non va forzata: basta che lo studente la capisca.</p>""")
