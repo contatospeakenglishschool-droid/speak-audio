@@ -736,3 +736,29 @@ def consigli_imperativo_pronomi(b):
 {_dont([("Ti consiglio andare presto.", "Ti consiglio <b>di</b> andare presto."), ("Dovresti di iscriverti.", "Dovresti iscriverti."),
         ("La compra! (a un amico)", "<b>Comprala!</b>"), ("Dami il tuo numero.", "<b>Dammi</b> il tuo numero."), ("Non ti preoccupi! (a un amico)", "Non preoccupar<b>ti</b>!")])}""",
     26, """<p>In portoghese brasiliano si dice <i>me dá, me fala, compra ela</i>: il pronome va prima o resta separato. In italiano con <i>tu</i> il pronome si <b>attacca</b> alla fine (<i>dammi, dimmi, comprala</i>) e con i monosillabi la consonante raddoppia. <i>Non ti preoccupi</i> è la forma di <i>Lei</i> sbagliata: con un amico <i>non preoccuparti</i>. <i>Dovresti</i> è il condizionale dell'unità 05: è il modo più naturale e gentile per un consiglio.</p>""")
+
+
+def ordinali_secoli(b):
+    """A2 Ponte 31: numeri ordinali (tutti), numeri romani, secoli (il Duecento = il XIII secolo), anni (nel 1088, negli anni Sessanta)."""
+    o1 = [("1°", "primo"), ("2°", "secondo"), ("3°", "terzo"), ("4°", "quarto"), ("5°", "quinto"),
+          ("6°", "sesto"), ("7°", "settimo"), ("8°", "ottavo"), ("9°", "nono"), ("10°", "decimo")]
+    o1r = [(o1[i][0], o1[i][1], o1[i + 5][0], o1[i + 5][1]) for i in range(5)]
+    o2 = [("11°", "undic<b>esimo</b>", "undici → undic-"), ("20°", "vent<b>esimo</b>", "venti → vent-"), ("23°", "ventitre<b>esimo</b>", "ventitré: la <i>e</i> resta"),
+          ("100°", "cent<b>esimo</b>", "cento → cent-"), ("1000°", "mill<b>esimo</b>", "mille → mill-")]
+    sc = [("XI secolo", "1001–1100", "il Mille / l'undicesimo secolo"), ("XII secolo", "1101–1200", "il Millecento"),
+          ("XIII secolo", "1201–1300", "il <b>Duecento</b>"), ("XIV secolo", "1301–1400", "il <b>Trecento</b>"),
+          ("XVI secolo", "1501–1600", "il <b>Cinquecento</b>"), ("XX secolo", "1901–2000", "il <b>Novecento</b>"), ("XXI secolo", "2001–2100", "il Duemila")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: i numeri ordinali e i secoli", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Gli <b>ordinali</b> dicono la posizione (<i>il terzo capitolo, la seconda volta</i>) e sono aggettivi: si accordano con il nome. Per i <b>secoli</b> l'italiano ha due modi: <i>il XIII secolo</i> (il tredicesimo secolo) e <i>il Duecento</i> (gli anni 1200).</div>
+<div class="two"><div>{_h("1. DA 1 A 10")}
+{_tbl(["", "ordinale", "", "ordinale"], o1r, "8.6pt", ["12mm", None, "12mm", None])}</div>
+<div>{_h("2. DA 11: NUMERO + -ESIMO")}
+{_tbl(["", "ordinale", "come?"], o2, "8.6pt", ["12mm", "30mm", None])}</div></div>
+<p class="small" style="margin:.6mm 0">Si accordano: <i>il prim<b>o</b> giorno, la prim<b>a</b> volta, i prim<b>i</b> giorni, le prim<b>e</b> lezioni</i>. Si scrivono anche con i numeri romani: <i>Giovanni XXIII</i> (ventitreesimo), <i>Luigi XIV</i> (quattordicesimo), <i>il XX secolo</i>.</p>
+{_h("3. I SECOLI")}
+{_tbl(["numero romano", "anni", "nome"], sc, "8.6pt", ["32mm", "28mm", None])}
+<div class="two"><div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><b>ATTENZIONE</b><br>Il <i>Duecento</i> è il <b>XIII</b> secolo, non il XII: si conta come in portoghese (<i>século XIII</i> = anos 1200). <i>Il Trecento, il Quattrocento</i> si scrivono con la maiuscola.</div>
+<div class="msg" style="max-width:none;padding:1.5mm 3mm;font-size:8.6pt"><b>4. GLI ANNI</b><br><b>nel</b> 1088 · <b>nel</b> 2021 · <b>dal</b> 1563 <b>al</b> 1803 · <b>negli anni</b> Sessanta · <b>alla fine del</b> Novecento · <b>all'inizio del</b> secolo. Si leggono come numeri: <i>millenovecentonovanta</i>.</div></div>
+{_dont([("La terzo volta.", "La <b>terza</b> volta."), ("Il secolo tredici.", "Il <b>tredicesimo</b> secolo."), ("In 1088.", "<b>Nel</b> 1088."),
+        ("Il XIII secolo = il Milletrecento.", "Il XIII secolo = il <b>Duecento</b>."), ("Il undicesimo capitolo.", "L'<b>undicesimo</b> capitolo.")])}""",
+    26, """<p>Il portoghese ha <i>décimo primeiro, vigésimo</i>; l'italiano è più regolare: da 11 in poi basta <i>-esimo</i>. La difficoltà vera sono i nomi dei secoli (<i>il Duecento</i> = XIII): far fare sempre la conversione con gli anni. In portoghese si dice <i>em 1088</i>, in italiano <b>nel</b> 1088 (articolo + preposizione). Accento: undic<b>è</b>simo, vent<b>è</b>simo.</p>""")

@@ -1,0 +1,29 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Camila": "it-IT-Chirp3-HD-Despina",
+  "Professore": "it-IT-Chirp3-HD-Charon",
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"31.2": 2500, "31.3": 3500},
+ "units": {
+  "it-a2-unita-31": {
+   "31.1 Dialoghi": "Narrator: Prima parte. Metà ottobre. Bruno è a lezione di Storia medievale. Il professore parla di Bologna.\nProfessore: Allora, ragazzi: siamo nel dodicesimo secolo, cioè nel Millecento. Bologna è una città ricca e piena di torri: secondo gli storici, ce n'erano quasi cento.\nBruno: Professore, scusi: perché le costruivano?\nProfessore: Per difendersi, ma soprattutto per mostrare la loro ricchezza. Le famiglie più potenti costruivano torri sempre più alte, un po' come i grattacieli di oggi. La torre degli Asinelli, per esempio, è alta novantasette metri.\nBruno: E l'università? È nata prima delle torri?\nProfessore: Sì. La tradizione dice che è nata nel milleottantotto, alla fine dell'undicesimo secolo. È la più antica del mondo occidentale. Per la prossima lezione leggete il terzo e il quarto capitolo.\nNarrator: Seconda parte. Sabato mattina. Bruno fa da guida a Camila nel centro di Bologna.\nCamila: Allora, professor Bruno, da dove cominciamo?\nBruno: Dalle Due Torri! La Garisenda è quella storta. Sull'Asinelli si può salire: sono quasi cinquecento gradini.\nCamila: Cinquecento? Passiamo alla seconda cosa della lista!\nBruno: Va bene: piazza Maggiore. Ecco San Petronio. L'hanno cominciata nel milletrecentonovanta, nel Trecento, ma la facciata non è mai stata finita.\nCamila: È vero, sopra è senza marmo! E la fontana?\nBruno: È il Nettuno, del Cinquecento. Lì vicino c'è l'Archiginnasio: per più di duecento anni è stato la sede dell'università.\nCamila: E i portici? Sono dappertutto!\nBruno: Nel centro ci sono quasi quaranta chilometri di portici. Il più lungo è quello di San Luca: seicentosessantasei archi! Dal duemilaventuno sono patrimonio dell'UNESCO.\nCamila: Sei bravissimo. Dovresti fare la guida turistica!\nBruno: Prima devo finire il secondo anno!",
+   "31.2 Ripeti": "Narrator: Primo, secondo, terzo, quarto, quinto.\nNarrator: Undicesimo, dodicesimo, ventesimo, centesimo.\nNarrator: Il Duecento, il Trecento, il Cinquecento, il Novecento.\nNarrator: Il dodicesimo secolo, cioè il Millecento.\nNarrator: Nel milleottantotto.",
+   "31.3 Che secolo": "Narrator: Numero uno. L'università è nata nel milleottantotto.\nNarrator: Numero due. San Petronio è del Trecento.\nNarrator: Numero tre. Il Nettuno è del millecinquecentosessantasei.\nNarrator: Numero quattro. Mio nonno è nato nel Novecento.\nNarrator: Numero cinque. I portici sono patrimonio dell'UNESCO dal duemilaventuno.\nNarrator: Numero sei. Dante è nato nel Duecento."
+  }
+ },
+ "images": {
+  "it-a2-unita-31": {
+   "A": "bologna two towers",
+   "B": "bologna portico arcade",
+   "C": "neptune fountain bologna",
+   "D": "san petronio basilica bologna",
+   "E": "university lecture hall",
+   "F": "old history book",
+   "G": "spiral stairs tower inside",
+   "H": "old map"
+  }
+ }
+}
