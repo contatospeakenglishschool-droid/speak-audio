@@ -1,0 +1,21 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Host": "en-US-Studio-O",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-05": {
+   "05.1 Valmir Nunes: running through the heat": "Host: Valmir Nunes. Running through the heat.\nHost: If you think a marathon sounds tough, try to imagine running two hundred and seventeen kilometers through Death Valley, in California, in the middle of summer. For the Brazilian runner Valmir Nunes, born in nineteen sixty-four, the forty-two kilometers of a conventional marathon are almost a warm-up.\nHost: Any race longer than a marathon is called an ultramarathon, or an ultra. Many ultras take place on unusual terrain, like deserts and mountains, and runners have to keep going for many hours, sometimes for a whole day and night. For most participants, victory simply means finishing the race.\nHost: Nunes became one of the best ultrarunners in the world in the nineteen nineties. In nineteen ninety-one, he won the one-hundred-kilometer world championship. In nineteen ninety-five, in the Netherlands, he managed to set a world record for the distance: six hours, eighteen minutes and nine seconds. And in two thousand one, he won the Spartathlon, a two-hundred-and-forty-six-kilometer race in Greece, in just over twenty-three hours.\nHost: His most famous challenge came in two thousand seven, at the Badwater Ultramarathon in Death Valley. Temperatures reached forty-six degrees Celsius, but he didn't stop running, and he became the first runner to finish the race in less than twenty-four hours. His record of twenty-two hours, fifty-one minutes and twenty-nine seconds lasted twelve years, until a Japanese runner managed to break it in twenty nineteen.\nHost: Nunes kept competing as he got older. In twenty ten, at the age of forty-six, he won a twenty-four-hour race on a treadmill in Porto Alegre, running more than two hundred and fifteen kilometers. That same year, he published a book about his experiences as an ultrarunner.\nHost: He also coaches runners who want to complete marathons and ultramarathons. In nineteen ninety-eight, he encouraged Sirlene Pinho to start running competitively. Nine years later, she won a bronze medal in the marathon at the Pan American Games.",
+   "05.2 Repeat: weak to": "Narrator: I decided to run a marathon.\nNarrator: She wants to try it.\nNarrator: I'm trying to get fit.\nNarrator: He managed to finish.\nNarrator: I need to stop to drink some water.\nNarrator: Remember to stretch.\nNarrator: She encouraged me to start.\nNarrator: I'm going to sign up."
+  }
+ },
+ "images": {
+  "b1-unit-05": {
+   "A": "running shoes on road",
+   "B": "death valley road desert",
+   "C": "park running track trees",
+   "D": "marathon finish line"
+  }
+ }
+}

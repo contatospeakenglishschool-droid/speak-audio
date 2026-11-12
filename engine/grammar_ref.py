@@ -1185,3 +1185,28 @@ def describing_appearance(b):
 <p class="small" style="margin:.8mm 0"><b>Word order for hair:</b> length → style → color + <i>hair</i>: <i>long straight dark hair · short curly gray hair</i>. <b>Hair</b> is uncountable: <i>Her hair <b>is</b> red.</i> (A <i>hair</i> = one single hair.) In American English, <i>rather</i> is less common than <i>quite</i>, <i>pretty</i> or <i>a bit</i>.</p>
 {_dont([("She has forty years.", "She's forty. / She's in her forties."), ("He has a long hair. Her hairs are red.", "He has long hair. Her hair is red."), ("He is with a beard.", "He has a beard."), ("She looks like tired.", "She looks tired. / She looks like her mom."), ("He's moreno.", "He has dark hair / brown skin. / He's tanned."), ("She's a bit pretty.", "She's quite / really pretty.")])}""",
     25, """<p>Brazilians translate <i>ter</i> for age, use <i>hairs</i> as a plural, add <i>like</i> after <i>look</i> before an adjective, and look for one word for <i>moreno/moreninho</i>: in English we need to say if it is the hair, the skin or a tan. Remind the student that comments on weight and age need polite language (Vocabulary lab, page 5).</p>""")
+
+
+def verb_patterns(b):
+    """B1 Unit 05: verb patterns: infinitive or -ing."""
+    b.page(f"""{b.sec("+", "Grammar reference: infinitive or -ing?", "")}
+<div class="box" style="margin-top:0"><h4>VERB + VERB</h4>When one verb follows another, the second verb is an <b>infinitive</b> (<i>to run</i>), an <b>-ing form</b> (<i>running</i>) or a <b>bare infinitive</b> (<i>run</i>). It depends on the <b>first</b> verb, so learn the patterns as chunks: <i>decide to do · enjoy doing · help someone do</i>.</div>
+{_h("1. THE FOUR MAIN PATTERNS")}
+{_tbl(["pattern", "common verbs", "examples"], [
+    ["verb + <b>to</b> + infinitive", "<i>agree, decide, hope, learn, manage, need, plan, promise, refuse, want</i>", "<i>He <b>managed to set</b> a world record. I <b>hope to finish</b>.</i>"],
+    ["verb + <b>-ing</b>", "<i>avoid, can't stand, consider, enjoy, finish, give up, keep, mind, miss, practice, suggest</i>", "<i>He <b>kept competing</b>. I <b>gave up smoking</b>.</i>"],
+    ["verb + <b>object</b> + <b>to</b> + infinitive", "<i>advise, allow, ask, encourage, expect, invite, persuade, remind, teach, tell, want</i>", "<i>He <b>encouraged her to start</b>. I <b>want you to come</b>.</i>"],
+    ["verb + infinitive or -ing, <b>same meaning</b>", "<i>begin, continue, hate, like, love, prefer, start</i>", "<i>It <b>started to rain</b>. / It <b>started raining</b>.</i>"]], "8.2pt")}
+{_h("2. DIFFERENT MEANING: STOP, REMEMBER, FORGET, TRY")}
+{_tbl(["verb", "+ -ing", "+ to + infinitive"], [
+    ["<b>stop</b>", "<i>He stopped running.</i> (he didn't run anymore)", "<i>He stopped to drink.</i> (he stopped running in order to drink)"],
+    ["<b>remember</b>", "<i>I remember running my first race.</i> (a memory)", "<i>Remember to drink water.</i> (don't forget to do it)"],
+    ["<b>forget</b>", "<i>I'll never forget finishing.</i> (a memory)", "<i>I forgot to set my alarm.</i> (I didn't do it)"],
+    ["<b>try</b>", "<i>Try running in the morning.</i> (an experiment)", "<i>I tried to finish, but I couldn't.</i> (make an effort)"]], "8.2pt")}
+{_h("3. OTHER RULES")}
+{_tbl(["rule", "examples"], [
+    ["purpose (why?) → <b>to</b> + infinitive", "<i>I run <b>to stay</b> fit.</i> (not <s>for stay</s>)"],
+    ["after a preposition → <b>-ing</b>", "<i>I'm interested <b>in running</b>. She's good <b>at swimming</b>. Thanks <b>for helping</b>.</i>"],
+    ["<b>make, let, help</b> + object + bare infinitive", "<i>My coach makes me <b>run</b> hills. It helps him (to) <b>avoid</b> injuries.</i>"]], "8.2pt")}
+{_dont([("I'm thinking to run a marathon.", "I'm thinking <b>of running</b> a marathon."), ("I want that you come.", "I want <b>you to come</b>."), ("I go to the park for run.", "I go to the park <b>to run</b>."), ("I look forward to see you.", "I look forward to <b>seeing</b> you.")])}""",
+    25, """<p>Brazilians often use <i>for</i> + infinitive for purpose (<i>I run for stay fit</i>), say <i>I want that you come</i>, and use the infinitive after prepositions (<i>look forward to see</i>). The verb patterns must be learned with each verb; encourage the student to keep a list in their notebook.</p>""")
