@@ -1,0 +1,23 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Ana": "en-US-Neural2-F",
+  "Bruno": "en-US-Chirp3-HD-Fenrir",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-06": {
+   "06.1 Gap Year Diaries: what do you do?": "Danny: Hi everyone, and welcome back to Gap Year Diaries! This week I'm asking my friends in São Paulo a simple question: what do you do? My first guest is my friend Ana. Ana, what do you do?\nAna: I work as a doctor in the emergency department of a big hospital. I'm responsible for treating patients who arrive with urgent problems, like heart attacks, accidents or bad infections. It's also my job to decide which patients need to see a doctor first, and to explain things to their families.\nDanny: What do you need for a job like that?\nAna: Well, you need a medical degree, of course, and after that you have to do several years of training. But you also need to be good at making quick decisions and staying calm. You mustn't panic, even when the waiting room is full.\nDanny: And what's the job like?\nAna: Honestly, it can get really hectic. I work twelve-hour shifts, and some nights I don't have time to eat. It's exhausting, and it isn't as well-paid as people think. But I find it incredibly rewarding. You never know what's coming through the door, and you can really change people's lives. I can't imagine doing anything else.\nDanny: Thanks, Ana! My second guest is my roommate, Bruno. Bruno, what do you do?\nBruno: I'm a programmer. I work for a software company in Porto Alegre, but I work from home, so I can live anywhere. Right now that's a hostel in São Paulo!\nDanny: What are your responsibilities?\nBruno: I'm responsible for building and testing apps for banks. It's my job to find problems in the code and fix them before the customers find them.\nDanny: Do you need a degree?\nBruno: Not really. A lot of programmers have a degree in computer science, but I learned online. You just need to be good at solving problems, and you have to be patient. Very patient.\nDanny: What's the best thing about it?\nBruno: It's well-paid, and I don't have to wear a suit or sit in traffic. But it can be a bit isolating. I spend all day in front of a screen, and sometimes I don't talk to anyone until the evening. That's why I live in a hostel!\nDanny: Ha! Thanks, guys. Next week: what do I do? Nothing yet!",
+   "06.2 Repeat: word stress in jobs": "Narrator: She's an accountant.\nNarrator: He's an architect.\nNarrator: I'm an electrician.\nNarrator: She works as a programmer.\nNarrator: He's a photographer.\nNarrator: I'm an engineer.\nNarrator: She's a receptionist.\nNarrator: He'd make a good manager."
+  }
+ },
+ "images": {
+  "b1-unit-06": {
+   "A": "office desk laptop workplace",
+   "B": "hospital corridor",
+   "C": "bakery display cakes",
+   "D": "home office desk computer"
+  }
+ }
+}

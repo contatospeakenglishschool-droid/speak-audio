@@ -1210,3 +1210,28 @@ def verb_patterns(b):
     ["<b>make, let, help</b> + object + bare infinitive", "<i>My coach makes me <b>run</b> hills. It helps him (to) <b>avoid</b> injuries.</i>"]], "8.2pt")}
 {_dont([("I'm thinking to run a marathon.", "I'm thinking <b>of running</b> a marathon."), ("I want that you come.", "I want <b>you to come</b>."), ("I go to the park for run.", "I go to the park <b>to run</b>."), ("I look forward to see you.", "I look forward to <b>seeing</b> you.")])}""",
     25, """<p>Brazilians often use <i>for</i> + infinitive for purpose (<i>I run for stay fit</i>), say <i>I want that you come</i>, and use the infinitive after prepositions (<i>look forward to see</i>). The verb patterns must be learned with each verb; encourage the student to keep a list in their notebook.</p>""")
+
+
+def talking_about_work(b):
+    """B1 Unit 06: talking about work: job phrases, obligation and necessity."""
+    b.page(f"""{b.sec("+", "Grammar reference: talking about work", "")}
+<div class="box" style="margin-top:0"><h4>IMPERSONAL YOU</h4>When we describe a job in general, we often use <b>you</b> for "any person": <i>For this job, <b>you</b> need a degree. <b>You</b> have to be patient.</i> It doesn't mean the listener.</div>
+{_h("1. JOB PHRASES AND THE FORM THAT FOLLOWS")}
+{_tbl(["phrase", "followed by", "examples"], [
+    ["<b>I work as</b> …", "a / an + job", "<i>I work as <b>a</b> doctor. She works as <b>an</b> engineer.</i>"],
+    ["<b>I work for / in / from</b> …", "company / place / home", "<i>I work <b>for</b> a bank. He works <b>in</b> marketing. I work <b>from</b> home.</i>"],
+    ["<b>I'm responsible for</b> … · <b>I'm good at</b> …", "-ing (after a preposition)", "<i>I'm responsible for <b>training</b> new staff.</i>"],
+    ["<b>It's my job to</b> … · <b>I need to</b> …", "infinitive", "<i>It's my job <b>to fix</b> problems.</i>"],
+    ["<b>It can get</b> … · <b>I find it</b> …", "adjective", "<i>It can get <b>hectic</b>. I find it <b>rewarding</b>.</i>"],
+    ["<b>He'd make a good</b> …", "job (= he has the right qualities)", "<i>She'd make a good teacher. She's so patient.</i>"]], "8.2pt")}
+{_h("2. OBLIGATION AND NECESSITY")}
+{_tbl(["form", "meaning", "examples"], [
+    ["<b>have to / need to</b>", "it's necessary (a rule or a fact of the job)", "<i>You have to work shifts. I need to wear a uniform.</i>"],
+    ["<b>must</b>", "it's necessary (strong, often written rules or personal feeling)", "<i>Staff must wash their hands. I must call my mom.</i>"],
+    ["<b>don't have to / don't need to</b>", "it isn't necessary (you can choose)", "<i>I don't have to wear a suit.</i>"],
+    ["<b>mustn't</b>", "it's not allowed / a bad idea", "<i>You mustn't panic. You mustn't use your phone here.</i>"],
+    ["<b>can / be allowed to</b>", "permission", "<i>I can work from home. We're allowed to leave early on Fridays.</i>"],
+    ["<b>had to / didn't have to</b>", "past (there is no past of <i>must</i>)", "<i>I had to work last Sunday.</i>"]], "8.2pt")}
+<p class="small" style="margin:.8mm 0"><b>Questions:</b> <i>Do you have to work on weekends?</i> (not <s>Have you to…?</s>). In American English, <i>have to</i> is much more common than <i>must</i> in conversation.</p>
+{_dont([("I work as doctor.", "I work as <b>a</b> doctor."), ("I'm responsible to answer the phone.", "I'm responsible <b>for answering</b>…"), ("You don't must wear a tie.", "You <b>don't have to</b> wear a tie."), ("I work in a company of software.", "I work <b>for a software company</b>."), ("I'm formed in law.", "I <b>have a degree</b> in law. / I <b>studied</b> law.")])}""",
+    25, """<p>Brazilians often drop the article (<i>I'm engineer</i>), use the infinitive after <i>responsible for</i>, and confuse <i>don't have to</i> (not necessary) with <i>mustn't</i> (not allowed): the two have very different meanings. Also check <i>work for</i> (a company) and <i>work in</i> (a place or department).</p>""")
