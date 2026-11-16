@@ -1,0 +1,27 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Camila": "it-IT-Chirp3-HD-Despina",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus"
+ },
+ "pauses": {
+  "01.2": 2500
+ },
+ "images": {
+  "it-b1-unita-01": {
+   "A": "airport arrivals hug friends",
+   "B": "airport departures board delay",
+   "C": "snow piazza night italy",
+   "D": "suitcase travel window"
+  }
+ },
+ "units": {
+  "it-b1-unita-01": {
+   "01.1 Bentornata!": "Narrator: Domenica 10 gennaio. Camila è tornata da Recife ieri sera. Gli amici la aspettano al bar di Giulia.\nGiulia: Eccola! Bentornata, Camila! Allora, com'è andato il viaggio?\nCamila: Lunghissimo! Ventidue ore, alla fine. A Lisbona il volo era in ritardo, e quando sono arrivata a Bologna l'ultimo autobus era già partito.\nJúlia: E a Recife? Raccontaci tutto!\nCamila: È stato bellissimo. Non vedevo la mia famiglia da quasi tre mesi. Mia madre aveva preparato una festa a sorpresa: aveva invitato tutti, anche i vicini!\nBruno: Classico! E il caldo? Qui a Natale nevicava.\nCamila: Trentadue gradi! Avevo dimenticato com'è il caldo vero. Ma sapete una cosa? Dopo due settimane mi mancava Bologna. Non me l'aspettavo.\nGiulia: Ti mancavano i portici... o ti mancava qualcun altro?\nCamila: Giulia! Va bene, ve lo racconto. Vi ricordate Pietro, il ragazzo dell'autobus?\nJúlia: Come no! Quello che studia Storia dell'arte.\nCamila: Ecco. Prima di partire gli avevo dato il mio numero, ma lui non mi aveva ancora scritto. Allora ho pensato: pazienza.\nBruno: E invece?\nCamila: E invece la sera di Natale ricevo un messaggio: Buon Natale da Bologna. Con una foto di piazza Maggiore sotto la neve.\nGiulia: Che romantico!\nCamila: Poi ci siamo scritti quasi ogni giorno. Mi ha raccontato che non aveva mai passato il Natale da solo: i suoi genitori erano andati in montagna e lui era rimasto qui a studiare.\nJúlia: Poverino! E adesso?\nCamila: Adesso... ieri sera, quando sono uscita dall'aeroporto, c'era lui. Mi aveva aspettato due ore, perché il volo era in ritardo.\nBruno: Ah, ecco perché hai preso un taxi! Non eri sola!\nCamila: Esatto. E stasera andiamo al cinema.\nGiulia: Allora brindiamo: a Camila... e al ragazzo dell'autobus!",
+   "01.2 Ripeti": "Narrator: L'autobus era già partito.\nNarrator: Mia madre aveva preparato una festa.\nNarrator: Avevo dimenticato il caldo vero.\nNarrator: Non mi aveva ancora scritto.\nNarrator: Mi aveva aspettato due ore.\nNarrator: Non aveva mai passato il Natale da solo."
+  }
+ }
+}
