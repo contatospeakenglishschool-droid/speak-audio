@@ -1351,3 +1351,25 @@ def modals_deduction(b):
 <p class="small" style="margin:.5mm 0"><i>He looks like a businessman. · She seems tired. · I bet they're on a first date. · Maybe / Perhaps he's late. · He's probably a manager. · I wonder what they're up to.</i></p>
 {_dont([("He must to be a manager.", "He must <b>be</b> a manager. (no <i>to</i>)"), ("She mustn't be at home. Her car is here.", "She <b>can't</b> be at home… (<i>mustn't</i> = it's forbidden)"), ("It can be Frank, but I'm not sure.", "It <b>could / might</b> be Frank."), ("They must are waiting.", "They must <b>be</b> waiting.")])}""",
     25, """<p>The two typical problems are <i>mustn't</i> for an impossible deduction (use <i>can't</i>) and <i>can</i> for a possibility about a specific situation (use <i>could / might</i>). Practice with photos or with people outside the window: the student says what they see, then what they think.</p>""")
+
+
+def advice_strong_soft(b):
+    """B1 Unit 13: giving advice: should, ought to, had better, If I were you, Why don't you, You might want to."""
+    b.page(f"""{b.sec("+", "Grammar reference: giving advice", "")}
+<div class="box" style="margin-top:0"><h4>HOW STRONG IS YOUR ADVICE?</h4>In A2 you learned <i>should</i> and <i>It's a good idea to</i>. At B1, choose how strong or how polite you want to sound. <i>Had better</i> is the strongest: it means "do it, or there will be a problem".</div>
+{_h("1. FROM SOFT TO STRONG")}
+{_tbl(["strength", "form", "examples"], [
+    ["soft, polite", "<b>You might want to</b> + base form", "<i>You might want to see a doctor.</i>"],
+    ["a suggestion", "<b>Why don't you</b> + base form?", "<i>Why don't you ask Mrs. Lima for some tea?</i>"],
+    ["personal advice", "<b>If I were you, I'd</b> + base form", "<i>If I were you, I'd stay in bed.</i>"],
+    ["normal advice", "<b>should / ought to</b> + base form", "<i>You should rest. You ought to eat something.</i>"],
+    ["strong (warning)", "<b>had better ('d better)</b> + base form", "<i>You'd better call Carla today. You'd better not run.</i>"]], "8.4pt")}
+{_h("2. FORM")}
+{_tbl(["", "positive", "negative", "question"], [
+    ["<b>should</b>", "<i>You should go.</i>", "<i>You shouldn't go.</i>", "<i>Should I go?</i>"],
+    ["<b>ought to</b>", "<i>You ought to go.</i>", "<i>You shouldn't go.</i> (<i>ought not to</i> is rare)", "<i>Should I go?</i> (not <i>Ought I…</i>)"],
+    ["<b>had better</b>", "<i>You'd better go.</i>", "<i>You'd better <b>not</b> go.</i>", "(rare in questions)"]], "8.4pt")}
+<p class="small" style="margin:.8mm 0"><i>Had better</i> is about <b>now or the near future</b>, not the past, even though it uses <i>had</i>. In speaking, the <i>'d</i> is very short: <i>You'd better…</i> sometimes sounds like <i>You better…</i>. <i>If I were you</i> uses <i>were</i> for all persons.<br>
+<b>Asking for advice:</b> <i>What should I do? · What would you do? · Do you think I should…? · Any ideas?</i></p>
+{_dont([("You had better to rest.", "You'd better <b>rest</b>. (no <i>to</i>)"), ("You don't had better go.", "You'd better <b>not</b> go."), ("You ought rest.", "You ought <b>to</b> rest."), ("If I was you, I will stay home.", "If I <b>were</b> you, I<b>'d</b> stay home."), ("Why you don't take a break?", "Why <b>don't you</b> take a break?")])}""",
+    22, """<p>Brazilians often use <i>had better</i> for gentle advice to a stranger or a boss, where it can sound like a threat. Practice the scale: give the same advice in five ways, from soft to strong, and talk about who you would say each one to. Typical mistakes: <i>had better to</i>, <i>ought</i> without <i>to</i>, and <i>Why you don't…?</i></p>""")

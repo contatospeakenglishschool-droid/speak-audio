@@ -1,0 +1,22 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Ana": "en-US-Neural2-F",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-13": {
+   "13.1 A call to Dr. Ana": "Ana: Hi Danny! I got your message. How are you feeling?\nDanny: Terrible. I woke up on Tuesday with a sore throat, and now I feel awful. I've got a headache, my whole body aches, and I keep sneezing. I've been coughing a lot, too, especially at night.\nAna: Have you got a temperature?\nDanny: I think so. I feel hot and cold at the same time. Mrs. Lima checked, and it was thirty-eight point nine.\nAna: Hmm. Any breathing problems? Or an upset stomach?\nDanny: No, my stomach is fine. I can breathe, but my nose is completely blocked.\nAna: OK. It sounds like the flu, not a cold. A cold usually starts slowly and it's milder. The flu hits you suddenly, with a high temperature and body aches.\nDanny: Great. So what should I do? Bruno has some antibiotics from last year. He says I ought to take them.\nAna: No! You'd better not take them. Antibiotics only work on bacteria, and the flu is a virus. They won't help you at all. If I were you, I'd stay in bed for a few days and drink lots of water. You can take something for the fever and the aches, and a decongestant might help with your nose.\nDanny: Got it. What about my throat? It really hurts.\nAna: Why don't you ask Mrs. Lima for some tea with honey? Throat lozenges help, too. And you ought to eat something, even if you're not hungry.\nDanny: Mrs. Lima has already made me soup. Twice!\nAna: Of course she has! Now, you're a tour guide. Have you got any tours this weekend?\nDanny: Yes, on Saturday. Two of them.\nAna: Then you'd better call Carla today and cancel. You need to rest, and you don't want to give the flu to twenty tourists.\nDanny: You're right. I'll call her. Oh, and speaking of injuries... Bruno twisted his ankle at the running group on Sunday. It's really swollen.\nAna: Poor Bruno! He should put an ice pack on it and keep his foot up. And he'd better not run for a couple of weeks.\nDanny: He won't be happy. Thanks, Ana. You're the best doctor in São Paulo.\nAna: You're welcome. But listen, if you have any breathing problems, or if the fever doesn't go down in three days, you should see a doctor in person. Promise?\nDanny: I promise. Bye!",
+   "13.2 Repeat: health words": "Narrator: a headache\nNarrator: a stomachache\nNarrator: a toothache\nNarrator: a backache\nNarrator: an earache\nNarrator: My whole body aches.\nNarrator: I've got a cough.\nNarrator: I've got a sore throat.\nNarrator: I've got the flu.\nNarrator: Have you got a tissue?\nNarrator: You'd better take some medicine.\nNarrator: I'm allergic to cats."
+  }
+ },
+ "images": {
+  "b1-unit-13": {
+   "A": "sick woman sofa blanket tissue",
+   "B": "young man sick in bed thermometer",
+   "C": "ankle ice pack injury",
+   "D": "pharmacy shelves medicine"
+  }
+ }
+}
