@@ -861,3 +861,34 @@ def tempi_a2(b):
 {_dont([("Abito qui per due anni.", "Abito qui <b>da</b> due anni."), ("Ho abitato qui da due anni.", "<b>Abito</b> qui da due anni."), ("Sono arrivata da due anni.", "Sono arrivata due anni <b>fa</b>."),
         ("Quando sono arrivata, ha piovuto.", "Quando sono arrivata, <b>pioveva</b>."), ("Spero che vengono.", "Spero che <b>vengano</b>.")])}""",
     26, """<p>L'errore più importante di questa pagina: il portoghese <i>moro aqui há dois anos</i> diventa <i>ho abitato qui da due anni</i> o <i>abito qui per due anni</i>. In italiano: <b>da</b> + <b>presente</b>. <i>Há dois anos</i> (= tempo fa) è <i>due anni <b>fa</b></i>. Usare questa pagina come ripasso: per ogni riga della tabella 1 chiedere allo studente una frase sulla sua vita.</p>""")
+
+
+def trapassato_prossimo(b):
+    """B1 Progresso 01: trapassato prossimo (forma, usi con già / ancora / mai / appena, contrasto con passato prossimo e imperfetto)."""
+    fm = [("parlare", "<b>avevo</b> parlato", "avevi parlato", "aveva parlato", "<b>avevamo</b> parlato", "avevate parlato", "avevano parlato"),
+          ("partire", "<b>ero</b> partito/a", "eri partito/a", "era partito/a", "<b>eravamo</b> partiti/e", "eravate partiti/e", "erano partiti/e"),
+          ("alzarsi", "mi <b>ero</b> alzato/a", "ti eri alzato/a", "si era alzato/a", "ci <b>eravamo</b> alzati/e", "vi eravate alzati/e", "si erano alzati/e")]
+    us = [("un'azione <b>prima</b> di un'altra nel passato", "<i>Quando sono arrivata, l'autobus <b>era</b> già <b>partito</b>.</i> (prima parte l'autobus, poi arrivo io)"),
+          ("il motivo di un fatto passato", "<i>Ho preso un taxi perché l'ultimo autobus <b>era partito</b>.</i>"),
+          ("con <b>già, non… ancora, non… mai, appena</b>", "<i>Non mi <b>aveva</b> ancora <b>scritto</b>. · Non <b>aveva</b> mai <b>passato</b> il Natale da solo.</i>"),
+          ("nel discorso riportato al passato", "<i>Mi ha raccontato che i suoi genitori <b>erano andati</b> in montagna.</i>")]
+    cf = [("Quando sono arrivata, l'autobus <b>è partito</b>.", "arrivo io → <b>poi</b> parte l'autobus (l'ho visto partire)"),
+          ("Quando sono arrivata, l'autobus <b>era partito</b>.", "parte l'autobus → <b>poi</b> arrivo io (non c'era più)"),
+          ("Quando sono arrivata, l'autobus <b>partiva</b>.", "le due cose <b>insieme</b> (stava partendo)")]
+    rc = [("passato prossimo", "un fatto finito", "<i>Sono tornata ieri.</i>"), ("imperfetto", "sfondo, situazione, abitudine", "<i>Nevicava. Non vedevo la mia famiglia da tre mesi.</i>"),
+          ("trapassato prossimo", "un fatto <b>ancora più</b> passato", "<i>Mia madre aveva preparato una festa.</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: il trapassato prossimo", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Il <b>trapassato prossimo</b> è il «passato del passato»: racconta un'azione finita <b>prima</b> di un altro momento passato. Serve a mettere in ordine i fatti in un racconto, come il <i>tinha feito</i> del portoghese.</div>
+{_h("1. LA FORMA: IMPERFETTO DI AVERE / ESSERE + PARTICIPIO PASSATO")}
+{_tbl(["verbo", "io", "tu", "lui / lei / Lei", "noi", "voi", "loro"], fm, "7.9pt", ["15mm", None, None, None, None, None, None])}
+<p class="small" style="margin:.5mm 0">Ausiliare e accordo come nel passato prossimo: <i>Camila <b>era</b> partit<b>a</b></i> · <i>i genitori <b>erano</b> andat<b>i</b></i> · <i>la festa che mia madre <b>aveva</b> preparato</i>.</p>
+{_h("2. QUANDO SI USA")}
+{_tbl(["uso", "esempio"], us, "8.4pt", ["58mm", None])}
+<div class="two"><div>{_h("3. ATTENZIONE ALL'ORDINE DEI FATTI")}
+{_tbl(["frase", "che cosa succede"], cf, "8pt", ["44mm", None])}</div>
+<div>{_h("4. I TEMPI DEL PASSATO")}
+{_tbl(["tempo", "uso", "esempio"], rc, "8pt", ["24mm", "26mm", None])}</div></div>
+<p class="small" style="margin:.5mm 0">Posizione: <b>già, ancora, mai, appena</b> vanno tra l'ausiliare e il participio: <i>avevo <b>già</b> mangiato · non era <b>ancora</b> arrivato</i>.</p>
+{_dont([("Quando sono arrivata, l'autobus ha già partito.", "…l'autobus <b>era già partito</b>."), ("Mia madre era preparato una festa.", "Mia madre <b>aveva</b> preparato…"),
+        ("Non mi aveva scritto ancora.", "Non mi aveva <b>ancora</b> scritto."), ("I suoi genitori avevano andato in montagna.", "…<b>erano andati</b> in montagna.")])}""",
+    24, """<p>Il portoghese brasiliano parlato usa poco il <i>tinha feito</i> e lo sostituisce con il pretérito perfeito (<i>quando cheguei, o ônibus já saiu</i>): lo studente fa lo stesso in italiano. Insistere sulla linea del tempo: <b>prima</b> → trapassato. Ricordare che l'ausiliare è lo stesso del passato prossimo (<i>sono andato → ero andato</i>).</p>""")
