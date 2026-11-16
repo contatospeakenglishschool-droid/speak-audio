@@ -1373,3 +1373,25 @@ def advice_strong_soft(b):
 <b>Asking for advice:</b> <i>What should I do? · What would you do? · Do you think I should…? · Any ideas?</i></p>
 {_dont([("You had better to rest.", "You'd better <b>rest</b>. (no <i>to</i>)"), ("You don't had better go.", "You'd better <b>not</b> go."), ("You ought rest.", "You ought <b>to</b> rest."), ("If I was you, I will stay home.", "If I <b>were</b> you, I<b>'d</b> stay home."), ("Why you don't take a break?", "Why <b>don't you</b> take a break?")])}""",
     22, """<p>Brazilians often use <i>had better</i> for gentle advice to a stranger or a boss, where it can sound like a threat. Practice the scale: give the same advice in five ways, from soft to strong, and talk about who you would say each one to. Typical mistakes: <i>had better to</i>, <i>ought</i> without <i>to</i>, and <i>Why you don't…?</i></p>""")
+
+
+def indirect_questions(b):
+    """B1 Unit 14: indirect questions: Could you tell me…, Do you know if…, I was wondering if…; word order."""
+    b.page(f"""{b.sec("+", "Grammar reference: indirect questions", "")}
+<div class="box" style="margin-top:0"><h4>WHY USE INDIRECT QUESTIONS?</h4>Direct questions (<i>What's in it?</i>) are fine with friends. With waiters, receptionists, strangers or at work, an <b>indirect question</b> sounds more polite: <i>Could you tell me what's in it?</i></div>
+{_h("1. HOW TO START")}
+<p class="small" style="margin:.5mm 0"><i>Could you tell me… · Can you tell me… · Do you know… · Do you have any idea… · I was wondering… (very polite) · I'd like to know…</i></p>
+{_h("2. WORD ORDER: NO QUESTION ORDER AFTER THE START")}
+{_tbl(["direct question", "indirect question", "what changes"], [
+    ["<i>What <b>is</b> the special?</i>", "<i>Could you tell me what the special <b>is</b>?</i>", "subject + verb: <i>the special is</i>"],
+    ["<i>Where <b>are</b> the restrooms?</i>", "<i>Can you tell me where the restrooms <b>are</b>?</i>", "the verb goes after the subject"],
+    ["<i>What time <b>do</b> you close?</i>", "<i>Do you know what time you close?</i>", "no <i>do / does / did</i>"],
+    ["<i>How much <b>did</b> it cost?</i>", "<i>Do you know how much it <b>cost</b>?</i>", "no <i>did</i>; the main verb takes the past"]], "8.3pt")}
+{_h("3. YES/NO QUESTIONS: IF OR WHETHER")}
+{_tbl(["direct question", "indirect question"], [
+    ["<i>Is it spicy?</i>", "<i>Do you know <b>if</b> it's spicy?</i>"],
+    ["<i>Do you have a table for two?</i>", "<i>I was wondering <b>if / whether</b> you have a table for two.</i>"],
+    ["<i>Can I pay by card?</i>", "<i>Could you tell me <b>if</b> I can pay by card?</i>"]], "8.3pt")}
+<p class="small" style="margin:.8mm 0">When the question word is the subject, nothing moves: <i>What's in it?</i> → <i>Could you tell me what's in it?</i> &nbsp;The question mark depends on the start: <i>Could you tell me…<b>?</b></i> but <i>I was wondering if you have a table<b>.</b></i> &nbsp;Other polite requests: <i>Could we have the check, please? · Would you mind bringing some water? · Do you mind if I sit here?</i></p>
+{_dont([("Could you tell me what is the special?", "Could you tell me what the special <b>is</b>?"), ("Do you know where is the restroom?", "Do you know where the restroom <b>is</b>?"), ("Can you tell me what time does it open?", "Can you tell me what time it <b>opens</b>?"), ("Do you know is it spicy?", "Do you know <b>if</b> it's spicy?")])}""",
+    22, """<p>Brazilians keep question order after <i>Do you know…</i> (<i>where is the restroom</i>) and forget <i>if</i> in yes/no questions, because Portuguese uses the same word order in both. Drill: you say a direct question; the student makes it indirect with a different start each time.</p>""")
