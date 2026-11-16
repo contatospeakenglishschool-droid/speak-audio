@@ -924,3 +924,35 @@ def pronomi_combinati_b1(b):
 {_dont([("Gli lo porto domani.", "<b>Glielo</b> porto domani."), ("Mi lo presti?", "<b>Me lo</b> presti?"), ("Gliel'ho dato le chiavi.", "<b>Gliele</b> ho dat<b>e</b>."),
         ("Dami lo!", "<b>Dammelo!</b>")])}""",
     24, """<p>In Brasile si dice <i>Me empresta? — Empresto.</i> senza oggetto: in italiano il diretto non si può omettere (<i>Me <b>la</b> presti? — Te <b>la</b> presto.</i>). Far costruire la tabella a voce: <i>mi + lo?</i> → <i>me lo</i>. <i>Glielo</i> per tutti (lui, lei, Lei, loro) semplifica la vita: dirlo allo studente. </p>""")
+
+
+def condizionale_passato(b):
+    """B1 Progresso 03: il condizionale passato (rimpianti, desideri non realizzati, critiche, futuro nel passato)."""
+    fm = [("dovere", "<b>avrei</b> dovuto", "avresti dovuto", "avrebbe dovuto", "<b>avremmo</b> dovuto", "avreste dovuto", "avrebbero dovuto"),
+          ("arrivare", "<b>sarei</b> arrivato/a", "saresti arrivato/a", "sarebbe arrivato/a", "<b>saremmo</b> arrivati/e", "sareste arrivati/e", "sarebbero arrivati/e"),
+          ("arrabbiarsi", "mi <b>sarei</b> arrabbiato/a", "ti saresti…", "si sarebbe…", "ci <b>saremmo</b>…", "vi sareste…", "si sarebbero…")]
+    us = [("un <b>rimpianto</b>: non l'ho fatto e mi dispiace", "<i><b>Avrei dovuto</b> prenotare prima. · <b>Avrei dovuto</b> mettere la sveglia.</i>"),
+          ("un <b>desiderio</b> non realizzato", "<i><b>Avrei voluto</b> vedere il Cenacolo.</i>"),
+          ("una <b>critica</b> o un rimprovero", "<i><b>Avresti potuto</b> dirmelo subito!</i>"),
+          ("<b>al posto tuo</b>: che cosa avrei fatto io", "<i>Al posto tuo <b>mi sarei arrabbiata</b>.</i>"),
+          ("il <b>futuro nel passato</b>", "<i>Pietro aveva detto che <b>avrebbe pagato</b> lui.</i>")]
+    cf = [("Vorrei vedere il Cenacolo.", "adesso o in futuro: è ancora possibile"),
+          ("<b>Avrei voluto</b> vedere il Cenacolo.", "nel passato: non è più possibile"),
+          ("Dovresti prenotare.", "un consiglio per il futuro"),
+          ("<b>Avresti dovuto</b> prenotare.", "una critica: è troppo tardi")]
+    fp = [("Dice che <b>verrà</b>.", "presente → futuro"), ("Ha detto che <b>sarebbe venuto</b>.", "passato → condizionale passato")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: il condizionale passato", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Il <b>condizionale passato</b> parla di cose che <b>non sono successe</b>: rimpianti, desideri e critiche (<i>avrei dovuto, avrei voluto, avresti potuto</i>). Serve anche a raccontare un futuro visto dal passato: <i>ha detto che <b>sarebbe venuto</b></i>.</div>
+{_h("1. LA FORMA: CONDIZIONALE DI AVERE / ESSERE + PARTICIPIO PASSATO")}
+{_tbl(["verbo", "io", "tu", "lui / lei / Lei", "noi", "voi", "loro"], fm, "7.9pt", ["16mm", None, None, None, None, None, None])}
+<p class="small" style="margin:.5mm 0">Ausiliare e accordo come nel passato prossimo: <i>Camila <b>sarebbe</b> tornat<b>a</b></i>. Con i pronomi: <i>avresti potuto dir<b>melo</b> = <b>me l'</b>avresti potuto dire</i>.</p>
+{_h("2. QUANDO SI USA")}
+{_tbl(["uso", "esempio"], us, "8.2pt", ["60mm", None])}
+<div class="two"><div>{_h("3. PRESENTE O PASSATO?")}
+{_tbl(["frase", "significato"], cf, "8pt", ["38mm", None])}</div>
+<div>{_h("4. IL FUTURO NEL PASSATO")}
+{_tbl(["frase", "tempo"], fp, "8pt", ["38mm", None])}
+<p class="small" style="margin:.5mm 0">In italiano il futuro nel passato è <b>sempre</b> condizionale passato, anche se il fatto poi è successo: <i>Ha detto che sarebbe arrivato alle otto, ed è arrivato alle otto.</i></p></div></div>
+{_dont([("Ha detto che verrebbe.", "Ha detto che <b>sarebbe venuto</b>."), ("Dovrei prenotare prima. (ieri)", "<b>Avrei dovuto</b> prenotare prima."),
+        ("Mi avrei arrabbiata.", "Mi <b>sarei</b> arrabbiata.")])}""",
+    24, """<p>In portoghese <i>disse que viria</i> usa il condizionale semplice: per questo lo studente dice <i>ha detto che verrebbe</i>. In italiano il futuro nel passato vuole il condizionale <b>passato</b>. Anche <i>eu devia ter feito</i> → <i>avrei dovuto fare</i> (non <i>dovevo avere fatto</i>).</p>""")

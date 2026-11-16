@@ -1,0 +1,27 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Camila": "it-IT-Chirp3-HD-Despina"
+ },
+ "pauses": {
+  "03.2": 2500
+ },
+ "images": {
+  "it-b1-unita-03": {
+   "A": "man thinking regret window",
+   "B": "red wine glass spilled tablecloth",
+   "C": "milan cathedral duomo",
+   "D": "man wet rain bicycle"
+  }
+ },
+ "units": {
+  "it-b1-unita-03": {
+   "03.1 Avrei dovuto...": "Narrator: Lunedì 18 gennaio, otto e un quarto. Júlia è tornata da Milano ieri sera. Prima di andare in studio passa al bar di Giulia, dove trova Camila.\nGiulia: Bentornata dalla grande città! Com'è andata a Milano?\nJúlia: Il lavoro benissimo: al cliente il progetto è piaciuto. Però un rimpianto ce l'ho: avrei voluto vedere il Cenacolo di Leonardo.\nGiulia: E perché non ci sei andata?\nJúlia: Non c'erano più biglietti. Avrei dovuto prenotarli un mese prima, lo sapevo.\nCamila: Io invece di rimpianti ne ho uno grosso... Júlia, devo dirti una cosa sul tuo vestito.\nJúlia: Oddio. Che cosa è successo?\nCamila: Sabato, a cena, ho fatto cadere un bicchiere di vino rosso. Proprio sul vestito. Mi dispiace tantissimo!\nJúlia: Ah... Beh, avresti potuto dirmelo subito, però. Ti avevo scritto sabato sera!\nCamila: Lo so, avrei dovuto chiamarti, ma mi vergognavo. Stamattina l'ho portato in tintoria. Hanno detto che sarebbe stato pronto mercoledì.\nJúlia: Va bene, non è la fine del mondo. E la cena con Pietro?\nCamila: Romantica... fino al conto. Pietro aveva detto che avrebbe pagato lui, e poi ha scoperto di aver dimenticato il portafoglio a casa.\nGiulia: No! E chi ha pagato?\nCamila: Io, naturalmente. Lui è diventato tutto rosso. Mi ha detto: Avrei dovuto controllare prima di uscire! Era così carino che ho riso per dieci minuti.\nGiulia: Al posto tuo io mi sarei arrabbiata. Ma solo un po'.\nNarrator: In quel momento entra Bruno, bagnato dalla testa ai piedi, con la bici di Júlia.\nBruno: Buongiorno a tutti... Júlia, eccoti la bici. Lo so, lo so: avevo detto che te l'avrei riportata ieri sera.\nJúlia: Pulita e con le gomme piene, avevi detto.\nBruno: E infatti è pulitissima: l'ha lavata la pioggia! Ieri sera mi sono addormentato sul divano. Avrei dovuto mettere la sveglia.\nGiulia: E un ombrello, no? Saresti arrivato asciutto!\nBruno: L'ombrello? L'avevo prestato a Davide. Ma lui me l'avrebbe riportato... ieri sera.\nJúlia: Insomma, questo fine settimana tutti avremmo dovuto fare qualcosa in modo diverso.\nGiulia: Tutti tranne me. Io avevo detto che sarebbe piovuto. Chi vuole un cappuccino caldo?",
+   "03.2 Ripeti": "Narrator: Avrei dovuto prenotarli prima.\nNarrator: Avresti potuto dirmelo subito.\nNarrator: Avrei voluto vedere il Cenacolo.\nNarrator: Al posto tuo mi sarei arrabbiata.\nNarrator: Aveva detto che avrebbe pagato lui.\nNarrator: Saresti arrivato asciutto."
+  }
+ }
+}
