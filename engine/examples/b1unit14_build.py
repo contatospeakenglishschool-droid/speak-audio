@@ -43,51 +43,51 @@ def build(teacher):
 {sub("B", "Key words. Write the words from the box next to the definitions.", "4 min")}
 <div class="bank">an appetizer · a chef · the check · dessert · the main course · a service charge · a side dish · a tip</div>
 <div style="font-size:8.6pt">{twocol(kwl, 4)}</div>
-{sub("C", "Think of a typical Brazilian meal. What could be the appetizer, the main course, a side dish and the dessert?", "1 min")}""",
+{sub("C", "You are traveling abroad. Plan a meal from an international menu: an appetizer, a main course with a side dish, and a dessert.", "1 min")}""",
     30, """<ol><li>A: <i>eat in</i> = eat at home; <i>eat out</i> = eat at a restaurant.</li>
 <li>B: <i>check</i> is American English (British: <i>bill</i>). <i>Appetizer</i> (US) = <i>starter</i> (UK). A <i>cook</i> is anyone who cooks; a <i>chef</i> is a trained professional. <i>Server</i> is the neutral word for waiter/waitress.</li>
-<li>C: for example, pão de queijo (appetizer), feijoada (main course), collard greens and farofa (side dishes), brigadeiro (dessert).</li></ol>""", cover=cover)
+<li>C: for example, a Caesar salad (appetizer), steak with fries or a vegetable lasagna (main course), cheesecake (dessert). Students who travel will see these dishes on menus all over the world.</li></ol>""", cover=cover)
 
     b.extra("Lesson overview · 60 min", """
 <table><tr><th>Stage</th><th>Time</th><th>Aim</th><th>SB page</th></tr>
 <tr><td>1 Warm-up</td><td>8 min</td><td>Discussion · key words: parts of a meal, the check</td><td>1</td></tr>
-<tr><td>2 Listening</td><td>12 min</td><td>Dialogue: Danny takes Ana to a Bahian restaurant</td><td>2</td></tr>
+<tr><td>2 Listening</td><td>12 min</td><td>Dialogue: Danny takes Ana to a bistro with an international menu</td><td>2</td></tr>
 <tr><td>3 Language focus</td><td>8 min</td><td>Indirect questions</td><td>3</td></tr>
 <tr><td>+ Grammar reference</td><td>–</td><td>Indirect questions (study at home)</td><td>4</td></tr>
 <tr><td>4 Vocabulary lab + pronunciation</td><td>8 min</td><td>Restaurant language by function · polite intonation</td><td>5</td></tr>
 <tr><td>5 Practice</td><td>8 min</td><td>Carol's message about tipping · making questions polite</td><td>6</td></tr>
-<tr><td>6 Speaking</td><td>12 min</td><td>Role-play: a restaurant with Brazilian dishes · long turn · talking point</td><td>7</td></tr>
+<tr><td>6 Speaking</td><td>12 min</td><td>Role-play: an international menu · long turn · talking point</td><td>7</td></tr>
 <tr><td>7 Wrap-up</td><td>4 min</td><td>Can-do · language notes · writing homework</td><td>8</td></tr></table>
-<div class="box sand"><h4>THE STORY</h4>The Linguahouse lesson uses a dialogue in an English-style restaurant and a dinner between two business contacts. Our original listening brings both ideas together: Danny has recovered from the flu (B1 Unit 13) and takes Ana to a Bahian restaurant in São Paulo to thank her. He asks the server about the dishes with indirect questions, changes his drink order, and insists on paying (<i>It's on me</i>). The restaurant is fictional. Facts about tipping are verified: in Brazil, a 10% service charge is common on the check, but it is optional, and the restaurant must make that clear (Procon-SP; Idec). In the United States, the usual guideline for a sit-down restaurant is a tip of 15 to 20% (Emily Post Institute; Pew Research Center 2023). Carol (Orlando, B1 Units 04 and 13) writes about tipping in the Practice. The writing model is Danny's online review of the restaurant.</div>
+<div class="box sand"><h4>THE STORY</h4>The Linguahouse lesson uses a dialogue in an English-style restaurant and a dinner between two business contacts. Our original listening brings both ideas together: Danny has recovered from the flu (B1 Unit 13) and takes Ana to a bistro with an international menu to thank her. He asks the server about the dishes with indirect questions, mentions his nut allergy, orders a steak (medium), changes his drink order, and insists on paying (<i>It's on me</i>). The restaurant is fictional. Facts about tipping are verified: in Brazil, a 10% service charge is common on the check, but it is optional, and the restaurant must make that clear (Procon-SP; Idec). In the United States, the usual guideline for a sit-down restaurant is a tip of 15 to 20% (Emily Post Institute; Pew Research Center 2023). Carol (Orlando, B1 Units 04 and 13) writes about tipping in the Practice. The writing model is Danny's online review of the restaurant.</div>
 <div class="box"><h4>KEY PROBLEM FOR BRAZILIANS</h4>Students say <i>Can you bring the account?</i> (the check), <i>I want a coke</i> (sounds rude: <i>I'll have / I'd like</i>), <i>I'm satisfied</i> for <i>I'm full</i>, and keep question word order in indirect questions: <i>Do you know where is the restroom?</i></div>
 <div class="box"><h4>AUDIO</h4>Track 14.1 Dinner is on me (natural and slow) · Track 14.2 Repeat: polite questions</div>""")
 
     # Page 2 - Listening
     gist = ["to celebrate his new job", "to thank Ana for her help", "to meet Ana's husband"]
-    ordr = [("appetizer", "–", "two acarajés (to share)"), ("main course", "moqueca", "shrimp bobó"), ("drink", "passion fruit juice", "sparkling water"), ("dessert", "nothing (full)", "nothing (full)")]
+    ordr = [("appetizer", "–", "tomato soup"), ("main course", "steak (medium), mashed potatoes", "mushroom risotto"), ("drink", "iced tea", "sparkling water"), ("dessert", "nothing (full)", "nothing (full)")]
     ordt = "".join(f"<tr><td><b>{a}</b></td><td>{A(d, 'min-width:30mm')}</td><td>{A(n, 'min-width:30mm')}</td></tr>" for a, d, n in ordr)
-    tf = [("The moqueca is a very spicy fish stew.", "F (not spicy; hot sauce on the side)"), ("Danny first orders a coconut water.", "T"),
-          ("Ana explains what pirão is.", "T"), ("Ana pays for dinner.", "F (Danny pays)"), ("The 10% service charge is required by law.", "F (it's optional)")]
+    tf = [("Danny is allergic to nuts.", "T"), ("Danny first orders a lemonade.", "T"),
+          ("Danny wants his steak rare.", "F (medium)"), ("Ana pays for dinner.", "F (Danny pays)"), ("The 10% service charge is required by law.", "F (it's optional)")]
     tfl = [f'<li value="{i+1}">{s} {A(a, "min-width:9mm")}</li>' for i, (s, a) in enumerate(tf)]
     b.page(f"""{sec(2, "Listening: dinner is on me", "12 min")}
 <div style="display:flex;gap:3mm;align-items:flex-start"><div style="flex:1">
 {audiocard(["14.1 · NATURAL", "14.1 · SLOW"])}
-{sub("A", "Danny takes Ana to a Bahian restaurant. Listen at natural speed. Why does he invite her?", "2 min", "14.1")}
+{sub("A", "Danny takes Ana to a bistro. Listen at natural speed. Why does he invite her?", "2 min", "14.1")}
 <p style="margin:.3mm 0;font-size:8.9pt">{ch(gist, gist[1])}</p></div>{img('B', 40, 27)}</div>
 {sub("B", "Listen again. What do they order? Complete the table.", "3 min")}
 <table style="font-size:8.6pt;margin:.5mm 0"><tr><th style="width:24mm"></th><th>Danny</th><th>Ana</th></tr>{ordt}</table>
 {sub("C", "True or false? Correct the false sentences.", "3 min")}
 <div style="font-size:8.6pt">{twocol(tfl, 3)}</div>
 {sub("D", "Think about it. Discuss with your teacher.", "4 min")}
-<ol style="line-height:1.4;font-size:8.8pt;margin:0"><li>"I didn't want to ask." Why does Danny ask Ana, not the server, about pirão? {R("He was embarrassed to ask too many questions, or he didn't want to look like a tourist.") if T else ""}</li>
-<li>Who should pay when you invite someone to dinner in your culture?</li></ol>
+<ol style="line-height:1.4;font-size:8.8pt;margin:0"><li>"I didn't want to ask." Why does Ana ask Danny, not the server, about <i>medium</i>? {R("She was embarrassed, or she didn't want to look like she didn't know.") if T else ""}</li>
+<li>Do you know how you like your steak: rare, medium or well-done? Do you have any food allergies?</li><li>Who should pay when you invite someone to dinner in your culture?</li></ol>
 <div class="box sand" style="margin-top:1mm"><h4>NOTICE: USEFUL CHUNKS</h4><i>Dinner is on me. · What does it come with? · Make that a… · Just water for me. · I don't have room for… · If you insist. · Next time is on me. · Deal.</i></div>""",
-    22, """<ol><li>B: pronounce the dishes naturally; the focus is the restaurant language (<i>I'd like to start with…, for my main course…</i>).</li>
+    22, """<ol><li>B: the focus is the restaurant language (<i>I'd like to start with…, for my main course…, What does it come with?</i>). Teach <i>How would you like your steak?</i> (rare, medium, well-done) and <i>dressing</i>: travelers hear them everywhere.</li>
 <li>C: Danny says <i>make that</i> to change his order. Ana explains that the 10% service charge is optional in Brazil.</li></ol>""")
 
     # Page 3 - Language focus
-    fs = [("What's in the moqueca?", "Could you tell me what's in the moqueca?"), ("Is it very spicy?", "Do you know if it's very spicy?"),
-          ("What is pirão?", "Do you know what pirão is?"), ("Should I leave a tip?", "Do you know if I should leave a tip?")]
+    fs = [("What's today's special?", "Could you tell me what today's special is?"), ("Does the risotto have any nuts in it?", "Do you know if the risotto has any nuts in it?"),
+          ("What does medium mean?", "Do you know what medium means?"), ("Should I leave a tip?", "Do you know if I should leave a tip?")]
     fsl = "".join(f"<li><i>{d}</i> → {A(i, 'min-width:60mm')}</li>" for d, i in fs)
     b.page(f"""{sec(3, "Language focus: indirect questions", "8 min")}
 {sub("A", "Danny's questions from the dialogue. Write the polite form he used.", "3 min")}
@@ -100,18 +100,18 @@ def build(teacher):
 {sub("C", "Correct or incorrect? Choose.", "2 min")}
 <ol style="line-height:1.6;font-size:8.9pt;margin:0"><li>Could you tell me where is the restroom? {ch(["correct", "incorrect"], "incorrect")} {R("→ where the restroom is") if T else ""}</li><li>I was wondering if you have a table for four. {ch(["correct", "incorrect"], "correct")}</li><li>Do you know what time does the kitchen close? {ch(["correct", "incorrect"], "incorrect")} {R("→ what time the kitchen closes") if T else ""}</li></ol>
 <div class="box sand"><h4>RULE</h4>Start with <b>Could you tell me… / Do you know… / I was wondering…</b>, then use normal word order: question word + <b>subject + verb</b> (<i>what the special is, where the restroom is, what time it opens</i>). No <i>do/does/did</i>. For yes/no questions, add <b>if</b> or <b>whether</b>. More on the next page: <b>Grammar reference</b>.</div>""",
-    29, """<ol><li>A: highlight the word order with two colors: <i>What <b>is</b> pirão?</i> → <i>…what pirão <b>is</b>.</i></li>
-<li>A: in 1, <i>what</i> is the subject, so the order doesn't change.</li><li>B: <i>whether</i> is a little more formal than <i>if</i>. <i>I was wondering if…</i> is the most polite start, good for reservations and requests.</li></ol>""")
+    29, """<ol><li>A: highlight the word order with two colors: <i>What <b>is</b> today's special?</i> → <i>…what today's special <b>is</b>.</i></li>
+<li>A: in 2 and 3, <i>does</i> disappears and the verb takes <i>-s</i>: <i>has, means</i>.</li><li>B: <i>whether</i> is a little more formal than <i>if</i>. <i>I was wondering if…</i> is the most polite start, good for reservations and requests.</li></ol>""")
 
     grammar_ref.indirect_questions(b)
 
     # Page 5 - Vocabulary lab
-    ph = [("Are you ready to order?", "taking an order"), ("What would you recommend?", "asking about dishes"), ("I'll have the moqueca.", "ordering"),
+    ph = [("Are you ready to order?", "taking an order"), ("What would you recommend?", "asking about dishes"), ("I'll have the steak, medium.", "ordering"),
           ("No, wait... make that a juice.", "changing an order"), ("What does it come with?", "asking about dishes"), ("I'd like to start with…", "ordering"),
           ("Could we have the check, please?", "paying"), ("Keep the change.", "paying")]
     phl = [f'<li value="{i+1}"><i>{p}</i> {A(c, "min-width:26mm")}</li>' for i, (p, c) in enumerate(ph)]
     cw = [(["eat in", "eat out"], "eat out", "We almost never cook on Fridays. We usually", "."), (["plate", "dish"], "plate", "My", " was dirty, so I asked for another one."),
-          (["cook", "chef"], "chef", "The food was excellent. Compliments to the", "!"), (["dish", "plate"], "dish", "Feijoada is a typical Brazilian", ".")]
+          (["cook", "chef"], "chef", "The food was excellent. Compliments to the", "!"), (["dish", "plate"], "dish", "Lasagna is a typical Italian", ".")]
     cws = " &nbsp;·&nbsp; ".join(f"<b>{i+1}</b> {p} {ch(o, a)}{e}" for i, (o, a, p, e) in enumerate(cw))
     b.page(f"""{sec(4, "Vocabulary lab: restaurant language", "4 min")}
 <div style="display:flex;gap:3mm;align-items:flex-start"><div style="flex:1">
@@ -155,9 +155,9 @@ def build(teacher):
 <div class="box sand" style="margin-top:0"><h4>FUNCTIONAL LANGUAGE</h4>
 <table style="margin:0;font-size:8.4pt"><tr><th>server</th><th>customer: ask</th><th>customer: order</th><th>host / guest</th></tr>
 <tr><td><i>Are you ready to order? · Anything to drink? · Can I get you some dessert?</i></td><td><i>Could you tell me what's in…? · Do you know if…? · What would you recommend?</i></td><td><i>I'd like to start with… · I'll have… · Make that… · Just water for me.</i></td><td><i>It's on me. · Let me get this. · OK, if you insist. · Next time is on me.</i></td></tr></table></div>
-{sub("A", "Role-play: a Brazilian restaurant. Write a short menu with three typical dishes from your region. You are the server. Your teacher is a tourist who asks a lot of questions. Then change roles: your teacher is the server.", "6 min")}
+{sub("A", "Role-play: an international restaurant. Write a short menu with three dishes from any country (for example, Italian, Japanese or Mexican food). You are the server. Your teacher is a tourist who asks a lot of questions. Then change roles: your teacher is the server.", "6 min")}
 <div style="display:flex;gap:4mm;font-size:8.6pt"><div style="flex:1"><b>Dish 1:</b>{lines(1)}</div><div style="flex:1"><b>Dish 2:</b>{lines(1)}</div><div style="flex:1"><b>Dish 3:</b>{lines(1)}</div></div>
-<p style="margin:.3mm 0;font-size:8.6pt">{R("Teacher's card (tourist): You're vegetarian, you can't eat very spicy food, and you want to know what each dish comes with. Change your drink order once. At the end, ask if the service charge is included.") if T else ""}</p>
+<p style="margin:.3mm 0;font-size:8.6pt">{R("Teacher's card (tourist): You're vegetarian, you're allergic to nuts, and you want to know what each dish comes with. Change your drink order once. At the end, ask if the service charge is included.") if T else ""}</p>
 {sub("B", "Long turn. Prepare for one minute, then talk for two minutes about a memorable meal at a restaurant (great or terrible).", "4 min")}
 <ul style="line-height:1.45;font-size:8.9pt;margin:0"><li>where and when it was, and who you were with</li><li>what you ordered (appetizer, main course, dessert)</li><li>the service and the check: who paid?</li><li>why you remember it</li></ul>
 {sub("C", "Talking point. Discuss with your teacher.", "2 min")}
@@ -176,7 +176,7 @@ def build(teacher):
 <div style="display:flex;gap:5mm;font-size:8.6pt"><div style="flex:1"><b>I said…</b>{lines(3)}</div><div style="flex:1"><b>Better:</b>{lines(3)}</div></div>
 {sub("C", "Homework: writing (100–150 words)", "1 min")}
 <p style="margin:.3mm 0"><b>A restaurant review.</b> Write an online review of a restaurant you know. Read Danny's review first.</p>
-<div class="box" style="font-size:8.6pt;line-height:1.4;margin:.5mm 0"><b>★★★★★ Real Bahian food in São Paulo</b><br><i>Last Friday I took a friend to this small Bahian restaurant to say thank you, and it was the best meal I've had in Brazil. The place is simple but cozy, and it smells amazing. Our server was patient with all my questions: he explained every dish and told us the moqueca wasn't spicy. It wasn't! It's a fish stew with coconut milk, served in a clay pot with rice, pirão and farofa. My friend had the shrimp bobó and loved it. We were too full for dessert, but the cocada looked great. It isn't cheap, and the 10% service charge is on the check, but the service deserved it. Tip: book a table on weekends. I'll definitely go back!</i></div>
+<div class="box" style="font-size:8.6pt;line-height:1.4;margin:.5mm 0"><b>★★★★★ A cozy bistro with great steaks</b><br><i>Last Friday I took a friend to this small bistro to say thank you, and it was the best meal I've had in months. The place is simple but cozy, with soft music and candles. Our server was patient with all my questions: I'm allergic to nuts, and he checked every dish for me. My steak was perfect, medium as I asked, and it came with creamy mashed potatoes and a fresh salad. My friend had the mushroom risotto and loved it. We were too full for dessert, but the chocolate cake looked great. It isn't cheap, and the 10% service charge is on the check, but the service deserved it. Tip: book a table on weekends. I'll definitely go back!</i></div>
 <p class="small" style="margin:.3mm 0">Checklist: ☐ the place and the atmosphere &nbsp;☐ the food (describe one dish) &nbsp;☐ the service and the price &nbsp;☐ a recommendation &nbsp;☐ 100–150 words</p>
 {lines(5)}""",
     30, """<ol><li>B (error log): during the lesson, note 3–5 real mistakes. Here, the student writes what they said and the better version; guide them to self-correct first.</li>
