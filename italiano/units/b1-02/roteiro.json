@@ -1,0 +1,27 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Camila": "it-IT-Chirp3-HD-Despina"
+ },
+ "pauses": {
+  "02.2": 2500
+ },
+ "images": {
+  "it-b1-unita-02": {
+   "A": "hand giving house keys",
+   "B": "bicycle parked street italy",
+   "C": "watering houseplants",
+   "D": "woman packing suitcase"
+  }
+ },
+ "units": {
+  "it-b1-unita-02": {
+   "02.1 Me lo dai?": "Narrator: Giovedì 14 gennaio, sera. Domani mattina Júlia parte per Milano con Marco: tre giorni di lavoro da un cliente. A casa sua ci sono Davide, Bruno e Camila.\nJúlia: Ragazzi, scusate il disordine, sto facendo la valigia. Davide, ti posso chiedere un favore?\nDavide: Figurati! Dimmi.\nJúlia: Mi annaffi le piante mentre sono via? Basta una volta, sabato.\nDavide: Certo, te le annaffio io. Però mi servono le chiavi.\nJúlia: Te le do subito. Eccole: questa è del portone, questa dell'appartamento.\nDavide: Perfetto. E se arriva qualcosa per te?\nJúlia: Ah, sì! Aspetto un pacco, dei libri per lo studio. Se arriva, me lo tieni tu fino a domenica?\nDavide: Non c'è problema, te lo tengo io.\nBruno: Júlia, già che ci siamo... la bici. Tanto a Milano non la usi. Me la presti? Domani ho lezione alle otto e il 20 è sempre pieno.\nJúlia: Te la presto, ma trattamela bene! L'ultima volta me l'hai riportata con una gomma a terra.\nBruno: Giuro! Te la riporto domenica sera, pulita e con le gomme piene.\nCamila: Allora approfitto anch'io... Sabato Pietro mi porta a cena fuori. Il tuo vestito nero, quello lungo...\nJúlia: Ho capito, ho capito! Te lo presto volentieri. È nell'armadio. Chiedi le chiavi a Davide: gliele ho appena date.\nCamila: Grazie, sei un tesoro! Davide, sabato pomeriggio te le chiedo, va bene?\nDavide: Va bene. Ah, Júlia, un'ultima cosa: la signora Rossi mi ha chiesto il libro di ricette brasiliane. Dice che glielo avevi promesso a Natale.\nJúlia: È vero! Me n'ero dimenticata. Eccolo, è qui. Portaglielo tu domani, per favore.\nDavide: Glielo porto domattina, prima di lezione.\nBruno: E il caffè brasiliano? Ce ne dai un po' per il fine settimana?\nJúlia: Ve ne do un pacchetto: Camila me ne ha portati tre. Insomma: Davide ha le chiavi, Bruno la bici, Camila il vestito... E io? Chi mi fa un favore?\nBruno: Noi! Domani ti accompagniamo alla stazione e ti portiamo la valigia.\nJúlia: Davvero? Guarda che il treno è alle sei e quaranta.\nBruno: Alle sei e quaranta? Ehm... forse è meglio se te la porta Davide.",
+   "02.2 Ripeti": "Narrator: Te le do subito.\nNarrator: Me lo tieni tu?\nNarrator: Trattamela bene!\nNarrator: Te la riporto domenica.\nNarrator: Portaglielo tu, per favore.\nNarrator: Ve ne do un pacchetto."
+  }
+ }
+}

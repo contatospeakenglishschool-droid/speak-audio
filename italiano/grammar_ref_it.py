@@ -892,3 +892,35 @@ def trapassato_prossimo(b):
 {_dont([("Quando sono arrivata, l'autobus ha già partito.", "…l'autobus <b>era già partito</b>."), ("Mia madre era preparato una festa.", "Mia madre <b>aveva</b> preparato…"),
         ("Non mi aveva scritto ancora.", "Non mi aveva <b>ancora</b> scritto."), ("I suoi genitori avevano andato in montagna.", "…<b>erano andati</b> in montagna.")])}""",
     24, """<p>Il portoghese brasiliano parlato usa poco il <i>tinha feito</i> e lo sostituisce con il pretérito perfeito (<i>quando cheguei, o ônibus já saiu</i>): lo studente fa lo stesso in italiano. Insistere sulla linea del tempo: <b>prima</b> → trapassato. Ricordare che l'ausiliare è lo stesso del passato prossimo (<i>sono andato → ero andato</i>).</p>""")
+
+
+def pronomi_combinati_b1(b):
+    """B1 Progresso 02: pronomi combinati in produzione (con ne), posizione con infinito e imperativo, accordo al passato prossimo."""
+    fm = [("mi → <b>me</b>", "me lo", "me la", "me li", "me le", "me ne"),
+          ("ti → <b>te</b>", "te lo", "te la", "te li", "te le", "te ne"),
+          ("gli / le / Le → <b>glie-</b>", "<b>glielo</b>", "<b>gliela</b>", "<b>glieli</b>", "<b>gliele</b>", "<b>gliene</b>"),
+          ("ci → <b>ce</b>", "ce lo", "ce la", "ce li", "ce le", "ce ne"),
+          ("vi → <b>ve</b>", "ve lo", "ve la", "ve li", "ve le", "ve ne"),
+          ("gli (a loro) → <b>glie-</b>", "glielo", "gliela", "glieli", "gliele", "gliene")]
+    ps = [("<b>prima</b> del verbo coniugato", "<i><b>Te le</b> do subito. · <b>Me lo</b> tieni tu?</i>"),
+          ("<b>dopo e attaccati</b>: infinito (senza -e)", "<i>Puoi portar<b>glielo</b>? = <b>Glielo</b> puoi portare?</i>"),
+          ("<b>dopo e attaccati</b>: imperativo tu / noi / voi", "<i>Porta<b>glielo</b>! · Tratta<b>mela</b> bene! · Date<b>cene</b> due!</i>"),
+          ("<b>da', di', fa', sta', va'</b>: consonante doppia", "<i>da<b>mm</b>elo · di<b>mm</b>elo · fa<b>mm</b>elo vedere</i> (ma: <i>da<b>gl</b>ielo</i>)"),
+          ("negativo (tu): due posizioni · <b>Lei</b>: sempre prima", "<i>Non dar<b>melo</b>! = Non <b>me lo</b> dare! · <b>Me lo</b> dia, per favore.</i>")]
+    pp = [("la bici", "<i>Me <b>l'</b>ha riportat<b>a</b>.</i>"), ("le chiavi", "<i><b>Gliele</b> ho dat<b>e</b>.</i>"),
+          ("tre pacchetti (ne)", "<i>Me <b>ne</b> ha portat<b>i</b> tre.</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: i pronomi combinati", "")}
+<div class="box" style="margin-top:0"><h4>CHE COSA SONO?</h4>Un pronome <b>indiretto</b> (a chi?) + un pronome <b>diretto</b> (che cosa?) o <b>ne</b> (quanto? di che cosa?): <i>Presto <b>la bici a Bruno</b> → <b>Gliela</b> presto.</i> L'indiretto va sempre <b>prima</b> e cambia la <i>i</i> in <b>e</b>. All'A2 li abbiamo riconosciuti; al B1 li usiamo quando parliamo.</div>
+{_h("1. LE FORME")}
+{_tbl(["indiretto", "+ lo", "+ la", "+ li", "+ le", "+ ne"], fm, "8pt", ["40mm", None, None, None, None, None])}
+<p class="small" style="margin:.5mm 0">Con <i>gli, le, Le</i> e <i>gli</i> (= a loro) la forma è la stessa e si scrive <b>tutta attaccata</b>: <i>glielo</i> può voler dire <i>a lui, a lei, a Lei, a loro</i>.</p>
+{_h("2. DOVE VANNO")}
+{_tbl(["posizione", "esempio"], ps, "8.2pt", ["62mm", None])}
+<div class="two"><div>{_h("3. AL PASSATO PROSSIMO")}
+<p class="small" style="margin:.3mm 0 .8mm"><i>lo / la</i> → <b>l'</b> davanti ad <i>avere</i>; il participio si accorda con il <b>diretto</b> (o con <i>ne</i>), mai con l'indiretto.</p>
+{_tbl(["che cosa?", "frase"], pp, "8pt", ["26mm", None])}</div>
+<div>{_h("4. CON NE: QUANTO? DI CHE COSA?")}
+<p class="small" style="margin:.3mm 0;line-height:1.55"><i>Ce <b>ne</b> dai un po'? · Ve <b>ne</b> do un pacchetto. · Glie<b>ne</b> ho dati due. · Dam<b>mene</b> uno! · Non me <b>ne</b> parlare!</i><br>Con <i>ne</i> si dice spesso la quantità: <i>un po', uno, due, tre…</i></p></div></div>
+{_dont([("Gli lo porto domani.", "<b>Glielo</b> porto domani."), ("Mi lo presti?", "<b>Me lo</b> presti?"), ("Gliel'ho dato le chiavi.", "<b>Gliele</b> ho dat<b>e</b>."),
+        ("Dami lo!", "<b>Dammelo!</b>")])}""",
+    24, """<p>In Brasile si dice <i>Me empresta? — Empresto.</i> senza oggetto: in italiano il diretto non si può omettere (<i>Me <b>la</b> presti? — Te <b>la</b> presto.</i>). Far costruire la tabella a voce: <i>mi + lo?</i> → <i>me lo</i>. <i>Glielo</i> per tutti (lui, lei, Lei, loro) semplifica la vita: dirlo allo studente. </p>""")
