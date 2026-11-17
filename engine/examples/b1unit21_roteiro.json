@@ -1,0 +1,22 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Bruno": "en-US-Chirp3-HD-Fenrir",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-21": {
+   "21.1 One backpack": "Bruno: Wow, your bed is covered in clothes. Are you taking all that?\nDanny: No way. I'm only taking one backpack. I'm going to Patagonia for two weeks, and then to Buenos Aires.\nBruno: So you need clothes for hiking and for the city. Let me help. What's this?\nDanny: My long black waterproof jacket. That goes in, for sure. My mom says I should wear layers: a T-shirt, a warm sweater and a jacket on top.\nBruno: And this ugly old green wool sweater?\nDanny: Hey! It's my favorite. I found it at the second-hand store for twenty reais.\nBruno: OK, OK. What about shoes? You can't hike in those sneakers.\nDanny: I know. I've got a pair of brown leather hiking boots. I'll wear them on the bus, so they don't take up space in my bag.\nBruno: Smart. And for Buenos Aires? You're going to a tango show, right? You can't go in hiking boots.\nDanny: Ha! I'm taking a light blue cotton shirt and my dark jeans. Do you think that's smart enough?\nBruno: It's fine. But take off that cap when you go in. And you need a nice belt.\nDanny: I don't have a belt.\nBruno: Take mine. It's a classic brown leather belt. Here, try it on... See? It fits.\nDanny: Thanks! OK, what else? Socks, underwear, a swimsuit for the lakes, a hat and some gloves.\nBruno: Gloves? In December?\nDanny: It's summer down there, but it can get cold in the mountains, especially at night.\nBruno: Fair enough. Now fold everything neatly and roll the T-shirts. They take up less space that way.\nDanny: Yes, sir! Hey, can you help me close the backpack? I think I'll have to sit on it.",
+   "21.2 Repeat: tricky clothes words": "Narrator: clothes\nNarrator: sweater\nNarrator: suit\nNarrator: shirt\nNarrator: skirt\nNarrator: scarf\nNarrator: gloves\nNarrator: wool\nNarrator: wear\nNarrator: where"
+  }
+ },
+ "images": {
+  "b1-unit-21": {
+   "A": "clothes laid out on bed packing",
+   "B": "hiking backpack mountains",
+   "C": "brown leather belt",
+   "D": "leather hiking boots"
+  }
+ }
+}

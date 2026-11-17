@@ -1504,3 +1504,22 @@ def too_enough_one(b):
 <p class="small" style="margin:.5mm 0">Don't use <i>one</i> for uncountable nouns: <i>I don't like this cotton. Do you have any other <b>fabric</b>?</i> (not <i>other one</i>).</p>
 {_dont([("It's enough big.", "It's <b>big enough</b>."), ("It's too much expensive.", "It's <b>much too</b> expensive. / It's <b>too</b> expensive."), ("I don't have money enough.", "I don't have <b>enough money</b>."), ("Do you have a bigger?", "Do you have a bigger <b>one</b>?"), ("I like the reds.", "I like the red <b>ones</b>.")])}""",
     20, """<p>Brazilians often put <i>enough</i> before adjectives (<i>enough big</i>), and say <i>too much expensive</i>. They also leave out <i>one</i> (<i>a bigger</i>). Drill: show two objects and ask <i>Which one do you prefer? Why not the other one?</i></p>""")
+
+
+def adjective_order(b):
+    """B1 Unit 21: order of adjectives before a noun: opinion, size, age, shape, color, origin, material, purpose."""
+    b.page(f"""{b.sec("+", "Grammar reference: the order of adjectives", "")}
+<div class="box" style="margin-top:0"><h4>MORE THAN ONE ADJECTIVE</h4>In English, adjectives go <b>before</b> the noun, and when there are two or more, they follow a fixed order. We usually use <b>two or three</b>, not more: <i>a <b>long black waterproof</b> jacket</i>. The general rule: <b>opinion</b> first, then <b>facts</b>.</div>
+{_h("1. THE ORDER")}
+{_tbl(["1 opinion", "2 size", "3 age", "4 shape", "5 color", "6 origin", "7 material", "8 purpose", "noun"], [
+    ["ugly", "", "old", "", "green", "", "wool", "", "sweater"],
+    ["classic", "", "", "", "brown", "", "leather", "", "belt"],
+    ["", "long", "", "", "black", "", "", "waterproof", "jacket"],
+    ["beautiful", "", "", "", "", "Italian", "silk", "", "tie"],
+    ["", "", "", "", "brown", "", "leather", "hiking", "boots"],
+    ["nice", "big", "", "round", "", "", "", "", "sunglasses"]], "7.8pt")}
+<p class="small" style="margin:.8mm 0">An easy way to remember: <b>OSASCOMP</b> (Opinion, Size, Age, Shape, Color, Origin, Material, Purpose). The <b>purpose</b> word is often a noun used like an adjective: <i>hiking boots, running shoes, a sleeping bag</i>. It always goes next to the main noun.</p>
+{_h("2. COMMAS AND AND")}
+<p class="small" style="margin:.5mm 0">Before the noun, we usually don't use <i>and</i> or commas between adjectives of different types: <i>a lovely old house</i>. After the verb, use <b>and</b>: <i>The jacket is long and warm.</i> With two colors: <i>a black and white shirt</i>. Shades of color go before the color: <i>light blue, dark green</i>.</p>
+{_dont([("a jacket black", "a <b>black</b> jacket"), ("a leather brown belt", "a <b>brown leather</b> belt"), ("a cotton beautiful dress", "a <b>beautiful cotton</b> dress"), ("old nice shoes", "<b>nice old</b> shoes"), ("hiking leather boots", "<b>leather hiking</b> boots")])}""",
+    22, """<p>In Portuguese, most adjectives come after the noun, so Brazilians say <i>a jacket black</i> or put material before color. Drill: show a photo of a piece of clothing; the student describes it with three adjectives in the right order. Don't insist on long chains: two or three adjectives sound natural.</p>""")
