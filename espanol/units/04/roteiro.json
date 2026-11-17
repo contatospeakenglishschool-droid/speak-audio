@@ -1,0 +1,35 @@
+{
+ "material": "speak-esencial",
+ "characters": {
+  "Pedro": "es-US-Chirp3-HD-Charon",
+  "Lucía": "es-US-Chirp3-HD-Kore",
+  "Javier": "es-US-Chirp3-HD-Fenrir",
+  "Sofía": "es-ES-Chirp3-HD-Despina",
+  "Doña Carmen": "es-US-Chirp3-HD-Gacrux",
+  "Paco": "es-US-Chirp3-HD-Puck",
+  "Narradora": "es-US-Chirp3-HD-Aoede"
+ },
+ "pauses": {
+  "04.2": 2500,
+  "04.3": 3000
+ },
+ "units": {
+  "es-a1-unidad-04": {
+   "04.1 Diálogo": "Narradora: Diálogo uno.\nLucía: Pedro, él es Javier, mi hermano.\nJavier: ¡Mucho gusto, Pedro! ¿A qué te dedicas?\nPedro: Soy ingeniero. Trabajo aquí, con Lucía. ¿Y tú?\nJavier: Soy guía de turismo. Trabajo en una agencia de viajes.\nNarradora: Diálogo dos.\nPedro: Sofía, ¿a qué te dedicas?\nSofía: Soy estudiante. Y los sábados trabajo de camarera en un restaurante.\nPedro: ¿Camarera? Aquí en México se dice mesera.\nSofía: ¡Ah, sí! Mesera.\nNarradora: Diálogo tres.\nPedro: Doña Carmen, ¿a qué se dedica usted?\nDoña Carmen: Soy médica. Trabajo en un hospital.\nPaco: ¡Y yo soy cocinero y mesero! Trabajo aquí, en mi café.",
+   "04.2 Repite palabras": "Narradora: el médico, la médica\nNarradora: el profesor, la profesora\nNarradora: el ingeniero, la ingeniera\nNarradora: el mesero, la mesera\nNarradora: el cocinero, la cocinera\nNarradora: el enfermero, la enfermera\nNarradora: el estudiante, la estudiante\nNarradora: el guía, la guía de turismo",
+   "04.3 Repite frases": "Narradora: ¿A qué te dedicas?\nNarradora: ¿A qué se dedica usted?\nNarradora: Soy ingeniero.\nNarradora: Soy médica.\nNarradora: Trabajo en un hospital.\nNarradora: Trabajo de mesera en un restaurante."
+  }
+ },
+ "images": {
+  "es-a1-unidad-04": {
+   "A": "doctor man hospital stethoscope",
+   "B": "female teacher students classroom",
+   "C": "engineer man helmet construction site",
+   "D": "waitress cafe coffee tray",
+   "E": "chef cooking kitchen man",
+   "F": "nurse woman hospital",
+   "G": "university student young man books",
+   "H": "tour guide group tourists"
+  }
+ }
+}
