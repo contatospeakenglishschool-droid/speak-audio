@@ -1,0 +1,26 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Tommaso": "it-IT-Chirp3-HD-Charon"
+ },
+ "pauses": {
+  "08.2": 2500
+ },
+ "images": {
+  "it-b1-unita-08": {
+   "A": "friends talking laughing kitchen",
+   "B": "bright small bedroom desk window",
+   "C": "university canteen food tray",
+   "D": "showing apartment to young man"
+  }
+ },
+ "units": {
+  "it-b1-unita-08": {
+   "08.1 Mica male!": "Narrator: Sabato 6 febbraio, pomeriggio. In via Zamboni Bruno aspetta il primo candidato per la stanza di Paolo. Júlia è venuta ad aiutarlo.\nJúlia: Hai pulito? Mica vorrai fargli vedere la cucina così!\nBruno: Ho pulito tutto stamattina. Non c'è neanche un piatto nel lavandino. Guarda!\nJúlia: Mica male! Sembra un'altra casa.\nNarrator: Suonano alla porta. È Tommaso, uno studente di Medicina.\nTommaso: Ciao, sono Tommaso. Ho letto l'annuncio.\nBruno: Ciao, piacere, Bruno. Lei è mia sorella, Júlia. Vieni, ti faccio vedere la stanza.\nTommaso: Ah, però. Non è mica piccola. E c'è tanta luce.\nBruno: Il tappeto e la lampada li lascia Paolo. Sono compresi nel prezzo.\nTommaso: Il tappeto blu non è affatto il mio stile... ma va bene. Il riscaldamento funziona?\nBruno: Benissimo. Quest'inverno non abbiamo avuto neanche un problema.\nTommaso: E i vicini? Fanno rumore?\nBruno: Per niente. La signora del piano di sopra ha novant'anni: non sente nemmeno il campanello!\nTommaso: Io non fumo e non faccio feste. Neppure il sabato: studio Medicina, non ho tempo.\nBruno: Perfetto. Neanch'io faccio feste... quasi mai.\nJúlia: Quasi mai? Mica tanto!\nBruno: Dai, Júlia, una cena con gli amici non è mica una festa!\nTommaso: Ah, una domanda importante. Chi lava i piatti?\nBruno: Una settimana per uno. Ti sembra giusto?\nTommaso: Giustissimo. Però io non so neanche cucinare: mangio quasi sempre alla mensa.\nBruno: Mica è un problema! Ti insegno io a fare il feijão.\nNarrator: Dopo venti minuti Tommaso se ne va.\nJúlia: Allora? Che te ne pare?\nBruno: Mica male, no? Serio, tranquillo, ordinato.\nJúlia: Forse un po' troppo serio. Non ha sorriso nemmeno una volta.\nBruno: Neanche tu sorridevi, quando studiavi per gli esami di architettura! Lunedì gli scrivo: per me va benissimo.",
+   "08.2 Ripeti": "Narrator: Mica male!\nNarrator: Non è mica piccola.\nNarrator: Non è affatto il mio stile.\nNarrator: Non c'è neanche un piatto.\nNarrator: Non sente nemmeno il campanello.\nNarrator: Neanch'io!"
+  }
+ }
+}

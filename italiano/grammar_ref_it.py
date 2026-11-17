@@ -1062,3 +1062,29 @@ def congiuntivo_relative(b):
 <p class="small" style="margin:.8mm 0"><b>Uno che / una che</b> = qualcuno che (informale): <i>Non voglio uno che <b>stia</b> sempre al telefono.</i> La stessa regola vale per le cose: <i>Cerco una stanza che <b>sia</b> vicina all'università.</i></p>
 {_dont([("Cerco qualcuno che ha esperienza.", "Cerco qualcuno che <b>abbia</b> esperienza."), ("Conosco una ragazza che cerchi lavoro.", "Conosco una ragazza che <b>cerca</b> lavoro."), ("Non c'è nessuno che lava i piatti.", "Non c'è nessuno che <b>lavi</b> i piatti.")])}""",
     24, """<p>Il portoghese funziona allo stesso modo (<i>procuro alguém que tenha experiência</i>), ma nel parlato brasiliano spesso si usa l'indicativo (<i>que tem</i>): ricordare il parallelo <i>tenha → abbia, saiba → sappia, fale → parli</i>. L'errore opposto: dopo <i>conosco</i> lo studente mette il congiuntivo per ipercorrezione.</p>""")
+
+
+def negazione_rinforzata(b):
+    """B1 Progresso 08: la negazione rafforzata dell'italiano parlato: mica, affatto / per niente, neanche / nemmeno / neppure."""
+    mc = [("non + verbo + <b>mica</b>", "rinforza il no (informale)", "<i>Non è <b>mica</b> piccola.</i>"),
+          ("<b>mica</b> + verbo (senza <i>non</i>)", "all'inizio della frase", "<i><b>Mica</b> è un problema!</i>"),
+          ("<b>Mica</b> + futuro / presente…?", "domanda preoccupata o ironica", "<i><b>Mica</b> vorrai fargli vedere la cucina così?</i>"),
+          ("<b>Mica male!</b> · <b>Mica tanto!</b>", "= abbastanza bene · = non molto", "<i>Mica male! Sembra un'altra casa.</i>")]
+    af = [("non + verbo + <b>affatto</b>", "<i>Non è <b>affatto</b> il mio stile.</i>"), ("non + verbo + <b>per niente</b>", "<i>Non è <b>per niente</b> rumoroso.</i>"),
+          ("risposta breve", "<i>Fanno rumore? — <b>Per niente!</b></i>")]
+    nn = [("non + verbo + <b>neanche</b>", "<i>Non sente <b>nemmeno</b> il campanello.</i>"),
+          ("<b>neanche</b> + verbo (senza <i>non</i>)", "<i><b>Neanche</b> tu sorridevi!</i>"),
+          ("non … <b>neanche un / una</b>", "<i>Non c'è <b>neanche un</b> piatto.</i>"),
+          ("<b>anch'io</b> ↔ <b>neanch'io</b>", "<i>Fumo. — Anch'io. · Non fumo. — <b>Neanch'io</b>.</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: la negazione rafforzata", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Nell'italiano parlato il semplice <i>non</i> spesso non basta: si aggiungono parole che <b>rinforzano</b> la negazione. <i>Mica</i> è informale; <i>affatto</i> e <i>per niente</i> = «assolutamente no»; <i>neanche, nemmeno, neppure</i> (stesso significato) = «anche… no», «nemmeno uno».</div>
+{_h("1. MICA")}
+{_tbl(["struttura", "uso", "esempio"], mc, "8pt", ["44mm", "44mm", None])}
+<div class="two"><div>{_h("2. AFFATTO / PER NIENTE")}
+{_tbl(["struttura", "esempio"], af, "7.9pt", ["34mm", None])}
+<p class="small" style="margin:.5mm 0">Attenzione: <i>affatto</i> da solo, come risposta, è ambiguo: meglio <i>per niente</i> o <i>niente affatto</i>.</p></div>
+<div>{_h("3. NEANCHE / NEMMENO / NEPPURE")}
+{_tbl(["struttura", "esempio"], nn, "7.9pt", ["34mm", None])}</div></div>
+<p class="small" style="margin:.8mm 0"><b>Regola d'oro</b>: <i>mica, neanche, nemmeno, neppure</i> <b>prima</b> del verbo → niente <i>non</i>; <b>dopo</b> il verbo → con <i>non</i>. <i>Neppure</i> è un po' più formale; <i>neanche</i> è il più frequente nel parlato.</p>
+{_dont([("Anche io no.", "<b>Neanch'io.</b>"), ("Anch'io non fumo.", "<b>Neanch'io</b> fumo."), ("Non mica è piccola.", "Non è <b>mica</b> piccola."), ("Non neanche tu sorridevi.", "<b>Neanche</b> tu sorridevi.")])}""",
+    24, """<p>Il portoghese brasiliano ha strutture simili (<i>não é pequeno não</i>, <i>nem eu</i>, <i>de jeito nenhum</i>): far notare <i>nem eu → neanch'io</i>. Il falso amico più forte: <i>affatto</i> ≠ <i>de fato</i> (= <i>infatti</i>). Lo studente dice <i>anche io no</i> per calco di <i>eu também não</i>.</p>""")
