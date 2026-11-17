@@ -1,0 +1,22 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Paulo": "en-US-Neural2-I",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-15": {
+   "15.1 Food around the world": "Danny: Welcome back to Gap Year Diaries! My guest today is a travel photographer, and he's also my friend Ana's brother. Paulo, welcome!\nPaulo: Thanks for having me. It's great to be here.\nDanny: You've been to more than forty countries. What do you photograph the most?\nPaulo: Honestly? Food. I prefer markets to museums. You learn more about a country at a fruit stall than in any guidebook.\nDanny: So what's the strangest thing you've ever eaten?\nPaulo: Probably grasshoppers in Oaxaca, in Mexico. They're called chapulines, and they're toasted with garlic, lime and salt. I'd rather have a steak, to be honest, but they were crunchy and tasty. Not bad at all!\nDanny: Would you rather try something new or order something safe?\nPaulo: Something new, always. But I have one simple rule: I'd rather eat where the locals eat. If a restaurant has a menu in five languages, I'd prefer to keep walking.\nDanny: What about English? Was food vocabulary ever a problem?\nPaulo: At first, yes! In London, I asked for chips and got a plate of fries. In the UK, potato chips are crisps. And the vegetables have different names too. An eggplant is an aubergine, and a zucchini is a courgette.\nDanny: And shrimp are prawns, right? Cookies are biscuits... It's like a different language!\nPaulo: Exactly. Another thing that confused me is meat. In English, the meat often has a different name from the animal. You eat pork, not pig, and beef, not cow. Veal comes from a calf.\nDanny: Do you cook when you travel?\nPaulo: When I can. I always carry a little box of spices: black pepper, paprika and turmeric. I buy fresh herbs like basil and coriander at the market. In the US, people call coriander leaves cilantro, by the way.\nDanny: Last question. Coffee or tea?\nPaulo: In Brazil, coffee, of course, in a tiny cup. But in London, I'd rather have a big mug of tea. And in the evening, a pint in a pub!\nDanny: Great answer. Thanks for coming on the show!",
+   "15.2 Repeat: tricky food words": "Narrator: vegetables\nNarrator: chocolate\nNarrator: salmon\nNarrator: broccoli\nNarrator: lettuce\nNarrator: cucumber\nNarrator: recipe\nNarrator: turmeric\nNarrator: oregano\nNarrator: herbs\nNarrator: steak\nNarrator: dessert"
+  }
+ },
+ "images": {
+  "b1-unit-15": {
+   "A": "fruit vegetable market stall",
+   "B": "spices bowls turmeric paprika",
+   "C": "fresh fish seafood ice market",
+   "D": "mug of tea table"
+  }
+ }
+}

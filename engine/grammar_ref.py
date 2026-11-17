@@ -1395,3 +1395,24 @@ def indirect_questions(b):
 <p class="small" style="margin:.8mm 0">When the question word is the subject, nothing moves: <i>What's in it?</i> → <i>Could you tell me what's in it?</i> &nbsp;The question mark depends on the start: <i>Could you tell me…<b>?</b></i> but <i>I was wondering if you have a table<b>.</b></i> &nbsp;Other polite requests: <i>Could we have the check, please? · Would you mind bringing some water? · Do you mind if I sit here?</i></p>
 {_dont([("Could you tell me what is the special?", "Could you tell me what the special <b>is</b>?"), ("Do you know where is the restroom?", "Do you know where the restroom <b>is</b>?"), ("Can you tell me what time does it open?", "Can you tell me what time it <b>opens</b>?"), ("Do you know is it spicy?", "Do you know <b>if</b> it's spicy?")])}""",
     22, """<p>Brazilians keep question order after <i>Do you know…</i> (<i>where is the restroom</i>) and forget <i>if</i> in yes/no questions, because Portuguese uses the same word order in both. Drill: you say a direct question; the student makes it indirect with a different start each time.</p>""")
+
+
+def preferences(b):
+    """B1 Unit 15: preferences: prefer X to Y, prefer + -ing / to, would prefer to, would rather (than), would rather not."""
+    b.page(f"""{b.sec("+", "Grammar reference: talking about preferences", "")}
+<div class="box" style="margin-top:0"><h4>GENERAL OR SPECIFIC?</h4>Use <b>prefer</b> for preferences in general (always, usually): <i>I prefer tea to coffee.</i> Use <b>would prefer</b> and <b>would rather</b> for a specific situation (now, tonight, on this trip): <i>I'd rather have tea tonight.</i></div>
+{_h("1. PREFER: IN GENERAL")}
+{_tbl(["form", "example", "note"], [
+    ["<b>prefer</b> + noun + <b>to</b> + noun", "<i>I prefer markets <b>to</b> museums.</i>", "not <i>than</i>"],
+    ["<b>prefer</b> + -ing + <b>to</b> + -ing", "<i>I prefer cooking <b>to</b> eating out.</i>", "both verbs in -ing"],
+    ["<b>prefer</b> + to + verb", "<i>She prefers to eat early.</i>", "no comparison"]], "8.3pt")}
+{_h("2. WOULD PREFER AND WOULD RATHER: NOW, IN THIS SITUATION")}
+{_tbl(["form", "example", "negative"], [
+    ["<b>'d prefer</b> + to + verb", "<i>I'd prefer <b>to</b> keep walking.</i>", "<i>I'd prefer <b>not to</b> eat octopus.</i>"],
+    ["<b>'d prefer</b> + noun", "<i>I'd prefer a table by the window.</i>", "–"],
+    ["<b>'d rather</b> + verb (no <i>to</i>)", "<i>I'd rather <b>eat</b> where the locals eat.</i>", "<i>I'd rather <b>not</b> try it.</i>"],
+    ["<b>'d rather</b> + verb + <b>than</b> + verb", "<i>I'd rather cook <b>than</b> order a pizza.</i>", "–"]], "8.3pt")}
+{_h("3. QUESTIONS AND SHORT ANSWERS")}
+<p class="small" style="margin:.5mm 0"><i>Which do you prefer, fish or meat?</i> (in general) · <i>Would you prefer tea or coffee?</i> · <i>Would you rather try something new or order something safe?</i> (now / imagine) · <i>Do you mind if we eat in? – <b>I'd rather not</b>, if that's OK.</i> &nbsp;<b>'d</b> = <i>would</i> in both: <i>I'd rather</i> = <i>I would rather</i> (not <i>I had rather</i>).</p>
+{_dont([("I prefer coffee than tea.", "I prefer coffee <b>to</b> tea."), ("I'd rather to eat at home.", "I'd rather <b>eat</b> at home."), ("I'd prefer eat at home.", "I'd prefer <b>to eat</b> at home."), ("I'd rather don't go.", "I'd rather <b>not</b> go."), ("I prefer more fish.", "I prefer fish. / I like fish more.")])}""",
+    22, """<p>Brazilians translate the Portuguese structure word for word and say <i>prefer… than</i>, add <i>to</i> after <i>would rather</i>, and make the negative with <i>don't</i>. Remember the pair: <b>prefer + to</b> (verb) / <b>rather + base form</b>. Drill: give two options (<i>sushi / pizza</i>); the student answers with <i>I prefer…to…</i> (in general) and <i>Tonight, I'd rather…</i>.</p>""")
