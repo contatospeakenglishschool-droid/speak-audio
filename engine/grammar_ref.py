@@ -1482,3 +1482,25 @@ def passive_tenses_modals(b):
 <p class="small" style="margin:.8mm 0">Questions: put the first auxiliary before the subject: <i><b>Has</b> it <b>been</b> washed? <b>Can</b> it <b>be</b> recycled?</i> &nbsp;Negatives: <i>It <b>hasn't been</b> paid. It <b>shouldn't be</b> thrown away.</i> &nbsp;Use <b>by</b> only when the agent is important: <i>It was signed <b>by</b> many brands.</i></p>
 {_dont([("The clothes are been made in Asia.", "The clothes are <b>being</b> made in Asia."), ("It can recycled.", "It can <b>be</b> recycled."), ("The factory has inspected.", "The factory has <b>been</b> inspected."), ("This shirt was maked in Brazil.", "This shirt was <b>made</b> in Brazil."), ("More things must to be done.", "More things must be done.")])}""",
     22, """<p>Brazilians confuse <i>been</i> and <i>being</i>, and forget <i>be</i> after a modal (<i>it can recycled</i>). Remind them: the last two words are always <b>be/been/being + participle</b>. Drill: say an active sentence (<i>They're building a new factory</i>); the student makes it passive (<i>A new factory is being built</i>).</p>""")
+
+
+def too_enough_one(b):
+    """B1 Unit 19: too / not enough / enough with adjectives, nouns and to-infinitive; one / ones to avoid repetition."""
+    b.page(f"""{b.sec("+", "Grammar reference: too, enough, one / ones", "")}
+<div class="box" style="margin-top:0"><h4>A PROBLEM OR JUST RIGHT?</h4><b>too</b> = more than we want or need (a problem): <i>It's <b>too</b> tight.</i> <b>enough</b> = the right amount: <i>It's long <b>enough</b>.</i> <b>not … enough</b> = less than we need (a problem): <i>My coat <b>isn't</b> warm <b>enough</b>.</i></div>
+{_h("1. WORD ORDER")}
+{_tbl(["structure", "example", "note"], [
+    ["<b>too</b> + adjective", "<i>These jeans are <b>too long</b>.</i>", "<i>too</i> goes before the adjective"],
+    ["adjective + <b>enough</b>", "<i>Is it <b>big enough</b>?</i>", "<i>enough</i> goes after the adjective"],
+    ["<b>enough</b> + noun", "<i>I don't have <b>enough money</b>.</i>", "<i>enough</i> goes before the noun"],
+    ["<b>too much / too many</b> + noun", "<i>It costs <b>too much</b>. There are <b>too many</b> people.</i>", "uncountable / plural"],
+    ["<b>too</b> / <b>enough</b> + (for someone) + to + verb", "<i>It's <b>too</b> expensive <b>for me to buy</b>. He's old <b>enough to</b> drive.</i>", "the result"]], "8.2pt")}
+<p class="small" style="margin:.5mm 0">Make <i>too</i> softer: <i>It's <b>a bit too</b> tight.</i> Make it stronger: <i>It's <b>much too</b> big / <b>way too</b> big</i> (informal). Don't use <i>very</i> for a problem: <i>very expensive</i> = a lot, but you might buy it; <i>too expensive</i> = you won't buy it.</p>
+{_h("2. ONE / ONES")}
+{_tbl(["", "example"], [
+    ["<b>one</b> = a singular countable noun", "<i>I like this jacket. Do you have a bigger <b>one</b>?</i>"],
+    ["<b>ones</b> = a plural noun", "<i>We've sold out of the black <b>ones</b>. These wool <b>ones</b> are on sale.</i>"],
+    ["<b>which one(s)? · this one · the one on the left</b>", "<i>Which <b>one</b> do you prefer? The <b>one</b> in the window.</i>"]], "8.3pt")}
+<p class="small" style="margin:.5mm 0">Don't use <i>one</i> for uncountable nouns: <i>I don't like this cotton. Do you have any other <b>fabric</b>?</i> (not <i>other one</i>).</p>
+{_dont([("It's enough big.", "It's <b>big enough</b>."), ("It's too much expensive.", "It's <b>much too</b> expensive. / It's <b>too</b> expensive."), ("I don't have money enough.", "I don't have <b>enough money</b>."), ("Do you have a bigger?", "Do you have a bigger <b>one</b>?"), ("I like the reds.", "I like the red <b>ones</b>.")])}""",
+    20, """<p>Brazilians often put <i>enough</i> before adjectives (<i>enough big</i>), and say <i>too much expensive</i>. They also leave out <i>one</i> (<i>a bigger</i>). Drill: show two objects and ask <i>Which one do you prefer? Why not the other one?</i></p>""")

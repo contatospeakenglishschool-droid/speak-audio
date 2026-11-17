@@ -1,0 +1,22 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Clerk": "en-US-Studio-O",
+  "Paulo": "en-US-Neural2-I",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-19": {
+   "19.1 A warm jacket": "Clerk: Hi there! Can I help you find anything?\nPaulo: Yes, please. I'm going to Iceland next month to take photos, and my coat isn't warm enough. I need something really warm.\nClerk: You've come to the right place. These down jackets are very popular, and they're waterproof too.\nPaulo: I like this one. Do you have it in black?\nClerk: Let me check... I'm afraid we've sold out of the black ones. We have it in dark green or navy.\nPaulo: Navy is fine. Do you have it in a medium?\nClerk: Here you go. The fitting rooms are over there, on the left.\nPaulo: Thanks... Hmm. It's a bit too tight around the shoulders. Do you have a bigger one?\nClerk: Sure. Here's a large. Try this one.\nPaulo: That's much better. It's long enough too, and it's really light. How much is it?\nClerk: It's on sale this week. It's thirty percent off, so it's one eighty-nine, plus tax.\nPaulo: Plus tax? Oh, right. I always forget. At home, the price on the tag is what you pay.\nClerk: It's a great deal. Would you like some gloves to go with it? These wool ones are on sale too.\nPaulo: No, thanks. I've already got some, so I'll leave the gloves. But I'll take the jacket.\nClerk: Great choice. Are you paying by cash or card?\nPaulo: Card, please. And can I return it if there's a problem?\nClerk: Sure. You have thirty days, but you need to keep the receipt. Would you like a bag?\nPaulo: No, thanks. I'll wear it. It's freezing outside!\nClerk: Ha! Enjoy Iceland!",
+   "19.2 Repeat: teen or ty": "Narrator: thirteen\nNarrator: thirty\nNarrator: fourteen\nNarrator: forty\nNarrator: fifteen\nNarrator: fifty\nNarrator: It's sixteen dollars.\nNarrator: It's sixty dollars.\nNarrator: It's thirty percent off.\nNarrator: Do you have it in a medium?"
+  }
+ },
+ "images": {
+  "b1-unit-19": {
+   "A": "clothing store interior racks",
+   "B": "down jacket winter puffer",
+   "C": "fitting room mirror curtain",
+   "D": "price tag sale clothes"
+  }
+ }
+}
