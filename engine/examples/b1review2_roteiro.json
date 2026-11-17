@@ -1,0 +1,29 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Ana": "en-US-Neural2-F",
+  "Bruno": "en-US-Chirp3-HD-Fenrir",
+  "Mrs. Lima": "en-US-Chirp3-HD-Vindemiatrix",
+  "Waiter": "en-US-Chirp3-HD-Charon",
+  "Clerk": "en-US-Studio-O",
+  "Paulo": "en-US-Neural2-I",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-review-2": {
+   "R2.1 Thanksgiving at the hostel": "Mrs. Lima: Danny, the table looks wonderful! Who taught you to cook a turkey?\nDanny: Nobody! I'd never cooked one before. My mom explained everything on the phone. She said, don't take it out of the oven until it's golden.\nAna: Well, it's perfect. Could you tell me what's in the stuffing? It's delicious.\nDanny: Bread, onions, celery and herbs. And no nuts, of course!\nBruno: Hey, look out the window. Someone in the building across the street is waving at us.\nAna: It must be your neighbor. She's always at that window.\nMrs. Lima: It can't be her. She's visiting her daughter this week. It might be one of my old guests.\nDanny: Whoever it is, happy Thanksgiving! In the US, it's on the fourth Thursday of November. Families get together, eat too much and say what they're thankful for.\nBruno: OK, but you'd better sit down first. You've been cooking all day.\nAna: And how's your ankle, Bruno?\nBruno: Much better, thanks. The doctor said I should rest for two weeks, but I'd rather run than sit at home. I've been running again since Monday.\nAna: So now most of the people at this table are runners!\nMrs. Lima: Not me. I prefer cooking to running. Danny, is that sweater new?\nDanny: No, it was bought second-hand. It was made in the nineteen nineties! And the coat on my chair was sent by Paulo. It's a bit too big for me, but it's warm enough for my trip south.\nAna: My brother never wears anything twice. He always buys a new one!\nBruno: Mrs. Lima, tell Ana how you met your husband.\nMrs. Lima: Oh, again? He had just arrived from Recife, and he came to my father's bakery every morning for one bread roll. I had never seen such a shy man!\nDanny: OK, everyone. As soon as you finish the turkey, there's pumpkin pie. It's my comfort food. It reminds me of home.\nAna: Danny, I'm thankful you're here. Even when you get the flu!",
+   "R2.2 Dictation: contractions and weak forms": "Narrator: Number one. She'd already left.\nNarrator: Number two. It must be cold outside.\nNarrator: Number three. You'd better see a doctor.\nNarrator: Number four. Could you tell me where it is?\nNarrator: Number five. I'd rather stay in tonight.\nNarrator: Number six. It's been made by hand.",
+   "R2.3 Dialogues": "Narrator: Dialogue one.\nWaiter: Good evening. Are you ready to order?\nAna: Yes. Could you tell me what today's special is?\nWaiter: It's grilled salmon with rice and a side salad.\nAna: I'd rather have something lighter. I'll have the tomato soup, please.\nWaiter: Of course. Anything to drink?\nAna: Just water, please. And could we have the check when you have a moment?\nNarrator: Dialogue two.\nClerk: Can I help you find anything?\nPaulo: Do you have these boots in a size ten?\nClerk: I'm afraid we've sold out of the brown ones. We have black ones.\nPaulo: Can I try them on?\nClerk: Sure. How are they?\nPaulo: They're a bit too tight. Do you have a bigger one? No? Then I think I'll leave them."
+  }
+ },
+ "pauses": {
+  "R2.2": 6000
+ },
+ "images": {
+  "b1-review-2": {
+   "A": "apartment window view city buildings",
+   "I": "roast turkey dinner table"
+  }
+ }
+}
