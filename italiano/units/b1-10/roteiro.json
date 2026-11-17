@@ -1,0 +1,21 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Camila": "it-IT-Chirp3-HD-Despina"
+ },
+ "pauses": {"R1.2": 5500},
+ "images": {},
+ "units": {
+  "it-b1-ripasso-1": {
+   "R1.1 Conversazione": "Narrator: Lunedì 15 febbraio, mattina. Al bar di Giulia, Júlia e Camila raccontano il fine settimana a Venezia.\nGiulia: Bentornate! Allora, com'era Venezia senza carnevale?\nJúlia: Bellissima e tranquilla. Quando siamo arrivate, quasi tutti i turisti erano già partiti.\nCamila: E abbiamo mangiato i cicchetti in un bacaro. Mica male!\nGiulia: E i biglietti da centoventi euro?\nJúlia: Non me ne parlare. Avrei dovuto controllare la data.\nCamila: Dai, non te la prendere: è stato un fine settimana perfetto.\nDavide: Camila, e il colloquio per il tirocinio? Com'è andato?\nCamila: Benissimo: mi hanno presa! Comincio a marzo.\nGiulia: Brava! Anch'io ho una notizia: ho trovato la barista. È Elena, l'amica di Davide. Non c'è nessuno che faccia il cappuccino come lei!\nDavide: Te l'avevo detto!\nNarrator: Entra Bruno.\nBruno: Ciao a tutti! Novità: Tommaso ha detto di sì. Da marzo è il mio nuovo coinquilino.\nJúlia: Quello serio? Può darsi che con te impari a ridere.\nBruno: E io imparerò a lavare i piatti. Gliel'ho promesso.\nGiulia: E il vestito nero, Júlia?\nJúlia: L'ho portato in un'altra tintoria e la macchia non c'è più. Me l'hanno ridato venerdì.\nCamila: Meno male! Pensavo che sarebbe rimasto macchiato per sempre.\nBruno: E ieri, per San Valentino?\nCamila: Pietro mi ha aspettata alla stazione con un fiore.\nGiulia: Che carino! Un ragazzo da sposare!\nBruno: E tu, Júlia? Niente San Valentino?\nJúlia: Io ho festeggiato in treno, con Camila e un panino. Mica male neanche quello!\nGiulia: Allora caffè per tutti, offre la casa. Ce l'avete fatta: gennaio è finito!",
+   "R1.2 Dettato": "Narrator: Ascolta e scrivi le frasi.\nNarrator: Uno. Quando sono arrivata, il film era già cominciato.\nNarrator: Due. Le chiavi? Te le lascio domani.\nNarrator: Tre. Avrei dovuto prenotare prima.\nNarrator: Quattro. Non te la prendere: ce la facciamo.\nNarrator: Cinque. È importante che voi lo sappiate.\nNarrator: Sei. Può darsi che abbia perso il telefono.\nNarrator: Sette. Cerco qualcuno che parli inglese.\nNarrator: Otto. Non è mica piccola!\nNarrator: Nove. Vuoi qualcosa da bere?",
+   "R1.3 Dialoghi": "Narrator: Dialogo uno. Al telefono.\nMarco: Júlia, il cliente di Milano ha risposto?\nJúlia: Sì, ha detto che le modifiche gli sono piaciute. Pensavo che si sarebbe lamentato ancora.\nMarco: Hai visto? Ti eri preoccupata per niente.\nJúlia: Hai ragione. Ma la prossima volta il progetto glielo mandi tu!\nNarrator: Dialogo due. Al bar.\nDavide: Allora, Tommaso viene a vivere da te?\nBruno: Sì, da marzo. Sono contento che abbia detto di sì.\nDavide: E Paolo? Gli dispiace andarsene?\nBruno: Per niente! Non vede l'ora di partire per l'Erasmus.\nDavide: Beato lui!"
+  }
+ }
+}
