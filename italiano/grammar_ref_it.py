@@ -1088,3 +1088,26 @@ def negazione_rinforzata(b):
 <p class="small" style="margin:.8mm 0"><b>Regola d'oro</b>: <i>mica, neanche, nemmeno, neppure</i> <b>prima</b> del verbo → niente <i>non</i>; <b>dopo</b> il verbo → con <i>non</i>. <i>Neppure</i> è un po' più formale; <i>neanche</i> è il più frequente nel parlato.</p>
 {_dont([("Anche io no.", "<b>Neanch'io.</b>"), ("Anch'io non fumo.", "<b>Neanch'io</b> fumo."), ("Non mica è piccola.", "Non è <b>mica</b> piccola."), ("Non neanche tu sorridevi.", "<b>Neanche</b> tu sorridevi.")])}""",
     24, """<p>Il portoghese brasiliano ha strutture simili (<i>não é pequeno não</i>, <i>nem eu</i>, <i>de jeito nenhum</i>): far notare <i>nem eu → neanch'io</i>. Il falso amico più forte: <i>affatto</i> ≠ <i>de fato</i> (= <i>infatti</i>). Lo studente dice <i>anche io no</i> per calco di <i>eu também não</i>.</p>""")
+
+
+def da_infinito(b):
+    """B1 Progresso 09: da + infinito (qualcosa da bere, una città da vedere, è da provare); da + nome (fame da lupi)."""
+    us = [("<b>qualcosa / niente / molto / poco</b> + da + infinito", "<i>Vuoi qualcosa <b>da bere</b>? · Non c'è niente <b>da fare</b>. · Ho tanto <b>da studiare</b>.</i>"),
+          ("<b>nome</b> + da + infinito (= che si deve / si può…)", "<i>una città <b>da vedere</b> · un film <b>da non perdere</b> · i piatti <b>da lavare</b></i>"),
+          ("<b>essere</b> + da + infinito (= si devono…)", "<i>Le sfrappole <b>sono da provare</b>. · Questo libro <b>è da leggere</b>.</i>"),
+          ("<b>avere</b> + nome + da + infinito", "<i>Ho un biglietto <b>da usare</b>. · Hai qualcosa <b>da dirmi</b>?</i>")]
+    dp = [("una cosa <b>da</b> mangiare", "una cosa che si mangia, che si può mangiare"), ("sono venuto <b>per</b> mangiare", "lo scopo della mia azione")]
+    dn = [("<b>da</b> + nome: uso, caratteristica", "<i>una maschera <b>da</b> gatto · una fame <b>da</b> lupi · occhiali <b>da</b> sole</i>"),
+          ("<b>di</b> + nome: materiale, contenuto", "<i>una maschera <b>di</b> carta · un bicchiere <b>di</b> vino</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: da + infinito", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>La preposizione <b>da</b> + infinito dice che una cosa <b>si deve</b> o <b>si può</b> fare: <i>una città da vedere</i> = una città che si deve vedere. È frequentissima nel parlato (<i>qualcosa da bere, niente da fare</i>) e in molti modi di dire.</div>
+{_h("1. QUANDO SI USA")}
+{_tbl(["struttura", "esempi"], us, "8pt", ["62mm", None])}
+<div class="two"><div>{_h("2. DA O PER + INFINITO?")}
+{_tbl(["frase", "significato"], dp, "8pt", ["34mm", None])}
+<p class="small" style="margin:.5mm 0"><b>Da</b> descrive la cosa (che cosa si fa con lei); <b>per</b> dice lo scopo di chi fa l'azione.</p></div>
+<div>{_h("3. DA O DI + NOME?")}
+{_tbl(["regola", "esempi"], dn, "8pt", ["34mm", None])}</div></div>
+<p class="small" style="margin:.8mm 0"><b>Ricorda</b>: con <i>da</i> + infinito l'oggetto «subisce» l'azione: <i>i piatti da lavare</i> (qualcuno li deve lavare). Nella negazione: <i>un film da <b>non</b> perdere</i>.</p>
+{_dont([("Vuoi qualcosa per bere?", "Vuoi qualcosa <b>da</b> bere?"), ("Non c'è niente a fare.", "Non c'è niente <b>da</b> fare."), ("Una città per vedere.", "Una città <b>da</b> vedere."), ("Una maschera di gatto.", "Una maschera <b>da</b> gatto.")])}""",
+    24, """<p>Il portoghese dice <i>algo para beber, nada para fazer / nada a fazer</i>: lo studente traduce con <i>per</i> o <i>a</i>. In italiano serve <i>da</i>. Esercizio veloce: l'insegnante dice un nome (<i>un libro, un film, una città, un piatto</i>) e lo studente aggiunge <i>da</i> + infinito (<i>da leggere, da vedere…</i>).</p>""")

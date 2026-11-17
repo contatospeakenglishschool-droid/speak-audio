@@ -1,0 +1,27 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Camila": "it-IT-Chirp3-HD-Despina"
+ },
+ "pauses": {
+  "09.2": 2500
+ },
+ "images": {
+  "it-b1-unita-09": {
+   "A": "venice carnival mask",
+   "B": "chiacchiere carnival fried pastry sugar",
+   "C": "venice canal gondola winter",
+   "D": "italian hand gesture"
+  }
+ },
+ "units": {
+  "it-b1-unita-09": {
+   "09.1 Modi di dire": "Narrator: Martedì 9 febbraio, martedì grasso. Al bar di Giulia c'è un vassoio enorme di sfrappole, i dolci bolognesi di Carnevale. Camila arriva con una maschera da gatto.\nGiulia: Ecco la gatta! Vuoi qualcosa da bere? Le sfrappole sono da provare: le ho fatte io stamattina.\nCamila: Grazie! Un caffè e una sfrappola... anzi, tre. Ho una fame da lupi.\nDavide: Brava! A Carnevale ogni scherzo vale... e ogni sfrappola pure.\nCamila: Giulia, domani ho il colloquio per il tirocinio. Sono nervosissima.\nGiulia: In bocca al lupo!\nCamila: Grazie... Ma perché un lupo? Prima ho detto una fame da lupi, adesso tu dici in bocca al lupo. Quanti lupi ci sono in Italia?\nDavide: Tantissimi, nei modi di dire! E a in bocca al lupo non si risponde grazie. Si dice: crepi!\nCamila: Crepi! Va bene. Che lingua difficile.\nNarrator: Entra Júlia, con il telefono in mano e una faccia disperata.\nJúlia: Ciao a tutti. Ragazzi, ho preso un granchio. Ho comprato due biglietti del treno per il carnevale di Venezia... per sabato prossimo. Ma il carnevale finisce oggi!\nCamila: Un granchio? Hai comprato un granchio? È una cosa da mangiare?\nJúlia: No! Prendere un granchio vuol dire sbagliare, fare un errore. Ho sbagliato la data.\nGiulia: E scommetto che i biglietti ti sono costati un occhio della testa.\nJúlia: Centoventi euro. E non c'è niente da fare: non si possono cambiare.\nDavide: Dai, Venezia è sempre una città da vedere, anche senza carnevale.\nCamila: Aspettate. Un occhio della testa? Avete modi di dire con gli animali, con gli occhi, con la bocca...\nGiulia: E con le mani! Guarda.\nNarrator: Giulia unisce le punte delle dita e muove la mano su e giù.\nGiulia: Questo vuol dire: ma che cosa dici?\nCamila: Questo lo conosco! Lo fanno tutti gli italiani nei film.\nDavide: E questo?\nNarrator: Davide appoggia l'indice sulla guancia e lo gira.\nDavide: Vuol dire: buono, buonissimo.\nCamila: Allora... per le tue sfrappole, Giulia!\nGiulia: Grazie, cara. Ma attenta: non fare gesti da sola per strada, se no ti prendono per matta!\nJúlia: Comunque sabato a Venezia ci vado lo stesso. Ho un biglietto in più. Chi viene con me?\nCamila: Io! Sabato non ho niente da fare.\nGiulia: Brava, Júlia: hai preso due piccioni con una fava. Venezia e una compagna di viaggio!\nCamila: Piccioni? Adesso anche gli uccelli! Basta, mi arrendo.",
+   "09.2 Ripeti": "Narrator: Vuoi qualcosa da bere?\nNarrator: Non c'è niente da fare.\nNarrator: Venezia è una città da vedere.\nNarrator: Ho una fame da lupi.\nNarrator: In bocca al lupo! Crepi!\nNarrator: Sabato non ho niente da fare."
+  }
+ }
+}
