@@ -1010,3 +1010,30 @@ def congiuntivo_sistema(b):
 <p class="small" style="margin:.8mm 0"><b>4. INDICATIVO</b> per i fatti sicuri: <i>So che <b>viene</b>. · È vero che <b>costa</b> tanto. · Secondo me <b>è</b> buonissimo.</i></p>
 {_dont([("Spero che ti piace.", "Spero che ti <b>piaccia</b>."), ("Voglio che vieni.", "Voglio che tu <b>venga</b>."), ("È importante che lo sapete.", "È importante che lo <b>sappiate</b>.")])}""",
     24, """<p>Il portoghese aiuta: <i>espero que você goste → spero che ti piaccia</i>. Ma il brasiliano parlato usa spesso l'indicativo (<i>acho que é</i>), e lo trasferisce: <i>penso che è</i>. Far notare i paralleli <i>seja → sia, tenha → abbia, faça → faccia, saiba → sappia, venha → venga</i>.</p>""")
+
+
+def congiuntivo_passato(b):
+    """B1 Progresso 06: il congiuntivo passato; ipotesi (può darsi che); di + infinito / che + congiuntivo."""
+    fm = [("perdere", "abbia perso", "abbia perso", "abbia perso", "abbiamo perso", "abbiate perso", "abbiano perso"),
+          ("andare", "sia andato/a", "sia andato/a", "sia andato/a", "siamo andati/e", "siate andati/e", "siano andati/e")]
+    tm = [("Penso che Bruno <b>studi</b>.", "adesso (contemporaneità)", "congiuntivo presente"),
+          ("Penso che Bruno <b>abbia studiato</b>.", "prima (anteriorità)", "congiuntivo passato")]
+    ip = [("<b>può darsi che</b> + congiuntivo", "<i>Può darsi che <b>abbia perso</b> il telefono.</i>"),
+          ("<b>è possibile che</b> + congiuntivo", "<i>È possibile che <b>si sia innamorato</b>.</i>"),
+          ("<b>forse</b> + indicativo", "<i>Forse <b>ha perso</b> il telefono.</i>"),
+          ("<b>non è che…?</b> + indicativo", "<i>Non è che <b>ha</b> gli esami?</i>")]
+    ds = [("soggetti <b>diversi</b> → <b>che</b> + congiuntivo", "<i>(Io) spero che (lui) non <b>abbia</b> problemi.</i>"),
+          ("<b>stesso</b> soggetto → <b>di</b> + infinito", "<i>(Io) spero <b>di</b> non <b>avere</b> problemi.</i>"),
+          ("stesso soggetto, prima → <b>di</b> + infinito passato", "<i>Penso <b>di averlo visto</b>. · Credo <b>di essere arrivata</b> tardi.</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: il congiuntivo passato", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Il <b>congiuntivo passato</b> si usa dopo le stesse espressioni del congiuntivo presente (opinione, emozione, dubbio…), ma per un fatto <b>già successo</b>: <i>Spero che non gli <b>sia successo</b> niente.</i> Quando il soggetto è lo stesso, al posto di <i>che</i> + congiuntivo si usa <i>di</i> + infinito.</div>
+{_h("1. LA FORMA: CONGIUNTIVO DI AVERE / ESSERE + PARTICIPIO")}
+{_tbl(["verbo", "io", "tu", "lui / lei / Lei", "noi", "voi", "loro"], fm, "7.9pt", ["15mm", None, None, None, None, None, None])}
+{_h("2. PRESENTE O PASSATO?")}
+{_tbl(["frase", "quando?", "tempo"], tm, "8pt", ["58mm", None, "40mm"])}
+<div class="two"><div>{_h("3. FARE IPOTESI")}
+{_tbl(["espressione", "esempio"], ip, "7.8pt", ["30mm", None])}</div>
+<div>{_h("4. CHE + CONGIUNTIVO O DI + INFINITO?")}
+{_tbl(["regola", "esempio"], ds, "7.8pt", ["30mm", None])}</div></div>
+{_dont([("Penso che ho visto Bruno.", "Penso <b>di aver visto</b> Bruno."), ("Spero che non è successo niente.", "Spero che non <b>sia successo</b> niente."), ("Può darsi che ha perso il telefono.", "Può darsi che <b>abbia perso</b> il telefono.")])}""",
+    24, """<p>Il portoghese usa <i>que</i> anche con lo stesso soggetto (<i>acho que vi o Bruno</i>): lo studente dice <i>penso che ho visto</i>. In italiano: <i>penso di aver visto</i>. <i>Pode ser que tenha perdido</i> → <i>può darsi che abbia perso</i>: qui il parallelo aiuta.</p>""")

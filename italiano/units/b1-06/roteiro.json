@@ -1,0 +1,27 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus"
+ },
+ "pauses": {
+  "06.2": 2500
+ },
+ "images": {
+  "it-b1-unita-06": {
+   "A": "two women whispering secret",
+   "B": "woman worried looking at phone",
+   "C": "student studying books library night",
+   "D": "friends talking coffee bar table"
+  }
+ },
+ "units": {
+  "it-b1-unita-06": {
+   "06.1 Può darsi che...": "Narrator: Giovedì 28 gennaio, sera. Al bar di Giulia, Júlia guarda il telefono per la decima volta.\nGiulia: Ancora niente?\nJúlia: Niente. Bruno non risponde da tre giorni. Non legge nemmeno i messaggi. Spero che non gli sia successo niente.\nGiulia: Dai, può darsi che abbia perso il telefono. Succede.\nJúlia: Bruno? Lui il telefono non lo perde mai: ci dorme insieme!\nDavide: Io penso di averlo visto martedì, in via Zamboni. Camminava veloce, con dei libri sotto il braccio.\nJúlia: Martedì? Allora almeno è vivo. Ma perché non mi risponde?\nGiulia: Secondo me è possibile che si sia innamorato.\nDavide: Di Chiara? Ma stanno insieme da più di un anno!\nGiulia: Allora può darsi che abbiano litigato. È strano che non sia venuto neanche al calcetto, no, Davide?\nDavide: Infatti. Stefano dice che martedì non si è visto. È la prima volta che non viene.\nJúlia: Vedete? Non credo che sia normale. Domani vado a casa sua.\nGiulia: Aspetta un attimo. Gennaio... Bruno studia all'università, no? Non è che ha gli esami?\nJúlia: Gli esami! Oddio, è vero. Me l'aveva detto a Natale. Credo di averlo dimenticato.\nDavide: Ecco il mistero risolto. A gennaio anch'io spengo il telefono.\nNarrator: In quel momento la porta si apre. È Bruno, con una faccia stanchissima ma un grande sorriso.\nBruno: Ciao a tutti! Scusa, Júlia, ho visto adesso i tuoi venti messaggi. Ho spento il telefono per tre giorni: oggi avevo l'esame di Storia medievale.\nJúlia: Lo sapevo! Cioè... l'abbiamo appena capito. E com'è andato?\nBruno: Ventisei! Non è il ventinove dell'estate, ma va benissimo.\nGiulia: Bravo! E Chiara? Qui qualcuno pensa che abbiate litigato!\nBruno: Litigato? Ha studiato con me tutti i giorni. Anzi, è stata lei a spegnermi il telefono!\nJúlia: Allora sono contenta che sia andato tutto bene. Ma la prossima volta mandami almeno un messaggio: sono vivo.\nBruno: Promesso. E stasera offro io: mi sembra di essermelo meritato!",
+   "06.2 Ripeti": "Narrator: Può darsi che abbia perso il telefono.\nNarrator: Spero che non gli sia successo niente.\nNarrator: Penso di averlo visto martedì.\nNarrator: È strano che non sia venuto.\nNarrator: Credo di averlo dimenticato.\nNarrator: Sono contenta che sia andato tutto bene."
+  }
+ }
+}
