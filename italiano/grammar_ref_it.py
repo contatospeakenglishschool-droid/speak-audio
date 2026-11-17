@@ -1037,3 +1037,28 @@ def congiuntivo_passato(b):
 {_tbl(["regola", "esempio"], ds, "7.8pt", ["30mm", None])}</div></div>
 {_dont([("Penso che ho visto Bruno.", "Penso <b>di aver visto</b> Bruno."), ("Spero che non è successo niente.", "Spero che non <b>sia successo</b> niente."), ("Può darsi che ha perso il telefono.", "Può darsi che <b>abbia perso</b> il telefono.")])}""",
     24, """<p>Il portoghese usa <i>que</i> anche con lo stesso soggetto (<i>acho que vi o Bruno</i>): lo studente dice <i>penso che ho visto</i>. In italiano: <i>penso di aver visto</i>. <i>Pode ser que tenha perdido</i> → <i>può darsi che abbia perso</i>: qui il parallelo aiuta.</p>""")
+
+
+def congiuntivo_relative(b):
+    """B1 Progresso 07: il congiuntivo nelle frasi relative (cerco qualcuno che…); il linguaggio degli annunci."""
+    ic = [("una persona <b>reale</b>, che conosco", "indicativo", "<i>Conosco una ragazza che <b>cerca</b> lavoro.</i>"),
+          ("una persona <b>ideale</b>, che cerco", "congiuntivo", "<i>Cerco qualcuno che <b>abbia</b> esperienza.</i>"),
+          ("una persona che <b>non esiste</b>", "congiuntivo", "<i>Non c'è nessuno che <b>lavi</b> i piatti volentieri.</i>"),
+          ("una <b>domanda</b>: esiste?", "congiuntivo", "<i>Conosci qualcuno che <b>parli</b> inglese?</i>")]
+    intro = [("cerco / cerchiamo", "qualcuno che…"), ("ho bisogno di / mi serve", "una persona che…"), ("vorrei / voglio", "una casa che…"),
+             ("non c'è nessuno / niente", "che…"), ("c'è qualcuno…?", "che…")]
+    an = [("<b>Cercasi</b> barista. · <b>Affittasi</b> stanza. · <b>Vendesi</b> bici.", "verbo + <i>si</i>: tipico dei cartelli"),
+          ("<b>Si richiede</b> / È richiesta esperienza.", "è obbligatorio"),
+          ("<b>È gradita</b> la conoscenza dell'inglese.", "è un vantaggio"),
+          ("<b>Astenersi</b> perditempo.", "non scrivete se non siete interessati")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: il congiuntivo nelle frasi relative", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Dopo <i>che</i> relativo si usa di solito l'indicativo. Ma quando parliamo di una persona o di una cosa <b>ideale</b>, che cerchiamo e che forse non esiste, si usa il <b>congiuntivo</b>: <i>Cerco qualcuno che <b>sappia</b> fare il cappuccino.</i> È tipico degli annunci di lavoro, di case e di servizi.</div>
+{_h("1. INDICATIVO O CONGIUNTIVO?")}
+{_tbl(["di chi parlo?", "modo", "esempio"], ic, "8pt", ["46mm", "22mm", None])}
+<div class="two"><div>{_h("2. LE ESPRESSIONI CHE LO INTRODUCONO")}
+{_tbl(["prima parte", "+ relativa"], intro, "8pt", ["38mm", None])}</div>
+<div>{_h("3. LA LINGUA DEGLI ANNUNCI")}
+{_tbl(["espressione", "significato"], an, "7.6pt", ["44mm", None])}</div></div>
+<p class="small" style="margin:.8mm 0"><b>Uno che / una che</b> = qualcuno che (informale): <i>Non voglio uno che <b>stia</b> sempre al telefono.</i> La stessa regola vale per le cose: <i>Cerco una stanza che <b>sia</b> vicina all'università.</i></p>
+{_dont([("Cerco qualcuno che ha esperienza.", "Cerco qualcuno che <b>abbia</b> esperienza."), ("Conosco una ragazza che cerchi lavoro.", "Conosco una ragazza che <b>cerca</b> lavoro."), ("Non c'è nessuno che lava i piatti.", "Non c'è nessuno che <b>lavi</b> i piatti.")])}""",
+    24, """<p>Il portoghese funziona allo stesso modo (<i>procuro alguém que tenha experiência</i>), ma nel parlato brasiliano spesso si usa l'indicativo (<i>que tem</i>): ricordare il parallelo <i>tenha → abbia, saiba → sappia, fale → parli</i>. L'errore opposto: dopo <i>conosco</i> lo studente mette il congiuntivo per ipercorrezione.</p>""")

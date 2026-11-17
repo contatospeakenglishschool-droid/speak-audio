@@ -1,0 +1,27 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus"
+ },
+ "pauses": {
+  "07.2": 2500
+ },
+ "images": {
+  "it-b1-unita-07": {
+   "A": "help wanted sign shop window",
+   "B": "barista making cappuccino latte art",
+   "C": "dirty dishes kitchen sink",
+   "D": "job interview handshake"
+  }
+ },
+ "units": {
+  "it-b1-unita-07": {
+   "07.1 Cerco qualcuno che...": "Narrator: Martedì 2 febbraio, mattina. Sulla porta del bar di Giulia c'è un cartello nuovo. Júlia entra con Bruno.\nJúlia: Cercasi barista? Giulia, cerchi qualcuno?\nGiulia: Sì. Da marzo apro anche la sera, con l'aperitivo, e da sola non ce la faccio. Ma il cartello non basta: devo mettere un annuncio online. Mi aiutate a scriverlo?\nJúlia: Certo. Allora, che tipo di persona cerchi?\nGiulia: Cerco qualcuno che abbia un po' di esperienza, che sappia fare un cappuccino come si deve e che parli almeno un po' d'inglese, per i turisti.\nBruno: E che sia simpatico, no? Al bar è la cosa più importante.\nGiulia: Soprattutto che sia puntuale. L'ultimo ragazzo arrivava sempre alle otto e mezza.\nJúlia: Scriviamo: cerchiamo una persona dinamica, che possa lavorare anche nel fine settimana.\nGiulia: Perfetto. Ah, e non voglio uno che stia tutto il giorno al telefono.\nBruno: Questo però non lo scriviamo!\nNarrator: Mentre Júlia scrive, entra Davide.\nDavide: Che cosa fate? Un annuncio? Io conosco una ragazza che cerca proprio un lavoro serale. Si chiama Elena, studia ingegneria con me e d'estate ha fatto la barista a Rimini.\nGiulia: Davvero? Mandamela domani mattina!\nBruno: Già che ci siamo, anch'io devo scrivere un annuncio. A marzo Paolo parte per l'Erasmus e cerco un coinquilino.\nJúlia: E che coinquilino cerchi?\nBruno: Uno che non fumi, che non faccia feste tutte le sere e che lavi i piatti. Paolo non li ha mai lavati!\nDavide: Allora non lo trovi. Non c'è nessuno che lavi i piatti volentieri.\nGiulia: Io conosco una persona che li lava benissimo: io! Ma la stanza non mi serve.\nJúlia: Bruno, scrivi: cerco una persona tranquilla e ordinata. È più gentile.\nBruno: Va bene. E aggiungo: è gradita la conoscenza del caffè brasiliano.\nGiulia: Ecco: tu cerchi un coinquilino che ti faccia il caffè, e io cerco un barista. Siamo uguali!",
+   "07.2 Ripeti": "Narrator: Cerco qualcuno che abbia esperienza.\nNarrator: Cerchiamo una persona dinamica.\nNarrator: Conosco una ragazza che cerca lavoro.\nNarrator: Conosci qualcuno che parli inglese?\nNarrator: Non c'è nessuno che lavi i piatti.\nNarrator: Cercasi barista."
+  }
+ }
+}
