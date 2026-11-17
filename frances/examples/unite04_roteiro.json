@@ -1,0 +1,30 @@
+{
+ "material": "speak-essentiel",
+ "characters": {
+  "Camila": "fr-FR-Chirp3-HD-Autonoe",
+  "Thomas": "fr-FR-Chirp3-HD-Charon",
+  "Hugo": "fr-FR-Chirp3-HD-Puck",
+  "Madame Lefèvre": "fr-FR-Studio-A",
+  "Narratrice": "fr-FR-Chirp3-HD-Aoede"
+ },
+ "pauses": {"04.2": 2500, "04.3": 3000},
+ "units": {
+  "fr-a1-unite-04": {
+   "04.1 Dialogue": "Narratrice: Dialogue un.\nThomas: Camila, tu aimes le football ?\nCamila: Non, je n'aime pas le football. J'adore le tennis !\nThomas: Le tennis ? Super ! J'aime le tennis.\nNarratrice: Dialogue deux.\nHugo: Tu aimes le cinéma, Camila ?\nCamila: Oui, j'aime le cinéma. Et toi ?\nHugo: J'adore le cinéma ! Mais je déteste les films d'horreur.\nNarratrice: Dialogue trois.\nMadame Lefèvre: Camila, vous aimez l'opéra ?\nCamila: Euh... non, madame, je n'aime pas l'opéra.\nMadame Lefèvre: Ah ! Moi, j'adore l'opéra !",
+   "04.2 Les loisirs": "Narratrice: le tennis\nNarratrice: le football\nNarratrice: la musique\nNarratrice: le cinéma\nNarratrice: la danse\nNarratrice: l'opéra\nNarratrice: les voyages\nNarratrice: le café",
+   "04.3 J'aime, je n'aime pas": "Narratrice: J'adore le tennis.\nNarratrice: J'aime le cinéma.\nNarratrice: Je n'aime pas le football.\nNarratrice: Je déteste les films d'horreur.\nNarratrice: Tu aimes la musique ?\nNarratrice: Vous aimez l'opéra ?"
+  }
+ },
+ "images": {
+  "fr-a1-unite-04": {
+   "A": "tennis racket ball court",
+   "B": "soccer ball grass stadium",
+   "C": "headphones music",
+   "D": "cinema red seats",
+   "E": "couple dancing tango",
+   "F": "opera house lyon",
+   "G": "suitcase travel airport",
+   "H": "espresso cup cafe table"
+  }
+ }
+}
