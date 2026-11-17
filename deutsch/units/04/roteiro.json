@@ -1,0 +1,19 @@
+{
+ "material": "speak-essenziell",
+ "characters": {
+  "Rafael": "de-DE-Chirp3-HD-Iapetus",
+  "Lena": "de-DE-Chirp3-HD-Achernar",
+  "Aylin": "de-DE-Chirp3-HD-Kore",
+  "Herr Schneider": "de-DE-Studio-B",
+  "Max": "de-DE-Chirp3-HD-Charon",
+  "Narrator": "de-DE-Chirp3-HD-Aoede"
+ },
+ "pauses": {"04.2": 2500, "04.3": 1800},
+ "units": {
+  "de-a1-einheit-04": {
+   "04.1 Dialog": "Narrator: Dialog eins.\nLena: Ist das deine Familie?\nRafael: Ja. Das ist mein Vater, Paulo. Und das ist meine Mutter, Ana.\nLena: Und wer ist das?\nRafael: Das ist meine Schwester, Bia. Sie ist vierundzwanzig.\nLena: Hast du Geschwister?\nRafael: Ja, ich habe eine Schwester.\nNarrator: Dialog zwei.\nAylin: Schau mal, das ist meine Tochter, Elif.\nRafael: Oh, wie alt ist sie?\nAylin: Sie ist sechs. Hast du Kinder, Rafael?\nRafael: Nein. Ich bin neunundzwanzig und ledig!\nNarrator: Dialog drei.\nHerr Schneider: Guten Tag, Herr Costa! Das ist mein Sohn, Max.\nMax: Hallo! Freut mich.\nRafael: Freut mich auch! Wie geht es Ihnen, Herr Schneider?\nHerr Schneider: Gut, danke!",
+   "04.2 Wiederhole Familie": "Narrator: der Opa\nNarrator: die Oma\nNarrator: der Vater\nNarrator: die Mutter\nNarrator: der Bruder\nNarrator: die Schwester\nNarrator: der Sohn\nNarrator: die Tochter",
+   "04.3 Zahlen": "Narrator: null\nNarrator: eins\nNarrator: zwei\nNarrator: drei\nNarrator: vier\nNarrator: fünf\nNarrator: sechs\nNarrator: sieben\nNarrator: acht\nNarrator: neun\nNarrator: zehn\nNarrator: elf\nNarrator: zwölf\nNarrator: dreizehn\nNarrator: vierzehn\nNarrator: fünfzehn\nNarrator: sechzehn\nNarrator: siebzehn\nNarrator: achtzehn\nNarrator: neunzehn\nNarrator: zwanzig\nNarrator: dreißig\nNarrator: vierzig\nNarrator: fünfzig\nNarrator: sechzig\nNarrator: siebzig\nNarrator: achtzig\nNarrator: neunzig\nNarrator: hundert\nNarrator: einundzwanzig\nNarrator: vierundzwanzig\nNarrator: neunundzwanzig"
+  }
+ }
+}
