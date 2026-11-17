@@ -1,0 +1,27 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck"
+ },
+ "pauses": {
+  "04.2": 2500
+ },
+ "images": {
+  "it-b1-unita-04": {
+   "A": "frustrated woman laptop office evening",
+   "B": "dry cleaning shop clothes hanging",
+   "C": "chamomile tea cup",
+   "D": "architect office desk drawings"
+  }
+ },
+ "units": {
+  "it-b1-unita-04": {
+   "04.1 Me ne vado!": "Narrator: Mercoledì 20 gennaio, sei di sera. Nello studio di architettura Júlia chiude il computer con un colpo.\nMarco: Ehi, piano! Che cosa ti ha fatto il povero computer?\nJúlia: Il computer niente. Il cliente di Milano, invece... Ha appena chiamato: vuole cambiare tutto il progetto. Lunedì gli piaceva, oggi non gli piace più!\nMarco: Dai, non prendertela così. I clienti sono fatti così.\nJúlia: Scusa, Marco, non me la prendo con te. Ce l'ho con lui: tre giorni a Milano per niente!\nMarco: E il capo che cosa dice?\nJúlia: Che dobbiamo consegnare le modifiche entro venerdì. Venerdì! Non ce la faccio.\nMarco: Ce la facciamo. Domani ci lavoriamo insieme e vedrai che ce la caviamo. Adesso vattene a casa, è tardi.\nJúlia: Hai ragione. Me ne vado, prima di buttare il computer dalla finestra.\nNarrator: Mezz'ora dopo, al bar di Giulia. Davide studia a un tavolino.\nGiulia: Che faccia! Giornataccia?\nJúlia: Giornataccia. Prima il cliente, poi la tintoria. Sono passata a prendere il vestito... e la macchia c'è ancora.\nGiulia: No! E te la sei presa con la ragazza della tintoria?\nJúlia: Un po'. Le ho detto: e allora che cosa pago? Poi me ne sono andata senza salutare. Che figuraccia.\nDavide: Ti capisco. Stamattina avevo l'esame orale di fisica. Il professore mi ha fatto una domanda e io non sapevo niente.\nJúlia: E come te la sei cavata?\nDavide: Con un sorriso e un disegno alla lavagna. Ventiquattro! Non so come, ma me la sono cavata.\nGiulia: Vedi, Júlia? Le giornate storte capitano a tutti. Non te la prendere: il vestito lo porti in un'altra tintoria, e se il cliente vuole un progetto diverso, glielo fai diverso.\nJúlia: Hai ragione. E con Camila non ce l'ho, eh. È stato un incidente.\nDavide: E con il cliente?\nJúlia: Con il cliente sì, ce l'ho ancora un po'. Almeno fino a venerdì.\nGiulia: Allora stasera niente cappuccino: una camomilla. Offre la casa.\nJúlia: Grazie, Giulia. Che cosa farei senza di te?",
+   "04.2 Ripeti": "Narrator: Me ne vado.\nNarrator: Non te la prendere.\nNarrator: Ce l'ho con il cliente.\nNarrator: Non ce la faccio più.\nNarrator: Me la sono cavata.\nNarrator: Vattene a casa."
+  }
+ }
+}

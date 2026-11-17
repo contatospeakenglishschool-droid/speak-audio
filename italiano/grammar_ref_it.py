@@ -956,3 +956,28 @@ def condizionale_passato(b):
 {_dont([("Ha detto che verrebbe.", "Ha detto che <b>sarebbe venuto</b>."), ("Dovrei prenotare prima. (ieri)", "<b>Avrei dovuto</b> prenotare prima."),
         ("Mi avrei arrabbiata.", "Mi <b>sarei</b> arrabbiata.")])}""",
     24, """<p>In portoghese <i>disse que viria</i> usa il condizionale semplice: per questo lo studente dice <i>ha detto che verrebbe</i>. In italiano il futuro nel passato vuole il condizionale <b>passato</b>. Anche <i>eu devia ter feito</i> → <i>avrei dovuto fare</i> (non <i>dovevo avere fatto</i>).</p>""")
+
+
+def verbi_pronominali(b):
+    """B1 Progresso 04: i verbi pronominali (andarsene, prendersela, cavarsela, avercela con, farcela)."""
+    vb = [("andarsene", "andare via da un posto", "me <b>ne</b> vado", "me ne sono andato/a"),
+          ("prendersela", "offendersi, arrabbiarsi", "me <b>la</b> prendo", "me la sono pres<b>a</b>"),
+          ("cavarsela", "riuscire in una situazione difficile", "me <b>la</b> cavo", "me la sono cavat<b>a</b>"),
+          ("avercela con", "essere arrabbiato con qualcuno", "<b>ce l'</b>ho con te", "ce l'avevo con te"),
+          ("farcela", "riuscire a fare qualcosa", "<b>ce la</b> faccio", "ce l'ho fatt<b>a</b>")]
+    cj = [("io", "me ne vado", "me la prendo"), ("tu", "te ne vai", "te la prendi"), ("lui / lei / Lei", "se ne va", "se la prende"),
+          ("noi", "ce ne andiamo", "ce la prendiamo"), ("voi", "ve ne andate", "ve la prendete"), ("loro", "se ne vanno", "se la prendono")]
+    im = [("imperativo", "<b>Vattene!</b> · <b>Andatevene!</b>"), ("imperativo negativo", "Non te la prendere! = Non prender<b>tela</b>!"),
+          ("con dovere / potere", "Devo andar<b>mene</b>. = <b>Me ne</b> devo andare.")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: i verbi pronominali", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Un <b>verbo pronominale</b> ha uno o due pronomi «fissi» (<i>-sene, -sela, -cela</i>) che cambiano il significato del verbo: <i>andare</i> → <i>andar<b>sene</b></i> (andare via), <i>prendere</i> → <i>prender<b>sela</b></i> (offendersi). Sono molto frequenti nella lingua parlata.</div>
+{_h("1. I VERBI DELL'UNITÀ")}
+{_tbl(["verbo", "significato", "presente", "passato"], vb, "8.2pt", ["24mm", "52mm", "30mm", None])}
+<div class="two"><div>{_h("2. IL PRESENTE")}
+{_tbl(["", "andarsene", "prendersela"], cj, "8pt", ["22mm", None, None])}</div>
+<div>{_h("3. IL PASSATO PROSSIMO")}
+<p class="small" style="margin:.5mm 0"><i>Andarsene, prendersela, cavarsela</i> → ausiliare <b>essere</b>: <i>me ne sono andat<b>a</b></i> (accordo con il soggetto), <i>me la sono pres<b>a</b></i> (sempre <b>-a</b>, come <i>la</i>).<br><i>Farcela</i> → ausiliare <b>avere</b>: <i>ce l'ho fatt<b>a</b></i>. Per <i>avercela</i> nel passato si usa l'imperfetto: <i>ce l'avevo con lui</i>.</p></div></div>
+{_h("4. IMPERATIVO E VERBI MODALI")}
+{_tbl(["forma", "esempio"], im, "8pt", ["38mm", None])}
+{_dont([("Mi ne vado.", "<b>Me</b> ne vado."), ("Me la ho presa.", "Me la <b>sono</b> presa."), ("Ce la ho con lui.", "<b>Ce l'ho</b> con lui.")])}""",
+    24, """<p>Il portoghese non ha questi verbi: lo studente dice <i>vado via</i> (corretto) ma non capisce <i>me ne vado</i>, oppure dice <i>mi arrabbio con te</i> invece di <i>ce l'ho con te</i>. Davanti a <i>ne</i> e <i>la</i>: <i>mi → me, ti → te, si → se, ci → ce</i>, come nei pronomi combinati.</p>""")
