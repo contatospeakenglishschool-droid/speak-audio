@@ -981,3 +981,32 @@ def verbi_pronominali(b):
 {_tbl(["forma", "esempio"], im, "8pt", ["38mm", None])}
 {_dont([("Mi ne vado.", "<b>Me</b> ne vado."), ("Me la ho presa.", "Me la <b>sono</b> presa."), ("Ce la ho con lui.", "<b>Ce l'ho</b> con lui.")])}""",
     24, """<p>Il portoghese non ha questi verbi: lo studente dice <i>vado via</i> (corretto) ma non capisce <i>me ne vado</i>, oppure dice <i>mi arrabbio con te</i> invece di <i>ce l'ho con te</i>. Davanti a <i>ne</i> e <i>la</i>: <i>mi → me, ti → te, si → se, ci → ce</i>, come nei pronomi combinati.</p>""")
+
+
+def congiuntivo_sistema(b):
+    """B1 Progresso 05: il congiuntivo presente in modo sistematico (tutte le persone, irregolari, quando si usa)."""
+    fm = [("parlare", "parl<b>i</b>", "parl<b>i</b>", "parl<b>i</b>", "parl<b>iamo</b>", "parl<b>iate</b>", "parl<b>ino</b>"),
+          ("leggere", "legg<b>a</b>", "legg<b>a</b>", "legg<b>a</b>", "legg<b>iamo</b>", "legg<b>iate</b>", "legg<b>ano</b>"),
+          ("partire", "part<b>a</b>", "part<b>a</b>", "part<b>a</b>", "part<b>iamo</b>", "part<b>iate</b>", "part<b>ano</b>"),
+          ("finire", "fin<b>isca</b>", "fin<b>isca</b>", "fin<b>isca</b>", "fin<b>iamo</b>", "fin<b>iate</b>", "fin<b>iscano</b>")]
+    ir = [("essere", "sia · siamo · siate · siano"), ("avere", "abbia · abbiamo · abbiate · abbiano"), ("fare", "faccia · facciamo · facciate · facciano"),
+          ("andare", "vada · andiamo · andiate · vadano"), ("venire", "venga · veniamo · veniate · vengano"), ("dare", "dia · diamo · diate · diano"),
+          ("sapere", "sappia · sappiamo · sappiate · sappiano"), ("potere", "possa · possiamo · possiate · possano"),
+          ("dire", "dica · diciamo · diciate · dicano"), ("piacere", "piaccia · piacciano")]
+    us = [("<b>opinione</b>: penso, credo, mi sembra che", "<i>Penso che <b>sia</b> più vecchio di mio nipote.</i>"),
+          ("<b>volontà</b>: voglio, preferisco che", "<i>Vogliamo che il mondo <b>conosca</b> il prodotto vero.</i>"),
+          ("<b>emozione</b>: spero, ho paura, peccato che", "<i>Ho paura che la bottiglia <b>si rompa</b>.</i>"),
+          ("<b>necessità</b>: è importante, bisogna, basta che", "<i>Basta che ci <b>diate</b> l'indirizzo.</i>"),
+          ("<b>giudizio</b>: è giusto, è normale, è strano che", "<i>È giusto che i miei amici <b>conoscano</b> il Made in Italy.</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: il congiuntivo presente", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>All'A2 hai usato il congiuntivo con <i>io, tu, lui</i>. Ora lo completi: tutte le persone, i verbi irregolari e una regola sola: il congiuntivo si usa dopo un verbo o un'espressione che presenta il fatto come <b>opinione, desiderio, emozione o necessità</b>, non come un fatto sicuro.</div>
+{_h("1. I VERBI REGOLARI")}
+{_tbl(["verbo", "io", "tu", "lui / lei / Lei", "noi", "voi", "loro"], fm, "8pt", ["16mm", None, None, None, None, None, None])}
+<p class="small" style="margin:.5mm 0"><i>Io, tu, lui</i> hanno la stessa forma: per chiarezza si aggiunge il soggetto (<i>voglio che <b>tu</b> venga</i>). <i>Noi</i> = presente indicativo. Verbi in <i>-care / -gare</i>: <i>cer<b>chi</b>, pa<b>ghi</b></i>.</p>
+<div class="two"><div>{_h("2. GLI IRREGOLARI (io · noi · voi · loro)")}
+{_tbl(["verbo", "forme"], ir, "7.8pt", ["15mm", None])}</div>
+<div>{_h("3. QUANDO SI USA")}
+{_tbl(["dopo…", "esempio"], us, "7.8pt", ["34mm", None])}</div></div>
+<p class="small" style="margin:.8mm 0"><b>4. INDICATIVO</b> per i fatti sicuri: <i>So che <b>viene</b>. · È vero che <b>costa</b> tanto. · Secondo me <b>è</b> buonissimo.</i></p>
+{_dont([("Spero che ti piace.", "Spero che ti <b>piaccia</b>."), ("Voglio che vieni.", "Voglio che tu <b>venga</b>."), ("È importante che lo sapete.", "È importante che lo <b>sappiate</b>.")])}""",
+    24, """<p>Il portoghese aiuta: <i>espero que você goste → spero che ti piaccia</i>. Ma il brasiliano parlato usa spesso l'indicativo (<i>acho que é</i>), e lo trasferisce: <i>penso che è</i>. Far notare i paralleli <i>seja → sia, tenha → abbia, faça → faccia, saiba → sappia, venha → venga</i>.</p>""")

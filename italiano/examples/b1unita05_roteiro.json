@@ -1,0 +1,27 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Camila": "it-IT-Chirp3-HD-Despina",
+  "Guida": "it-IT-Chirp3-HD-Vindemiatrix"
+ },
+ "pauses": {
+  "05.2": 2500
+ },
+ "images": {
+  "it-b1-unita-05": {
+   "A": "italian food products shop shelf",
+   "B": "balsamic vinegar barrels",
+   "C": "parmesan cheese wheels",
+   "D": "leather shoes craftsman workshop"
+  }
+ },
+ "units": {
+  "it-b1-unita-05": {
+   "05.1 Il Made in Italy": "Narrator: Sabato 23 gennaio. Júlia, Marco e Camila sono a Modena. Prima delle tigelle, visitano un'acetaia, il posto dove si produce l'aceto balsamico tradizionale.\nGuida: Benvenuti! Prima di cominciare, è importante che sappiate una cosa: l'aceto balsamico tradizionale invecchia almeno dodici anni in queste botti.\nCamila: Dodici anni? Penso che sia più vecchio di mio nipote!\nGuida: Esatto. E alcuni ne hanno venticinque.\nJúlia: In Brasile il balsamico si trova al supermercato e costa pochissimo. Credo che non sia lo stesso prodotto.\nGuida: Purtroppo no. All'estero tanti prodotti hanno un nome italiano, ma non vengono dall'Italia. Per questo è necessario che i clienti leggano bene l'etichetta: cercate sempre la sigla DOP.\nMarco: Come il parmigiano. In Brasile come lo chiamano, Júlia?\nJúlia: Parmesão. E di solito non viene né da Parma né da Reggio Emilia.\nGuida: Ecco. Noi vogliamo che il mondo conosca il prodotto vero.\nCamila: Júlia, perché non ne mandi una bottiglia ai tuoi genitori? A tua madre piace tanto cucinare.\nJúlia: Bella idea, ma ho paura che la bottiglia si rompa durante il viaggio. E non so se alla dogana la lasciano passare.\nGuida: Il pacco lo prepariamo noi, con una scatola speciale. Basta che ci diate l'indirizzo: spediamo in tutto il mondo.\nMarco: Allora ne prendo una anche io, per mio padre. Spero che gli piaccia: lui dice sempre che il balsamico migliore è quello di sua nonna!\nGuida: Allora bisogna che lo assaggi. Ecco, assaggiate anche voi: una goccia sul parmigiano.\nCamila: Mmm... Adesso capisco perché costa così tanto. Peccato che io non possa portarne dieci in Brasile.\nJúlia: Ma ne hai già tre nella borsa!\nCamila: Sono piccole! E poi è giusto che anche i miei amici di Recife conoscano il vero Made in Italy.\nMarco: Va bene, ma basta che ci lasciate i soldi per le tigelle!",
+   "05.2 Ripeti": "Narrator: È importante che lo sappiate.\nNarrator: Spero che gli piaccia.\nNarrator: Voglio che tu lo faccia.\nNarrator: Basta che ci diate l'indirizzo.\nNarrator: Peccato che io non possa.\nNarrator: Penso che abbia ragione."
+  }
+ }
+}
