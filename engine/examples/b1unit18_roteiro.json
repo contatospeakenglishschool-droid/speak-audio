@@ -1,0 +1,21 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Host": "en-US-Studio-O",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-18": {
+   "18.1 The real cost of cheap clothes": "Host: The real cost of cheap clothes.\nHost: A T-shirt for less than the price of a sandwich sounds like a great deal. But cheap clothes have a high cost, and it isn't paid at the checkout. It's paid by the planet, and by the people who make them.\nHost: According to the Ellen MacArthur Foundation, a charity that works on reducing waste, clothing production about doubled between two thousand and two thousand fifteen. At the same time, each item was worn fewer times before it was thrown away.\nHost: So where do all those clothes go? Every second, the equivalent of one garbage truck of textiles is burned or sent to a landfill. Less than one percent of the material that is used to make clothes is recycled into new clothes. And many synthetic fabrics, like polyester, are made from oil.\nHost: Workers pay a price too. On April twenty-fourth, two thousand thirteen, the Rana Plaza building collapsed near Dhaka, in Bangladesh. Several clothing factories were inside. One thousand one hundred thirty-four people were killed, and thousands more were injured. Since then, an agreement on factory safety has been signed by many international fashion brands, and many factories have been inspected. But campaigners say that more needs to be done.\nHost: So what can be done? Clothes can be repaired, swapped, sold or given away. Old garments can be upcycled into new things. And before you buy something new, try a simple test: will it be worn at least thirty times?\nHost: Fashion doesn't have to be thrown away. The most sustainable clothes are the ones that are already in your closet.",
+   "18.2 Repeat: word stress": "Narrator: sustainable\nNarrator: environment\nNarrator: consumer\nNarrator: synthetic\nNarrator: polyester\nNarrator: recycle\nNarrator: garment\nNarrator: landfill\nNarrator: upcycle\nNarrator: minimum wage"
+  }
+ },
+ "images": {
+  "b1-unit-18": {
+   "A": "clothes rack clothing store",
+   "B": "pile of old clothes",
+   "C": "sewing machine jeans repair",
+   "D": "second hand clothes rack market"
+  }
+ }
+}

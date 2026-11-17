@@ -1460,3 +1460,25 @@ def time_clauses(b):
 <p class="small" style="margin:.8mm 0">The time clause can come first (with a comma) or second (no comma): <i>Stir it <b>until</b> it's smooth.</i> &nbsp;<i>Until</i> + a noun or time: <i>Cook it until lunch. Wait until 6 p.m.</i> &nbsp;<i>Before / after</i> + -ing: <i>Wash your hands before cooking.</i> &nbsp;Don't confuse <b>until</b> (a time limit) and <b>by</b> (no later than): <i>Finish it by 6.</i></p>
 {_dont([("As soon as the water will boil, add the pasta.", "As soon as the water <b>boils</b>, add the pasta."), ("I'll call you when I will arrive.", "I'll call you when I <b>arrive</b>."), ("Cook it until it will be golden.", "Cook it until it<b>'s</b> golden."), ("Before to cook, wash your hands.", "Before <b>cooking</b> / Before you <b>cook</b>, wash your hands."), ("Wait until the bubbles don't appear.", "Wait until the bubbles <b>appear</b>.")])}""",
     22, """<p>Brazilians use <i>will</i> after <i>when / as soon as</i> because Portuguese uses the future subjunctive there. They also add a negative after <i>until</i>, translating word for word. Drill: give an instruction (<i>The oven is hot. Put the cake in.</i>); the student joins the two parts with <i>as soon as, once</i> or <i>when</i>.</p>""")
+
+
+def passive_tenses_modals(b):
+    """B1 Unit 18: the passive in other tenses (present continuous, present perfect, future) and with modals (can, should, must, have to)."""
+    b.page(f"""{b.sec("+", "Grammar reference: the passive (other tenses and modals)", "")}
+<div class="box" style="margin-top:0"><h4>THE SAME IDEA IN EVERY TENSE</h4>The passive is always <b>be + past participle</b>. Only <b>be</b> changes with the tense. We use it when the action or the object is more important than the person who does it, typical of news, reports and processes: <i>Millions of garments <b>are thrown away</b> every year.</i></div>
+{_h("1. TENSES")}
+{_tbl(["tense", "form", "example"], [
+    ["present simple", "<b>am / is / are</b> + participle", "<i>Polyester <b>is made</b> from oil.</i>"],
+    ["present continuous", "<b>am / is / are being</b> + participle", "<i>New clothes <b>are being produced</b> all the time.</i>"],
+    ["past simple", "<b>was / were</b> + participle", "<i>The building <b>was built</b> without permission.</i>"],
+    ["present perfect", "<b>has / have been</b> + participle", "<i>Many factories <b>have been inspected</b>.</i>"],
+    ["future", "<b>will be</b> + participle", "<i>Will it <b>be worn</b> thirty times?</i>"]], "8.3pt")}
+{_h("2. MODALS")}
+{_tbl(["modal", "meaning", "example"], [
+    ["<b>can be</b> + participle", "it's possible", "<i>Clothes <b>can be repaired</b> or swapped.</i>"],
+    ["<b>should be</b> + participle", "it's a good idea", "<i>Workers <b>should be paid</b> fairly.</i>"],
+    ["<b>must / have to be</b> + participle", "it's necessary", "<i>More <b>has to be done</b>.</i>"],
+    ["<b>might / may be</b> + participle", "it's possible in the future", "<i>A new tax <b>might be introduced</b>.</i>"]], "8.3pt")}
+<p class="small" style="margin:.8mm 0">Questions: put the first auxiliary before the subject: <i><b>Has</b> it <b>been</b> washed? <b>Can</b> it <b>be</b> recycled?</i> &nbsp;Negatives: <i>It <b>hasn't been</b> paid. It <b>shouldn't be</b> thrown away.</i> &nbsp;Use <b>by</b> only when the agent is important: <i>It was signed <b>by</b> many brands.</i></p>
+{_dont([("The clothes are been made in Asia.", "The clothes are <b>being</b> made in Asia."), ("It can recycled.", "It can <b>be</b> recycled."), ("The factory has inspected.", "The factory has <b>been</b> inspected."), ("This shirt was maked in Brazil.", "This shirt was <b>made</b> in Brazil."), ("More things must to be done.", "More things must be done.")])}""",
+    22, """<p>Brazilians confuse <i>been</i> and <i>being</i>, and forget <i>be</i> after a modal (<i>it can recycled</i>). Remind them: the last two words are always <b>be/been/being + participle</b>. Drill: say an active sentence (<i>They're building a new factory</i>); the student makes it passive (<i>A new factory is being built</i>).</p>""")
