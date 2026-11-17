@@ -1439,3 +1439,24 @@ def quantity_expressions(b):
 <p class="small" style="margin:.5mm 0">After <i>half of, most of, a third of, 60 percent of</i>, the verb agrees with the noun: <i>Half of the <b>students are</b> vegetarian.</i> · <i>Half of the <b>soup is</b> for you.</i> &nbsp;With <i>one in five</i>, a plural verb is more natural in everyday English: <i>One in five people <b>never cook</b>.</i></p>
 {_dont([("The most of people like pizza.", "<b>Most</b> people like pizza."), ("Most of people cook at home.", "Most people / Most <b>of the</b> people I know cook at home."), ("None of them didn't like it.", "None of them <b>liked</b> it."), ("The half of the class was late.", "<b>Half of</b> the class was late."), ("Two-third of the students…", "Two-<b>thirds</b> of the students…")])}""",
     22, """<p>Brazilians translate the Portuguese article word for word: <i>the most of people</i>, <i>the half of</i>. They also add a double negative with <i>none of</i>. Drill: say a number (<i>8 out of 24</i>); the student answers with an expression (<i>a third of…</i>).</p>""")
+
+
+def time_clauses(b):
+    """B1 Unit 17: time clauses for instructions and the future: when, as soon as, once, until, while, before, after + present."""
+    b.page(f"""{b.sec("+", "Grammar reference: time clauses (when, as soon as, until…)", "")}
+<div class="box" style="margin-top:0"><h4>TWO ACTIONS, ONE ORDER</h4>A <b>time clause</b> says <b>when</b> the main action happens: <i><b>As soon as</b> the bubbles pop, flip it.</i> In instructions and when we talk about the future, the verb in the time clause is in the <b>present</b>, not <i>will</i>: <i>Send me a photo when they <b>are</b> ready.</i></div>
+{_h("1. THE WORDS")}
+{_tbl(["word", "meaning", "example"], [
+    ["<b>when</b>", "at the time that", "<i>When the butter isn't too hot, add it to the milk.</i>"],
+    ["<b>as soon as / once</b>", "immediately after", "<i>As soon as the water boils, add the pasta. Once it's hot, pour in the batter.</i>"],
+    ["<b>until</b>", "up to the moment that (and then stop)", "<i>Cook it until it's golden. Wait until you see bubbles.</i>"],
+    ["<b>while</b>", "during the same time (a longer action)", "<i>While the butter is cooling down, beat the eggs.</i>"],
+    ["<b>before / after</b>", "earlier / later than", "<i>Leave it for five minutes before you start. After it boils, turn the heat down.</i>"]], "8.3pt")}
+{_h("2. TENSES AND WORD ORDER")}
+{_tbl(["time clause (present)", "main clause"], [
+    ["<i>As soon as the bubbles <b>pop</b>,</i>", "imperative: <i><b>flip</b> it.</i>"],
+    ["<i>When they <b>are</b> ready,</i>", "future: <i>I<b>'ll send</b> you a photo.</i>"],
+    ["<i>After you <b>have added</b> the eggs,</i>", "present perfect = first one action is complete"]], "8.3pt")}
+<p class="small" style="margin:.8mm 0">The time clause can come first (with a comma) or second (no comma): <i>Stir it <b>until</b> it's smooth.</i> &nbsp;<i>Until</i> + a noun or time: <i>Cook it until lunch. Wait until 6 p.m.</i> &nbsp;<i>Before / after</i> + -ing: <i>Wash your hands before cooking.</i> &nbsp;Don't confuse <b>until</b> (a time limit) and <b>by</b> (no later than): <i>Finish it by 6.</i></p>
+{_dont([("As soon as the water will boil, add the pasta.", "As soon as the water <b>boils</b>, add the pasta."), ("I'll call you when I will arrive.", "I'll call you when I <b>arrive</b>."), ("Cook it until it will be golden.", "Cook it until it<b>'s</b> golden."), ("Before to cook, wash your hands.", "Before <b>cooking</b> / Before you <b>cook</b>, wash your hands."), ("Wait until the bubbles don't appear.", "Wait until the bubbles <b>appear</b>.")])}""",
+    22, """<p>Brazilians use <i>will</i> after <i>when / as soon as</i> because Portuguese uses the future subjunctive there. They also add a negative after <i>until</i>, translating word for word. Drill: give an instruction (<i>The oven is hot. Put the cake in.</i>); the student joins the two parts with <i>as soon as, once</i> or <i>when</i>.</p>""")

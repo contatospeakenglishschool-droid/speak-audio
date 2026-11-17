@@ -1,0 +1,22 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Rita": "en-US-Chirp3-HD-Aoede",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-17": {
+   "17.1 Just like yours": "Danny: Hi Mom! Do you have five minutes? I need your pancake recipe.\nRita: Pancakes? In São Paulo? Of course! What's the occasion?\nDanny: Mrs. Lima always cooks for us, so tomorrow I'm making breakfast for the whole hostel. American pancakes, just like yours.\nRita: Oh, that's sweet. OK, do you have a pen? You need flour, sugar, baking powder, salt, milk, two eggs and some butter.\nDanny: Got it. How much flour?\nRita: Two cups of flour, two tablespoons of sugar, two teaspoons of baking powder and a pinch of salt. Mix them in a big bowl.\nDanny: And then the milk?\nRita: Not yet. First, melt three tablespoons of butter. While it's cooling down, beat the eggs with almost two cups of milk in another bowl. When the butter isn't too hot, add it to the eggs and milk.\nDanny: And then I mix everything together.\nRita: Exactly. Pour the wet mix into the dry mix and stir gently. Stop as soon as everything is combined. Don't stir until it's perfectly smooth. A few lumps are fine. That's the secret!\nDanny: Really? Lumps are OK?\nRita: Trust me. If you stir too much, the pancakes will be tough. Then leave the batter for five minutes before you start cooking.\nDanny: OK. What kind of pan?\nRita: A big frying pan on medium heat. Put a little butter in the pan. Once it's hot, pour in about a quarter cup of batter.\nDanny: How do I know when to turn it over?\nRita: Wait until you see small bubbles on top. As soon as the bubbles start to pop, flip it. Then cook the other side for about a minute, until it's golden.\nDanny: And I can keep the first ones warm in the oven while I'm making the rest?\nRita: Perfect. Oh, and one more thing. The first pancake is always a disaster. Don't worry about it. Just eat it before anyone sees it!\nDanny: Ha! Thanks, Mom. I miss your breakfasts.\nRita: I miss you more. Send me a photo when they're ready!",
+   "17.2 Repeat: linking in instructions": "Narrator: Chop it up.\nNarrator: Stir it in.\nNarrator: Turn it over.\nNarrator: Heat it up.\nNarrator: Pour it in.\nNarrator: Take it out.\nNarrator: Leave it for an hour.\nNarrator: Put it in the oven."
+  }
+ },
+ "images": {
+  "b1-unit-17": {
+   "A": "frying pan on gas stove",
+   "B": "stack of pancakes",
+   "C": "chopping onion knife cutting board",
+   "D": "squeezing lemon hand"
+  }
+ }
+}
