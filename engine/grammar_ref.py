@@ -1416,3 +1416,26 @@ def preferences(b):
 <p class="small" style="margin:.5mm 0"><i>Which do you prefer, fish or meat?</i> (in general) · <i>Would you prefer tea or coffee?</i> · <i>Would you rather try something new or order something safe?</i> (now / imagine) · <i>Do you mind if we eat in? – <b>I'd rather not</b>, if that's OK.</i> &nbsp;<b>'d</b> = <i>would</i> in both: <i>I'd rather</i> = <i>I would rather</i> (not <i>I had rather</i>).</p>
 {_dont([("I prefer coffee than tea.", "I prefer coffee <b>to</b> tea."), ("I'd rather to eat at home.", "I'd rather <b>eat</b> at home."), ("I'd prefer eat at home.", "I'd prefer <b>to eat</b> at home."), ("I'd rather don't go.", "I'd rather <b>not</b> go."), ("I prefer more fish.", "I prefer fish. / I like fish more.")])}""",
     22, """<p>Brazilians translate the Portuguese structure word for word and say <i>prefer… than</i>, add <i>to</i> after <i>would rather</i>, and make the negative with <i>don't</i>. Remember the pair: <b>prefer + to</b> (verb) / <b>rather + base form</b>. Drill: give two options (<i>sushi / pizza</i>); the student answers with <i>I prefer…to…</i> (in general) and <i>Tonight, I'd rather…</i>.</p>""")
+
+
+def quantity_expressions(b):
+    """B1 Unit 16: quantity expressions for groups and statistics: most / most of, all of, none of, half of, fractions, one in five, the majority of; verb agreement."""
+    b.page(f"""{b.sec("+", "Grammar reference: talking about amounts and statistics", "")}
+<div class="box" style="margin-top:0"><h4>PEOPLE IN GENERAL OR A SPECIFIC GROUP?</h4>Without <i>of</i>, we talk about people or things <b>in general</b>: <i>Most people like chocolate.</i> With <b>of the / of my / of us / of them</b>, we talk about <b>a specific group</b>: <i>Most of the participants were students. Most of us cook at home.</i></div>
+{_h("1. ALL, MOST, SOME, NONE")}
+{_tbl(["in general", "a specific group", "note"], [
+    ["<i><b>All</b> people need to eat.</i>", "<i><b>All of</b> the participants wrote about a fight.</i>", "<i>all the participants</i> is also correct"],
+    ["<i><b>Most</b> people eat out sometimes.</i>", "<i><b>Most of</b> my friends love pasta.</i>", "never <i>the most of</i>"],
+    ["<i><b>Some</b> people never cook.</i>", "<i><b>Some of</b> the participants ate soup.</i>", "–"],
+    ["<i><b>No</b> food is perfect.</i>", "<i><b>None of</b> them liked the soup.</i>", "<i>none of</i> + a positive verb"]], "8.3pt")}
+{_h("2. NUMBERS, FRACTIONS AND PERCENTAGES")}
+{_tbl(["expression", "example"], [
+    ["<b>half of / a quarter of / a third of / two-thirds of / three-quarters of</b>", "<i>About <b>a third of</b> us cook every day.</i>"],
+    ["<b>one in five / one in four</b>", "<i><b>One in five</b> people never cook.</i>"],
+    ["<b>the majority of / a minority of</b>", "<i><b>The majority of</b> people prefer something sweet.</i>"],
+    ["<b>60 percent of</b>", "<i><b>Sixty percent of</b> the students said yes.</i>"],
+    ["<b>about, around, nearly, almost, just over, only</b>", "<i><b>Only about</b> a quarter of them said yes.</i>"]], "8.3pt")}
+{_h("3. SINGULAR OR PLURAL VERB?")}
+<p class="small" style="margin:.5mm 0">After <i>half of, most of, a third of, 60 percent of</i>, the verb agrees with the noun: <i>Half of the <b>students are</b> vegetarian.</i> · <i>Half of the <b>soup is</b> for you.</i> &nbsp;With <i>one in five</i>, a plural verb is more natural in everyday English: <i>One in five people <b>never cook</b>.</i></p>
+{_dont([("The most of people like pizza.", "<b>Most</b> people like pizza."), ("Most of people cook at home.", "Most people / Most <b>of the</b> people I know cook at home."), ("None of them didn't like it.", "None of them <b>liked</b> it."), ("The half of the class was late.", "<b>Half of</b> the class was late."), ("Two-third of the students…", "Two-<b>thirds</b> of the students…")])}""",
+    22, """<p>Brazilians translate the Portuguese article word for word: <i>the most of people</i>, <i>the half of</i>. They also add a double negative with <i>none of</i>. Drill: say a number (<i>8 out of 24</i>); the student answers with an expression (<i>a third of…</i>).</p>""")

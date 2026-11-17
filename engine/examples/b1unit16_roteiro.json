@@ -1,0 +1,21 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Host": "en-US-Studio-O",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-16": {
+   "16.1 Good for the soul": "Host: Good for the soul?\nHost: When we're sad, stressed or lonely, most of us reach for the same kind of food: something warm, sweet or familiar. For some people, it's a bowl of soup. For others, it's chocolate, mashed potatoes or a plate of pasta just like Grandma's. We call it comfort food. But why does it make us feel better?\nHost: In two thousand eleven, two psychologists at the University at Buffalo, in the United States, decided to find out. Their names were Jordan Troisi and Shira Gabriel. Their idea was simple: comfort food may remind us of the people who cooked it for us, so eating it may make us feel less alone.\nHost: In their first experiment, some of the participants ate chicken noodle soup, a classic American comfort food. Then they did a word game. The people who saw the soup as a comfort food thought of more words connected to relationships than the others did.\nHost: In the second experiment, all of the participants first wrote about a fight with someone close to them. Then half of them wrote about eating a comfort food, and the other half wrote about eating a new food. The comfort food group felt less lonely afterward... but only the people who had good, secure relationships in their lives.\nHost: Does this work everywhere? In two thousand fifteen, another team repeated the second experiment with adults in the United States and with students in the Netherlands and Singapore. They didn't find the effect in all three groups. It only seemed to work with the American participants. One reason might be the food itself. Only about a quarter of the Singaporean students said that chicken noodle soup was a comfort food for them. The most common answer among Dutch students was chocolate, and among Singaporean students, it was noodles.\nHost: So, is chicken soup good for the soul? Maybe... if it's your chicken soup. Comfort food is personal. It works because of the memories that come with it.",
+   "16.2 Repeat: numbers and amounts": "Narrator: About a third of us cook every day.\nNarrator: Half of the students said yes.\nNarrator: Most of my friends love pasta.\nNarrator: One in five people never cook.\nNarrator: None of them liked the soup.\nNarrator: Two-thirds of the class eat out on Fridays.\nNarrator: Three-quarters of the guests had dessert.\nNarrator: The majority of people prefer something sweet."
+  }
+ },
+ "images": {
+  "b1-unit-16": {
+   "A": "hands stirring pot stove kitchen",
+   "B": "chicken noodle soup bowl",
+   "C": "mashed potatoes bowl butter",
+   "D": "chocolate bar pieces"
+  }
+ }
+}
