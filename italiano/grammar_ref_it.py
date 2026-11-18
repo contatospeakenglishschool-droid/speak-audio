@@ -1111,3 +1111,29 @@ def da_infinito(b):
 <p class="small" style="margin:.8mm 0"><b>Ricorda</b>: con <i>da</i> + infinito l'oggetto «subisce» l'azione: <i>i piatti da lavare</i> (qualcuno li deve lavare). Nella negazione: <i>un film da <b>non</b> perdere</i>.</p>
 {_dont([("Vuoi qualcosa per bere?", "Vuoi qualcosa <b>da</b> bere?"), ("Non c'è niente a fare.", "Non c'è niente <b>da</b> fare."), ("Una città per vedere.", "Una città <b>da</b> vedere."), ("Una maschera di gatto.", "Una maschera <b>da</b> gatto.")])}""",
     24, """<p>Il portoghese dice <i>algo para beber, nada para fazer / nada a fazer</i>: lo studente traduce con <i>per</i> o <i>a</i>. In italiano serve <i>da</i>. Esercizio veloce: l'insegnante dice un nome (<i>un libro, un film, una città, un piatto</i>) e lo studente aggiunge <i>da</i> + infinito (<i>da leggere, da vedere…</i>).</p>""")
+
+
+def congiuntivo_imperfetto(b):
+    """B1 Progresso 11: il congiuntivo imperfetto (forme); come se; primo contatto con pensavo che / chiedeva se."""
+    fm = [("parlare", "parl<b>assi</b>", "parl<b>assi</b>", "parl<b>asse</b>", "parl<b>assimo</b>", "parl<b>aste</b>", "parl<b>assero</b>"),
+          ("avere", "av<b>essi</b>", "av<b>essi</b>", "av<b>esse</b>", "av<b>essimo</b>", "av<b>este</b>", "av<b>essero</b>"),
+          ("sentire", "sent<b>issi</b>", "sent<b>issi</b>", "sent<b>isse</b>", "sent<b>issimo</b>", "sent<b>iste</b>", "sent<b>issero</b>"),
+          ("essere", "<b>fossi</b>", "<b>fossi</b>", "<b>fosse</b>", "<b>fossimo</b>", "<b>foste</b>", "<b>fossero</b>")]
+    ir = [("fare", "facessi"), ("dire", "dicessi"), ("bere", "bevessi"), ("dare", "dessi"), ("stare", "stessi"), ("tradurre", "traducessi")]
+    us = [("<b>come se</b> + cong. imperfetto", "paragone irreale", "<i>Parlava <b>come se fossimo</b> sulla luna.</i>"),
+          ("verbo al <b>passato</b> + che", "opinione nel passato (unità 12)", "<i>Pensavo che <b>nevicasse</b>.</i>"),
+          ("<b>chiedere se</b> (scritto)", "domanda indiretta", "<i>Mi ha chiesto se <b>nevicasse</b> ancora.</i>"),
+          ("<b>perché</b> = affinché", "lo scopo", "<i>Darei tutto <b>perché</b> mia madre <b>venisse</b>.</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: il congiuntivo imperfetto", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Il <b>congiuntivo imperfetto</b> è il congiuntivo «del passato» e delle situazioni <b>irreali</b>. In questa unità lo usi soprattutto dopo <b>come se</b>: <i>Mi sento come se <b>avessi</b> quindici anni.</i> Nelle unità 12–14 lo userai dopo i verbi al passato, con <i>vorrei che</i> e con <i>se</i>.</div>
+{_h("1. LA FORMA: -ASSI, -ESSI, -ISSI")}
+{_tbl(["verbo", "io", "tu", "lui / lei / Lei", "noi", "voi", "loro"], fm, "8pt", ["16mm", None, None, None, None, None, None])}
+<div class="two"><div>{_h("2. GLI IRREGOLARI (io)")}
+{_tbl(["verbo", "io"], ir, "8pt", ["24mm", None])}
+<p class="small" style="margin:.5mm 0">Quasi tutti regolari! <i>Fare, dire, bere, tradurre</i> usano la radice lunga (<i>fac-, dic-, bev-, traduc-</i>); <i>dare</i> e <i>stare</i> fanno <b>-essi</b>: <i>dessi, stessi</i>.</p></div>
+<div>{_h("3. COME SE")}
+<p class="small" style="margin:.5mm 0"><b>come se</b> vuole <b>sempre</b> il congiuntivo (imperfetto per il presente):<br><i>Urla <b>come se</b> non la <b>sentissimo</b>.</i><br><i>Mi tratta <b>come se fossi</b> una bambina.</i><br><i>Fa <b>come se</b> niente <b>fosse</b>.</i> (= fa finta di niente)<br>Mai l'indicativo: <s>come se è</s>, <s>come se avevo</s>.</p></div></div>
+{_h("4. QUANDO SI USA")}
+{_tbl(["struttura", "uso", "esempio"], us, "7.8pt", ["42mm", "44mm", None])}
+{_dont([("Parla come se è stanca.", "Parla come se <b>fosse</b> stanca."), ("Come se avevo quindici anni.", "Come se <b>avessi</b> quindici anni."), ("Se stassi meglio…", "Se <b>stessi</b> meglio…")])}""",
+    24, """<p>Il portoghese ha lo stesso tempo e la stessa regola: <i>como se fosse, como se tivesse</i> → <i>come se fosse, come se avesse</i>. Il problema è la forma: <i>fosse</i> (doppia <i>s</i>), <i>avesse</i> (non <i>tivesse</i>), <i>stessi / dessi</i> (non <i>stassi</i>). Nel parlato italiano molti usano l'indicativo dopo <i>pensavo che</i>, ma dopo <i>come se</i> il congiuntivo è obbligatorio.</p>""")

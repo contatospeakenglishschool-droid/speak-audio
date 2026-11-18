@@ -1,0 +1,26 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Camila": "it-IT-Chirp3-HD-Despina"
+ },
+ "pauses": {
+  "11.2": 2500
+ },
+ "images": {
+  "it-b1-unita-11": {
+   "A": "video call laptop family screen",
+   "B": "woman laptop video call smiling",
+   "C": "smartphone voice message",
+   "D": "old man looking at tablet confused"
+  }
+ },
+ "units": {
+  "it-b1-unita-11": {
+   "11.1 Comunicare a distanza": "Narrator: Domenica 7 marzo, sera. A casa di Júlia, lei e Bruno hanno appena finito la videochiamata con i genitori, a Belo Horizonte. Camila è sul divano.\nCamila: Allora? Com'è andata la chiamata?\nJúlia: Come sempre: la connessione andava e veniva. La mamma parlava come se fossimo sulla luna.\nBruno: E urlava come se non la sentissimo! Bruno, mangi? Bruno, MANGI?\nCamila: Anche mia madre fa così. Mi manda cinquanta messaggi vocali al giorno, come se avessi tempo di ascoltarli tutti.\nJúlia: E papà? Ha passato dieci minuti a cercare la telecamera. Si vedeva solo il soffitto.\nBruno: Poi mi ha chiesto se a Bologna nevicasse ancora. Gli ho detto di no, ma lui insisteva, come se fosse il meteo ufficiale.\nCamila: Ma la grande notizia qual è?\nJúlia: Vengono a trovarci! Ad aprile, per due settimane.\nCamila: Che bello! Finalmente li conosco di persona.\nBruno: Sì, ma la mamma vuole vedere tutto: Bologna, Firenze, Venezia, Roma... Come se l'Italia fosse grande come un quartiere!\nJúlia: E vuole dormire da me. Due settimane!\nCamila: Dai, sarà bellissimo. Io darei qualunque cosa perché mia madre venisse qui.\nJúlia: Hai ragione. È che quando parlo con lei al telefono mi sento come se avessi ancora quindici anni.\nBruno: Io invece mi sento come se non fossi mai partito. Mi chiede sempre se ho messo la giacca!\nJúlia: Va bene, adesso le mando un messaggio carino. Anzi, un vocale di cinque minuti, come se fosse una lettera.\nBruno: Così lei ti risponde con dieci!",
+   "11.2 Ripeti": "Narrator: Come se fossimo sulla luna.\nNarrator: Come se avessi tempo.\nNarrator: Come se non la sentissimo.\nNarrator: Come se fosse il meteo ufficiale.\nNarrator: Mi sento come se avessi quindici anni.\nNarrator: Come se non fossi mai partito."
+  }
+ }
+}
