@@ -1,0 +1,22 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Agent": "en-US-Chirp3-HD-Charon",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-23": {
+   "23.1 The ATM kept my card": "Agent: Thank you for calling customer service. My name is Kevin. How can I help you today?\nDanny: Hi. I'm calling from Brazil. An ATM here just kept my debit card, and now I'm a little worried.\nAgent: I'm sorry to hear that. Before we start, can I have your date of birth and the last four digits of the card?\nDanny: Sure. March third, two thousand four. And the last four digits are six, two, eight, one.\nAgent: Thank you. I can see that your card was used at an ATM in São Paulo twenty minutes ago, but no money was taken out.\nDanny: That's right. The machine said transaction failed, and then it kept the card.\nAgent: OK. I'm going to freeze the card now, so nobody can use it. Unless the bank there gives it back to you today, I'd recommend ordering a new one.\nDanny: The problem is, I'm leaving for Argentina in two weeks. Can you send it to Brazil?\nAgent: We can, as long as you give us a full address. It usually takes seven to ten business days.\nDanny: OK, I'll give you the address of my hostel. In the meantime, how can I get cash?\nAgent: Do you have a credit card with us?\nDanny: Yes, but I don't want to take out cash with it. The fees are crazy.\nAgent: Then a friend could lend you some money, and you can transfer it back to them in the app. Just check the fees first.\nDanny: Good idea. And what's my balance right now?\nAgent: Your checking account balance is eight hundred forty-two dollars. You're not overdrawn, so don't worry.\nDanny: Phew! One more thing. Will you block my new card if I use it in Argentina?\nAgent: Not if you tell us your travel dates. You can add them in the app, under travel notice. Otherwise, our system might block the card in case it's fraud.\nDanny: Got it. I'll do that tonight.\nAgent: Great. Is there anything else I can help you with?\nDanny: No, that's all. Thanks so much. You've been very helpful.\nAgent: You're welcome. Have a great trip!",
+   "23.2 Repeat: money amounts": "Narrator: Twelve dollars and fifty cents.\nNarrator: Twelve fifty.\nNarrator: A five-dollar bill.\nNarrator: Eight hundred forty-two dollars.\nNarrator: Zero point eight nine euros to the dollar.\nNarrator: Fifteen hundred dollars.\nNarrator: Two hundred and eighty pounds.\nNarrator: Can I take out eighty dollars, please?"
+  }
+ },
+ "images": {
+  "b1-unit-23": {
+   "A": "foreign currency banknotes",
+   "B": "atm cash machine card slot",
+   "C": "card payment terminal",
+   "D": "banking app smartphone"
+  }
+ }
+}

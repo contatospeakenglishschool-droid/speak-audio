@@ -1543,3 +1543,22 @@ def reported_statements(b):
 <p class="small" style="margin:.8mm 0">Change pronouns and time words when the situation changes: <i>"I'll call <b>you tomorrow</b>." → He said <b>he</b>'d call <b>me the next day</b>.</i> (today → that day, here → there, this → that). If the information is still true now, the tense can stay the same: <i>She said the store <b>opens</b> at 9.</i> <i>That</i> is optional and is usually dropped in speech.</p>
 {_dont([("She said me that it was broken.", "She <b>told</b> me / <b>said</b> that it was broken."), ("He told that he would call.", "He <b>told me</b> / He <b>said</b> that he would call."), ("She said she can help me.", "She said she <b>could</b> help me."), ("They said it will arrive on Friday.", "They said it <b>would</b> arrive on Friday."), ("He told to me the price.", "He <b>told me</b> the price.")])}""",
     22, """<p>Brazilians say <i>said me</i> and <i>told that</i> because Portuguese uses the same verb for both. They also keep <i>will / can</i>. Drill: say a sentence in the role of a clerk (<i>"I can't find your order."</i>); the student reports it (<i>She said she couldn't find my order.</i>).</p>""")
+
+
+def unless_in_case(b):
+    """B1 Unit 23: conditional linkers: unless, as long as / provided (that), in case, otherwise; present for the future."""
+    b.page(f"""{b.sec("+", "Grammar reference: unless, as long as, in case, otherwise", "")}
+<div class="box" style="margin-top:0"><h4>MORE THAN IF</h4>These words connect a condition and a result, like <i>if</i>. As with <i>if</i> and <i>when</i>, use the <b>present</b> after them to talk about the future: <i>We'll send it <b>as long as</b> you <b>give</b> us an address.</i> (not <i>will give</i>)</div>
+{_h("1. THE WORDS")}
+{_tbl(["word", "meaning", "example"], [
+    ["<b>unless</b>", "if … not / except if", "<i><b>Unless</b> they give it back today, order a new card.</i> = <i>If they don't give it back…</i>"],
+    ["<b>as long as / provided (that)</b>", "only if (a condition)", "<i>We can send it <b>as long as</b> you give us a full address.</i>"],
+    ["<b>in case</b>", "because it's possible that… (to be prepared)", "<i>Take some cash <b>in case</b> the ATM doesn't work.</i>"],
+    ["<b>otherwise</b>", "if not (at the start of a new sentence)", "<i>Add your travel dates. <b>Otherwise</b>, the bank might block your card.</i>"]], "8.3pt")}
+{_h("2. IN CASE OR IF?")}
+{_tbl(["", "example", "meaning"], [
+    ["<b>if</b>", "<i>I'll call the bank <b>if</b> my card doesn't work.</i>", "I'll call only when there is a problem."],
+    ["<b>in case</b>", "<i>I'll take two cards <b>in case</b> one doesn't work.</i>", "I'll take them now, to be safe."]], "8.3pt")}
+<p class="small" style="margin:.8mm 0"><i>Unless</i> already has a negative meaning, so the verb after it is usually positive: <i>Unless you <b>call</b> them…</i> (not <i>unless you don't call</i>). <i>Provided (that)</i> is more formal than <i>as long as</i>. <i>Otherwise</i> usually starts a new sentence and is followed by a comma.</p>
+{_dont([("Unless you don't pay, they'll charge a fee.", "<b>Unless</b> you <b>pay</b>, … / <b>If</b> you <b>don't pay</b>, …"), ("As long as you will give me the address…", "As long as you <b>give</b> me the address…"), ("Take some cash in case of the card doesn't work.", "…in case <b>the card</b> doesn't work. / in case <b>of</b> problems."), ("I'll take an umbrella if it rains.", "I'll take an umbrella <b>in case</b> it rains. (to be prepared)"), ("Write it down, otherwise you forget.", "Write it down. Otherwise, you<b>'ll</b> forget.")])}""",
+    22, """<p>Brazilians often add <i>don't</i> after <i>unless</i> (a double negative) and confuse <i>in case</i> with <i>if</i>, because both can be translated with one Portuguese structure. <i>In case of</i> + noun (<i>in case of fire</i>) is formal. Drill: give a travel tip (<i>Take a photo of your passport.</i>); the student completes it with <i>in case…</i>.</p>""")
