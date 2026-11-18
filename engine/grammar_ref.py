@@ -1523,3 +1523,23 @@ def adjective_order(b):
 <p class="small" style="margin:.5mm 0">Before the noun, we usually don't use <i>and</i> or commas between adjectives of different types: <i>a lovely old house</i>. After the verb, use <b>and</b>: <i>The jacket is long and warm.</i> With two colors: <i>a black and white shirt</i>. Shades of color go before the color: <i>light blue, dark green</i>.</p>
 {_dont([("a jacket black", "a <b>black</b> jacket"), ("a leather brown belt", "a <b>brown leather</b> belt"), ("a cotton beautiful dress", "a <b>beautiful cotton</b> dress"), ("old nice shoes", "<b>nice old</b> shoes"), ("hiking leather boots", "<b>leather hiking</b> boots")])}""",
     22, """<p>In Portuguese, most adjectives come after the noun, so Brazilians say <i>a jacket black</i> or put material before color. Drill: show a photo of a piece of clothing; the student describes it with three adjectives in the right order. Don't insist on long chains: two or three adjectives sound natural.</p>""")
+
+
+def reported_statements(b):
+    """B1 Unit 22: reported statements: say / tell, tense backshift, pronouns and time words."""
+    b.page(f"""{b.sec("+", "Grammar reference: reported speech (statements)", "")}
+<div class="box" style="margin-top:0"><h4>TELLING SOMEONE WHAT ANOTHER PERSON SAID</h4><b>Direct speech</b> repeats the exact words: <i>She said, "It's no problem."</i> <b>Reported speech</b> tells the message: <i>She said (that) it <b>was</b> no problem.</i> After a past reporting verb (<i>said, told</i>), the tense usually goes one step back.</div>
+{_h("1. TENSES GO ONE STEP BACK")}
+{_tbl(["direct speech", "reported speech"], [
+    ["present simple: <i>&quot;I <b>want</b> a refund.&quot;</i>", "past simple: <i>I told her I <b>wanted</b> a refund.</i>"],
+    ["present continuous: <i>&quot;We<b>'re checking</b>.&quot;</i>", "past continuous: <i>They said they <b>were checking</b>.</i>"],
+    ["past simple / present perfect: <i>&quot;I <b>lost</b> it.&quot; &quot;It<b>'s arrived</b>.&quot;</i>", "past perfect: <i>She said she <b>had lost</b> it. He said it <b>had arrived</b>.</i>"],
+    ["<b>will</b>: <i>&quot;The money <b>will</b> go back to your card.&quot;</i>", "<b>would</b>: <i>She told me the money <b>would</b> go back to my card.</i>"],
+    ["<b>can</b>: <i>&quot;I <b>can</b> find it in the system.&quot;</i>", "<b>could</b>: <i>She said she <b>could</b> find it.</i>"]], "8.2pt")}
+{_h("2. SAY OR TELL?")}
+{_tbl(["verb", "pattern", "example"], [
+    ["<b>say</b>", "say (that) + clause · say something <b>to</b> someone", "<i>She <b>said</b> it was fine. She <b>said to me</b> that…</i>"],
+    ["<b>tell</b>", "tell + <b>person</b> + (that) + clause", "<i>She <b>told me</b> it was fine.</i> (not <i>told that</i>)"]], "8.3pt")}
+<p class="small" style="margin:.8mm 0">Change pronouns and time words when the situation changes: <i>"I'll call <b>you tomorrow</b>." → He said <b>he</b>'d call <b>me the next day</b>.</i> (today → that day, here → there, this → that). If the information is still true now, the tense can stay the same: <i>She said the store <b>opens</b> at 9.</i> <i>That</i> is optional and is usually dropped in speech.</p>
+{_dont([("She said me that it was broken.", "She <b>told</b> me / <b>said</b> that it was broken."), ("He told that he would call.", "He <b>told me</b> / He <b>said</b> that he would call."), ("She said she can help me.", "She said she <b>could</b> help me."), ("They said it will arrive on Friday.", "They said it <b>would</b> arrive on Friday."), ("He told to me the price.", "He <b>told me</b> the price.")])}""",
+    22, """<p>Brazilians say <i>said me</i> and <i>told that</i> because Portuguese uses the same verb for both. They also keep <i>will / can</i>. Drill: say a sentence in the role of a clerk (<i>"I can't find your order."</i>); the student reports it (<i>She said she couldn't find my order.</i>).</p>""")

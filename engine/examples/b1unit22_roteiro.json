@@ -1,0 +1,22 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Carol": "en-US-Chirp3-HD-Leda",
+  "Clerk": "en-US-Studio-O",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-22": {
+   "22.1 A broken zipper": "Clerk: Hi there! How can I help you today?\nCarol: Hi. I'd like to return this dress. I bought it here on Saturday, and the zipper broke the first time I tried it on at home.\nClerk: Oh, I'm sorry to hear that. Let me take a look... Yes, it's definitely faulty. Would you like a replacement? We have the same dress in green.\nCarol: No, thanks. I need it for a wedding next week, and green isn't really my color. I'd just like a refund, please.\nClerk: No problem. Do you have the receipt or any other proof of purchase?\nCarol: That's the thing. I think I threw the receipt away. But I paid by credit card.\nClerk: That's fine. If you paid by card, I can find the purchase in the system. Can I see the card, please?\nCarol: Sure. Here you go.\nClerk: OK, I found it. Seventy-nine ninety-nine, on Saturday. The money will go back to your card in three to five business days.\nCarol: Great. And can I return the shoes I bought with it? They aren't damaged. I just changed my mind.\nClerk: Our return policy is thirty days, so that's fine too, as long as they're unworn and you have the box.\nCarol: Perfect. You've been really helpful. Thank you!\nNarrator: Later that day, Carol sends Ana a voice message.\nCarol: Hi Ana! Remember the blue dress I sent you a photo of? The zipper broke, so I took it back to the store. I told the clerk I wanted a refund, and she said it was no problem. I'd thrown the receipt away, but she said she could find the purchase in the system because I'd paid by card. She told me the money would go back to my card in a few days. And she said I could return the shoes too! So now I need a new dress for the wedding. Any ideas? Call me!",
+   "22.2 Repeat: weak forms in reported speech": "Narrator: She said that it was broken.\nNarrator: He told me that he'd call.\nNarrator: They said they could help.\nNarrator: I told her I wanted a refund.\nNarrator: She said she'd check.\nNarrator: He said he was sorry.\nNarrator: They told us it had arrived.\nNarrator: She said I could keep it."
+  }
+ },
+ "images": {
+  "b1-unit-22": {
+   "A": "store checkout counter cashier",
+   "B": "dress zipper close up",
+   "C": "cracked smartphone screen",
+   "D": "headphones on desk"
+  }
+ }
+}
