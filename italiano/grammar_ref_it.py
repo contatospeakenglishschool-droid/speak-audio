@@ -1137,3 +1137,27 @@ def congiuntivo_imperfetto(b):
 {_tbl(["struttura", "uso", "esempio"], us, "7.8pt", ["42mm", "44mm", None])}
 {_dont([("Parla come se è stanca.", "Parla come se <b>fosse</b> stanca."), ("Come se avevo quindici anni.", "Come se <b>avessi</b> quindici anni."), ("Se stassi meglio…", "Se <b>stessi</b> meglio…")])}""",
     24, """<p>Il portoghese ha lo stesso tempo e la stessa regola: <i>como se fosse, como se tivesse</i> → <i>come se fosse, come se avesse</i>. Il problema è la forma: <i>fosse</i> (doppia <i>s</i>), <i>avesse</i> (non <i>tivesse</i>), <i>stessi / dessi</i> (non <i>stassi</i>). Nel parlato italiano molti usano l'indicativo dopo <i>pensavo che</i>, ma dopo <i>come se</i> il congiuntivo è obbligatorio.</p>""")
+
+
+def concordanza_tempi(b):
+    """B1 Progresso 12: la concordanza dei tempi del congiuntivo (penso che sia / pensavo che fosse); credevo di + infinito."""
+    ct = [("<b>presente</b>: Penso che…", "Marco <b>sia</b> timido.", "Marco <b>sia stato</b> timido.", "Marco <b>sarà</b> timido."),
+          ("<b>passato</b>: Pensavo che…", "Marco <b>fosse</b> timido.", "Marco <b>fosse stato</b> timido.", "Marco <b>sarebbe stato</b> timido.")]
+    vb = [("opinione", "pensavo, credevo, mi sembrava, immaginavo"), ("emozione", "avevo paura, ero contento/a, mi dispiaceva"),
+          ("volontà", "volevo, preferivo, speravo"), ("dubbio", "non ero sicuro/a, dubitavo")]
+    tr = [("avere", "avessi fatto, avesse capito…"), ("essere", "fossi stato/a, fosse arrivato/a…")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: la concordanza dei tempi", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Il tempo del congiuntivo dipende dal verbo principale. Se il verbo principale è al <b>presente</b>, usi il congiuntivo presente (<i>penso che <b>sia</b></i>); se è al <b>passato</b> (imperfetto, passato prossimo, condizionale), usi il congiuntivo imperfetto (<i>pensavo che <b>fosse</b></i>). È la regola per parlare di <b>prime impressioni</b> e <b>stereotipi</b>.</div>
+{_h("1. LA TABELLA DELLA CONCORDANZA")}
+{_tbl(["verbo principale", "contemporaneità", "anteriorità (prima)", "posteriorità (dopo)"], ct, "8pt", ["38mm", None, None, None])}
+<div class="two"><div>{_h("2. I VERBI CHE LO VOGLIONO")}
+{_tbl(["tipo", "verbi al passato"], vb, "7.9pt", ["20mm", None])}</div>
+<div>{_h("3. IL CONGIUNTIVO TRAPASSATO")}
+<p class="small" style="margin:.5mm 0">Per un'azione <b>precedente</b> nel passato: congiuntivo imperfetto di <i>avere / essere</i> + participio.</p>
+{_tbl(["ausiliare", "esempi"], tr, "7.9pt", ["18mm", None])}
+<p class="small" style="margin:.5mm 0"><i>Pensavo che Júlia <b>avesse</b> già <b>mangiato</b>.</i> (lo vedrai meglio nelle prossime unità)</p></div></div>
+{_h("4. STESSO SOGGETTO: DI + INFINITO")}
+<p class="small" style="margin:.5mm 0"><i>(Io) credevo che (io) fossi…</i> ✗ → <i>Credevo <b>di essere</b> timida.</i> · <i>Pensavo <b>di aver capito</b>.</i> — Ma: <i>Credevo che <b>tu</b> fossi timido</i> (soggetti diversi).</p>
+<p class="small" style="margin:.5mm 0"><b>Nel parlato</b> molti italiani dicono <i>pensavo che era</i>: lo sentirai, ma nello scritto e nel registro curato usa <i>pensavo che fosse</i>.</p>
+{_dont([("Pensavo che sia timida.", "Pensavo che <b>fosse</b> timida."), ("Credevo che io fossi in ritardo.", "Credevo <b>di essere</b> in ritardo."), ("Non immaginavo che si mangia così tanto.", "Non immaginavo che si <b>mangiasse</b> così tanto.")])}""",
+    24, """<p>Il portoghese ha la stessa concordanza (<i>achava que fosse</i>), ma il brasiliano parlato usa spesso l'indicativo: <i>achava que era</i> → lo studente dice <i>pensavo che era</i>. Accettarlo nel parlato veloce, correggerlo nello scritto. Errore tipico: mischiare i tempi (<i>pensavo che sia</i>).</p>""")

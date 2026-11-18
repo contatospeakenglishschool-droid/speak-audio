@@ -1,0 +1,28 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Camila": "it-IT-Chirp3-HD-Despina"
+ },
+ "pauses": {
+  "12.2": 2500
+ },
+ "images": {
+  "it-b1-unita-12": {
+   "A": "friends aperitif spritz table evening",
+   "B": "aperol spritz glasses snacks",
+   "C": "plate of spaghetti tomato",
+   "D": "rio de janeiro beach"
+  }
+ },
+ "units": {
+  "it-b1-unita-12": {
+   "12.1 Credevo che...": "Narrator: Sabato 13 marzo, sera. Al bar di Giulia c'è il primo aperitivo serale. Elena, la nuova barista, porta gli spritz. Al tavolo ci sono Júlia, Marco, Camila e Davide.\nGiulia: Allora, come vi sembra il mio aperitivo?\nMarco: Perfetto. Sinceramente credevo che fosse solo un'idea, e invece eccoci qui.\nCamila: Sapete che prima di venire in Italia pensavo che l'aperitivo fosse solo un bicchiere di vino? Non immaginavo che si mangiasse così tanto!\nDavide: È la cena degli studenti! Ma dimmi, Camila: che altro pensavi degli italiani?\nCamila: Credevo che parlaste tutti con le mani... E infatti è vero!\nGiulia: Io invece, prima di conoscere Júlia, pensavo che in Brasile facesse caldo tutto l'anno.\nJúlia: A Belo Horizonte, d'inverno, di notte ci sono anche dieci gradi! E io pensavo che gli italiani mangiassero la pasta a pranzo e a cena.\nMarco: Beh... io la mangio quasi tutti i giorni.\nJúlia: Tu sei un caso speciale. Pensavo anche che foste sempre in ritardo, ma al lavoro voi bolognesi siete puntualissimi.\nDavide: Tranne me. Io sono sempre in ritardo, come un vero stereotipo.\nCamila: E tu, Marco? Che cosa pensavi di Júlia il primo giorno?\nMarco: Sinceramente? Pensavo che fosse timida. Parlava pochissimo.\nJúlia: Timida? Non parlavo perché non capivo niente! E io pensavo che tu fossi antipatico: non sorridevi mai.\nMarco: Ero concentrato! Avevamo un progetto da consegnare.\nGiulia: Vedete? Le prime impressioni non valgono niente.\nDavide: Allora brindiamo agli stereotipi sbagliati!\nCamila: E a quelli giusti: gli italiani parlano davvero con le mani!",
+   "12.2 Ripeti": "Narrator: Credevo che fosse solo un'idea.\nNarrator: Pensavo che in Brasile facesse caldo tutto l'anno.\nNarrator: Credevo che parlaste tutti con le mani.\nNarrator: Non immaginavo che si mangiasse così tanto.\nNarrator: Pensavo che tu fossi antipatico.\nNarrator: E invece eccoci qui!"
+  }
+ }
+}
