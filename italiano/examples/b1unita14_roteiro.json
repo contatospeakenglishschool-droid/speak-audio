@@ -1,0 +1,28 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Camila": "it-IT-Chirp3-HD-Despina"
+ },
+ "pauses": {
+  "14.2": 2500
+ },
+ "images": {
+  "it-b1-unita-14": {
+   "A": "lottery ticket numbers pen",
+   "B": "bar counter evening cocktails",
+   "C": "motorcycle road trip",
+   "D": "rooftop terrace old town view"
+  }
+ },
+ "units": {
+  "it-b1-unita-14": {
+   "14.1 Se vincessi...": "Narrator: Venerdì 26 marzo, sera. Al bar di Giulia c'è l'aperitivo. Davide arriva con una schedina del SuperEnalotto in mano.\nDavide: Ragazzi, stasera c'è l'estrazione e il jackpot è altissimo. Ho giocato per la prima volta!\nGiulia: Tu? E se vincessi, che cosa faresti?\nDavide: Facile! Se vincessi, comprerei una moto e farei il giro del Brasile. Poi finirei l'università... forse.\nMarco: Io, se avessi tutti quei soldi, aprirei uno studio di architettura tutto mio.\nJúlia: E chi assumeresti?\nMarco: Te, naturalmente. Ma ti pagherei di meno.\nJúlia: Allora non verrei! Io invece, se fossi ricca, comprerei un appartamento con una terrazza sui tetti di Bologna. E porterei qui i miei genitori ogni anno.\nCamila: Io pagherei il biglietto a mia madre. Se potesse, verrebbe domani.\nGiulia: E io? Se vincessi, non chiuderei mai il bar. Però prenderei un'altra barista e farei un mese di vacanza in Sardegna.\nMarco: Davide, lo sai quante possibilità ci sono di fare sei? Una su seicentoventidue milioni.\nJúlia: Se fossi in te, non spenderei più soldi così.\nDavide: Ma se non giocassi, non potrei sognare! E sognare è bello.\nCamila: Va bene, sognatore. Fammi vedere la ricevuta.\nDavide: La ricevuta? Ehm... La tabaccheria era chiusa. Ho solo scritto i numeri sulla schedina.\nMarco: Quindi non hai giocato.\nDavide: No... E se stasera uscissero proprio i miei numeri? Piangerei per un anno!\nJúlia: Non dirlo nemmeno per scherzo!",
+   "14.2 Ripeti": "Narrator: Se vincessi, comprerei una moto.\nNarrator: Se avessi tutti quei soldi, aprirei uno studio.\nNarrator: Se fossi ricca, comprerei un appartamento.\nNarrator: Se potesse, verrebbe domani.\nNarrator: Se fossi in te, non spenderei più soldi così.\nNarrator: Se non giocassi, non potrei sognare."
+  }
+ }
+}
