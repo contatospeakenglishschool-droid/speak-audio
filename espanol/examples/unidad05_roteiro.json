@@ -1,0 +1,33 @@
+{
+ "material": "speak-esencial",
+ "characters": {
+  "Pedro": "es-US-Chirp3-HD-Charon",
+  "Lucía": "es-US-Chirp3-HD-Kore",
+  "Sofía": "es-ES-Chirp3-HD-Despina",
+  "Recepcionista": "es-US-Chirp3-HD-Leda",
+  "Narradora": "es-US-Chirp3-HD-Aoede"
+ },
+ "pauses": {
+  "05.2": 2200,
+  "05.3": 2800
+ },
+ "units": {
+  "es-a1-unidad-05": {
+   "05.1 Diálogo": "Narradora: Diálogo uno.\nRecepcionista: Buenas tardes. ¿Cómo se llama usted?\nPedro: Pedro Almeida.\nRecepcionista: ¿Cuántos años tiene?\nPedro: Tengo treinta y dos años.\nRecepcionista: ¿Y cuál es su número de teléfono?\nPedro: Es el cincuenta y cinco... veintitrés... ochenta y uno... cuarenta y seis... cero siete.\nNarradora: Diálogo dos.\nLucía: Pedro, ¿cuál es tu correo?\nPedro: Es pedro punto almeida arroba correo punto com.\nLucía: Gracias. Ah, hoy es el cumpleaños de Javier. Tiene treinta años.\nPedro: ¿Treinta? ¡Yo tengo treinta y dos!\nNarradora: Diálogo tres.\nPedro: Sofía, ¿cuál es tu número?\nSofía: Es el cincuenta y cinco, diecinueve, setenta y dos, treinta, sesenta y cuatro.\nPedro: ¿Cómo? Más despacio, por favor.\nSofía: Cincuenta y cinco... diecinueve... setenta y dos... treinta... sesenta y cuatro.\nPedro: ¡Gracias!",
+   "05.2 Repite palabras y números": "Narradora: el celular\nNarradora: el correo electrónico\nNarradora: el pasaporte\nNarradora: el cumpleaños\nNarradora: la tarjeta de visita\nNarradora: la dirección\nNarradora: el formulario\nNarradora: la cartera\nNarradora: cero, uno, dos, tres, cuatro, cinco\nNarradora: seis, siete, ocho, nueve, diez\nNarradora: once, doce, trece, catorce, quince\nNarradora: dieciséis, diecisiete, dieciocho, diecinueve, veinte",
+   "05.3 Repite números y frases": "Narradora: veintiuno, veintidós, veintitrés\nNarradora: treinta, cuarenta, cincuenta\nNarradora: sesenta, setenta, ochenta\nNarradora: noventa, cien\nNarradora: treinta y dos, cuarenta y cinco, noventa y nueve\nNarradora: ¿Cuántos años tienes?\nNarradora: Tengo treinta y dos años.\nNarradora: ¿Cuál es tu número de teléfono?\nNarradora: Mi correo es pedro punto almeida arroba correo punto com."
+  }
+ },
+ "images": {
+  "es-a1-unidad-05": {
+   "A": "smartphone in hand",
+   "B": "email laptop screen",
+   "C": "passport travel",
+   "D": "birthday cake candles",
+   "E": "business card",
+   "F": "mailbox house address",
+   "G": "filling form pen",
+   "H": "wallet in pocket"
+  }
+ }
+}
