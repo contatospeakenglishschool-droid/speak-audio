@@ -1,0 +1,21 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-29": {
+   "29.1 The man at the end of the road": "Danny: The man at the end of the road.\nDanny: When I planned my two weeks in Patagonia, I didn't expect to meet a hermit. But on my fourth day, after a long walk, I knocked on the door of a small wooden house by a lake. A man with a gray beard opened it. \"Come in,\" he said. \"I have an open house. Everyone's welcome.\" His name is Tomás, and he has lived alone in the wilderness for twenty-five years.\nDanny: Before he moved there, Tomás had worked in an office in Buenos Aires for almost twenty years. He was sick of the noise, the traffic and his landlord, who had raised the rent three times in two years. He didn't want to take out a mortgage, so he saved up and bought the cheapest land he could find. When he moved in, the house had no windows, and it was very damp. Nobody had lived there for years.\nDanny: Today his life is simple. He grows potatoes and onions, catches fish in the lake, and stocks up on rice, flour and coffee every autumn, so he won't starve in winter. The nearest town is two hours away by horse, and he only goes there once a month. He has never had a TV, and he's never used a smartphone. \"I don't need one,\" he told me. \"The lake is my TV.\"\nDanny: Is his life unconventional? He doesn't think so. \"For me, it's the most straightforward way to live,\" he said. \"In the city, I worked to pay the rent. Here, I work to live.\"\nDanny: I stayed for two nights. We cooked fish on the fire, and he told me stories about pumas and snowstorms. When I left, I realized I had never met anyone so calm. I've thought about him every day since then.",
+   "29.2 Repeat: contractions": "Narrator: I've lived here for years.\nNarrator: He's never used a smartphone.\nNarrator: I'd never met anyone so calm.\nNarrator: He'd worked in an office.\nNarrator: Nobody had lived there.\nNarrator: We've just arrived."
+  }
+ },
+ "images": {
+  "b1-unit-29": {
+   "A": "wooden cabin lake mountains patagonia",
+   "B": "old man gray beard outdoors portrait",
+   "C": "old farmhouse countryside",
+   "D": "remote cabin wilderness"
+  }
+ }
+}

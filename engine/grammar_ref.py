@@ -1659,3 +1659,20 @@ def polite_requests(b):
 <div class="box" style="margin-top:1.5mm"><h4>CAREFUL WITH MIND</h4><i>Would you mind…? / Do you mind if…?</i> = <i>Is it a problem for you?</i> So the answer <b>yes</b> is <b>Not at all. / Of course not. / No, go ahead.</b> If you answer <i>Yes</i>, you are saying no! To say no politely: <i>I'm sorry, but… / I'm afraid…</i></div>
 {_dont([("Would you mind to help me?", "Would you mind <b>helping</b> me?"), ("Do you mind if I would open the window?", "Do you mind if I <b>open</b> the window?"), ("Can you to call a taxi?", "Can you <b>call</b> a taxi?"), ("I want the bill.", "<b>Could I have</b> the bill, please?"), ("Would you mind…? — Yes, sure!", "<b>Not at all.</b> / <b>Of course not.</b>")])}""",
     22, """<p>Brazilians often sound too direct in English (<i>I want…, Give me…</i>) because Portuguese uses tone and diminutives for politeness. They also answer <i>Yes</i> to <i>Would you mind…?</i> when they mean <i>OK</i>. Drill: say a direct request (<i>Open the window.</i>); the student makes it polite in three ways.</p>""")
+
+
+def past_tenses_contrast(b):
+    """B1 Unit 29: past simple vs present perfect vs past perfect."""
+    b.page(f"""{b.sec("+", "Grammar reference: past simple, present perfect, past perfect", "")}
+<div class="box" style="margin-top:0"><h4>THREE TIMES, THREE TENSES</h4>Ask yourself: <b>when?</b> A finished time in the past → <b>past simple</b>. From the past <b>up to now</b> (or no time given) → <b>present perfect</b>. <b>Before</b> another past moment → <b>past perfect</b>. <i>Tomás <b>moved</b> there in 2001. He <b>has lived</b> there for 25 years. Before that, he <b>had worked</b> in an office.</i></div>
+{_h("1. FORM AND USE")}
+{_tbl(["tense", "form", "use", "example"], [
+    ["<b>past simple</b>", "worked · moved · didn't have", "finished actions at a finished time (yesterday, in 2001, ago, when…)", "<i>When he <b>moved</b> in, the house <b>had</b> no windows.</i>"],
+    ["<b>present perfect</b>", "have / has + past participle", "from the past up to now (for, since); experiences (ever, never); recent results (just, already)", "<i>He <b>has lived</b> alone for 25 years. · He'<b>s never used</b> a smartphone.</i>"],
+    ["<b>past perfect</b>", "had + past participle", "an action <b>before</b> another past action or time", "<i>Nobody <b>had lived</b> there for years. · I realized I <b>had never met</b> anyone so calm.</i>"]], "8pt")}
+{_h("2. TIME EXPRESSIONS")}
+{_tbl(["past simple", "present perfect", "past perfect"], [
+    ["yesterday · last year · in 2001 · two days ago · when I was…", "for · since · ever · never · just · already · yet · so far", "before · already · by the time · when · never… before"]], "8.2pt")}
+<p class="small" style="margin:.8mm 0">With <b>ago</b>, <b>yesterday</b> or <b>in + year</b>, never use the present perfect: <i>I <b>saw</b> him two days ago</i> (not <i>I've seen him two days ago</i>). If the order is clear (<i>before, after</i>), the past simple is also OK: <i>He worked in an office before he moved.</i></p>
+{_dont([("I've met him last year.", "I <b>met</b> him last year."), ("I live here since 2020.", "I'<b>ve lived</b> here since 2020."), ("When I arrived, she already left.", "When I arrived, she <b>had already left</b>."), ("He lives there for 25 years.", "He <b>has lived</b> there for 25 years."), ("Did you ever been to Chile?", "<b>Have</b> you ever <b>been</b> to Chile?")])}""",
+    22, """<p>Brazilians use the present simple with <i>for / since</i> (<i>I live here for five years</i>) and the present perfect with finished times. Drill: draw a timeline of Tomás's life (office → moved → now) and ask questions: <i>How long has he lived there? What had he done before?</i></p>""")
