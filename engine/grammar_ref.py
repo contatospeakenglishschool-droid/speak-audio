@@ -1184,7 +1184,7 @@ def describing_appearance(b):
     ["<i>extremely · really · very</i>", "<i>quite · fairly · pretty</i>", "<i>a bit · a little · slightly</i>", "<i>in her early / mid / late forties · thirtyish · tallish</i>"]], "8.2pt")}
 <p class="small" style="margin:.8mm 0"><b>Word order for hair:</b> length → style → color + <i>hair</i>: <i>long straight dark hair · short curly gray hair</i>. <b>Hair</b> is uncountable: <i>Her hair <b>is</b> red.</i> (A <i>hair</i> = one single hair.) In American English, <i>rather</i> is less common than <i>quite</i>, <i>pretty</i> or <i>a bit</i>.</p>
 {_dont([("She has forty years.", "She's forty. / She's in her forties."), ("He has a long hair. Her hairs are red.", "He has long hair. Her hair is red."), ("He is with a beard.", "He has a beard."), ("She looks like tired.", "She looks tired. / She looks like her mom."), ("He's moreno.", "He has dark hair / brown skin. / He's tanned."), ("She's a bit pretty.", "She's quite / really pretty.")])}""",
-    25, """<p>Brazilians translate <i>ter</i> for age, use <i>hairs</i> as a plural, add <i>like</i> after <i>look</i> before an adjective, and look for one word for <i>moreno/moreninho</i>: in English we need to say if it is the hair, the skin or a tan. Remind the student that comments on weight and age need polite language (Vocabulary lab, page 5).</p>""")
+    25, """<p>Brazilians translate <i>ter</i> for age, use <i>hairs</i> as a plural, add <i>like</i> after <i>look</i> before an adjective, and look for one word for <i>moreno/moreninho</i>: in English we need to say if it is the hair, the skin or a tan. Remind the student that comments on weight and age need polite language.</p>""")
 
 
 def verb_patterns(b):
