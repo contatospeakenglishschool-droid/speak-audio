@@ -1,0 +1,30 @@
+{
+ "material": "speak-essentiel",
+ "characters": {
+  "Camila": "fr-FR-Chirp3-HD-Autonoe",
+  "Thomas": "fr-FR-Chirp3-HD-Charon",
+  "Homme": "fr-FR-Chirp3-HD-Iapetus",
+  "Sophie": "fr-FR-Chirp3-HD-Erinome",
+  "Narratrice": "fr-FR-Chirp3-HD-Aoede"
+ },
+ "pauses": {"05.2": 2500, "05.3": 3000},
+ "units": {
+  "fr-a1-unite-05": {
+   "05.1 Dialogue": "Narratrice: Dialogue un.\nHomme: Bonjour, madame ! Quel est votre nom ?\nCamila: Souza. Camila Souza.\nHomme: Quelle est votre profession ?\nCamila: Je suis graphiste.\nHomme: Vous travaillez où ?\nCamila: Je travaille dans une agence, à Lyon.\nHomme: Et quel est votre numéro de téléphone ?\nCamila: Zéro six, douze, quinze, zéro huit, vingt.\nHomme: Merci, madame. Bienvenue au club !\nNarratrice: Dialogue deux.\nSophie: Salut ! Je m'appelle Sophie. Qu'est-ce que tu fais, Camila ?\nCamila: Je suis graphiste. Et toi ?\nSophie: Moi, je suis médecin. Je travaille à l'hôpital.\nCamila: Médecin ! Super !\nNarratrice: Dialogue trois.\nThomas: Camila, Hugo est étudiant ? Il travaille ?\nCamila: Oui, il est étudiant. Et il travaille dans un café, le week-end.\nThomas: Dans le café de Nadia ?\nCamila: Oui ! Il est serveur.",
+   "05.2 Les professions": "Narratrice: graphiste... graphiste\nNarratrice: médecin... médecin\nNarratrice: professeur... professeure\nNarratrice: serveur... serveuse\nNarratrice: vendeur... vendeuse\nNarratrice: étudiant... étudiante\nNarratrice: avocat... avocate\nNarratrice: infirmier... infirmière",
+   "05.3 Les phrases": "Narratrice: Qu'est-ce que vous faites ?\nNarratrice: Je suis graphiste.\nNarratrice: Quelle est votre profession ?\nNarratrice: Quel est votre nom ?\nNarratrice: Vous travaillez où ?\nNarratrice: Je travaille dans une agence."
+  }
+ },
+ "images": {
+  "fr-a1-unite-05": {
+   "A": "graphic designer woman computer tablet",
+   "B": "doctor stethoscope portrait",
+   "C": "teacher whiteboard classroom adult",
+   "D": "waiter serving coffee cafe",
+   "E": "shop assistant clothing store",
+   "F": "university student library books",
+   "G": "lawyer office documents",
+   "H": "nurse hospital"
+  }
+ }
+}
