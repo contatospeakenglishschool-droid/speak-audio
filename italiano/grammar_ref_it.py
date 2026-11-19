@@ -1230,3 +1230,26 @@ def gerundio_b1(b):
 <p class="small" style="margin:.5mm 0">I pronomi si attaccano <b>dopo</b> il gerundio: <i><b>Vedendoli</b>, li ho abbracciati. · <b>Parlandone</b> con Davide…</i> Il soggetto deve essere <b>lo stesso</b> nelle due parti; se è diverso, usa <i>quando, mentre, siccome</i>.</p>
 {_dont([("Arrivando a casa, il telefono ha suonato.", "<b>Quando sono arrivata</b> a casa, il telefono ha suonato."), ("Li vedendo, ho pianto.", "<b>Vedendoli</b>, ho pianto."), ("Sto avendo un problema.", "<b>Ho</b> un problema.")])}""",
     24, """<p>Il portoghese usa il gerundio molto più dell'italiano (<i>estou tendo, vou estar enviando</i>). Errori tipici: <i>sto avendo</i>, <i>lo vedendo</i>, soggetti diversi. Nel parlato gli italiani dicono spesso <i>quando…, siccome…</i>: accettarlo.</p>""")
+
+
+def passivo_b1(b):
+    """B1 Progresso 16: la forma passiva con essere e venire; il si passivante; il complemento d'agente (da)."""
+    es = [("presente", "La biblioteca <b>è rinnovata</b>.", "<b>viene rinnovata</b>"),
+          ("passato prossimo", "La biblioteca <b>è stata rinnovata</b>.", "— (non si usa)"),
+          ("imperfetto", "La biblioteca <b>era chiusa</b>.", "<b>veniva usata</b> poco"),
+          ("futuro", "La biblioteca <b>sarà inaugurata</b> sabato.", "<b>verrà inaugurata</b>")]
+    sp = [("singolare", "Il giornale <b>si compra</b> in edicola.", "si + verbo alla 3ª singolare"),
+          ("plurale", "Qui <b>si vendono</b> tutti i giornali.", "si + verbo alla 3ª plurale")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: la forma passiva e il si passivante", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Nella forma <b>passiva</b> il soggetto <b>riceve</b> l'azione: <i>Lo studio <b>ha rinnovato</b> la biblioteca</i> → <i>La biblioteca <b>è stata rinnovata</b> dallo studio</i>. È tipica dei <b>giornali</b>, delle notizie e dei testi formali: mette al centro la cosa, non chi fa l'azione. Il participio <b>concorda</b> con il soggetto.</div>
+{_h("1. ESSERE O VENIRE + PARTICIPIO")}
+{_tbl(["tempo", "con essere", "con venire"], es, "8pt", ["32mm", None, "52mm"])}
+<p class="small" style="margin:.5mm 0"><b>Venire</b> si usa solo nei <b>tempi semplici</b> e indica un'azione (<i>viene aperta alle nove</i>); <b>essere</b> può indicare anche uno stato (<i>è aperta fino alle sette</i>).</p>
+<div class="two"><div>{_h("2. CHI FA L'AZIONE? DA")}
+<p class="small" style="margin:.5mm 0">L'agente si introduce con <b>da</b> (+ articolo): <i>Il progetto è stato seguito <b>da</b> Júlia. · È stato scritto <b>dalla</b> signora Rossi.</i> Spesso l'agente non si dice: non è importante o non si sa.</p></div>
+<div>{_h("3. IL SI PASSIVANTE")}
+{_tbl(["numero", "esempio", "regola"], sp, "7.9pt", ["16mm", None, "28mm"])}</div></div>
+{_h("4. QUALE SCEGLIERE?")}
+<p class="small" style="margin:.5mm 0">Notizie, cronaca → <i>è stato rinnovato, verrà inaugurato</i>. Regole, abitudini, istruzioni → <i>si compra, si legge, si fa così</i>. Nel parlato si preferisce spesso la forma attiva.</p>
+{_dont([("La biblioteca è venuta rinnovata.", "La biblioteca <b>è stata</b> rinnovata."), ("Qui si vende i giornali.", "Qui si <b>vendono</b> i giornali."), ("Il libro è stato scritto per Calvino.", "Il libro è stato scritto <b>da</b> Calvino.")])}""",
+    24, """<p>Il portoghese ha <i>ser + particípio</i> e <i>vende-se / vendem-se</i>, quindi la struttura è nota. Errori tipici: <i>venire</i> nei tempi composti (<i>è venuta rinnovata</i>), il verbo al singolare con il si (<i>si vende i giornali</i>, come <i>vende-se casas</i> nel parlato) e <i>per</i> invece di <i>da</i> (<i>por</i>).</p>""")

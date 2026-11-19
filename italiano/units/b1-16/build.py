@@ -1,0 +1,86 @@
+# Speak! Progresso B1 - Unità 16 "Libri e notizie" - FORMATO RIDOTTO (italiano/lean_b1.py)
+import os, sys
+HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, os.path.join(HERE, "..", ".."))
+from engine_it import *
+import speak_engine as _se
+import lean_b1
+_se.SERIES = "Progresso"
+setup(band="B1 · UNITÀ 16", audio_json=os.path.join(HERE, "audio_it-b1-unita-16.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
+SCRIPT, S2 = lean_b1.load_script(HERE, "it-b1-unita-16", "16.1 Libri e notizie", "16.2 Ripeti")
+
+C = dict(
+    nn="16", title="Libri e notizie", subtitle="Giornali e lettura · <b>la forma passiva e il si passivante</b>",
+    cover=[("SAI FARE", "raccontare una notizia, parlare di giornali e di libri, spiegare come si fa una cosa"),
+           ("LINGUA", "È stata rinnovata. · Verrà inaugurata sabato. · Dove si compra? · Si vendono qui."),
+           ("PRONUNCIA", "le doppie nei participi: riNNovata, scriTTo, leTTo")],
+    t1="le notizie",
+    start=["Guarda la foto. Leggi il giornale di carta o online?", "Qual è l'ultima notizia che ti ha colpito?",
+           "Che cosa stai leggendo in questo periodo?"],
+    kw=[("il chiosco dove si comprano giornali e riviste", "l'edicola"), ("un esemplare di un giornale o di un libro", "una copia"),
+        ("la festa per aprire un posto nuovo", "l'inaugurazione"), ("rendere nuovo un edificio vecchio", "rinnovare"),
+        ("mettere un testo sul giornale o su un sito", "pubblicare"), ("brevi storie inventate", "i racconti")],
+    use_words=["C'è un'edicola vicino a casa tua? Che cosa si vende?", "Hai mai partecipato a un'inaugurazione? Di che cosa?"],
+    n1=["A: <i>rinnovare</i> = <i>reformar</i> (un edificio); <i>riformare</i> si usa per leggi e sistemi. <i>Il Resto del Carlino</i> è il quotidiano di Bologna."],
+    aims=["Libri e notizie: Júlia sul giornale · Parliamone", "La forma passiva con essere e venire · il si passivante",
+          "Raccontare una notizia (16.2) · il telegiornale della tua città", "L'articolo sull'inaugurazione · dall'attivo al passivo · scrittura (100–150 parole)"],
+    story="Giovedì 15 aprile, mattina, bar di Giulia: Júlia fa colazione con i genitori prima del lavoro; c'è anche la signora Rossi. Giulia legge sul Resto del Carlino che la vecchia biblioteca della Bolognina è stata rinnovata dallo studio di Júlia e Marco e verrà inaugurata sabato: il progetto è stato seguito da «una giovane architetta brasiliana, Júlia». Lúcia è orgogliosissima; Roberto compra dieci copie, una per ogni zio. Lúcia preferisce la carta; anche la signora Rossi. Nella biblioteca i libri vengono prestati anche con un'app. Roberto legge il suo primo libro in italiano, racconti regalati dalla signora Rossi («una pagina all'ora»). Sabato tutti all'inaugurazione; Giulia va dal parrucchiere perché le foto verranno pubblicate sul sito del Comune.",
+    prob="Il passivo è simile al portoghese (<i>foi reformada</i>), ma lo studente usa <i>venire</i> nei tempi composti (<i>è venuta rinnovata</i>), dimentica l'accordo del participio, mette <i>per</i> al posto di <i>da</i> (<i>por</i>) e lascia il verbo al singolare con il si (<i>si vende i giornali</i>, come il parlato <i>vende-se casas</i>). Falso amico: <i>riformare</i> ≠ <i>reformar</i> una casa (= <i>rinnovare, ristrutturare</i>).",
+    real="<i>Il Resto del Carlino</i>, fondato nel 1885, è il quotidiano di Bologna. In centro c'è la biblioteca Salaborsa, in piazza del Nettuno: sotto il pavimento di vetro si vedono resti romani e medievali. Secondo l'ISTAT, solo circa 4 italiani su 10 leggono almeno un libro all'anno; le edicole sono sempre meno, ma molti anziani comprano ancora il giornale di carta.",
+    tr=("Libri e notizie", "Ripeti: la forma passiva"),
+    gist=("Giovedì mattina, al bar di Giulia. Ascolta. Perché tutti sono contenti?",
+          ["Júlia è sul giornale per il progetto della biblioteca", "Roberto ha scritto un libro in italiano", "Giulia apre una libreria nel bar"]),
+    detail=("vf", "Ascolta di nuovo. Vero (V) o falso (F)? Correggi le frasi false.",
+            [("La notizia è a pagina dodici.", "V"), ("La biblioteca è già stata inaugurata.", "F"),
+             ("Roberto vuole comprare dieci copie del giornale.", "V"), ("Lúcia preferisce leggere il giornale online.", "F"),
+             ("Nella biblioteca i libri vengono prestati anche con un'app.", "V"), ("Il libro di Roberto è stato regalato da Giulia.", "F")]),
+    talk2=["Perché Giulia alla fine vuole andare dal parrucchiere?", "Lúcia dice: «La carta si tocca, si conserva». Sei d'accordo?",
+           "Roberto legge «una pagina all'ora». Hai mai letto un libro in una lingua straniera?"],
+    n2=["B: 2 verrà inaugurata sabato · 4 preferisce la carta · 6 dalla signora Rossi.", "Far notare la frase del giornale: tutto al passivo (<i>è stata rinnovata, verrà inaugurata, è stato seguito</i>)."],
+    gref="passivo_b1",
+    t4="la forma passiva",
+    pA=("Trasforma al passivo. Attenzione all'accordo.",
+        [("Lo studio ha rinnovato la biblioteca. → La biblioteca ___ dallo studio.", "è stata rinnovata"),
+         ("Il sindaco inaugurerà la biblioteca. → La biblioteca ___ dal sindaco.", "verrà / sarà inaugurata"),
+         ("Júlia ha seguito il progetto. → Il progetto ___ da Júlia.", "è stato seguito"),
+         ("La biblioteca presta i libri con un'app. → I libri ___ con un'app.", "vengono prestati"),
+         ("In edicola vendono i giornali. → In edicola ___ i giornali.", "si vendono")]),
+    pAw="34mm",
+    pB=[("Il giornale ", ["si legge", "si leggono"], "si legge", " anche online."),
+        ("Le foto ", ["sono state pubblicate", "sono venute pubblicate"], "sono state pubblicate", " ieri sul sito."),
+        ("Questo libro è stato scritto ", ["da", "per"], "da", " una scrittrice bolognese.")],
+    rule="<b>Passivo</b> = <b>essere</b> (tutti i tempi) o <b>venire</b> (solo tempi semplici) + <b>participio</b> che concorda: <i>la biblioteca è stata rinnovata · i libri vengono prestati</i>. Chi fa l'azione → <b>da</b>. <b>Si passivante</b>: <i>si</i> + verbo alla 3ª persona che concorda con la cosa: <i>si compra il giornale · si vendono i giornali</i>.",
+    use=["Che cosa si vende nel tuo quartiere? <i>Si vendono…</i>", "Un edificio famoso della tua città: da chi è stato costruito? Quando?",
+         "Come si prepara il tuo piatto preferito? <i>Si prende… si mette…</i>", "Una notizia recente: <i>È stato/a…</i>",
+         "Che cosa verrà costruito o aperto presto nella tua città?"],
+    n4="A3 e A4: il participio concorda (<i>seguito</i>, <i>prestati</i>). Nell'orale accettare la forma attiva, poi chiedere la passiva.",
+    t5="raccontare una notizia",
+    fl=(["dare una notizia", "chi, quando, dove", "reagire", "parlare di lettura"],
+        ["Hai sentito che…? · Ho letto che… · Secondo il giornale…", "È stato inaugurato ieri. · Verrà aperto a maggio. · È stato organizzato dal Comune.",
+         "Davvero? · Non lo sapevo! · Era ora! · Che peccato!", "Sto leggendo… · Si legge facilmente. · È scritto bene. · Te lo consiglio."]),
+    pron=("Nei participi le <b>doppie</b> si sentono bene: <i>ri<b>nn</b>ovata, scri<b>tt</b>o, le<b>tt</b>o, me<b>ss</b>o, pu<b>bb</b>licate</i>. Fermati un attimo sulla consonante doppia: <i>scrit-to</i>, non <i>scri-to</i>.",
+          "Ascolta e ripeti. Poi leggi a voce alta un titolo di giornale che hai scritto tu."),
+    task=("Il telegiornale della tua città. Sei il giornalista: presenta tre notizie della tua città (vere o inventate) usando il passivo. L'insegnante fa domande (Da chi? Quando? Perché?). Poi parlate di un libro: che cosa stai leggendo e come si legge.",
+          "<ul style='line-height:1.45;font-size:8.9pt;margin:0;columns:2'><li>un edificio rinnovato</li><li>un festival organizzato</li><li>un ponte o una strada chiusi</li><li>un premio vinto</li><li>un negozio aperto</li><li>un libro pubblicato</li></ul>",
+          "Insegnante: Da chi è stato rinnovato? · Quando verrà aperto? · Quanto è costato? · E i cittadini che cosa ne pensano? · Che libro stai leggendo? Da chi è stato scritto? Si legge facilmente?"),
+    talk5=["Come ti informi: giornali, TV, social o podcast?", "C'è un libro che consiglieresti a tutti? Perché?"],
+    n5=["battere due colpi sulle doppie: <i>scrit-to, let-to</i>; il brasiliano tende a scempiare.", "Pretendere almeno tre passivi nel telegiornale; reagire con <i>Era ora! · Non lo sapevo!</i>"],
+    hA=("Sabato il Resto del Carlino pubblica l'articolo sull'inaugurazione. Scegli la forma giusta.",
+        "<i>BOLOGNINA – Ieri mattina la nuova biblioteca di quartiere {0} dal sindaco. Il vecchio edificio {1} in sei mesi da uno studio bolognese. All'inaugurazione {2} centinaia di persone, tra cui molti bambini. La biblioteca è aperta dal martedì al sabato; i libri {3} anche con un'app e nella sala principale {4} giornali di tutto il mondo.</i>",
+        [(["è stata inaugurata", "è venuta inaugurata"], "è stata inaugurata"), (["è stato rinnovato", "ha rinnovato"], "è stato rinnovato"),
+         (["sono arrivate", "sono state arrivate"], "sono arrivate"), (["vengono prestati", "vengono prestato"], "vengono prestati"),
+         (["si leggono", "si legge"], "si leggono")]),
+    hB=("Trasforma dalla forma attiva alla passiva.",
+        [("Molti turisti visitano la Salaborsa.", "La Salaborsa è visitata / viene visitata da molti turisti."), ("Hanno pubblicato le foto sul sito.", "Le foto sono state pubblicate sul sito."),
+         ("In Italia bevono molto caffè.", "In Italia si beve molto caffè.")]),
+    watch=[("La biblioteca è venuta rinnovata.", "La biblioteca è stata rinnovata.", "<i>venire</i> solo nei tempi semplici."),
+           ("Qui si vende i giornali.", "Qui si vendono i giornali.", "il verbo concorda con la cosa."),
+           ("Hanno riformato la casa.", "Hanno ristrutturato la casa.", "<i>riformare</i> = leggi, sistemi.")],
+    write=("Scrivi un breve articolo di giornale su una notizia della tua città (vera o inventata): che cosa è successo, dove, quando, da chi è stato fatto e che cosa succederà.",
+           "Ieri a … è stato/a …", ["cinque verbi al passivo (con <i>essere</i> e <i>venire</i>)", "un <i>si</i> passivante", "un complemento d'agente con <i>da</i>"]),
+    cando="So raccontare una notizia, parlare di giornali e libri e usare la forma passiva.",
+    nH="Prossima unità: <i>La famiglia oggi</i> (benché, sebbene + congiuntivo).",
+)
+
+if __name__ == "__main__":
+    render(lean_b1.make_build(C, SCRIPT, S2), sys.argv[1] if len(sys.argv) > 1 else "B1 Progresso 16 - Libri e notizie")
