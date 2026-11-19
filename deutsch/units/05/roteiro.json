@@ -1,0 +1,18 @@
+{
+ "material": "speak-essenziell",
+ "characters": {
+  "Rafael": "de-DE-Chirp3-HD-Iapetus",
+  "Lena": "de-DE-Chirp3-HD-Achernar",
+  "Jonas": "de-DE-Chirp3-HD-Puck",
+  "Verkäufer": "de-DE-Chirp3-HD-Charon",
+  "Narrator": "de-DE-Chirp3-HD-Aoede"
+ },
+ "pauses": {"05.2": 2500, "05.3": 3000},
+ "units": {
+  "de-a1-einheit-05": {
+   "05.1 Dialog": "Narrator: Dialog eins. Auf dem Flohmarkt.\nRafael: Entschuldigung, was kostet der Tisch?\nVerkäufer: Der Tisch? Er kostet vierzig Euro.\nRafael: Und die Lampe?\nVerkäufer: Sie kostet fünfzehn Euro.\nRafael: Gut, ich nehme die Lampe.\nNarrator: Dialog zwei.\nJonas: Wie findest du das Sofa?\nRafael: Es ist schön, aber teuer. Neunzig Euro!\nJonas: Und der Stuhl?\nRafael: Der Stuhl ist praktisch. Und billig!\nNarrator: Dialog drei. Bei Rafael.\nLena: Oh, die Lampe ist schön! Ist sie neu?\nRafael: Ja, vom Flohmarkt.\nLena: Was kostet sie?\nRafael: Nur fünfzehn Euro.\nLena: Super!",
+   "05.2 Wiederhole Möbel": "Narrator: der Tisch\nNarrator: der Stuhl\nNarrator: das Sofa\nNarrator: das Bett\nNarrator: die Lampe\nNarrator: der Schrank\nNarrator: das Regal\nNarrator: die Uhr",
+   "05.3 Wiederhole Sätze": "Narrator: Was kostet der Tisch?\nNarrator: Er kostet vierzig Euro.\nNarrator: Was kostet die Lampe?\nNarrator: Sie kostet fünfzehn Euro.\nNarrator: Wie findest du das Sofa?\nNarrator: Es ist schön, aber teuer.\nNarrator: Der Stuhl ist billig."
+  }
+ }
+}
