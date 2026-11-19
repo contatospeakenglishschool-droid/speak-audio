@@ -1562,3 +1562,21 @@ def unless_in_case(b):
 <p class="small" style="margin:.8mm 0"><i>Unless</i> already has a negative meaning, so the verb after it is usually positive: <i>Unless you <b>call</b> them…</i> (not <i>unless you don't call</i>). <i>Provided (that)</i> is more formal than <i>as long as</i>. <i>Otherwise</i> usually starts a new sentence and is followed by a comma.</p>
 {_dont([("Unless you don't pay, they'll charge a fee.", "<b>Unless</b> you <b>pay</b>, … / <b>If</b> you <b>don't pay</b>, …"), ("As long as you will give me the address…", "As long as you <b>give</b> me the address…"), ("Take some cash in case of the card doesn't work.", "…in case <b>the card</b> doesn't work. / in case <b>of</b> problems."), ("I'll take an umbrella if it rains.", "I'll take an umbrella <b>in case</b> it rains. (to be prepared)"), ("Write it down, otherwise you forget.", "Write it down. Otherwise, you<b>'ll</b> forget.")])}""",
     22, """<p>Brazilians often add <i>don't</i> after <i>unless</i> (a double negative) and confuse <i>in case</i> with <i>if</i>, because both can be translated with one Portuguese structure. <i>In case of</i> + noun (<i>in case of fire</i>) is formal. Drill: give a travel tip (<i>Take a photo of your passport.</i>); the student completes it with <i>in case…</i>.</p>""")
+
+
+def contrast_linkers(b):
+    """B1 Unit 24: contrast and addition: although / even though, however, despite / in spite of, on the other hand, whereas; on top of that, what's more."""
+    b.page(f"""{b.sec("+", "Grammar reference: although, however, despite", "")}
+<div class="box" style="margin-top:0"><h4>SAME IDEA, DIFFERENT GRAMMAR</h4>These words all show a <b>contrast</b>, but they need different structures after them: a <b>clause</b> (subject + verb), a <b>noun / -ing</b>, or a <b>new sentence</b>. <i>Although it was beautiful, it didn't feel real.</i> = <i>Despite its beauty, it didn't feel real.</i> = <i>It was beautiful. However, it didn't feel real.</i></div>
+{_h("1. CONTRAST")}
+{_tbl(["word", "followed by", "example"], [
+    ["<b>although / even though</b>", "subject + verb", "<i><b>Although</b> it was beautiful, the center was full of tourist traps.</i>"],
+    ["<b>despite / in spite of</b>", "a noun or -ing (no subject + verb)", "<i><b>Despite</b> the crowds, … · <b>In spite of</b> paying the fee, I'd still go.</i>"],
+    ["<b>However,</b>", "a new sentence (with a comma)", "<i>I don't know. <b>However,</b> it shows that the problem is real.</i>"],
+    ["<b>On the other hand,</b>", "a new sentence: the other side", "<i>It's great for tourists. <b>On the other hand,</b> locals can't sleep.</i>"],
+    ["<b>whereas</b>", "subject + verb: a direct comparison", "<i>Tourists love the nightlife, <b>whereas</b> locals hate the noise.</i>"]], "8.1pt")}
+{_h("2. ADDING A POINT")}
+<p class="small" style="margin:.5mm 0"><b>On top of that, · What's more, · Also, · Besides,</b> (new sentence): <i>The streets are cleaner. <b>On top of that,</b> they're safer.</i> · <b>as well as</b> + noun / -ing: <i><b>As well as</b> creating jobs, tourism brings money.</i></p>
+<p class="small" style="margin:.5mm 0"><b>despite the fact that</b> + subject + verb: <i>Despite the fact that it was expensive, we went.</i> <i>Even though</i> is stronger than <i>although</i>.</p>
+{_dont([("Despite of the crowds, …", "<b>Despite</b> the crowds / <b>In spite of</b> the crowds"), ("Despite it was expensive, …", "<b>Although</b> it was expensive / <b>Despite</b> the price"), ("Although it was cheap, but it was bad.", "<b>Although</b> it was cheap, it was bad. (not both)"), ("It's nice, however it's crowded.", "It's nice. <b>However,</b> it's crowded. / It's nice, <b>but</b> it's crowded."), ("In the other hand…", "<b>On</b> the other hand…")])}""",
+    22, """<p>Brazilians often say <i>despite of</i>, translating word for word, use <i>despite</i> + subject + verb, and put <i>although</i> and <i>but</i> in the same sentence. Drill: give two ideas (<i>It rained. We had fun.</i>); the student joins them in three ways: <i>although, despite, however</i>.</p>""")

@@ -1,0 +1,22 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Ana": "en-US-Neural2-F",
+  "Bruno": "en-US-Chirp3-HD-Fenrir",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-24": {
+   "24.1 Is tourism good for a town": "Danny: Welcome back to Gap Year Diaries! Today's question is a big one: is tourism good or bad for a town? With me are Ana and Bruno. Ana, what's your opinion?\nAna: I think tourism has helped a lot of places. It creates jobs, and the standard of living goes up. In my opinion, despite the crowds, a lot of locals are better off.\nBruno: That may be true, but think about the prices. In some cities, locals can't pay the rent anymore, because so many apartments have become vacation rentals.\nDanny: I totally agree with that. Last month I visited a small historic town on the coast. Although it was beautiful, the center was full of tourist traps. It didn't feel real.\nAna: You're right up to a point, but tourists spend money. That money helps to restore old buildings that were run-down. On top of that, the streets are cleaner and safer.\nBruno: I'm not sure about that, to be honest. Some cities are trying to control the crowds. Venice, for example, charges day-trippers a fee of five euros on busy days, or ten if they book late.\nDanny: Really? Do you think that works?\nBruno: I don't know. However, it shows that the problem is real.\nAna: You must be joking! A small fee won't stop anyone from visiting Venice. In spite of the fee, I'd still go tomorrow.\nDanny: OK, last topic: nightlife. Good or bad?\nBruno: The nightlife is great for tourists. On the other hand, the locals can't sleep!\nAna: Come on, Bruno! You love the nightlife more than anyone.\nDanny: Ha! Let's leave it there. Thanks for listening, everyone!",
+   "24.2 Repeat: agreeing and disagreeing": "Narrator: I totally agree with that.\nNarrator: That's true.\nNarrator: That may be true, but...\nNarrator: You could be right, but...\nNarrator: I'm not sure about that, to be honest.\nNarrator: I disagree.\nNarrator: You must be joking!\nNarrator: Come on!"
+  }
+ },
+ "images": {
+  "b1-unit-24": {
+   "A": "crowded tourist street old town",
+   "B": "venice canal gondola",
+   "C": "souvenir shop magnets"
+  }
+ }
+}
