@@ -1,0 +1,28 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
+  "Lúcia": "it-IT-Chirp3-HD-Sulafat",
+  "Roberto": "it-IT-Chirp3-HD-Algenib"
+ },
+ "pauses": {
+  "17.2": 2500
+ },
+ "images": {
+  "it-b1-unita-17": {
+   "A": "family sunday lunch table",
+   "B": "homemade tagliatelle pasta",
+   "C": "old family photographs",
+   "D": "friends dinner together home"
+  }
+ },
+ "units": {
+  "it-b1-unita-17": {
+   "17.1 La famiglia oggi": "Narrator: Domenica 18 aprile. Dopo l'inaugurazione della biblioteca, la signora Rossi ha invitato a pranzo Júlia, Bruno e i loro genitori.\nSignora Rossi: Accomodatevi! Benché la cucina sia piccola, c'è posto per tutti.\nLúcia: Grazie, signora. Che bella casa! Lei vive da sola?\nSignora Rossi: Sì, da tanti anni. Ma sebbene viva da sola, non mi sento mai sola: c'è mio fratello Franco, ci sono i vicini... e adesso c'è anche Júlia.\nRoberto: In Brasile, la domenica a pranzo siamo sempre in venti: nonni, zii, cugini...\nBruno: E anche se siamo in venti, parla sempre la mamma!\nLúcia: Parlo perché nessuno mi ascolta. Per esempio: benché Júlia abbia trentadue anni, non è ancora sposata.\nJúlia: Mamma! Ne parliamo ogni domenica al telefono!\nSignora Rossi: Signora, qui in Italia è normale. Molti giovani escono di casa verso i trent'anni, e i figli arrivano tardi.\nRoberto: E Bruno? Nonostante abbia una fidanzata da più di un anno, non ce l'ha ancora presentata.\nBruno: Ve la presento martedì, promesso.\nLúcia: Finalmente! E i nipoti, quando arrivano?\nBruno: Mamma, sto ancora studiando!\nSignora Rossi: Le famiglie cambiano, signora. Oggi ci sono famiglie con un figlio solo, coppie senza figli, amici che vivono insieme come una famiglia.\nJúlia: Come noi a Bologna. Giulia, Davide, Camila, Marco... sono la mia famiglia italiana.\nLúcia: Va bene, va bene. Anche se non sei sposata, sei felice. È questo che conta.\nRoberto: Però, benché tu abbia una famiglia italiana, la mamma vuole che torni a casa per Natale.\nJúlia: Ci penso, papà. Ci penso.\nSignora Rossi: Adesso basta parlare: le tagliatelle si raffreddano!",
+   "17.2 Ripeti": "Narrator: Benché la cucina sia piccola, c'è posto per tutti.\nNarrator: Sebbene viva da sola, non mi sento mai sola.\nNarrator: Benché Júlia abbia trentadue anni, non è sposata.\nNarrator: Nonostante abbia una fidanzata, non ce l'ha presentata.\nNarrator: Anche se non sei sposata, sei felice.\nNarrator: Le famiglie cambiano."
+  }
+ }
+}
