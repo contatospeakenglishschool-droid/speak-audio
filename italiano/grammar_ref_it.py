@@ -1253,3 +1253,27 @@ def passivo_b1(b):
 <p class="small" style="margin:.5mm 0">Notizie, cronaca → <i>è stato rinnovato, verrà inaugurato</i>. Regole, abitudini, istruzioni → <i>si compra, si legge, si fa così</i>. Nel parlato si preferisce spesso la forma attiva.</p>
 {_dont([("La biblioteca è venuta rinnovata.", "La biblioteca <b>è stata</b> rinnovata."), ("Qui si vende i giornali.", "Qui si <b>vendono</b> i giornali."), ("Il libro è stato scritto per Calvino.", "Il libro è stato scritto <b>da</b> Calvino.")])}""",
     24, """<p>Il portoghese ha <i>ser + particípio</i> e <i>vende-se / vendem-se</i>, quindi la struttura è nota. Errori tipici: <i>venire</i> nei tempi composti (<i>è venuta rinnovata</i>), il verbo al singolare con il si (<i>si vende i giornali</i>, come <i>vende-se casas</i> nel parlato) e <i>per</i> invece di <i>da</i> (<i>por</i>).</p>""")
+
+
+def concessive_b1(b):
+    """B1 Progresso 17: benché, sebbene, nonostante (che) + congiuntivo; anche se + indicativo; nonostante + nome."""
+    cg = [("<b>benché</b>", "+ congiuntivo", "<i>Benché <b>sia</b> piccola, la cucina va bene.</i>"),
+          ("<b>sebbene</b>", "+ congiuntivo", "<i>Sebbene <b>viva</b> da sola, non mi sento sola.</i>"),
+          ("<b>nonostante (che)</b>", "+ congiuntivo", "<i>Nonostante <b>abbia</b> una fidanzata, non dice niente.</i>"),
+          ("<b>anche se</b>", "+ <b>indicativo</b>", "<i>Anche se non <b>sei</b> sposata, sei felice.</i>"),
+          ("<b>nonostante</b> + nome", "senza verbo", "<i>Nonostante <b>la pioggia</b>, sono venuti tutti.</i>")]
+    tm = [("presente", "Benché <b>lavori</b> tanto, è serena.", "Anche se <b>lavora</b> tanto…"),
+          ("passato", "Benché <b>lavorasse</b> tanto, era serena.", "Anche se <b>lavorava</b> tanto…"),
+          ("azione finita", "Benché <b>abbia lavorato</b> tutto il giorno…", "Anche se <b>ha lavorato</b>…")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: benché, sebbene, nonostante, anche se", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Le frasi <b>concessive</b> presentano un fatto che sembra un ostacolo, ma che <b>non cambia</b> il risultato: <i>Benché Júlia abbia trentadue anni, non è sposata.</i> Con <b>benché, sebbene, nonostante</b> si usa il <b>congiuntivo</b>; con <b>anche se</b> l'<b>indicativo</b>. Sono tipiche di quando discutiamo, diamo opinioni o difendiamo una scelta.</div>
+{_h("1. LE CONGIUNZIONI")}
+{_tbl(["congiunzione", "modo", "esempio"], cg, "8pt", ["34mm", "28mm", None])}
+{_h("2. QUALE TEMPO?")}
+{_tbl(["situazione", "benché / sebbene / nonostante", "anche se"], tm, "7.9pt", ["28mm", None, "50mm"])}
+<div class="two"><div>{_h("3. LA POSIZIONE")}
+<p class="small" style="margin:.5mm 0">La concessiva può stare prima o dopo: <i>Non è sposata, <b>benché</b> abbia 32 anni.</i> Nella frase principale si può aggiungere <i>comunque, lo stesso</i>: <i>Piove, ma esco <b>lo stesso</b>.</i></p></div>
+<div>{_h("4. REGISTRO")}
+<p class="small" style="margin:.5mm 0"><i>Anche se</i> è il più comune nel parlato. <i>Benché, sebbene, nonostante</i> sono più formali e frequenti nello scritto. <i>Malgrado</i> = <i>nonostante</i>.</p></div></div>
+{_dont([("Benché è tardi, restiamo.", "Benché <b>sia</b> tardi, restiamo."), ("Anche se sia stanca, esco.", "Anche se <b>sono</b> stanca, esco."), ("Nonostante di lavorare tanto…", "Nonostante <b>lavori</b> tanto…")])}""",
+    24, """<p>Il portoghese funziona allo stesso modo (<i>embora seja</i>, <i>mesmo que</i> + subjuntivo, <i>apesar de</i> + infinito). Errori tipici: l'indicativo dopo <i>benché</i> (<i>benché è</i>), il congiuntivo dopo <i>anche se</i> (calco di <i>mesmo que seja</i>) e il calco <i>nonostante di</i> + infinito (<i>apesar de</i>).</p>""")
