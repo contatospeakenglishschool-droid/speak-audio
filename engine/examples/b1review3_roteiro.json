@@ -1,0 +1,29 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Ana": "en-US-Neural2-F",
+  "Bruno": "en-US-Chirp3-HD-Fenrir",
+  "Mrs. Lima": "en-US-Chirp3-HD-Vindemiatrix",
+  "Receptionist": "en-US-Studio-O",
+  "Carol": "en-US-Chirp3-HD-Leda",
+  "Paulo": "en-US-Neural2-I",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-review-3": {
+   "R3.1 Back from the south": "Mrs. Lima: Welcome back, Danny! Would you mind taking your boots off at the door? They're filthy!\nDanny: Not at all! Sorry, Mrs. Lima. I've just walked from the bus station.\nAna: So, tell us everything! How was Patagonia?\nDanny: Absolutely amazing. The glaciers were huge, and the lakes were such a bright blue that they looked fake. Although it was summer, it was freezing at night.\nBruno: Did you wear my belt?\nDanny: Every day! And my ugly old green wool sweater. I'd never been so happy to have it.\nAna: And the wind? Paulo told me that the wind there was terrible.\nDanny: It was. At first I couldn't walk straight, but I got used to it after a few days.\nBruno: Did you meet anyone interesting?\nDanny: Yes! Tomás, who has lived alone by a lake for twenty-five years. He'd worked in an office before he moved there. He told me he would never go back to the city.\nMrs. Lima: A hermit! And how was Buenos Aires?\nDanny: Great. The hotel, which was near the center, was small but spotless. There was a mistake on my bill, but I asked politely, and they took it off.\nAna: Did you have any problems with money this time?\nDanny: No. I took some cash in case my card didn't work, and I didn't use street ATMs unless I had to.\nBruno: Smart. Did Buenos Aires feel touristy?\nDanny: Some places did. However, the locals were really friendly. On the other hand, everything was more expensive than I'd expected.\nMrs. Lima: Well, you're home now. Danny, could you pass me your plate? There's soup.\nDanny: Chicken soup? Mrs. Lima, you're the best!\nAna: Oh, and Carol says hi. She told me she had found the perfect dress for Linda's wedding.",
+   "R3.2 Dictation: contractions and weak forms": "Narrator: Number one. I'd never seen a glacier before.\nNarrator: Number two. He's lived there for years.\nNarrator: Number three. Would you mind waiting a moment?\nNarrator: Number four. It was such a long day!\nNarrator: Number five. I'm getting used to it.\nNarrator: Number six. She told me she'd found a dress.",
+   "R3.3 Dialogues": "Narrator: Dialogue one.\nReceptionist: Good evening. How can I help you?\nCarol: Hi. I have a reservation for two nights. Would you mind telling me what time checkout is?\nReceptionist: Not at all. It's at eleven. Here's your key card.\nCarol: Thanks. Do you mind if I leave my bags here for an hour?\nReceptionist: Of course not.\nNarrator: Dialogue two.\nAna: How was Iceland?\nPaulo: Absolutely fantastic! The waterfalls were huge.\nAna: Was it cold?\nPaulo: It was freezing. It was so cold that my camera stopped working.\nAna: You must be exhausted.\nPaulo: I am. It was such a long trip!"
+  }
+ },
+ "pauses": {
+  "R3.2": 6000
+ },
+ "images": {
+  "b1-review-3": {
+   "I": "soup bowls dinner table friends",
+   "J": "glacier lake patagonia"
+  }
+ }
+}
