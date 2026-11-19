@@ -51,15 +51,15 @@ def build(teacher):
     b.extra("Lesson overview · 55–60 min", """
 <table><tr><th>Stage</th><th>Where</th><th>Time</th><th>Aim</th><th>SB page</th></tr>
 <tr><td>1 Warm-up</td><td>class</td><td>7 min</td><td>Discussion · 6 key words · questions with the words</td><td>1</td></tr>
-<tr><td>2 Listening</td><td>class</td><td>13 min</td><td>Podcast debate: is tourism good for a town? · Talk about it</td><td>2</td></tr>
-<tr><td>3 Language focus</td><td>class</td><td>12 min</td><td>although, however, despite, on the other hand · Use it (oral)</td><td>3</td></tr>
-<tr><td>4 Speaking</td><td>class</td><td>20 min</td><td>Agreeing and disagreeing (24.2) · debate cards</td><td>4</td></tr>
+<tr><td>2 Listening</td><td>class</td><td>12 min</td><td>Podcast debate: is tourism good for a town? · Talk about it</td><td>2</td></tr>
+<tr><td>3 Grammar reference</td><td>class</td><td>8 min</td><td>although, however, despite, on the other hand (explain with the examples from the podcast)</td><td>3</td></tr>
+<tr><td>4 Practice</td><td>class</td><td>10 min</td><td>Complete, choose · Use it (oral)</td><td>4</td></tr>
+<tr><td>5 Speaking</td><td>class</td><td>18 min</td><td>Agreeing and disagreeing (24.2) · debate cards</td><td>5</td></tr>
 <tr><td>Wrap-up</td><td>class</td><td>3 min</td><td>Two corrections from your notes · can-do question</td><td>–</td></tr>
-<tr><td>Grammar reference</td><td>home</td><td>–</td><td>although, however, despite</td><td>5</td></tr>
 <tr><td>Homework</td><td>home</td><td>–</td><td>Practice · word choice · writing (100–150 words)</td><td>6</td></tr></table>
-<div class="box"><h4>NEW B1 FORMAT (PILOT)</h4>This unit has <b>4 pages for the class</b> and <b>2 pages for home</b>. Each class page ends with a box of questions so the student speaks most of the time. Controlled practice, word choice and writing are homework. Check the homework quickly at the start of the next class (3–5 minutes).</div>
+<div class="box"><h4>NEW B1 FORMAT (PILOT)</h4>This unit has <b>5 pages for the class</b> (warm-up, listening, grammar reference, practice, speaking) and <b>1 page for home</b>. Each class page ends with a box of questions so the student speaks most of the time. Extra practice, word choice and writing are homework. Check the homework quickly at the start of the next class (3–5 minutes).</div>
 <div class="box sand"><h4>THE STORY</h4>The Linguahouse lesson is a discussion about a European town after a tourism boom, with expressions for agreeing and disagreeing. Our listening is an episode of Danny's podcast <i>Gap Year Diaries</i> (B1 Unit 06) with Ana and Bruno. The historic coastal town Danny visited is not named. Verified fact: Venice charges day-trippers aged 14 and over an access fee of €5 on peak days (Fridays to Sundays from April to July in 2026), or €10 if they book less than four days ahead; overnight visitors don't pay it (Euronews, 2026; Lonely Planet). Other statements in the debate are opinions.</div>
-<div class="box"><h4>KEY PROBLEM FOR BRAZILIANS</h4><i>Despite of…</i>, <i>despite + subject + verb</i>, <i>although… but…</i> in one sentence, <i>in the other hand</i>, <i>I'm agree</i>, and <i>actually</i> for <i>currently</i>. Brazilians also tend to disagree too directly in English (<i>You're wrong</i>) or too softly; teach the scale on page 4.</div>
+<div class="box"><h4>KEY PROBLEM FOR BRAZILIANS</h4><i>Despite of…</i>, <i>despite + subject + verb</i>, <i>although… but…</i> in one sentence, <i>in the other hand</i>, <i>I'm agree</i>, and <i>actually</i> for <i>currently</i>. Brazilians also tend to disagree too directly in English (<i>You're wrong</i>) or too softly; teach the scale on page 5.</div>
 <div class="box"><h4>AUDIO</h4>Track 24.1 Is tourism good for a town? (natural and slow) · Track 24.2 Repeat: agreeing and disagreeing</div>""")
 
     # Page 2 - Listening
@@ -68,7 +68,7 @@ def build(teacher):
            ("The town was full of tourist traps.", "Danny"), ("Tourist money helps to restore old buildings.", "Ana"),
            ("Venice charges day-trippers a fee.", "Bruno"), ("A small fee won't stop people from visiting Venice.", "Ana"), ("The nightlife is bad for locals.", "Bruno")]
     wl = "".join(f"<li>{s} {A(w, 'min-width:13mm')}</li>" for s, w in who)
-    b.page(f"""{sec(2, "Listening: is tourism good for a town?", "13 min")}
+    b.page(f"""{sec(2, "Listening: is tourism good for a town?", "12 min")}
 <div style="display:flex;gap:3mm;align-items:flex-start"><div style="flex:1">
 {audiocard(["24.1 · NATURAL", "24.1 · SLOW"])}
 {sub("A", "Danny, Ana and Bruno discuss tourism on Danny's podcast. Listen. What happens?", "2 min", "24.1")}
@@ -77,16 +77,22 @@ def build(teacher):
 <ol style="line-height:1.55;font-size:8.8pt;margin:0">{wl}</ol>
 {talk(["Who do you agree with most: Ana, Bruno or Danny? Why?", "Should popular cities charge tourists a fee? How much?", "Vacation rentals: good for travelers, bad for locals?"])}""",
     29, """<ol><li>A–B: 6 minutes. Play the natural version; use the slow one only if needed. The Venice fact is real (see the story box).</li>
-<li>Talk about it: 7 minutes. Take the opposite side to make the student defend their opinion; note useful phrases they need for page 4.</li></ol>""")
+<li>Talk about it: 7 minutes. Take the opposite side to make the student defend their opinion; note useful phrases they need for page 5.</li></ol>""")
 
-    # Page 3 - Language focus
+    # Page 3 - Grammar reference (in class)
+    _sec = b.sec
+    b.sec = lambda n, t, tm="": _sec(3, t, "8 min") if n == "+" else _sec(n, t, tm)
+    grammar_ref.contrast_linkers(b)
+    b.sec = _sec
+
+    # Page 4 - Practice
     fs = [("___ the crowds, a lot of locals are better off.", "Despite"), ("___ it was beautiful, the center was full of tourist traps.", "Although"),
           ("I don't know. ___, it shows that the problem is real.", "However"), ("___ the fee, I'd still go tomorrow.", "In spite of"),
           ("The nightlife is great for tourists. ___, the locals can't sleep!", "On the other hand")]
     fsl = "".join(f"<li><i>{s.replace('___', A(a, 'min-width:24mm'))}</i></li>" for s, a in fs)
     use = ["Talk about your city: <i>Although it's…, …</i>", "Talk about your job or studies: <i>Despite…, I…</i>", "Give one good point about social media. <i>On the other hand, …</i>",
            "Talk about a trip: <i>It was… However, …</i>", "Compare two cities: <i>…, whereas…</i>"]
-    b.page(f"""{sec(3, "Language focus: although, however, despite", "12 min")}
+    b.page(f"""{sec(4, "Practice: although, however, despite", "10 min")}
 {sub("A", "Complete the sentences from the podcast with the words in the box.", "3 min")}
 <div class="bank">although · despite · however · in spite of · on the other hand</div>
 <ol style="line-height:1.85;font-size:8.9pt;margin:0">{fsl}</ol>
@@ -94,17 +100,17 @@ def build(teacher):
 <ol style="line-height:1.8;font-size:8.9pt;margin:0"><li><i>Although</i> is followed by {ch(["subject + verb", "a noun"], "subject + verb")}.</li>
 <li><i>Despite / In spite of</i> are followed by {ch(["subject + verb", "a noun or -ing"], "a noun or -ing")}.</li>
 <li><i>However</i> and <i>On the other hand</i> usually start {ch(["a new sentence", "the same sentence"], "a new sentence")}.</li></ol>
-<div class="box sand"><h4>RULE</h4><b>although</b> + subject + verb · <b>despite / in spite of</b> + noun / -ing (never <i>despite of</i>) · <b>However,</b> / <b>On the other hand,</b> + new sentence. More at home: <b>Grammar reference</b>, page 5.</div>
+<div class="box sand"><h4>RULE</h4><b>although</b> + subject + verb · <b>despite / in spite of</b> + noun / -ing (never <i>despite of</i>) · <b>However,</b> / <b>On the other hand,</b> + new sentence. See the <b>Grammar reference</b> on page 3.</div>
 {talk(use, "USE IT: ANSWER OUT LOUD")}""",
-    24, """<ol><li>A–B: 5 minutes. Point to the form after each word; the full explanation is on page 5 for home.</li>
-<li>Use it: 7 minutes, all oral. Accept any logical idea; correct only the structure. Push for two sentences each time.</li></ol>""")
+    24, """<ol><li>A–B: 4 minutes. The student has just seen the Grammar reference (page 3); check the form after each word.</li>
+<li>Use it: 6 minutes, all oral. Accept any logical idea; correct only the structure. Push for two sentences each time.</li></ol>""")
 
-    # Page 4 - Speaking
+    # Page 5 - Speaking
     st = ["Tourists should pay a fee to visit popular cities.", "Vacation rentals should be limited in city centers.", "Travel broadens the mind.",
           "Social media is a waste of time.", "English is an easy language to learn.", "It's better to visit one place slowly than many places fast.",
           "The best movies were made a long time ago.", "Everyone should learn a second language at school."]
     stl = "".join(f"<li>{x}</li>" for x in st)
-    b.page(f"""{sec(4, "Speaking: for and against", "20 min")}
+    b.page(f"""{sec(5, "Speaking: for and against", "18 min")}
 <div class="box sand" style="margin-top:0"><h4>FUNCTIONAL LANGUAGE</h4>
 <table style="margin:0;font-size:8.3pt"><tr><th>asking</th><th>giving an opinion</th><th>adding / contrasting</th><th>agreeing</th><th>disagreeing</th></tr>
 <tr><td><i>What do you think? · What's your opinion about…?</i></td><td><i>I think… · In my opinion… · I feel… · I'd say…</i></td><td><i>On top of that… · What's more… · However… · On the other hand…</i></td><td><i>I totally agree. · That's true. · Absolutely. · You're right.</i></td><td><i>That may be true, but… · I'm not sure about that. · I disagree. · You must be joking!</i></td></tr></table></div>
@@ -115,10 +121,9 @@ def build(teacher):
 <ol style="line-height:1.45;font-size:8.9pt;margin:0;columns:2">{stl}</ol>
 {talk(["When is it better to disagree politely? Give examples (your boss, a friend, a client…).", "Is it easy for you to disagree in English? Why?"], "TALK ABOUT IT")}""",
     26, """<ol><li>A: <i>That may be true, but… / You could be right, but… / I'm not sure about that</i> are polite (+); <i>I disagree</i> is normal (++); <i>You must be joking! / Come on!</i> are strong (+++), only with friends.</li>
-<li>B: always take the other side. After each debate, give one correction and one phrase to upgrade (<i>I think → I'd say</i>). Last 3 minutes: wrap-up (two corrections, and ask <i>Can you now disagree politely in English?</i>).</li></ol>""")
+<li>B: 12 minutes. Always take the other side. After each debate, give one correction and one phrase to upgrade (<i>I think → I'd say</i>). Last 3 minutes: wrap-up (two corrections, and ask <i>Can you now disagree politely in English?</i>).</li></ol>""")
 
     # ---------- AT HOME ----------
-    grammar_ref.contrast_linkers(b)
 
     pc = [(["Although", "Despite"], "Although"), (["despite", "although"], "despite"), (["However", "Although"], "However"), (["On top of that", "On the other hand"], "On top of that"),
           (["in spite of", "although"], "in spite of")]
