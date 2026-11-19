@@ -1,0 +1,22 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Host": "en-US-Studio-O",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-26": {
+   "26.1 Life at the extremes": "Host: Life at the extremes. Could you live somewhere really extreme? Around the world, people live in places that most of us would find impossible. Here are three of them.\nHost: Yakutsk, Russia: the coldest big city. Yakutsk, in eastern Siberia, has about three hundred and fifty-five thousand people, and it's the coldest major city on Earth. In January, the average temperature is below minus thirty-five degrees Celsius. The ground is frozen all year, so buildings stand on deep concrete piles. If you moved there, you'd have to get used to wearing several layers of clothes, and frostbite would be a real danger. Even wearing glasses outside can be tricky! The locals are hardy people, and most of them are used to the cold.\nHost: Coober Pedy, Australia: life underground. This small opal-mining town in the South Australian desert is famous for a different reason: heat. In summer, temperatures can go above forty-five degrees, so about half of the residents cope with the heat by living in dugouts, homes cut into the rock. Underground, the temperature stays at around twenty-three to twenty-five degrees all year, without air conditioning. The locals are used to living without windows. For visitors, it can take a while to get used to it.\nHost: La Rinconada, Peru: the highest town. At about five thousand one hundred meters above sea level, La Rinconada, in the Andes, is the highest permanent settlement in the world. People went there for gold, and many still work in the mines. At that altitude, the air has only about half as much oxygen as at sea level, so newcomers often get headaches and feel tired. Some people never get used to it.\nHost: So, how do people do it? The truth is that human beings are very good at adapting. We can get used to almost anything, as long as we have a good reason to stay.",
+   "26.2 Repeat: used to": "Narrator: I'm used to the cold.\nNarrator: I'm getting used to it.\nNarrator: You'll get used to it.\nNarrator: I'm not used to waking up early.\nNarrator: I used to live in Rio.\nNarrator: I can't get used to the food."
+  }
+ },
+ "images": {
+  "b1-unit-26": {
+   "A": "frozen city winter fog siberia",
+   "B": "coober pedy underground house",
+   "C": "sao paulo avenue traffic",
+   "D": "man frost beard winter cold",
+   "E": "andes mountain town high altitude"
+  }
+ }
+}

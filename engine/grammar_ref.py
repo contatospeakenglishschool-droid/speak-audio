@@ -1601,3 +1601,22 @@ def non_defining_relative_clauses(b):
 <p class="small" style="margin:.8mm 0">In speech, make a short <b>pause</b> before and after the extra information, and lower your voice a little. They are common in writing, guidebooks and tours.</p>
 {_dont([("The cathedral, that is Neo-Gothic, …", "The cathedral, <b>which</b> is Neo-Gothic, …"), ("My brother, which lives in Rio, …", "My brother, <b>who</b> lives in Rio, …"), ("Lisbon, where I lived there, …", "Lisbon, <b>where</b> I lived, … (no <i>there</i>)"), ("The museum, which I visited it, …", "The museum, <b>which</b> I visited, … (no <i>it</i>)"), ("Paulo, who his photos are…", "Paulo, <b>whose</b> photos are…")])}""",
     22, """<p>Brazilians often use <i>that</i> after a comma (from Portuguese <i>que</i>) and repeat the object (<i>which I visited it</i>). Drill: say two facts about a place (<i>Rio is in Brazil. It has a famous statue.</i>); the student joins them with a pronoun and commas, and says it with pauses.</p>""")
+
+
+def be_get_used_to(b):
+    """B1 Unit 26: used to + verb vs be used to / get used to + noun / -ing."""
+    b.page(f"""{b.sec("+", "Grammar reference: be used to, get used to", "")}
+<div class="box" style="margin-top:0"><h4>THREE DIFFERENT MEANINGS</h4><b>used to + verb</b> = a past habit (it isn't true now). <b>be used to + noun / -ing</b> = something is normal for you, not strange. <b>get used to + noun / -ing</b> = the process of it becoming normal. <i>I <b>used to live</b> in Rio. Now I live in Yakutsk. I'm <b>getting used to</b> the cold, but I'm not <b>used to wearing</b> so many clothes yet.</i></div>
+{_h("1. FORM")}
+{_tbl(["structure", "meaning", "example"], [
+    ["<b>used to + verb</b>", "past habit or state", "<i>I <b>used to wear</b> glasses. · Did you <b>use to</b> live there?</i>"],
+    ["<b>be used to + noun / -ing</b>", "it's normal for me (now)", "<i>The locals <b>are used to</b> the cold. · I'm <b>used to working</b> at night.</i>"],
+    ["<b>get used to + noun / -ing</b>", "it's becoming normal (a change)", "<i>Visitors take a while to <b>get used to</b> it. · You'll <b>get used to living</b> underground.</i>"]], "8.2pt")}
+{_h("2. ALL TENSES")}
+<p class="small" style="margin:.5mm 0"><i>be</i> and <i>get</i> change tense; <i>used to</i> stays the same: <i>I <b>was</b> used to it. · I'<b>m getting</b> used to it. · I <b>got</b> used to it. · I'<b>ve</b> never <b>got</b> used to it. · You'<b>ll get</b> used to it. · I <b>can't get</b> used to it.</i></p>
+<p class="small" style="margin:.5mm 0">Negative and questions: <i>I'm <b>not</b> used to the food. · <b>Are</b> you used to the time difference? · Did you <b>get</b> used to it?</i></p>
+{_h("3. PRONUNCIATION")}
+<p class="small" style="margin:.5mm 0">In all three, <i>used to</i> sounds like <b>/ˈjuːstə/</b> (<i>yoosta</i>), with an <b>s</b> sound, not z: <i>I'm yoosta it.</i></p>
+<div class="box" style="margin-top:1.5mm"><h4>PRESENT HABITS</h4>For present habits, use <b>usually</b>, not <i>use to</i>: <i>I <b>usually</b> get up at 6.</i> (not <i>I use to get up at 6</i>).</div>
+{_dont([("I'm used to wake up early.", "I'm used to <b>waking</b> up early."), ("I use to drink coffee every day.", "I <b>usually</b> drink coffee every day."), ("As a child, I was used to play outside.", "As a child, I <b>used to play</b> outside."), ("I'm not used with the heat.", "I'm not used <b>to</b> the heat."), ("I didn't used to…", "I didn't <b>use</b> to…")])}""",
+    22, """<p>Brazilians translate <i>costumar</i> as <i>use to</i> for present habits and put the infinitive after <i>be used to</i> (<i>to</i> here is a preposition, so -ing follows). Drill: give a change (<i>a new job with night shifts</i>); the student says one sentence with each structure.</p>""")
