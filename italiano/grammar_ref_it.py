@@ -1185,3 +1185,25 @@ def desideri_magari(b):
 {_tbl(["uso", "significato", "esempio"], mg, "8pt", ["46mm", "46mm", None])}
 {_dont([("Vorrei che tu vieni.", "Vorrei che tu <b>venissi</b>."), ("Vorrei che io avessi più ferie.", "Vorrei <b>avere</b> più ferie."), ("Magari viene! (= se solo venisse)", "Magari <b>venisse</b>!")])}""",
     24, """<p>Il portoghese ha la stessa struttura (<i>queria que você viesse, tomara que</i>). <i>Magari</i> non esiste in portoghese: corrisponde a <i>tomara!, quem dera!</i> (con il congiuntivo) o a <i>talvez</i> (con l'indicativo). L'intonazione aiuta a distinguere: <i>Magari!</i> esclamativo, <i>magari…</i> piatto.</p>""")
+
+
+def periodo_ipotetico_2(b):
+    """B1 Progresso 14: periodo ipotetico della possibilità (se + congiuntivo imperfetto, condizionale presente); se fossi in te."""
+    ti = [("<b>1. realtà</b> (probabile)", "se + <b>presente</b>", "<b>presente / futuro</b>", "<i>Se <b>vinco</b>, ti <b>offro</b> la cena.</i>"),
+          ("<b>2. possibilità</b> (poco probabile)", "se + <b>congiuntivo imperfetto</b>", "<b>condizionale presente</b>", "<i>Se <b>vincessi</b>, <b>comprerei</b> una casa.</i>"),
+          ("<b>2. irrealtà</b> (impossibile oggi)", "se + <b>congiuntivo imperfetto</b>", "<b>condizionale presente</b>", "<i>Se <b>fossi</b> ricca, non <b>lavorerei</b>.</i>")]
+    fo = [("essere", "se fossi", "sarei"), ("avere", "se avessi", "avrei"), ("vincere", "se vincessi", "vincerei"), ("potere", "se potessi", "potrei"), ("fare", "se facessi", "farei")]
+    us = [("consiglio", "<i>Se fossi in te, non giocherei.</i>"), ("sogno", "<i>Se avessi tempo, imparerei a suonare.</i>"), ("domanda", "<i>Che cosa faresti se vincessi?</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: il periodo ipotetico (se vincessi…)", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Il periodo ipotetico ha due parti: la <b>condizione</b> (con <i>se</i>) e la <b>conseguenza</b>. Quando la condizione è <b>poco probabile</b> o <b>impossibile nel presente</b> (sogni, desideri, consigli) usi <b>se + congiuntivo imperfetto</b> e il <b>condizionale presente</b>. L'ordine delle due parti è libero: <i>Comprerei una casa se vincessi.</i></div>
+{_h("1. REALTÀ O POSSIBILITÀ?")}
+{_tbl(["tipo", "condizione", "conseguenza", "esempio"], ti, "7.9pt", ["38mm", "40mm", "32mm", None])}
+<div class="two"><div>{_h("2. LE FORME")}
+{_tbl(["verbo", "condizione", "conseguenza"], fo, "7.9pt", ["18mm", None, None])}</div>
+<div>{_h("3. TRE USI FREQUENTI")}
+{_tbl(["uso", "esempio"], us, "7.9pt", ["20mm", None])}
+<p class="small" style="margin:.5mm 0"><b>Se fossi in te…</b> = <i>se eu fosse você…</i>: il modo più comune per dare un consiglio.</p></div></div>
+{_h("4. MAI IL CONDIZIONALE DOPO SE")}
+<p class="small" style="margin:.5mm 0">Dopo <i>se</i> (condizione) non usare il condizionale: <s>se vincerei</s> → <i>se <b>vincessi</b></i>. Nel parlato veloce senti anche <i>se vincevo, compravo</i>: è colloquiale, non usarlo nello scritto.</p>
+{_dont([("Se vincerei, comprerei una casa.", "Se <b>vincessi</b>, comprerei una casa."), ("Se avrei tempo, viaggerei.", "Se <b>avessi</b> tempo, viaggerei."), ("Se sarei te, non giocherei.", "Se <b>fossi</b> in te, non giocherei.")])}""",
+    24, """<p>La struttura è uguale al portoghese (<i>se eu ganhasse, compraria</i>), quindi è facile da capire. Errori tipici: il condizionale dopo <i>se</i> (<i>se avrei</i>), il calco <i>se io sarei te</i> invece di <i>se fossi in te</i>, e confondere il tipo 1 (probabile) con il tipo 2 (poco probabile).</p>""")
