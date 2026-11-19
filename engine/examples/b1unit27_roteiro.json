@@ -1,0 +1,21 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Paulo": "en-US-Neural2-I",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-27": {
+   "27.1 A voice message from Iceland": "Paulo: Hi Ana! Greetings from Iceland! I've just got back to the hotel, and I'm absolutely exhausted. It's freezing here, really freezing, so I'm wearing the jacket I bought in New York. Thank goodness I bought it! The days are tiny. The sun comes up after eleven and goes down at about half past three, so I have to work fast. But the light is absolutely fantastic. Today I drove along the south coast, and the waterfalls were huge. The photos are going to be wonderful. It was such a long drive that I almost fell asleep at lunch! The only awful thing was the wind. It was so strong that I couldn't hold the camera still. This afternoon I went to the Blue Lagoon. It was packed with tourists, and the water was boiling... well, not really boiling. It's about thirty-eight degrees, but when the air is below zero, it feels amazing! Now I'm starving. I haven't eaten since breakfast, so I'm going to try one of the famous Icelandic hot dogs. People say they're delicious. Oh, and my hotel room is tiny, but it's spotless. It's not like that filthy hostel I stayed in last year! Anyway, say hi to Danny for me. Is he in Patagonia yet? Talk soon!",
+   "27.2 Repeat: extreme adjectives": "Narrator: It's absolutely freezing!\nNarrator: I'm absolutely exhausted.\nNarrator: The light is absolutely fantastic!\nNarrator: It's really cold.\nNarrator: The room is tiny!\nNarrator: I'm completely starving."
+  }
+ },
+ "images": {
+  "b1-unit-27": {
+   "A": "crowded subway train rush hour",
+   "B": "iceland waterfall south coast",
+   "C": "wedding reception table decoration",
+   "D": "tired man sleeping on desk"
+  }
+ }
+}

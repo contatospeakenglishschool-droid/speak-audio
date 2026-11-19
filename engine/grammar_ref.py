@@ -1620,3 +1620,21 @@ def be_get_used_to(b):
 <div class="box" style="margin-top:1.5mm"><h4>PRESENT HABITS</h4>For present habits, use <b>usually</b>, not <i>use to</i>: <i>I <b>usually</b> get up at 6.</i> (not <i>I use to get up at 6</i>).</div>
 {_dont([("I'm used to wake up early.", "I'm used to <b>waking</b> up early."), ("I use to drink coffee every day.", "I <b>usually</b> drink coffee every day."), ("As a child, I was used to play outside.", "As a child, I <b>used to play</b> outside."), ("I'm not used with the heat.", "I'm not used <b>to</b> the heat."), ("I didn't used to…", "I didn't <b>use</b> to…")])}""",
     22, """<p>Brazilians translate <i>costumar</i> as <i>use to</i> for present habits and put the infinitive after <i>be used to</i> (<i>to</i> here is a preposition, so -ing follows). Drill: give a change (<i>a new job with night shifts</i>); the student says one sentence with each structure.</p>""")
+
+
+def extreme_adjectives(b):
+    """B1 Unit 27: ordinary vs extreme adjectives, intensifiers (very / absolutely / really), so... that, such... that."""
+    b.page(f"""{b.sec("+", "Grammar reference: extreme adjectives, so and such", "")}
+<div class="box" style="margin-top:0"><h4>VERY COLD OR FREEZING?</h4>An <b>extreme adjective</b> already means <i>very</i> + an ordinary adjective: <i>freezing</i> = very cold, <i>exhausted</i> = very tired. So we use different words to make them stronger: <i><b>very</b> cold</i> but <i><b>absolutely</b> freezing</i>.</div>
+{_h("1. ORDINARY AND EXTREME")}
+{_tbl(["ordinary", "extreme", "ordinary", "extreme"], [
+    ["cold", "<b>freezing</b>", "tired", "<b>exhausted</b>"], ["hot", "<b>boiling</b>", "hungry", "<b>starving</b>"],
+    ["big", "<b>huge</b>", "small", "<b>tiny</b>"], ["crowded", "<b>packed</b>", "dirty", "<b>filthy</b>"],
+    ["angry", "<b>furious</b>", "tasty", "<b>delicious</b>"], ["good", "<b>fantastic, wonderful, terrific</b>", "bad", "<b>awful, terrible, horrible, appalling</b>"]], "8.2pt")}
+{_h("2. WORDS THAT MAKE THEM STRONGER")}
+{_tbl(["with ordinary adjectives", "with extreme adjectives", "with both"], [
+    ["<b>very, extremely, a bit, quite</b><br><i>It's very cold. · I'm a bit tired.</i>", "<b>absolutely, completely, totally</b><br><i>It's absolutely freezing. · I'm completely exhausted.</i>", "<b>really, so</b><br><i>It's really cold. · It's really freezing!</i>"]], "8.2pt")}
+{_h("3. SO… THAT, SUCH… THAT")}
+<p class="small" style="margin:.5mm 0"><b>so + adjective (+ that…)</b>: <i>The wind was <b>so</b> strong <b>that</b> I couldn't hold the camera.</i> · <b>such + (a / an) + adjective + noun (+ that…)</b>: <i>It was <b>such a</b> long drive <b>that</b> I almost fell asleep.</i> · <i>They're <b>such</b> nice people!</i> (plural: no <i>a</i>)</p>
+{_dont([("It's very freezing.", "It's <b>absolutely</b> / <b>really</b> freezing."), ("It's absolutely cold.", "It's <b>very</b> / <b>really</b> cold."), ("It was a so long drive.", "It was <b>such a</b> long drive."), ("It was such long.", "It was <b>so</b> long."), ("I'm very starving.", "I'm <b>absolutely</b> starving.")])}""",
+    22, """<p>Brazilians say <i>very + extreme adjective</i> and mix up <i>so</i> and <i>such</i>. Drill: say an ordinary sentence (<i>The room was very small.</i>); the student upgrades it (<i>The room was absolutely tiny!</i>) and then adds a result with <i>so… that</i>.</p>""")
