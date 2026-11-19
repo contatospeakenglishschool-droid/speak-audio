@@ -1,0 +1,85 @@
+# Speak! Progresso B1 - Unità 15 "Arrivano i genitori" - FORMATO RIDOTTO (italiano/lean_b1.py)
+import os, sys
+HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, os.path.join(HERE, "..", ".."))
+from engine_it import *
+import speak_engine as _se
+import lean_b1
+_se.SERIES = "Progresso"
+setup(band="B1 · UNITÀ 15", audio_json=os.path.join(HERE, "audio_it-b1-unita-15.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
+SCRIPT, S2 = lean_b1.load_script(HERE, "it-b1-unita-15", "15.1 Arrivano i genitori", "15.2 Ripeti")
+
+C = dict(
+    nn="15", title="Arrivano i genitori", subtitle="Arrivi e accoglienza · <b>il gerundio</b>",
+    cover=[("SAI FARE", "accogliere chi arriva, raccontare un viaggio, dire come e perché succede qualcosa"),
+           ("LINGUA", "Arrivando a Lisbona… · Sbagliando s'impara. · Avendo dormito poco…"),
+           ("PRONUNCIA", "l'accento del gerundio: guarDANdo, corRENdo")],
+    t1="gli arrivi",
+    start=["Guarda la foto. Dove sono queste persone? Che cosa provano?", "Chi è venuto a trovarti da lontano? Dove l'hai portato?",
+           "Ti piace andare a prendere qualcuno all'aeroporto? Perché?"],
+    kw=[("il grande schermo con gli orari dei voli", "il tabellone"), ("toccare terra con l'aereo", "atterrare"),
+        ("la zona dell'aeroporto dove si aspetta chi arriva", "gli arrivi"), ("il controllo delle merci alla frontiera", "la dogana"),
+        ("molto, molto stanco", "stanco morto"), ("ricevere con gentilezza chi arriva", "accogliere")],
+    use_words=["Hai mai avuto problemi alla dogana? Che cosa è successo?", "Quando arrivi da un viaggio lungo, sei stanco morto? Che cosa fai?"],
+    n1=["A: <i>stanco morto</i> = <i>morto de cansaço</i>; <i>atterrare</i> ≠ <i>aterrar</i> (riempire di terra) → <i>pousar</i>."],
+    aims=["Arrivano i genitori: Lúcia e Roberto all'aeroporto di Bologna · Parliamone", "Il gerundio da solo: tempo, modo, causa, mezzo · il gerundio passato",
+          "Accogliere chi arriva (15.2) · gioco di ruolo: un parente arriva dal Brasile", "Il messaggio di Júlia a Camila · gerundio o quando? · scrittura (100–150 parole)"],
+    story="Sabato 10 aprile, aeroporto di Bologna: arrivano Lúcia e Roberto, i genitori di Júlia e Bruno (due settimane in Italia; parlano un italiano da principianti). Il volo da Lisbona è in ritardo; Júlia è nervosissima (pulendo la casa ha rotto due bicchieri). Roberto impara l'italiano con un'app; a Lisbona hanno corso per la coincidenza e Lúcia ha «perso» gli occhiali (li aveva in testa). Prendono il Marconi Express. Lúcia trova Bruno dimagrito («Mangi?»). Júlia dorme sul divano («Non se ne parla!»). Lunedì Davide li aspetta al mercato delle Erbe e spiegherà il calcio a Roberto. Regali: caffè per Giulia, formaggio di Minas per la signora Rossi… sequestrato alla dogana.",
+    prob="Il portoghese usa il gerundio molto più dell'italiano: lo studente dice <i>sto avendo un problema</i>, <i>sto essendo</i>, mette il pronome prima (<i>lo vedendo</i>) e usa il gerundio con soggetti diversi (<i>arrivando a casa, il telefono ha suonato</i>). Il «gerundismo» brasiliano (<i>vou estar enviando</i>) va reso con il presente o il futuro: <i>Le mando…</i>. Falso amico: <i>atterrare</i> = <i>pousar</i>.",
+    real="Dall'aeroporto di Bologna alla stazione centrale c'è il <i>Marconi Express</i>, una monorotaia senza conducente: il viaggio dura circa 7 minuti. Chi arriva da un paese fuori dall'Unione europea non può portare in valigia carne, latte e formaggi: alla dogana vengono sequestrati. Dal Brasile non ci sono voli diretti per Bologna: si cambia di solito a Lisbona, Madrid, Parigi o Roma.",
+    tr=("Arrivano i genitori", "Ripeti: il gerundio"),
+    gist=("Sabato 10 aprile, all'aeroporto di Bologna. Ascolta. Che cosa succede?",
+          ["Júlia e Bruno accolgono i genitori appena arrivati", "Júlia e Bruno partono per il Brasile", "i genitori perdono l'aereo a Lisbona"]),
+    detail=("vf", "Ascolta di nuovo. Vero (V) o falso (F)? Correggi le frasi false.",
+            [("Il volo da Lisbona arriva in anticipo.", "F"), ("Roberto sta imparando l'italiano con un'app.", "V"),
+             ("A Lisbona Lúcia ha perso gli occhiali.", "F"), ("Con il Marconi Express arrivano in stazione in sette minuti.", "V"),
+             ("I genitori dormono nella camera di Júlia.", "V"), ("Lúcia ha dato il formaggio alla signora Rossi.", "F")]),
+    talk2=["Perché Lúcia dice «Non se ne parla!»?", "Bruno dice «Sbagliando s'impara… e rompendo pure». Che cosa vuol dire?",
+           "Secondo te, che cosa faranno i genitori in queste due settimane?"],
+    n2=["B: 1 è in ritardo · 3 li aveva in testa · 6 gliel'hanno preso alla dogana.", "Prima volta che Lúcia e Roberto parlano: italiano semplice, da principianti."],
+    gref="gerundio_b1",
+    t4="il gerundio",
+    pA=("Trasforma la parte sottolineata con il gerundio.",
+        [("<u>Mentre pulivo</u> la casa, ho rotto un bicchiere. → ___ la casa, ho rotto un bicchiere.", "Pulendo"),
+         ("<u>Siccome studia</u> tanto, Bruno non cucina. → ___ tanto, Bruno non cucina.", "Studiando"),
+         ("<u>Quando ho visto</u> i miei genitori, ho pianto. → ___ i miei genitori, ho pianto.", "Vedendo"),
+         ("<u>Siccome ho dormito</u> poco, sono stanco. → ___ poco, sono stanco.", "Avendo dormito"),
+         ("<u>Mentre facevo</u> la valigia, ho trovato le chiavi. → ___ la valigia, ho trovato le chiavi.", "Facendo")]),
+    pAw="26mm",
+    pB=[("", ["Vedendoli", "Li vedendo"], "Vedendoli", ", Júlia li ha abbracciati."),
+        ("", ["Quando sono arrivata", "Arrivando"], "Quando sono arrivata", " a casa, il telefono ha suonato."),
+        ("Mamma, ", ["ho", "sto avendo"], "ho", " un piccolo problema.")],
+    rule="Il <b>gerundio</b> da solo collega due azioni con lo <b>stesso soggetto</b> e dice <b>quando</b> (<i>arrivando</i>), <b>come</b> (<i>correndo</i>), <b>perché</b> (<i>studiando tanto</i>) o <b>con che mezzo</b> (<i>sbagliando s'impara</i>). Azione precedente: <b>avendo / essendo + participio</b>. Pronomi <b>attaccati</b>: <i>vedendoli</i>. Soggetti diversi → <i>quando, mentre, siccome</i>.",
+    use=["Come hai imparato le parole nuove? <i>Leggendo… ascoltando…</i>", "Che cosa hai rotto o perso facendo qualcosa di normale?",
+         "Come si diventa bravi nel tuo lavoro? <i>Facendo…</i>", "Racconta un arrivo: <i>Arrivando a…, ho visto…</i>",
+         "Completa: <i>Avendo dormito poco ieri, oggi…</i>"],
+    n4="B2: soggetti diversi → niente gerundio. Nell'orale accettare <i>Mentre…</i>, poi chiedere il gerundio.",
+    t5="accogliere chi arriva",
+    fl=(["accogliere", "chiedere del viaggio", "spiegare il programma", "mettere a proprio agio"],
+        ["Benvenuti! · Finalmente! · Che bello vedervi!", "Com'è andato il viaggio? · Siete stanchi? · Avete fame?",
+         "Prima andiamo a casa, poi… · Domani vi porto a… · Lunedì vi aspetta…", "Fate come se foste a casa vostra. · Non preoccupatevi. · Riposatevi un po'."]),
+    pron=("Nel gerundio l'accento cade sempre sulla <b>penultima sillaba</b>, su <b>-AN-</b> o <b>-EN-</b>: <i>guar<b>DAN</b>do, cor<b>REN</b>do, stu<b>DIAN</b>do, a<b>VEN</b>do</i>. Con i pronomi attaccati l'accento <b>non si sposta</b>: <i>ve<b>DEN</b>doli</i>.",
+          "Ascolta e ripeti. Poi di' tre cose che hai imparato «sbagliando»."),
+    task=("Gioco di ruolo. L'insegnante è un tuo parente appena arrivato dal Brasile all'aeroporto di Bologna. Accoglilo, chiedi del viaggio, spiega come andare in città e il programma dei primi giorni. Poi scambiatevi i ruoli: tu racconti il tuo viaggio con il gerundio.",
+          "<ul style='line-height:1.45;font-size:8.9pt;margin:0;columns:2'><li>il volo e la coincidenza</li><li>la stanchezza</li><li>i bagagli</li><li>come arrivare in città</li><li>dove dormire</li><li>il programma di domani</li></ul>",
+          "Insegnante (parente): Che viaggio! Arrivando a Madrid abbiamo perso la coincidenza… · Non ho dormito niente. · E la mia valigia non c'è! · Come andiamo in città? · Dove dormo? · Domani che cosa facciamo? Lo studente accoglie (Benvenuto! Com'è andato…?) e risponde con calma."),
+    talk5=["Quando ricevi ospiti a casa, cedi il tuo letto?", "Che cosa porti come regalo quando vai a trovare qualcuno all'estero?"],
+    n5=["battere il ritmo: ta-TA-ta (<i>cor-REN-do</i>); con <i>vedendoli</i> la sillaba forte resta la stessa.", "Nel cambio di ruoli pretendere almeno tre gerundi (<i>arrivando, correndo, avendo dormito</i>)."],
+    hA=("Sabato sera Júlia scrive a Camila. Scegli la forma giusta.",
+        "<b>Júlia:</b> Camila, sono arrivati! {0} il tabellone ero nervosissima, ma è andato tutto bene. Papà parla già un po' d'italiano: lo impara {1} un'app ogni sera. La mamma, {2} Bruno, ha detto subito: «Sei dimagrito!». {3} dormito pochissimo, alle nove erano già a letto. E il formaggio per la signora Rossi? Gliel'hanno preso alla dogana… {4} s'impara!",
+        [(["Guardando", "Guardato"], "Guardando"), (["usando", "usato"], "usando"), (["vedendolo", "lo vedendo"], "vedendolo"),
+         (["Avendo", "Essendo"], "Avendo"), (["Sbagliando", "Sbagliato"], "Sbagliando")]),
+    hB=("Riscrivi con il gerundio.",
+        [("Mentre tornavo a casa, ho incontrato Davide.", "Tornando a casa, ho incontrato Davide."), ("Siccome lavoro molto, non ho tempo.", "Lavorando molto, non ho tempo."),
+         ("Siccome sono arrivati tardi, hanno preso un taxi.", "Essendo arrivati tardi, hanno preso un taxi.")]),
+    watch=[("Sto avendo un problema.", "Ho un problema.", "niente gerundio con <i>avere, essere</i>."),
+           ("Li vedendo, ho pianto.", "Vedendoli, ho pianto.", "pronomi attaccati al gerundio."),
+           ("Domani vado a stare mandando l'email.", "Domani mando l'email.", "niente «gerundismo»: presente o futuro.")],
+    write=("Una visita: racconta l'arrivo di una persona cara nella tua città (o il tuo arrivo in una città nuova). Com'è andato il viaggio? Che cosa avete fatto il primo giorno?",
+           "Quando l'ho vista arrivare, …", ["quattro gerundi (tempo, modo, causa, mezzo)", "un gerundio passato (<i>avendo… / essendo…</i>)", "un'espressione di accoglienza (<i>Benvenuti! · Finalmente!</i>)"]),
+    cando="So accogliere chi arriva, raccontare un viaggio e usare il gerundio per dire quando, come e perché.",
+    nH="Prossima unità: <i>Libri e notizie</i>.",
+)
+
+if __name__ == "__main__":
+    render(lean_b1.make_build(C, SCRIPT, S2), sys.argv[1] if len(sys.argv) > 1 else "B1 Progresso 15 - Arrivano i genitori")
