@@ -1,0 +1,27 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Lúcia": "it-IT-Chirp3-HD-Sulafat",
+  "Roberto": "it-IT-Chirp3-HD-Algenib"
+ },
+ "pauses": {
+  "15.2": 2500
+ },
+ "images": {
+  "it-b1-unita-15": {
+   "A": "airport arrivals family hug",
+   "B": "airport arrivals board",
+   "C": "suitcase gifts coffee",
+   "D": "senior couple tourists italian city"
+  }
+ },
+ "units": {
+  "it-b1-unita-15": {
+   "15.1 Arrivano i genitori": "Narrator: Sabato 10 aprile, aeroporto di Bologna. Júlia e Bruno aspettano agli arrivi i loro genitori, Lúcia e Roberto. Il volo da Lisbona è in ritardo.\nBruno: Guardando il tabellone, direi che atterrano tra dieci minuti.\nJúlia: Sono nervosissima. Ieri sera, pulendo la casa, ho rotto due bicchieri.\nBruno: Rilassati. Sbagliando s'impara... e rompendo pure.\nNarrator: Mezz'ora dopo.\nLúcia: Júlia! Bruno! Figli miei, finalmente!\nRoberto: Buongiorno a tutti! Sto imparando l'italiano con un'app. Come vado?\nJúlia: Papà, parli benissimo! Com'è andato il viaggio?\nLúcia: Lunghissimo. Arrivando a Lisbona, abbiamo dovuto correre per prendere l'altro aereo.\nRoberto: E correndo, tua madre ha perso gli occhiali.\nLúcia: Ce li avevo in testa!\nRoberto: Avendo dormito pochissimo, adesso sono stanco morto.\nBruno: Allora andiamo. Prendendo il Marconi Express, in sette minuti siamo in stazione.\nLúcia: Bruno, ma sei dimagrito! Mangi?\nBruno: Mamma, mangio. Ma studiando tanto, non ho mai tempo di cucinare.\nJúlia: Mamma, papà, ho preparato tutto: voi dormite nella mia camera, io dormo sul divano.\nLúcia: Sul divano? Non se ne parla!\nRoberto: E lunedì? Chi ci porta in giro?\nJúlia: Davide. Vi aspetta lunedì mattina al mercato delle Erbe.\nRoberto: Benissimo. Così mi spiega anche il calcio italiano!\nLúcia: Ho portato un regalo per tutti: il caffè per Giulia, il formaggio di Minas per la signora Rossi...\nJúlia: Il formaggio? Mamma, non si può portare dal Brasile!\nLúcia: Infatti me l'hanno preso alla dogana. Sbagliando s'impara!",
+   "15.2 Ripeti": "Narrator: Guardando il tabellone, direi tra dieci minuti.\nNarrator: Pulendo la casa, ho rotto due bicchieri.\nNarrator: Sbagliando s'impara.\nNarrator: Correndo, ha perso gli occhiali.\nNarrator: Studiando tanto, non ho tempo di cucinare.\nNarrator: Avendo dormito pochissimo, sono stanco morto."
+  }
+ }
+}

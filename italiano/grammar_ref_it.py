@@ -1207,3 +1207,26 @@ def periodo_ipotetico_2(b):
 <p class="small" style="margin:.5mm 0">Dopo <i>se</i> (condizione) non usare il condizionale: <s>se vincerei</s> → <i>se <b>vincessi</b></i>. Nel parlato veloce senti anche <i>se vincevo, compravo</i>: è colloquiale, non usarlo nello scritto.</p>
 {_dont([("Se vincerei, comprerei una casa.", "Se <b>vincessi</b>, comprerei una casa."), ("Se avrei tempo, viaggerei.", "Se <b>avessi</b> tempo, viaggerei."), ("Se sarei te, non giocherei.", "Se <b>fossi</b> in te, non giocherei.")])}""",
     24, """<p>La struttura è uguale al portoghese (<i>se eu ganhasse, compraria</i>), quindi è facile da capire. Errori tipici: il condizionale dopo <i>se</i> (<i>se avrei</i>), il calco <i>se io sarei te</i> invece di <i>se fossi in te</i>, e confondere il tipo 1 (probabile) con il tipo 2 (poco probabile).</p>""")
+
+
+def gerundio_b1(b):
+    """B1 Progresso 15: il gerundio da solo (tempo, modo, causa, mezzo), gerundio passato, pronomi, stesso soggetto."""
+    us = [("<b>tempo</b> (= quando, mentre)", "<i><b>Arrivando</b> a Lisbona, abbiamo corso.</i>", "= Quando siamo arrivati…"),
+          ("<b>modo</b> (= come?)", "<i>La mamma è uscita <b>correndo</b>.</i>", "= di corsa"),
+          ("<b>causa</b> (= perché, siccome)", "<i><b>Studiando</b> tanto, non ho tempo di cucinare.</i>", "= Siccome studio tanto…"),
+          ("<b>mezzo</b> (= con, facendo)", "<i><b>Sbagliando</b> s'impara.</i>", "= Si impara con gli errori.")]
+    fo = [("-are", "guard<b>ando</b>, arriv<b>ando</b>"), ("-ere / -ire", "corr<b>endo</b>, pul<b>endo</b>"), ("irregolari", "fare → <b>facendo</b>, dire → <b>dicendo</b>, bere → <b>bevendo</b>, tradurre → <b>traducendo</b>")]
+    pa = [("avendo + participio", "<i><b>Avendo dormito</b> poco, sono stanchissimo.</i>"), ("essendo + participio (accordo!)", "<i><b>Essendo arrivati</b> tardi, abbiamo preso un taxi.</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: il gerundio", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>All'A2 hai visto <i>stare + gerundio</i> (<i>sto imparando</i>). Il gerundio si usa anche <b>da solo</b>, per collegare due azioni con lo <b>stesso soggetto</b> in una frase più breve ed elegante: dice <b>quando</b>, <b>come</b>, <b>perché</b> o <b>con che mezzo</b> succede qualcosa. Non cambia mai (niente maschile/femminile, singolare/plurale).</div>
+{_h("1. QUATTRO SIGNIFICATI")}
+{_tbl(["significato", "esempio", "vuol dire"], us, "8pt", ["46mm", None, "46mm"])}
+<div class="two"><div>{_h("2. LE FORME")}
+{_tbl(["verbo", "gerundio"], fo, "7.9pt", ["20mm", None])}</div>
+<div>{_h("3. IL GERUNDIO PASSATO")}
+<p class="small" style="margin:.5mm 0">Per un'azione che viene <b>prima</b>:</p>
+{_tbl(["forma", "esempio"], pa, "7.9pt", ["30mm", None])}</div></div>
+{_h("4. PRONOMI E SOGGETTO")}
+<p class="small" style="margin:.5mm 0">I pronomi si attaccano <b>dopo</b> il gerundio: <i><b>Vedendoli</b>, li ho abbracciati. · <b>Parlandone</b> con Davide…</i> Il soggetto deve essere <b>lo stesso</b> nelle due parti; se è diverso, usa <i>quando, mentre, siccome</i>.</p>
+{_dont([("Arrivando a casa, il telefono ha suonato.", "<b>Quando sono arrivata</b> a casa, il telefono ha suonato."), ("Li vedendo, ho pianto.", "<b>Vedendoli</b>, ho pianto."), ("Sto avendo un problema.", "<b>Ho</b> un problema.")])}""",
+    24, """<p>Il portoghese usa il gerundio molto più dell'italiano (<i>estou tendo, vou estar enviando</i>). Lo studente lo usa con <i>avere, essere, sapere</i> (<i>sto avendo</i>), mette il pronome prima (<i>lo vedendo</i>) o cambia soggetto (<i>arrivando a casa, il telefono…</i>). In italiano il gerundio da solo è più tipico dello scritto e del parlato curato: nel parlato spesso si dice <i>quando…, siccome…</i>.</p>""")
