@@ -1,0 +1,28 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
+  "Lúcia": "it-IT-Chirp3-HD-Sulafat",
+  "Roberto": "it-IT-Chirp3-HD-Algenib"
+ },
+ "pauses": {
+  "16.2": 2500
+ },
+ "images": {
+  "it-b1-unita-16": {
+   "A": "newspaper coffee cup cafe table",
+   "B": "modern library reading room",
+   "C": "stack of books reading",
+   "D": "newsstand kiosk magazines"
+  }
+ },
+ "units": {
+  "it-b1-unita-16": {
+   "16.1 Libri e notizie": "Narrator: Giovedì 15 aprile, mattina. Al bar di Giulia Júlia fa colazione con i suoi genitori prima di andare al lavoro. C'è anche la signora Rossi.\nGiulia: Júlia! Hai visto il Resto del Carlino di oggi? Guarda pagina dodici!\nJúlia: Perché? Che cosa c'è?\nGiulia: Ascolta: «La vecchia biblioteca della Bolognina è stata rinnovata da uno studio di architettura bolognese e verrà inaugurata sabato. Il progetto è stato seguito da una giovane architetta brasiliana, Júlia...»\nLúcia: Mia figlia sul giornale! Dove si compra questo giornale?\nSignora Rossi: In edicola, signora. Qui all'angolo si vendono tutti i giornali.\nRoberto: Allora compro dieci copie. Una per ogni zio!\nJúlia: Papà, il giornale si legge anche online...\nLúcia: Online no. La carta si tocca, si conserva.\nSignora Rossi: Ha ragione la mamma. Io i giornali li leggo ancora di carta. E anche i libri.\nGiulia: E nella nuova biblioteca che cosa si fa?\nJúlia: Ci sono sale per studiare, una zona per i bambini, e i libri vengono prestati anche con un'app.\nRoberto: Io sto leggendo il mio primo libro in italiano. Me l'ha regalato la signora Rossi.\nSignora Rossi: Sono racconti brevi. Il libro è scritto in un italiano semplice.\nRoberto: Semplice? Io leggo una pagina all'ora!\nLúcia: E sabato veniamo tutti all'inaugurazione, vero?\nJúlia: Certo, siete invitati. Ma attenzione: le foto verranno pubblicate sul sito del Comune.\nGiulia: Allora sabato vado dal parrucchiere!",
+   "16.2 Ripeti": "Narrator: La biblioteca è stata rinnovata.\nNarrator: Verrà inaugurata sabato.\nNarrator: Dove si compra questo giornale?\nNarrator: Qui si vendono tutti i giornali.\nNarrator: I libri vengono prestati con un'app.\nNarrator: Il libro è scritto in un italiano semplice."
+  }
+ }
+}

@@ -53,7 +53,7 @@ C = dict(
     use=["Che cosa si vende nel tuo quartiere? <i>Si vendono…</i>", "Un edificio famoso della tua città: da chi è stato costruito? Quando?",
          "Come si prepara il tuo piatto preferito? <i>Si prende… si mette…</i>", "Una notizia recente: <i>È stato/a…</i>",
          "Che cosa verrà costruito o aperto presto nella tua città?"],
-    n4="A3 e A4: il participio concorda (<i>seguito</i>, <i>prestati</i>). Nell'orale accettare la forma attiva, poi chiedere la passiva.",
+    n4="A3–A4: accordo del participio (<i>seguito, prestati</i>).",
     t5="raccontare una notizia",
     fl=(["dare una notizia", "chi, quando, dove", "reagire", "parlare di lettura"],
         ["Hai sentito che…? · Ho letto che… · Secondo il giornale…", "È stato inaugurato ieri. · Verrà aperto a maggio. · È stato organizzato dal Comune.",
