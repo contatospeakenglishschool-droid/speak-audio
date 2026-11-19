@@ -1,0 +1,21 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Tourist": "en-US-Studio-O",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-25": {
+   "25.1 A walking tour of São Paulo": "Danny: Good morning, everyone, and welcome to City Steps Tours! I'm Danny, and I'll be your guide today. Our walk starts here at Pátio do Colégio, where the city was founded in fifteen fifty-four. Jesuit priests built a small school on this spot. The building you can see today, which is a copy of the old one, has a little museum inside.\nDanny: Now we're walking to Praça da Sé... and here it is! This is São Paulo Cathedral, which is my favorite building in the city. Work on it started in nineteen thirteen, but the towers weren't finished until nineteen sixty-seven! The cathedral, which is Neo-Gothic, has a dome that was inspired by the cathedral in Florence. Feel free to take photographs, but please be quiet inside.\nTourist: Is this square safe at night?\nDanny: It's very crowded during the day, but it gets quiet at night, so I'd come back in the daytime.\nDanny: Our next stop is the Theatro Municipal, which opened in nineteen eleven. Its architects were inspired by the Paris Opera. In nineteen twenty-two it hosted Modern Art Week, which is a famous event in the history of Brazilian art.\nDanny: Finally, we're going to the Mercado Municipal, which everyone here calls the Mercadão. It opened in nineteen thirty-three. Look up at the stained glass windows, which show scenes of farming and food. And if you're hungry, try the mortadella sandwich, which is huge! The market is lively and a bit touristy, but the locals shop here too.\nTourist: Where can we buy souvenirs?\nDanny: There are some stalls here in the market, and I'll give you a list of my favorite places at the end of the tour. São Paulo is a cosmopolitan city, so go out, eat out, meet the locals and check out the nightlife. Thanks for walking with me!",
+   "25.2 Repeat: pauses in relative clauses": "Narrator: The cathedral, which is Neo-Gothic, has a beautiful dome.\nNarrator: Pátio do Colégio, where the city was founded, is a museum now.\nNarrator: The theater, which opened in nineteen eleven, looks like the Paris Opera.\nNarrator: My guide, who was very funny, was from Chicago.\nNarrator: The market, which is always crowded, sells great food.\nNarrator: Lisbon, where I lived for a year, is very hilly."
+  }
+ },
+ "images": {
+  "b1-unit-25": {
+   "A": "sao paulo cathedral",
+   "B": "sao paulo municipal market stained glass",
+   "C": "belem tower lisbon"
+  }
+ }
+}

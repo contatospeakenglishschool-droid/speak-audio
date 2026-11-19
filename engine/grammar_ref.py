@@ -1580,3 +1580,24 @@ def contrast_linkers(b):
 <p class="small" style="margin:.5mm 0"><b>despite the fact that</b> + subject + verb: <i>Despite the fact that it was expensive, we went.</i> <i>Even though</i> is stronger than <i>although</i>.</p>
 {_dont([("Despite of the crowds, …", "<b>Despite</b> the crowds / <b>In spite of</b> the crowds"), ("Despite it was expensive, …", "<b>Although</b> it was expensive / <b>Despite</b> the price"), ("Although it was cheap, but it was bad.", "<b>Although</b> it was cheap, it was bad. (not both)"), ("It's nice, however it's crowded.", "It's nice. <b>However,</b> it's crowded. / It's nice, <b>but</b> it's crowded."), ("In the other hand…", "<b>On</b> the other hand…")])}""",
     22, """<p>Brazilians often say <i>despite of</i>, translating word for word, use <i>despite</i> + subject + verb, and put <i>although</i> and <i>but</i> in the same sentence. Drill: give two ideas (<i>It rained. We had fun.</i>); the student joins them in three ways: <i>although, despite, however</i>.</p>""")
+
+
+def non_defining_relative_clauses(b):
+    """B1 Unit 25: non-defining relative clauses (who, which, where, whose) vs defining."""
+    b.page(f"""{b.sec("+", "Grammar reference: non-defining relative clauses", "")}
+<div class="box" style="margin-top:0"><h4>EXTRA INFORMATION, BETWEEN COMMAS</h4>A <b>non-defining relative clause</b> adds <b>extra information</b> about a person, thing or place we already know. Without it, the sentence still makes sense. <i>São Paulo Cathedral<b>, which is Neo-Gothic,</b> has a beautiful dome.</i> → <i>São Paulo Cathedral has a beautiful dome.</i></div>
+{_h("1. FORM")}
+{_tbl(["pronoun", "for…", "example"], [
+    ["<b>who</b>", "people", "<i>Danny<b>, who is from Chicago,</b> works as a guide.</i>"],
+    ["<b>which</b>", "things, places, animals", "<i>The Theatro Municipal<b>, which opened in 1911,</b> looks like the Paris Opera.</i>"],
+    ["<b>where</b>", "places (= in / at which)", "<i>Pátio do Colégio<b>, where the city was founded,</b> is a museum now.</i>"],
+    ["<b>whose</b>", "possession", "<i>Paulo<b>, whose photos are amazing,</b> has been to 40 countries.</i>"],
+    ["<b>, which</b> (end)", "the whole idea before it", "<i>The market was crowded<b>, which</b> was a bit stressful.</i>"]], "8.1pt")}
+{_h("2. DEFINING OR NON-DEFINING?")}
+{_tbl(["defining (no commas)", "non-defining (commas)"], [
+    ["tells us <b>which one</b>: <i>The guide <b>who</b> showed us the market was funny.</i>", "adds <b>extra</b> information: <i>Our guide, <b>who</b> was very funny, was from Chicago.</i>"],
+    ["<b>that</b> is OK: <i>the market <b>that</b> sells sandwiches</i>", "<b>never that</b>: <i>the Mercadão, <b>which</b> sells sandwiches</i>"],
+    ["you can drop the pronoun if it's the object: <i>the city (that) I visited</i>", "you can <b>never</b> drop the pronoun"]], "8.2pt")}
+<p class="small" style="margin:.8mm 0">In speech, make a short <b>pause</b> before and after the extra information, and lower your voice a little. They are common in writing, guidebooks and tours.</p>
+{_dont([("The cathedral, that is Neo-Gothic, …", "The cathedral, <b>which</b> is Neo-Gothic, …"), ("My brother, which lives in Rio, …", "My brother, <b>who</b> lives in Rio, …"), ("Lisbon, where I lived there, …", "Lisbon, <b>where</b> I lived, … (no <i>there</i>)"), ("The museum, which I visited it, …", "The museum, <b>which</b> I visited, … (no <i>it</i>)"), ("Paulo, who his photos are…", "Paulo, <b>whose</b> photos are…")])}""",
+    22, """<p>Brazilians often use <i>that</i> after a comma (from Portuguese <i>que</i>) and repeat the object (<i>which I visited it</i>). Drill: say two facts about a place (<i>Rio is in Brazil. It has a famous statue.</i>); the student joins them with a pronoun and commas, and says it with pauses.</p>""")
