@@ -1,0 +1,22 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Receptionist": "en-US-Studio-O",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-28": {
+   "28.1 Checking in and checking out": "Receptionist: Good afternoon, and welcome to the Tango Garden Hotel. How can I help you?\nDanny: Hi! I have a reservation for three nights. It's under my first name, Danny. I booked online.\nReceptionist: Let me check... Yes, a single room with an en-suite bathroom, for three nights. Could you fill in this form, please? And I'll need your passport.\nDanny: Sure, here you are. Would you mind telling me what time breakfast is served?\nReceptionist: Not at all. Breakfast is from seven to ten thirty, and it's complimentary.\nDanny: Great! I've just come back from two weeks in Patagonia, and all my clothes are filthy. Is there a laundry service?\nReceptionist: Yes, there is. You'll find a bag and a price list in your room. If you give it to the housekeeper before ten, it'll be ready the same day.\nDanny: Perfect. Do you mind if I leave my backpack here for an hour? I'd like to get something to eat first.\nReceptionist: Of course not. I'll put it in the storeroom. And here's your key card. Room three-oh-four, on the third floor. The elevator is just over there.\nNarrator: Three days later.\nDanny: Good morning! I'd like to check out, please. Room three-oh-four.\nReceptionist: Certainly. Here's your bill.\nDanny: Thanks. Could you tell me what this charge is for?\nReceptionist: Let me see... That's for two drinks from the minibar.\nDanny: I'm sorry, but I didn't have anything from the minibar. I didn't even open it.\nReceptionist: Oh, I do apologize. Let me check with the housekeeper... You're right, it was a mistake. I've taken it off the bill.\nDanny: Thank you. Can I pay by card?\nReceptionist: Yes, of course.\nDanny: One more thing. My bus doesn't leave until six. Would it be possible to leave my bags here until then?\nReceptionist: Certainly. And would you mind writing us a review? It really helps.\nDanny: Not at all. I'll write one on the bus!",
+   "28.2 Repeat: polite requests": "Narrator: Could you tell me what this charge is for?\nNarrator: Would you mind telling me what time breakfast is served?\nNarrator: Do you mind if I leave my backpack here?\nNarrator: Would it be possible to leave my bags here until six?\nNarrator: Could I have a towel, please?\nNarrator: I was wondering if I could check in early."
+  }
+ },
+ "images": {
+  "b1-unit-28": {
+   "A": "hotel reception desk lobby",
+   "B": "hotel key card door",
+   "C": "modern spacious hotel room",
+   "D": "hotel bellhop luggage cart"
+  }
+ }
+}

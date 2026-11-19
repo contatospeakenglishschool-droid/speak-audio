@@ -1638,3 +1638,24 @@ def extreme_adjectives(b):
 <p class="small" style="margin:.5mm 0"><b>so + adjective (+ that…)</b>: <i>The wind was <b>so</b> strong <b>that</b> I couldn't hold the camera.</i> · <b>such + (a / an) + adjective + noun (+ that…)</b>: <i>It was <b>such a</b> long drive <b>that</b> I almost fell asleep.</i> · <i>They're <b>such</b> nice people!</i> (plural: no <i>a</i>)</p>
 {_dont([("It's very freezing.", "It's <b>absolutely</b> / <b>really</b> freezing."), ("It's absolutely cold.", "It's <b>very</b> / <b>really</b> cold."), ("It was a so long drive.", "It was <b>such a</b> long drive."), ("It was such long.", "It was <b>so</b> long."), ("I'm very starving.", "I'm <b>absolutely</b> starving.")])}""",
     22, """<p>Brazilians say <i>very + extreme adjective</i> and mix up <i>so</i> and <i>such</i>. Drill: say an ordinary sentence (<i>The room was very small.</i>); the student upgrades it (<i>The room was absolutely tiny!</i>) and then adds a result with <i>so… that</i>.</p>""")
+
+
+def polite_requests(b):
+    """B1 Unit 28: polite requests and permission: Could you…?, Would you mind + -ing?, Do you mind if I…?, Would it be possible to…?, I was wondering if…"""
+    b.page(f"""{b.sec("+", "Grammar reference: polite requests", "")}
+<div class="box" style="margin-top:0"><h4>THE LONGER, THE MORE POLITE</h4>In English, a direct request (<i>Give me the bill.</i>) can sound rude. We use longer structures with strangers, at work and in hotels. Compare: <i>Can you help me?</i> → <i>Could you help me?</i> → <i>Would you mind helping me?</i> → <i>I was wondering if you could help me.</i></div>
+{_h("1. ASKING SOMEONE TO DO SOMETHING")}
+{_tbl(["structure", "example"], [
+    ["<b>Can / Could you</b> + verb…?", "<i>Could you tell me what this charge is for?</i>"],
+    ["<b>Would you mind</b> + -ing…?", "<i>Would you mind telling me what time breakfast is served?</i>"],
+    ["<b>Would it be possible to</b> + verb…?", "<i>Would it be possible to leave my bags here until six?</i>"],
+    ["<b>I was wondering if you could</b> + verb…", "<i>I was wondering if you could call me a taxi.</i>"]], "8.3pt")}
+{_h("2. ASKING FOR PERMISSION")}
+{_tbl(["structure", "example"], [
+    ["<b>Can / Could / May I</b> + verb…?", "<i>Can I pay by card? · May I leave my bags here?</i>"],
+    ["<b>Do you mind if I</b> + present…?", "<i>Do you mind if I leave my backpack here?</i>"],
+    ["<b>Is it OK if I</b> + present…?", "<i>Is it OK if I check out a bit later?</i>"],
+    ["<b>I was wondering if I could</b> + verb…", "<i>I was wondering if I could check in early.</i>"]], "8.3pt")}
+<div class="box" style="margin-top:1.5mm"><h4>CAREFUL WITH MIND</h4><i>Would you mind…? / Do you mind if…?</i> = <i>Is it a problem for you?</i> So the answer <b>yes</b> is <b>Not at all. / Of course not. / No, go ahead.</b> If you answer <i>Yes</i>, you are saying no! To say no politely: <i>I'm sorry, but… / I'm afraid…</i></div>
+{_dont([("Would you mind to help me?", "Would you mind <b>helping</b> me?"), ("Do you mind if I would open the window?", "Do you mind if I <b>open</b> the window?"), ("Can you to call a taxi?", "Can you <b>call</b> a taxi?"), ("I want the bill.", "<b>Could I have</b> the bill, please?"), ("Would you mind…? — Yes, sure!", "<b>Not at all.</b> / <b>Of course not.</b>")])}""",
+    22, """<p>Brazilians often sound too direct in English (<i>I want…, Give me…</i>) because Portuguese uses tone and diminutives for politeness. They also answer <i>Yes</i> to <i>Would you mind…?</i> when they mean <i>OK</i>. Drill: say a direct request (<i>Open the window.</i>); the student makes it polite in three ways.</p>""")
