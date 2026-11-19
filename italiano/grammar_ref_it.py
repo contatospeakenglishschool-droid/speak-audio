@@ -1161,3 +1161,27 @@ def concordanza_tempi(b):
 <p class="small" style="margin:.5mm 0"><b>Nel parlato</b> molti italiani dicono <i>pensavo che era</i>: lo sentirai, ma nello scritto e nel registro curato usa <i>pensavo che fosse</i>.</p>
 {_dont([("Pensavo che sia timida.", "Pensavo che <b>fosse</b> timida."), ("Credevo che io fossi in ritardo.", "Credevo <b>di essere</b> in ritardo."), ("Non immaginavo che si mangia così tanto.", "Non immaginavo che si <b>mangiasse</b> così tanto.")])}""",
     24, """<p>Il portoghese ha la stessa concordanza (<i>achava que fosse</i>), ma il brasiliano parlato usa spesso l'indicativo: <i>achava que era</i> → lo studente dice <i>pensavo che era</i>. Accettarlo nel parlato veloce, correggerlo nello scritto. Errore tipico: mischiare i tempi (<i>pensavo che sia</i>).</p>""")
+
+
+def desideri_magari(b):
+    """B1 Progresso 13: vorrei che + congiuntivo imperfetto; magari (+ congiuntivo imperfetto / = forse / Magari!)."""
+    vc = [("<b>voglio che</b> + congiuntivo presente", "un desiderio forte, realizzabile", "<i>Voglio che tu <b>venga</b>.</i>"),
+          ("<b>vorrei che</b> + congiuntivo imperfetto", "un desiderio gentile o difficile", "<i>Vorrei che la casa <b>fosse</b> più grande.</i>"),
+          ("<b>vorrei</b> + infinito", "stesso soggetto", "<i>Vorrei <b>avere</b> più ferie.</i>"),
+          ("<b>spero che</b> + congiuntivo presente", "una cosa possibile", "<i>Spero che <b>venga</b> l'anno prossimo.</i>")]
+    mg = [("<b>Magari!</b> (da solo)", "= Lo vorrei tanto! / Sì, grazie!", "<i>Ti porto in giro io. — <b>Magari!</b></i>"),
+          ("<b>Magari</b> + congiuntivo imperfetto", "un desiderio difficile o impossibile", "<i><b>Magari venisse</b> anche mia madre!</i>"),
+          ("<b>magari</b> + indicativo", "= forse, chissà", "<i><b>Magari</b> viene l'anno prossimo.</i>")]
+    pr = [("io", "vorrei che", "tu venissi"), ("lui / lei", "vorrebbe che", "io tornassi"), ("noi", "vorremmo che", "voi restaste"), ("loro", "vorrebbero che", "noi lavorassimo meno")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: desideri con vorrei che e magari", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Per esprimere un <b>desiderio</b> che riguarda un'altra persona o una situazione difficile si usa <b>vorrei che</b> + <b>congiuntivo imperfetto</b>: il condizionale <i>vorrei</i> «trascina» il congiuntivo al passato. <b>Magari</b> ha tre usi: da solo è un desiderio forte, con il congiuntivo imperfetto vuol dire «se solo…», con l'indicativo vuol dire «forse».</div>
+{_h("1. VOGLIO CHE, VORREI CHE, SPERO CHE")}
+{_tbl(["struttura", "uso", "esempio"], vc, "8pt", ["50mm", "44mm", None])}
+<div class="two"><div>{_h("2. VORREI CHE CON TUTTE LE PERSONE")}
+{_tbl(["soggetto", "condizionale", "+ congiuntivo imperfetto"], pr, "7.9pt", ["18mm", "24mm", None])}</div>
+<div>{_h("3. ATTENZIONE AL SOGGETTO")}
+<p class="small" style="margin:.5mm 0">Soggetti <b>diversi</b> → <i>vorrei che</i>: <i>Vorrei che <b>tu</b> avessi più tempo.</i><br>Stesso soggetto → <i>vorrei</i> + infinito: <i>Vorrei <b>avere</b> più tempo.</i> (mai <s>vorrei che io avessi</s>)</p></div></div>
+{_h("4. I TRE USI DI MAGARI")}
+{_tbl(["uso", "significato", "esempio"], mg, "8pt", ["46mm", "46mm", None])}
+{_dont([("Vorrei che tu vieni.", "Vorrei che tu <b>venissi</b>."), ("Vorrei che io avessi più ferie.", "Vorrei <b>avere</b> più ferie."), ("Magari viene! (= se solo venisse)", "Magari <b>venisse</b>!")])}""",
+    24, """<p>Il portoghese ha la stessa struttura (<i>queria que você viesse, tomara que</i>). <i>Magari</i> non esiste in portoghese: corrisponde a <i>tomara!, quem dera!</i> (con il congiuntivo) o a <i>talvez</i> (con l'indicativo). L'intonazione aiuta a distinguere: <i>Magari!</i> esclamativo, <i>magari…</i> piatto.</p>""")

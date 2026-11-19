@@ -1,0 +1,28 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Chiara": "it-IT-Chirp3-HD-Achernar",
+  "Camila": "it-IT-Chirp3-HD-Despina"
+ },
+ "pauses": {
+  "13.2": 2500
+ },
+ "images": {
+  "it-b1-unita-13": {
+   "A": "friends picnic park spring sun",
+   "B": "city park pond spring",
+   "C": "focaccia bread",
+   "D": "dandelion seeds blowing wish"
+  }
+ },
+ "units": {
+  "it-b1-unita-13": {
+   "13.1 Magari!": "Narrator: Domenica 21 marzo, primo giorno di primavera. Ai Giardini Margherita Júlia, Bruno, Chiara, Camila e Davide fanno un picnic al sole.\nDavide: Finalmente il sole! Vorrei che fosse sempre così.\nCamila: Magari! A Recife oggi ci sono trentadue gradi. Qui ne abbiamo diciotto e sembrate tutti in spiaggia.\nChiara: Allora, Júlia, tra tre settimane arrivano i tuoi genitori. Sei pronta?\nJúlia: Pronta? Magari! Vorrei che la casa fosse più grande e che io avessi due settimane di ferie. Invece ne ho solo una.\nBruno: E la mamma vorrebbe che tu non lavorassi per niente.\nJúlia: Lo so. Vorrebbe anche che tornassi in Brasile, ma questo è un altro discorso.\nDavide: Posso aiutarti io. Se vuoi, mentre lavori li porto in giro per Bologna.\nJúlia: Davvero? Magari! Saresti un angelo.\nBruno: Le visite storiche però le faccio io. Ho studiato tutto il Medioevo bolognese.\nChiara: Magari i tuoi genitori ti sentissero parlare così! Sarebbero orgogliosi.\nCamila: Io invece vorrei che venisse mia madre... Magari l'anno prossimo.\nJúlia: Magari venisse insieme ai miei! Si divertirebbero tantissimo.\nCamila: Magari! Ma il biglietto costa un occhio della testa.\nDavide: Ragazzi, basta con i desideri. Vorrei solo che qualcuno mi passasse la focaccia.\nChiara: Eccola. E vorrei che tu non la finissi tutta, come l'ultima volta!",
+   "13.2 Ripeti": "Narrator: Vorrei che fosse sempre così.\nNarrator: Magari!\nNarrator: Vorrei che la casa fosse più grande.\nNarrator: La mamma vorrebbe che tu non lavorassi.\nNarrator: Magari venisse insieme ai miei!\nNarrator: Magari l'anno prossimo."
+  }
+ }
+}
