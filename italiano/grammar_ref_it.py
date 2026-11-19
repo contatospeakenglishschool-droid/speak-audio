@@ -1277,3 +1277,27 @@ def concessive_b1(b):
 <p class="small" style="margin:.5mm 0"><i>Anche se</i> è il più comune nel parlato. <i>Benché, sebbene, nonostante</i> sono più formali e frequenti nello scritto. <i>Malgrado</i> = <i>nonostante</i>.</p></div></div>
 {_dont([("Benché è tardi, restiamo.", "Benché <b>sia</b> tardi, restiamo."), ("Anche se sia stanca, esco.", "Anche se <b>sono</b> stanca, esco."), ("Nonostante di lavorare tanto…", "Nonostante <b>lavori</b> tanto…")])}""",
     24, """<p>Il portoghese funziona allo stesso modo (<i>embora seja</i>, <i>mesmo que</i> + subjuntivo, <i>apesar de</i> + infinito). Errori tipici: l'indicativo dopo <i>benché</i> (<i>benché è</i>), il congiuntivo dopo <i>anche se</i> (calco di <i>mesmo que seja</i>) e il calco <i>nonostante di</i> + infinito (<i>apesar de</i>).</p>""")
+
+
+def interrogative_indirette(b):
+    """B1 Progresso 18: interrogative indirette (mi chiedo se, non so dove…), modo, trasformazione, domande gentili."""
+    vb = [("mi chiedo / mi domando", "<i>Mi chiedo <b>se</b> piacerò ai tuoi genitori.</i>"), ("non so / non ho idea", "<i>Non so <b>che cosa</b> dire.</i>"),
+          ("vorrei sapere / sai…?", "<i>Vorrei sapere <b>quando</b> arrivano.</i>"), ("chiedere / domandare (a qualcuno)", "<i>Ti chiederà <b>quanti anni</b> hai.</i>")]
+    mo = [("<b>indicativo</b>", "parlato, normale", "<i>Non so se tua madre <b>capisce</b>.</i>"),
+          ("<b>congiuntivo</b>", "scritto, registro curato", "<i>Non so se tua madre <b>capisca</b>.</i>"),
+          ("<b>condizionale</b>", "possibilità, futuro nel passato", "<i>Mi chiedevo quando ti <b>avremmo conosciuta</b>.</i>")]
+    tr = [("«Che cosa studi?»", "Mi chiede che cosa <b>studio</b>."), ("«Dove abitano i tuoi?»", "Vuole sapere dove abitano i <b>miei</b>."),
+          ("«Parli italiano?»", "Mi ha chiesto <b>se</b> parlavo italiano.")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: le interrogative indirette", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Un'<b>interrogativa indiretta</b> è una domanda «dentro» un'altra frase: <i>Mi chiedo <b>se</b> piacerò.</i> · <i>Non so <b>che cosa</b> dire.</i> Non ha il punto interrogativo (se la frase principale non è una domanda) e serve per esprimere <b>dubbi</b>, riferire domande e fare <b>domande gentili</b>: <i>Potrebbe dirmi dove si trova la stazione?</i></div>
+<div class="two"><div>{_h("1. I VERBI CHE LA INTRODUCONO")}
+{_tbl(["verbo", "esempio"], vb, "7.9pt", ["34mm", None])}</div>
+<div>{_h("2. LE PAROLE INTERROGATIVE")}
+<p class="small" style="margin:.5mm 0"><b>se</b> (domanda sì/no) · <b>chi</b> · <b>che cosa / cosa</b> · <b>come</b> · <b>dove</b> · <b>quando</b> · <b>perché</b> · <b>quanto/a/i/e</b> · <b>quale/i</b> · <b>da quanto tempo</b><br>L'ordine delle parole <b>non cambia</b>: <i>Non so dove <b>abita</b> Chiara.</i></p></div></div>
+{_h("3. INDICATIVO, CONGIUNTIVO O CONDIZIONALE?")}
+{_tbl(["modo", "quando", "esempio"], mo, "8pt", ["28mm", "46mm", None])}
+{_h("4. DALLA DOMANDA DIRETTA ALL'INDIRETTA")}
+{_tbl(["domanda diretta", "domanda indiretta"], tr, "7.9pt", ["50mm", None])}
+<p class="small" style="margin:.5mm 0">Cambiano le persone (<i>tu → io</i>, <i>tuoi → miei</i>); se il verbo principale è al passato, il tempo va indietro (<i>parli → parlavo</i>). Domande gentili: <i><b>Sa</b> dirmi… ? · <b>Potrebbe</b> dirmi… ? · <b>Vorrei sapere</b>…</i></p>
+{_dont([("Non so cosa che dire.", "Non so <b>che cosa</b> dire."), ("Mi chiedo quando che arrivano.", "Mi chiedo <b>quando</b> arrivano."), ("Mi ha chiesto se io parlo italiano.", "Mi ha chiesto se <b>parlavo</b> italiano.")])}""",
+    24, """<p>La struttura è identica al portoghese (<i>me pergunto se</i>, <i>não sei o que</i>). Errori tipici: il calco <i>cosa che</i> (<i>o que</i>), <i>quando che</i> / <i>dove che</i> del parlato brasiliano (<i>quando que</i>) e il tempo che non va indietro dopo un verbo al passato. Il congiuntivo è facoltativo: non pretenderlo nel parlato.</p>""")

@@ -1,0 +1,28 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Chiara": "it-IT-Chirp3-HD-Achernar",
+  "Lúcia": "it-IT-Chirp3-HD-Sulafat",
+  "Roberto": "it-IT-Chirp3-HD-Algenib"
+ },
+ "pauses": {
+  "18.2": 2500
+ },
+ "images": {
+  "it-b1-unita-18": {
+   "A": "young woman thinking doubt",
+   "B": "italian trattoria entrance evening",
+   "C": "pastry box gift cake",
+   "D": "hotel reception desk"
+  }
+ },
+ "units": {
+  "it-b1-unita-18": {
+   "18.1 Mi chiedo se...": "Narrator: Martedì 20 aprile, sera. Chiara sta per conoscere i genitori di Bruno. Con Júlia, aspettano davanti a una trattoria in via del Pratello.\nChiara: Bruno, sono nervosissima. Mi chiedo se piacerò ai tuoi genitori.\nBruno: Ma certo che piacerai! Perché non dovresti?\nChiara: Non so che cosa dire. E non so nemmeno se tua madre capisce l'italiano.\nJúlia: Capisce più di quanto pensi. Non sa sempre come rispondere, ma capisce quasi tutto.\nChiara: E tuo padre? Mi domando di che cosa potremmo parlare.\nBruno: Di calcio. Davide gli ha spiegato il campionato, e adesso vuole sapere chi vincerà lo scudetto.\nChiara: Io di calcio non so niente! Ho portato un dolce: secondo voi, glielo do subito o dopo cena?\nJúlia: Dopo cena. E preparati: la mamma ti chiederà quanti anni hai, che cosa fai, dove abitano i tuoi...\nChiara: E se mi chiede quando ci sposiamo?\nBruno: Le dici che non lo sappiamo ancora!\nNarrator: Arrivano Lúcia e Roberto.\nLúcia: Tu sei Chiara! Finalmente! Mi chiedevo quando ti avremmo conosciuta.\nChiara: Piacere, signora. Bruno mi ha parlato tanto di voi.\nRoberto: Piacere, Chiara. Una domanda: sai chi vincerà lo scudetto?\nChiara: Ehm... Non ne ho idea. Ma posso chiederlo a mio padre!\nLúcia: Allora, Chiara, dimmi: che cosa fai? Dove abitano i tuoi? E da quanto tempo state insieme?\nBruno: Mamma, lasciala respirare!\nChiara: Non si preoccupi, signora. Le rispondo a tutto... ma prima entriamo, che ho fame!",
+   "18.2 Ripeti": "Narrator: Mi chiedo se piacerò ai tuoi genitori.\nNarrator: Non so che cosa dire.\nNarrator: Mi domando di che cosa potremmo parlare.\nNarrator: Vuole sapere chi vincerà lo scudetto.\nNarrator: Non lo sappiamo ancora.\nNarrator: Mi chiedevo quando ti avremmo conosciuta."
+  }
+ }
+}
