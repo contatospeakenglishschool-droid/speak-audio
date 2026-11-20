@@ -1301,3 +1301,26 @@ def interrogative_indirette(b):
 <p class="small" style="margin:.5mm 0">Cambiano le persone (<i>tu → io</i>, <i>tuoi → miei</i>); se il verbo principale è al passato, il tempo va indietro (<i>parli → parlavo</i>). Domande gentili: <i><b>Sa</b> dirmi… ? · <b>Potrebbe</b> dirmi… ? · <b>Vorrei sapere</b>…</i></p>
 {_dont([("Non so cosa che dire.", "Non so <b>che cosa</b> dire."), ("Mi chiedo quando che arrivano.", "Mi chiedo <b>quando</b> arrivano."), ("Mi ha chiesto se io parlo italiano.", "Mi ha chiesto se <b>parlavo</b> italiano.")])}""",
     24, """<p>La struttura è identica al portoghese (<i>me pergunto se</i>, <i>não sei o que</i>). Errori tipici: il calco <i>cosa che</i> (<i>o que</i>), <i>quando che</i> / <i>dove che</i> del parlato brasiliano (<i>quando que</i>) e il tempo che non va indietro dopo un verbo al passato. Il congiuntivo è facoltativo: non pretenderlo nel parlato.</p>""")
+
+
+def discorso_indiretto_passato(b):
+    """B1 Progresso 19: il discorso indiretto con il verbo introduttivo al passato (cambi di tempo, imperativo → di + infinito, tempo e luogo)."""
+    tm = [("presente", "«Sono stanca.»", "Ha detto che <b>era</b> stanca."),
+          ("passato prossimo", "«Ho trovato un lavoro.»", "Ha detto che <b>aveva trovato</b> un lavoro."),
+          ("futuro", "«Tornerò.»", "Ha detto che <b>sarebbe tornato</b>."),
+          ("imperativo", "«Torna a Natale!»", "Mi ha chiesto <b>di tornare</b> a Natale."),
+          ("congiuntivo presente", "«Spero che tu stia bene.»", "Ha detto che sperava che <b>stessi</b> bene.")]
+    tl = [("oggi", "quel giorno"), ("domani", "il giorno dopo"), ("ieri", "il giorno prima"), ("la settimana prossima", "la settimana dopo"), ("qui / questo", "lì / quello")]
+    vb = [("dire / raccontare / spiegare", "che + indicativo"), ("rispondere / scrivere", "che + indicativo"), ("chiedere / dire / pregare", "di + infinito (ordini)"), ("promettere", "di + infinito / che + cond. passato")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: il discorso indiretto al passato", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>All'A2 hai riferito parole con il verbo al presente (<i>dice che è stanca</i>). Quando il verbo che introduce è al <b>passato</b> (<i>ha detto, diceva, disse</i>), i tempi <b>vanno indietro</b>: <i>«Tornerò»</i> → <i>Ha detto che <b>sarebbe tornato</b></i>. Cambiano anche le <b>persone</b> e le parole di <b>tempo</b> e <b>luogo</b>.</div>
+{_h("1. COME CAMBIANO I TEMPI")}
+{_tbl(["discorso diretto", "esempio", "discorso indiretto"], tm, "8pt", ["38mm", "48mm", None])}
+<div class="two"><div>{_h("2. TEMPO E LUOGO")}
+{_tbl(["diretto", "indiretto"], tl, "7.9pt", ["34mm", None])}</div>
+<div>{_h("3. I VERBI CHE INTRODUCONO")}
+{_tbl(["verbo", "costruzione"], vb, "7.9pt", ["36mm", None])}</div></div>
+{_h("4. IL FUTURO NEL PASSATO")}
+<p class="small" style="margin:.5mm 0">Per un'azione futura vista dal passato l'italiano usa il <b>condizionale passato</b>, anche se l'azione è ancora possibile: <i>Ha detto che <b>sarebbe venuto</b> domani.</i> Nel parlato si sente anche <i>ha detto che viene / che veniva</i>, ma non il condizionale presente (<s>ha detto che verrebbe</s>). Imperfetto, trapassato e condizionale passato <b>non cambiano</b>.</p>
+{_dont([("Ha detto che verrebbe a giugno.", "Ha detto che <b>sarebbe venuto</b> a giugno."), ("Mi ha chiesto che torno a Natale.", "Mi ha chiesto <b>di tornare</b> a Natale."), ("Ha detto che ha trovato un lavoro ieri.", "Ha detto che <b>aveva trovato</b> un lavoro <b>il giorno prima</b>.")])}""",
+    24, """<p>In portoghese il futuro nel passato si fa con il condizionale semplice (<i>disse que viria</i>): lo studente traduce <i>ha detto che verrebbe</i>. In italiano serve il condizionale passato (<i>sarebbe venuto</i>). Altri errori: <i>chiedere che</i> + presente invece di <i>chiedere di</i> + infinito, e le parole di tempo che non cambiano.</p>""")
