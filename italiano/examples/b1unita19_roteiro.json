@@ -1,0 +1,27 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Camila": "it-IT-Chirp3-HD-Despina"
+ },
+ "pauses": {
+  "19.2": 2500
+ },
+ "images": {
+  "it-b1-unita-19": {
+   "A": "woman talking phone smiling",
+   "B": "friends aperitif table outdoor evening",
+   "C": "dolomites mountain village",
+   "D": "smartphone message chat hands"
+  }
+ },
+ "units": {
+  "it-b1-unita-19": {
+   "19.1 Ha detto che sarebbe...": "Narrator: Sabato 8 maggio, aperitivo al bar di Giulia. Júlia, Camila e Davide raccontano le ultime notizie.\nGiulia: Allora, Júlia, i tuoi genitori sono arrivati bene in Brasile?\nJúlia: Sì. La mamma ha telefonato e ha detto che il viaggio era stato lunghissimo, ma che si erano divertiti tantissimo.\nDavide: E tuo padre? L'ultimo giorno mi ha detto che l'anno prossimo avrebbe parlato italiano meglio di me!\nJúlia: Ha detto anche che sarebbe tornato per vedere una partita allo stadio.\nGiulia: E la mamma che cosa ha detto di Bologna?\nJúlia: Ha detto che le era piaciuta moltissimo, ma che io dovevo mangiare di più. E mi ha chiesto di tornare in Brasile per Natale.\nCamila: E io ho una notizia. Giovedì Pietro mi ha detto che voleva presentarmi ai suoi genitori.\nGiulia: Davvero? E quando?\nCamila: Ha detto che saremmo andati da loro in montagna il fine settimana dopo... cioè oggi! Ma ieri sera mi ha scritto che sua madre aveva la febbre.\nDavide: E quindi?\nCamila: Quindi ha detto che ci saremmo andati a giugno. Mi chiedo se sia vero...\nJúlia: Camila, non pensare male! A San Valentino Pietro ti aveva detto che ti avrebbe aspettata alla stazione, e l'ha fatto.\nDavide: Io invece ho una notizia meno bella. Elena mi ha detto che a giugno avrebbe lasciato il bar.\nGiulia: Cosa? A me non ha detto niente!\nDavide: Ha detto che te l'avrebbe detto lunedì... Ops. Forse non dovevo dirlo.\nGiulia: Davide! E perché se ne va?\nDavide: Mi ha spiegato che aveva trovato un tirocinio in uno studio di ingegneria per l'estate.\nGiulia: Beh, se è per lo studio, sono contenta per lei. Ma la prossima volta le notizie le voglio sapere per prima!",
+   "19.2 Ripeti": "Narrator: Ha detto che il viaggio era stato lunghissimo.\nNarrator: Ha detto che sarebbe tornato.\nNarrator: Mi ha chiesto di tornare per Natale.\nNarrator: Ha detto che ci saremmo andati a giugno.\nNarrator: Mi ha spiegato che aveva trovato un tirocinio.\nNarrator: Ha detto che te l'avrebbe detto lunedì."
+  }
+ }
+}
