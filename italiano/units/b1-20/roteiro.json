@@ -1,0 +1,20 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Camila": "it-IT-Chirp3-HD-Despina"
+ },
+ "pauses": {"R2.2": 5500},
+ "images": {},
+ "units": {
+  "it-b1-ripasso-2": {
+   "R2.1 Conversazione": "Narrator: Lunedì 31 maggio, mattina. Al bar di Giulia, Júlia, Camila e Davide fanno colazione prima del lavoro e delle lezioni.\nGiulia: Buongiorno! Júlia, hai una faccia stanca. Tutto bene?\nJúlia: Sì, ma ieri sera ho fatto una videochiamata con i miei fino a mezzanotte. La mamma parlava come se fossimo ancora insieme a Bologna.\nCamila: E tuo padre?\nJúlia: Ha detto che guardava tutte le partite del Bologna e che sperava che io tornassi in Brasile per Natale.\nDavide: E tu che cosa farai?\nJúlia: Non lo so ancora. Mi chiedo se sia il momento giusto.\nGiulia: Benché tu abbia tanto lavoro, una vacanza a casa ti farebbe bene.\nJúlia: A proposito di lavoro: dopo l'articolo sulla biblioteca, lo studio è stato contattato da tre nuovi clienti!\nCamila: Che bello! Il mio tirocinio invece finisce a luglio. Magari mi offrissero un contratto!\nDavide: Se fossi il tuo capo, te lo offrirei subito.\nGiulia: E la montagna con Pietro, Camila?\nCamila: Finalmente ci andiamo: sabato 12 giugno. Sua madre sta bene. Pensavo che fosse una scusa, e invece...\nJúlia: Te l'avevo detto: non pensare male!\nGiulia: Io invece ho un problema. Elena va via venerdì e non ho ancora trovato nessuno per l'estate.\nDavide: Se non avessi gli esami, ti aiuterei io. Ma a giugno è impossibile.\nGiulia: Lo so. Guardando gli annunci, ho trovato solo studenti che partono per le vacanze!\nCamila: Ne parlo con Pietro: forse conosce qualcuno.\nGiulia: Grazie, tesoro. Allora, chi vuole un altro caffè? Offre la casa!",
+   "R2.2 Dettato": "Narrator: Ascolta e scrivi le frasi.\nNarrator: Uno. Parla come se fosse stanco.\nNarrator: Due. Pensavo che l'aperitivo fosse solo un bicchiere di vino.\nNarrator: Tre. Magari venisse anche mia madre!\nNarrator: Quattro. Se vincessi, comprerei una casa con la terrazza.\nNarrator: Cinque. Sbagliando s'impara.\nNarrator: Sei. La biblioteca è stata inaugurata sabato.\nNarrator: Sette. Benché piova, usciamo lo stesso.\nNarrator: Otto. Non so che cosa dire.\nNarrator: Nove. Ha detto che sarebbe tornato a giugno.",
+   "R2.3 Dialoghi": "Narrator: Dialogo uno. Allo studio.\nMarco: Júlia, hai letto la mail del nuovo cliente?\nJúlia: Sì. Vuole sapere se possiamo cominciare a luglio. Benché ci sia tanto lavoro, direi di sì.\nMarco: D'accordo. Gli ho già scritto che gli avremmo mandato il progetto entro fine giugno.\nJúlia: Perfetto. Se avessi più tempo, lo farei da sola... ma ho bisogno di te!\nNarrator: Dialogo due. Al bar.\nGiulia: Camila, Pietro conosce qualcuno per il bar?\nCamila: Sì, mi ha detto che suo cugino cercava un lavoro per l'estate.\nGiulia: Magari sapesse fare il cappuccino!\nCamila: Gliel'ho chiesto: ha lavorato in un bar a Riccione.\nGiulia: Perfetto. Digli di passare domani mattina!"
+  }
+ }
+}
