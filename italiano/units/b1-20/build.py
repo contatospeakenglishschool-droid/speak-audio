@@ -36,7 +36,7 @@ def build(teacher):
 {sub("A", "Una foto per ogni unità. Scrivi la parola. Poi di' una frase con la grammatica di quell'unità.", "5 min")}
 <div class="bank">il dolce · l'edicola · la focaccia · la montagna · la schedina · lo spritz · il tabellone · le tagliatelle</div>
 {photo_grid(T, PHOTOS)}""",
-    30, """<p>Le foto A–H vengono dalle unità 12–19, in ordine (l'unità 11 torna nell'ascolto e nella grammatica). Esempi: <i>Pensavo che lo spritz fosse dolce (12). Magari ci fosse ancora un po' di focaccia! (13) Se vincessi, comprerei… (14) Guardando il tabellone, ho visto il ritardo (15). Il giornale si compra in edicola (16). Benché siano pesanti, le tagliatelle mi piacciono (17). Non so se il dolce le piacerà (18). Pietro ha detto che sarebbero andati in montagna (19).</i></p>""", cover=cover)
+    30, """<p>Le foto A–H vengono dalle unità 12–19, in ordine (l'unità 11 torna nell'ascolto e nella grammatica). Esempi: <i>Pensavo che lo spritz fosse dolce (12). Magari ci fosse ancora focaccia! (13) Il giornale si compra in edicola (16). Non so se il dolce le piacerà (18).</i></p>""", cover=cover)
 
     b.extra("Panoramica del ripasso · 60 min", """
 <table><tr><th>Fase</th><th>Tempo</th><th>Unità</th><th>Pagina</th></tr>
@@ -95,8 +95,7 @@ def build(teacher):
 <div>{sub("B", "Unità 12. La concordanza dei tempi. Scegli.", "2 min")}<ol>{ccl}</ol></div></div>
 <div class="two"><div>{sub("C", "Unità 13. Vorrei che, magari.", "3 min")}<ol>{mgl}</ol></div>
 <div>{sub("D", "Unità 14. Il periodo ipotetico. Scegli.", "3 min")}<ol>{pil}</ol></div></div>""",
-    26, """<ol><li>A: <i>come se</i> vuole sempre il congiuntivo imperfetto (o trapassato). B: verbo principale al passato → congiuntivo imperfetto; stesso soggetto → <i>di</i> + infinito.</li>
-<li>C: <i>vorrei</i> + infinito con lo stesso soggetto. D: tipo 1 (probabile) → presente; tipo 2 → <i>se</i> + congiuntivo imperfetto + condizionale; mai il condizionale dopo <i>se</i>.</li></ol>""")
+    26, """<p>A: <i>come se</i> + congiuntivo imperfetto. B: passato → congiuntivo imperfetto; stesso soggetto → <i>di</i> + infinito. C: <i>vorrei</i> + infinito con lo stesso soggetto. D: tipo 1 → presente; mai il condizionale dopo <i>se</i>.</p>""")
 
     # Pagina 4
     gr = [("(Pulire) ___ la casa, ho rotto un bicchiere.", ["Pulendo"]), ("(Avere) ___ dormito poco, sono stanca.", ["Avendo"]), ("Ho visto Marco e, (vedere) ___, l'ho salutato.", ["vedendolo"])]
@@ -118,8 +117,7 @@ def build(teacher):
 <div>{sub("C", "Unità 17. Benché o anche se? Scegli.", "1 min")}<ol>{csl}</ol>{sub("D", "Unità 18 e 19. Riferisci.", "3 min")}<ol>{iil}</ol></div></div>
 {sub("E", "Unità 11–19. Correggi gli errori.", "3 min")}
 <ol style="column-count:2">{mkl}</ol>""",
-    26, """<ol><li>A: stesso soggetto; pronomi attaccati (<i>vedendolo</i>). B: <i>venire</i> solo nei tempi semplici; il si concorda con la cosa. C: <i>benché</i> + congiuntivo, <i>anche se</i> + indicativo.</li>
-<li>D: verbo al passato → i tempi vanno indietro; ordini → <i>di</i> + infinito. E: chiedere allo studente quale unità ripassa ogni frase (14, 12, 17, 16, 18, 19).</li></ol>""")
+    26, """<p>A: pronomi attaccati (<i>vedendolo</i>). B: <i>venire</i> solo nei tempi semplici. C: <i>benché</i> + congiuntivo, <i>anche se</i> + indicativo. D: ordini → <i>di</i> + infinito. E: unità 14, 12, 17, 16, 18, 19.</p>""")
 
     # Pagina 5
     cats = [("Viaggi e aeroporto", "il tabellone · atterrare · la dogana · gli arrivi"), ("Giornali e libri", "l'edicola · una copia · pubblicare · i racconti"),
