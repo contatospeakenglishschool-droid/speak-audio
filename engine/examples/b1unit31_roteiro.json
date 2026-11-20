@@ -1,0 +1,22 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Ana": "en-US-Neural2-F",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-31": {
+   "31.1 Ana's new kitchen": "Danny: Hi Ana! Is this a good time? You sound busy.\nAna: Hi Danny! It's absolutely chaotic here. We're having the kitchen remodeled, so there are workers everywhere.\nDanny: Wow! What are you having done?\nAna: Everything! We're having new cabinets installed, and next week we're having a new stove put in. Last month we found a leak under the sink, so we had the pipes checked by a plumber.\nDanny: Did Marcos try to fix it himself?\nAna: Of course he did! He watched a video, bought a wrench and made it worse. The kitchen floor was completely wet. After that, we called a professional.\nDanny: Ha! What about the lights?\nAna: The electrician is coming on Friday. Half the kitchen has no electricity, and Marcos says it's the fuse box. I don't trust him anymore!\nDanny: And the walls?\nAna: We were going to have them painted, but it's really expensive. Maybe we'll do that ourselves.\nDanny: I can help! I painted my room back home, and I've got the whole weekend free. Do you have rollers and brushes?\nAna: Marcos has a toolbox full of things he never uses. Are you sure?\nDanny: Totally. You'll just have to feed me.\nAna: Deal! Pizza on Saturday and Grandma's chicken soup on Sunday.",
+   "31.2 Repeat: have something done": "Narrator: We had the pipes checked.\nNarrator: We're having the kitchen remodeled.\nNarrator: I'm having my hair cut tomorrow.\nNarrator: She got her car fixed.\nNarrator: Have you had your eyes tested?\nNarrator: I need to get my phone repaired."
+  }
+ },
+ "images": {
+  "b1-unit-31": {
+   "A": "toolbox hammer screwdriver tools",
+   "B": "kitchen renovation unfinished cabinets",
+   "C": "paint roller wall painting",
+   "D": "plumber fixing sink pipe"
+  }
+ }
+}

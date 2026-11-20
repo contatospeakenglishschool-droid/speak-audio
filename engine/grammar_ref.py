@@ -1676,3 +1676,24 @@ def past_tenses_contrast(b):
 <p class="small" style="margin:.8mm 0">With <b>ago</b>, <b>yesterday</b> or <b>in + year</b>, never use the present perfect: <i>I <b>saw</b> him two days ago</i> (not <i>I've seen him two days ago</i>). If the order is clear (<i>before, after</i>), the past simple is also OK: <i>He worked in an office before he moved.</i></p>
 {_dont([("I've met him last year.", "I <b>met</b> him last year."), ("I live here since 2020.", "I'<b>ve lived</b> here since 2020."), ("When I arrived, she already left.", "When I arrived, she <b>had already left</b>."), ("He lives there for 25 years.", "He <b>has lived</b> there for 25 years."), ("Did you ever been to Chile?", "<b>Have</b> you ever <b>been</b> to Chile?")])}""",
     22, """<p>Brazilians use the present simple with <i>for / since</i> (<i>I live here for five years</i>) and the present perfect with finished times. Drill: draw a timeline of Tomás's life (office → moved → now) and ask questions: <i>How long has he lived there? What had he done before?</i></p>""")
+
+
+def have_something_done(b):
+    """B1 Unit 31: causative have / get something done."""
+    b.page(f"""{b.sec("+", "Grammar reference: have something done", "")}
+<div class="box" style="margin-top:0"><h4>WHO DID IT?</h4>When <b>you</b> do the work: <i>I painted the kitchen.</i> When you <b>pay or ask someone else</b> to do it: <i>I <b>had</b> the kitchen <b>painted</b>.</i> The person who does the job is not important, so we usually don't say it. If we do, we use <b>by</b>: <i>We had the pipes checked <b>by a plumber</b>.</i></div>
+{_h("1. FORM: have + object + past participle")}
+{_tbl(["tense", "example"], [
+    ["present simple", "<i>I <b>have</b> my hair <b>cut</b> every month.</i>"],
+    ["present continuous", "<i>We'<b>re having</b> the kitchen <b>remodeled</b>.</i>"],
+    ["past simple", "<i>We <b>had</b> the pipes <b>checked</b> last month.</i>"],
+    ["present perfect", "<i>Have you <b>had</b> your eyes <b>tested</b> this year?</i>"],
+    ["going to / will", "<i>We'<b>re going to have</b> the walls <b>painted</b>. · I'<b>ll have</b> it <b>fixed</b>.</i>"],
+    ["modals / infinitive", "<i>You <b>need to have</b> the lock <b>changed</b>. · I <b>must get</b> my phone <b>repaired</b>.</i>"]], "8.3pt")}
+{_h("2. GET SOMETHING DONE")}
+<p class="small" style="margin:.5mm 0">In informal English, <b>get</b> = <b>have</b>: <i>She <b>got</b> her car <b>fixed</b>.</i> · <i>I need to <b>get</b> my phone <b>repaired</b>.</i></p>
+{_h("3. SOMETHING BAD HAPPENED")}
+<p class="small" style="margin:.5mm 0">The same structure can describe something bad that someone did to you: <i>I <b>had</b> my wallet <b>stolen</b> on the bus.</i> (= someone stole it)</p>
+<div class="box" style="margin-top:1.5mm"><h4>WORD ORDER</h4>The <b>object</b> comes <b>before</b> the participle: <i>I had <b>my hair</b> cut</i> (= a hairdresser cut it). <i>I had cut my hair</i> is the past perfect (= I cut it myself, before).</div>
+{_dont([("I cut my hair yesterday. (at the hairdresser)", "I <b>had my hair cut</b> yesterday."), ("We had painted the walls. (by a painter)", "We <b>had the walls painted</b>."), ("I'm going to fix my car. (at a garage)", "I'm going to <b>have / get my car fixed</b>."), ("She had her car fix.", "She had her car <b>fixed</b>."), ("I had stolen my phone.", "I <b>had my phone stolen</b>.")])}""",
+    22, """<p>Brazilians say <i>I cut my hair</i> and <i>I'm going to fix my car</i> for jobs other people do, because Portuguese uses the same form. Drill: ask <i>Do you do it yourself or do you have it done?</i> for haircut, car wash, nails, ironing, painting the house.</p>""")
