@@ -1,0 +1,23 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Ana": "en-US-Neural2-F",
+  "Bruno": "en-US-Chirp3-HD-Fenrir",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-32": {
+   "32.1 A geography quiz": "Danny: Welcome back to Gap Year Diaries! Today it's quiz time: South America, land and sea. My contestants are Ana and Bruno. Question one. What's the highest mountain in South America?\nBruno: Easy. Aconcagua, in Argentina.\nDanny: Correct! It's almost seven thousand meters high. I saw it from the bus on my trip. Question two. Which river carries the most water in the world?\nAna: The Nile?\nBruno: No, the Nile is longer, I think. It's the Amazon!\nDanny: Right, Bruno. The Amazon carries more water than any other river on Earth. Question three. The highest waterfall in the world is in South America. Where is it?\nAna: In Venezuela. It's Angel Falls!\nDanny: Well done! The water falls nine hundred and seventy-nine meters. That's higher than the tallest building in the world.\nBruno: Wow. For me, Iguazu is still the most beautiful waterfall I've ever seen.\nDanny: Question four. What's the highest mountain in Brazil?\nAna: Pico da Neblina! It's on the border with Venezuela, in the Amazon rainforest.\nDanny: Correct, it's about three thousand meters high. Have you ever climbed it?\nAna: No way. The highest place I've ever been to is a hill near my grandmother's old farm!\nDanny: Question five. Which is the largest tropical wetland in the world?\nBruno: The Pantanal. My uncle took me there when I was a kid. We saw a jaguar!\nDanny: Right again. And the last question. What's the driest non-polar desert in the world?\nAna: The Sahara?\nDanny: Sorry, Ana. It's the Atacama, in Chile. Some parts get almost no rain at all.\nBruno: So I won! Three points to two!\nAna: Fine. But wait until we do a quiz about medicine!\nDanny: Ha! Thanks for listening, everyone!",
+   "32.2 Repeat: superlatives": "Narrator: the highest mountain in the world\nNarrator: one of the longest rivers\nNarrator: the most beautiful place I've ever seen\nNarrator: the driest desert on Earth\nNarrator: the second highest mountain\nNarrator: the largest wetland in the world"
+  }
+ },
+ "images": {
+  "b1-unit-32": {
+   "A": "mountain lake valley river landscape",
+   "B": "angel falls venezuela",
+   "C": "pantanal wetland brazil",
+   "D": "atacama desert chile"
+  }
+ }
+}

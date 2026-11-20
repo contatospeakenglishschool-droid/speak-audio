@@ -1697,3 +1697,26 @@ def have_something_done(b):
 <div class="box" style="margin-top:1.5mm"><h4>WORD ORDER</h4>The <b>object</b> comes <b>before</b> the participle: <i>I had <b>my hair</b> cut</i> (= a hairdresser cut it). <i>I had cut my hair</i> is the past perfect (= I cut it myself, before).</div>
 {_dont([("I cut my hair yesterday. (at the hairdresser)", "I <b>had my hair cut</b> yesterday."), ("We had painted the walls. (by a painter)", "We <b>had the walls painted</b>."), ("I'm going to fix my car. (at a garage)", "I'm going to <b>have / get my car fixed</b>."), ("She had her car fix.", "She had her car <b>fixed</b>."), ("I had stolen my phone.", "I <b>had my phone stolen</b>.")])}""",
     22, """<p>Brazilians say <i>I cut my hair</i> and <i>I'm going to fix my car</i> for jobs other people do, because Portuguese uses the same form. Drill: ask <i>Do you do it yourself or do you have it done?</i> for haircut, car wash, nails, ironing, painting the house.</p>""")
+
+
+def geography_the_superlatives(b):
+    """B1 Unit 32: the with geographical names; superlatives with in / of / ever / one of / second."""
+    b.page(f"""{b.sec("+", "Grammar reference: the with place names, superlatives", "")}
+<div class="box" style="margin-top:0"><h4>THE AMAZON, BUT MOUNT EVEREST</h4>With geographical names, the choice of <b>the</b> depends on the <b>type of place</b>. Big &ldquo;long or wide&rdquo; things (rivers, oceans, deserts, mountain ranges) take <b>the</b>; single mountains, lakes, continents and most countries don't.</div>
+{_h("1. THE OR NO ARTICLE?")}
+{_tbl(["the", "no article"], [
+    ["rivers: <i>the Amazon, the Nile</i>", "single mountains: <i>Mount Everest, Aconcagua, Pico da Neblina</i>"],
+    ["oceans and seas: <i>the Atlantic, the Caribbean</i>", "lakes: <i>Lake Titicaca, Lake Michigan</i>"],
+    ["deserts: <i>the Sahara, the Atacama</i>", "continents: <i>South America, Africa</i>"],
+    ["mountain ranges: <i>the Andes, the Alps</i>", "most countries and cities: <i>Brazil, Chile, São Paulo</i>"],
+    ["plural or &ldquo;union&rdquo; names: <i>the United States, the Philippines, the UK</i>", "waterfalls (usually): <i>Angel Falls, Niagara Falls</i>"],
+    ["regions: <i>the Pantanal, the Amazon rainforest</i>", "single islands: <i>Florianópolis, Easter Island</i>"]], "8.2pt")}
+{_h("2. SUPERLATIVES")}
+{_tbl(["pattern", "example"], [
+    ["the + superlative + <b>in</b> + place", "<i>the highest mountain <b>in</b> Brazil · the driest desert <b>in</b> the world</i>"],
+    ["the + superlative + <b>of</b> + group", "<i>the longest <b>of</b> the three rivers</i>"],
+    ["<b>one of the</b> + superlative + <b>plural</b>", "<i>one of the largest wetland<b>s</b> in the world</i>"],
+    ["the <b>second / third</b> + superlative", "<i>the second highest mountain</i>"],
+    ["the + superlative + <b>I've ever</b> + participle", "<i>the most beautiful waterfall <b>I've ever seen</b></i>"]], "8.2pt")}
+{_dont([("the Brazil · the Mount Everest", "<b>Brazil</b> · <b>Mount Everest</b>"), ("Amazon is a long river.", "<b>The</b> Amazon is…"), ("the highest mountain of Brazil", "the highest mountain <b>in</b> Brazil"), ("one of the biggest city", "one of the biggest <b>cities</b>"), ("the most beautiful place I ever saw", "… <b>I've ever seen</b>")])}""",
+    22, """<p>Brazilians often add <i>the</i> to countries and mountains and use <i>of</i> after superlatives. Drill: say a place type (<i>river / mountain / lake / desert</i>); the student gives a real name with or without <i>the</i>, then a superlative sentence.</p>""")
