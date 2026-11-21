@@ -1324,3 +1324,25 @@ def discorso_indiretto_passato(b):
 <p class="small" style="margin:.5mm 0">Per un'azione futura vista dal passato l'italiano usa il <b>condizionale passato</b>, anche se l'azione è ancora possibile: <i>Ha detto che <b>sarebbe venuto</b> domani.</i> Nel parlato si sente anche <i>ha detto che viene / che veniva</i>, ma non il condizionale presente (<s>ha detto che verrebbe</s>). Imperfetto, trapassato e condizionale passato <b>non cambiano</b>.</p>
 {_dont([("Ha detto che verrebbe a giugno.", "Ha detto che <b>sarebbe venuto</b> a giugno."), ("Mi ha chiesto che torno a Natale.", "Mi ha chiesto <b>di tornare</b> a Natale."), ("Ha detto che ha trovato un lavoro ieri.", "Ha detto che <b>aveva trovato</b> un lavoro <b>il giorno prima</b>.")])}""",
     24, """<p>In portoghese il futuro nel passato si fa con il condizionale semplice (<i>disse que viria</i>): lo studente traduce <i>ha detto che verrebbe</i>. In italiano serve il condizionale passato (<i>sarebbe venuto</i>). Altri errori: <i>chiedere che</i> + presente invece di <i>chiedere di</i> + infinito, e le parole di tempo che non cambiano.</p>""")
+
+
+def relativi_b1(b):
+    """B1 Progresso 21: pronomi relativi il quale, il cui, chi, quello che / ciò che; in cui, da cui."""
+    tb = [("<b>che</b>", "soggetto / oggetto", "<i>La collega <b>che</b> arriva da Torino.</i>"),
+          ("<b>cui</b> (con preposizione)", "dopo <i>a, di, da, in, con, per…</i>", "<i>Il posto <b>in cui</b> dormo. · La finestra <b>da cui</b> si vedono i colli.</i>"),
+          ("<b>il quale, la quale, i quali, le quali</b>", "= che / cui, più formale; chiarisce il genere", "<i>Una collega, <b>la quale</b> arriva lunedì. · Il capo, <b>con il quale</b> ho parlato.</i>"),
+          ("<b>il cui, la cui, i cui, le cui</b>", "possesso (= di cui)", "<i>I clienti, <b>i cui</b> progetti cominciano a luglio.</i>"),
+          ("<b>chi</b>", "= la persona che / le persone che", "<i><b>Chi</b> vuole potrà lavorare da casa.</i>"),
+          ("<b>quello che / ciò che</b>", "= la cosa che", "<i>Era <b>quello che</b> chiedevamo.</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: i pronomi relativi", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>I pronomi relativi collegano due frasi e permettono di non ripetere un nome: <i>Arriva una collega. La collega viene da Torino.</i> → <i>Arriva una collega <b>che</b> viene da Torino.</i> All'A2 hai visto <b>che</b> e <b>cui</b>. Al B1 si aggiungono <b>il quale</b>, <b>il cui</b>, <b>chi</b> e <b>quello che</b>, molto usati nelle mail di lavoro e nei testi formali.</div>
+{_h("1. LA TABELLA DEI RELATIVI")}
+{_tbl(["relativo", "uso", "esempio"], tb, "7.9pt", ["46mm", "44mm", None])}
+<div class="two"><div>{_h("2. IL CUI: ATTENZIONE ALL'ARTICOLO")}
+<p class="small" style="margin:.5mm 0">L'articolo concorda con la cosa posseduta, non con il possessore: <i>il cliente, <b>la cui</b> casa…</i> · <i>la collega, <b>il cui</b> ufficio…</i> · <i>i clienti, <b>i cui</b> progetti…</i></p></div>
+<div>{_h("3. CHI: SEMPRE SINGOLARE")}
+<p class="small" style="margin:.5mm 0"><i>Chi</i> vuole il verbo al <b>singolare</b>, anche se pensi a molte persone: <i>Chi <b>lavora</b> da casa ha bisogno di una pausa.</i> Si usa nei proverbi: <i>Chi dorme non piglia pesci.</i></p></div></div>
+{_h("4. QUELLO CHE / TUTTO QUELLO CHE")}
+<p class="small" style="margin:.5mm 0"><i><b>Quello che</b> non capisco è dove la mettiamo.</i> · <i>Fai <b>tutto quello che</b> vuoi.</i> <b>Ciò che</b> è uguale, ma più formale. Non dire <i>la cosa che</i> quando puoi dire <i>quello che</i>.</p>
+{_dont([("La collega che ho parlato.", "La collega <b>con cui / con la quale</b> ho parlato."), ("Il cliente che il progetto è pronto.", "Il cliente <b>il cui</b> progetto è pronto."), ("Chi vogliono, possono restare.", "Chi <b>vuole</b>, <b>può</b> restare.")])}""",
+    24, """<p>Il portoghese ha gli stessi pronomi (<i>o qual, cujo, quem, o que</i>), ma il brasiliano parlato usa quasi sempre <i>que</i>: lo studente dice <i>la collega che ho parlato</i> (<i>a colega que eu falei</i>) e evita <i>il cui</i>. Attenzione: <i>cujo</i> non ha articolo, <i>il cui</i> sì. <i>Chi</i> = <i>quem</i> generico, con il verbo al singolare.</p>""")
