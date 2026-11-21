@@ -1,0 +1,25 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus"
+ },
+ "pauses": {
+  "21.2": 2500
+ },
+ "images": {
+  "it-b1-unita-21": {
+   "A": "home office desk laptop window",
+   "B": "architect office desk drawings",
+   "C": "video conference laptop meeting",
+   "D": "coworking office people working"
+  }
+ },
+ "units": {
+  "it-b1-unita-21": {
+   "21.1 Il lavoro che cambia": "Narrator: Mercoledì 9 giugno, mattina. Allo studio, Marco e Júlia leggono una mail del capo.\nMarco: Júlia, hai visto la mail? Da luglio cambia tutto.\nJúlia: Cioè?\nMarco: Leggo: «Chi vuole potrà lavorare da casa il lunedì e il venerdì.»\nJúlia: Davvero? È quello che chiediamo da un anno!\nMarco: Aspetta, c'è di più: «I nuovi clienti, i cui progetti cominciano a luglio, saranno seguiti da un gruppo di tre architetti.»\nJúlia: E chi sono i tre?\nMarco: Tu, io... e una nuova collega, la quale arriva da Torino lunedì prossimo.\nJúlia: Una nuova collega? Il capo non ci ha detto niente!\nMarco: Infatti. Quello che non capisco è dove la mettiamo: lo studio è piccolissimo.\nJúlia: Con lo smart working il problema non esiste: c'è sempre una scrivania libera.\nMarco: Hai ragione. Ma io lavorare da casa... Il mio appartamento è il posto in cui dormo, non quello in cui lavoro.\nJúlia: Io invece sono contenta. La mia scrivania è davanti alla finestra da cui si vedono i colli.\nMarco: E la signora Rossi, che passa ogni mattina con i biscotti?\nJúlia: Appunto: chi lavora da casa ha bisogno di una pausa caffè!\nMarco: Ultima cosa. Le riunioni del mercoledì restano in presenza, e il capo scrive: «Chi arriva in ritardo, porta le paste la settimana dopo.»\nJúlia: Questo è il capo che conosciamo!",
+   "21.2 Ripeti": "Narrator: Chi vuole potrà lavorare da casa.\nNarrator: È quello che chiediamo da un anno.\nNarrator: I clienti, i cui progetti cominciano a luglio.\nNarrator: Una nuova collega, la quale arriva da Torino.\nNarrator: Il posto in cui dormo.\nNarrator: La finestra da cui si vedono i colli."
+  }
+ }
+}
