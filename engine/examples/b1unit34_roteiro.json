@@ -1,0 +1,21 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Bruno": "en-US-Chirp3-HD-Fenrir",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-34": {
+   "34.1 Bruno's journey from hell": "Bruno: Hey Danny! You won't believe the day I've had. So, I was supposed to land in Porto Alegre at noon for my mom's birthday lunch. I was going to take the subway and then the airport bus to save money, but I got up late, so I called a ride instead. Big mistake.\nBruno: The driver got stuck in a huge traffic jam on the highway to the airport. A truck had broken down in the middle lane, and nobody could get past it. We were stuck there for forty minutes. Then we finally got moving, and guess what? The car ran out of gas! The driver was about to call a friend for help, but I didn't wait. I got out of the car, walked to the next intersection and caught a taxi.\nBruno: I got to the airport at ten fifty, and my flight was supposed to leave at eleven. I ran all the way to the gate, but the doors were already closed. I missed the plane by five minutes! So I caught the next flight at three, and I didn't get to Porto Alegre until five. I missed the whole lunch.\nBruno: But here's the good part. My mom saved me a huge piece of cake, and my dad picked me up at the airport. He's a terrible driver, by the way. He almost didn't stop at a red light! Anyway, I'm here now, safe and happy. See you on Tuesday!",
+   "34.2 Repeat: was going to, was supposed to": "Narrator: I was going to take the bus.\nNarrator: I was supposed to land at noon.\nNarrator: The flight was supposed to leave at eleven.\nNarrator: I was about to call you.\nNarrator: We were going to drive, but the car broke down.\nNarrator: She was supposed to meet us here."
+  }
+ },
+ "images": {
+  "b1-unit-34": {
+   "A": "traffic jam highway trucks",
+   "B": "airport departure gate empty",
+   "C": "city bus stop people waiting",
+   "D": "pedestrian crosswalk city street"
+  }
+ }
+}

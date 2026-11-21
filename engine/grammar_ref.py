@@ -1739,3 +1739,21 @@ def passive_reporting(b):
 <div class="box" style="margin-top:1.5mm"><h4>NEGATIVE</h4><i>Prices are expected <b>not to</b> rise.</i> or <i>Prices <b>aren't</b> expected to rise.</i> Both are correct; the second is more common in speech.</div>
 {_dont([("Commuting is said that it is stressful.", "<b>It is said that</b> commuting is stressful. / Commuting <b>is said to be</b> stressful."), ("It is believed to working from home helps.", "<b>It is believed that</b> working from home helps."), ("Prices are expected rise.", "Prices are expected <b>to</b> rise."), ("Is said that…", "<b>It</b> is said that…"), ("They are thought use the time.", "They are thought <b>to use</b> the time.")])}""",
     22, """<p>Brazilians often drop <i>it</i> (<i>Is said that…</i>) because Portuguese doesn't need a subject there, and mix the two structures. Drill: read a headline in the active (<i>Experts expect more rain.</i>); the student says it in both passive forms.</p>""")
+
+
+def future_in_past(b):
+    """B1 Unit 34: future in the past: was going to, was supposed to, was about to, would."""
+    b.page(f"""{b.sec("+", "Grammar reference: was going to, was supposed to, was about to", "")}
+<div class="box" style="margin-top:0"><h4>LOOKING FORWARD FROM THE PAST</h4>When we tell a story, we often talk about the future <b>as it looked at that moment in the past</b>: plans, schedules and things that nearly happened. Very often, the plan changed. <i>I <b>was going to</b> take the bus, but I got up late. · My flight <b>was supposed to</b> leave at eleven. · The driver <b>was about to</b> call a friend.</i></div>
+{_h("1. THREE FORMS")}
+{_tbl(["form", "meaning", "example"], [
+    ["<b>was / were going to</b> + verb", "a plan or intention in the past (often it didn't happen)", "<i>I <b>was going to</b> take the subway, but I called a ride instead.</i>"],
+    ["<b>was / were supposed to</b> + verb", "something arranged, scheduled or expected (often it didn't happen)", "<i>I <b>was supposed to</b> land at noon. · You <b>were supposed to</b> call me!</i>"],
+    ["<b>was / were about to</b> + verb", "something that was going to happen very soon", "<i>The doors <b>were about to</b> close when I got to the gate.</i>"]], "8.2pt")}
+{_h("2. WOULD AND THE PAST CONTINUOUS")}
+{_tbl(["form", "example"], [
+    ["<b>would</b> + verb (after <i>think, know, be sure, hope</i>)", "<i>I thought I <b>would</b> be on time. · I knew it <b>would</b> be a long day.</i>"],
+    ["<b>past continuous</b> for a fixed arrangement", "<i>I <b>was flying</b> to Porto Alegre that Saturday.</i>"]], "8.2pt")}
+<div class="box" style="margin-top:1.5mm"><h4>ADD WHAT HAPPENED</h4>These forms usually come with <b>but</b>, <b>when</b> or <b>so</b>: <i>I was going to drive, <b>but</b> the car broke down. · I was about to leave <b>when</b> the phone rang.</i></div>
+{_dont([("I was going to took a taxi.", "I was going to <b>take</b> a taxi."), ("I was suppose to arrive at noon.", "I was <b>supposed</b> to arrive at noon."), ("It was for me to arrive at noon.", "I <b>was supposed to</b> arrive at noon."), ("I was about calling you.", "I was about <b>to call</b> you."), ("I thought I will be late.", "I thought I <b>would</b> be late.")])}""",
+    22, """<p>Brazilians often translate the Portuguese structure word for word (<i>It was for me to arrive…</i>) and drop the <i>-d</i> in <i>supposed</i>, because it is silent in speech. Drill: give a plan (<i>take the bus</i>) and a problem (<i>it didn't come</i>); the student joins them: <i>I was going to take the bus, but it didn't come.</i></p>""")
