@@ -1359,7 +1359,7 @@ def lettera_formale(b):
     inf = [("Ciao!", "Gentile signora… / Spettabile…"), ("Mi mandi…?", "Potrebbe inviarmi…?"),
            ("Grazie mille!", "La ringrazio in anticipo."), ("Rispondimi presto.", "Resto in attesa di un Suo riscontro."),
            ("Un abbraccio", "Cordiali saluti")]
-    b.page(f"""{b.sec("+", "Riferimento linguistico: la lettera formale", "")}
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: la lettera formale", "")}
 <div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>In italiano le mail e le lettere formali (a un'azienda, a un ufficio, a una persona che non conosci) seguono uno schema fisso, con formule che non cambiano. Usarle bene è importante: un reclamo scritto con cortesia e precisione ottiene una risposta molto più spesso di un messaggio arrabbiato.</div>
 {_h("1. LO SCHEMA DELLA LETTERA")}
 {_tbl(["parte", "che cosa", "formula"], tb, "7.9pt", ["24mm", "36mm", None])}
