@@ -1346,3 +1346,26 @@ def relativi_b1(b):
 <p class="small" style="margin:.5mm 0"><i><b>Quello che</b> non capisco è dove la mettiamo.</i> · <i>Fai <b>tutto quello che</b> vuoi.</i> <b>Ciò che</b> è uguale, ma più formale. Non dire <i>la cosa che</i> quando puoi dire <i>quello che</i>.</p>
 {_dont([("La collega che ho parlato.", "La collega <b>con cui / con la quale</b> ho parlato."), ("Il cliente che il progetto è pronto.", "Il cliente <b>il cui</b> progetto è pronto."), ("Chi vogliono, possono restare.", "Chi <b>vuole</b>, <b>può</b> restare.")])}""",
     24, """<p>Il portoghese ha gli stessi pronomi (<i>o qual, cujo, quem, o que</i>), ma il brasiliano parlato usa quasi sempre <i>que</i>: lo studente dice <i>la collega che ho parlato</i> (<i>a colega que eu falei</i>) e evita <i>il cui</i>. Attenzione: <i>cujo</i> non ha articolo, <i>il cui</i> sì. <i>Chi</i> = <i>quem</i> generico, con il verbo al singolare.</p>""")
+
+
+def lettera_formale(b):
+    """B1 Progresso 22: la lettera formale e il reclamo (Spettabile/Gentile, Lei e Voi, condizionale di cortesia)."""
+    tb = [("<b>oggetto</b>", "una riga, chiara", "<i>Oggetto: reclamo ordine n. 4521</i>"),
+          ("<b>apertura</b>", "azienda / persona", "<i><b>Spettabile</b> servizio clienti, · <b>Gentile</b> signora Bianchi, · <b>Egregio</b> dottor Neri,</i>"),
+          ("<b>inizio</b>", "perché scrivi", "<i>Vi scrivo <b>in merito a</b>… · Le scrivo <b>per</b> segnalare…</i>"),
+          ("<b>problema</b>", "fatti, date, numeri", "<i>La scrivania è arrivata danneggiata l'8 giugno.</i>"),
+          ("<b>richiesta</b>", "condizionale di cortesia", "<i>Vi sarei grata se poteste… · Potrebbe…? · Vorrei chiedere…</i>"),
+          ("<b>chiusura</b>", "formula fissa", "<i>In attesa di un Vostro cortese riscontro, porgo distinti saluti. · Cordiali saluti</i>")]
+    inf = [("Ciao!", "Gentile signora… / Spettabile…"), ("Mi mandi…?", "Potrebbe inviarmi…?"),
+           ("Grazie mille!", "La ringrazio in anticipo."), ("Rispondimi presto.", "Resto in attesa di un Suo riscontro."),
+           ("Un abbraccio", "Cordiali saluti")]
+    b.page(f"""{b.sec("+", "Riferimento linguistico: la lettera formale", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>In italiano le mail e le lettere formali (a un'azienda, a un ufficio, a una persona che non conosci) seguono uno schema fisso, con formule che non cambiano. Usarle bene è importante: un reclamo scritto con cortesia e precisione ottiene una risposta molto più spesso di un messaggio arrabbiato.</div>
+{_h("1. LO SCHEMA DELLA LETTERA")}
+{_tbl(["parte", "che cosa", "formula"], tb, "7.9pt", ["24mm", "36mm", None])}
+<div class="two"><div>{_h("2. LEI O VOI?")}
+<p class="small" style="margin:.5mm 0">A <b>una persona</b>: <b>Lei</b> (<i>Le scrivo, La ringrazio, la Sua risposta</i>). A <b>un'azienda</b> o un ufficio: <b>Voi</b> (<i>Vi scrivo, Vi ringrazio, il Vostro riscontro</i>). Nelle lettere molti scrivono la maiuscola di cortesia: <i>Lei, Suo, Vostro</i>. Non mescolare mai <i>tu</i> e <i>Lei</i>.</p></div>
+<div>{_h("3. DA INFORMALE A FORMALE")}
+{_tbl(["informale", "formale"], inf, "7.6pt", ["24mm", None])}</div></div>
+{_dont([("Assunto: ordine 4521", "<b>Oggetto</b>: ordine 4521 (<i>assunto</i> = preso a lavorare)"), ("Spettabile signora Bianchi,", "<b>Gentile</b> signora Bianchi (<i>Spettabile</i> solo per aziende)"), ("Aspetto il Vostro ritorno.", "Attendo un Vostro cortese <b>riscontro</b>.")])}""",
+    24, """<p>Il brasiliano trasporta le formule del portoghese: <i>Prezado</i> → <i>Gentile</i>, <i>Assunto</i> → <i>Oggetto</i>, <i>Atenciosamente</i> → <i>Cordiali / Distinti saluti</i>, <i>aguardo retorno</i> → <i>attendo riscontro</i>. Insistere sul condizionale: <i>Voglio una scrivania nuova</i> suona aggressivo.</p>""")

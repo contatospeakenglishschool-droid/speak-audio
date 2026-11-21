@@ -1,0 +1,25 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux"
+ },
+ "pauses": {
+  "22.2": 3000
+ },
+ "images": {
+  "it-b1-unita-22": {
+   "A": "woman writing email laptop serious",
+   "B": "broken wooden table leg",
+   "C": "envelope letter writing pen desk",
+   "D": "customer service headset call center"
+  }
+ },
+ "units": {
+  "it-b1-unita-22": {
+   "22.1 Spettabile": "Narrator: Giovedì 10 giugno, sera. Júlia bussa alla porta della signora Rossi con il computer in mano.\nJúlia: Signora, mi scusi il disturbo. Ha cinque minuti?\nSignora Rossi: Per te sempre, cara. Che cosa succede?\nJúlia: Per lo smart working ho ordinato online una scrivania e una sedia. Sono arrivate martedì, ma la scrivania ha una gamba rotta e la sedia è grigia, non bianca.\nSignora Rossi: E hai chiamato il negozio?\nJúlia: Tre volte. Non risponde nessuno. Nella chat c'è solo un robot che mi ringrazia per la pazienza.\nSignora Rossi: Allora bisogna scrivere. Una bella lettera formale. Fammi vedere che cosa hai scritto.\nJúlia: «Ciao! La scrivania è rotta. Me ne mandate un'altra?»\nSignora Rossi: Oh, cara... «Ciao» a un'azienda? No, no. Si comincia così: «Spettabile servizio clienti».\nJúlia: Spettabile? Non «Gentile»?\nSignora Rossi: «Gentile» va bene per una persona: gentile signora Bianchi, gentile dottore. Per un'azienda si scrive «Spettabile».\nJúlia: E poi?\nSignora Rossi: Poi spieghi il problema, con la data e il numero dell'ordine. «Vi scrivo in merito all'ordine numero...»\nJúlia: Quattromilacinquecentoventuno, del 2 giugno. «La scrivania è arrivata danneggiata e la sedia non è del colore che avevo scelto.»\nSignora Rossi: Brava. Adesso la richiesta, con il condizionale: «Vi sarei grata se poteste sostituire la scrivania...»\nJúlia: «...e ritirare la sedia.» E se non rispondono?\nSignora Rossi: Scrivi che conosci i tuoi diritti. Per gli acquisti online hai quattordici giorni per restituire la merce, e per i prodotti difettosi c'è la garanzia di due anni.\nJúlia: Signora, ma Lei sa tutto!\nSignora Rossi: Ne ho scritte tante, di lettere così. Alla fine: «In attesa di un Vostro cortese riscontro, porgo distinti saluti.»\nJúlia: «Porgo distinti saluti»... Sembra una lettera dell'Ottocento!\nSignora Rossi: Sarà antica, ma funziona. Vedrai: tra una settimana arriva la scrivania nuova.",
+   "22.2 Ripeti": "Narrator: Spettabile servizio clienti.\nNarrator: Vi scrivo in merito all'ordine del 2 giugno.\nNarrator: La scrivania è arrivata danneggiata.\nNarrator: Vi sarei grata se poteste sostituirla.\nNarrator: In attesa di un Vostro cortese riscontro.\nNarrator: Porgo distinti saluti."
+  }
+ }
+}
