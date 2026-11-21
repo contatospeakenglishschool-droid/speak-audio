@@ -1,0 +1,21 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Host": "en-US-Studio-O",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-33": {
+   "33.1 Is your commute making you unhappy": "Host: Is your commute making you unhappy?\nHost: Most of us spend part of every day getting to work or school, by car, bus, train or metro. Commuting is often said to be the worst part of the day, and research suggests that this is true.\nHost: In a famous study published in two thousand four, the psychologist Daniel Kahneman and his colleagues asked nine hundred and nine working women to describe the activities of the previous day and how they felt during each one. Commuting was found to be the least enjoyable activity of all, even less pleasant than working or doing housework.\nHost: In two thousand fourteen, the UK's Office for National Statistics looked at data from about sixty thousand people. Commuters were found to be less satisfied with their lives and more anxious than people who didn't commute. The worst effects were reported by people whose journey to work took between sixty-one and ninety minutes. Interestingly, people with commutes of three hours or more didn't show the same effects. They are thought to use the time to work or relax, and many of them earn more.\nHost: Economists Alois Stutzer and Bruno Frey call this the commuting paradox. People are expected to accept a long commute only if they get something in return, like a better salary or a cheaper house. But in their study of German workers, people with longer commutes were found to be less satisfied with their lives. In other words, the extra money or space doesn't seem to be enough.\nHost: So what can be done? Working from home a few days a week is believed to help, and so is walking or cycling, when that's possible. And if you have to sit in traffic or stand on a crowded train, a good podcast might be the best medicine.",
+   "33.2 Repeat: is said to, is thought to": "Narrator: It's said to be the worst part of the day.\nNarrator: Commuting was found to be stressful.\nNarrator: They're thought to use the time to relax.\nNarrator: It's believed to help.\nNarrator: Prices are expected to rise.\nNarrator: It is estimated that millions of people commute."
+  }
+ },
+ "images": {
+  "b1-unit-33": {
+   "A": "crowded subway platform rush hour",
+   "B": "traffic jam city evening",
+   "C": "man cycling to work city",
+   "D": "tired commuter train"
+  }
+ }
+}

@@ -1720,3 +1720,22 @@ def geography_the_superlatives(b):
     ["the + superlative + <b>I've ever</b> + participle", "<i>the most beautiful waterfall <b>I've ever seen</b></i>"]], "8.2pt")}
 {_dont([("the Brazil · the Mount Everest", "<b>Brazil</b> · <b>Mount Everest</b>"), ("Amazon is a long river.", "<b>The</b> Amazon is…"), ("the highest mountain of Brazil", "the highest mountain <b>in</b> Brazil"), ("one of the biggest city", "one of the biggest <b>cities</b>"), ("the most beautiful place I ever saw", "… <b>I've ever seen</b>")])}""",
     22, """<p>Brazilians often add <i>the</i> to countries and mountains and use <i>of</i> after superlatives. Drill: say a place type (<i>river / mountain / lake / desert</i>); the student gives a real name with or without <i>the</i>, then a superlative sentence.</p>""")
+
+
+def passive_reporting(b):
+    """B1 Unit 33: impersonal passive: It is said that… / X is said to…; be expected / believed / thought / found / estimated to."""
+    b.page(f"""{b.sec("+", "Grammar reference: it is said that, is said to", "")}
+<div class="box" style="margin-top:0"><h4>WHO SAYS SO? NOBODY IN PARTICULAR</h4>When we report what people or experts in general say, think or expect, we often use the passive. It sounds more neutral and formal, and it's very common in the news and in articles. <i>People say commuting is stressful.</i> → <i><b>It is said that</b> commuting is stressful.</i> → <i>Commuting <b>is said to be</b> stressful.</i></div>
+{_h("1. TWO STRUCTURES")}
+{_tbl(["structure", "example"], [
+    ["<b>It is / was + participle + that</b> + clause", "<i><b>It is believed that</b> working from home helps. · <b>It was estimated that</b> 60,000 people took part.</i>"],
+    ["<b>subject + is / was + participle + to</b> + verb", "<i>Working from home <b>is believed to help</b>. · Commuting <b>was found to be</b> the least enjoyable activity.</i>"]], "8.3pt")}
+<p class="small" style="margin:.5mm 0">Common verbs: <b>say, think, believe, expect, know, report, estimate, consider, find</b>.</p>
+{_h("2. TIME")}
+{_tbl(["meaning", "form", "example"], [
+    ["the same time / the future", "<b>to + verb</b>", "<i>Prices <b>are expected to rise</b> next year.</i>"],
+    ["an action in progress now", "<b>to be + -ing</b>", "<i>More people <b>are thought to be working</b> from home.</i>"],
+    ["an earlier action", "<b>to have + participle</b>", "<i>The metro <b>is said to have cost</b> billions.</i>"]], "8.3pt")}
+<div class="box" style="margin-top:1.5mm"><h4>NEGATIVE</h4><i>Prices are expected <b>not to</b> rise.</i> or <i>Prices <b>aren't</b> expected to rise.</i> Both are correct; the second is more common in speech.</div>
+{_dont([("Commuting is said that it is stressful.", "<b>It is said that</b> commuting is stressful. / Commuting <b>is said to be</b> stressful."), ("It is believed to working from home helps.", "<b>It is believed that</b> working from home helps."), ("Prices are expected rise.", "Prices are expected <b>to</b> rise."), ("Is said that…", "<b>It</b> is said that…"), ("They are thought use the time.", "They are thought <b>to use</b> the time.")])}""",
+    22, """<p>Brazilians often drop <i>it</i> (<i>Is said that…</i>) because Portuguese doesn't need a subject there, and mix the two structures. Drill: read a headline in the active (<i>Experts expect more rain.</i>); the student says it in both passive forms.</p>""")
