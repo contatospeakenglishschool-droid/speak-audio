@@ -1,0 +1,26 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Chiara": "it-IT-Chirp3-HD-Achernar"
+ },
+ "pauses": {
+  "24.2": 3000
+ },
+ "images": {
+  "it-b1-unita-24": {
+   "A": "student studying books library",
+   "B": "university building old portico",
+   "C": "sicily coast summer sea",
+   "D": "calendar notebook planning desk"
+  }
+ },
+ "units": {
+  "it-b1-unita-24": {
+   "24.1 Dopo aver studiato": "Narrator: Giovedì 17 giugno, mezzogiorno. In via Zamboni, davanti al dipartimento di Storia, Júlia e Chiara aspettano Bruno, che ha appena fatto l'ultimo esame della sessione.\nJúlia: Eccolo! Bruno! Allora?\nBruno: Ventiquattro.\nChiara: Ventiquattro? Dopo aver studiato tre settimane, giorno e notte?\nBruno: Appunto. Dopo avermi fatto due domande facili, il professore mi ha chiesto l'unico capitolo che non avevo ripassato.\nJúlia: Che sfortuna! E l'hai accettato?\nBruno: Non ancora. Il professore ha detto: «Prima di decidere, ci pensi bene. Può rifiutarlo e tornare al prossimo appello.»\nChiara: E quando è il prossimo appello?\nBruno: Il 12 luglio.\nChiara: Il 12 luglio? Ma è il giorno in cui partiamo per la Sicilia!\nBruno: Lo so. Ecco il problema.\nJúlia: Scusate, ma in Brasile nessuno rifiuta un voto. Perché qui sì?\nChiara: Qui è normale. Se il voto è basso, lo rifiuti e studi ancora. Io l'ho fatto due volte.\nBruno: Però, dopo essere arrivato fin qui, non voglio passare luglio sui libri.\nJúlia: E il ventiquattro ti basta?\nBruno: Per la media non è il massimo... Ma credo di aver capito una cosa: non posso finire l'anno senza aver visto la Sicilia.\nChiara: Quindi?\nBruno: Lo accetto. Torno su e lo dico al professore, prima di cambiare idea.\nNarrator: Dieci minuti dopo.\nBruno: Fatto! Dopo averlo accettato, mi sento leggerissimo.\nJúlia: Bravo. E adesso, dopo esserti liberato degli esami, offri tu il pranzo?\nBruno: Io? Sono uno studente! Oggi paga la sorella architetta.",
+   "24.2 Ripeti": "Narrator: Dopo aver studiato tre settimane.\nNarrator: Dopo essere arrivato fin qui.\nNarrator: Prima di decidere, ci pensi bene.\nNarrator: Credo di aver capito una cosa.\nNarrator: Senza aver visto la Sicilia.\nNarrator: Dopo esserti liberato degli esami."
+  }
+ }
+}
