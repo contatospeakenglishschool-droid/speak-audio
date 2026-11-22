@@ -1416,3 +1416,26 @@ def infinito_passato(b):
 <p class="small" style="margin:.5mm 0">Se i soggetti sono diversi usa <b>dopo che</b> + indicativo: <i><b>Dopo che</b> il professore <b>ha parlato</b>, Bruno ha deciso.</i></p></div></div>
 {_dont([("Dopo studiare, sono uscito.", "<b>Dopo aver studiato</b>, sono uscito."), ("Dopo aver arrivato, ho chiamato.", "Dopo <b>essere arrivato</b>, ho chiamato."), ("Prima di che decidi, pensaci.", "<b>Prima di decidere</b>, pensaci.")])}""",
     24, """<p>Il portoghese dice <i>depois de estudar</i> (infinito semplice): lo studente dice <i>dopo studiare</i>, l'errore più frequente di questa unità. Altri errori: l'ausiliare sbagliato (<i>dopo aver arrivato</i>), l'accordo con <i>essere</i>, e <i>prima di che</i> (calco di <i>antes que</i>).</p>""")
+
+
+def futuro_anteriore(b):
+    """B1 Progresso 25: futuro anteriore (avrò / sarò + participio); quando, appena, dopo che, entro; supposizione nel passato."""
+    fo = [("io", "avrò finito", "sarò tornato/a"), ("tu", "avrai finito", "sarai tornato/a"), ("lui / lei", "avrà finito", "sarà tornato/a"),
+          ("noi", "avremo finito", "saremo tornati/e"), ("voi", "avrete finito", "sarete tornati/e"), ("loro", "avranno finito", "saranno tornati/e")]
+    us = [("<b>prima</b> di un'altra azione futura", "quando / appena / dopo che + <b>fut. anteriore</b> → futuro", "<i><b>Quando avrà imparato</b> i conti, <b>potrò</b> andare in ferie.</i>"),
+          ("<b>entro</b> una data", "entro / per + tempo", "<i><b>Entro</b> fine luglio <b>avrò finito</b> tutti gli esami.</i>"),
+          ("<b>supposizione</b> sul passato", "= probabilmente + passato prossimo", "<i>L'esame <b>sarà durato</b> di più. (= Probabilmente è durato…)</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: il futuro anteriore (avrà già finito?)", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Il <b>futuro anteriore</b> (<i>avrò finito, sarà tornata</i>) è il «passato del futuro»: un'azione che sarà <b>già finita</b> in un momento futuro. Gli italiani lo usano molto anche per fare <b>ipotesi sul passato</b>: <i>Non risponde… si <b>sarà scaricato</b> il telefono.</i></div>
+<div class="two"><div>{_h("1. LE FORME")}
+{_tbl(["", "con avere", "con essere"], fo, "7.9pt", ["16mm", None, None])}
+<p class="small" style="margin:.5mm 0">= futuro di <i>avere / essere</i> + participio. Con <i>essere</i> il participio concorda.</p></div>
+<div>{_h("2. IPOTESI: OGGI O PRIMA?")}
+<p class="small" style="margin:.5mm 0"><b>presente</b> → futuro semplice: <i>Sarà stanco. Saranno le sette.</i><br><b>passato</b> → futuro anteriore: <i>Sarà stato stanco. Avrà perso l'autobus.</i></p>
+<p class="small" style="margin:.5mm 0">Nelle domande: <i>Dove <b>sarà andato</b>?</i> = <i>Dove será que ele foi?</i></p></div></div>
+{_h("3. TRE USI")}
+{_tbl(["uso", "struttura", "esempio"], us, "7.9pt", ["40mm", "50mm", None])}
+{_h("4. NEL PARLATO")}
+<p class="small" style="margin:.5mm 0">Con <i>quando</i> e <i>appena</i> molti italiani usano anche il presente: <i>Quando <b>finisco</b> gli esami, <b>compro</b> la moto.</i> È corretto e informale. Ma non mescolare: <s>quando ho finito…, comprerò</s>.</p>
+{_dont([("Quando ho finito gli esami, comprerò la moto.", "Quando <b>avrò finito</b> gli esami, comprerò la moto."), ("Quando avessi finito, ti chiamo.", "Quando <b>avrò finito</b>, ti chiamo."), ("Giulia sarà arrivato tardi.", "Giulia sarà <b>arrivata</b> tardi.")])}""",
+    24, """<p>Il futuro anteriore corrisponde al portoghese <i>quando eu tiver terminado</i> (futuro do subjuntivo composto): lo studente prova <i>quando avessi finito</i> o <i>quando ho finito</i>. Per le ipotesi il brasiliano usa <i>deve ter + particípio</i> o <i>será que…?</i>: in italiano basta <i>avrà perso, sarà andato</i>.</p>""")
