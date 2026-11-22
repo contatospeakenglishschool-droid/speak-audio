@@ -1460,3 +1460,22 @@ def passato_remoto(b):
 <p class="small" style="margin:.5mm 0">Nella stessa storia si usano spesso <b>passato remoto</b> (azioni) e <b>imperfetto</b> (descrizioni): <i>Federico <b>era</b> un bambino quando <b>arrivò</b> a Palermo.</i></p></div></div>
 {_dont([("Ieri Ruggero è stato incoronato… (storia antica)", "Nel 1130 Ruggero <b>fu</b> incoronato."), ("Lui parlo con la guida.", "Lui <b>parlò</b> con la guida (accento!)."), ("Federico nascé a Jesi.", "Federico <b>nacque</b> a Jesi.")])}""",
     24, """<p>Il pretérito perfeito portoghese copre sia il passato prossimo sia il remoto: lo studente non sente la differenza. Al B1 basta riconoscere il remoto e usare la 3ª persona nelle biografie. Attenzione all'accento: <i>parlo</i> (presente) ≠ <i>parlò</i> (remoto). Gli irregolari si imparano con lo schema 1-3-3.</p>""")
+
+
+def indefiniti_congiuntivo(b):
+    """B1 Progresso 27: qualsiasi / qualunque, chiunque, dovunque / ovunque, comunque + congiuntivo; usi senza congiuntivo."""
+    tb = [("<b>qualsiasi / qualunque</b> + nome", "una cosa, non importa quale", "<i><b>Qualsiasi</b> lavoro tu <b>trovi</b>, sarai brava.</i>"),
+          ("<b>qualsiasi cosa / qualunque cosa</b>", "tutto, non importa che cosa", "<i><b>Qualunque cosa</b> <b>succeda</b>, festeggiamo.</i>"),
+          ("<b>chiunque</b>", "una persona, non importa chi", "<i><b>Chiunque abbia lavorato</b> con te lo sa.</i>"),
+          ("<b>dovunque / ovunque</b>", "un luogo, non importa dove", "<i><b>Dovunque</b> mi <b>offrano</b> un lavoro, ci vado.</i>"),
+          ("<b>comunque</b>", "un modo, non importa come", "<i><b>Comunque vada</b>, hai imparato tantissimo.</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: qualsiasi, chiunque, dovunque + congiuntivo", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Questi indefiniti dicono che <b>non importa</b> quale cosa, quale persona, quale luogo o quale modo: il risultato è lo stesso. Quando introducono una frase con un verbo, il verbo va al <b>congiuntivo</b>, perché parliamo di qualcosa di incerto o possibile: <i>Qualsiasi cosa mi <b>dica</b>…</i></div>
+{_h("1. LA TABELLA")}
+{_tbl(["indefinito", "significato", "esempio"], tb, "7.9pt", ["50mm", "44mm", None])}
+<div class="two"><div>{_h("2. INVARIABILI E SINGOLARI")}
+<p class="small" style="margin:.5mm 0"><i>Qualsiasi</i> e <i>qualunque</i> non cambiano e vogliono il nome al <b>singolare</b>: <i>qualsiasi <b>lavoro</b>, qualunque <b>città</b></i>. Mai <s>qualsiasi cose</s>. Il tempo del congiuntivo segue le regole che conosci: <i>chiunque <b>abbia</b> lavorato</i> (passato).</p></div>
+<div>{_h("3. SENZA CONGIUNTIVO")}
+<p class="small" style="margin:.5mm 0"><b>Chiunque</b> da solo = tutti: <i>Chiunque può farlo.</i><br><b>Comunque</b> da solo = <i>in ogni caso</i>: <i>Comunque, domani festeggiamo.</i><br><b>Un … qualsiasi</b> (dopo il nome) = normale, senza importanza: <i>Non è un lavoro qualsiasi.</i></p></div></div>
+{_dont([("Qualunque cosa succede, festeggiamo.", "Qualunque cosa <b>succeda</b>, festeggiamo."), ("Chiunque vengono, sono benvenuti.", "Chiunque <b>venga</b>, è benvenuto."), ("Qualsiasi cose ti servono…", "Qualsiasi <b>cosa</b> ti <b>serva</b>…")])}""",
+    24, """<p>Il portoghese ha le stesse strutture con il subjuntivo (<i>qualquer coisa que aconteça, quem quer que seja, onde quer que vá</i>): l'idea è facile. Errori tipici: il plurale (<i>quaisquer</i> → lo studente dice <i>qualsiasi cose</i>), l'indicativo dopo <i>qualunque cosa</i>, il verbo plurale dopo <i>chiunque</i> e <i>comunque</i> usato come <i>como</i>.</p>""")
