@@ -1,0 +1,21 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-38": {
+   "38.1 Life as an expat": "Danny: Hi everyone, and welcome back to Gap Year Diaries! Today's episode is a bit personal. I've been living in São Paulo for several months now, and a lot of you ask me what it's really like to be an expat here. So here's my honest answer.\nDanny: The good part first. People here are incredibly friendly, the food is amazing, and some things, like haircuts and eating out, cost a lot less than back home. I'm discovering a new culture, and my Portuguese is getting better every week.\nDanny: The hard part? Paperwork. Before I came, I had no idea how many documents I'd need. You need a tax number for lots of things, like opening a bank account, and every office asks for a photocopy of your passport. I carry three copies in my backpack now!\nDanny: And some days I feel homesick. I wish my family lived closer. I wish I could have dinner with my mom on Sundays. And honestly, I wish I spoke better Portuguese. When people talk fast, I still get lost. Oh, and I wish people wouldn't switch to English when they hear my accent. I want to practice!\nDanny: So, if you're thinking about moving to another country, here are my three tips. Learn a few key phrases before you go. Get health insurance. And give yourself time to get used to the customs. It doesn't happen in a week. See you next time!",
+   "38.2 Repeat: I wish": "Narrator: I wish I spoke better Portuguese.\nNarrator: I wish my family lived closer.\nNarrator: I wish I could see my mom.\nNarrator: I wish it wasn't so far.\nNarrator: If only I had more time.\nNarrator: I wish people wouldn't switch to English."
+  }
+ },
+ "images": {
+  "b1-unit-38": {
+   "A": "woman suitcase airport departure",
+   "B": "passport documents desk",
+   "C": "video call laptop family",
+   "D": "packing moving boxes"
+  }
+ }
+}

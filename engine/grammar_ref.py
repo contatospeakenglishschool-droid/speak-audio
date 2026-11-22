@@ -1818,3 +1818,22 @@ def needs_doing(b):
 <div class="box" style="margin-top:1.5mm"><h4>REMEMBER</h4><b>need</b> is a normal verb here: <i>it need<b>s</b>, does it need…?, it doesn't need…</i> Compare with Unit 31: <i>I'm <b>having</b> the brakes <b>checked</b>.</i> (someone does it for me).</div>
 {_dont([("The battery needs to change.", "The battery needs <b>changing</b>. / needs <b>to be changed</b>."), ("It needs be replaced.", "It needs <b>to be</b> replaced."), ("You don't need pay extra.", "You don't need <b>to</b> pay extra."), ("The car need servicing.", "The car <b>needs</b> servicing."), ("You need not to pay.", "You <b>don't need to</b> pay.")])}""",
     22, """<p>Brazilians often say <i>The battery needs to change</i>, which means the battery must change itself. Ask: <i>Who changes it?</i> Drill: point at things in the room or on the screen (<i>the window, my phone, the plant</i>); the student says what each one needs (<i>The window needs cleaning. The plant needs to be watered.</i>).</p>""")
+
+
+def wish_present(b):
+    """B1 Unit 38: wishes about the present: wish + past simple, wish + could, wish + would(n't), If only."""
+    b.page(f"""{b.sec("+", "Grammar reference: I wish, If only", "")}
+<div class="box" style="margin-top:0"><h4>WISHING THINGS WERE DIFFERENT</h4>We use <b>wish</b> to say that we want a present situation to be different. The verb goes <b>one step back</b> into the past, but the meaning is <b>now</b>. <i>My family lives far away. → I <b>wish</b> my family <b>lived</b> closer. · I can't see my mom. → I <b>wish</b> I <b>could</b> see her.</i></div>
+{_h("1. THREE PATTERNS")}
+{_tbl(["pattern", "use", "example"], [
+    ["<b>wish + past simple</b>", "a situation now", "<i>I wish I <b>spoke</b> better Portuguese. · I wish I <b>didn't have</b> so much paperwork.</i>"],
+    ["<b>wish + could</b> + verb", "an ability or a possibility now", "<i>I wish I <b>could</b> have dinner with my mom on Sundays.</i>"],
+    ["<b>wish + someone / something + would(n't)</b> + verb", "a complaint: we want another person (or the weather) to change", "<i>I wish people <b>wouldn't</b> switch to English. · I wish it <b>would</b> stop raining.</i>"]], "8.1pt")}
+{_h("2. MORE DETAILS")}
+{_tbl(["point", "example"], [
+    ["<b>be</b>: <i>were</i> for all persons (more formal), <i>was</i> in speech", "<i>I wish I <b>were</b> / <b>was</b> at home right now.</i>"],
+    ["<b>If only</b> = a stronger wish", "<i><b>If only</b> I had more time!</i>"],
+    ["not <b>wish + would</b> about yourself", "<i>I wish I <b>could</b> stop worrying.</i> (not <i>I wish I would</i>)"],
+    ["for a future you think is possible, use <b>hope</b>", "<i>I <b>hope</b> my mom visits next year.</i>"]], "8.1pt")}
+{_dont([("I wish I speak better Portuguese.", "I wish I <b>spoke</b> better Portuguese."), ("I wish I can see my mom.", "I wish I <b>could</b> see my mom."), ("I wish I would have more time.", "I wish I <b>had</b> more time."), ("I wish you have a great trip!", "I <b>hope</b> you have a great trip!"), ("I wish my family live closer.", "I wish my family <b>lived</b> closer.")])}""",
+    22, """<p>Brazilians often use the present after <i>wish</i> (<i>I wish I speak…</i>) and use <i>wish</i> for good wishes about the future (<i>I wish you have a great trip</i>), where English uses <i>hope</i>. Drill: say a fact (<i>I don't have a car.</i>); the student turns it into a wish (<i>I wish I had a car.</i>).</p>""")
