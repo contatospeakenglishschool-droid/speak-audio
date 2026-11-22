@@ -1439,3 +1439,24 @@ def futuro_anteriore(b):
 <p class="small" style="margin:.5mm 0">Con <i>quando</i> e <i>appena</i> molti italiani usano anche il presente: <i>Quando <b>finisco</b> gli esami, <b>compro</b> la moto.</i> È corretto e informale. Ma non mescolare: <s>quando ho finito…, comprerò</s>.</p>
 {_dont([("Quando ho finito gli esami, comprerò la moto.", "Quando <b>avrò finito</b> gli esami, comprerò la moto."), ("Quando avessi finito, ti chiamo.", "Quando <b>avrò finito</b>, ti chiamo."), ("Giulia sarà arrivato tardi.", "Giulia sarà <b>arrivata</b> tardi.")])}""",
     24, """<p>Il futuro anteriore corrisponde al portoghese <i>quando eu tiver terminado</i> (futuro do subjuntivo composto): lo studente prova <i>quando avessi finito</i> o <i>quando ho finito</i>. Per le ipotesi il brasiliano usa <i>deve ter + particípio</i> o <i>será que…?</i>: in italiano basta <i>avrà perso, sarà andato</i>.</p>""")
+
+
+def passato_remoto(b):
+    """B1 Progresso 26: passato remoto (regolari, irregolari frequenti, schema 1-3-3), usi; contrasto con il passato prossimo."""
+    re_ = [("io", "creai", "credetti / credei", "partii"), ("tu", "creasti", "credesti", "partisti"), ("lui / lei", "<b>creò</b>", "<b>credette / credé</b>", "<b>partì</b>"),
+           ("noi", "creammo", "credemmo", "partimmo"), ("voi", "creaste", "credeste", "partiste"), ("loro", "<b>crearono</b>", "<b>credettero</b>", "<b>partirono</b>")]
+    ir = [("essere", "fui, fosti, <b>fu</b>, fummo, foste, <b>furono</b>"), ("avere", "ebbi, avesti, <b>ebbe</b>, avemmo, aveste, <b>ebbero</b>"),
+          ("fare", "feci, facesti, <b>fece</b>… <b>fecero</b>"), ("dire", "dissi, dicesti, <b>disse</b>… <b>dissero</b>"),
+          ("nascere · vivere · volere", "<b>nacque</b> · <b>visse</b> · <b>volle</b>"), ("venire · crescere · prendere", "<b>venne</b> · <b>crebbe</b> · <b>prese</b>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: il passato remoto", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Il <b>passato remoto</b> racconta fatti <b>lontani e chiusi</b>, senza legame con il presente: la storia, le biografie, i romanzi, le favole. Al B1 è importante soprattutto <b>riconoscerlo</b> quando leggi o ascolti; nel parlato del Nord e del Centro si usa poco, ma in Sicilia e in parte del Sud si usa ogni giorno.</div>
+{_h("1. I VERBI REGOLARI")}
+{_tbl(["", "-are (creare)", "-ere (credere)", "-ire (partire)"], re_, "7.9pt", ["18mm", None, None, None])}
+<div class="two"><div>{_h("2. GLI IRREGOLARI PIÙ FREQUENTI")}
+{_tbl(["verbo", "forme"], ir, "7.6pt", ["28mm", None])}
+<p class="small" style="margin:.5mm 0"><b>Schema 1-3-3</b>: di solito sono irregolari solo <i>io</i>, <i>lui/lei</i> e <i>loro</i> (<i>feci, fece, fecero</i>); le altre persone sono regolari.</p></div>
+<div>{_h("3. REMOTO O PROSSIMO?")}
+<p class="small" style="margin:.5mm 0"><b>passato prossimo</b>: un fatto legato al presente o recente: <i>Stamattina <b>ho mangiato</b> un'arancina.</i><br><b>passato remoto</b>: un fatto storico o lontano: <i>Ruggero II <b>fu</b> incoronato nel 1130.</i></p>
+<p class="small" style="margin:.5mm 0">Nella stessa storia si usano spesso <b>passato remoto</b> (azioni) e <b>imperfetto</b> (descrizioni): <i>Federico <b>era</b> un bambino quando <b>arrivò</b> a Palermo.</i></p></div></div>
+{_dont([("Ieri Ruggero è stato incoronato… (storia antica)", "Nel 1130 Ruggero <b>fu</b> incoronato."), ("Lui parlo con la guida.", "Lui <b>parlò</b> con la guida (accento!)."), ("Federico nascé a Jesi.", "Federico <b>nacque</b> a Jesi.")])}""",
+    24, """<p>Il pretérito perfeito portoghese copre sia il passato prossimo sia il remoto: lo studente non sente la differenza. Al B1 basta riconoscere il remoto e usare la 3ª persona nelle biografie. Attenzione all'accento: <i>parlo</i> (presente) ≠ <i>parlò</i> (remoto). Gli irregolari si imparano con lo schema 1-3-3.</p>""")

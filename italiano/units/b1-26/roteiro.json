@@ -1,0 +1,26 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Chiara": "it-IT-Chirp3-HD-Achernar",
+  "Guida": "it-IT-Chirp3-HD-Vindemiatrix"
+ },
+ "pauses": {
+  "26.2": 3000
+ },
+ "images": {
+  "it-b1-unita-26": {
+   "A": "palermo cathedral sicily",
+   "B": "gold byzantine mosaic chapel",
+   "C": "arancini sicilian street food",
+   "D": "monreale cathedral cloister"
+  }
+ },
+ "units": {
+  "it-b1-unita-26": {
+   "26.1 Viaggio in Sicilia": "Narrator: Mercoledì 14 luglio, Palermo. Bruno e Chiara fanno una visita guidata al Palazzo dei Normanni.\nGuida: Benvenuti! Questo palazzo fu costruito dagli arabi e poi trasformato dai normanni. Nel 1130 Ruggero secondo fu incoronato re di Sicilia e qui creò una corte ricchissima.\nChiara: Bruno, «fu», «creò»... Perché parla così?\nBruno: È il passato remoto. Si usa per la storia, per i fatti lontani.\nGuida: Ruggero volle una cappella tutta per sé: la Cappella Palatina. Chiamò artisti greci, arabi e latini, che lavorarono insieme per anni.\nChiara: Che meraviglia, questi mosaici d'oro!\nGuida: Nel 2015 la Palermo arabo-normanna diventò patrimonio dell'UNESCO.\nBruno: Scusi, una domanda: è vero che Federico secondo crebbe qui a Palermo?\nGuida: Verissimo. Nacque a Jesi, nelle Marche, ma visse a Palermo da bambino. Lei studia storia?\nBruno: Sì, a Bologna.\nGuida: Allora la prossima visita la fa Lei!\nNarrator: Più tardi, in un bar vicino al mercato di Ballarò.\nChiara: Hai sentito il barista? Mi ha detto: «Ieri arrivarono tantissimi turisti». Ieri! Con il passato remoto!\nBruno: In Sicilia il passato remoto si usa anche quando si parla, anche per ieri. A Bologna invece diciamo «sono arrivati».\nChiara: Allora provo anch'io: stamattina mangiai un arancino enorme...\nBruno: Arancina! Qui a Palermo si dice arancina.\nChiara: Va bene, professore. E domani dove andiamo?\nBruno: A Monreale, a vedere il duomo. Guglielmo secondo lo fece costruire nel 1174, e...\nChiara: Basta storia! Domani mattina Monreale, e il pomeriggio mare. E al mare, per favore, parliamo al presente.",
+   "26.2 Ripeti": "Narrator: Il palazzo fu costruito dagli arabi.\nNarrator: Ruggero fu incoronato re di Sicilia.\nNarrator: Chiamò artisti greci, arabi e latini.\nNarrator: Federico nacque a Jesi, ma visse a Palermo.\nNarrator: Ieri arrivarono tantissimi turisti.\nNarrator: Guglielmo lo fece costruire nel 1174."
+  }
+ }
+}
