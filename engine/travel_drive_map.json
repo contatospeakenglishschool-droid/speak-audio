@@ -1,0 +1,374 @@
+{
+ "1WRqZcP9C33gzq0C8tp7ZtrXzlyE9Ku8C": {
+  "unit": 1,
+  "name": "1.1-natural.mp3",
+  "path": "travel-unit-01/1.1-natural.mp3",
+  "size": 270278
+ },
+ "12_doe7FSTymgwGzNq7E57u4kvHgq3gqj": {
+  "unit": 1,
+  "name": "1.1-slow.mp3",
+  "path": "travel-unit-01/1.1-slow.mp3",
+  "size": 304259
+ },
+ "1UtMEwW7B1SrzZPkMxFvgUVQnFWe1rada": {
+  "unit": 1,
+  "name": "1.3-natural.mp3",
+  "path": "travel-unit-01/1.3-natural.mp3",
+  "size": 176200
+ },
+ "1lD7tfbwLYu9H6sbnAsEt1T7ttXM7-Wo6": {
+  "unit": 1,
+  "name": "1.3-slow.mp3",
+  "path": "travel-unit-01/1.3-slow.mp3",
+  "size": 201157
+ },
+ "1XMVgdVaofTX789ihZDqvaxMydXdcCyN-": {
+  "unit": 1,
+  "name": "1.2-natural.mp3",
+  "path": "travel-unit-01/1.2-natural.mp3",
+  "size": 558479
+ },
+ "1F7hVjm-VTV0sfqs_E8WWZyFXBlmsBvJF": {
+  "unit": 1,
+  "name": "1.2-slow.mp3",
+  "path": "travel-unit-01/1.2-slow.mp3",
+  "size": 637580
+ },
+ "1fUhlexKkAF22Lih4Qtyx2BAxDUtITgFz": {
+  "unit": 2,
+  "name": "2.1-natural.mp3",
+  "path": "travel-unit-02/2.1-natural.mp3",
+  "size": 283910
+ },
+ "1Q_zxM0r-7VpS0iP5MzsSYzsvJAOCiFYz": {
+  "unit": 2,
+  "name": "2.1-slow.mp3",
+  "path": "travel-unit-02/2.1-slow.mp3",
+  "size": 319619
+ },
+ "1l4MxH39WWWaqYvZE6b6mt1lsltq7q9Ii": {
+  "unit": 2,
+  "name": "2.3-natural.mp3",
+  "path": "travel-unit-02/2.3-natural.mp3",
+  "size": 174856
+ },
+ "1k5EZeDa3AN7XyMDoLeNAUTHBQO8ux9zD": {
+  "unit": 2,
+  "name": "2.3-slow.mp3",
+  "path": "travel-unit-02/2.3-slow.mp3",
+  "size": 200005
+ },
+ "1lu3SQBWpaPRb-YSsHmjZRfyk34E_gVmM": {
+  "unit": 2,
+  "name": "2.2-natural.mp3",
+  "path": "travel-unit-02/2.2-natural.mp3",
+  "size": 465548
+ },
+ "1TnIde9uxMhnmDDLtPsqdeFmXuufkUkjh": {
+  "unit": 2,
+  "name": "2.2-slow.mp3",
+  "path": "travel-unit-02/2.2-slow.mp3",
+  "size": 527753
+ },
+ "1TyCfaQbxsWaR0CyVT8PgLOi1LuIDZ7v7": {
+  "unit": 3,
+  "name": "3.1-natural.mp3",
+  "path": "travel-unit-03/3.1-natural.mp3",
+  "size": 296582
+ },
+ "1FAMfJqi9dGLT1g2izegi0cQ0KY8AE7Jl": {
+  "unit": 3,
+  "name": "3.1-slow.mp3",
+  "path": "travel-unit-03/3.1-slow.mp3",
+  "size": 334211
+ },
+ "18A8qkhdannj4tFvukUY2eqlml7daUAg5": {
+  "unit": 3,
+  "name": "3.3-natural.mp3",
+  "path": "travel-unit-03/3.3-natural.mp3",
+  "size": 142216
+ },
+ "1jwp70QiBAqa0ZI8Iqpg0DtjTkO65jBV_": {
+  "unit": 3,
+  "name": "3.3-slow.mp3",
+  "path": "travel-unit-03/3.3-slow.mp3",
+  "size": 161797
+ },
+ "169PM_WnY45N3NUV8sTTkqCR_KpZNzGQs": {
+  "unit": 3,
+  "name": "3.2-natural.mp3",
+  "path": "travel-unit-03/3.2-natural.mp3",
+  "size": 448648
+ },
+ "1gkWG-VIptD3xr34VA6J6I5I-PWn6J5qr": {
+  "unit": 3,
+  "name": "3.2-slow.mp3",
+  "path": "travel-unit-03/3.2-slow.mp3",
+  "size": 508165
+ },
+ "1PiwuDHevg8_2XS6RcqHOG4avEeehWrpV": {
+  "unit": 4,
+  "name": "4.1-natural.mp3",
+  "path": "travel-unit-04/4.1-natural.mp3",
+  "size": 285638
+ },
+ "1jr1TzfB939wPso5p6f60sXk-El9tRHm5": {
+  "unit": 4,
+  "name": "4.1-slow.mp3",
+  "path": "travel-unit-04/4.1-slow.mp3",
+  "size": 321731
+ },
+ "1Nhn2NOaKGus0dsQxnNfSzCdANXpTcNRe": {
+  "unit": 4,
+  "name": "4.3-natural.mp3",
+  "path": "travel-unit-04/4.3-natural.mp3",
+  "size": 147208
+ },
+ "1Un9Jbgt9Bles86bi8YvagnzVIxvBwQgV": {
+  "unit": 4,
+  "name": "4.3-slow.mp3",
+  "path": "travel-unit-04/4.3-slow.mp3",
+  "size": 167365
+ },
+ "19NIMY4phRFYoTvGoWvNbo4kYqp6dsEAb": {
+  "unit": 4,
+  "name": "4.2-natural.mp3",
+  "path": "travel-unit-04/4.2-natural.mp3",
+  "size": 415050
+ },
+ "1qEE9sdgzLBBdDExwAweICJdPKMVbK5VV": {
+  "unit": 4,
+  "name": "4.2-slow.mp3",
+  "path": "travel-unit-04/4.2-slow.mp3",
+  "size": 469575
+ },
+ "1Skt3Op1lz5QE0fbDE5TadXQY1cUvbCH9": {
+  "unit": 5,
+  "name": "5.1-natural.mp3",
+  "path": "travel-unit-05/5.1-natural.mp3",
+  "size": 284486
+ },
+ "114KkJmFfRzGVLem7gjg_5iCpBL31WUm1": {
+  "unit": 5,
+  "name": "5.1-slow.mp3",
+  "path": "travel-unit-05/5.1-slow.mp3",
+  "size": 320003
+ },
+ "1eUh0HO356iGoTSgToA_xL_gRVuG3Wi7p": {
+  "unit": 5,
+  "name": "5.3-natural.mp3",
+  "path": "travel-unit-05/5.3-natural.mp3",
+  "size": 166600
+ },
+ "1rAtPbYOnq9fuRR6rCtSmYx15GlnbULLp": {
+  "unit": 5,
+  "name": "5.3-slow.mp3",
+  "path": "travel-unit-05/5.3-slow.mp3",
+  "size": 190597
+ },
+ "1SGZCFejCsve5x4veXi3CMoEf8v6rFyXG": {
+  "unit": 5,
+  "name": "5.2-natural.mp3",
+  "path": "travel-unit-05/5.2-natural.mp3",
+  "size": 425425
+ },
+ "1UhTvA4nQge5SxzlD5k_vL-0lFtX_4kVb": {
+  "unit": 5,
+  "name": "5.2-slow.mp3",
+  "path": "travel-unit-05/5.2-slow.mp3",
+  "size": 483406
+ },
+ "1F5m_oH0OkIh4rav-fFp_pxOJ41_MxFB7": {
+  "unit": 6,
+  "name": "6.1-natural.mp3",
+  "path": "travel-unit-06/6.1-natural.mp3",
+  "size": 305414
+ },
+ "1BBNYbk9lTQjG1d7nhPXNyR6C48K35Fsd": {
+  "unit": 6,
+  "name": "6.1-slow.mp3",
+  "path": "travel-unit-06/6.1-slow.mp3",
+  "size": 344579
+ },
+ "1RnugbJpSybik4-QdhSRlciA7SGOhMV_J": {
+  "unit": 6,
+  "name": "6.3-natural.mp3",
+  "path": "travel-unit-06/6.3-natural.mp3",
+  "size": 176776
+ },
+ "1Ecc4JgGt0feMT7js9j2SYy6RpCvtjqMc": {
+  "unit": 6,
+  "name": "6.3-slow.mp3",
+  "path": "travel-unit-06/6.3-slow.mp3",
+  "size": 202309
+ },
+ "1O1UAQWscE58kIqLPFiGK2Aqap4cfrbrn": {
+  "unit": 6,
+  "name": "6.2-natural.mp3",
+  "path": "travel-unit-06/6.2-natural.mp3",
+  "size": 493383
+ },
+ "14ZHRCDBLssqiTAe_l9petiF8IHVrFRpf": {
+  "unit": 6,
+  "name": "6.2-slow.mp3",
+  "path": "travel-unit-06/6.2-slow.mp3",
+  "size": 563076
+ },
+ "1mbHQ4yVzO29pX1BGsf1hKp-cw_Yf9awS": {
+  "unit": 7,
+  "name": "7.1-natural.mp3",
+  "path": "travel-unit-07/7.1-natural.mp3",
+  "size": 276038
+ },
+ "1_qepO6rvXYoRptV8QJwbL2n2LVUQvC2S": {
+  "unit": 7,
+  "name": "7.1-slow.mp3",
+  "path": "travel-unit-07/7.1-slow.mp3",
+  "size": 311171
+ },
+ "1IYGcDvK9MJ0gTMlgI-Lr9Ot1JF3YKg-D": {
+  "unit": 7,
+  "name": "7.3-natural.mp3",
+  "path": "travel-unit-07/7.3-natural.mp3",
+  "size": 144136
+ },
+ "1Mh1sM-lFOK2rlcPJgLpKFrHguqmeW1q_": {
+  "unit": 7,
+  "name": "7.3-slow.mp3",
+  "path": "travel-unit-07/7.3-slow.mp3",
+  "size": 163333
+ },
+ "18DT6s1DXXqLf-_UZlqPRvlSlZ6UaFjQh": {
+  "unit": 7,
+  "name": "7.2-natural.mp3",
+  "path": "travel-unit-07/7.2-natural.mp3",
+  "size": 448077
+ },
+ "1HWyuEA9OopTiRJ-s8r5tvWbcNpSoDqTX": {
+  "unit": 7,
+  "name": "7.2-slow.mp3",
+  "path": "travel-unit-07/7.2-slow.mp3",
+  "size": 507786
+ },
+ "1gKI7vk85XFnU3jzOfSgdbPCkTyByvXJf": {
+  "unit": 8,
+  "name": "8.1-natural.mp3",
+  "path": "travel-unit-08/8.1-natural.mp3",
+  "size": 243974
+ },
+ "1p4wYR7ciMZ4nw_8sKn1wubRK0rF1ZkD1": {
+  "unit": 8,
+  "name": "8.1-slow.mp3",
+  "path": "travel-unit-08/8.1-slow.mp3",
+  "size": 272579
+ },
+ "1QHZzhtr5fLtcfIPahbvTr8Vxe_ZuUwMI": {
+  "unit": 8,
+  "name": "8.3-natural.mp3",
+  "path": "travel-unit-08/8.3-natural.mp3",
+  "size": 157384
+ },
+ "1btCpgl3xIXK3Td7PprUo1A0yDX91gu4V": {
+  "unit": 8,
+  "name": "8.3-slow.mp3",
+  "path": "travel-unit-08/8.3-slow.mp3",
+  "size": 179653
+ },
+ "1bdyOISmVzrTXTgGK_VE56SpoI8DKvoZm": {
+  "unit": 8,
+  "name": "8.2-natural.mp3",
+  "path": "travel-unit-08/8.2-natural.mp3",
+  "size": 456331
+ },
+ "1Zn6fO4ofICfJ9i5mHNyIuaW-sxg5r15c": {
+  "unit": 8,
+  "name": "8.2-slow.mp3",
+  "path": "travel-unit-08/8.2-slow.mp3",
+  "size": 518728
+ },
+ "1D0IGWhC3n9GV8Zy-267w6PHqv6AbdzYo": {
+  "unit": 9,
+  "name": "9.1-natural.mp3",
+  "path": "travel-unit-09/9.1-natural.mp3",
+  "size": 273350
+ },
+ "1ZIImtBIkniwHc3q1VpMfdDV83SLtJwKB": {
+  "unit": 9,
+  "name": "9.1-slow.mp3",
+  "path": "travel-unit-09/9.1-slow.mp3",
+  "size": 307331
+ },
+ "1_xoCQ8cXAiOrBWTwi8qBKH54-rHjGLU8": {
+  "unit": 9,
+  "name": "9.3-natural.mp3",
+  "path": "travel-unit-09/9.3-natural.mp3",
+  "size": 136456
+ },
+ "1MLRmUZCZ0FQrvCgcj0ykwqkKF9_lQzPB": {
+  "unit": 9,
+  "name": "9.3-slow.mp3",
+  "path": "travel-unit-09/9.3-slow.mp3",
+  "size": 154693
+ },
+ "1yrydPDUI8rKSY2M4sltNxVG2Fu5HjbcW": {
+  "unit": 9,
+  "name": "9.2-natural.mp3",
+  "path": "travel-unit-09/9.2-natural.mp3",
+  "size": 432337
+ },
+ "1g-Fsy4mf5U1S4Cva0ryb6_kSVWGJhXbk": {
+  "unit": 9,
+  "name": "9.2-slow.mp3",
+  "path": "travel-unit-09/9.2-slow.mp3",
+  "size": 491278
+ },
+ "1kMTlQq0Sxiakbmv1pbBtpcPWYDzwCNFh": {
+  "unit": 10,
+  "name": "10.1-natural.mp3",
+  "path": "travel-unit-10/10.1-natural.mp3",
+  "size": 300807
+ },
+ "1OoxbN437mdJ9Gw52qzHE91Bpt99cu4OJ": {
+  "unit": 10,
+  "name": "10.1-slow.mp3",
+  "path": "travel-unit-10/10.1-slow.mp3",
+  "size": 339588
+ },
+ "1M3KNLxBReBPUpKLhIEqVs3Tb_-WFnCHf": {
+  "unit": 10,
+  "name": "10.3-natural.mp3",
+  "path": "travel-unit-10/10.3-natural.mp3",
+  "size": 160073
+ },
+ "1-3vDKhRRloqGpw6X0GH97MUniqF8NLgx": {
+  "unit": 10,
+  "name": "10.3-slow.mp3",
+  "path": "travel-unit-10/10.3-slow.mp3",
+  "size": 182534
+ },
+ "12Lz--A_GaKvPZKoVC3Tdkm6RE32ijliH": {
+  "unit": 10,
+  "name": "10.2-natural.mp3",
+  "path": "travel-unit-10/10.2-natural.mp3",
+  "size": 468236
+ },
+ "18kGab_yQYLYR-fkAQiEw2Qrijktk9Eq0": {
+  "unit": 10,
+  "name": "10.2-slow.mp3",
+  "path": "travel-unit-10/10.2-slow.mp3",
+  "size": 534089
+ },
+ "1tVcA4LURNVYSwwfh-2azdXB4gBZwu-CR": {
+  "unit": 11,
+  "name": "11.1-natural.mp3",
+  "path": "travel-unit-11/11.1-natural.mp3",
+  "size": 260490
+ },
+ "1_pBdu-is0Tz_YxVBzlKqBpoWjtue4UZu": {
+  "unit": 11,
+  "name": "11.1-slow.mp3",
+  "path": "travel-unit-11/11.1-slow.mp3",
+  "size": 297351
+ }
+}
