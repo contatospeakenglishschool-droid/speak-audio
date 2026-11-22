@@ -1,0 +1,26 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck"
+ },
+ "pauses": {
+  "25.2": 3000
+ },
+ "images": {
+  "it-b1-unita-25": {
+   "A": "woman waiting looking at watch",
+   "B": "aperitivo spritz glass bar table",
+   "C": "sardinia beach turquoise sea",
+   "D": "motorcycle parked street"
+  }
+ },
+ "units": {
+  "it-b1-unita-25": {
+   "25.1 Avrà già finito": "Narrator: Sabato 19 giugno, ore diciannove. Al bar Giulia, Júlia e Giulia aspettano Davide, che oggi ha l'ultimo esame di giugno.\nJúlia: Sono le sette. Davide aveva detto alle sei e mezza.\nGiulia: L'esame sarà durato più del previsto. Con quel professore...\nJúlia: L'ho chiamato due volte, ma il telefono è spento.\nGiulia: Si sarà scaricato. E stanotte non avrà dormito, come sempre prima di un esame.\nJúlia: O avrà dimenticato l'appuntamento!\nGiulia: Impossibile. Gli ho promesso lo spritz gratis.\nJúlia: Allora sarà già per strada. Intanto, come va il cugino di Pietro?\nGiulia: Benissimo! Dopo una settimana fa già i cappuccini meglio di me. Quando avrà imparato anche i conti, potrò andare in ferie.\nJúlia: E dove andrai?\nGiulia: In Sardegna, un mese intero, come sogno da anni. Ma partirò solo quando Elena sarà tornata.\nJúlia: Cioè a settembre!\nGiulia: Eh, sì. Il mare di settembre è il più bello.\nNarrator: Alle sette e mezza, finalmente, arriva Davide.\nDavide: Scusate, scusate! Non ci crederete.\nJúlia: Fammi indovinare: avrai perso l'autobus.\nDavide: Peggio. Dopo l'esame ero così stanco che mi sono addormentato sull'autobus e mi sono svegliato al capolinea, dall'altra parte della città!\nGiulia: E il telefono?\nDavide: Scarico, naturalmente. Ma l'esame è andato bene: ventotto!\nGiulia: Bravo! Allora lo spritz te lo sei meritato.\nDavide: E c'è di più. Entro fine luglio avrò finito tutti gli esami dell'anno. E quando avrò dato l'ultimo, comprerò la moto.\nGiulia: La moto? E con quali soldi?\nDavide: Ho dato ripetizioni tutto l'anno. Per allora avrò messo da parte abbastanza... spero.\nJúlia: Allora brindiamo: a Davide, che stasera resterà sveglio almeno fino alle nove!",
+   "25.2 Ripeti": "Narrator: L'esame sarà durato più del previsto.\nNarrator: Il telefono si sarà scaricato.\nNarrator: Avrai perso l'autobus.\nNarrator: Quando avrà imparato anche i conti, potrò andare in ferie.\nNarrator: Partirò appena Elena sarà tornata.\nNarrator: Entro fine luglio avrò finito tutti gli esami."
+  }
+ }
+}

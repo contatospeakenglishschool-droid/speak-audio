@@ -70,7 +70,7 @@ C = dict(
         [("Marco ha gli occhi rossi e sbadiglia.", "Avrà dormito poco. / Sarà stato sveglio tutta la notte."), ("Camila è tornata dalla montagna con le scarpe nuove.", "Le avrà comprate in montagna. / Avrà imparato la lezione."),
          ("La signora Rossi non è uscita oggi.", "Sarà stata stanca. / Avrà avuto ospiti.")]),
     watch=[("Quando ho finito, ti chiamerò.", "Quando avrò finito, ti chiamerò.", "due azioni future: futuro anteriore + futuro."),
-           ("Deve aver perso l'autobus, sarà?", "Avrà perso l'autobus.", "basta il futuro anteriore."),
+           ("Sarà che ha perso l'autobus?", "Avrà perso l'autobus?", "<i>sarà che…?</i> non si usa così."),
            ("Giulia sarà arrivato.", "Giulia sarà arrivata.", "con <i>essere</i> il participio concorda.")],
     write=("I tuoi progetti per i prossimi sei mesi: che cosa avrai fatto entro dicembre e che cosa farai quando avrai finito? Aggiungi un piccolo mistero della tua settimana e le tue ipotesi.",
            "Entro dicembre avrò…", ["tre futuri anteriori di progetto (<i>quando, appena, entro</i>)", "due ipotesi sul passato", "l'accento scritto su <i>avrò, sarà</i>"]),

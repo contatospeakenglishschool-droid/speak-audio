@@ -1432,7 +1432,7 @@ def futuro_anteriore(b):
 <p class="small" style="margin:.5mm 0">= futuro di <i>avere / essere</i> + participio. Con <i>essere</i> il participio concorda.</p></div>
 <div>{_h("2. IPOTESI: OGGI O PRIMA?")}
 <p class="small" style="margin:.5mm 0"><b>presente</b> → futuro semplice: <i>Sarà stanco. Saranno le sette.</i><br><b>passato</b> → futuro anteriore: <i>Sarà stato stanco. Avrà perso l'autobus.</i></p>
-<p class="small" style="margin:.5mm 0">Nelle domande: <i>Dove <b>sarà andato</b>?</i> = <i>Dove será que ele foi?</i></p></div></div>
+<p class="small" style="margin:.5mm 0">Anche nelle domande: <i>Dove <b>sarà andato</b>? Che cosa <b>avrà detto</b>?</i></p></div></div>
 {_h("3. TRE USI")}
 {_tbl(["uso", "struttura", "esempio"], us, "7.9pt", ["40mm", "50mm", None])}
 {_h("4. NEL PARLATO")}
