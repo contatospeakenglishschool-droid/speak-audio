@@ -1,0 +1,27 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Meccanico": "it-IT-Chirp3-HD-Charon"
+ },
+ "pauses": {
+  "29.2": 3000
+ },
+ "images": {
+  "it-b1-unita-29": {
+   "A": "red motorcycle parked street",
+   "B": "mechanic repairing motorcycle",
+   "C": "petrol station fuel pump",
+   "D": "hairdresser cutting woman hair salon"
+  }
+ },
+ "units": {
+  "it-b1-unita-29": {
+   "29.1 Me lo faccio fare": "Narrator: Lunedì 2 agosto, mattina. Davanti al Bar Giulia c'è una moto rossa, lucidissima.\nDavide: Eccola! Venerdì ho finito l'ultimo esame e sabato me la sono comprata. È usata, ma è bellissima.\nJúlia: Complimenti! Ma l'hai fatta controllare da un meccanico prima di comprarla?\nDavide: Non serviva. Sono quasi ingegnere: la controllo io.\nGiulia: Ah, gli ingegneri... Io la mia macchina la faccio riparare dallo stesso meccanico da vent'anni. Mai un problema.\nJúlia: Anch'io oggi faccio fare un sacco di cose. Alle undici mi faccio tagliare i capelli, e nel pomeriggio faccio portare la terra e le piante per il giardino del cortile.\nGiulia: E la rastrelliera?\nJúlia: L'amministratore l'ha fatta mettere venerdì! Voleva aspettare settembre... ma la signora Rossi gli ha telefonato tre volte.\nDavide: Allora, Júlia, ti porto io dal parrucchiere? Ho due caschi. Sali!\nNarrator: Davide prova a partire. Una volta, due volte, tre volte. Niente.\nDavide: Strano... ieri andava benissimo.\nGiulia: Lascia stare. Faccio venire il mio meccanico, è qui dietro l'angolo.\nNarrator: Dieci minuti dopo arriva il meccanico.\nMeccanico: Vediamo un po'... Ragazzo, la moto è perfetta. È senza benzina.\nDavide: Senza benzina? Per favore, non ditelo a nessuno.\nGiulia: Troppo tardi. Mi hai fatto ridere troppo: lo faccio sapere a tutto il bar.\nMeccanico: Per questa volta non ti faccio pagare niente. Ma fatti fare un controllo completo: freni e gomme.\nJúlia: E io? Il parrucchiere mi aspetta tra mezz'ora!\nGiulia: Vieni, ti accompagno io con la mia macchina. Quella che faccio controllare ogni anno.",
+   "29.2 Ripeti": "Narrator: L'hai fatta controllare da un meccanico?\nNarrator: La faccio riparare dallo stesso meccanico da vent'anni.\nNarrator: Mi faccio tagliare i capelli.\nNarrator: L'amministratore l'ha fatta mettere venerdì.\nNarrator: Non ti faccio pagare niente.\nNarrator: Fatti fare un controllo completo."
+  }
+ }
+}

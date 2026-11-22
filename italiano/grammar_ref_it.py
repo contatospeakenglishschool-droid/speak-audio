@@ -1510,7 +1510,7 @@ def fare_causativo(b):
           ("<b>farsi</b> + infinito", "per sé stessi: <b>essere</b> al passato", "<i>Mi <b>sono fatta</b> tagliare i capelli.</i>"),
           ("fare + infinito (senza oggetto)", "causa una reazione", "<i>Mi fa <b>ridere</b>. Mi hai fatto <b>aspettare</b>!</i>")]
     b.page(f"""{b.sec("+", "Riferimento grammaticale: fare + infinito e farsi fare", "")}
-<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Con <b>fare + infinito</b> dici che <b>non fai tu</b> l'azione: la fai fare a un'altra persona (il meccanico, il parrucchiere, l'amministratore). Con <b>farsi fare</b> la persona fa qualcosa <b>per te</b> o <b>su di te</b>: <i>mi faccio tagliare i capelli</i>. In portoghese si dice spesso solo <i>cortei o cabelo</i>; in italiano <i>ho tagliato i capelli</i> vuol dire che li hai tagliati da solo!</div>
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Con <b>fare + infinito</b> dici che <b>non fai tu</b> l'azione: la fai fare a un'altra persona (il meccanico, il parrucchiere, l'amministratore). Con <b>farsi fare</b> la persona fa qualcosa <b>per te</b> o <b>su di te</b>: <i>mi faccio tagliare i capelli</i>. Attenzione: <i>ho tagliato i capelli</i> vuol dire che li hai tagliati <b>da solo</b>!</div>
 {_h("1. LE FORME")}
 {_tbl(["struttura", "uso", "esempio"], tb, "7.9pt", ["44mm", "40mm", None])}
 <div class="two"><div>{_h("2. DOVE VANNO I PRONOMI?")}
