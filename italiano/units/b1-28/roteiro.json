@@ -1,0 +1,27 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Camila": "it-IT-Chirp3-HD-Despina",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
+  "Ferri": "it-IT-Chirp3-HD-Charon"
+ },
+ "pauses": {
+  "28.2": 3000
+ },
+ "images": {
+  "it-b1-unita-28": {
+   "A": "italian apartment building courtyard",
+   "B": "bicycles parked bike rack",
+   "C": "small garden bench plants courtyard",
+   "D": "people meeting table discussion"
+  }
+ },
+ "units": {
+  "it-b1-unita-28": {
+   "28.1 Bisognerebbe che": "Narrator: Martedì 27 luglio, ore ventuno. Nel cortile c'è l'assemblea di condominio. Presiede l'amministratore, il ragionier Ferri.\nFerri: Buonasera a tutti. Primo punto: il cortile. Signora Souza, Lei ha una proposta?\nJúlia: Sì. Il cortile è grigio e vuoto. Vorrei che diventasse un piccolo giardino: qualche pianta, una panchina, un po' d'ombra. Il progetto lo faccio io, gratis.\nSignora Rossi: Brava! Mi piacerebbe che i bambini del palazzo avessero un posto per giocare.\nFerri: Bella idea, ma le piante costano. Bisognerebbe che ogni famiglia pagasse una quota... diciamo cinquanta euro.\nCamila: Per me va bene. Ma vorrei anche che si mettesse finalmente una rastrelliera per le biciclette.\nJúlia: Finalmente, sì! L'avevo chiesta per iscritto più di un anno fa.\nFerri: Ah... sì, ricordo. Forse sarebbe meglio che ne parlassimo a settembre.\nSignora Rossi: Ragioniere, sarebbe ora che la mettesse! Le bici sono ancora tutte nell'androne.\nFerri: Va bene, va bene. Secondo punto: i rumori. Qualcuno si lamenta della musica dopo le ventidue.\nCamila: Scusate, forse sono io. Studio con la musica... Ma preferirei che me lo diceste direttamente.\nSignora Rossi: Cara, nessuno si lamenta di te. È la radio del signore del quarto piano, che non ci sente bene.\nFerri: Ultimo punto: varie ed eventuali.\nSignora Rossi: Io avrei una proposta. Vorrei che il pranzo di Ferragosto in cortile diventasse una tradizione ufficiale. E che l'amministratore portasse il vino.\nFerri: Io? ... Va bene, signora. Con Lei non si può discutere.\nNarrator: Si vota. Il giardino, la rastrelliera e il pranzo di Ferragosto passano all'unanimità.\nJúlia: Visto? Bastava che qualcuno lo chiedesse con gentilezza.\nSignora Rossi: Con gentilezza... e per la terza volta!",
+   "28.2 Ripeti": "Narrator: Vorrei che il cortile diventasse un giardino.\nNarrator: Bisognerebbe che ogni famiglia pagasse una quota.\nNarrator: Sarebbe meglio che ne parlassimo a settembre.\nNarrator: Sarebbe ora che la mettesse!\nNarrator: Preferirei che me lo diceste direttamente.\nNarrator: Bastava che qualcuno lo chiedesse."
+  }
+ }
+}

@@ -1479,3 +1479,23 @@ def indefiniti_congiuntivo(b):
 <p class="small" style="margin:.5mm 0"><b>Chiunque</b> da solo = tutti: <i>Chiunque può farlo.</i><br><b>Comunque</b> da solo = <i>in ogni caso</i>: <i>Comunque, domani festeggiamo.</i><br><b>Un … qualsiasi</b> (dopo il nome) = normale, senza importanza: <i>Non è un lavoro qualsiasi.</i></p></div></div>
 {_dont([("Qualunque cosa succede, festeggiamo.", "Qualunque cosa <b>succeda</b>, festeggiamo."), ("Chiunque vengono, sono benvenuti.", "Chiunque <b>venga</b>, è benvenuto."), ("Qualsiasi cose ti servono…", "Qualsiasi <b>cosa</b> ti <b>serva</b>…")])}""",
     24, """<p>Il portoghese ha le stesse strutture con il subjuntivo (<i>qualquer coisa que aconteça, quem quer que seja, onde quer que vá</i>): l'idea è facile. Errori tipici: il plurale (<i>quaisquer</i> → lo studente dice <i>qualsiasi cose</i>), l'indicativo dopo <i>qualunque cosa</i>, il verbo plurale dopo <i>chiunque</i> e <i>comunque</i> usato come <i>como</i>.</p>""")
+
+
+def condizionale_congiuntivo(b):
+    """B1 Progresso 28: condizionale + che + congiuntivo imperfetto (vorrei che, bisognerebbe che, sarebbe meglio che…); infinito vs che."""
+    tb = [("<b>vorrei che</b>", "desiderio", "<i>Vorrei che il cortile <b>diventasse</b> un giardino.</i>"),
+          ("<b>preferirei che</b>", "preferenza", "<i>Preferirei che me lo <b>diceste</b> direttamente.</i>"),
+          ("<b>bisognerebbe che</b>", "necessità (gentile)", "<i>Bisognerebbe che ogni famiglia <b>pagasse</b> una quota.</i>"),
+          ("<b>sarebbe meglio / bello che</b>", "consiglio, opinione", "<i>Sarebbe meglio che ne <b>parlassimo</b> a settembre.</i>"),
+          ("<b>mi piacerebbe che</b>", "desiderio", "<i>Mi piacerebbe che i bambini <b>avessero</b> un posto per giocare.</i>"),
+          ("<b>sarebbe ora che</b>", "impazienza", "<i>Sarebbe ora che la <b>mettesse</b>!</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: vorrei che… + congiuntivo imperfetto", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Per fare <b>proposte</b>, dare <b>consigli</b> e esprimere <b>desideri</b> in modo gentile usi un verbo al <b>condizionale</b> + <i>che</i> + <b>congiuntivo imperfetto</b>. È la regola della concordanza: dopo il condizionale presente il congiuntivo va all'<b>imperfetto</b>, anche se parli di oggi o del futuro.</div>
+{_h("1. LE ESPRESSIONI PIÙ USATE")}
+{_tbl(["espressione", "funzione", "esempio"], tb, "7.9pt", ["44mm", "34mm", None])}
+<div class="two"><div>{_h("2. INFINITO O CHE?")}
+<p class="small" style="margin:.5mm 0"><b>Stesso soggetto</b> → infinito: <i>(Io) vorrei <b>fare</b> il progetto.</i><br><b>Soggetti diversi</b> → che + congiuntivo: <i>(Io) vorrei che <b>tu facessi</b> il progetto.</i><br>Con le forme impersonali (<i>bisognerebbe, sarebbe meglio</i>) l'infinito vale per tutti: <i>Bisognerebbe <b>votare</b>.</i></p></div>
+<div>{_h("3. IL QUADRO DELLA CONCORDANZA")}
+<p class="small" style="margin:.5mm 0"><i>Voglio</i> che tu <b>venga</b> (presente → cong. presente).<br><i>Vorrei</i> che tu <b>venissi</b> (condizionale → cong. imperfetto).<br><i>Volevo</i> che tu <b>venissi</b> (passato → cong. imperfetto).<br><i>Bastava</i> che qualcuno lo <b>chiedesse</b>.</p></div></div>
+{_dont([("Vorrei che tu vieni.", "Vorrei che tu <b>venissi</b>."), ("Vorrei che tu venga domani.", "Vorrei che tu <b>venissi</b> domani (con il condizionale)."), ("Vorrei che io andassi al mare.", "<b>Vorrei andare</b> al mare (stesso soggetto).")])}""",
+    24, """<p>In portoghese si dice <i>eu queria que você viesse</i>: la struttura è uguale, ma lo studente spesso mette l'indicativo (<i>vorrei che vieni</i>) o il congiuntivo presente (<i>vorrei che venga</i>, frequente anche tra gli italiani nel parlato: correggerlo con calma). Ricordare l'infinito quando il soggetto è lo stesso.</p>""")
