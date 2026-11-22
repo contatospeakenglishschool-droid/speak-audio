@@ -1757,3 +1757,25 @@ def future_in_past(b):
 <div class="box" style="margin-top:1.5mm"><h4>ADD WHAT HAPPENED</h4>These forms usually come with <b>but</b>, <b>when</b> or <b>so</b>: <i>I was going to drive, <b>but</b> the car broke down. · I was about to leave <b>when</b> the phone rang.</i></div>
 {_dont([("I was going to took a taxi.", "I was going to <b>take</b> a taxi."), ("I was suppose to arrive at noon.", "I was <b>supposed</b> to arrive at noon."), ("It was for me to arrive at noon.", "I <b>was supposed to</b> arrive at noon."), ("I was about calling you.", "I was about <b>to call</b> you."), ("I thought I will be late.", "I thought I <b>would</b> be late.")])}""",
     22, """<p>Brazilians often translate the Portuguese structure word for word (<i>It was for me to arrive…</i>) and drop the <i>-d</i> in <i>supposed</i>, because it is silent in speech. Drill: give a plan (<i>take the bus</i>) and a problem (<i>it didn't come</i>); the student joins them: <i>I was going to take the bus, but it didn't come.</i></p>""")
+
+
+def cause_result(b):
+    """B1 Unit 35: cause and result: because / because of / due to; so / as a result / which means; cause sb to, lead to, make sb do, result in."""
+    b.page(f"""{b.sec("+", "Grammar reference: cause and result", "")}
+<div class="box" style="margin-top:0"><h4>WHY? AND WHAT HAPPENS NEXT?</h4>To explain problems and opinions, we connect <b>causes</b> and <b>results</b>. <i>Animals relax with tourists, <b>so</b> they may relax with predators too. · Urban birds are bold <b>because of</b> regular contact with people. · Feeding wild animals can <b>cause</b> them <b>to</b> depend on humans.</i></div>
+{_h("1. GIVING THE CAUSE")}
+{_tbl(["linker", "+ what?", "example"], [
+    ["<b>because</b> / <b>as</b> / <b>since</b>", "a clause (subject + verb)", "<i>The trail closed <b>because</b> it rained all week.</i>"],
+    ["<b>because of</b> / <b>due to</b>", "a noun or a noun phrase", "<i>The trail closed <b>because of</b> the rain. · The delay was <b>due to</b> the weather.</i>"]], "8.2pt")}
+{_h("2. GIVING THE RESULT")}
+{_tbl(["linker", "position", "example"], [
+    ["<b>so</b>", "in the middle, after a comma", "<i>It was crowded, <b>so</b> we left early.</i>"],
+    ["<b>As a result,</b> / <b>Because of this,</b> / <b>Therefore,</b> (formal)", "at the start of a new sentence", "<i>Visitors spend billions. <b>As a result,</b> parks can pay for conservation.</i>"],
+    ["<b>which means (that)</b>", "after a comma, about the whole idea", "<i>The fish aren't afraid, <b>which means</b> they're used to people.</i>"]], "8.2pt")}
+{_h("3. VERBS OF CAUSE AND RESULT")}
+{_tbl(["verb", "example"], [
+    ["<b>cause</b> + noun / <b>cause</b> sb <b>to</b> + verb", "<i>Noise can <b>cause</b> stress. · It <b>caused</b> the dolphins <b>to</b> leave.</i>"],
+    ["<b>lead to</b> / <b>result in</b> + noun or -ing", "<i>Too many visitors can <b>lead to</b> pollution.</i>"],
+    ["<b>make</b> sb + verb (no <i>to</i>)", "<i>Tourists <b>make</b> the animals <b>relax</b>.</i>"]], "8.2pt")}
+{_dont([("Because of animals relax with people…", "<b>Because</b> animals relax with people… / <b>Because of</b> people…"), ("It caused that the animals left.", "It caused the animals <b>to leave</b>."), ("It can lead to increase pollution.", "It can lead to <b>an increase in</b> pollution."), ("It makes them to relax.", "It makes them <b>relax</b>."), ("The park closed due the rain.", "The park closed <b>due to</b> the rain.")])}""",
+    22, """<p>Brazilians often use <i>because of</i> before a clause and put a <i>that</i> clause after <i>cause</i> (<i>It caused that…</i>), a word-for-word translation. Drill: give a cause (<i>heavy rain</i>) and a result (<i>the trail closed</i>); the student connects them in three ways: <i>because of / so / As a result,</i>.</p>""")

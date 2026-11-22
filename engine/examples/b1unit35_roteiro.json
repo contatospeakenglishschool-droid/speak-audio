@@ -1,0 +1,21 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Host": "en-US-Studio-O",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-35": {
+   "35.1 Can tourists be too friendly": "Host: Can tourists be too friendly?\nHost: Every year, the world's protected areas, such as national parks, receive about eight billion visits, according to a study published in two thousand fifteen. That's more than one visit for every person on the planet. Visitors spend about six hundred billion dollars a year on these trips, and some of that money helps pay for conservation and local communities. As a result, ecotourism is often seen as good news for nature.\nHost: But in the same year, a team of scientists, including the American biologist Daniel Blumstein, published a review with a worrying idea. When wild animals meet friendly tourists again and again, they may get used to people and become less careful. Because of this, they might also become less careful around predators, which are not so friendly. In Blumstein's words, if this boldness transfers to real predators, more animals will die.\nHost: The scientists compared tourism to domestication and to life in cities. Domesticated foxes are less fearful than wild ones, and urban birds are bolder and harder to scare away. In Grand Teton National Park, in the United States, elk and pronghorn in areas with more tourists spent less time watching for danger and more time feeding.\nHost: Brazil is part of the story too. The press release about the study showed tourists snorkeling among piraputanga fish in a clear river in Nobres, Mato Grosso.\nHost: The scientists don't say that ecotourism is bad. In fact, human presence can keep some predators away, which creates a kind of safe haven for smaller animals. Vervet monkeys, for example, have fewer run-ins with leopards when people are around. But the team says more research is needed. Until then, the best thing a visitor can do may be simple: enjoy the animals, and keep your distance.",
+   "35.2 Repeat: as a result, because of": "Narrator: As a result, the animals relax.\nNarrator: Because of the tourists, the birds stay.\nNarrator: It could lead to a problem.\nNarrator: That's a fair point, but it's expensive.\nNarrator: This is because of the noise.\nNarrator: It makes them less afraid."
+  }
+ },
+ "images": {
+  "b1-unit-35": {
+   "A": "snorkeling clear river fish",
+   "B": "elk grazing meadow",
+   "C": "wooden boardwalk forest nature trail",
+   "D": "fish underwater clear river"
+  }
+ }
+}
