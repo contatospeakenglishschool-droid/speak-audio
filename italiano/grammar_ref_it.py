@@ -1499,3 +1499,23 @@ def condizionale_congiuntivo(b):
 <p class="small" style="margin:.5mm 0"><i>Voglio</i> che tu <b>venga</b> (presente → cong. presente).<br><i>Vorrei</i> che tu <b>venissi</b> (condizionale → cong. imperfetto).<br><i>Volevo</i> che tu <b>venissi</b> (passato → cong. imperfetto).<br><i>Bastava</i> che qualcuno lo <b>chiedesse</b>.</p></div></div>
 {_dont([("Vorrei che tu vieni.", "Vorrei che tu <b>venissi</b>."), ("Vorrei che tu venga domani.", "Vorrei che tu <b>venissi</b> domani (con il condizionale)."), ("Vorrei che io andassi al mare.", "<b>Vorrei andare</b> al mare (stesso soggetto).")])}""",
     24, """<p>In portoghese si dice <i>eu queria que você viesse</i>: la struttura è uguale, ma lo studente spesso mette l'indicativo (<i>vorrei che vieni</i>) o il congiuntivo presente (<i>vorrei che venga</i>, frequente anche tra gli italiani nel parlato: correggerlo con calma). Ricordare l'infinito quando il soggetto è lo stesso.</p>""")
+
+
+def fare_causativo(b):
+    """B1 Progresso 29: fare + infinito (causativo), farsi fare, pronomi e accordo, agente con a/da."""
+    tb = [("<b>fare</b> + infinito + oggetto", "un'altra persona fa l'azione", "<i>Faccio <b>riparare</b> la moto.</i>"),
+          ("+ <b>a / da</b> + persona", "chi fa l'azione", "<i>Faccio controllare la moto <b>al / dal</b> meccanico.</i>"),
+          ("<b>pronome</b> + fare + infinito", "il pronome va prima di <i>fare</i>", "<i><b>La</b> faccio riparare. <b>Me lo</b> faccio fare.</i>"),
+          ("<b>avere</b> + fatto + infinito", "passato prossimo", "<i>L'amministratore <b>ha fatto mettere</b> la rastrelliera.</i>"),
+          ("<b>farsi</b> + infinito", "per sé stessi: <b>essere</b> al passato", "<i>Mi <b>sono fatta</b> tagliare i capelli.</i>"),
+          ("fare + infinito (senza oggetto)", "causa una reazione", "<i>Mi fa <b>ridere</b>. Mi hai fatto <b>aspettare</b>!</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: fare + infinito e farsi fare", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Con <b>fare + infinito</b> dici che <b>non fai tu</b> l'azione: la fai fare a un'altra persona (il meccanico, il parrucchiere, l'amministratore). Con <b>farsi fare</b> la persona fa qualcosa <b>per te</b> o <b>su di te</b>: <i>mi faccio tagliare i capelli</i>. In portoghese si dice spesso solo <i>cortei o cabelo</i>; in italiano <i>ho tagliato i capelli</i> vuol dire che li hai tagliati da solo!</div>
+{_h("1. LE FORME")}
+{_tbl(["struttura", "uso", "esempio"], tb, "7.9pt", ["44mm", "40mm", None])}
+<div class="two"><div>{_h("2. DOVE VANNO I PRONOMI?")}
+<p class="small" style="margin:.5mm 0">Prima di <i>fare</i> coniugato: <i><b>La</b> faccio controllare. <b>Glielo</b> faccio sapere.</i><br>Attaccati a <i>fare</i> all'infinito, all'imperativo (tu) e al gerundio: <i>Devo <b>farla</b> controllare. <b>Fattela</b> controllare! <b>Facendola</b> riparare…</i><br>Mai attaccati all'infinito che segue: <s>faccio ripararla</s>.</p></div>
+<div>{_h("3. IL PASSATO E L'ACCORDO")}
+<p class="small" style="margin:.5mm 0"><i>Ho fatto riparare la moto.</i> → <i>L'ho fatt<b>a</b> riparare.</i> (accordo con <i>lo, la, li, le</i>)<br><i>Júlia si è fatt<b>a</b> tagliare i capelli.</i> (con <i>farsi</i>: essere)<br><i>Me li sono fatti tagliare.</i><br>Anche: <i>lasciare</i> + infinito: <i>Lasciami parlare!</i></p></div></div>
+{_dont([("Ho tagliato i capelli (dal parrucchiere).", "Mi sono fatta / fatto <b>tagliare</b> i capelli."), ("Faccio ripararla domani.", "<b>La faccio riparare</b> domani."), ("Ho fatto la moto controllare.", "Ho fatto <b>controllare la moto</b> (l'infinito subito dopo <i>fare</i>).")])}""",
+    24, """<p>L'errore tipico è <i>ho tagliato i capelli / ho lavato la macchina</i> per dire che l'ha fatto qualcun altro (il portoghese <i>cortei o cabelo</i>). Insistere su <i>farsi</i> + essere al passato e sull'ordine fisso <i>fare + infinito + oggetto</i>. L'agente si introduce con <i>a</i> o <i>da</i>: <i>da</i> evita ambiguità quando c'è già un complemento con <i>a</i>.</p>""")
