@@ -1,0 +1,22 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Carol": "en-US-Chirp3-HD-Leda",
+  "Mechanic": "en-US-Chirp3-HD-Charon",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-37": {
+   "37.1 At the auto shop": "Mechanic: Good morning! What can I do for you?\nCarol: Hi! My car needs servicing. The last time it was checked was about a year ago, and I'm driving to see a friend in Miami next weekend.\nMechanic: OK. Then we'll do a basic service. I have some free time on Thursday. Can you bring it in at nine?\nCarol: Thursday at nine is perfect. But I need it back by Friday morning.\nMechanic: It should be ready by then, unless we need to order new parts. Then it might take longer.\nCarol: OK. And I think there's a problem. The oil level keeps dropping, so there might be a leak.\nMechanic: We'll find out what the matter is when you bring it in. If there's a leak, a part probably needs to be replaced.\nCarol: Also, the left brake light is broken, and the windshield wipers need changing. They make a horrible noise. Oh, and the battery died twice last month.\nMechanic: The battery might just need recharging, but if it's old, it'll need to be replaced. How old is it?\nCarol: I have no idea. I bought the car used three years ago.\nMechanic: Then we'll test it. Do you want us to check the brake pads and the tires too?\nCarol: Yes, please. Will that cost extra?\nMechanic: No, you don't need to pay extra for that. It's all part of the service. You only need to pay for new parts.\nCarol: Great! The last shop charged me forty dollars just to fill up the windshield washer fluid.\nMechanic: Forty dollars? Wow. Don't worry, you'll get a reasonable price here. See you on Thursday!",
+   "37.2 Repeat: compound nouns": "Narrator: The windshield wipers need changing.\nNarrator: The brake pads need replacing.\nNarrator: The car battery is dead.\nNarrator: There might be an oil leak.\nNarrator: The brake light is broken.\nNarrator: Take it to the auto shop."
+  }
+ },
+ "images": {
+  "b1-unit-37": {
+   "A": "car broken down open hood road",
+   "B": "car repair garage lift",
+   "C": "flat tire car",
+   "D": "car battery"
+  }
+ }
+}

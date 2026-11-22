@@ -1799,3 +1799,22 @@ def suggestion_patterns(b):
 <div class="box" style="margin-top:1.5mm"><h4>SOFTER OR STRONGER?</h4>Softer: <i>Maybe we could… · I was thinking about… · What do you think about…?</i> · Stronger: <i>I really think we should… · Let's just…</i></div>
 {_dont([("I suggest to go to Paraty.", "I suggest <b>going</b> to Paraty. / I suggest <b>we go</b> to Paraty."), ("How about to take the bus?", "How about <b>taking</b> the bus?"), ("Why we don't go to Rio?", "Why <b>don't we</b> go to Rio?"), ("Let's to meet at eight.", "Let's <b>meet</b> at eight."), ("It's worth to book early.", "It's worth <b>booking</b> early.")])}""",
     22, """<p>Brazilians often use <i>to</i> after <i>suggest</i>, <i>how about</i> and <i>it's worth</i>, and change the word order in <i>Why don't we…?</i>. Drill: say a plan (<i>take the bus</i>); the student makes four suggestions with it: <i>Why don't we take…? / How about taking…? / I suggest we take… / It's worth taking…</i>.</p>""")
+
+
+def needs_doing(b):
+    """B1 Unit 37: need to + verb; need + -ing / need to be + participle (passive meaning); don't need to / didn't need to."""
+    b.page(f"""{b.sec("+", "Grammar reference: need to, needs changing, needs to be replaced", "")}
+<div class="box" style="margin-top:0"><h4>WHO NEEDS TO DO IT? OR WHAT NEEDS TO BE DONE?</h4>With <b>need</b>, we can talk about a person (<i>You <b>need to bring</b> it in.</i>) or about the thing that someone must fix, clean or change (<i>The wipers <b>need changing</b>. · A part <b>needs to be replaced</b>.</i>).</div>
+{_h("1. ACTIVE AND PASSIVE MEANING")}
+{_tbl(["form", "meaning", "example"], [
+    ["<b>person + need to</b> + verb", "the person must do it", "<i>You <b>need to bring</b> the car in on Thursday.</i>"],
+    ["<b>thing + needs to be</b> + participle", "someone must do something to it (very common in American English)", "<i>The battery <b>needs to be replaced</b>.</i>"],
+    ["<b>thing + needs</b> + -ing", "the same meaning, a little less formal", "<i>The wipers <b>need changing</b>. · My car <b>needs servicing</b>.</i>"]], "8.2pt")}
+{_h("2. NO OBLIGATION")}
+{_tbl(["form", "example"], [
+    ["<b>don't / doesn't need to</b> + verb (= <b>don't have to</b>)", "<i>You <b>don't need to pay</b> extra for that.</i>"],
+    ["<b>didn't need to</b> + verb (past)", "<i>The battery <b>didn't need to be replaced</b>; it only <b>needed recharging</b>.</i>"],
+    ["<b>Do I need to…?</b> (question)", "<i><b>Do I need to</b> book an appointment?</i>"]], "8.2pt")}
+<div class="box" style="margin-top:1.5mm"><h4>REMEMBER</h4><b>need</b> is a normal verb here: <i>it need<b>s</b>, does it need…?, it doesn't need…</i> Compare with Unit 31: <i>I'm <b>having</b> the brakes <b>checked</b>.</i> (someone does it for me).</div>
+{_dont([("The battery needs to change.", "The battery needs <b>changing</b>. / needs <b>to be changed</b>."), ("It needs be replaced.", "It needs <b>to be</b> replaced."), ("You don't need pay extra.", "You don't need <b>to</b> pay extra."), ("The car need servicing.", "The car <b>needs</b> servicing."), ("You need not to pay.", "You <b>don't need to</b> pay.")])}""",
+    22, """<p>Brazilians often say <i>The battery needs to change</i>, which means the battery must change itself. Ask: <i>Who changes it?</i> Drill: point at things in the room or on the screen (<i>the window, my phone, the plant</i>); the student says what each one needs (<i>The window needs cleaning. The plant needs to be watered.</i>).</p>""")
