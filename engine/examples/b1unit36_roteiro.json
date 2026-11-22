@@ -1,0 +1,22 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Bruno": "en-US-Chirp3-HD-Fenrir",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-36": {
+   "36.1 Planning a long weekend": "Danny: So where shall we go for the long weekend? I really need some time off after all those tours.\nBruno: Why don't we go to Rio? I haven't been there in years, and you've never been, right?\nDanny: Right. But I'm not sure about that, to be honest. Mrs. Lima says it gets really crowded on long weekends, and it's a bit touristy for me. Where else do you have in mind?\nBruno: Hmm... What about Paraty? I went there with my parents when I was a kid. The old town was stunning, and the atmosphere at night was really lively.\nDanny: That sounds like a good idea! Shall we ask Rafa to come along? He's always talking about the beaches down there.\nBruno: Sure. He just needs to check if he can take Monday off. I think he has a tour that morning.\nDanny: OK. What about accommodation? How about a hotel in the old town?\nBruno: You must be joking! Hotels are expensive on a long weekend. I suggest we stay at a hostel. It's cheaper, and you meet lots of people.\nDanny: I suppose we could do that... but I already live in a hostel, you know!\nBruno: Ha! Fair point. Then why don't we rent a small house with Rafa? If we share the cost, it might be worth it.\nDanny: Right, that makes sense. And the bus?\nBruno: I'd suggest booking the tickets as soon as possible to get a good deal. Long weekends sell out fast.\nDanny: Good idea. I'll get online right away.",
+   "36.2 Repeat: suggestions": "Narrator: Why don't we go to Paraty?\nNarrator: How about taking the bus?\nNarrator: What about a hostel?\nNarrator: Shall we ask Rafa?\nNarrator: I suggest we book early.\nNarrator: That sounds like a good idea!"
+  }
+ },
+ "images": {
+  "b1-unit-36": {
+   "A": "planning trip map coffee table",
+   "B": "paraty colonial street",
+   "C": "small beach house",
+   "D": "intercity bus road"
+  }
+ }
+}

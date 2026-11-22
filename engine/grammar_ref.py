@@ -1779,3 +1779,23 @@ def cause_result(b):
     ["<b>make</b> sb + verb (no <i>to</i>)", "<i>Tourists <b>make</b> the animals <b>relax</b>.</i>"]], "8.2pt")}
 {_dont([("Because of animals relax with people…", "<b>Because</b> animals relax with people… / <b>Because of</b> people…"), ("It caused that the animals left.", "It caused the animals <b>to leave</b>."), ("It can lead to increase pollution.", "It can lead to <b>an increase in</b> pollution."), ("It makes them to relax.", "It makes them <b>relax</b>."), ("The park closed due the rain.", "The park closed <b>due to</b> the rain.")])}""",
     22, """<p>Brazilians often use <i>because of</i> before a clause and put a <i>that</i> clause after <i>cause</i> (<i>It caused that…</i>), a word-for-word translation. Drill: give a cause (<i>heavy rain</i>) and a result (<i>the trail closed</i>); the student connects them in three ways: <i>because of / so / As a result,</i>.</p>""")
+
+
+def suggestion_patterns(b):
+    """B1 Unit 36: verb patterns after suggestion phrases: how about + -ing; why don't we / let's / shall we + verb; suggest + -ing / suggest (that) we + verb; it's worth + -ing."""
+    b.page(f"""{b.sec("+", "Grammar reference: suggestions and verb patterns", "")}
+<div class="box" style="margin-top:0"><h4>WHICH FORM COMES NEXT?</h4>Each suggestion phrase is followed by a fixed form: the <b>base form</b> (<i>go</i>), the <b>-ing form</b> (<i>going</i>) or a <b>noun</b> (<i>a hostel</i>). <i><b>Why don't we go</b> to Rio? · <b>How about taking</b> the bus? · <b>What about</b> Paraty? · <b>I suggest we stay</b> at a hostel.</i></div>
+{_h("1. BASE FORM, -ING FORM OR NOUN")}
+{_tbl(["+ base form (no <i>to</i>)", "+ -ing or a noun"], [
+    ["<b>Why don't we / you</b> go…?", "<b>How about</b> going…? · <b>How about</b> a hostel?"],
+    ["<b>Let's</b> go… · <b>Let's not</b> go…", "<b>What about</b> taking the bus? · <b>What about</b> Paraty?"],
+    ["<b>Shall we</b> go…? (asking for agreement)", "<b>It's worth</b> booking early. · <b>It might be worth</b> trying."],
+    ["<b>We could / You could</b> go…", "<b>I'd recommend</b> booking early."]], "8.3pt")}
+{_h("2. THE VERB SUGGEST")}
+{_tbl(["pattern", "example"], [
+    ["<b>suggest + -ing</b> (the speaker is included)", "<i>Bruno <b>suggested renting</b> a house.</i>"],
+    ["<b>suggest (that) + subject + base form</b>", "<i>I <b>suggest we book</b> early. · She <b>suggested (that) I take</b> a day off.</i>"],
+    ["<b>suggest + noun</b>", "<i>Can you <b>suggest a good hotel</b>?</i>"]], "8.3pt")}
+<div class="box" style="margin-top:1.5mm"><h4>SOFTER OR STRONGER?</h4>Softer: <i>Maybe we could… · I was thinking about… · What do you think about…?</i> · Stronger: <i>I really think we should… · Let's just…</i></div>
+{_dont([("I suggest to go to Paraty.", "I suggest <b>going</b> to Paraty. / I suggest <b>we go</b> to Paraty."), ("How about to take the bus?", "How about <b>taking</b> the bus?"), ("Why we don't go to Rio?", "Why <b>don't we</b> go to Rio?"), ("Let's to meet at eight.", "Let's <b>meet</b> at eight."), ("It's worth to book early.", "It's worth <b>booking</b> early.")])}""",
+    22, """<p>Brazilians often use <i>to</i> after <i>suggest</i>, <i>how about</i> and <i>it's worth</i>, and change the word order in <i>Why don't we…?</i>. Drill: say a plan (<i>take the bus</i>); the student makes four suggestions with it: <i>Why don't we take…? / How about taking…? / I suggest we take… / It's worth taking…</i>.</p>""")
