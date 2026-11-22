@@ -1,0 +1,26 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Camila": "it-IT-Chirp3-HD-Despina",
+  "Davide": "it-IT-Chirp3-HD-Puck"
+ },
+ "pauses": {
+  "27.2": 3000
+ },
+ "images": {
+  "it-b1-unita-27": {
+   "A": "job interview office handshake",
+   "B": "friends toasting drinks bar evening",
+   "C": "bologna towers skyline",
+   "D": "woman happy phone call"
+  }
+ },
+ "units": {
+  "it-b1-unita-27": {
+   "27.1 Qualsiasi cosa": "Narrator: Giovedì 22 luglio, sera, bar Giulia. Domani è l'ultimo giorno di tirocinio di Camila: alle dieci ha un colloquio con la direttrice.\nCamila: Stanotte non dormirò. Qualsiasi cosa mi dica domani, so già che piangerò.\nJúlia: Calma. Chiunque abbia lavorato con te sa che sei bravissima.\nCamila: Sì, ma l'azienda prende una sola persona. E noi tirocinanti siamo in tre.\nDavide: E allora? Qualunque cosa succeda, domani sera festeggiamo. Offro io.\nJúlia: Tu? Non stai mettendo da parte i soldi per la moto?\nDavide: Per un'amica, questo e altro.\nCamila: E se non mi prendono? Ho già guardato gli annunci: Milano, Torino, Roma... Dovunque mi offrano un lavoro, ci vado.\nJúlia: Davvero lasceresti Bologna?\nCamila: Non lo so. Pietro dice che, ovunque io vada, lui verrà con me. Ma deve ancora finire l'università.\nDavide: Chiunque dica una cosa così è innamorato perso.\nJúlia: Senti, comunque vada, in questi mesi hai imparato tantissimo. E qualsiasi lavoro tu trovi, sarai bravissima.\nCamila: Grazie, ragazzi. Ah, e domani che cosa mi metto?\nJúlia: Qualunque cosa, ma non i sandali della montagna!\nNarrator: Venerdì 23 luglio, ore undici. Il telefono di Júlia squilla.\nCamila: Júlia! Mi hanno presa! Contratto di un anno, qui a Bologna, da settembre!\nJúlia: Lo sapevo! Bravissima! Stasera festeggiamo.\nCamila: E paga Davide: l'ha promesso davanti a testimoni!",
+   "27.2 Ripeti": "Narrator: Qualsiasi cosa mi dica, piangerò.\nNarrator: Chiunque abbia lavorato con te lo sa.\nNarrator: Qualunque cosa succeda, festeggiamo.\nNarrator: Dovunque mi offrano un lavoro, ci vado.\nNarrator: Ovunque io vada, lui verrà con me.\nNarrator: Comunque vada, hai imparato tantissimo."
+  }
+ }
+}
