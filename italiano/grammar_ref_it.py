@@ -1392,3 +1392,27 @@ def periodo_ipotetico_3(b):
 <p class="small" style="margin:.5mm 0">Gli italiani dicono spesso <i>Se lo <b>sapevo</b>, <b>portavo</b> una torta</i> (due imperfetti). È colloquiale: capiscilo, ma nello scritto usa la forma completa.</p></div></div>
 {_dont([("Se l'avrei saputo, avrei portato una torta.", "Se l'<b>avessi saputo</b>, avrei portato una torta."), ("Se avessi saputo, porterei una torta.", "Se avessi saputo, <b>avrei portato</b> una torta."), ("Se fossi andato (Camila)…", "Se <b>fossi andata</b>… (con <i>essere</i> concorda)")])}""",
     24, """<p>La struttura è uguale al portoghese (<i>se eu tivesse sabido, teria levado</i>): <i>avessi saputo</i> = <i>tivesse sabido</i>. Errori tipici: il condizionale dopo <i>se</i> (<i>se avrei saputo</i>), la conseguenza al condizionale presente e l'accordo con <i>essere</i>. Pronuncia: <i>avremmo</i> (condizionale) ≠ <i>avremo</i> (futuro).</p>""")
+
+
+def infinito_passato(b):
+    """B1 Progresso 24: infinito passato (aver / essere + participio); dopo, prima di, senza; credo di aver…; dopo che."""
+    fo = [("con <b>avere</b>", "<b>aver(e)</b> + participio", "<i>dopo <b>aver studiato</b>, dopo <b>averlo accettato</b></i>"),
+          ("con <b>essere</b>", "<b>essere</b> + participio (accordo!)", "<i>dopo <b>essere arrivato</b> · Chiara, dopo <b>essere uscita</b>…</i>"),
+          ("riflessivi", "<b>essersi</b> + participio", "<i>dopo <b>esserti liberato</b>, dopo <b>essermi svegliata</b></i>")]
+    us = [("<b>dopo</b> + infinito <b>passato</b>", "un'azione finita prima", "<i><b>Dopo aver studiato</b> tre settimane, ho preso 24.</i>"),
+          ("<b>prima di</b> + infinito <b>presente</b>", "un'azione che viene dopo", "<i><b>Prima di decidere</b>, ci pensi bene.</i>"),
+          ("<b>senza</b> + infinito", "= e non…", "<i>È uscito <b>senza salutare</b>. · <b>Senza aver visto</b> la Sicilia…</i>"),
+          ("<b>credo / penso / mi sembra di</b> + inf. passato", "stesso soggetto, passato", "<i><b>Credo di aver capito</b> una cosa.</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: l'infinito passato (dopo aver studiato)", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>L'<b>infinito passato</b> (<i>aver studiato, essere arrivato</i>) indica un'azione <b>già finita</b>. Si usa soprattutto dopo <b>dopo</b>, <b>senza</b> e i verbi di opinione (<i>credo di…</i>), quando il <b>soggetto è lo stesso</b> nelle due parti della frase. Rende il racconto più breve e più elegante.</div>
+{_h("1. LE FORME")}
+{_tbl(["", "forma", "esempio"], fo, "7.9pt", ["22mm", "52mm", None])}
+<p class="small" style="margin:.5mm 0">Nel parlato <i>avere</i> perde la <i>-e</i>: <i>aver studiato</i>. I pronomi si attaccano all'ausiliare: <i>aver<b>lo</b> fatto, esser<b>ci</b> andati</i>.</p>
+{_h("2. QUATTRO USI")}
+{_tbl(["costruzione", "significato", "esempio"], us, "7.9pt", ["50mm", "38mm", None])}
+<div class="two"><div>{_h("3. ATTENZIONE: DOPO ≠ PRIMA DI")}
+<p class="small" style="margin:.5mm 0"><b>dopo</b> + infinito <b>passato</b> (<i>dopo aver mangiato</i>) ma <b>prima di</b> + infinito <b>presente</b> (<i>prima di mangiare</i>). Mai <s>dopo mangiare</s>.</p></div>
+<div>{_h("4. SOGGETTI DIVERSI: DOPO CHE")}
+<p class="small" style="margin:.5mm 0">Se i soggetti sono diversi usa <b>dopo che</b> + indicativo: <i><b>Dopo che</b> il professore <b>ha parlato</b>, Bruno ha deciso.</i></p></div></div>
+{_dont([("Dopo studiare, sono uscito.", "<b>Dopo aver studiato</b>, sono uscito."), ("Dopo aver arrivato, ho chiamato.", "Dopo <b>essere arrivato</b>, ho chiamato."), ("Prima di che decidi, pensaci.", "<b>Prima di decidere</b>, pensaci.")])}""",
+    24, """<p>Il portoghese dice <i>depois de estudar</i> (infinito semplice): lo studente dice <i>dopo studiare</i>, l'errore più frequente di questa unità. Altri errori: l'ausiliare sbagliato (<i>dopo aver arrivato</i>), l'accordo con <i>essere</i>, e <i>prima di che</i> (calco di <i>antes que</i>).</p>""")
