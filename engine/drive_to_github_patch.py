@@ -1,3 +1,4 @@
+# Usage: python drive_to_github_patch.py IN.pdf OUT.pdf [map.json]  (map: drive_id -> {"path": repo-relative mp3})
 import sys, os, re, json
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from pypdf import PdfWriter
@@ -5,7 +6,7 @@ from pypdf.generic import NameObject, TextStringObject
 import qrcode
 from PIL import Image
 from qrutil import load, is_qr_candidate, qdec
-m = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "map.json")))
+m = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), sys.argv[3] if len(sys.argv) > 3 else "travel_drive_map.json")))
 BASE = "https://contatospeakenglishschool-droid.github.io/speak-audio/"
 new = {i: BASE + v["path"] for i, v in m.items()}
 def did(u):
