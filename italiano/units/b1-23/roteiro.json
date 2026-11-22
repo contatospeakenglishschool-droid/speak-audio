@@ -1,0 +1,26 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Camila": "it-IT-Chirp3-HD-Despina",
+  "Giulia": "it-IT-Chirp3-HD-Leda"
+ },
+ "pauses": {
+  "23.2": 3000
+ },
+ "images": {
+  "it-b1-unita-23": {
+   "A": "chrysanthemum flowers bouquet",
+   "B": "apennine mountains hiking trail",
+   "C": "italian mountain village houses",
+   "D": "hiking boots trail"
+  }
+ },
+ "units": {
+  "it-b1-unita-23": {
+   "23.1 Se l'avessi saputo": "Narrator: Domenica 13 giugno, sera. Camila è appena tornata dalla montagna. Al bar Giulia la aspettano Júlia e Giulia.\nJúlia: Eccola! Allora, com'è andata con i genitori di Pietro?\nCamila: Bene... alla fine. Ma ho fatto due errori enormi.\nGiulia: Racconta, racconta!\nCamila: Primo: alla mamma di Pietro ho portato dei fiori. Dei crisantemi gialli, bellissimi.\nGiulia: Oh no. Dei crisantemi?\nCamila: Appunto. Lei ha sorriso, ma era un po' strana. Poi Pietro mi ha spiegato che in Italia i crisantemi si portano al cimitero.\nJúlia: Davvero? In Brasile non c'è questa regola!\nCamila: Se l'avessi saputo, avrei portato una torta!\nGiulia: Cara, se me l'avessi chiesto, te l'avrei detto io.\nCamila: Lo so. Secondo errore: sono andata in sandali. E il papà di Pietro ci ha portati a fare una passeggiata di tre ore.\nJúlia: Tre ore in sandali?\nCamila: Sui sassi! Se Pietro mi avesse detto che si camminava tanto, avrei messo le scarpe da montagna. E adesso, se avessi messo le scarpe giuste, non avrei male ai piedi.\nGiulia: E la mamma? Si è offesa per i fiori?\nCamila: No, per fortuna. A cena ha riso tantissimo e mi ha detto di darle del tu. E mi ha invitata di nuovo a Ferragosto.\nJúlia: Visto? Se non ci fossi andata, non l'avresti mai conosciuta.\nCamila: Hai ragione. E la tua scrivania, Júlia?\nJúlia: Hanno risposto alla lettera! Arriva mercoledì. Se avessi scritto subito come voleva la signora Rossi, l'avrei già da una settimana.\nGiulia: Domani è un giorno importante per tutte e due: a te arriva la nuova collega, e a me il cugino di Pietro, per l'estate.\nCamila: Allora brindiamo. Con un'acqua: oggi ho camminato abbastanza!",
+   "23.2 Ripeti": "Narrator: Se l'avessi saputo, avrei portato una torta.\nNarrator: Se me l'avessi chiesto, te l'avrei detto io.\nNarrator: Avrei messo le scarpe da montagna.\nNarrator: Se non ci fossi andata, non l'avresti conosciuta.\nNarrator: Avremmo camminato di meno.\nNarrator: Se fossimo partiti prima, saremmo arrivati in tempo."
+  }
+ }
+}

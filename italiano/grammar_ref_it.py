@@ -1369,3 +1369,26 @@ def lettera_formale(b):
 {_tbl(["informale", "formale"], inf, "7.6pt", ["24mm", None])}</div></div>
 {_dont([("Assunto: ordine 4521", "<b>Oggetto</b>: ordine 4521 (<i>assunto</i> = preso a lavorare)"), ("Spettabile signora Bianchi,", "<b>Gentile</b> signora Bianchi (<i>Spettabile</i> solo per aziende)"), ("Aspetto il Vostro ritorno.", "Attendo un Vostro cortese <b>riscontro</b>.")])}""",
     24, """<p>Il brasiliano trasporta le formule del portoghese: <i>Prezado</i> → <i>Gentile</i>, <i>Assunto</i> → <i>Oggetto</i>, <i>Atenciosamente</i> → <i>Cordiali / Distinti saluti</i>, <i>aguardo retorno</i> → <i>attendo riscontro</i>. Insistere sul condizionale: <i>Voglio una scrivania nuova</i> suona aggressivo.</p>""")
+
+
+def periodo_ipotetico_3(b):
+    """B1 Progresso 23: periodo ipotetico dell'irrealtà nel passato (se + congiuntivo trapassato, condizionale passato); misto."""
+    fo = [("verbi con <b>avere</b>", "se <b>avessi</b> saputo", "<b>avrei</b> portato"),
+          ("verbi con <b>essere</b>", "se <b>fossi</b> andata", "<b>sarei</b> rimasta"),
+          ("tutte le persone", "avessi, avessi, avesse, avessimo, aveste, avessero", "avrei, avresti, avrebbe, avremmo, avreste, avrebbero")]
+    ti = [("<b>1. realtà</b>", "se + presente", "presente / futuro", "<i>Se <b>vieni</b>, ti <b>porto</b> in montagna.</i>"),
+          ("<b>2. possibilità</b>", "se + cong. imperfetto", "condizionale presente", "<i>Se <b>venissi</b>, ti <b>porterei</b> in montagna.</i>"),
+          ("<b>3. irrealtà nel passato</b>", "se + <b>cong. trapassato</b>", "<b>condizionale passato</b>", "<i>Se <b>fossi venuta</b>, ti <b>avrei portato</b> in montagna.</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: il periodo ipotetico (se l'avessi saputo…)", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Il terzo tipo di periodo ipotetico parla del <b>passato che non si può più cambiare</b>: rimpianti, errori, occasioni perse. La condizione non si è realizzata, quindi anche la conseguenza non c'è stata: <i>Se l'avessi saputo, avrei portato una torta</i> (ma non lo sapevo e non l'ho portata).</div>
+{_h("1. LE FORME")}
+{_tbl(["", "condizione: se + congiuntivo trapassato", "conseguenza: condizionale passato"], fo, "7.9pt", ["30mm", None, None])}
+<p class="small" style="margin:.5mm 0">Il <b>congiuntivo trapassato</b> = congiuntivo imperfetto di <i>avere / essere</i> + participio. Con <i>essere</i> il participio concorda: <i>se Camila fosse <b>andata</b>, se fossimo <b>arrivati</b></i>.</p>
+{_h("2. I TRE TIPI A CONFRONTO")}
+{_tbl(["tipo", "condizione", "conseguenza", "esempio"], ti, "7.8pt", ["34mm", "34mm", "32mm", None])}
+<div class="two"><div>{_h("3. IL PERIODO MISTO")}
+<p class="small" style="margin:.5mm 0">Condizione nel passato, conseguenza <b>oggi</b>: se + cong. trapassato → <b>condizionale presente</b>. <i>Se avessi messo le scarpe giuste, adesso non <b>avrei</b> male ai piedi.</i></p></div>
+<div>{_h("4. NEL PARLATO")}
+<p class="small" style="margin:.5mm 0">Gli italiani dicono spesso <i>Se lo <b>sapevo</b>, <b>portavo</b> una torta</i> (due imperfetti). È colloquiale: capiscilo, ma nello scritto usa la forma completa.</p></div></div>
+{_dont([("Se l'avrei saputo, avrei portato una torta.", "Se l'<b>avessi saputo</b>, avrei portato una torta."), ("Se avessi saputo, porterei una torta.", "Se avessi saputo, <b>avrei portato</b> una torta."), ("Se fossi andato (Camila)…", "Se <b>fossi andata</b>… (con <i>essere</i> concorda)")])}""",
+    24, """<p>La struttura è uguale al portoghese (<i>se eu tivesse sabido, teria levado</i>): <i>avessi saputo</i> = <i>tivesse sabido</i>. Errori tipici: il condizionale dopo <i>se</i> (<i>se avrei saputo</i>), la conseguenza al condizionale presente e l'accordo con <i>essere</i>. Pronuncia: <i>avremmo</i> (condizionale) ≠ <i>avremo</i> (futuro).</p>""")
