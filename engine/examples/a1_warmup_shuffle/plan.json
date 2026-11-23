@@ -1,0 +1,616 @@
+{
+ "1": {
+  "sort": [
+   "a city",
+   "a doctor",
+   "a friend",
+   "happy",
+   "hello",
+   "a student",
+   "a teacher",
+   "tired"
+  ]
+ },
+ "2": {
+  "sort": [
+   "a bag",
+   "keys",
+   "a laptop",
+   "a notebook",
+   "a pen",
+   "a phone",
+   "an umbrella",
+   "a wallet"
+  ],
+  "perm": [
+   5,
+   7,
+   4,
+   1,
+   2,
+   3,
+   6,
+   0
+  ],
+  "new_grid": [
+   "a notebook",
+   "an umbrella",
+   "a pen",
+   "keys",
+   "a wallet",
+   "a bag",
+   "a laptop",
+   "a phone"
+  ]
+ },
+ "3": {
+  "sort": [
+   "brother and sister",
+   "father and daughter",
+   "grandparents",
+   "husband and wife",
+   "mother and son",
+   "parents and children",
+   "two brothers",
+   "two sisters"
+  ],
+  "perm": [
+   4,
+   3,
+   2,
+   1,
+   5,
+   6,
+   0,
+   7
+  ],
+  "new_grid": [
+   "two sisters",
+   "husband and wife",
+   "father and daughter",
+   "mother and son",
+   "brother and sister",
+   "two brothers",
+   "grandparents",
+   "parents and children"
+  ]
+ },
+ "4": {
+  "sort": [
+   "breakfast",
+   "a class",
+   "dinner",
+   "lunch",
+   "a meeting",
+   "a movie",
+   "a soccer game",
+   "a train"
+  ],
+  "perm": [
+   2,
+   7,
+   1,
+   0,
+   6,
+   4,
+   5,
+   3
+  ],
+  "new_grid": [
+   "dinner",
+   "a soccer game",
+   "lunch",
+   "breakfast",
+   "a movie",
+   "a class",
+   "a train",
+   "a meeting"
+  ]
+ },
+ "5": {
+  "sort": [
+   "cook",
+   "dance",
+   "drive a car",
+   "make coffee",
+   "play the guitar",
+   "ride a bike",
+   "swim",
+   "use a computer"
+  ],
+  "perm": [
+   2,
+   6,
+   0,
+   3,
+   1,
+   7,
+   4,
+   5
+  ],
+  "new_grid": [
+   "swim",
+   "make coffee",
+   "cook",
+   "play the guitar",
+   "drive a car",
+   "use a computer",
+   "dance",
+   "ride a bike"
+  ]
+ },
+ "6": {
+  "sort": [
+   "get home",
+   "get up",
+   "go to bed",
+   "go to work",
+   "have breakfast",
+   "have dinner",
+   "have lunch",
+   "take a shower"
+  ]
+ },
+ "7": {
+  "sort": [
+   "cook",
+   "go jogging",
+   "go skiing",
+   "go to the gym",
+   "meet friends",
+   "read a book",
+   "travel",
+   "watch TV"
+  ]
+ },
+ "8": {
+  "sort": [
+   "bake a cake",
+   "clean the house",
+   "do homework",
+   "go shopping",
+   "play the guitar",
+   "read a good book",
+   "spend time with family",
+   "take the bus"
+  ]
+ },
+ "10": {
+  "sort": [
+   "a cake",
+   "candy",
+   "chocolate",
+   "cookies",
+   "a doughnut",
+   "ice cream",
+   "pancakes",
+   "a pie"
+  ],
+  "perm": [
+   7,
+   4,
+   6,
+   2,
+   3,
+   5,
+   0,
+   1
+  ],
+  "new_grid": [
+   "pancakes",
+   "chocolate",
+   "ice cream",
+   "a pie",
+   "candy",
+   "cookies",
+   "a cake",
+   "a doughnut"
+  ]
+ },
+ "11": {
+  "sort": [
+   "a backpack",
+   "a charger",
+   "glasses",
+   "a hairbrush",
+   "headphones",
+   "an ID card",
+   "a jacket",
+   "a water bottle"
+  ]
+ },
+ "12": {
+  "sort": [
+   "a bench",
+   "a fence",
+   "a flower",
+   "a gate",
+   "grass",
+   "a path",
+   "a potted plant",
+   "a tree"
+  ],
+  "perm": [
+   2,
+   7,
+   6,
+   0,
+   5,
+   3,
+   1,
+   4
+  ],
+  "new_grid": [
+   "a flower",
+   "a potted plant",
+   "grass",
+   "a bench",
+   "a tree",
+   "a gate",
+   "a fence",
+   "a path"
+  ]
+ },
+ "13": {
+  "sort": [
+   "black coffee",
+   "coffee with cream",
+   "a muffin",
+   "orange juice",
+   "a pastry",
+   "a sandwich",
+   "a smoothie",
+   "tea"
+  ],
+  "perm": [
+   2,
+   5,
+   6,
+   0,
+   3,
+   4,
+   1,
+   7
+  ],
+  "new_grid": [
+   "tea",
+   "a muffin",
+   "a sandwich",
+   "black coffee",
+   "orange juice",
+   "a smoothie",
+   "coffee with cream",
+   "a pastry"
+  ]
+ },
+ "14": {
+  "sort": [
+   "an armchair",
+   "a chair",
+   "a desk",
+   "a lamp",
+   "a mirror",
+   "shelves",
+   "a table",
+   "a wardrobe"
+  ],
+  "perm": [
+   2,
+   5,
+   3,
+   1,
+   6,
+   0,
+   7,
+   4
+  ],
+  "new_grid": [
+   "a lamp",
+   "a table",
+   "a mirror",
+   "a desk",
+   "a wardrobe",
+   "a chair",
+   "shelves",
+   "an armchair"
+  ]
+ },
+ "15": {
+  "sort": [
+   "a bar",
+   "an elevator",
+   "a gym",
+   "laundry",
+   "a pool",
+   "reception",
+   "a restaurant",
+   "Wi-Fi"
+  ]
+ },
+ "17": {
+  "perm": [
+   1,
+   4,
+   0,
+   7,
+   5,
+   6,
+   3,
+   2
+  ],
+  "new_grid": [
+   "China",
+   "Mexico",
+   "Brazil",
+   "Germany",
+   "Japan",
+   "France",
+   "Italy",
+   "Egypt"
+  ]
+ },
+ "19": {
+  "perm": [
+   0,
+   7,
+   5,
+   3,
+   6,
+   1,
+   4,
+   2
+  ],
+  "new_grid": [
+   "It's sunny.",
+   "It's hot.",
+   "It's stormy.",
+   "It's windy.",
+   "It's foggy.",
+   "It's raining.",
+   "It's cloudy.",
+   "It's snowing."
+  ]
+ },
+ "21": {
+  "perm": [
+   5,
+   2,
+   4,
+   7,
+   1,
+   6,
+   0,
+   3
+  ],
+  "new_grid": [
+   "a post office",
+   "a movie theater",
+   "a pharmacy",
+   "traffic lights",
+   "a bank",
+   "a supermarket",
+   "a bakery",
+   "a museum"
+  ]
+ },
+ "24": {
+  "perm": [
+   5,
+   3,
+   7,
+   4,
+   1,
+   6,
+   2,
+   0
+  ],
+  "new_grid": [
+   "a piano",
+   "a guitar",
+   "a studio",
+   "a microphone",
+   "a concert",
+   "a record",
+   "the drums",
+   "a band"
+  ]
+ },
+ "26": {
+  "perm": [
+   7,
+   4,
+   6,
+   1,
+   5,
+   2,
+   0,
+   3
+  ],
+  "new_grid": [
+   "watch a movie",
+   "go to a restaurant",
+   "read a book",
+   "eat pizza",
+   "meet friends",
+   "get up late",
+   "buy new clothes",
+   "go dancing"
+  ]
+ },
+ "28": {
+  "perm": [
+   2,
+   5,
+   7,
+   0,
+   6,
+   3,
+   1,
+   4
+  ],
+  "new_grid": [
+   "hotel",
+   "office",
+   "post office",
+   "bakery",
+   "pharmacy",
+   "movie theater",
+   "bank",
+   "museum"
+  ]
+ },
+ "29": {
+  "perm": [
+   4,
+   2,
+   5,
+   0,
+   3,
+   7,
+   1,
+   6
+  ],
+  "new_grid": [
+   "shoes",
+   "jeans",
+   "skirt",
+   "coat",
+   "shirt",
+   "sweater",
+   "dress",
+   "socks"
+  ]
+ },
+ "30": {
+  "perm": [
+   5,
+   2,
+   4,
+   7,
+   1,
+   6,
+   0,
+   3
+  ],
+  "new_grid": [
+   "lettuce",
+   "cheese",
+   "garlic",
+   "a potato",
+   "bread",
+   "an onion",
+   "an apple",
+   "an egg"
+  ]
+ },
+ "31": {
+  "perm": [
+   2,
+   6,
+   0,
+   4,
+   7,
+   1,
+   3,
+   5
+  ],
+  "new_grid": [
+   "carrots",
+   "peas",
+   "bananas",
+   "eggplant",
+   "strawberries",
+   "broccoli",
+   "corn",
+   "grapes"
+  ]
+ },
+ "32": {
+  "perm": [
+   3,
+   0,
+   7,
+   4,
+   6,
+   1,
+   5,
+   2
+  ],
+  "new_grid": [
+   "go jogging",
+   "clean the house",
+   "watch a movie",
+   "have a meeting",
+   "take an exam",
+   "do yoga",
+   "see the dentist",
+   "get a haircut"
+  ]
+ },
+ "33": {
+  "perm": [
+   1,
+   4,
+   6,
+   0,
+   7,
+   2,
+   5,
+   3
+  ],
+  "new_grid": [
+   "caring for people",
+   "exploring space",
+   "helping the police",
+   "as friends",
+   "in education",
+   "doing housework",
+   "fighting wars",
+   "doing operations"
+  ]
+ },
+ "34": {
+  "perm": [
+   6,
+   4,
+   0,
+   7,
+   1,
+   3,
+   5,
+   2
+  ],
+  "new_grid": [
+   "throw away",
+   "hold on",
+   "eat out",
+   "worry about",
+   "fill up",
+   "heat up",
+   "think about",
+   "give up"
+  ]
+ },
+ "35": {
+  "perm": [
+   1,
+   6,
+   3,
+   5,
+   7,
+   4,
+   0,
+   2
+  ],
+  "new_grid": [
+   "drive slowly",
+   "take pictures",
+   "leave the car",
+   "open the windows",
+   "touch the animals",
+   "leave the road",
+   "buy souvenirs",
+   "feed the animals"
+  ]
+ }
+}
