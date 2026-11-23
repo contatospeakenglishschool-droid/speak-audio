@@ -1,0 +1,34 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Ferri": "it-IT-Chirp3-HD-Charon",
+  "Meccanico": "it-IT-Chirp3-HD-Charon"
+ },
+ "pauses": {"R3.2": 5500},
+ "images": {
+  "it-b1-ripasso-3": {
+   "A": "home office desk chair",
+   "B": "yellow chrysanthemums",
+   "C": "bologna porticoes",
+   "D": "city bus interior seats",
+   "E": "arancini rice balls",
+   "F": "job interview handshake",
+   "G": "apartment building courtyard garden",
+   "H": "red motorcycle parked"
+  }
+ },
+ "units": {
+  "it-b1-ripasso-3": {
+   "R3.1 Conversazione": "Narrator: Domenica 15 agosto, Ferragosto. Nel cortile, tra le piante del nuovo giardino, c'è un lungo tavolo. Il pranzo è appena cominciato.\nSignora Rossi: Che meraviglia! Due settimane fa qui era tutto grigio. Júlia, sei stata bravissima.\nJúlia: Grazie, ma da sola non ce l'avrei fatta. Ho fatto portare le piante, e Davide mi ha aiutata a piantarle.\nDavide: Dopo aver lavorato due giorni sotto il sole, posso dire che sono un vero giardiniere.\nGiulia: E la moto, giardiniere?\nDavide: Me la sono fatta controllare tutta: freni, gomme... e benzina!\nBruno: Eccoci! Abbiamo portato i cannoli, direttamente dalla Sicilia. Chiara arriva tra poco.\nSignora Rossi: Bruno, com'è stata la Sicilia?\nBruno: Bellissima. Sapete che Ruggero secondo fu incoronato re a Palermo nel 1130?\nJúlia: Ecco il professore! Se avessi saputo che era così bella, sarei venuta anch'io.\nGiulia: E Camila? Pensavo che venisse.\nJúlia: È in montagna dai genitori di Pietro: l'avevano invitata a giugno. A quest'ora avrà già mangiato tre piatti di polenta.\nSignora Rossi: Allora, chiunque abbia fame, si serva! E qualsiasi cosa avanzi, ve la portate a casa.\nGiulia: Júlia, hai invitato anche il signore del quarto piano?\nJúlia: Sì, quello la cui radio si sente fino a mezzanotte. Gli ho lasciato un biglietto sotto la porta.\nSignora Rossi: Non verrà, cara. Non ci sente!\nDavide: Manca solo il vino...\nNarrator: In quel momento arriva l'amministratore, il ragionier Ferri, con due bottiglie.\nFerri: Gentili condòmini, come deciso in assemblea, ecco il vino. Buon Ferragosto a tutti.\nSignora Rossi: Bravo, ragioniere! Vorrei che lo portasse anche l'anno prossimo.\nFerri: Signora, con Lei non si discute.\nBruno: Allora, un brindisi! A Júlia, che ci ha fatto un giardino...\nSignora Rossi: ...e al ragioniere, che finalmente ci ha portato il vino!",
+   "R3.2 Dettato": "Narrator: Ascolta e scrivi le frasi.\nNarrator: Uno. Chi arriva tardi porta le paste.\nNarrator: Due. Vi sarei grata se poteste rispondermi entro venerdì.\nNarrator: Tre. Se l'avessi saputo, non avrei portato i crisantemi.\nNarrator: Quattro. Dopo aver studiato tutta la notte, ha preso ventiquattro.\nNarrator: Cinque. Quando avrà finito gli esami, comprerà la moto.\nNarrator: Sei. Federico secondo nacque a Jesi.\nNarrator: Sette. Qualsiasi cosa succeda, ti aiuto.\nNarrator: Otto. Sarebbe ora che mettessero la rastrelliera.\nNarrator: Nove. Mi sono fatta tagliare i capelli.",
+   "R3.3 Dialoghi": "Narrator: Dialogo uno. Allo studio.\nMarco: Júlia, il cliente vuole che rifacciamo l'ingresso.\nJúlia: Di nuovo? Se l'avessi saputo, non avrei finito i disegni ieri.\nMarco: Lo so. Vorrei che il capo gli dicesse di no.\nJúlia: Non lo farà. Qualsiasi cosa chieda il cliente, il capo dice sempre di sì.\nMarco: Allora facciamo così: ti offro un caffè, e chiunque ci cerchi, siamo in riunione.\nNarrator: Dialogo due. Dal meccanico.\nDavide: Buongiorno! Vorrei far controllare la moto.\nMeccanico: Certo. Quando me la porti?\nDavide: Domani mattina, dopo essere andato all'università.\nMeccanico: Va bene. Per mezzogiorno l'avrò già controllata.\nDavide: Perfetto. E vorrei anche che tu cambiassi l'olio. Grazie ancora per l'altra volta: non mi hai fatto pagare niente!\nMeccanico: Figurati. Ma la benzina, questa volta, mettila tu!"
+  }
+ }
+}
