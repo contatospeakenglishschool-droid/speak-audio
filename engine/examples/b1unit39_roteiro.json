@@ -1,0 +1,22 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Ana": "en-US-Neural2-F",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-39": {
+   "39.1 Two phone calls": "Narrator: Call one. Monday evening.\nAna: Hello?\nDanny: Hi Ana! It's Danny. Is this a good time?\nAna: Sure! I'm on my break. How are things?\nDanny: Pretty good! Listen... my birthday is on Thursday, and I'm having a small get-together at the hostel this weekend. Would you like to come?\nAna: Oh, happy birthday in advance! I'd love to come. When is it?\nDanny: Shall we say Saturday evening?\nAna: I'm afraid Saturday isn't good for me. I'll be working a twelve-hour shift at the hospital. Can you make it on Friday instead?\nDanny: Friday... yeah, Friday sounds fine. Bruno is going to Porto Alegre on Saturday morning, so Friday works for him too. And Mrs. Lima says we can use the kitchen.\nAna: Great! What time?\nDanny: How about eight? I'll be cooking all afternoon, so come hungry!\nAna: Perfect. See you on Friday!\nNarrator: Call two. Thursday afternoon.\nDanny: Hello?\nAna: Hi Danny! It's Ana. Happy birthday! Listen, I'm calling about tomorrow. I'm really sorry, but something has come up. A colleague is sick, so I'll be covering her night shift.\nDanny: Oh no, that's a pity.\nAna: I know. Can we put it off till Sunday?\nDanny: Sunday works for me. But Bruno will be flying back from Porto Alegre on Sunday afternoon. His plane lands at six.\nAna: Then let's say seven thirty. Is that OK?\nDanny: Sure! Seven thirty at the hostel.\nAna: And I'll pick up a cake on my way. I know a great bakery near the hospital.\nDanny: You don't have to do that!\nAna: I want to. It's your birthday! So... are we still on for Sunday?\nDanny: Definitely. See you then!",
+   "39.2 Repeat: I'll be working": "Narrator: I'll be working all day on Saturday.\nNarrator: This time tomorrow I'll be flying to Porto Alegre.\nNarrator: I'll be cooking, so come hungry!\nNarrator: Will you be using the car tonight?\nNarrator: She won't be coming to the party.\nNarrator: Don't call at nine. We'll be having dinner."
+  }
+ },
+ "images": {
+  "b1-unit-39": {
+   "A": "paper planner calendar desk pen",
+   "B": "woman doctor talking on phone hospital",
+   "C": "birthday cake candles table",
+   "D": "friends dinner party kitchen"
+  }
+ }
+}

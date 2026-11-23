@@ -1837,3 +1837,23 @@ def wish_present(b):
     ["for a future you think is possible, use <b>hope</b>", "<i>I <b>hope</b> my mom visits next year.</i>"]], "8.1pt")}
 {_dont([("I wish I speak better Portuguese.", "I wish I <b>spoke</b> better Portuguese."), ("I wish I can see my mom.", "I wish I <b>could</b> see my mom."), ("I wish I would have more time.", "I wish I <b>had</b> more time."), ("I wish you have a great trip!", "I <b>hope</b> you have a great trip!"), ("I wish my family live closer.", "I wish my family <b>lived</b> closer.")])}""",
     22, """<p>Brazilians often use the present after <i>wish</i> (<i>I wish I speak…</i>) and use <i>wish</i> for good wishes about the future (<i>I wish you have a great trip</i>), where English uses <i>hope</i>. Drill: say a fact (<i>I don't have a car.</i>); the student turns it into a wish (<i>I wish I had a car.</i>).</p>""")
+
+
+def future_continuous(b):
+    """B1 Unit 39: future continuous (will be + -ing): in progress at a future time, plans that will happen anyway, polite questions about plans."""
+    b.page(f"""{b.sec("+", "Grammar reference: the future continuous", "")}
+<div class="box" style="margin-top:0"><h4>WILL BE + -ING</h4>We use the <b>future continuous</b> for an action that will be <b>in progress</b> at a time in the future. <i>Don't call at nine. We'<b>ll be having</b> dinner. · This time tomorrow I'<b>ll be flying</b> to Porto Alegre.</i></div>
+{_h("1. FORM")}
+{_tbl(["", "form", "example"], [
+    ["<b>+</b>", "<b>will ('ll) be</b> + verb-<b>ing</b>", "<i>I'<b>ll be working</b> all day on Saturday.</i>"],
+    ["<b>−</b>", "<b>won't be</b> + verb-<b>ing</b>", "<i>She <b>won't be coming</b> to the party.</i>"],
+    ["<b>?</b>", "<b>Will</b> + subject + <b>be</b> + verb-<b>ing</b>?", "<i><b>Will</b> you <b>be using</b> the car tonight?</i>"]], "8.1pt")}
+{_h("2. USES")}
+{_tbl(["use", "example"], [
+    ["an action in progress at a future time (<i>at eight tonight, this time tomorrow, all afternoon</i>)", "<i>I'<b>ll be cooking</b> all afternoon, so come hungry!</i>"],
+    ["a reason why you are not free (common when you make plans)", "<i>Saturday isn't good for me. I'<b>ll be working</b> a twelve-hour shift.</i>"],
+    ["a polite question about someone's plans (softer than <i>Will you…?</i>)", "<i><b>Will</b> you <b>be using</b> the car tonight?</i> (I'd like to borrow it.)"],
+    ["compare: <b>present continuous</b> = an arrangement; <b>will</b> = a promise or a quick decision", "<i>I'<b>m having</b> a get-together on Friday. · OK, I'<b>ll call</b> you tomorrow.</i>"],
+    ["state verbs (<i>have</i> = possess, <i>know, like, be</i>) are not used in the continuous", "<i>I <b>have</b> an appointment. · I'<b>ll know</b> tomorrow.</i>"]], "8.1pt")}
+{_dont([("I will working on Saturday.", "I'<b>ll be working</b> on Saturday."), ("I'll be sending you the report. (a promise)", "I'<b>ll send</b> you the report."), ("I'm having an appointment on Friday.", "I <b>have</b> an appointment on Friday."), ("I'll be knowing the answer tomorrow.", "I'<b>ll know</b> the answer tomorrow."), ("Tomorrow at eight I'll have dinner, so don't call.", "Tomorrow at eight I'<b>ll be having</b> dinner.")])}""",
+    22, """<p>Many Brazilians overuse <i>will be + -ing</i> in emails and on the phone for promises and simple future actions (<i>I'll be sending…, I'll be checking…</i>). In English this sounds strange: use <i>I'll send…</i>. Keep the future continuous for actions in progress at a future time. Drill: say a time (<i>tomorrow at 10</i>); the student says what they'll be doing.</p>""")
