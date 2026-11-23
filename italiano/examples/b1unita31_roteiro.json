@@ -1,0 +1,27 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck"
+ },
+ "pauses": {
+  "31.2": 3000
+ },
+ "images": {
+  "it-b1-unita-31": {
+   "A": "tourists crowd old town narrow street italy",
+   "B": "rolling suitcase cobblestone street",
+   "C": "key lock box door apartment",
+   "D": "people discussing table cafe debate"
+  }
+ },
+ "units": {
+  "it-b1-unita-31": {
+   "31.1 Secondo me, invece": "Narrator: Sabato 4 settembre, aperitivo al Bar Giulia. Fuori passano gruppi di turisti con i trolley. Sul bancone c'è il giornale di oggi.\nMarco: Avete letto? «Bologna, record di turisti anche ad agosto.» Ormai in centro si sentono più trolley che biciclette.\nGiulia: Io però non mi lamento. Quest'estate il bar non è mai stato così pieno.\nMarco: Lo so. Tuttavia, guarda che cosa succede in centro: la vecchia ferramenta di mio zio è diventata l'ennesimo negozio di mortadella.\nDavide: E gli affitti! Un mio compagno di corso cerca una stanza da luglio. Niente: i proprietari affittano ai turisti, guadagnano di più. Dunque lui fa il pendolare da Modena.\nJúlia: Eppure il turismo porta anche lavoro. Uno dei nostri nuovi clienti vuole trasformare un vecchio palazzo in un albergo.\nMarco: Appunto! Un altro albergo. Secondo me bisognerebbe limitare gli affitti brevi.\nJúlia: Secondo me, invece, piuttosto che vietare, bisognerebbe costruire case per gli studenti. Vietare non basta.\nGiulia: E poi i turisti non sono tutti uguali. Ieri una coppia di Lione mi ha chiesto dove si impara a fare i tortellini.\nDavide: Sì, ma la maggior parte resta due giorni, mangia un panino e riparte. Piuttosto, Júlia, Camila dov'è?\nJúlia: Mercoledì ha cominciato il lavoro nuovo. Stasera finisce tardi.\nDavide: E tu, Giulia? È vero che parti anche tu?\nGiulia: Sì! Lunedì torna Elena, e sabato prossimo parto per la Sardegna. Un mese intero!\nMarco: Dunque anche tu diventi una turista.\nGiulia: Eppure io non mi sento una turista. Io vado in vacanza: è diverso!\nJúlia: Secondo me, invece, è proprio quello che dicono tutti i turisti.\nMarco: Va bene, va bene. Brindiamo a Giulia. E ai turisti... ma non troppi.",
+   "31.2 Ripeti": "Narrator: Io però non mi lamento.\nNarrator: Tuttavia, guarda che cosa succede in centro.\nNarrator: Dunque lui fa il pendolare da Modena.\nNarrator: Eppure il turismo porta anche lavoro.\nNarrator: Piuttosto che vietare, bisognerebbe costruire case per gli studenti.\nNarrator: Secondo me, invece, è proprio quello che dicono tutti i turisti."
+  }
+ }
+}
