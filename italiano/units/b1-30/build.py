@@ -148,10 +148,10 @@ def build(teacher):
     dal = "".join(f'<li>{R(x.split(". ", 1)[1])}</li>' if T else '<li><div class="wline"></div></li>' for x in DETT)
     d1 = [("Marco", "Júlia, il cliente vuole che rifacciamo l'ingresso.", ""), ("Júlia", "Di nuovo? Se l'avrei saputo, non avrei finito i disegni ieri.", "avessi saputo"),
           ("Marco", "Lo so. Vorrei che il capo gli dice di no.", "dicesse"), ("Júlia", "Non lo farà. Qualsiasi cosa chiede il cliente, il capo dice sempre di sì.", "chieda"),
-          ("Marco", "Allora ti offro un caffè, e chiunque ci cerchi, siamo in riunione.", "")]
+          ("Marco", "Allora facciamo così: ti offro un caffè, e chiunque ci cerchi, siamo in riunione.", "")]
     d2 = [("Davide", "Buongiorno! Vorrei far controllare la moto.", ""), ("Meccanico", "Certo. Quando me la porti?", ""),
           ("Davide", "Domani mattina, dopo avere andato all'università.", "essere andato"), ("Meccanico", "Va bene. Per mezzogiorno l'avrò già controllata.", ""),
-          ("Davide", "E vorrei anche che tu cambi l'olio. Grazie per l'altra volta: non mi hai fatto pagato niente!", "cambiassi · pagare")]
+          ("Davide", "Perfetto. E vorrei anche che tu cambi l'olio. Grazie ancora per l'altra volta: non mi hai fatto pagato niente!", "cambiassi · pagare")]
     def dl(rows): return "".join(f"<div><b>{n}:</b> {t} {R('→ ' + c) if c else ''}</div>" for n, t, c in rows)
     b.page(f"""{sec(6, "Dettato e italiano sociale", "9 min")}
 {audiocard(["R3.2", "R3.3"])}
