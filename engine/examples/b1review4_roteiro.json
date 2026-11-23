@@ -1,0 +1,35 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Ana": "en-US-Neural2-F",
+  "Bruno": "en-US-Chirp3-HD-Fenrir",
+  "Mrs. Lima": "en-US-Chirp3-HD-Vindemiatrix",
+  "Carol": "en-US-Chirp3-HD-Leda",
+  "Mechanic": "en-US-Chirp3-HD-Charon",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-review-4": {
+   "R4.1 A birthday dinner": "Ana: Happy birthday, Danny! Sorry I'm late. And sorry again about Friday.\nDanny: Don't worry! Thanks for the cake. It looks amazing.\nAna: I had it made at the bakery near the hospital. It's chocolate.\nBruno: Hi everyone! Sorry, I'm late too. My plane was supposed to land at six, but it was forty minutes late.\nDanny: And then the traffic?\nBruno: Of course. Because of an accident on the highway, the taxi took over an hour. I was about to get out and take the subway!\nMrs. Lima: Well, you're all here now. Ana, how's your new kitchen?\nAna: Finally finished! We had new cabinets put in, and Danny helped us paint the walls. And this time Marcos didn't try to fix anything himself.\nBruno: Speaking of fixing things... the kitchen faucet here is leaking again. It needs fixing.\nMrs. Lima: I know, I know. I'm having it fixed on Tuesday.\nAna: So, Danny, how does it feel to be a year older?\nDanny: Strange! I wish my mom were here. And I wish I could have her lasagna tonight.\nMrs. Lima: Why don't you call her after dinner?\nDanny: Good idea. She'll be waiting for my call anyway.\nBruno: So what are your plans? Are you staying in São Paulo?\nDanny: I was going to go home in July, but now I'm thinking of staying until the end of the year.\nAna: Then how about a trip to the Pantanal before you go?\nBruno: It's worth it! My uncle took me there when I was a kid, and I saw a jaguar.\nMrs. Lima: And the new restaurant on our street is said to be wonderful. I suggest we all go there next weekend.\nBruno: I can't. I'll be working on a big project all weekend.\nAna: And I'll be working nights again. How about the weekend after?\nDanny: That works for me! Now... who wants cake?",
+   "R4.2 Dictation: weak forms": "Narrator: Number one. I'm having it fixed on Tuesday.\nNarrator: Number two. My plane was supposed to land at six.\nNarrator: Number three. The faucet needs fixing.\nNarrator: Number four. I wish I could stay longer.\nNarrator: Number five. How about going to the beach?\nNarrator: Number six. I'll be working all weekend.",
+   "R4.3 Dialogues": "Narrator: Dialogue one.\nMechanic: Good morning. What can I do for you?\nCarol: Hi. My car needs checking. The brakes are making a strange noise.\nMechanic: OK, we'll take a look. Your tires need to be changed, too.\nCarol: Can I have it done today?\nMechanic: Sure. It'll be ready at four.\nNarrator: Dialogue two.\nBruno: How about going to the beach on Saturday?\nDanny: I'd love to, but I'll be working. I have two tours.\nBruno: Then I suggest we go on Sunday.\nDanny: Sunday works for me. But it's worth leaving early, because of the traffic."
+  }
+ },
+ "pauses": {
+  "R4.2": 6000
+ },
+ "images": {
+  "b1-review-4": {
+   "A": "paint roller wall painting",
+   "B": "green valley river landscape",
+   "C": "crowded subway platform rush hour",
+   "D": "traffic jam highway",
+   "E": "jaguar portrait",
+   "F": "small beach house",
+   "G": "flat tire car",
+   "H": "passport on table",
+   "I": "birthday dinner table friends cake"
+  }
+ }
+}
