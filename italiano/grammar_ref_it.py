@@ -1519,3 +1519,23 @@ def fare_causativo(b):
 <p class="small" style="margin:.5mm 0"><i>Ho fatto riparare la moto.</i> → <i>L'ho fatt<b>a</b> riparare.</i> (accordo con <i>lo, la, li, le</i>)<br><i>Júlia si è fatt<b>a</b> tagliare i capelli.</i> (con <i>farsi</i>: essere)<br><i>Me li sono fatti tagliare.</i><br>Anche: <i>lasciare</i> + infinito: <i>Lasciami parlare!</i></p></div></div>
 {_dont([("Ho tagliato i capelli (dal parrucchiere).", "Mi sono fatta / fatto <b>tagliare</b> i capelli."), ("Faccio ripararla domani.", "<b>La faccio riparare</b> domani."), ("Ho fatto la moto controllare.", "Ho fatto <b>controllare la moto</b> (l'infinito subito dopo <i>fare</i>).")])}""",
     24, """<p>L'errore tipico è <i>ho tagliato i capelli / ho lavato la macchina</i> per dire che l'ha fatto qualcun altro (il portoghese <i>cortei o cabelo</i>). Insistere su <i>farsi</i> + essere al passato e sull'ordine fisso <i>fare + infinito + oggetto</i>. L'agente si introduce con <i>a</i> o <i>da</i>: <i>da</i> evita ambiguità quando c'è già un complemento con <i>a</i>.</p>""")
+
+
+def connettivi_b1(b):
+    """B1 Progresso 31: connettivi per argomentare: tuttavia, eppure, dunque, piuttosto (che/di)."""
+    tb = [("<b>contrasto</b>", "però, ma · <b>tuttavia</b> (più formale) · invece", "<i>Il bar è pieno; <b>tuttavia</b> Giulia non si lamenta.</i>"),
+          ("<b>contrasto inaspettato</b>", "<b>eppure</b> (= e nonostante questo)", "<i>Abito qui da tre anni, <b>eppure</b> mi perdo ancora.</i>"),
+          ("<b>conseguenza</b>", "quindi, perciò · <b>dunque</b>", "<i>Non trova una stanza, <b>dunque</b> fa il pendolare.</i>"),
+          ("<b>alternativa, preferenza</b>", "<b>piuttosto che / piuttosto di</b> + infinito, anziché", "<i><b>Piuttosto che</b> vietare, costruiamo case.</i>"),
+          ("<b>aggiunta</b>", "inoltre, per di più, e poi", "<i><b>Inoltre</b> i prezzi salgono.</i>"),
+          ("<b>conclusione</b>", "insomma, in conclusione, alla fine", "<i><b>Insomma</b>, turisti sì, ma non troppi.</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: i connettivi per argomentare", "")}
+<div class="box" style="margin-top:0"><h4>CHE COSA SONO?</h4>In un dibattito non basta dire <i>secondo me</i>: bisogna <b>collegare</b> gli argomenti. I <b>connettivi</b> mostrano se un'idea si oppone a un'altra (<i>tuttavia, eppure</i>), ne è la conseguenza (<i>dunque</i>) o propone un'alternativa (<i>piuttosto che</i>). A livello B1 sostituiscono il solito <i>ma… quindi… ma…</i> e rendono il discorso più maturo.</div>
+{_h("1. I CONNETTIVI PRINCIPALI")}
+{_tbl(["funzione", "connettivi", "esempio"], tb, "7.9pt", ["34mm", "52mm", None])}
+<div class="two"><div>{_h("2. DOVE SI METTONO?")}
+<p class="small" style="margin:.5mm 0"><b>Tuttavia</b>: all'inizio della frase, dopo il punto o il punto e virgola, oppure dopo il verbo tra virgole: <i>Il centro, tuttavia, è bellissimo.</i><br><b>Eppure</b>: sempre all'inizio della frase che contrasta.<br><b>Dunque</b>: tra le due frasi; all'inizio di un discorso vuol dire anche «allora»: <i>Dunque, dove eravamo?</i></p></div>
+<div>{_h("3. I TRE USI DI PIUTTOSTO")}
+<p class="small" style="margin:.5mm 0"><b>piuttosto</b> + aggettivo = abbastanza: <i>È <b>piuttosto</b> caro.</i><br><b>piuttosto che / di</b> + infinito = invece di: <i><b>Piuttosto che</b> lamentarti, proponi qualcosa!</i><br><b>piuttosto</b> (da solo) = cambio di argomento: <i><b>Piuttosto</b>, è vero che parti?</i><br>Nel confronto: <i>Preferisco il treno <b>piuttosto che</b> la macchina.</i></p></div></div>
+{_dont([("Mi piace Bologna, eppure mi piace Firenze.", "Mi piace Bologna e <b>anche</b> Firenze. (<i>eppure</i> = contrasto)"), ("È caro. Intanto lo compro.", "È caro. <b>Tuttavia</b> lo compro. (<i>intanto</i> = nel frattempo)"), ("Preferisco il mare piuttosto la montagna.", "Preferisco il mare <b>piuttosto che</b> la montagna.")])}""",
+    24, """<p>Il brasiliano usa <i>entretanto</i> per «però» e lo traduce con <i>intanto</i>, che in italiano vuol dire «nel frattempo». <i>Eppure</i> suona come «e anche»: chiarire che esprime sempre un contrasto sorprendente. Far notare le doppie (<i>e<b>pp</b>ure, piu<b>tt</b>osto, tu<b>tt</b>avia</i>) e il registro: <i>tuttavia</i> e <i>dunque</i> sono più formali di <i>però</i> e <i>quindi</i>, ma si usano anche parlando.</p>""")
