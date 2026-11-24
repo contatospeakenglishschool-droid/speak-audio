@@ -1,0 +1,25 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus"
+ },
+ "pauses": {
+  "37.2": 3000
+ },
+ "images": {
+  "it-b1-unita-37": {
+   "A": "two colleagues talking office",
+   "B": "wooden pergola terrace",
+   "C": "meeting notes notebook pen desk",
+   "D": "man phone call office"
+  }
+ },
+ "units": {
+  "it-b1-unita-37": {
+   "37.1 Mi ha chiesto di": "Narrator: Giovedì 2 dicembre, allo studio. Il parere della Soprintendenza è arrivato. Stamattina Júlia ha incontrato il dottor Galli per spiegargli tutto. Marco la aspetta, curioso.\nMarco: Allora? Com'è andata con Galli? Si è arrabbiato?\nJúlia: All'inizio sì. Quando gli ho detto che l'alluminio non si può usare, mi ha chiesto se stavo scherzando.\nMarco: Classico. E tu?\nJúlia: Gli ho detto di leggere il parere con calma, pagina per pagina. E gli ho consigliato di non pensare alle finestre di legno come a un costo, ma come a un valore.\nMarco: Brava. E la terrazza?\nJúlia: Mi ha chiesto se almeno la terrazza si poteva fare. Gli ho risposto di sì, ma senza ombrelloni. Allora mi ha chiesto perché un ombrellone disturbava tanto la Soprintendenza.\nMarco: E che cosa gli hai detto?\nJúlia: Che si vedrebbe dalla strada. Poi mi ha pregato di trovare una soluzione: vuole a tutti i costi un po' d'ombra per i clienti.\nMarco: Una pergola bassa, di legno? Dalla strada non si vede.\nJúlia: Esatto, gliel'ho proposta io! Mi ha chiesto di disegnarla entro Natale e di mandargli tre preventivi.\nMarco: Entro Natale? Ma è tra tre settimane!\nJúlia: Lo so. E alla fine mi ha chiesto di salutarti e di dirti che sei troppo severo con i clienti.\nMarco: Io, severo? Ah, a proposito: ha chiamato la dottoressa Benassi. Ci ha chiesto di mandarle le foto degli affreschi prima di lunedì.\nJúlia: Le ho fatte venerdì scorso: te le mando subito.\nMarco: Perfetto. Mi ha anche detto di ricordarti che senza il suo permesso non si tocca niente.\nJúlia: Me l'avrà detto dieci volte! Senti, ti chiedo un favore: dimmi se la pergola ti piace, prima che la veda Galli.\nMarco: Fammi vedere... Mmh. Ti chiedo solo di farla un po' più bassa.\nJúlia: Più bassa di così? Va bene, va bene.",
+   "37.2 Ripeti": "Narrator: Mi ha chiesto se stavo scherzando.\nNarrator: Gli ho detto di leggere il parere con calma.\nNarrator: Gli ho consigliato di non pensare alle finestre come a un costo.\nNarrator: Mi ha chiesto se almeno la terrazza si poteva fare.\nNarrator: Mi ha pregato di trovare una soluzione.\nNarrator: Ci ha chiesto di mandarle le foto degli affreschi."
+  }
+ }
+}

@@ -1657,3 +1657,27 @@ def participio_assoluto(b):
 <p class="small" style="margin:.5mm 0">Nei testi scritti il pronome si attacca al participio: <i><b>Salutatili</b>, è uscito.</i> (= dopo averli salutati) · <i><b>Laureatosi</b> a Bologna, partì per Milano.</i> Basta riconoscerlo: nel parlato si preferisce <i>dopo averli salutati</i>.</p></div></div>
 {_dont([("Finito la festa, abbiamo pulito.", "<b>Finita</b> la festa, abbiamo pulito."), ("Dopo finita la cena, siamo usciti.", "<b>Finita</b> la cena, siamo usciti."), ("Lavato i bicchieri, puliamo.", "<b>Lavati</b> i bicchieri, puliamo.")])}""",
     28, """<p>Il portoghese ha la stessa struttura (<i>terminada a festa, feito isso</i>): lo studente la capisce subito. Il calco <i>depois de terminada a festa</i> produce <i>dopo finita</i>: in italiano il participio basta da solo. Controllare l'accordo (soprattutto il plurale <i>-i / -e</i>) e far trasformare frasi con <i>dopo che</i> in frasi con il participio, e viceversa.</p>""")
+
+
+def richieste_indirette(b):
+    """B1 Progresso 37: riferire richieste, ordini e consigli (verbo + di + infinito) e domande (chiedere se / perché…)."""
+    rq = [("«<b>Leggi</b> il parere!»", "Gli ho detto <b>di leggere</b> il parere.", "ordine, istruzione"),
+          ("«<b>Non pensare</b> al costo!»", "Gli ho consigliato <b>di non pensare</b> al costo.", "consiglio negativo"),
+          ("«<b>Mandatemi</b> le foto!»", "Ci ha chiesto <b>di mandarle</b> le foto.", "richiesta (pronome cambiato)"),
+          ("«Trova una soluzione, <b>ti prego</b>!»", "Mi ha pregato <b>di trovare</b> una soluzione.", "richiesta insistente"),
+          ("«<b>Si può</b> fare la terrazza?»", "Mi ha chiesto <b>se</b> si poteva fare la terrazza.", "domanda sì / no"),
+          ("«<b>Perché</b> disturba?»", "Mi ha chiesto <b>perché</b> disturbava.", "domanda aperta")]
+    vb = [("<b>a</b> qualcuno → <b>gli / le</b>", "dire, chiedere, consigliare, proporre, ricordare, raccomandare, permettere, vietare <b>di</b>", "<i><b>Gli</b> ho consigliato di aspettare.</i>"),
+          ("qualcuno → <b>lo / la</b>", "pregare, invitare, convincere <b>a / di</b>", "<i><b>L</b>'ho pregato di venire. · <b>L</b>'ho convinta a restare.</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: mi ha chiesto di… · mi ha chiesto se…", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Quando <b>riferiamo</b> a qualcuno che cosa ci hanno chiesto, ordinato o consigliato, l'imperativo diventa <b>di + infinito</b>: <i>«Leggi!»</i> → <i>Mi ha detto <b>di leggere</b>.</i> Le domande diventano <b>chiedere se</b> (sì / no) o <b>chiedere perché, dove, quando…</b> In italiano <i>chiedere</i> vuol dire sia «pedir» sia «perguntar»: decide quello che viene dopo.</div>
+{_h("1. DALLE PAROLE AL RACCONTO")}
+{_tbl(["frase diretta", "frase riferita", "tipo"], rq, "7.9pt", ["46mm", None, "36mm"])}
+{_h("2. I VERBI E I PRONOMI")}
+{_tbl(["costruzione", "verbi", "esempio"], vb, "7.9pt", ["34mm", "72mm", None])}
+<div class="two"><div>{_h("3. NEL PASSATO")}
+<p class="small" style="margin:.5mm 0">Se il verbo che introduce è al passato, nella domanda riferita il presente diventa <b>imperfetto</b>: <i>«Si può?» → Mi ha chiesto se si <b>poteva</b>.</i> Nello stile formale si usa anche il congiuntivo: <i>se si <b>potesse</b></i>. Cambiano anche i pronomi e le parole di tempo: <i>mi → gli, oggi → quel giorno</i>.</p></div>
+<div>{_h("4. CHIEDERE O DOMANDARE?")}
+<p class="small" style="margin:.5mm 0"><b>chiedere qualcosa</b> = pedir: <i>chiedere un favore</i> · <b>chiedere di</b> + infinito = pedir para · <b>chiedere / domandare se</b> = perguntar se. Mai <s>chiedere per</s> + infinito.</p></div></div>
+{_dont([("Mi ha chiesto per mandare le foto.", "Mi ha chiesto <b>di</b> mandare le foto."), ("Gli ho detto che legge il parere.", "Gli ho detto <b>di leggere</b> il parere."), ("Gli ho pregato di venire.", "<b>L</b>'ho pregato di venire.")])}""",
+    28, """<p>Il brasiliano traduce <i>pedir para / dizer para</i> + infinito con <i>chiedere per / dire per</i>: è l'errore più frequente. Far notare che <i>chiedere</i> copre «pedir» e «perguntar» e che la scelta tra <i>di</i> e <i>se</i> chiarisce il senso. Lavorare sui pronomi (<i>gli ho detto</i> ma <i>l'ho pregato</i>) e sull'intonazione: la domanda riferita non sale alla fine.</p>""")
