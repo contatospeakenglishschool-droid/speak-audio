@@ -5,8 +5,8 @@ sys.path.insert(0, os.path.join(HERE, "..", ".."))
 from engine_de import *
 setup(band="A1 · EINHEIT 04", audio_json=os.path.join(HERE, "audio_de-a1-einheit-04.json"), img_dir=os.path.join(HERE, "img"), lang="de-DE")
 
-PHOTOS = [("A", "der Opa", "der opa"), ("B", "die Oma", "die oma"), ("C", "der Vater", "der vater"), ("D", "die Mutter", "die mutter"),
-          ("E", "der Bruder", "der bruder"), ("F", "die Schwester", "die schwester"), ("G", "der Sohn", "der sohn"), ("H", "die Tochter", "die tochter")]
+PHOTOS = [('A', 'der Opa', 'der opa'), ('B', 'der Vater', 'der vater'), ('C', 'die Mutter', 'die mutter'), ('D', 'die Schwester', 'die schwester'),
+          ('E', 'die Tochter', 'die tochter'), ('F', 'die Oma', 'die oma'), ('G', 'der Sohn', 'der sohn'), ('H', 'der Bruder', 'der bruder')]
 
 SCRIPT = [("Erzählerin", "Dialog eins."), ("Lena", "Ist das deine Familie?"), ("Rafael", "Ja. Das ist mein Vater, Paulo. Und das ist meine Mutter, Ana."),
           ("Lena", "Und wer ist das?"), ("Rafael", "Das ist meine Schwester, Bia. Sie ist vierundzwanzig."), ("Lena", "Hast du Geschwister?"),
@@ -42,7 +42,7 @@ def build(teacher):
                        [("DU KANNST", "deine Familie zeigen, nach dem Alter fragen und sagen, wie alt du bist"),
                         ("SPRACHE", "mein / meine · dein / deine · haben: ich habe, du hast · Wie alt bist du? – Ich bin 29."),
                         ("AUSSPRACHE", "Zahlen 0–100 · ei / ie in drei, vier")])
-    words = ["der Bruder", "der Opa", "der Sohn", "der Vater", "die Mutter", "die Oma", "die Schwester", "die Tochter"]
+    words = ["der Bruder", "die Mutter", "die Oma", "der Opa", "die Schwester", "der Sohn", "die Tochter", "der Vater"]
     b.page(f"""{sec(1, "Einstieg: die Familie", "8 Min.")}
 {sub("A", "Hör zu und sprich nach. Schreib.", "5 Min.", "04.2")}
 <div class="bank">{" &nbsp;·&nbsp; ".join(words)}</div>

@@ -5,8 +5,8 @@ sys.path.insert(0, os.path.join(HERE, "..", ".."))
 from engine_de import *
 setup(band="A1 · EINHEIT 01", audio_json=os.path.join(HERE, "audio_de-a1-einheit-01.json"), img_dir=os.path.join(HERE, "img"), lang="de-DE")
 
-PHOTOS = [("A", "Hallo!", "hallo"), ("B", "Guten Morgen!", "guten morgen"), ("C", "Guten Tag!", "guten tag"), ("D", "Guten Abend!", "guten abend"),
-          ("E", "Gute Nacht!", "gute nacht"), ("F", "Auf Wiedersehen!", "auf wiedersehen"), ("G", "Tschüss!", "tschüss"), ("H", "Freut mich!", "freut mich")]
+PHOTOS = [('A', 'Tschüss!', 'tschüss'), ('B', 'Gute Nacht!', 'gute nacht'), ('C', 'Guten Morgen!', 'guten morgen'), ('D', 'Auf Wiedersehen!', 'auf wiedersehen'),
+          ('E', 'Guten Tag!', 'guten tag'), ('F', 'Guten Abend!', 'guten abend'), ('G', 'Freut mich!', 'freut mich'), ('H', 'Hallo!', 'hallo')]
 
 SCRIPT = [("Erzählerin", "Dialog eins."), ("Herr Schneider", "Guten Morgen! Ich bin Klaus Schneider. Wie heißen Sie?"),
           ("Rafael", "Guten Morgen! Ich heiße Rafael Costa."), ("Herr Schneider", "Freut mich, Herr Costa. Wie geht es Ihnen?"),
@@ -75,7 +75,7 @@ def build(teacher):
 <div class="bank">dir · heiße · heißen · heißt · Ihnen · Tschüss</div>
 {twocol(gl, 4)}
 {sub("C", "Lies die Dialoge mit der Lehrkraft.", "2 Min.")}""",
-    30, """<ol><li>A: <b>langsame</b> Version, zweimal hören. Vor dem Hören die Fotos von Seite 1 (B, A, D) zeigen: Morgen, Büro, Abend.</li>
+    30, """<ol><li>A: <b>langsame</b> Version, zweimal hören. Vor dem Hören die Fotos von Seite 1 (C, H, F) zeigen: Morgen, Büro, Abend.</li>
 <li>B: <b>natürliche</b> Version. Wörter aus dem Kasten. Nach jedem Dialog stoppen.</li>
 <li>C: Die Dialoge stehen auf der letzten Seite des Handbuchs. Die Lehrkraft liest vor, der Lernende ist Rafael. Dann tauschen.</li></ol>""")
 

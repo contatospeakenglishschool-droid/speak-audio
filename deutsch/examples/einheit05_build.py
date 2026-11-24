@@ -5,8 +5,8 @@ sys.path.insert(0, os.path.join(HERE, "..", ".."))
 from engine_de import *
 setup(band="A1 · EINHEIT 05", audio_json=os.path.join(HERE, "audio_de-a1-einheit-05.json"), img_dir=os.path.join(HERE, "img"), lang="de-DE")
 
-PHOTOS = [("A", "der Tisch", "der tisch"), ("B", "der Stuhl", "der stuhl"), ("C", "das Sofa", "das sofa"), ("D", "das Bett", "das bett"),
-          ("E", "die Lampe", "die lampe"), ("F", "der Schrank", "der schrank"), ("G", "das Regal", "das regal"), ("H", "die Uhr", "die uhr")]
+PHOTOS = [('A', 'der Tisch', 'der tisch'), ('B', 'das Bett', 'das bett'), ('C', 'der Stuhl', 'der stuhl'), ('D', 'das Regal', 'das regal'),
+          ('E', 'die Uhr', 'die uhr'), ('F', 'der Schrank', 'der schrank'), ('G', 'die Lampe', 'die lampe'), ('H', 'das Sofa', 'das sofa')]
 
 SCRIPT = [("Erzählerin", "Dialog eins. Auf dem Flohmarkt."), ("Rafael", "Entschuldigung, was kostet der Tisch?"), ("Verkäufer", "Der Tisch? Er kostet vierzig Euro."),
           ("Rafael", "Und die Lampe?"), ("Verkäufer", "Sie kostet fünfzehn Euro."), ("Rafael", "Gut, ich nehme die Lampe."),
@@ -30,7 +30,7 @@ def build(teacher):
                        [("DU KANNST", "nach dem Preis fragen und sagen, wie du etwas findest"),
                         ("SPRACHE", "der / die / das · er / sie / es · Was kostet …? – Er kostet 40 Euro. · Wie findest du …?"),
                         ("AUSSPRACHE", "eu wie in Euro · st / sp am Wortanfang")])
-    words = ["das Bett", "das Regal", "das Sofa", "der Schrank", "der Stuhl", "der Tisch", "die Lampe", "die Uhr"]
+    words = ["das Bett", "die Lampe", "das Regal", "der Schrank", "das Sofa", "der Stuhl", "der Tisch", "die Uhr"]
     pr = [("die Lampe", "250 €", "teuer"), ("der Stuhl", "8 €", "billig"), ("das Sofa", "1.900 €", "teuer"), ("die Uhr", "5 €", "billig")]
     pt = "".join(f'<td style="width:25%;text-align:center"><b>{n}</b><br>{p}<br>{ch(["teuer", "billig"], a)}</td>' for n, p, a in pr)
     b.page(f"""{sec(1, "Einstieg: Möbel", "8 Min.")}
@@ -142,7 +142,7 @@ def build(teacher):
 <div style="display:flex;gap:2.5mm;margin:1mm 0 2mm">{st}</div>
 <div class="msg"><b>A:</b> Entschuldigung, was kostet der Tisch?<br><b>B:</b> Er kostet fünfunddreißig Euro.<br><b>A:</b> Hm, teuer! Und die Lampe?<br><b>B:</b> Sie kostet zwölf Euro.<br><b>A:</b> Gut, ich nehme die Lampe.</div>
 {sub("B", "Wie findest du …? Antworte der Lehrkraft.", "5 Min.")}
-<ol style="line-height:1.8"><li>Wie findest du das Sofa auf Seite 1 (Foto C)?</li><li>Wie findest du die Uhr (Foto H)?</li><li>Wie findest du dein Bett?</li><li>Was ist teuer in Brasilien? Was ist billig?</li></ol>
+<ol style="line-height:1.8"><li>Wie findest du das Sofa auf Seite 1 (Foto H)?</li><li>Wie findest du die Uhr (Foto E)?</li><li>Wie findest du dein Bett?</li><li>Was ist teuer in Brasilien? Was ist billig?</li></ol>
 <div class="bank" style="background:#fff">{ADJ}</div>""",
     30, """<ol><li>A: Die Lehrkraft ist Verkäufer(in), der Lernende Kunde. Dann tauschen und die Preise ändern. <i>der Spiegel</i> ist neu: mit Geste oder Foto erklären.</li>
 <li>B: Antworten: <i>Es ist schön. / Ich finde es modern.</i> Frage 4: kurze Antworten genügen (<i>Das Auto ist teuer.</i>).</li></ol>""")

@@ -5,8 +5,8 @@ sys.path.insert(0, os.path.join(HERE, "..", ".."))
 from engine_de import *
 setup(band="A1 · EINHEIT 03", audio_json=os.path.join(HERE, "audio_de-a1-einheit-03.json"), img_dir=os.path.join(HERE, "img"), lang="de-DE")
 
-PHOTOS = [("A", "die Lehrerin", "die lehrerin"), ("B", "der Arzt", "der arzt"), ("C", "die Ingenieurin", "die ingenieurin"), ("D", "der Kellner", "der kellner"),
-          ("E", "die Verkäuferin", "die verkäuferin"), ("F", "der Student", "der student"), ("G", "die Köchin", "die köchin"), ("H", "der Informatiker", "der informatiker")]
+PHOTOS = [('A', 'der Informatiker', 'der informatiker'), ('B', 'der Student', 'der student'), ('C', 'der Kellner', 'der kellner'), ('D', 'die Lehrerin', 'die lehrerin'),
+          ('E', 'der Arzt', 'der arzt'), ('F', 'die Ingenieurin', 'die ingenieurin'), ('G', 'die Verkäuferin', 'die verkäuferin'), ('H', 'die Köchin', 'die köchin')]
 
 SCRIPT = [("Erzählerin", "Dialog eins."), ("Frau Krüger", "Herr Costa, eine Frage: Was sind Sie von Beruf?"), ("Rafael", "Ich bin Informatiker."),
           ("Frau Krüger", "Und sind Sie verheiratet?"), ("Rafael", "Nein, ich bin nicht verheiratet. Ich bin ledig."), ("Frau Krüger", "Danke schön!"),
@@ -30,14 +30,14 @@ def build(teacher):
                        [("DU KANNST", "nach dem Beruf fragen, deinen Beruf sagen und sagen, wo du arbeitest"),
                         ("SPRACHE", "Was bist du / sind Sie von Beruf? · Ich bin … · Ich arbeite als … / bei … · Lehrer → Lehrerin · nicht"),
                         ("AUSSPRACHE", "-er am Wortende · ä / ö")])
-    words = ["der Arzt", "der Informatiker", "der Kellner", "der Student", "die Ingenieurin", "die Köchin", "die Lehrerin", "die Verkäuferin"]
+    words = ["der Arzt", "der Informatiker", "die Ingenieurin", "der Kellner", "die Köchin", "die Lehrerin", "der Student", "die Verkäuferin"]
     b.page(f"""{sec(1, "Einstieg: Berufe", "8 Min.")}
 {sub("A", "Hör zu und sprich nach. Schreib.", "5 Min.", "03.2")}
 <div class="bank">{" &nbsp;·&nbsp; ".join(words)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Mann oder Frau? Wähle.", "3 Min.")}
 <table class="ck"><tr>{"".join(f'<td style="width:25%;text-align:center">{ch(o, a)}</td>' for o, a in [(["Lehrer", "Lehrerin"], "Lehrerin"), (["Arzt", "Ärztin"], "Arzt"), (["Koch", "Köchin"], "Köchin"), (["Student", "Studentin"], "Student")])}</tr>
-<tr>{"".join(f'<td style="text-align:center"><span class="small">Foto {l}</span></td>' for l in "ABGF")}</tr></table>""",
+<tr>{"".join(f'<td style="text-align:center"><span class="small">Foto {l}</span></td>' for l in "DEHB")}</tr></table>""",
     30, """<ol><li>A: Track 03.2 (Seite 4) sagt immer beide Formen: <i>der Lehrer, die Lehrerin</i>. Die Lehrkraft zeigt auf das Foto, der Lernende spricht beide Formen nach und schreibt die Form vom Foto. Wiederholung zuerst: <i>Hallo! Wie geht’s? Woher kommst du?</i></li>
 <li>B: Mann = <i>der …</i>, Frau = <i>die …-in</i>. Nur zeigen, die Regel kommt auf Seite 3.</li></ol>""", cover=cover)
 

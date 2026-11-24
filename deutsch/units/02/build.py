@@ -5,8 +5,8 @@ sys.path.insert(0, os.path.join(HERE, "..", ".."))
 from engine_de import *
 setup(band="A1 · EINHEIT 02", audio_json=os.path.join(HERE, "audio_de-a1-einheit-02.json"), img_dir=os.path.join(HERE, "img"), lang="de-DE")
 
-PHOTOS = [("A", "Brasilien", "brasilien"), ("B", "Deutschland", "deutschland"), ("C", "Österreich", "österreich"), ("D", "Italien", "italien"),
-          ("E", "Spanien", "spanien"), ("F", "Portugal", "portugal"), ("G", "Frankreich", "frankreich"), ("H", "Japan", "japan")]
+PHOTOS = [('A', 'Österreich', 'österreich'), ('B', 'Italien', 'italien'), ('C', 'Spanien', 'spanien'), ('D', 'Brasilien', 'brasilien'),
+          ('E', 'Frankreich', 'frankreich'), ('F', 'Portugal', 'portugal'), ('G', 'Deutschland', 'deutschland'), ('H', 'Japan', 'japan')]
 
 SCRIPT = [("Erzählerin", "Dialog eins."), ("Frau Krüger", "Guten Tag! Wie heißen Sie?"), ("Rafael", "Rafael Costa."),
           ("Frau Krüger", "Wie schreibt man das?"), ("Rafael", "C – O – S – T – A."), ("Frau Krüger", "Danke. Woher kommen Sie, Herr Costa?"),
