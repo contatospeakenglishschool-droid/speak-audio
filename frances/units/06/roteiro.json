@@ -1,0 +1,31 @@
+{
+ "material": "speak-essentiel",
+ "characters": {
+  "Camila": "fr-FR-Chirp3-HD-Autonoe",
+  "Hugo": "fr-FR-Chirp3-HD-Puck",
+  "Madame Lefèvre": "fr-FR-Studio-A",
+  "Nadia": "fr-FR-Chirp3-HD-Kore",
+  "Thomas": "fr-FR-Chirp3-HD-Charon",
+  "Narratrice": "fr-FR-Chirp3-HD-Aoede"
+ },
+ "pauses": {"06.2": 2500, "06.3": 3000},
+ "units": {
+  "fr-a1-unite-06": {
+   "06.1 Dialogue": "Narratrice: Dialogue un.\nCamila: Hugo, il y a une pharmacie dans le quartier ?\nHugo: Oui, il y a une pharmacie, rue d'Austerlitz. Il y a aussi une boulangerie, un marché et des restaurants.\nCamila: Et un supermarché ?\nHugo: Oui, il y a un supermarché, rue de Belfort.\nCamila: Super ! Le quartier est sympa.\nNarratrice: Dialogue deux.\nMadame Lefèvre: Bonjour, Camila ! Vous allez où ?\nCamila: Bonjour, madame ! Je vais à la boulangerie. Et vous ?\nMadame Lefèvre: Moi, je vais à la pharmacie. Bonne journée !\nCamila: Bonne journée, madame !\nNarratrice: Dialogue trois.\nNadia: Camila, en août, tu vas où ?\nCamila: Je vais au Brésil, à Recife ! Et toi, Nadia ?\nNadia: Moi, je vais en Italie, à Rome.\nThomas: Et moi, je vais à Paris.\nNadia: Et ce soir, on va où ?\nThomas: Au cinéma !",
+   "06.2 Les lieux": "Narratrice: une banque\nNarratrice: une boulangerie\nNarratrice: une gare\nNarratrice: un musée\nNarratrice: un parc\nNarratrice: une pharmacie\nNarratrice: un restaurant... des restaurants\nNarratrice: un supermarché",
+   "06.3 Les phrases": "Narratrice: On va où ?\nNarratrice: Il y a une pharmacie dans le quartier ?\nNarratrice: Il y a des restaurants.\nNarratrice: Je vais à la boulangerie.\nNarratrice: Je vais au Brésil, à Recife.\nNarratrice: Je vais en France, à Lyon."
+  }
+ },
+ "images": {
+  "fr-a1-unite-06": {
+   "A": "pharmacy storefront green cross",
+   "B": "train station platform",
+   "C": "restaurant terrace tables",
+   "D": "bank building entrance",
+   "E": "museum gallery visitors paintings",
+   "F": "supermarket aisle shelves",
+   "G": "bakery bread display",
+   "H": "city park bench trees"
+  }
+ }
+}
