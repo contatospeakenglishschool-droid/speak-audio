@@ -1,0 +1,21 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-44": {
+   "44.1 Gap Year Diaries: thank you!": "Danny: Welcome back to Gap Year Diaries! Today's episode is a thank-you episode. This year a lot of people helped me, and I want to thank five of them.\nDanny: Number one: Mrs. Lima, the owner of my hostel. When an ATM kept my debit card, I wasn't able to get any money for more than a week. Mrs. Lima lent me some cash, and she didn't let me pay her back until my new card arrived.\nDanny: Number two: Tomás, in Patagonia. After a long walk on my fourth day, I knocked on his door. I was exhausted, and I couldn't find anywhere to stay nearby. Tomás put me up for two nights, and he didn't want anything for it.\nDanny: Number three: my friend Ana. Before my job interview, I was so nervous that I couldn't sleep. Ana gave me some great advice. Actually, she planned my whole week! And I managed to get the job.\nDanny: Number four: Bruno. He gave me a ride to my first day at work. He drove very carefully... well, almost.\nDanny: And number five: a stranger. Last Sunday, I bought a bookcase for my room, and I wasn't able to carry it home by myself. It was too heavy. A man stopped and asked, \"Do you need a hand?\" Together, we managed to carry it all the way to the hostel and up three floors. Then he just smiled and left. I didn't even ask his name! So, if you're listening... thank you!\nDanny: When I was a kid, I could do everything by myself. Or that's what I thought! This year I learned to say yes when people offer help. And one day, I hope I'll be able to help someone like them.\nDanny: Now a question for you. Who helped you this year? Were you able to say thank you? Send me a message!",
+   "44.2 Repeat: offering help": "Narrator: Do you need a hand?\nNarrator: Would you like me to help you?\nNarrator: Thanks. I'd appreciate that.\nNarrator: No thanks. I can manage.\nNarrator: Thanks for your help!\nNarrator: Any time!"
+  }
+ },
+ "images": {
+  "b1-unit-44": {
+   "A": "two people carrying cardboard box hands",
+   "B": "empty wooden bookcase",
+   "C": "thank you note handwritten card",
+   "D": "helping hand lifting heavy box stairs"
+  }
+ }
+}

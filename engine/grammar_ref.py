@@ -1925,3 +1925,24 @@ def reflexive_pronouns(b):
 <div class="box" style="margin-top:1.5mm"><h4>NOT REFLEXIVE IN ENGLISH</h4>These verbs have <b>no</b> reflexive pronoun: <b>relax · feel · wake up · get up · get dressed · shower · sit down · worry · remember · complain · meet</b>. <i>Go and <b>relax</b>. · I <b>feel</b> tired. · We <b>met</b> in 2019.</i></div>
 {_dont([("I relaxed myself on the sofa.", "I <b>relaxed</b> on the sofa."), ("I feel myself tired.", "I <b>feel</b> tired."), ("They love themselves. (= A loves B)", "They love <b>each other</b>."), ("I did it by me.", "I did it <b>by myself</b>."), ("Help you!", "<b>Help yourself!</b>"), ("Enjoy! (to two people)", "<b>Enjoy yourselves!</b> / Have fun!")])}""",
     30, """<p>Portuguese uses a reflexive pronoun with many everyday verbs, so Brazilians add <i>myself</i> to <i>relax, feel, worry, remember</i> and <i>sit down</i>. Teach the short list in the box. <i>Each other</i> is often confused with <i>themselves</i>: draw two arrows (A → B, B → A). Drill: say a sentence in the third person (<i>Ana and Carol hugged…</i>); the student finishes it with <i>each other</i>, a reflexive or nothing.</p>""")
+
+
+def ability(b):
+    """B1 Unit 44: ability: can / could / be able to in all tenses; could vs was able to / managed to for one specific success."""
+    b.page(f"""{b.sec("+", "Grammar reference: could, be able to, manage to", "")}
+<div class="box" style="margin-top:0"><h4>TALKING ABOUT ABILITY</h4><b>can</b> has only two forms: <b>can</b> (present) and <b>could</b> (past). For every other tense, and after another verb, use <b>be able to</b>. <i>I hope I'll <b>be able to</b> help someone one day.</i></div>
+{_h("1. ABILITY IN DIFFERENT TIMES")}
+{_tbl(["time", "form", "example"], [
+    ["present", "<b>can</b> · <b>am / is / are able to</b>", "<i>I <b>can</b> carry it by myself. · Are you <b>able to</b> come?</i>"],
+    ["past (general)", "<b>could</b> · <b>couldn't</b>", "<i>When I was a kid, I <b>could</b> do everything by myself.</i>"],
+    ["future", "<b>will be able to</b> · <b>won't be able to</b>", "<i>Sorry, I <b>won't be able to</b> come on Saturday.</i>"],
+    ["present perfect", "<b>have / has been able to</b>", "<i>I<b>'ve been able to</b> save some money since I started work.</i>"],
+    ["after a modal or <i>to</i>", "<b>might / should be able to</b> · <b>want / hope to be able to</b>", "<i>I <b>might be able to</b> help you next week.</i>"]], "8.1pt")}
+{_h("2. ONE SPECIFIC SUCCESS IN THE PAST")}
+{_tbl(["meaning", "form", "example"], [
+    ["a general ability (many times)", "<b>could</b>", "<i>She <b>could</b> swim when she was five.</i>"],
+    ["one specific situation, it worked", "<b>was / were able to</b> · <b>managed to</b> (not <i>could</i>)", "<i>We <b>managed to</b> carry it up three floors. · He <b>was able to</b> get a new card.</i>"],
+    ["it didn't work (general or specific)", "<b>couldn't</b> = <b>wasn't able to</b> = <b>didn't manage to</b>", "<i>I <b>couldn't</b> sleep. · I <b>wasn't able to</b> get any money.</i>"]], "8.1pt")}
+<div class="box" style="margin-top:1.5mm"><h4>MANAGE</h4><b>managed to</b> = it was difficult, but I did it. <i>I <b>managed to</b> get the job!</i> · <b>I can manage.</b> = I don't need help, thanks.</div>
+{_dont([("Yesterday I could finish the report.", "Yesterday I <b>managed to / was able to</b> finish the report."), ("I will can help you.", "I'll <b>be able to</b> help you."), ("I didn't can sleep.", "I <b>couldn't</b> sleep."), ("I have could save money.", "I<b>'ve been able to</b> save money."), ("We managed carrying it.", "We managed <b>to carry</b> it."), ("I can to swim.", "I can <b>swim</b>.")])}""",
+    30, """<p>Portuguese uses the same verb for <i>could</i> and <i>managed to</i>, so Brazilians say <i>Yesterday I could finish it</i> for one success. In the negative, <i>couldn't</i> is always fine. Other typical mistakes: <i>will can</i> and <i>have could</i>. Drill: ask about last week (<i>Did you finish everything? Did you find a parking space?</i>); the student answers with <i>managed to / was able to / couldn't</i>.</p>""")
