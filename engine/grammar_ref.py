@@ -2034,3 +2034,27 @@ def reported_questions(b):
 <div class="box" style="margin-top:1.5mm"><h4>OTHER VERBS</h4><b>want to know</b> / <b>wonder</b> + if / wh-: <i>I <b>wonder whether</b> it will work.</i> · <b>tell</b> always has a person: <i>He <b>told me</b> to wait</i> (not <i>told to me</i>). <b>say</b> has no person: <i>He <b>said</b> to wait.</i></div>
 {_dont([("He asked me what did I want.", "He asked me what <b>I wanted</b>."), ("She asked where was the station.", "She asked where <b>the station was</b>."), ("He asked me that I go.", "He asked me <b>to go</b>."), ("She said me to wait.", "She <b>told me</b> to wait."), ("He told me don't worry.", "He told me <b>not to worry</b>."), ("She asked me if I want coffee.", "She asked me if I <b>wanted</b> coffee.")])}""",
     30, """<p>The biggest problem is word order: Brazilians keep the question form (<i>He asked me where do I live</i>) because Portuguese does not change it. Second problem: <i>say me / told to me</i>. Drill: ask the student three questions and give one instruction; then the student reports them to an imaginary friend (<i>My teacher asked me if…, told me to…</i>).</p>""")
+
+
+def third_conditional(b):
+    """B1 Unit 49: third conditional (imagined past) + regrets; contrast with the second conditional; mixed preview."""
+    b.page(f"""{b.sec("+", "Grammar reference: the third conditional", "")}
+<div class="box" style="margin-top:0"><h4>IMAGINING A DIFFERENT PAST</h4>The <b>third conditional</b> talks about the <b>past</b>: something that did <b>not</b> happen and its imagined result. We often use it for <b>regrets</b> and to say <b>why</b> things happened.<br>
+<span class="small"><b>Reality:</b> <i>She left school at twelve, so she didn't become a teacher.</i> → <b>Imagined:</b> <i>If she <b>had stayed</b> in school, she <b>would have become</b> a teacher.</i></span></div>
+{_h("1. FORM")}
+{_tbl(["condition (if clause)", "result"], [
+    ["<b>If</b> + had + past participle<br><i>If he <b>had quit</b> earlier,</i>", "<b>would have</b> + past participle<br><i>he <b>would have felt</b> better.</i>"],
+    ["<i>If I<b>'d known</b> about the party,</i> ('d = had)", "<i>I<b>'d have come</b>.</i> ('d = would)"],
+    ["<i>If he <b>hadn't quit</b> smoking,</i>", "<i>he <b>wouldn't have lived</b> so long.</i>"]], "8.6pt")}
+<p class="small" style="margin:.8mm 0"><b>Question:</b> <i>What <b>would</b> you <b>have done</b> if you <b>had lost</b> your passport?</i> · <b>Short answers:</b> <i>Yes, I <b>would have</b>. / No, I <b>wouldn't have</b>.</i><br>
+<b>Order:</b> <i>If I'd known, I'd have called.</i> = <i>I'd have called if I'd known.</i> (comma only when <b>if</b> comes first)<br>
+<b>Other modals:</b> <i>could have / might have</i> + past participle: <i>If we'd left earlier, we <b>could have</b> caught the bus.</i></p>
+{_h("2. SECOND OR THIRD?")}
+{_tbl(["", "form", "example", "time"], [
+    ["<b>second</b>", "if + past, would + verb", "<i>If I had more time, I'd exercise more.</i>", "present / future (imagined)"],
+    ["<b>third</b>", "if + had done, would have done", "<i>If I'd had more time, I'd have exercised more.</i>", "past (imagined)"]], "8.4pt")}
+{_h("3. FROM REALITY TO IMAGINATION")}
+<p class="small" style="margin:.5mm 0">Go back one step in time and, very often, change positive ↔ negative: <i>I <b>didn't study</b>, so I <b>failed</b>.</i> → <i>If I <b>had studied</b>, I <b>wouldn't have failed</b>.</i><br>
+<b>Pronunciation:</b> <i>would have</i> = /ˈwʊdəv/ (<i>would've</i>); <i>wouldn't have</i> = /ˈwʊdntəv/. Write <i>would have</i>, never <i>would of</i>.</p>
+{_dont([("If I would have known, I would have called.", "If I <b>had known</b>, I would have called."), ("If I had studied, I would pass.", "…I <b>would have passed</b>."), ("If he hadn't quit, he wouldn't live so long.", "…he <b>wouldn't have lived</b> so long."), ("I would of helped you.", "I would <b>have</b> helped you."), ("If I had know, …", "If I had <b>known</b>, …")])}""",
+    30, """<p>The key Brazilian error is <i>would</i> in the if clause (<i>If I would have known</i>), and mixing the second and third conditionals in the result. Remind the student that <i>'d</i> means <i>had</i> in the if clause and <i>would</i> in the result. Drill: say a past fact (<i>I missed the bus, so I was late.</i>); the student makes a third conditional (<i>If I hadn't missed the bus, I wouldn't have been late.</i>).</p>""")

@@ -1,0 +1,24 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Ana": "en-US-Neural2-F",
+  "Lourdes": "en-US-Chirp3-HD-Gacrux",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-49": {
+   "49.1 Gap Year Diaries: the secret of a long life": "Danny: Welcome back to Gap Year Diaries! Today I'm not at the hostel. I'm in a small apartment in São Paulo with a very special guest. Ana's grandmother Lourdes turned ninety-seven last week, and she agreed to share her secrets with us. Ana is here too.\nAna: Hi everyone!\nLourdes: Good afternoon, young man. Ask me anything. But speak slowly!\nDanny: So what's the secret of a long life?\nLourdes: Oh, there's no secret. I just never stopped moving. I grew up on a farm, and we worked from sunrise to sunset. Now I walk to the bakery every morning. It's only two blocks, but I walk.\nAna: And she still takes the stairs when the elevator is broken!\nDanny: What about food?\nLourdes: Rice and beans, vegetables from the street market and fruit every day. Meat only on Sundays. And a little piece of dark chocolate after lunch. Just one!\nDanny: Did you ever smoke?\nLourdes: Never. My husband smoked for twenty years. He quit when he was forty, and he lived until eighty-eight. If he hadn't quit, he wouldn't have lived so long. I'm sure of that.\nDanny: Do you have any regrets?\nLourdes: Just one. I left school at twelve to help on the farm. If I had stayed in school, I would have become a teacher. I loved books.\nAna: But Grandma, you taught all of us to read!\nLourdes: That's true. And if I hadn't gone to that church party, I wouldn't have met your grandfather. So life worked out in the end.\nDanny: What else keeps you young?\nLourdes: People! I play cards with my neighbors every Thursday, and one of my grandchildren calls me every night. And I don't worry about things I can't change. Worrying doesn't add a single day to your life.\nDanny: Ana, you're a doctor. What do you think?\nAna: Good genes may be part of the reason. But I think the main reason is her lifestyle. She's always active, she eats well and she's never alone.\nDanny: Any advice for our listeners?\nLourdes: Eat your vegetables, call your grandmother... and stop looking at your phone all day!",
+   "49.2 Repeat: the third conditional": "Narrator: If I'd known, I would've called you.\nNarrator: If he hadn't quit, he wouldn't have lived so long.\nNarrator: If I'd stayed in school, I would've become a teacher.\nNarrator: She would've come if she'd had time.\nNarrator: We wouldn't have met if you hadn't gone to the party.\nNarrator: If you'd asked me, I would've helped."
+  }
+ },
+ "images": {
+  "b1-unit-49": {
+   "A": "elderly woman walking park",
+   "B": "elderly women playing cards table",
+   "C": "birthday cake candles",
+   "D": "fresh vegetables street market",
+   "E": "senior woman smiling portrait"
+  }
+ }
+}
