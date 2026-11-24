@@ -58,7 +58,7 @@ C = dict(
          "Ti chiedo un favore: … · Mi faresti un piacere? · Potresti…?", "Classico! · E tu che cosa gli hai detto? · Davvero ti ha chiesto questo?"]),
     pron=("La domanda diretta sale alla fine: <i>Si può fare? ↗</i> La domanda riferita è una frase normale e la voce scende: <i>Mi ha chiesto se si poteva fare. ↘</i> In <i>chiesto</i> e <i>chiedere</i>, <i>ch</i> si legge [k].",
           "Ascolta e ripeti. Poi leggi: «Mi ha chiesto se almeno la terrazza si poteva fare.»"),
-    task=("Il telefono senza fili: l'insegnante ti fa domande e richieste come un cliente difficile, un capo o un parente. Poi le riferisci a un'altra persona (l'insegnante cambia ruolo): <i>Mi ha chiesto di… / se… / perché…</i> Alla fine vi scambiate i ruoli.",
+    task=("Il telefono senza fili: l'insegnante ti fa domande e richieste come un cliente difficile, un capo o un parente. Poi le riferisci a un'altra persona (l'insegnante cambia ruolo): «Mi ha chiesto di… / se… / perché…». Alla fine vi scambiate i ruoli.",
           "<ul style='line-height:1.45;font-size:8.9pt;margin:0;columns:2'><li>un cliente che vuole tutto subito</li><li>un capo prima delle ferie</li><li>una suocera a Natale</li><li>un vicino rumoroso</li><li>un amico che trasloca</li><li>un medico</li></ul>",
           "Insegnante (cliente): Mi mandi il progetto entro domani! Si può fare più economico? Perché costa così tanto? Lo studente: Mi ha chiesto di mandargli… · Mi ha chiesto se… · Voleva sapere perché… Correggere <i>per</i> + infinito e la domanda riferita detta come una domanda."),
     talk5=["Hai mai avuto un cliente, un capo o un parente «difficile»? Che cosa ti chiedeva?", "È facile per te dire di no quando qualcuno ti chiede un favore?"],
