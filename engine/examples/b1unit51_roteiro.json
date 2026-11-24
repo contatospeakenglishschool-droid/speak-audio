@@ -1,0 +1,21 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-51": {
+   "51.1 Danny's blog: our new roommate has four legs": "Danny: Our new roommate has four legs. Last month Mrs. Lima did something none of us expected: she adopted a dog from an animal shelter. His name is Pipoca. He must have lived on the street for a long time, because he was very thin and scared of everyone. The people at the shelter say he can't have been more than two years old.\nDanny: In general, I thought a hostel was the wrong place for a dog. I was wrong. For example, when guests arrive tired after a long trip, they sit on the sofa and stroke Pipoca, and you can see the stress leave their faces. In addition, Mrs. Lima walks him twice a day, so she's more active than ever. She told me that since her husband died, she sometimes felt a sense of isolation in the evenings. Now she talks to Pipoca all the time. \"He's a great listener,\" she says. \"I confide in him more than in my children!\"\nDanny: Pipoca has been good for me too. When I was homesick last week, I took him for a long walk, and I came back feeling much better. On top of that, Bruno has a new running partner. Indeed, Pipoca runs faster than Bruno.\nDanny: However, a dog in a hostel isn't perfect. One guest was allergic to dogs and had to change rooms. And last Sunday someone must have left the gate open, because Pipoca disappeared for three hours. We found him at the bakery, of course. We should have checked the gate. On the other hand, everyone at the hostel worked together to find him, and the guests are still talking about it.\nDanny: So, is a pet good for your well-being? I can only speak for myself, but our hostel feels more like a home now. We should have adopted Pipoca years ago. Well... Mrs. Lima should have!",
+   "51.2 Repeat: must have, should have": "Narrator: He must've lived on the street.\nNarrator: Someone must've left the gate open.\nNarrator: He can't have been more than two.\nNarrator: We should've checked the gate.\nNarrator: She might've gone to the bakery.\nNarrator: You shouldn't have fed him chocolate."
+  }
+ },
+ "images": {
+  "b1-unit-51": {
+   "A": "mixed breed dog portrait",
+   "B": "dog sleeping on sofa",
+   "C": "dog leash walk street",
+   "D": "cat sleeping"
+  }
+ }
+}

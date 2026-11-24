@@ -2058,3 +2058,25 @@ def third_conditional(b):
 <b>Pronunciation:</b> <i>would have</i> = /ˈwʊdəv/ (<i>would've</i>); <i>wouldn't have</i> = /ˈwʊdntəv/. Write <i>would have</i>, never <i>would of</i>.</p>
 {_dont([("If I would have known, I would have called.", "If I <b>had known</b>, I would have called."), ("If I had studied, I would pass.", "…I <b>would have passed</b>."), ("If he hadn't quit, he wouldn't live so long.", "…he <b>wouldn't have lived</b> so long."), ("I would of helped you.", "I would <b>have</b> helped you."), ("If I had know, …", "If I had <b>known</b>, …")])}""",
     30, """<p>The key Brazilian error is <i>would</i> in the if clause (<i>If I would have known</i>), and mixing the second and third conditionals in the result. Remind the student that <i>'d</i> means <i>had</i> in the if clause and <i>would</i> in the result. Drill: say a past fact (<i>I missed the bus, so I was late.</i>); the student makes a third conditional (<i>If I hadn't missed the bus, I wouldn't have been late.</i>).</p>""")
+
+
+def past_modals(b):
+    """B1 Unit 51: modals in the past: must have / might have / can't have (deduction); should have / shouldn't have (criticism, regret); could have."""
+    b.page(f"""{b.sec("+", "Grammar reference: must have, should have", "")}
+<div class="box" style="margin-top:0"><h4>LOOKING BACK AT THE PAST</h4>Modal + <b>have</b> + <b>past participle</b> talks about the <b>past</b>. We use it to <b>guess</b> what happened (we don't know for sure) and to <b>criticize</b> or <b>regret</b> what happened.<br>
+<span class="small"><i>Pipoca was very thin. → He <b>must have lived</b> on the street.</i> (a guess) · <i>We didn't check the gate. → We <b>should have checked</b> it.</i> (a regret)</span></div>
+{_h("1. GUESSING ABOUT THE PAST (DEDUCTION)")}
+{_tbl(["modal + have + past participle", "how sure?", "example"], [
+    ["<b>must have</b> done", "almost sure it happened", "<i>The gate was open. Someone <b>must have left</b> it open.</i>"],
+    ["<b>might have / may have / could have</b> done", "maybe, perhaps", "<i>He <b>might have gone</b> to the bakery.</i>"],
+    ["<b>can't have / couldn't have</b> done", "almost sure it didn't happen", "<i>He <b>can't have been</b> more than two years old.</i>"]], "8.3pt")}
+{_h("2. CRITICISM AND REGRET")}
+{_tbl(["modal + have + past participle", "meaning", "example"], [
+    ["<b>should have</b> done", "it was a good idea, but we didn't do it", "<i>We <b>should have checked</b> the gate.</i>"],
+    ["<b>shouldn't have</b> done", "it was a bad idea, but we did it", "<i>You <b>shouldn't have given</b> him chocolate.</i>"],
+    ["<b>could have</b> done", "it was possible, but it didn't happen", "<i>He <b>could have been</b> hit by a car!</i>"]], "8.3pt")}
+<p class="small" style="margin:.8mm 0"><b>Present or past?</b> <i>He <b>must be</b> hungry.</i> (now) · <i>He <b>must have been</b> hungry.</i> (then) · <b>Continuous:</b> <i>She <b>must have been sleeping</b>.</i><br>
+<b>Pronunciation:</b> <i>must've</i> /ˈmʌstəv/, <i>should've</i> /ˈʃʊdəv/, <i>might've</i> /ˈmaɪtəv/, <i>can't have</i> /ˈkæntəv/. Write <i>have</i>, never <i>of</i>.<br>
+<b>Opposite of <i>must have</i>:</b> <i>can't have</i>, not <i>mustn't have</i>.</p>
+{_dont([("He must lived on the street.", "He must <b>have lived</b> on the street."), ("You should checked the gate.", "You should <b>have checked</b> the gate."), ("She mustn't have seen it. (= impossible)", "She <b>can't have</b> seen it."), ("We should of called.", "We should <b>have</b> called."), ("He must have went out.", "He must have <b>gone</b> out.")])}""",
+    30, """<p>Portuguese builds these with an infinitive, so Brazilians drop <i>have</i> or use the past simple after it (<i>must have went</i>). Insist on the past participle. Drill: describe a scene (<i>The kitchen floor is wet and the dog is hiding.</i>); the student guesses with <i>must have / might have / can't have</i>, then criticizes with <i>should have / shouldn't have</i>.</p>""")
