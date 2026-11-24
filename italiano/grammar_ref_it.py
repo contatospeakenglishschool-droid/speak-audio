@@ -1634,3 +1634,26 @@ def narrazione_passato_remoto(b):
 <p class="small" style="margin:.5mm 0">Fatto lontano, chiuso, raccontato → <b>remoto</b>: <i>Mio nonno partì nel 1950.</i> Fatto recente o legato al presente → <b>prossimo</b>: <i>Ieri sono andata al mercato.</i> Nel parlato al Nord si usa quasi sempre il prossimo; in Toscana e al Sud il remoto è più vivo.</p></div></div>
 {_dont([("Mio padre nascé nel 1924.", "Mio padre <b>nacque</b> nel 1924."), ("Appena ebbe arrivato, cercò lavoro.", "Appena <b>fu</b> arrivato, cercò lavoro."), ("Stamattina andai al bar.", "Stamattina <b>sono andata</b> al bar.")])}""",
     28, """<p>Il portoghese ha un solo tempo (<i>nasceu, foi, chegou</i>) dove l'italiano ne ha due. Il trapassato remoto somiglia al <i>mais-que-perfeito</i> dei libri (<i>chegara, fizera</i>): lo studente lo conosce passivamente, basta riconoscerlo. Far notare che l'insegnante può accettare il passato prossimo nel parlato, ma nei racconti scritti e nelle storie di famiglia il remoto suona naturale e «letterario».</p>""")
+
+
+def participio_assoluto(b):
+    """B1 Progresso 36: il participio passato assoluto (Finita la festa, …): forma, accordo, significato, alternative."""
+    ac = [("verbo con <b>avere</b> (transitivo)", "con l'<b>oggetto</b>", "<i><b>Lavati</b> i bicchieri, puliamo i tavoli. · <b>Letta</b> la lettera, ha pianto.</i>"),
+          ("verbo con <b>essere</b>", "con il <b>soggetto</b>", "<i><b>Partiti</b> gli ospiti, Giulia ha chiuso. · <b>Arrivata</b> a casa, Júlia ha dormito.</i>"),
+          ("con <b>questo / ciò</b>", "maschile singolare", "<i><b>Fatto</b> questo, colazione per tutti! · <b>Detto</b> ciò, andiamo.</i>")]
+    eq = [("participio assoluto", "<i><b>Finita</b> la festa, abbiamo pulito.</i>", "più compatto, scritto e parlato"),
+          ("dopo che + indicativo", "<i><b>Dopo che</b> la festa è finita, abbiamo pulito.</i>", "il più comune nel parlato"),
+          ("dopo + infinito passato", "<i><b>Dopo aver</b> pulito, abbiamo fatto colazione.</i>", "stesso soggetto"),
+          ("una volta + participio", "<i><b>Una volta finita</b> la festa…</i>", "sottolinea «solo dopo»")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: il participio passato assoluto", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Il <b>participio passato</b> da solo, all'inizio della frase, può sostituire <i>dopo che…</i>: <i><b>Finita</b> la festa, abbiamo pulito</i> = dopo che la festa è finita. È una frase <b>senza verbo coniugato</b>, breve ed elegante, perfetta per <b>raccontare in ordine</b> (eventi, cronaca, ricette, istruzioni). Si usa molto nello scritto, ma anche nel parlato con espressioni fisse: <i>fatto questo, detto ciò</i>.</div>
+{_h("1. L'ACCORDO DEL PARTICIPIO")}
+{_tbl(["tipo di verbo", "si accorda", "esempi"], ac, "7.9pt", ["40mm", "30mm", None])}
+{_h("2. STESSO SIGNIFICATO, ALTRE FORME")}
+{_tbl(["struttura", "esempio", "quando"], eq, "7.9pt", ["38mm", None, "44mm"])}
+<div class="two"><div>{_h("3. TEMPO E CAUSA")}
+<p class="small" style="margin:.5mm 0">Di solito indica il <b>tempo</b> (= dopo che). A volte anche la <b>causa</b> (= siccome): <i><b>Chiusi</b> i negozi, non abbiamo comprato niente.</i> Il nome viene di solito <b>dopo</b> il participio: <i>Partiti gli ospiti</i> (non <i>gli ospiti partiti</i>).</p></div>
+<div>{_h("4. CON I PRONOMI (SCRITTO)")}
+<p class="small" style="margin:.5mm 0">Nei testi scritti il pronome si attacca al participio: <i><b>Salutatili</b>, è uscito.</i> (= dopo averli salutati) · <i><b>Laureatosi</b> a Bologna, partì per Milano.</i> Basta riconoscerlo: nel parlato si preferisce <i>dopo averli salutati</i>.</p></div></div>
+{_dont([("Finito la festa, abbiamo pulito.", "<b>Finita</b> la festa, abbiamo pulito."), ("Dopo finita la cena, siamo usciti.", "<b>Finita</b> la cena, siamo usciti."), ("Lavato i bicchieri, puliamo.", "<b>Lavati</b> i bicchieri, puliamo.")])}""",
+    28, """<p>Il portoghese ha la stessa struttura (<i>terminada a festa, feito isso</i>): lo studente la capisce subito. Il calco <i>depois de terminada a festa</i> produce <i>dopo finita</i>: in italiano il participio basta da solo. Controllare l'accordo (soprattutto il plurale <i>-i / -e</i>) e far trasformare frasi con <i>dopo che</i> in frasi con il participio, e viceversa.</p>""")
