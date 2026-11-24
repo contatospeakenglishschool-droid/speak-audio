@@ -1564,3 +1564,28 @@ def congiunzioni_congiuntivo_b1(b):
 <p class="small" style="margin:.5mm 0">Se il verbo principale è al passato, si usa il <b>congiuntivo imperfetto</b>: <i>Ho chiamato <b>affinché</b> ci <b>dessero</b> un appuntamento. Siamo usciti <b>prima che</b> <b>piovesse</b>.</i></p></div></div>
 {_dont([("Ti chiamo affinché tu sai tutto.", "Ti chiamo affinché tu <b>sappia</b> tutto."), ("Prima che cominciare, parliamo.", "<b>Prima di</b> cominciare, parliamo."), ("Non vengo purché sono stanco.", "Non vengo <b>perché</b> sono stanco. (<i>purché</i> = solo se)")])}""",
     28, """<p>Il portoghese ha le stesse strutture (<i>para que, antes que, sem que, desde que, a menos que</i> + subjuntivo): il modo non è il problema. Attenzione al falso amico <i>purché</i>, che sembra «porque» ma corrisponde a «desde que / contanto que», e all'infinito personale (<i>para eles fazerem</i>), che in italiano non esiste: <i>perché facciano</i>. Il <i>non</i> dopo <i>a meno che</i> non nega niente: farlo notare con un esempio concreto.</p>""")
+
+
+def frasi_consecutive_b1(b):
+    """B1 Progresso 33: così/talmente … che, tanto … che, un … tale che, così … da / al punto da + infinito."""
+    tb = [("<b>così</b> + aggettivo / avverbio + <b>che</b>", "<i>Ho le gambe <b>così</b> stanche <b>che</b> non riesco a scendere le scale.</i>"),
+          ("<b>talmente</b> + aggettivo / avverbio + <b>che</b>", "<i>Andavo <b>talmente</b> bene <b>che</b> pensavo già alla foto.</i>"),
+          ("<b>tanto / tanta / tanti / tante</b> + nome + <b>che</b>", "<i>Ho <b>tanta</b> fame <b>che</b> ne mangerei tre.</i>"),
+          ("verbo + <b>tanto che</b>", "<i>Abbiamo gridato <b>tanto che</b> oggi non ho più voce.</i>"),
+          ("<b>un / una</b> + nome + <b>tale che</b>", "<i>Tirava <b>un vento tale che</b> sembrava di correre in salita.</i>"),
+          ("<b>così … da</b> / <b>al punto da</b> + infinito", "<i>Ero stanco <b>al punto da</b> non ricordare il mio nome.</i>")]
+    md = [("fatto reale", "indicativo", "<i>Faceva così caldo che <b>facevo</b> ancora il bagno.</i>"),
+          ("conseguenza ipotetica", "condizionale", "<i>Ho così tanta fame che ne <b>mangerei</b> tre.</i>"),
+          ("stesso soggetto", "<b>da</b> + infinito", "<i>Era così emozionata <b>da</b> sbagliare strada.</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: così… che, tanto… che, tale… che", "")}
+<div class="box" style="margin-top:0"><h4>CHE COSA SONO?</h4>Le frasi <b>consecutive</b> dicono la <b>conseguenza</b> di qualcosa di molto intenso: <i>Ero <b>così</b> stanco <b>che</b> non riuscivo a parlare.</i> La prima parte dice quanto (<i>così, talmente, tanto, tale</i>), la seconda, dopo <b>che</b>, il risultato. Servono per raccontare un'esperienza con forza ed emozione.</div>
+{_h("1. LE STRUTTURE")}
+{_tbl(["struttura", "esempio"], tb, "7.9pt", ["62mm", None])}
+{_h("2. CHE MODO DOPO CHE?")}
+{_tbl(["situazione", "modo", "esempio"], md, "7.9pt", ["34mm", "28mm", None])}
+<div class="two"><div>{_h("3. COSÌ O TANTO?")}
+<p class="small" style="margin:.5mm 0"><b>Così</b> e <b>talmente</b> non cambiano mai: <i>così stanca, così stanchi</i>. <b>Tanto</b> davanti a un nome si accorda: <i>tant<b>a</b> fame, tant<b>e</b> persone</i>. Nel parlato si dice anche <i>così tanto</i>: <i>Ho così tanta fame…</i></p></div>
+<div>{_h("4. ATTENZIONE: SCOPO O CONSEGUENZA?")}
+<p class="small" style="margin:.5mm 0">Consecutiva (risultato reale) → indicativo: <i>Ha parlato piano, <b>così che</b> nessuno ha capito.</i> Finale (scopo, unità 32) → congiuntivo: <i>Parla piano <b>in modo che</b> tutti capiscano.</i></p></div></div>
+{_dont([("Di tanto stanco che ero, non parlavo.", "Ero <b>così</b> stanco <b>che</b> non parlavo."), ("Ho tanto fame che…", "Ho <b>tanta</b> fame che…"), ("Ero così stanco che non riuscissi a parlare.", "…che non <b>riuscivo</b> a parlare.")])}""",
+    28, """<p>Il portoghese ha <i>tão… que, tanto… que, tal… que</i>: la struttura è simile. Il calco più frequente è <i>de tão cansado que estava</i>, che in italiano non esiste: <i>ero così stanco che…</i>. Controllare l'accordo di <i>tanto</i> con il nome e l'indicativo dopo <i>che</i>. Per far parlare lo studente: chiedere di esagerare (<i>Faceva così freddo che…</i>).</p>""")

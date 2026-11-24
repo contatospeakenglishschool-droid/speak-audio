@@ -1,0 +1,27 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Camila": "it-IT-Chirp3-HD-Despina"
+ },
+ "pauses": {
+  "33.2": 3000
+ },
+ "images": {
+  "it-b1-unita-33": {
+   "A": "marathon runners city street race",
+   "B": "tired runner finish line medal",
+   "C": "running shoes on road",
+   "D": "exhausted hiker resting mountain top"
+  }
+ },
+ "units": {
+  "it-b1-unita-33": {
+   "33.1 Così stanco che": "Narrator: Lunedì 25 ottobre, mattina, al Bar Giulia. Giulia è tornata dalla Sardegna da due settimane. Ieri Davide ha corso la sua seconda maratona. Eccolo: cammina piano piano.\nGiulia: Ecco il nostro maratoneta! Davide, ma come cammini?\nDavide: Non chiedere. Ho le gambe così stanche che stamattina ci ho messo dieci minuti a scendere le scale.\nCamila: Allora? Tre ore e mezza? Ce l'hai fatta?\nDavide: Tre ore e trentuno minuti. Per un minuto! Ero così vicino che stanotte non ho dormito.\nJúlia: Ma Davide, l'anno scorso ci hai messo quasi quattro ore! Hai migliorato di ventisette minuti.\nDavide: Lo so. Mi sono allenato tutta l'estate, salendo a San Luca due volte a settimana. Fino al trentacinquesimo chilometro andavo talmente bene che pensavo già alla foto con il tempo.\nCamila: E poi che cosa è successo?\nDavide: Poi è arrivato il vento. Tirava un vento tale che sembrava di correre in salita.\nGiulia: E noi al trentesimo chilometro abbiamo gridato tanto che oggi non ho più voce.\nJúlia: Era tutto talmente bello che mi sono quasi commossa. Migliaia di persone che correvano, e la gente che applaudiva.\nCamila: Io invece ero così emozionata che ho sbagliato strada e sono arrivata al traguardo dieci minuti dopo di lui!\nDavide: Infatti ti ho cercata dappertutto. Ero stanco al punto da non ricordare più il mio nome.\nGiulia: Va bene, adesso basta parlare. Cappuccino e cornetto, offre la casa.\nDavide: Grazie, Giulia. Ho così tanta fame che ne mangerei tre.\nCamila: E l'anno prossimo?\nDavide: L'anno prossimo... tre ore e venticinque. Ma prima mi riposo un mese.\nJúlia: Un mese come Giulia? È tornata così abbronzata che all'inizio non l'abbiamo riconosciuta!\nGiulia: Non esagerare! Però è vero: in Sardegna faceva così caldo che a ottobre facevo ancora il bagno.",
+   "33.2 Ripeti": "Narrator: Ho le gambe così stanche che non riesco a scendere le scale.\nNarrator: Andavo talmente bene che pensavo già alla foto.\nNarrator: Tirava un vento tale che sembrava di correre in salita.\nNarrator: Abbiamo gridato tanto che oggi non ho più voce.\nNarrator: Ho così tanta fame che ne mangerei tre.\nNarrator: Ero stanco al punto da non ricordare più il mio nome."
+  }
+ }
+}
