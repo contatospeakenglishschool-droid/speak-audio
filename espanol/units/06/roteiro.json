@@ -1,0 +1,34 @@
+{
+ "material": "speak-esencial",
+ "characters": {
+  "Pedro": "es-US-Chirp3-HD-Charon",
+  "Profesora": "es-US-Chirp3-HD-Leda",
+  "Mark": "es-US-Studio-B",
+  "Javier": "es-US-Chirp3-HD-Fenrir",
+  "Paco": "es-US-Chirp3-HD-Puck",
+  "Narradora": "es-US-Chirp3-HD-Aoede"
+ },
+ "pauses": {
+  "06.2": 2500,
+  "06.3": 3000
+ },
+ "units": {
+  "es-a1-unidad-06": {
+   "06.1 Diálogo": "Narradora: Diálogo uno.\nProfesora: Pedro, ¿por qué quieres aprender español?\nPedro: Porque trabajo en México. Y quiero hablar bien con mis colegas.\nProfesora: ¡Muy bien! ¿Y tú, Mark?\nMark: Yo quiero aprender español para viajar por América Latina.\nNarradora: Diálogo dos.\nPedro: Mark, ¿de dónde eres?\nMark: Soy canadiense. Quiero vivir en Chile.\nPedro: ¿En Chile? ¿Para qué?\nMark: Para trabajar. Y porque me gustan las montañas.\nNarradora: Diálogo tres.\nPaco: Javier, ¿quieres un café?\nJavier: Sí, gracias. Pedro, ¿quieres viajar a Oaxaca el sábado?\nPedro: ¡Sí! Quiero conocer Oaxaca.\nPaco: ¡Es mi ciudad! Yo también quiero ir.",
+   "06.2 Repite palabras": "Narradora: viajar\nNarradora: trabajar\nNarradora: estudiar\nNarradora: vivir en otro país\nNarradora: hablar con amigos\nNarradora: ver series\nNarradora: leer\nNarradora: conocer gente",
+   "06.3 Repite frases": "Narradora: ¿Por qué quieres aprender español?\nNarradora: Porque trabajo en México.\nNarradora: Quiero viajar.\nNarradora: Para viajar por América Latina.\nNarradora: ¿Quieres un café?\nNarradora: Quiero conocer Oaxaca."
+  }
+ },
+ "images": {
+  "es-a1-unidad-06": {
+   "A": "couple watching tv sofa remote",
+   "B": "people meeting friends party talking",
+   "C": "man working laptop office",
+   "D": "traveler backpack airport",
+   "E": "friends talking cafe",
+   "F": "moving boxes new home",
+   "G": "woman reading book",
+   "H": "student studying desk notebook"
+  }
+ }
+}
