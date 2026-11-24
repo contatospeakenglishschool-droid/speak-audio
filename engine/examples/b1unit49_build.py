@@ -129,7 +129,7 @@ def build(teacher):
 
     # Homework
     pc2 = [(["had heard", "would hear"], "had heard"), (["would have laughed", "would laugh"], "would have laughed"), (["hadn't", "wouldn't"], "hadn't"),
-           (["would of", "would have"], "would have"), (["had come", "came"], "had come"), (["would have loved", "had loved"], "would have loved")]
+           (["would of", "would have"], "would have"), (["had stayed", "stayed"], "had stayed"), (["would have loved", "had loved"], "would have loved")]
     p = [ch(o, a) for o, a in pc2]
     rw2 = [("I didn't take an umbrella, so I got wet.", "If I had taken an umbrella, I wouldn't have got(ten) wet."),
            ("She didn't call me, so I didn't know about the party.", "If she had called me, I would have known about the party."),
@@ -138,12 +138,12 @@ def build(teacher):
     b.page(f"""{sec("H", "Homework", "at home")}
 <div style="display:flex;gap:3mm;align-items:flex-start"><div style="flex:1">
 {sub("A", "Ana writes to her cousin Carol in Orlando. Choose the correct words.", "")}</div>{img('C', 30, 19)}</div>
-<div class="box" style="line-height:1.85;font-size:8.8pt;margin:.5mm 0"><b>Hi Carol!</b> Grandma's birthday was lovely. Ninety-seven candles! Danny interviewed her for his podcast. If you {p[0]} her, you {p[1]}: she told Danny to stop looking at his phone! She says that if Grandpa {p[2]} quit smoking, he wouldn't have lived so long. I {p[3]} sent you a video, but my phone died. If you {p[4]} to São Paulo this year, she {p[5]} to see you. Next year, OK? Love, Ana</div>
+<div class="box" style="line-height:1.85;font-size:8.8pt;margin:.5mm 0"><b>Hi Carol!</b> Grandma's birthday was lovely. Ninety-seven candles! Danny interviewed her for his podcast. If you {p[0]} her, you {p[1]}: she told Danny to stop looking at his phone! She says that if Grandpa {p[2]} quit smoking, he wouldn't have lived so long. I {p[3]} sent you a video, but my phone died. If you {p[4]} one more week in São Paulo, she {p[5]} to see you. Next time, OK? Love, Ana</div>
 {sub("B", "Rewrite the sentences with the third conditional.", "")}
 <ol style="line-height:1.5;font-size:8.7pt;margin:0">{rwl2}</ol>
 {lean.watch_out([("He quit to smoke last year.", "He quit smoking last year.", "<i>quit / stop / give up</i> + -ing."), ("I make exercise every day.", "I exercise / I work out every day.", "we <i>do</i> exercise, never <i>make</i> it."), ("The life hope in Brazil is going up.", "Life expectancy in Brazil is going up.", "the phrase is <i>life expectancy</i>.")])}
 {lean.writing_task(sub, "Write a post for Danny's podcast page about the oldest person you know: their habits, their story and one decision that changed their life.", "The oldest person I know is…", ["their habits (food, activity, people)", "one decision that changed their life", "at least two third conditionals", "One explanation is… / The main reason is…", "100–150 words"], "I can talk about healthy habits, explain reasons and imagine a different past.")}""",
-    20, """<p>Check A and B in 3 minutes at the start of the next class. In A, the fifth gap is a third conditional too: Carol didn't come this year. Read the writing at home and choose two mistakes to discuss in class.</p>""")
+    20, """<p>Check A and B in 3 minutes at the start of the next class. In A, the fifth gap is a third conditional too: Carol flew back to Orlando before the birthday. Read the writing at home and choose two mistakes to discuss in class.</p>""")
 
     script = "".join(f"<p style='margin:.5mm 0'><b>{s}:</b> {t}</p>" for s, t in S491)
     b.extra("Audio script", f"""
