@@ -1,0 +1,27 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Camila": "it-IT-Chirp3-HD-Despina"
+ },
+ "pauses": {
+  "36.2": 3000
+ },
+ "images": {
+  "it-b1-unita-36": {
+   "A": "graduation laurel wreath",
+   "B": "confetti on floor after party",
+   "C": "smartphone message hand",
+   "D": "friends celebration toast party"
+  }
+ },
+ "units": {
+  "it-b1-unita-36": {
+   "36.1 Finita la festa": "Narrator: Sabato 27 novembre, mattina. Ieri Davide si è laureato in ingegneria e la sera c'è stata una grande festa al Bar Giulia. Adesso il bar è un disastro.\nGiulia: Guardate qua: coriandoli dappertutto, bicchieri sotto i tavoli... Chi ha avuto l'idea dei coriandoli?\nCamila: Colpevole! Ma una festa di laurea senza coriandoli non è una festa.\nDavide: Buongiorno a tutti... Scusate il ritardo. Arrivato a casa alle tre, ho dormito fino alle undici. Visti i messaggi, sono corso qui.\nJúlia: Ecco il dottore! Come ti senti, ingegnere?\nDavide: Stanco, ma felice. Ieri, discussa la tesi, non capivo più niente. Mi tremavano le gambe come alla maratona.\nGiulia: Eppure sei stato bravissimo. Finita la discussione, la commissione ti ha dato centodieci!\nCamila: E poi, uscito dall'aula con la corona d'alloro, sei diventato tutto rosso.\nDavide: Per forza: mia madre piangeva e mio padre faceva foto a tutti, anche ai professori.\nJúlia: E il papiro? Letto il papiro davanti a tutti, ho pensato che non ti avremmo più rivisto!\nDavide: Non ricordarmelo. Chi ha disegnato la mia faccia sulla moto rossa?\nCamila: Segreto professionale.\nGiulia: Va bene, basta chiacchiere. Partiti gli ultimi ospiti alle due, ho chiuso il bar e sono andata a dormire. Adesso tocca a voi.\nJúlia: Allora organizziamoci: lavati i bicchieri, puliamo i tavoli; spazzati i coriandoli, rimettiamo a posto le sedie.\nDavide: E fatto tutto questo?\nGiulia: Fatto tutto questo, colazione per tutti. Offre il dottore!\nDavide: Va bene, ma poi vado a casa: mia madre vuole festeggiare anche a pranzo, con i parenti.\nCamila: Un'altra festa? Finita una, ne comincia un'altra!",
+   "36.2 Ripeti": "Narrator: Finita la festa, abbiamo pulito tutto.\nNarrator: Discussa la tesi, Davide non capiva più niente.\nNarrator: Partiti gli ultimi ospiti, Giulia ha chiuso il bar.\nNarrator: Lavati i bicchieri, puliamo i tavoli.\nNarrator: Spazzati i coriandoli, rimettiamo a posto le sedie.\nNarrator: Fatto tutto questo, colazione per tutti."
+  }
+ }
+}
