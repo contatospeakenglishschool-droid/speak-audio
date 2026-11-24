@@ -1539,3 +1539,28 @@ def connettivi_b1(b):
 <p class="small" style="margin:.5mm 0"><b>piuttosto</b> + aggettivo = abbastanza: <i>È <b>piuttosto</b> caro.</i><br><b>piuttosto che / di</b> + infinito = invece di: <i><b>Piuttosto che</b> lamentarti, proponi qualcosa!</i><br><b>piuttosto</b> (da solo) = cambio di argomento: <i><b>Piuttosto</b>, è vero che parti?</i><br>Nel confronto: <i>Preferisco il treno <b>piuttosto che</b> la macchina.</i></p></div></div>
 {_dont([("Mi piace Bologna, eppure mi piace Firenze.", "Mi piace Bologna e <b>anche</b> Firenze. (<i>eppure</i> = contrasto)"), ("È caro. Intanto lo compro.", "È caro. <b>Tuttavia</b> lo compro. (<i>intanto</i> = nel frattempo)"), ("Preferisco il mare piuttosto la montagna.", "Preferisco il mare <b>piuttosto che</b> la montagna.")])}""",
     24, """<p>Il brasiliano usa <i>entretanto</i> per «però» e lo traduce con <i>intanto</i>, che in italiano vuol dire «nel frattempo». <i>Eppure</i> suona come «e anche»: chiarire che esprime sempre un contrasto sorprendente. Far notare le doppie (<i>e<b>pp</b>ure, piu<b>tt</b>osto, tu<b>tt</b>avia</i>) e il registro: <i>tuttavia</i> e <i>dunque</i> sono più formali di <i>però</i> e <i>quindi</i>, ma si usano anche parlando.</p>""")
+
+
+def congiunzioni_congiuntivo_b1(b):
+    """B1 Progresso 32: affinché/perché, prima che, senza che, purché, a meno che (non), in modo che + congiuntivo; stesso soggetto → infinito."""
+    tb = [("<b>affinché / perché</b>", "lo scopo", "<i>Chiamo domani <b>affinché</b> ci <b>diano</b> un appuntamento.</i>"),
+          ("<b>in modo che</b>", "lo scopo, il risultato", "<i>Organizziamo il cantiere <b>in modo che</b> nessuno <b>senta</b> niente.</i>"),
+          ("<b>prima che</b>", "il tempo (prima)", "<i>Lavoriamo la mattina, <b>prima che</b> il ristorante <b>apra</b>.</i>"),
+          ("<b>senza che</b>", "la mancanza", "<i>Non cambiate niente <b>senza che</b> io lo <b>sappia</b>.</i>"),
+          ("<b>purché / a patto che</b>", "la condizione (= solo se)", "<i>Ce la facciamo, <b>purché</b> il Comune <b>risponda</b> entro novembre.</i>"),
+          ("<b>a meno che (non)</b>", "l'eccezione (= tranne se)", "<i>Si può fare, <b>a meno che</b> la Soprintendenza non <b>dica</b> di no.</i>")]
+    inf = [("<b>affinché / perché</b>", "<b>per</b> + infinito", "<i>Ti chiamo <b>per</b> dirti una cosa.</i>"),
+           ("<b>prima che</b>", "<b>prima di</b> + infinito", "<i><b>Prima di</b> partire, Giulia ha lasciato le chiavi.</i>"),
+           ("<b>senza che</b>", "<b>senza</b> + infinito", "<i>È partita <b>senza</b> salutare.</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: affinché, prima che, senza che, purché, a meno che", "")}
+<div class="box" style="margin-top:0"><h4>CHE COSA SONO?</h4>Quando organizziamo un progetto parliamo di <b>scopi</b> (<i>affinché</i>), di <b>tempi</b> (<i>prima che</i>) e di <b>condizioni</b> (<i>purché, a meno che</i>). Queste congiunzioni vogliono <b>sempre il congiuntivo</b>, perché presentano un fatto non ancora reale: una cosa che vogliamo, che aspettiamo o che forse non succede.</div>
+{_h("1. LE CONGIUNZIONI + CONGIUNTIVO")}
+{_tbl(["congiunzione", "che cosa esprime", "esempio"], tb, "7.9pt", ["34mm", "34mm", None])}
+{_h("2. STESSO SOGGETTO? ALLORA INFINITO")}
+{_tbl(["soggetti diversi", "stesso soggetto", "esempio"], inf, "7.9pt", ["34mm", "34mm", None])}
+<div class="two"><div>{_h("3. IL «NON» DI A MENO CHE")}
+<p class="small" style="margin:.5mm 0">Dopo <i>a meno che</i> si mette spesso <b>non</b>, ma la frase <b>non è negativa</b>: <i>Usciamo, a meno che non <b>piova</b></i> = usciamo, tranne se piove. Anche <i>prima che</i> può avere questo <i>non</i>: <i>prima che (non) sia tardi</i>.</p></div>
+<div>{_h("4. NEL PASSATO")}
+<p class="small" style="margin:.5mm 0">Se il verbo principale è al passato, si usa il <b>congiuntivo imperfetto</b>: <i>Ho chiamato <b>affinché</b> ci <b>dessero</b> un appuntamento. Siamo usciti <b>prima che</b> <b>piovesse</b>.</i></p></div></div>
+{_dont([("Ti chiamo affinché tu sai tutto.", "Ti chiamo affinché tu <b>sappia</b> tutto."), ("Prima che cominciare, parliamo.", "<b>Prima di</b> cominciare, parliamo."), ("Non vengo purché sono stanco.", "Non vengo <b>perché</b> sono stanco. (<i>purché</i> = solo se)")])}""",
+    24, """<p>Il portoghese ha le stesse strutture (<i>para que, antes que, sem que, desde que, a menos que</i> + subjuntivo): il modo non è il problema. Attenzione al falso amico <i>purché</i>, che sembra «porque» ma corrisponde a «desde que / contanto que», e all'infinito personale (<i>para eles fazerem</i>), che in italiano non esiste: <i>perché facciano</i>. Il <i>non</i> dopo <i>a meno che</i> non nega niente: farlo notare con un esempio concreto.</p>""")
