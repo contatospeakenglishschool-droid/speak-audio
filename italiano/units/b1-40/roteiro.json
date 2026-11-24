@@ -1,0 +1,20 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus"
+ },
+ "pauses": {"R4.2": 5500},
+ "units": {
+  "it-b1-ripasso-4": {
+   "R4.1 Conversazione": "Narrator: Lunedì 3 gennaio, mattina, al Bar Giulia. Júlia e Bruno sono tornati ieri sera dal Brasile.\nGiulia: Bentornati! Allora, com'è andata?\nJúlia: Benissimo. Arrivati all'aeroporto di Belo Horizonte, abbiamo visto la mamma con un cartello enorme: «Bentornati a casa!». Ha pianto così tanto che piangeva anche il papà.\nBruno: E Chiara ha avuto la sua foto: gliel'ho mandata subito.\nDavide: E il caldo?\nBruno: Faceva talmente caldo che a Natale abbiamo mangiato il gelato in piscina. Eppure la mamma ha cucinato per venti persone.\nGiulia: Allora ne è valsa la pena.\nJúlia: Eccome! Però la mamma mi ha chiesto di tornare a Pasqua... e di portare anche Bruno, purché non mangi tutto lui.\nBruno: Che c'entro io? Ci tengo alla cucina della mamma, tutto qui!\nSignora Rossi: Buongiorno, ragazzi! Bentornati. Júlia, mi aveva chiesto come mio padre comprò la bottega, si ricorda?\nJúlia: Certo, signora! Me lo racconti.\nSignora Rossi: Nel 1951 il vecchio falegname partì per l'America e gliela vendette. Mio padre non aveva soldi, così la pagò in dieci anni, un po' ogni mese.\nDavide: Dieci anni! Oggi nessuno farebbe un accordo così.\nSignora Rossi: Allora ci si fidava, caro.\nGiulia: E il dottor Galli? Novità?\nJúlia: Stamattina ho trovato una sua e-mail. Mi ha scritto che accetta la pergola a due metri e quaranta, a patto che il legno sia chiaro.\nDavide: E Marco che cosa dice?\nJúlia: Che va fatta più bassa... ma che non ne discute più, affinché il cantiere possa partire a febbraio.\nGiulia: Conoscendo Marco, però...\nJúlia: Appunto: piuttosto che litigare, oggi gli porto una brioche.\nGiulia: Allora due brioche e due cappuccini. Offro io: buon anno nuovo!",
+   "R4.2 Dettato": "Narrator: Ascolta e scrivi le frasi.\nNarrator: Uno. Piuttosto che vietare, bisogna costruire case per studenti.\nNarrator: Due. Vi mando il preventivo prima che il cliente cambi idea.\nNarrator: Tre. Ero così stanco che non riuscivo a parlare.\nNarrator: Quattro. Le finestre vanno fatte di legno.\nNarrator: Cinque. Mio padre nacque nel 1924 e venne a Bologna a piedi.\nNarrator: Sei. Finita la festa, Giulia ha chiuso il bar.\nNarrator: Sette. Mi ha chiesto se stavo scherzando.\nNarrator: Otto. Il volo è caro, ma ne vale la pena.\nNarrator: Nove. Se non fossi venuta, non avrei conosciuto i miei amici.",
+   "R4.3 Dialoghi": "Narrator: Dialogo uno. Allo studio.\nMarco: Júlia, ha telefonato Galli. Ti ha chiesto di mandargli il disegno nuovo.\nJúlia: Di nuovo? Va bene, ma lo mando solo a patto che non lo cambi più.\nMarco: Giusto. E ricordati: le foto degli affreschi vanno mandate entro venerdì.\nJúlia: Le ho già mandate. Finito il disegno, vado a casa!\nNarrator: Dialogo due. Al bar.\nGiulia: Davide, che faccia! Tutto bene?\nDavide: Sono così stanco che non riesco a pensare. Ho mandato il curriculum a tre studi.\nGiulia: Se l'avessi saputo, ti avrei presentato un mio cliente architetto.\nDavide: Davvero? Allora domani ti porto il curriculum, purché tu non lo dica a nessuno!"
+  }
+ }
+}
