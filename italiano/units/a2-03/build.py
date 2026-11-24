@@ -10,8 +10,10 @@ from fumetto import fumetto
 _se.SERIES = "Ponte"
 setup(band="A2 · UNITÀ 03", audio_json=os.path.join(HERE, "audio_it-a2-unita-03.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "l'ombrello", "ombrello"), ("B", "la pozzanghera", "pozzanghera"), ("C", "il cane", "cane"), ("D", "la biblioteca", "biblioteca"),
-          ("E", "il cerotto", "cerotto"), ("F", "le chiavi", "chiavi"), ("G", "la porta", "porta"), ("H", "la sveglia", "sveglia")]
+PHOTOS = [('A', 'la pozzanghera', 'pozzanghera'), ('B', 'la biblioteca', 'biblioteca'), ('C', 'le chiavi', 'chiavi'), ('D', 'il cane', 'cane'),
+          ('E', 'la porta', 'porta'), ('F', 'la sveglia', 'sveglia'), ('G', 'il cerotto', 'cerotto'), ('H', "l'ombrello", 'ombrello')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ['la biblioteca', 'il cane', 'il cerotto', 'le chiavi', "l'ombrello", 'la porta', 'la pozzanghera', 'la sveglia']
 
 _r = json.load(open(os.path.join(HERE, "roteiro.json")))["units"]["it-a2-unita-03"]
 SCRIPT = [tuple(x.split(": ", 1)) for x in _r["03.1 Dialogo"].split("\n")]
@@ -34,7 +36,7 @@ def build(teacher):
     words = [w for _, w, _ in PHOTOS]
     b.page(f"""{sec(1, "Riscaldamento: una giornata storta", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi la parola sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in sorted(words, key=lambda w: w.split()[-1].split("'")[-1]))}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Parla con l'insegnante.", "4 min")}
 <ol><li>Quali di queste cose ci sono in una «giornata storta»? Perché?</li><li>Hai mai perso le chiavi o dimenticato l'ombrello? Che cosa hai fatto?</li><li>Qual è stata la tua ultima giornata storta?</li></ol>""",

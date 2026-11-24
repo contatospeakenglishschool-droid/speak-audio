@@ -5,8 +5,10 @@ sys.path.insert(0, os.path.join(HERE, "..", ".."))
 from engine_it import *
 setup(band="A1 · UNITÀ 10", audio_json=os.path.join(HERE, "audio_it-a1-unita-10.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "il prosciutto", "prosciutto"), ("B", "il parmigiano", "parmigiano"), ("C", "il pane", "pane"), ("D", "i pomodori", "pomodori"),
-          ("E", "la frutta", "frutta"), ("F", "il vino", "vino"), ("G", "l'olio", "olio"), ("H", "il mercato", "mercato")]
+PHOTOS = [('A', 'il prosciutto', 'prosciutto'), ('B', 'il parmigiano', 'parmigiano'), ('C', 'il pane', 'pane'), ('D', 'i pomodori', 'pomodori'),
+          ('E', 'la frutta', 'frutta'), ('F', 'il vino', 'vino'), ('G', "l'olio", 'olio'), ('H', 'il mercato', 'mercato')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ['la frutta', 'il mercato', "l'olio", 'il pane', 'il parmigiano', 'i pomodori', 'il prosciutto', 'il vino']
 
 SCRIPT = [("Narratore", "Dialogo uno. Al bar, la mattina."), ("Giulia", "Allora, Júlia, che cosa fai oggi?"),
           ("Júlia", "Devo fare la spesa. Stasera ceno a casa con i miei genitori e con Marco. Sai dov'è un buon mercato?"),
@@ -35,7 +37,7 @@ def build(teacher):
     ql = [f'<li value="{i+1}">{q} {A(a, "min-width:26mm")}</li>' for i, (q, a) in enumerate(qs)]
     b.page(f"""{sec(1, "Riscaldamento: al mercato", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi la parola sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in words)}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Le quantità. Completa con una parola della lista A (o con pasta).", "4 min")}
 {twocol(ql, 4)}""",

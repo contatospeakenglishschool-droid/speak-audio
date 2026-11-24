@@ -7,8 +7,10 @@ from engine_it import *
 from invito import invito
 setup(band="A1 · UNITÀ 25", audio_json=os.path.join(HERE, "audio_it-a1-unita-25.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "il Natale", "Natale"), ("B", "la Pasqua", "Pasqua"), ("C", "il compleanno", "compleanno"), ("D", "il Capodanno", "Capodanno"),
-          ("E", "il Carnevale", "Carnevale"), ("F", "Ferragosto", "Ferragosto"), ("G", "il regalo", "regalo"), ("H", "la bandiera", "bandiera")]
+PHOTOS = [('A', 'il Capodanno', 'Capodanno'), ('B', 'Ferragosto', 'Ferragosto'), ('C', 'la Pasqua', 'Pasqua'), ('D', 'il Carnevale', 'Carnevale'),
+          ('E', 'il Natale', 'Natale'), ('F', 'il regalo', 'regalo'), ('G', 'il compleanno', 'compleanno'), ('H', 'la bandiera', 'bandiera')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ['la bandiera', 'il Capodanno', 'il Carnevale', 'il compleanno', 'Ferragosto', 'il Natale', 'la Pasqua', 'il regalo']
 
 SCRIPT = [("Narratore", "Dialogo uno. Al telefono."), ("Giulia", "Pronto, Júlia? Sono Giulia. Sabato prossimo è il mio compleanno!"),
           ("Júlia", "Davvero? Tanti auguri in anticipo! Quanti anni compi?"), ("Giulia", "Trenta! Sabato sera faccio una festa a casa mia. Vieni?"),
@@ -47,7 +49,7 @@ def build(teacher):
     aul = [f'<li value="{i+1}">{s} → {A(v, "min-width:36mm")}</li>' for i, (s, v) in enumerate(au)]
     b.page(f"""{sec(1, "Riscaldamento: le feste", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi la parola sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in sorted(words, key=lambda w: w.split()[-1]))}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Che cosa dici? Scegli gli auguri.", "4 min")}
 <div class="bank">Buon anno! &nbsp;·&nbsp; Buon divertimento! &nbsp;·&nbsp; Buon Natale! &nbsp;·&nbsp; Buon viaggio! &nbsp;·&nbsp; Buone vacanze! &nbsp;·&nbsp; Tanti auguri!</div>

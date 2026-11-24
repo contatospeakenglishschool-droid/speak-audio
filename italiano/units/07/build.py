@@ -7,8 +7,10 @@ from engine_it import *
 from mappa import themap
 setup(band="A1 · UNITÀ 07", audio_json=os.path.join(HERE, "audio_it-a1-unita-07.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "la farmacia", "farmacia"), ("B", "il bancomat", "bancomat"), ("C", "l'ufficio postale", "ufficio postale"), ("D", "il supermercato", "supermercato"),
-          ("E", "la chiesa", "chiesa"), ("F", "la piazza", "piazza"), ("G", "il forno", "forno"), ("H", "la stazione", "stazione")]
+PHOTOS = [('A', 'la farmacia', 'farmacia'), ('B', 'il bancomat', 'bancomat'), ('C', "l'ufficio postale", 'ufficio postale'), ('D', 'il supermercato', 'supermercato'),
+          ('E', 'la chiesa', 'chiesa'), ('F', 'la piazza', 'piazza'), ('G', 'il forno', 'forno'), ('H', 'la stazione', 'stazione')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ['il bancomat', 'la chiesa', 'la farmacia', 'il forno', 'la piazza', 'la stazione', 'il supermercato', "l'ufficio postale"]
 
 SCRIPT = [("Narratore", "Dialogo uno. Sabato mattina, davanti a casa."), ("Júlia", "Signora Rossi, scusi, c'è una farmacia qui vicino?"),
           ("Signora Rossi", "Sì, c'è una farmacia in via Santo Stefano, nella piazza piccola."), ("Júlia", "E un supermercato?"),
@@ -37,7 +39,7 @@ def build(teacher):
     ql = [f'<li value="{i+1}">… {q}? {R("→ " + a) if T else ""}</li>' for i, (q, a) in enumerate(qs)]
     b.page(f"""{sec(1, "Riscaldamento: i luoghi della città", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi il luogo sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in words)}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Dove vai se…", "4 min")}
 {twocol(ql, 4)}""",

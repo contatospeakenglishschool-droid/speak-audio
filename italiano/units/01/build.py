@@ -5,8 +5,10 @@ sys.path.insert(0, os.path.join(HERE, "..", ".."))
 from engine_it import *
 setup(band="A1 · UNITÀ 01", audio_json=os.path.join(HERE, "audio_it-a1-unita-01.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "Ciao!", "ciao"), ("B", "Buongiorno!", "buongiorno"), ("C", "Buonasera!", "buonasera"), ("D", "Buonanotte!", "buonanotte"),
-          ("E", "Arrivederci!", "arrivederci"), ("F", "Piacere!", "piacere"), ("G", "Grazie!", "grazie"), ("H", "Benvenuta!", "benvenuta")]
+PHOTOS = [('A', 'Buonasera!', 'buonasera'), ('B', 'Ciao!', 'ciao'), ('C', 'Piacere!', 'piacere'), ('D', 'Buonanotte!', 'buonanotte'),
+          ('E', 'Benvenuta!', 'benvenuta'), ('F', 'Arrivederci!', 'arrivederci'), ('G', 'Buongiorno!', 'buongiorno'), ('H', 'Grazie!', 'grazie')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ['Arrivederci!', 'Benvenuta!', 'Buonanotte!', 'Buonasera!', 'Buongiorno!', 'Ciao!', 'Grazie!', 'Piacere!']
 
 SCRIPT = [("Narratore", "Dialogo uno."), ("Signora Rossi", "Buongiorno! Lei è la signora Souza?"), ("Júlia", "Sì, sono io. Buongiorno!"),
           ("Signora Rossi", "Piacere, sono Paola Rossi."), ("Júlia", "Piacere! Mi chiamo Júlia."), ("Signora Rossi", "Come sta, signora?"),
@@ -37,11 +39,11 @@ def build(teacher):
     ql = [f'<li value="{i+1}">{q} {R("→ " + a) if T else ""}</li>' for i, (q, a) in enumerate(qs)]
     b.page(f"""{sec(1, "Riscaldamento: i saluti", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi il saluto sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(words)}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Che cosa dici?", "4 min")}
 {twocol(ql, 4)}""",
-    28, """<ol><li>A: l'insegnante legge ogni parola, lo studente ripete e scrive. <b>Buongiorno</b> fino a circa le 14–15, poi <b>Buonasera</b>. <b>Buonanotte</b> solo per andare a dormire. Foto G: <i>Grazie e arrivederci</i> sulle scatole della pizza!</li>
+    28, """<ol><li>A: l'insegnante legge ogni parola, lo studente ripete e scrive. <b>Buongiorno</b> fino a circa le 14–15, poi <b>Buonasera</b>. <b>Buonanotte</b> solo per andare a dormire. Foto H: <i>Grazie e arrivederci</i> sulle scatole della pizza!</li>
 <li>B: accettare anche <i>Ciao!</i> quando la situazione è informale. Chiedere: <i>E in Brasile?</i></li></ol>""", cover=cover)
 
     b.extra("Panoramica della lezione · 55 min", """

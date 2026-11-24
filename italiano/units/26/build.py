@@ -7,8 +7,10 @@ from engine_it import *
 from linea import timeline
 setup(band="A1 · UNITÀ 26", audio_json=os.path.join(HERE, "audio_it-a1-unita-26.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "le valigie", "valigie"), ("B", "i portici", "portici"), ("C", "il ragù", "ragù"), ("D", "Firenze", "Firenze"),
-          ("E", "Capri", "Capri"), ("F", "Venezia", "Venezia"), ("G", "il brindisi", "brindisi"), ("H", "il contratto", "contratto")]
+PHOTOS = [('A', 'le valigie', 'valigie'), ('B', 'il ragù', 'ragù'), ('C', 'Capri', 'Capri'), ('D', 'i portici', 'portici'),
+          ('E', 'Venezia', 'Venezia'), ('F', 'Firenze', 'Firenze'), ('G', 'il brindisi', 'brindisi'), ('H', 'il contratto', 'contratto')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ['il brindisi', 'Capri', 'il contratto', 'Firenze', 'i portici', 'il ragù', 'le valigie', 'Venezia']
 
 SCRIPT = [("Narratore", "Dialogo uno. Un anno dopo, Davide intervista di nuovo Júlia per il suo progetto."),
           ("Davide", "Allora, Júlia, da quanto tempo abiti a Bologna?"), ("Júlia", "Abito a Bologna da un anno. Sono arrivata a giugno dell'anno scorso."),
@@ -49,7 +51,7 @@ def build(teacher):
     gnl = [f'<li value="{i+1}">Júlia {A(v, "min-width:27mm")} {s}.</li>' for i, (s, v) in enumerate(gn)]
     b.page(f"""{sec(1, "Riscaldamento: un anno di Júlia", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi la parola sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in sorted(words, key=lambda w: w.split()[-1]))}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Che cosa ricordi? Completa con ha già o non ha ancora.", "4 min")}
 {twocol(gnl, 3)}""",

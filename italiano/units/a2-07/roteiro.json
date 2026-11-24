@@ -21,14 +21,14 @@
  },
  "images": {
   "it-a2-unita-07": {
-   "A": "suitcase packing",
-   "B": "wall calendar planner",
-   "C": "brazil carnival parade",
-   "D": "marathon runners city",
+   "A": "brazil carnival parade",
+   "B": "marathon runners city",
+   "C": "colomba easter cake",
+   "D": "suitcase packing",
    "E": "watering houseplants",
-   "F": "passport boarding",
-   "G": "student exam university",
-   "H": "colomba easter cake"
+   "F": "student exam university",
+   "G": "wall calendar planner",
+   "H": "passport boarding"
   }
  }
 }

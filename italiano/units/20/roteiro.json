@@ -7,7 +7,10 @@
   "Davide": "it-IT-Chirp3-HD-Puck",
   "Narrator": "it-IT-Chirp3-HD-Kore"
  },
- "pauses": {"20.2": 2000, "20.3": 2500},
+ "pauses": {
+  "20.2": 2000,
+  "20.3": 2500
+ },
  "units": {
   "it-a1-unita-20": {
    "20.1 Dialogo": "Narrator: Dialogo uno. Allo studio.\nMarco: Júlia, oggi devo andare a prendere l'ingegnere Ferri alla stazione, ma non la conosco. Com'è?\nJúlia: È alta, ha i capelli corti e biondi e porta gli occhiali. Ha circa cinquant'anni.\nMarco: E di carattere?\nJúlia: È molto gentile, ma un po' seria. Ah, porta sempre una giacca rossa!\nMarco: Perfetto, allora la trovo subito.\nNarrator: Dialogo due. Al bar.\nGiulia: Júlia, com'è tuo fratello? Non lo conosco ancora.\nJúlia: Bruno è alto e magro, ha i capelli ricci e neri e gli occhi castani. È molto simpatico, ma un po' pigro!\nGiulia: Ha la barba?\nJúlia: Sì, ha la barba.\nGiulia: Ah, allora l'ho visto ieri qui al bar! Ha preso tre cornetti!\nNarrator: Dialogo tre. Sulle scale.\nDavide: Júlia, tuo fratello è proprio divertente! Alla festa ha conosciuto una ragazza, Chiara.\nJúlia: Davvero? Com'è?\nDavide: È bassa e ha i capelli lunghi e rossi.\nJúlia: E di carattere?\nDavide: È abbastanza timida, ma molto intelligente. Studia medicina.\nJúlia: Bene! Bruno parla sempre... lei ascolta!",

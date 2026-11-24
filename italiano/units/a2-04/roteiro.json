@@ -20,12 +20,12 @@
  },
  "images": {
   "it-a2-unita-04": {
-   "A": "woman headache hand forehead",
-   "B": "sore throat woman scarf",
-   "C": "back pain man",
-   "D": "digital thermometer fever",
-   "E": "cough syrup spoon",
-   "F": "pills tablets blister pack",
+   "A": "digital thermometer fever",
+   "B": "cough syrup spoon",
+   "C": "pills tablets blister pack",
+   "D": "woman headache hand forehead",
+   "E": "sore throat woman scarf",
+   "F": "back pain man",
    "G": "ice pack",
    "H": "pharmacy green cross sign"
   }

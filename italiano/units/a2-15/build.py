@@ -9,9 +9,10 @@ import grammar_ref_it
 _se.SERIES = "Ponte"
 setup(band="A2 · UNITÀ 15", audio_json=os.path.join(HERE, "audio_it-a2-unita-15.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "passare l'aspirapolvere", "aspirapolvere"), ("B", "lavare i piatti", "lavare i piatti"), ("C", "stendere il bucato", "stendere"),
-          ("D", "fare il letto", "fare il letto"), ("E", "lavare i pavimenti", "pavimenti"), ("F", "stirare", "stirare"),
-          ("G", "buttare la spazzatura", "spazzatura"), ("H", "apparecchiare la tavola", "apparecchiare")]
+PHOTOS = [('A', 'stirare', 'stirare'), ('B', 'fare il letto', 'fare il letto'), ('C', "passare l'aspirapolvere", 'aspirapolvere'), ('D', 'apparecchiare la tavola', 'apparecchiare'),
+          ('E', 'stendere il bucato', 'stendere'), ('F', 'lavare i pavimenti', 'pavimenti'), ('G', 'buttare la spazzatura', 'spazzatura'), ('H', 'lavare i piatti', 'lavare i piatti')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ['apparecchiare la tavola', 'buttare la spazzatura', 'fare il letto', 'lavare i pavimenti', 'lavare i piatti', "passare l'aspirapolvere", 'stendere il bucato', 'stirare']
 
 _r = json.load(open(os.path.join(HERE, "roteiro.json")))["units"]["it-a2-unita-15"]
 SCRIPT = [tuple(x.split(": ", 1)) for x in _r["15.1 Dialoghi"].split("\n")]
@@ -34,7 +35,7 @@ def build(teacher):
     words = [w for _, w, _ in PHOTOS]
     b.page(f"""{sec(1, "Riscaldamento: le faccende di casa", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi l'azione sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in sorted(words))}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Parla con l'insegnante.", "4 min")}
 <ol><li>Quali faccende fai tu a casa? Quali non fai mai?</li><li>Quale faccenda ti piace di più? Quale odi?</li><li>Quando fai le pulizie: il sabato, la sera, mai?</li></ol>""",

@@ -7,8 +7,10 @@ from engine_it import *
 from volti import thepeople
 setup(band="A1 · UNITÀ 20", audio_json=os.path.join(HERE, "audio_it-a1-unita-20.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "i capelli lunghi", "capelli lunghi"), ("B", "i capelli corti", "capelli corti"), ("C", "i capelli ricci", "capelli ricci"), ("D", "la barba", "barba"),
-          ("E", "gli occhiali", "occhiali"), ("F", "gli occhi azzurri", "occhi azzurri"), ("G", "i capelli grigi", "capelli grigi"), ("H", "calvo", "calvo")]
+PHOTOS = [('A', 'i capelli lunghi', 'capelli lunghi'), ('B', 'i capelli corti', 'capelli corti'), ('C', 'i capelli ricci', 'capelli ricci'), ('D', 'la barba', 'barba'),
+          ('E', 'gli occhiali', 'occhiali'), ('F', 'gli occhi azzurri', 'occhi azzurri'), ('G', 'i capelli grigi', 'capelli grigi'), ('H', 'calvo', 'calvo')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ['la barba', 'calvo', 'i capelli corti', 'i capelli grigi', 'i capelli lunghi', 'i capelli ricci', 'gli occhi azzurri', 'gli occhiali']
 
 SCRIPT = [("Narratore", "Dialogo uno. Allo studio."), ("Marco", "Júlia, oggi devo andare a prendere l'ingegnere Ferri alla stazione, ma non la conosco. Com'è?"),
           ("Júlia", "È alta, ha i capelli corti e biondi e porta gli occhiali. Ha circa cinquant'anni."), ("Marco", "E di carattere?"),
@@ -40,7 +42,7 @@ def build(teacher):
     opl = [f'<li value="{i+1}">{a} ↔ {A(x, "min-width:24mm")}</li>' for i, (a, x) in enumerate(op)]
     b.page(f"""{sec(1, "Riscaldamento: l'aspetto", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi le parole sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in sorted(words, key=lambda w: w.split()[-1]))}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Scrivi il contrario.", "4 min")}
 <div class="bank" style="background:#fff">anziano · antipatico · basso · corti · estroverso · ricci</div>

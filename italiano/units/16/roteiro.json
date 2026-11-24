@@ -8,7 +8,10 @@
   "Altoparlante": "it-IT-Chirp3-HD-Charon",
   "Narrator": "it-IT-Chirp3-HD-Kore"
  },
- "pauses": {"16.2": 2000, "16.3": 2500},
+ "pauses": {
+  "16.2": 2000,
+  "16.3": 2500
+ },
  "units": {
   "it-a1-unita-16": {
    "16.1 Dialogo": "Narrator: Dialogo uno. Alla biglietteria della stazione di Bologna.\nJúlia: Buongiorno, un biglietto per Firenze, per favore.\nImpiegata: Solo andata o andata e ritorno?\nJúlia: Andata e ritorno. A che ora parte il prossimo treno?\nImpiegata: Parte alle dieci e quindici dal binario sei e arriva a Firenze alle dieci e cinquantadue.\nJúlia: Perfetto. Quanto costa?\nImpiegata: Sono ventisei euro.\nJúlia: Ecco a Lei. Grazie!\nAltoparlante: Il treno per Firenze Santa Maria Novella delle ore dieci e quindici è in partenza dal binario sei.\nNarrator: Dialogo due. Al telefono, in treno.\nLuca: Pronto, Júlia? Sei in treno?\nJúlia: Sì, sono partita alle dieci e quindici. Arrivo alle dieci e cinquantadue.\nLuca: Benissimo. Ti aspetto al binario. Poi andiamo in centro a piedi: sono dieci minuti.\nJúlia: Va bene. Il mio treno del ritorno parte alle diciotto e trenta.\nLuca: Allora abbiamo quasi otto ore per vedere Firenze!\nNarrator: Dialogo tre. Lunedì, allo studio.\nMarco: Allora, Júlia, com'è andata a Firenze?\nJúlia: Benissimo! Luca mi ha fatto vedere il Duomo e Ponte Vecchio. Siamo andati dappertutto a piedi.\nMarco: E il viaggio?\nJúlia: All'andata tutto bene, ma il treno del ritorno è partito con quaranta minuti di ritardo!\nMarco: Eh, succede spesso. Benvenuta in Italia!",
@@ -19,13 +22,13 @@
  "images": {
   "it-a1-unita-16": {
    "A": "high speed train italy",
-   "B": "train station hall italy",
-   "C": "railway platform station",
-   "D": "train ticket hand",
+   "B": "car driving road",
+   "C": "airplane sky",
+   "D": "train station hall italy",
    "E": "city bus street",
-   "F": "car driving road",
+   "F": "train ticket hand",
    "G": "bicycle parked street",
-   "H": "airplane sky"
+   "H": "railway platform station"
   }
  }
 }

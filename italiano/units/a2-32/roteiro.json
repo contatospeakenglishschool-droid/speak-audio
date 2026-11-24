@@ -7,7 +7,10 @@
   "Marco": "it-IT-Chirp3-HD-Orus",
   "Narrator": "it-IT-Chirp3-HD-Kore"
  },
- "pauses": {"32.2": 2500, "32.3": 3500},
+ "pauses": {
+  "32.2": 2500,
+  "32.3": 3500
+ },
  "units": {
   "it-a2-unita-32": {
    "32.1 Dialoghi": "Narrator: Prima parte. Fine ottobre, sabato sera. Domani Davide corre la sua prima maratona. Al bar ci sono Giulia, Júlia e Marco.\nDavide: Quarantadue chilometri… Secondo voi ce la faccio?\nGiulia: Certo che ce la fai! Ti alleni da febbraio, tutte le mattine alle sei.\nMarco: Quanto ci metti a fare dieci chilometri?\nDavide: Ci metto cinquanta minuti, più o meno. Domenica scorsa ho fatto trenta chilometri e ci ho messo tre ore.\nJúlia: E il tuo obiettivo?\nDavide: Finire in meno di quattro ore. Ma la cosa più importante è arrivare al traguardo.\nJúlia: Noi ti aspettiamo al trentesimo chilometro, con i cartelli!\nGiulia: Adesso mangia. Ci sono ancora panini?\nMarco: No, non ce ne sono più. Ma c'è ancora la pasta: ce n'è un piatto pieno.\nGiulia: Perfetto. Davide, mangiala tutta e poi a letto presto!\nNarrator: Seconda parte. Domenica mattina, al trentesimo chilometro.\nJúlia: Eccolo! Forza, Davide! Ce la puoi fare!\nDavide: Non ce la faccio più… Mi fanno male le gambe!\nMarco: Dai! Ne mancano solo dodici! Bevi un po' d'acqua!\nNarrator: Tre ore e mezza dopo, all'arrivo.\nGiulia: Davide! Ce l'hai fatta! Quanto ci hai messo?\nDavide: Tre ore e cinquantotto minuti! Sotto le quattro ore!\nGiulia: Bravissimo! Sono orgogliosa di te.\nDavide: Grazie. C'è ancora un po' d'acqua?\nGiulia: Sì, ce n'è una bottiglia. Tieni.\nDavide: L'anno prossimo la rifaccio!\nGiulia: Prima riposati. E domani apro io il bar!",
@@ -17,14 +20,14 @@
  },
  "images": {
   "it-a2-unita-32": {
-   "A": "marathon runners street",
-   "B": "finish line race",
-   "C": "stopwatch",
-   "D": "medal",
-   "E": "running shoes",
-   "F": "race bib number",
-   "G": "water bottles race",
-   "H": "crowd cheering signs"
+   "A": "finish line race",
+   "B": "medal",
+   "C": "crowd cheering signs",
+   "D": "water bottles race",
+   "E": "stopwatch",
+   "F": "running shoes",
+   "G": "race bib number",
+   "H": "marathon runners street"
   }
  }
 }

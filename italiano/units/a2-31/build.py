@@ -9,8 +9,10 @@ import grammar_ref_it
 _se.SERIES = "Ponte"
 setup(band="A2 · UNITÀ 31", audio_json=os.path.join(HERE, "audio_it-a2-unita-31.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "le torri", "torri"), ("B", "il portico", "portico"), ("C", "il santuario", "santuario"), ("D", "la piazza", "piazza"),
-          ("E", "l'aula", "aula"), ("F", "i libri antichi", "libri antichi"), ("G", "i gradini", "gradini"), ("H", "la mappa antica", "mappa antica")]
+PHOTOS = [('A', 'le torri', 'torri'), ('B', 'il santuario', 'santuario'), ('C', 'il portico', 'portico'), ('D', 'la piazza', 'piazza'),
+          ('E', 'i libri antichi', 'libri antichi'), ('F', "l'aula", 'aula'), ('G', 'la mappa antica', 'mappa antica'), ('H', 'i gradini', 'gradini')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ["l'aula", 'i gradini', 'i libri antichi', 'la mappa antica', 'la piazza', 'il portico', 'il santuario', 'le torri']
 
 _r = json.load(open(os.path.join(HERE, "roteiro.json")))["units"]["it-a2-unita-31"]
 SCRIPT = [tuple(x.split(": ", 1)) for x in _r["31.1 Dialoghi"].split("\n")]
@@ -40,11 +42,11 @@ def build(teacher):
     words = [w for _, w, _ in PHOTOS]
     b.page(f"""{sec(1, "Riscaldamento: la città antica", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi la parola sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in sorted(words, key=_key))}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Parla con l'insegnante.", "4 min")}
 <ol><li>Ti piace la storia? Che cosa studiavi volentieri a scuola?</li><li>Qual è il posto più antico della tua città?</li><li>Quando visiti una città, preferisci i musei o le strade?</li></ol>""",
-    28, """<ol><li>A: le foto A, B, C e D sono di Bologna: le torri (A), un portico (B), il santuario di San Luca sulla collina, dove arriva il portico più lungo (C), e piazza Maggiore con Palazzo d'Accursio (D).</li>
+    28, """<ol><li>A: le foto A, B, C e D sono di Bologna: le torri (A), un portico (C), il santuario di San Luca sulla collina, dove arriva il portico più lungo (B), e piazza Maggiore con Palazzo d'Accursio (D).</li>
 <li>B: domanda 2: accettare <i>è antico, è vecchio</i>; le date arrivano a pagina 3.</li></ol>""", cover=cover)
 
     b.extra("Panoramica della lezione · 55 min", """

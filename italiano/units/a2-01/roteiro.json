@@ -20,14 +20,14 @@
  },
  "images": {
   "it-a2-unita-01": {
-   "A": "blazer jacket on hanger",
-   "B": "elegant blue dress",
-   "C": "white shirt folded",
-   "D": "skirt woman fashion",
-   "E": "trousers pants folded",
+   "A": "trousers pants folded",
+   "B": "fitting room clothing store",
+   "C": "skirt woman fashion",
+   "D": "elegant blue dress",
+   "E": "necktie",
    "F": "leather shoes pair",
-   "G": "necktie",
-   "H": "fitting room clothing store"
+   "G": "blazer jacket on hanger",
+   "H": "white shirt folded"
   }
  }
 }

@@ -21,14 +21,14 @@
  },
  "images": {
   "it-a2-unita-05": {
-   "A": "panettone",
+   "A": "boarding pass airplane ticket",
    "B": "video call laptop family",
-   "C": "boarding pass airplane ticket",
-   "D": "skiing mountains",
-   "E": "train station platform italy",
-   "F": "business presentation meeting",
-   "G": "cappuccino cup",
-   "H": "christmas tree living room"
+   "C": "christmas tree living room",
+   "D": "train station platform italy",
+   "E": "skiing mountains",
+   "F": "cappuccino cup",
+   "G": "business presentation meeting",
+   "H": "panettone"
   }
  }
 }

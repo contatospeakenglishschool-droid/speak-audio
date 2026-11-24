@@ -7,8 +7,10 @@ from engine_it import *
 from stanza import thestanza
 setup(band="A1 · UNITÀ 15", audio_json=os.path.join(HERE, "audio_it-a1-unita-15.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "il soggiorno", "soggiorno"), ("B", "la cucina", "cucina"), ("C", "la camera da letto", "camera da letto"), ("D", "il bagno", "bagno"),
-          ("E", "il balcone", "balcone"), ("F", "il divano", "divano"), ("G", "la lampada", "lampada"), ("H", "lo specchio", "specchio")]
+PHOTOS = [('A', 'lo specchio', 'specchio'), ('B', 'il soggiorno', 'soggiorno'), ('C', 'il balcone', 'balcone'), ('D', 'il bagno', 'bagno'),
+          ('E', 'la lampada', 'lampada'), ('F', 'il divano', 'divano'), ('G', 'la cucina', 'cucina'), ('H', 'la camera da letto', 'camera da letto')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ['il bagno', 'il balcone', 'la camera da letto', 'la cucina', 'il divano', 'la lampada', 'il soggiorno', 'lo specchio']
 
 SCRIPT = [("Narratore", "Dialogo uno. La signora Rossi mostra un appartamento a Júlia."), ("Signora Rossi", "Ecco l'appartamento, Júlia. È al terzo piano, proprio sopra il Suo."),
           ("Júlia", "Che bello! È molto luminoso."), ("Signora Rossi", "Questo è il soggiorno. C'è un divano, ci sono due poltrone e c'è anche un balcone."),
@@ -42,7 +44,7 @@ def build(teacher):
     rl = [f'<li value="{i+1}">{a} {A(x, "min-width:28mm")}.</li>' for i, (a, x) in enumerate(rd)]
     b.page(f"""{sec(1, "Riscaldamento: la casa", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi le parole sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in words)}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Dove sei? Completa.", "4 min")}
 <div class="bank" style="background:#fff">bagno · balcone · camera da letto · cucina · ingresso · soggiorno</div>

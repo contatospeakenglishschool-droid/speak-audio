@@ -7,8 +7,10 @@ from engine_it import *
 from cartolina import postcard
 setup(band="A1 · UNITÀ 21", audio_json=os.path.join(HERE, "audio_it-a1-unita-21.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "al mare", "mare"), ("B", "in montagna", "montagna"), ("C", "fare il bagno", "bagno"), ("D", "il traghetto", "traghetto"),
-          ("E", "la valigia", "valigia"), ("F", "prendere il sole", "sole"), ("G", "fare le foto", "foto"), ("H", "il campeggio", "campeggio")]
+PHOTOS = [('A', 'il campeggio', 'campeggio'), ('B', 'fare le foto', 'foto'), ('C', 'al mare', 'mare'), ('D', 'fare il bagno', 'bagno'),
+          ('E', 'il traghetto', 'traghetto'), ('F', 'in montagna', 'montagna'), ('G', 'la valigia', 'valigia'), ('H', 'prendere il sole', 'sole')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ['al mare', 'il campeggio', 'fare il bagno', 'fare le foto', 'in montagna', 'prendere il sole', 'il traghetto', 'la valigia']
 
 SCRIPT = [("Narratore", "Dialogo uno. Allo studio, il martedì dopo Pasqua."), ("Marco", "Ciao, Júlia! Com'è andato il ponte di Pasqua? Dove sei andata?"),
           ("Júlia", "Sono andata a Napoli con Giulia! Siamo partite venerdì e siamo tornate ieri sera."), ("Marco", "Che bello! Come siete andate? In treno?"),
@@ -47,7 +49,7 @@ def build(teacher):
     whl = "".join(f'<li>{a} <b>{x}</b> / <b>{y}</b> … {A("", "min-width:40mm")}</li>' for a, x, y in wh)
     b.page(f"""{sec(1, "Riscaldamento: in vacanza", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi le parole sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in sorted(words, key=lambda w: w.split()[-1]))}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "E tu? Nell'ultima vacanza… Sottolinea e completa.", "4 min")}
 <ol>{whl}</ol>""",

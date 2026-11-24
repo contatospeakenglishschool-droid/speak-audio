@@ -5,8 +5,10 @@ sys.path.insert(0, os.path.join(HERE, "..", ".."))
 from engine_it import *
 setup(band="A1 · UNITÀ 05", audio_json=os.path.join(HERE, "audio_it-a1-unita-05.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "fare colazione", "colazione"), ("B", "andare in bicicletta", "bicicletta"), ("C", "lavorare", "lavorare"), ("D", "pranzare", "pranzare"),
-          ("E", "andare in palestra", "palestra"), ("F", "uscire con gli amici", "uscire"), ("G", "guardare la TV", "TV"), ("H", "dormire", "dormire")]
+PHOTOS = [('A', 'andare in palestra', 'palestra'), ('B', 'lavorare', 'lavorare'), ('C', 'uscire con gli amici', 'uscire'), ('D', 'guardare la TV', 'TV'),
+          ('E', 'fare colazione', 'colazione'), ('F', 'dormire', 'dormire'), ('G', 'andare in bicicletta', 'bicicletta'), ('H', 'pranzare', 'pranzare')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ['andare in bicicletta', 'andare in palestra', 'dormire', 'fare colazione', 'guardare la TV', 'lavorare', 'pranzare', 'uscire con gli amici']
 
 SCRIPT = [("Narratore", "Dialogo uno. Allo studio, la mattina."), ("Marco", "Júlia, scusa, che ore sono?"), ("Júlia", "Sono le nove e un quarto."),
           ("Marco", "Le nove e un quarto? Sono in ritardo! La riunione è alle nove!"), ("Júlia", "Tranquillo, Marco. La riunione è alle dieci."), ("Marco", "Ah, meno male!"),
@@ -38,7 +40,7 @@ def build(teacher):
     tm = [("08:00", "Sono le otto."), ("13:00", "È l'una."), ("12:00", "È mezzogiorno."), ("07:30", "Sono le sette e mezza."), ("09:15", "Sono le nove e un quarto."), ("17:45", "Sono le sei meno un quarto.")]
     b.page(f"""{sec(1, "Riscaldamento: la giornata", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi l'azione sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in words)}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Che ore sono? Scrivi l'ora in lettere.", "4 min")}
 {clocks(T, A, tm, "26.5mm")}""",

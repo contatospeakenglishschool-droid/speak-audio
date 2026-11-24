@@ -7,8 +7,10 @@ from engine_it import *
 from parco import themap
 setup(band="A1 · UNITÀ 23", audio_json=os.path.join(HERE, "audio_it-a1-unita-23.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "gira a destra", "gira"), ("B", "attraversa", "attraversa"), ("C", "prendi l'autobus", "autobus"), ("D", "mescola", "mescola"),
-          ("E", "metti in frigo", "metti"), ("F", "non fumare", "fumare"), ("G", "spegni la luce", "spegni"), ("H", "apri la finestra", "finestra")]
+PHOTOS = [('A', 'mescola', 'mescola'), ('B', 'spegni la luce', 'spegni'), ('C', "prendi l'autobus", 'autobus'), ('D', 'non fumare', 'fumare'),
+          ('E', 'attraversa', 'attraversa'), ('F', 'apri la finestra', 'finestra'), ('G', 'gira a destra', 'gira'), ('H', 'metti in frigo', 'metti')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ['apri la finestra', 'attraversa', 'gira a destra', 'mescola', 'metti in frigo', 'non fumare', "prendi l'autobus", 'spegni la luce']
 
 SCRIPT = [("Narratore", "Dialogo uno. Venerdì sera, a casa di Júlia."), ("Júlia", "Giulia, mi insegni a fare il tiramisù? Al Portico ho mangiato un tiramisù buonissimo!"),
           ("Giulia", "Certo, è facile! Prima separa le uova."), ("Júlia", "Così?"),
@@ -47,7 +49,7 @@ def build(teacher):
     whl = "".join(f"<tr><td style='width:28mm'><b>{a}</b></td><td>{A(x, 'min-width:90mm')}</td></tr>" for a, x in wh)
     b.page(f"""{sec(1, "Riscaldamento: le istruzioni", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi le istruzioni sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in sorted(words, key=lambda w: w.replace("non ", "")))}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Dove senti queste istruzioni? Scrivi le istruzioni delle foto nel posto giusto.", "4 min")}
 <table style="margin:0">{whl}</table>""",

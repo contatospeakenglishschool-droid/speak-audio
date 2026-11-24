@@ -7,8 +7,10 @@ from engine_it import *
 from modulo import modulo
 setup(band="A1 · UNITÀ 30", audio_json=os.path.join(HERE, "audio_it-a1-unita-30.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "gli studenti", "studenti"), ("B", "il modulo", "modulo"), ("C", "il passaporto", "passaporto"), ("D", "la tessera", "tessera"),
-          ("E", "l'aula", "aula"), ("F", "la chiocciola", "chiocciola"), ("G", "il medico", "medico"), ("H", "la pallavolo", "pallavolo")]
+PHOTOS = [('A', 'gli studenti', 'studenti'), ('B', 'il passaporto', 'passaporto'), ('C', 'la tessera', 'tessera'), ('D', 'la chiocciola', 'chiocciola'),
+          ('E', "l'aula", 'aula'), ('F', 'il medico', 'medico'), ('G', 'la pallavolo', 'pallavolo'), ('H', 'il modulo', 'modulo')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ["l'aula", 'la chiocciola', 'il medico', 'il modulo', 'la pallavolo', 'il passaporto', 'gli studenti', 'la tessera']
 
 _r = json.load(open(os.path.join(HERE, "roteiro.json")))["units"]["it-a1-unita-30"]
 SCRIPT = [tuple(x.split(": ", 1)) for x in _r["30.1 Dialogo"].split("\n")]
@@ -35,7 +37,7 @@ def build(teacher):
     words = [w for _, w, _ in PHOTOS]
     b.page(f"""{sec(1, "Riscaldamento: il primo giorno", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi la parola sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in sorted(words, key=_key))}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Parla con l'insegnante.", "4 min")}
 <ol><li>Hai studiato all'università? Che cosa? Dove?</li><li>Quali documenti hai nel portafoglio?</li><li>Ti piace fare sport con altre persone? Quale?</li></ol>""",

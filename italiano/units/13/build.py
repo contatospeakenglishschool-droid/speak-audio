@@ -5,8 +5,10 @@ sys.path.insert(0, os.path.join(HERE, "..", ".."))
 from engine_it import *
 setup(band="A1 · UNITÀ 13", audio_json=os.path.join(HERE, "audio_it-a1-unita-13.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "svegliarsi", "svegliarsi"), ("B", "alzarsi", "alzarsi"), ("C", "farsi la doccia", "doccia"), ("D", "lavarsi i denti", "denti"),
-          ("E", "vestirsi", "vestirsi"), ("F", "pettinarsi", "pettinarsi"), ("G", "rilassarsi", "rilassarsi"), ("H", "addormentarsi", "addormentarsi")]
+PHOTOS = [('A', 'farsi la doccia', 'doccia'), ('B', 'rilassarsi', 'rilassarsi'), ('C', 'vestirsi', 'vestirsi'), ('D', 'pettinarsi', 'pettinarsi'),
+          ('E', 'alzarsi', 'alzarsi'), ('F', 'svegliarsi', 'svegliarsi'), ('G', 'lavarsi i denti', 'denti'), ('H', 'addormentarsi', 'addormentarsi')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ['addormentarsi', 'alzarsi', 'farsi la doccia', 'lavarsi i denti', 'pettinarsi', 'rilassarsi', 'svegliarsi', 'vestirsi']
 
 SCRIPT = [("Narratore", "Dialogo uno. Allo studio, la mattina."), ("Marco", "Júlia, tu arrivi sempre presto! A che ora ti svegli?"),
           ("Júlia", "Mi sveglio alle sei e mezza. Mi alzo subito, mi faccio la doccia e mi vesto velocemente."),
@@ -34,7 +36,7 @@ def build(teacher):
     words = ["addormentarsi", "alzarsi", "farsi la doccia", "lavarsi i denti", "pettinarsi", "rilassarsi", "svegliarsi", "vestirsi"]
     b.page(f"""{sec(1, "Riscaldamento: la mattina e la sera", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi l'azione sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in words)}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "E tu? Metti in ordine la tua mattina (1–6). Poi racconta all'insegnante.", "4 min")}
 <div class="two"><div class="bank" style="background:#fff;line-height:1.9">☐ mi sveglio &nbsp; ☐ mi alzo &nbsp; ☐ faccio colazione<br>☐ mi faccio la doccia &nbsp; ☐ mi vesto &nbsp; ☐ esco di casa</div>

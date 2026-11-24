@@ -21,13 +21,13 @@
  },
  "images": {
   "it-a2-unita-08": {
-   "A": "post office counter",
+   "A": "queue ticket number machine",
    "B": "envelope letter",
-   "C": "filling form pen",
-   "D": "queue ticket number machine",
-   "E": "people waiting queue",
-   "F": "postage stamps",
-   "G": "bologna two towers",
+   "C": "bologna two towers",
+   "D": "filling form pen",
+   "E": "postage stamps",
+   "F": "people waiting queue",
+   "G": "post office counter",
    "H": "tagliatelle ragu"
   }
  }

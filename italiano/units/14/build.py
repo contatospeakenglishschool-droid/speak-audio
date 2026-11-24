@@ -5,8 +5,10 @@ sys.path.insert(0, os.path.join(HERE, "..", ".."))
 from engine_it import *
 setup(band="A1 · UNITÀ 14", audio_json=os.path.join(HERE, "audio_it-a1-unita-14.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "madre e figlia", "madre e figlia"), ("B", "padre e figlio", "padre e figlio"), ("C", "i nonni", "nonni"), ("D", "fratello e sorella", "fratello e sorella"),
-          ("E", "marito e moglie", "marito e moglie"), ("F", "il cane", "cane"), ("G", "il gatto", "gatto"), ("H", "il pranzo della domenica", "pranzo")]
+PHOTOS = [('A', 'fratello e sorella', 'fratello e sorella'), ('B', 'madre e figlia', 'madre e figlia'), ('C', 'il pranzo della domenica', 'pranzo'), ('D', 'padre e figlio', 'padre e figlio'),
+          ('E', 'il gatto', 'gatto'), ('F', 'il cane', 'cane'), ('G', 'i nonni', 'nonni'), ('H', 'marito e moglie', 'marito e moglie')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ['il cane', 'fratello e sorella', 'il gatto', 'madre e figlia', 'marito e moglie', 'i nonni', 'padre e figlio', 'il pranzo della domenica']
 
 SCRIPT = [("Narratore", "Dialogo uno. Al bar, Júlia mostra delle foto."), ("Júlia", "Guarda, Giulia: questa è la mia famiglia. Questi sono i miei genitori."),
           ("Giulia", "Che belli! Come si chiama tua madre?"),
@@ -37,7 +39,7 @@ def build(teacher):
     rl = [f'<li value="{i+1}">{a} {A(x, "min-width:20mm")}.</li>' for i, (a, x) in enumerate(rd)]
     b.page(f"""{sec(1, "Riscaldamento: la famiglia", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi le parole sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in words)}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Chi è? Completa.", "4 min")}
 <div class="bank" style="background:#fff">cognato · cugino · genitori · nipote · nonna · zio</div>

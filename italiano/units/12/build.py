@@ -5,8 +5,10 @@ sys.path.insert(0, os.path.join(HERE, "..", ".."))
 from engine_it import *
 setup(band="A1 · UNITÀ 12", audio_json=os.path.join(HERE, "audio_it-a1-unita-12.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "la cipolla", "cipolla"), ("B", "le carote", "carote"), ("C", "la pentola", "pentola"), ("D", "la carne macinata", "carne"),
-          ("E", "le uova", "uova"), ("F", "il sale", "sale"), ("G", "il coltello", "coltello"), ("H", "il ragù", "ragù")]
+PHOTOS = [('A', 'il sale', 'sale'), ('B', 'la pentola', 'pentola'), ('C', 'la carne macinata', 'carne'), ('D', 'le uova', 'uova'),
+          ('E', 'le carote', 'carote'), ('F', 'il coltello', 'coltello'), ('G', 'la cipolla', 'cipolla'), ('H', 'il ragù', 'ragù')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ['la carne macinata', 'le carote', 'la cipolla', 'il coltello', 'la pentola', 'il ragù', 'il sale', 'le uova']
 
 SCRIPT = [("Narratore", "Dialogo uno. Allo studio."), ("Júlia", "Marco, sabato voglio cucinare il ragù. Come si fa?"),
           ("Marco", "Allora: si tagliano la cipolla, la carota e il sedano. Si mette l'olio nella pentola e si cuociono le verdure."),
@@ -37,7 +39,7 @@ def build(teacher):
     ml = "".join(f"<tr><td style='width:16mm;text-align:center'>{A(n, 'min-width:8mm')}</td><td>{s}</td></tr>" for s, n in moka)
     b.page(f"""{sec(1, "Riscaldamento: in cucina", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi la parola sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in words)}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Il caffè con la moka. Metti le frasi in ordine (1–5).", "4 min")}
 <table style="margin:0">{ml}</table>""",

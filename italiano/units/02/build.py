@@ -5,8 +5,10 @@ sys.path.insert(0, os.path.join(HERE, "..", ".."))
 from engine_it import *
 setup(band="A1 · UNITÀ 02", audio_json=os.path.join(HERE, "audio_it-a1-unita-02.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "l'Italia", "Italia"), ("B", "il Brasile", "Brasile"), ("C", "il Portogallo", "Portogallo"), ("D", "la Francia", "Francia"),
-          ("E", "la Spagna", "Spagna"), ("F", "la Germania", "Germania"), ("G", "gli Stati Uniti", "Stati Uniti"), ("H", "il Giappone", "Giappone")]
+PHOTOS = [('A', "l'Italia", 'Italia'), ('B', 'il Brasile', 'Brasile'), ('C', 'il Portogallo', 'Portogallo'), ('D', 'la Francia', 'Francia'),
+          ('E', 'la Spagna', 'Spagna'), ('F', 'la Germania', 'Germania'), ('G', 'gli Stati Uniti', 'Stati Uniti'), ('H', 'il Giappone', 'Giappone')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ['il Brasile', 'la Francia', 'la Germania', 'il Giappone', "l'Italia", 'il Portogallo', 'la Spagna', 'gli Stati Uniti']
 
 SCRIPT = [("Narratore", "Dialogo uno."), ("Marco", "Júlia, tu di dove sei? Di Rio de Janeiro?"), ("Júlia", "No, sono di Belo Horizonte."),
           ("Marco", "Belo Horizonte? Dov'è?"), ("Júlia", "È nel sud-est del Brasile, vicino a Rio."), ("Marco", "E parli inglese?"),
@@ -38,7 +40,7 @@ def build(teacher):
     ql = [f'<li value="{i+1}">{q} {A(a, "min-width:24mm")}.</li>' for i, (q, a) in enumerate(qs)]
     b.page(f"""{sec(1, "Riscaldamento: paesi e bandiere", "8 min")}
 {sub("A", "Guarda le bandiere. Scrivi il nome del paese sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in words)}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Di dove sono? Completa con la nazionalità.", "4 min")}
 <div class="bank" style="background:#fff">brasiliana · francese · giapponese · italiana · portoghese · spagnola</div>

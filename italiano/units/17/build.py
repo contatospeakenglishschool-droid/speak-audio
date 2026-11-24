@@ -7,8 +7,10 @@ from engine_it import *
 from meteo import icon
 setup(band="A1 · UNITÀ 17", audio_json=os.path.join(HERE, "audio_it-a1-unita-17.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "il sole", "sole"), ("B", "la pioggia", "pioggia"), ("C", "la neve", "neve"), ("D", "la nebbia", "nebbia"),
-          ("E", "il vento", "vento"), ("F", "le nuvole", "nuvole"), ("G", "il temporale", "temporale"), ("H", "l'ombrello", "ombrello")]
+PHOTOS = [('A', 'il sole', 'sole'), ('B', 'le nuvole', 'nuvole'), ('C', 'la nebbia', 'nebbia'), ('D', 'il vento', 'vento'),
+          ('E', 'la neve', 'neve'), ('F', 'il temporale', 'temporale'), ('G', 'la pioggia', 'pioggia'), ('H', "l'ombrello", 'ombrello')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ['la nebbia', 'la neve', 'le nuvole', "l'ombrello", 'la pioggia', 'il sole', 'il temporale', 'il vento']
 
 SCRIPT = [("Narratore", "Dialogo uno. Una mattina di gennaio, sulle scale."), ("Júlia", "Buongiorno, signora Rossi! Che freddo oggi!"),
           ("Signora Rossi", "Buongiorno, Júlia. Sì, fa freddo e c'è la nebbia. A Bologna, in gennaio, c'è spesso la nebbia."),
@@ -43,7 +45,7 @@ def build(teacher):
     rl = [f'<li value="{i+1}">{a} {A(x, "min-width:20mm")}.</li>' for i, (a, x) in enumerate(rd)]
     b.page(f"""{sec(1, "Riscaldamento: il tempo e le stagioni", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi le parole sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in sorted(words, key=lambda w: w.split()[-1].lstrip("l'")))}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Che stagione è? Completa. Due parole si usano due volte.", "4 min")}
 <div class="bank" style="background:#fff">autunno · estate · inverno · primavera</div>

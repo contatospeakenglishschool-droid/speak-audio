@@ -21,14 +21,14 @@
  },
  "images": {
   "it-a2-unita-03": {
-   "A": "umbrella rain street",
-   "B": "puddle rain reflection",
-   "C": "small dog wet",
-   "D": "library reading room",
-   "E": "knee band aid",
-   "F": "keys bunch",
-   "G": "closed wooden door",
-   "H": "alarm clock bed"
+   "A": "puddle rain reflection",
+   "B": "library reading room",
+   "C": "keys bunch",
+   "D": "small dog wet",
+   "E": "closed wooden door",
+   "F": "alarm clock bed",
+   "G": "knee band aid",
+   "H": "umbrella rain street"
   }
  }
 }

@@ -21,14 +21,14 @@
  },
  "images": {
   "it-a2-unita-02": {
-   "A": "old photo album",
-   "B": "vintage bicycle",
-   "C": "old doll",
-   "D": "old leather football",
-   "E": "house garden lawn",
-   "F": "rimini beach umbrellas",
-   "G": "vintage television",
-   "H": "school blackboard chalk"
+   "A": "old leather football",
+   "B": "school blackboard chalk",
+   "C": "vintage television",
+   "D": "vintage bicycle",
+   "E": "rimini beach umbrellas",
+   "F": "old doll",
+   "G": "house garden lawn",
+   "H": "old photo album"
   }
  }
 }

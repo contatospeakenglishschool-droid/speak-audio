@@ -5,8 +5,10 @@ sys.path.insert(0, os.path.join(HERE, "..", ".."))
 from engine_it import *
 setup(band="A1 · UNITÀ 04", audio_json=os.path.join(HERE, "audio_it-a1-unita-04.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "il caffè", "caffè"), ("B", "il cappuccino", "cappuccino"), ("C", "il cornetto", "cornetto"), ("D", "la spremuta", "spremuta"),
-          ("E", "l'acqua", "acqua"), ("F", "il tramezzino", "tramezzino"), ("G", "lo zucchero", "zucchero"), ("H", "lo scontrino", "scontrino")]
+PHOTOS = [('A', 'il caffè', 'caffè'), ('B', 'la spremuta', 'spremuta'), ('C', 'lo scontrino', 'scontrino'), ('D', "l'acqua", 'acqua'),
+          ('E', 'lo zucchero', 'zucchero'), ('F', 'il cornetto', 'cornetto'), ('G', 'il cappuccino', 'cappuccino'), ('H', 'il tramezzino', 'tramezzino')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ["l'acqua", 'il caffè', 'il cappuccino', 'il cornetto', 'lo scontrino', 'la spremuta', 'il tramezzino', 'lo zucchero']
 
 SCRIPT = [("Narratore", "Dialogo uno. Al banco, la mattina."), ("Giulia", "Buongiorno, ragazzi! Che cosa prendete?"),
           ("Júlia", "Vorrei un cappuccino e un cornetto, per favore."), ("Marco", "Per me un caffè."), ("Giulia", "Il cornetto vuoto o alla crema?"),
@@ -41,7 +43,7 @@ def build(teacher):
     food = "il cornetto, il tramezzino"
     b.page(f"""{sec(1, "Riscaldamento: al bar", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi la parola sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in words)}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Da bere o da mangiare? Scrivi le parole nella colonna giusta.", "4 min")}
 <div class="bank" style="background:#fff">{" · ".join(items)}</div>

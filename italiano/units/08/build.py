@@ -5,8 +5,10 @@ sys.path.insert(0, os.path.join(HERE, "..", ".."))
 from engine_it import *
 setup(band="A1 · UNITÀ 08", audio_json=os.path.join(HERE, "audio_it-a1-unita-08.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "la camera doppia", "camera doppia"), ("B", "la camera singola", "camera singola"), ("C", "la chiave", "chiave"), ("D", "la reception", "reception"),
-          ("E", "l'ascensore", "ascensore"), ("F", "la colazione", "colazione"), ("G", "la valigia", "valigia"), ("H", "il parcheggio", "parcheggio")]
+PHOTOS = [('A', 'la camera doppia', 'camera doppia'), ('B', "l'ascensore", 'ascensore'), ('C', 'il parcheggio', 'parcheggio'), ('D', 'la colazione', 'colazione'),
+          ('E', 'la chiave', 'chiave'), ('F', 'la valigia', 'valigia'), ('G', 'la camera singola', 'camera singola'), ('H', 'la reception', 'reception')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ["l'ascensore", 'la camera doppia', 'la camera singola', 'la chiave', 'la colazione', 'il parcheggio', 'la reception', 'la valigia']
 
 SCRIPT = [("Narratore", "Dialogo uno. Al telefono con l'albergo."), ("Receptionist", "Hotel Due Torri, buongiorno!"),
           ("Júlia", "Buongiorno. Vorrei prenotare una camera doppia per tre notti, dal dieci al tredici dicembre."), ("Receptionist", "Certo. A che nome?"),
@@ -37,7 +39,7 @@ def build(teacher):
     ql = [f'<li value="{i+1}">{q} {R("→ " + a) if T else ""}</li>' for i, (q, a) in enumerate(qs)]
     b.page(f"""{sec(1, "Riscaldamento: in albergo", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi la parola sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in words)}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Che cosa chiedi alla reception?", "4 min")}
 <ol>{"".join(ql)}</ol>""",

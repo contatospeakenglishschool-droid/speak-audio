@@ -7,8 +7,10 @@ from engine_it import *
 from chat import chat
 setup(band="A1 · UNITÀ 28", audio_json=os.path.join(HERE, "audio_it-a1-unita-28.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "la valigia", "valigia"), ("B", "l'aeroporto", "aeroporto"), ("C", "la cena", "cena"), ("D", "il nuoto", "nuoto"),
-          ("E", "la spiaggia", "spiaggia"), ("F", "il regalo", "regalo"), ("G", "le chiavi", "chiavi"), ("H", "le piante", "piante")]
+PHOTOS = [('A', 'la spiaggia', 'spiaggia'), ('B', 'le chiavi', 'chiavi'), ('C', "l'aeroporto", 'aeroporto'), ('D', 'il regalo', 'regalo'),
+          ('E', 'la valigia', 'valigia'), ('F', 'le piante', 'piante'), ('G', 'la cena', 'cena'), ('H', 'il nuoto', 'nuoto')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ["l'aeroporto", 'la cena', 'le chiavi', 'il nuoto', 'le piante', 'il regalo', 'la spiaggia', 'la valigia']
 
 _r = json.load(open(os.path.join(HERE, "roteiro.json")))["units"]["it-a1-unita-28"]
 SCRIPT = [tuple(x.split(": ", 1)) for x in _r["28.1 Dialogo"].split("\n")]
@@ -35,7 +37,7 @@ def build(teacher):
     words = [w for _, w, _ in PHOTOS]
     b.page(f"""{sec(1, "Riscaldamento: bentornata!", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi la parola sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in sorted(words, key=_key))}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Parla con l'insegnante.", "4 min")}
 <ol><li>Dove sei andato/a in vacanza l'ultima volta? Con chi?</li><li>Che cosa metti in valigia? Che cosa porti come regalo?</li><li>Quando parti, chi dà l'acqua alle tue piante?</li></ol>""",

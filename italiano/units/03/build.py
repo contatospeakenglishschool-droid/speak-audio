@@ -5,8 +5,10 @@ sys.path.insert(0, os.path.join(HERE, "..", ".."))
 from engine_it import *
 setup(band="A1 · UNITÀ 03", audio_json=os.path.join(HERE, "audio_it-a1-unita-03.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "un'architetta", "architetta"), ("B", "un medico", "medico"), ("C", "un cameriere", "cameriere"), ("D", "un insegnante", "insegnante"),
-          ("E", "un'infermiera", "infermiera"), ("F", "uno studente", "studente"), ("G", "un cuoco", "cuoco"), ("H", "un commesso", "commesso")]
+PHOTOS = [('A', "un'infermiera", 'infermiera'), ('B', 'un medico', 'medico'), ('C', 'un cuoco', 'cuoco'), ('D', 'un insegnante', 'insegnante'),
+          ('E', 'uno studente', 'studente'), ('F', 'un commesso', 'commesso'), ('G', 'un cameriere', 'cameriere'), ('H', "un'architetta", 'architetta')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ["un'architetta", 'un cameriere', 'un commesso', 'un cuoco', "un'infermiera", 'un insegnante', 'un medico', 'uno studente']
 
 SCRIPT = [("Narratore", "Dialogo uno."), ("Giulia", "Ciao, Júlia! Un caffè?"), ("Júlia", "Sì, grazie. Oggi lavoro molto!"), ("Giulia", "Che lavoro fai?"),
           ("Júlia", "Sono architetta. Lavoro in uno studio in via Indipendenza."), ("Giulia", "Che bello! E abiti qui vicino, vero?"),
@@ -39,7 +41,7 @@ def build(teacher):
     ql = [f'<li value="{i+1}">… {q}? {R("→ " + a) if T else ""}</li>' for i, (q, a) in enumerate(qs)]
     b.page(f"""{sec(1, "Riscaldamento: i lavori", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi il lavoro sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in words)}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Chi lavora…", "4 min")}
 {twocol(ql, 4)}""",

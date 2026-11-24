@@ -10,8 +10,10 @@ from corpo import corpo
 _se.SERIES = "Ponte"
 setup(band="A2 · UNITÀ 04", audio_json=os.path.join(HERE, "audio_it-a2-unita-04.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "il mal di testa", "mal di testa"), ("B", "i fazzoletti", "fazzoletti"), ("C", "il mal di schiena", "mal di schiena"), ("D", "il termometro", "termometro"),
-          ("E", "lo sciroppo", "sciroppo"), ("F", "le pastiglie", "pastiglie"), ("G", "il ghiaccio", "ghiaccio"), ("H", "la farmacia", "farmacia")]
+PHOTOS = [('A', 'il termometro', 'termometro'), ('B', 'lo sciroppo', 'sciroppo'), ('C', 'le pastiglie', 'pastiglie'), ('D', 'il mal di testa', 'mal di testa'),
+          ('E', 'i fazzoletti', 'fazzoletti'), ('F', 'il mal di schiena', 'mal di schiena'), ('G', 'il ghiaccio', 'ghiaccio'), ('H', 'la farmacia', 'farmacia')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ['la farmacia', 'i fazzoletti', 'il ghiaccio', 'il mal di schiena', 'il mal di testa', 'le pastiglie', 'lo sciroppo', 'il termometro']
 
 _r = json.load(open(os.path.join(HERE, "roteiro.json")))["units"]["it-a2-unita-04"]
 SCRIPT = [tuple(x.split(": ", 1)) for x in _r["04.1 Dialogo"].split("\n")]
@@ -34,7 +36,7 @@ def build(teacher):
     words = [w for _, w, _ in PHOTOS]
     b.page(f"""{sec(1, "Riscaldamento: non sto bene", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi la parola sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in sorted(words))}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Parla con l'insegnante.", "4 min")}
 <ol><li>Quali di queste cose hai a casa? Dove le tieni?</li><li>Quando sei stato/a male l'ultima volta? Che cosa avevi?</li><li>Quando hai il raffreddore, vai dal medico o in farmacia?</li></ol>""",

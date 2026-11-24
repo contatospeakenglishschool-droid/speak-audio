@@ -8,7 +8,10 @@
   "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
   "Narrator": "it-IT-Chirp3-HD-Kore"
  },
- "pauses": {"11.2": 2000, "11.3": 2500},
+ "pauses": {
+  "11.2": 2000,
+  "11.3": 2500
+ },
  "units": {
   "it-a1-unita-11": {
    "11.1 Dialogo": "Narrator: Dialogo uno. Lunedì mattina, allo studio.\nMarco: Ciao, Júlia! Com'è andato il fine settimana?\nJúlia: Benissimo! Sabato sono andata a Firenze con i miei genitori. Ho visto il Duomo e ho mangiato la bistecca fiorentina.\nMarco: E Luca?\nJúlia: Luca è venuto con noi e ha fatto la guida!\nMarco: E domenica?\nJúlia: Domenica sono rimasta a casa e ho dormito tanto.\nNarrator: Dialogo due. Al bar.\nGiulia: Davide, che cosa hai fatto sabato sera?\nDavide: Sono uscito con gli amici. Sono andato a una festa e sono tornato a casa alle tre!\nGiulia: Alle tre? E domenica hai studiato?\nDavide: No... non ho studiato. Ho guardato la partita del Napoli.\nGiulia: E il Napoli ha vinto?\nDavide: No, ha perso!\nNarrator: Dialogo tre. Sulle scale.\nSignora Rossi: Buongiorno, signora Souza. I Suoi genitori sono partiti?\nJúlia: Sì, sono partiti ieri sera. Hanno preso il treno per Roma.\nSignora Rossi: E Bologna è piaciuta?\nJúlia: Moltissimo! Hanno visto le torri, i portici... e hanno mangiato tantissimo!\nSignora Rossi: E Lei è stanca?\nJúlia: Un po'. Ieri ho lavorato tutto il giorno.",
@@ -20,10 +23,10 @@
   "it-a1-unita-11": {
    "A": "florence cathedral duomo",
    "B": "florentine steak bistecca",
-   "C": "friends party dancing night",
+   "C": "people walking under arcades bologna",
    "D": "football stadium match crowd",
-   "E": "high speed train italy",
-   "F": "people walking under arcades bologna",
+   "E": "friends party dancing night",
+   "F": "high speed train italy",
    "G": "art museum gallery visitors",
    "H": "ponte vecchio florence"
   }

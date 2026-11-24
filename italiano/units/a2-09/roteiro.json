@@ -21,14 +21,14 @@
  },
  "images": {
   "it-a2-unita-09": {
-   "A": "newspaper reading coffee",
-   "B": "architectural model city",
+   "A": "for rent sign apartment",
+   "B": "ribbon cutting ceremony scissors",
    "C": "city park bench trees",
-   "D": "for rent sign apartment",
+   "D": "architectural model city",
    "E": "bike lane city",
    "F": "friends discussing cafe table",
-   "G": "construction site crane",
-   "H": "ribbon cutting ceremony scissors"
+   "G": "newspaper reading coffee",
+   "H": "construction site crane"
   }
  }
 }

@@ -7,8 +7,10 @@ from engine_it import *
 from menu import menu_card
 setup(band="A1 · UNITÀ 22", audio_json=os.path.join(HERE, "audio_it-a1-unita-22.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "l'antipasto", "antipasto"), ("B", "il primo", "primo"), ("C", "il secondo", "secondo"), ("D", "il contorno", "contorno"),
-          ("E", "il dolce", "dolce"), ("F", "il conto", "conto"), ("G", "il cameriere", "cameriere"), ("H", "il menù", "menù")]
+PHOTOS = [('A', 'il contorno', 'contorno'), ('B', 'il secondo', 'secondo'), ('C', 'il primo', 'primo'), ('D', 'il menù', 'menù'),
+          ('E', 'il cameriere', 'cameriere'), ('F', 'il dolce', 'dolce'), ('G', "l'antipasto", 'antipasto'), ('H', 'il conto', 'conto')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ["l'antipasto", 'il cameriere', 'il conto', 'il contorno', 'il dolce', 'il menù', 'il primo', 'il secondo']
 
 SCRIPT = [("Narratore", "Dialogo uno. Al telefono."), ("Cameriere", "Trattoria Il Portico, buonasera!"), ("Júlia", "Buonasera. Vorrei prenotare un tavolo per sabato sera."),
           ("Cameriere", "Per quante persone?"), ("Júlia", "Per tre persone."), ("Cameriere", "A che ora?"), ("Júlia", "Alle otto e mezza."),
@@ -46,7 +48,7 @@ def build(teacher):
     catl = [f'<li value="{i+1}">{a} → {A(x, "min-width:22mm")}</li>' for i, (a, x) in enumerate(cat)]
     b.page(f"""{sec(1, "Riscaldamento: il menù", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi le parole sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in sorted(words, key=lambda w: w.split()[-1].lstrip("l'")))}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Antipasto, primo, secondo, contorno o dolce?", "4 min")}
 {twocol(catl, 4)}""",

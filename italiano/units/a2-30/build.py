@@ -9,8 +9,10 @@ import grammar_ref_it
 _se.SERIES = "Ponte"
 setup(band="A2 · UNITÀ 30", audio_json=os.path.join(HERE, "audio_it-a2-unita-30.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "il passaporto", "passaporto"), ("B", "la fotocopiatrice", "fotocopiatrice"), ("C", "la fermata dell'autobus", "fermata"), ("D", "il mercatino", "mercatino"),
-          ("E", "la fila", "fila"), ("F", "il modulo", "modulo"), ("G", "il calcetto", "calcetto"), ("H", "la nostalgia", "nostalgia")]
+PHOTOS = [('A', 'la fotocopiatrice', 'fotocopiatrice'), ('B', 'la nostalgia', 'nostalgia'), ('C', "la fermata dell'autobus", 'fermata'), ('D', 'il mercatino', 'mercatino'),
+          ('E', 'il calcetto', 'calcetto'), ('F', 'il passaporto', 'passaporto'), ('G', 'il modulo', 'modulo'), ('H', 'la fila', 'fila')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ['il calcetto', "la fermata dell'autobus", 'la fila', 'la fotocopiatrice', 'il mercatino', 'il modulo', 'la nostalgia', 'il passaporto']
 
 _r = json.load(open(os.path.join(HERE, "roteiro.json")))["units"]["it-a2-unita-30"]
 SCRIPT = [tuple(x.split(": ", 1)) for x in _r["30.1 Dialoghi"].split("\n")]
@@ -40,7 +42,7 @@ def build(teacher):
     words = [w for _, w, _ in PHOTOS]
     b.page(f"""{sec(1, "Riscaldamento: appena arrivati", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi la parola sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in sorted(words, key=_key))}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Parla con l'insegnante.", "4 min")}
 <ol><li>Quando arrivi in una città nuova, che cosa fai prima?</li><li>Ti piace la burocrazia? Qual è l'ufficio peggiore del tuo Paese?</li><li>Hai mai avuto nostalgia di casa? Quando?</li></ol>""",

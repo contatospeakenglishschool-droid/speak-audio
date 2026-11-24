@@ -10,8 +10,10 @@ from mappa import mappa
 _se.SERIES = "Ponte"
 setup(band="A2 · UNITÀ 08", audio_json=os.path.join(HERE, "audio_it-a2-unita-08.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "l'ufficio postale", "ufficio postale"), ("B", "la lettera", "lettera"), ("C", "il modulo", "modulo"), ("D", "il numero", "numero"),
-          ("E", "la fila", "fila"), ("F", "i francobolli", "francobolli"), ("G", "le Due Torri", "Due Torri"), ("H", "le tagliatelle al ragù", "tagliatelle")]
+PHOTOS = [('A', 'il numero', 'numero'), ('B', 'la lettera', 'lettera'), ('C', 'le Due Torri', 'Due Torri'), ('D', 'il modulo', 'modulo'),
+          ('E', 'i francobolli', 'francobolli'), ('F', 'la fila', 'fila'), ('G', "l'ufficio postale", 'ufficio postale'), ('H', 'le tagliatelle al ragù', 'tagliatelle')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ['le Due Torri', 'la fila', 'i francobolli', 'la lettera', 'il modulo', 'il numero', 'le tagliatelle al ragù', "l'ufficio postale"]
 
 _r = json.load(open(os.path.join(HERE, "roteiro.json")))["units"]["it-a2-unita-08"]
 SCRIPT = [tuple(x.split(": ", 1)) for x in _r["08.1 Dialogo"].split("\n")]
@@ -39,7 +41,7 @@ def build(teacher):
     words = [w for _, w, _ in PHOTOS]
     b.page(f"""{sec(1, "Riscaldamento: all'ufficio postale", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi la parola sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in sorted(words, key=_key))}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Parla con l'insegnante.", "4 min")}
 <ol><li>Quando sei andato/a l'ultima volta all'ufficio postale? Che cosa hai fatto?</li><li>Fai spesso la fila? Dove?</li><li>Quando visiti una città nuova, chiedi indicazioni alle persone o usi il telefono?</li></ol>""",

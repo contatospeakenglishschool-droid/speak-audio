@@ -6,8 +6,10 @@ sys.path.insert(0, HERE)
 from engine_it import *
 setup(band="A1 · UNITÀ 24", audio_json=os.path.join(HERE, "audio_it-a1-unita-24.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "il calcio", "calcio"), ("B", "il nuoto", "nuoto"), ("C", "la pallavolo", "pallavolo"), ("D", "il tennis", "tennis"),
-          ("E", "la corsa", "corsa"), ("F", "il ciclismo", "ciclismo"), ("G", "lo yoga", "yoga"), ("H", "lo sci", "sci")]
+PHOTOS = [('A', 'la corsa', 'corsa'), ('B', 'la pallavolo', 'pallavolo'), ('C', 'il nuoto', 'nuoto'), ('D', 'lo sci', 'sci'),
+          ('E', 'lo yoga', 'yoga'), ('F', 'il ciclismo', 'ciclismo'), ('G', 'il calcio', 'calcio'), ('H', 'il tennis', 'tennis')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ['il calcio', 'il ciclismo', 'la corsa', 'il nuoto', 'la pallavolo', 'lo sci', 'il tennis', 'lo yoga']
 
 SCRIPT = [("Narratore", "Dialogo uno. Allo studio."), ("Marco", "Júlia, che sport fai?"),
           ("Júlia", "Faccio nuoto due volte alla settimana. E qualche volta corro ai Giardini Margherita."), ("Marco", "Brava! E sai giocare a calcio?"),
@@ -43,7 +45,7 @@ def build(teacher):
     gfl = [f'<li value="{i+1}">{A(v, "min-width:22mm")} {s}</li>' for i, (s, v) in enumerate(gf)]
     b.page(f"""{sec(1, "Riscaldamento: che sport?", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi lo sport sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in sorted(words, key=lambda w: w.split()[-1]))}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Gioco a o faccio? Completa.", "4 min")}
 {twocol(gfl, 4)}""",

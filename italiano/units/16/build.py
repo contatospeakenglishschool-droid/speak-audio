@@ -5,8 +5,10 @@ sys.path.insert(0, os.path.join(HERE, "..", ".."))
 from engine_it import *
 setup(band="A1 · UNITÀ 16", audio_json=os.path.join(HERE, "audio_it-a1-unita-16.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "il treno", "treno"), ("B", "la stazione", "stazione"), ("C", "il binario", "binario"), ("D", "il biglietto", "biglietto"),
-          ("E", "l'autobus", "autobus"), ("F", "la macchina", "macchina"), ("G", "la bicicletta", "bicicletta"), ("H", "l'aereo", "aereo")]
+PHOTOS = [('A', 'il treno', 'treno'), ('B', 'la macchina', 'macchina'), ('C', "l'aereo", 'aereo'), ('D', 'la stazione', 'stazione'),
+          ('E', "l'autobus", 'autobus'), ('F', 'il biglietto', 'biglietto'), ('G', 'la bicicletta', 'bicicletta'), ('H', 'il binario', 'binario')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ["l'aereo", "l'autobus", 'la bicicletta', 'il biglietto', 'il binario', 'la macchina', 'la stazione', 'il treno']
 
 SCRIPT = [("Narratore", "Dialogo uno. Alla biglietteria della stazione di Bologna."), ("Júlia", "Buongiorno, un biglietto per Firenze, per favore."),
           ("Impiegata", "Solo andata o andata e ritorno?"), ("Júlia", "Andata e ritorno. A che ora parte il prossimo treno?"),
@@ -42,7 +44,7 @@ def build(teacher):
     rl = [f'<li value="{i+1}">{a} {A(x, "min-width:22mm")}.</li>' for i, (a, x) in enumerate(rd)]
     b.page(f"""{sec(1, "Riscaldamento: i mezzi di trasporto", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi le parole sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in words)}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Come vai? Completa.", "4 min")}
 <div class="bank" style="background:#fff">a piedi · in aereo · in autobus · in bici · in macchina · in treno</div>

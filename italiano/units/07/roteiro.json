@@ -7,7 +7,10 @@
   "Uomo": "it-IT-Chirp3-HD-Charon",
   "Narrator": "it-IT-Chirp3-HD-Kore"
  },
- "pauses": {"07.2": 2000, "07.3": 2500},
+ "pauses": {
+  "07.2": 2000,
+  "07.3": 2500
+ },
  "units": {
   "it-a1-unita-07": {
    "07.1 Dialogo": "Narrator: Dialogo uno. Sabato mattina, davanti a casa.\nJúlia: Signora Rossi, scusi, c'è una farmacia qui vicino?\nSignora Rossi: Sì, c'è una farmacia in via Santo Stefano, nella piazza piccola.\nJúlia: E un supermercato?\nSignora Rossi: Ci sono due supermercati in via Castiglione. E nel centro ci sono molti negozi.\nJúlia: E il bancomat?\nSignora Rossi: Il bancomat è nella banca, accanto al bar di Giulia.\nJúlia: Grazie mille, signora!\nNarrator: Dialogo due. In centro.\nJúlia: Scusi, dov'è l'ufficio postale?\nUomo: Allora... va dritto, prende la seconda strada a destra, e l'ufficio postale è lì, di fronte alla chiesa.\nJúlia: Può ripetere, per favore?\nUomo: Certo. Dritto, la seconda a destra, di fronte alla chiesa.\nJúlia: È lontano?\nUomo: No, no. Cinque minuti a piedi.\nNarrator: Dialogo tre. Al telefono.\nMarco: Pronto, Júlia? Dove sei?\nJúlia: Sono in piazza Maggiore. Posso arrivare allo studio alle tre?\nMarco: Sì, certo. Ma puoi comprare il pane? C'è un forno nella prima strada a sinistra.\nJúlia: Va bene. Il pane e poi lo studio!",

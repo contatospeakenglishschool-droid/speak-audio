@@ -8,7 +8,10 @@
   "Signora Rossi": "it-IT-Chirp3-HD-Gacrux",
   "Narrator": "it-IT-Chirp3-HD-Kore"
  },
- "pauses": {"25.2": 2000, "25.3": 2500},
+ "pauses": {
+  "25.2": 2000,
+  "25.3": 2500
+ },
  "units": {
   "it-a1-unita-25": {
    "25.1 Dialogo": "Narrator: Dialogo uno. Al telefono.\nGiulia: Pronto, Júlia? Sono Giulia. Sabato prossimo è il mio compleanno!\nJúlia: Davvero? Tanti auguri in anticipo! Quanti anni compi?\nGiulia: Trenta! Sabato sera faccio una festa a casa mia. Vieni?\nJúlia: Certo! A che ora?\nGiulia: Alle otto. C'è la torta e poi balliamo!\nJúlia: Che cosa porto?\nGiulia: Niente! Porta solo Marco.\nJúlia: Va bene, domani chiamo Marco. A sabato!\nNarrator: Dialogo due. Allo studio.\nMarco: Júlia, il quindici agosto è Ferragosto. Lo studio chiude due settimane.\nJúlia: Due settimane? In Brasile non è così!\nMarco: In Italia ad agosto tutti vanno in vacanza. Quest'anno io vado in montagna, nelle Dolomiti, con Luca.\nJúlia: Che bello! Io ad agosto torno in Brasile a trovare la mia famiglia.\nMarco: E a Natale? Resti a Bologna?\nJúlia: Non so ancora.\nMarco: Sai che cosa diciamo in Italia? Natale con i tuoi, Pasqua con chi vuoi!\nJúlia: Infatti a Pasqua sono andata a Napoli con Giulia!\nNarrator: Dialogo tre. Sulle scale.\nDavide: Júlia, che cosa sono tutte queste bandierine?\nJúlia: Sono per la festa junina! In Brasile, a giugno, festeggiamo San Giovanni con musica, balli e dolci tipici.\nSignora Rossi: San Giovanni? Anche in Italia festeggiamo San Giovanni, il ventiquattro giugno, soprattutto a Firenze e a Torino.\nJúlia: Domenica prossima faccio una piccola festa sul terrazzo. Venite?\nDavide: Volentieri! Porto la chitarra.\nSignora Rossi: E io porto la torta di riso, il dolce tipico di Bologna.\nJúlia: Grazie! Allora a domenica!\nDavide: A domenica! E viva San Giovanni!",
@@ -18,13 +21,13 @@
  },
  "images": {
   "it-a1-unita-25": {
-   "A": "christmas tree decorated living room",
-   "B": "easter eggs colorful",
-   "C": "birthday cake candles",
-   "D": "new year fireworks night city",
-   "E": "venice carnival masks",
-   "F": "crowded beach summer italy",
-   "G": "wrapped gift box ribbon",
+   "A": "new year fireworks night city",
+   "B": "crowded beach summer italy",
+   "C": "easter eggs colorful",
+   "D": "venice carnival masks",
+   "E": "christmas tree decorated living room",
+   "F": "wrapped gift box ribbon",
+   "G": "birthday cake candles",
    "H": "italian flag waving"
   }
  }

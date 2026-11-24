@@ -20,14 +20,14 @@
  },
  "images": {
   "it-a2-unita-06": {
-   "A": "resume cv paper desk",
-   "B": "job interview",
-   "C": "espresso machine",
-   "D": "latte art barista",
-   "E": "help wanted sign window",
-   "F": "business handshake",
-   "G": "apron barista",
-   "H": "office desk computer"
+   "A": "business handshake",
+   "B": "office desk computer",
+   "C": "apron barista",
+   "D": "job interview",
+   "E": "latte art barista",
+   "F": "help wanted sign window",
+   "G": "resume cv paper desk",
+   "H": "espresso machine"
   }
  }
 }

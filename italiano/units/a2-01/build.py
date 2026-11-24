@@ -10,8 +10,10 @@ from vetrina import vetrina
 _se.SERIES = "Ponte"
 setup(band="A2 · UNITÀ 01", audio_json=os.path.join(HERE, "audio_it-a2-unita-01.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "la giacca", "giacca"), ("B", "il vestito", "vestito"), ("C", "la camicia", "camicia"), ("D", "la gonna", "gonna"),
-          ("E", "i pantaloni", "pantaloni"), ("F", "le scarpe", "scarpe"), ("G", "la cravatta", "cravatta"), ("H", "il camerino", "camerino")]
+PHOTOS = [('A', 'i pantaloni', 'pantaloni'), ('B', 'il camerino', 'camerino'), ('C', 'la gonna', 'gonna'), ('D', 'il vestito', 'vestito'),
+          ('E', 'la cravatta', 'cravatta'), ('F', 'le scarpe', 'scarpe'), ('G', 'la giacca', 'giacca'), ('H', 'la camicia', 'camicia')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ['il camerino', 'la camicia', 'la cravatta', 'la giacca', 'la gonna', 'i pantaloni', 'le scarpe', 'il vestito']
 
 _r = json.load(open(os.path.join(HERE, "roteiro.json")))["units"]["it-a2-unita-01"]
 SCRIPT = [tuple(x.split(": ", 1)) for x in _r["01.1 Dialogo"].split("\n")]
@@ -34,7 +36,7 @@ def build(teacher):
     words = [w for _, w, _ in PHOTOS]
     b.page(f"""{sec(1, "Riscaldamento: che cosa ti metti?", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi la parola sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in sorted(words, key=lambda w: w.split()[-1]))}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Parla con l'insegnante.", "4 min")}
 <ol><li>Che cosa ti metti per andare al lavoro? E la domenica?</li><li>Che cosa ti metti per un matrimonio in Brasile?</li><li>Ti piace fare shopping? Dove compri i vestiti?</li></ol>""",

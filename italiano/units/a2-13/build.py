@@ -9,8 +9,10 @@ import grammar_ref_it
 _se.SERIES = "Ponte"
 setup(band="A2 · UNITÀ 13", audio_json=os.path.join(HERE, "audio_it-a2-unita-13.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "timido", "timido"), ("B", "socievole", "socievole"), ("C", "pigro", "pigro"), ("D", "sportivo", "sportivo"),
-          ("E", "disordinato", "disordinato"), ("F", "ordinato", "ordinato"), ("G", "curioso", "curioso"), ("H", "tranquillo", "tranquillo")]
+PHOTOS = [('A', 'sportivo', 'sportivo'), ('B', 'ordinato', 'ordinato'), ('C', 'tranquillo', 'tranquillo'), ('D', 'socievole', 'socievole'),
+          ('E', 'curioso', 'curioso'), ('F', 'timido', 'timido'), ('G', 'pigro', 'pigro'), ('H', 'disordinato', 'disordinato')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ['curioso', 'disordinato', 'ordinato', 'pigro', 'socievole', 'sportivo', 'timido', 'tranquillo']
 
 _r = json.load(open(os.path.join(HERE, "roteiro.json")))["units"]["it-a2-unita-13"]
 SCRIPT = [tuple(x.split(": ", 1)) for x in _r["13.1 Dialogo"].split("\n")]
@@ -33,7 +35,7 @@ def build(teacher):
     words = sorted(w for _, w, _ in PHOTOS)
     b.page(f"""{sec(1, "Riscaldamento: il carattere", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi l'aggettivo sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(words)}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Parla con l'insegnante.", "4 min")}
 <ol><li>Quali di questi aggettivi sono veri per te? E quali no?</li><li>Com'è il tuo migliore amico o la tua migliore amica?</li><li>Qual è il contrario di <i>timido</i>, <i>pigro</i>, <i>ordinato</i>?</li></ol>""",

@@ -10,8 +10,10 @@ from calendario import calendario
 _se.SERIES = "Ponte"
 setup(band="A2 · UNITÀ 07", audio_json=os.path.join(HERE, "audio_it-a2-unita-07.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
 
-PHOTOS = [("A", "la valigia", "valigia"), ("B", "l'agenda", "agenda"), ("C", "il Carnevale", "Carnevale"), ("D", "la maratona", "maratona"),
-          ("E", "l'annaffiatoio", "annaffiatoio"), ("F", "il passaporto", "passaporto"), ("G", "l'esame", "esame"), ("H", "la colomba", "colomba")]
+PHOTOS = [('A', 'il Carnevale', 'Carnevale'), ('B', 'la maratona', 'maratona'), ('C', 'la colomba', 'colomba'), ('D', 'la valigia', 'valigia'),
+          ('E', "l'annaffiatoio", 'annaffiatoio'), ('F', "l'esame", 'esame'), ('G', "l'agenda", 'agenda'), ('H', 'il passaporto', 'passaporto')]
+# word bank: alphabetical, ignoring the article (warm-up rule 2026-11-23)
+BANK = ["l'agenda", "l'annaffiatoio", 'il Carnevale', 'la colomba', "l'esame", 'la maratona', 'il passaporto', 'la valigia']
 
 _r = json.load(open(os.path.join(HERE, "roteiro.json")))["units"]["it-a2-unita-07"]
 SCRIPT = [tuple(x.split(": ", 1)) for x in _r["07.1 Dialogo"].split("\n")]
@@ -38,7 +40,7 @@ def build(teacher):
     words = [w for _, w, _ in PHOTOS]
     b.page(f"""{sec(1, "Riscaldamento: un anno nuovo", "8 min")}
 {sub("A", "Guarda, ascolta e ripeti. Poi scrivi la parola sotto la foto.", "4 min")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in sorted(words, key=lambda w: _key(w).lower()))}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(x.replace(" ", "&nbsp;") for x in BANK)}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Parla con l'insegnante.", "4 min")}
 <ol><li>Quali di queste cose sono nei tuoi progetti per quest'anno?</li><li>Hai un viaggio in programma? Dove vuoi andare?</li><li>Che cosa ti piacerebbe imparare quest'anno?</li></ol>""",
