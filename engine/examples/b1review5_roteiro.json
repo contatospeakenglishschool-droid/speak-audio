@@ -1,0 +1,35 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Ana": "en-US-Neural2-F",
+  "Bruno": "en-US-Chirp3-HD-Fenrir",
+  "Rafa": "en-US-Chirp3-HD-Umbriel",
+  "Carol": "en-US-Chirp3-HD-Leda",
+  "Director": "en-US-Studio-O",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-review-5": {
+   "R5.1 A night of jazz": "Danny: What a great band! I'm so glad we came back.\nBruno: Me too. And they're bound to play that samba song again. It's their best one.\nAna: Hi guys! Sorry I'm late. I apologize for missing the first songs. My shift ended late.\nDanny: Don't worry! Sit down and help yourself to some fries.\nAna: Thanks! You're both enjoying yourselves, aren't you?\nBruno: We are! And this time we managed to get the best table. Last time we couldn't even find a seat.\nAna: So, are you going to dance tonight?\nDanny: No way! Neither of us can dance. And neither of us wants to try.\nRafa: Hey everyone! Thanks for coming. You must be Ana. Danny talks about you all the time.\nAna: Hi Rafa! Your band sounds amazing. How long have you been playing with them?\nRafa: About a year. Last year I was stuck in a rut. I called my brother, and he asked me what I really wanted. I told him I missed music. And he told me to stop complaining and join a band!\nDanny: Good advice!\nRafa: Yes. If I hadn't called him, I wouldn't have joined the band.\nBruno: And if you hadn't joined the band, we wouldn't have found this great bar.\nAna: Danny, I almost forgot. My grandmother loved your podcast episode. She asked me if you would visit her again next month.\nDanny: How kind of her! Of course I will. She can teach me her secrets for a long life.\nRafa: Well, I'd better go. We're back on stage in five minutes. It's a great place, isn't it?\nBruno: It is. Good luck!\nDanny: You know what? There's a slight chance I'll dance tonight.\nBruno: I'll believe it when I see it!",
+   "R5.2 Dictation: weak forms": "Narrator: Number one. Neither of us can dance.\nNarrator: Number two. She asked me if I was OK.\nNarrator: Number three. I would've come if I'd known.\nNarrator: Number four. I managed to get a ticket.\nNarrator: Number five. You're Ana's cousin, aren't you?\nNarrator: Number six. I apologize for being late.",
+   "R5.3 Dialogues": "Narrator: Dialogue one.\nAna: Come in! Make yourself at home.\nCarol: Thank you. What a beautiful apartment!\nAna: Help yourself to some coffee. Can I give you a hand with your bag?\nCarol: Thanks. I managed to carry it up the stairs, but it's really heavy!\nNarrator: Dialogue two.\nDirector: You're new here, aren't you?\nDanny: Yes, I started on Monday. Sorry I'm late. The bus broke down.\nDirector: Never mind. It's a cold morning, isn't it?\nDanny: It is! And it won't happen again, I promise."
+  }
+ },
+ "pauses": {
+  "R5.2": 6000
+ },
+ "images": {
+  "b1-review-5": {
+   "A": "doctor checking blood pressure patient",
+   "B": "woman sneezing tissue",
+   "C": "guest bedroom neat bed",
+   "D": "empty wooden bookcase",
+   "E": "big sandwich mortadella",
+   "F": "desk lamp",
+   "G": "saxophone close up",
+   "H": "cooking class kitchen",
+   "I": "jazz band bar stage night"
+  }
+ }
+}
