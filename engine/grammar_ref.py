@@ -1968,3 +1968,28 @@ def question_tags(b):
 <div class="box" style="margin-top:1.5mm"><h4>INTONATION AND ANSWERS</h4><b>Falling ↘</b>: you're sure, you want agreement (<i>Lovely day, isn't it? ↘</i>). <b>Rising ↗</b>: a real question, you aren't sure (<i>You're from Recife, aren't you? ↗</i>). Answer about the <b>facts</b>: <i>You don't eat meat, do you? → <b>No, I don't.</b></i> (= I don't eat meat) · <i><b>Yes, I do.</b></i> (= I eat meat)</div>
 {_dont([("You're Brazilian, no?", "You're Brazilian, <b>aren't you</b>?"), ("It's hot, isn't?", "It's hot, <b>isn't it</b>?"), ("You went there, don't you?", "You went there, <b>didn't you</b>?"), ("You don't like coffee, don't you?", "You don't like coffee, <b>do you</b>?"), ("I'm right, am not I?", "I'm right, <b>aren't I</b>?")])}""",
     30, """<p>Portuguese uses one fixed tag for every sentence, so Brazilians often say <i>…, no?</i> or <i>…, right?</i> all the time. <i>Right?</i> is fine in informal American English, but students need real tags to understand native speakers. Practice the falling tune first: most tags in conversation are not real questions. Answers are a classic problem: after a negative sentence, students say <i>Yes</i> to agree. Drill: say true and false sentences about the student with a tag; they answer with the facts.</p>""")
+
+
+def apologies_promises(b):
+    """B1 Unit 46: sorry about / for / to / (that); apologize (to sb) for; verb + person + for + -ing (blame, forgive, thank); regret + -ing; promises with will."""
+    b.page(f"""{b.sec("+", "Grammar reference: sorry for, apologize for, I'll…", "")}
+<div class="box" style="margin-top:0"><h4>APOLOGIZING AND PROMISING</h4>After <b>sorry</b> and <b>apologize</b>, the preposition or form depends on what comes next. A preposition (<b>about, for</b>) is followed by a <b>noun</b> or a verb in <b>-ing</b>. We usually promise with <b>will / won't</b>: <i>It <b>won't</b> happen again.</i></div>
+{_h("1. SORRY AND APOLOGIZE")}
+{_tbl(["structure", "example"], [
+    ["<b>sorry about</b> + noun", "<i>Sorry <b>about</b> the mess. · I'm sorry <b>about</b> that.</i>"],
+    ["<b>sorry for</b> + noun / verb-<b>ing</b>", "<i>I'm sorry <b>for</b> my mistake. · Sorry <b>for eating</b> your sandwich.</i>"],
+    ["<b>sorry (that)</b> + subject + verb", "<i>I'm so sorry <b>I'm</b> late. · Sorry <b>I forgot</b> your birthday.</i>"],
+    ["<b>sorry to</b> + base form (now, or bad news)", "<i>Sorry <b>to keep</b> you waiting. · I'm sorry <b>to hear</b> that.</i>"],
+    ["<b>apologize (to</b> somebody) <b>for</b> + noun / -ing (more formal)", "<i>We sincerely <b>apologize for</b> the delay. · I want to <b>apologize to</b> you <b>for</b> my behavior.</i>"]], "8.1pt")}
+{_h("2. BLAME, FORGIVE, THANK, REGRET")}
+{_tbl(["structure", "example"], [
+    ["<b>blame / forgive / thank</b> + somebody + <b>for</b> + noun / -ing", "<i>Don't <b>blame</b> the driver <b>for</b> the mistake. · <b>Forgive</b> me <b>for forgetting</b> your name.</i>"],
+    ["<b>regret</b> + -ing (something in the past)", "<i>I <b>regret not taking</b> the train.</i>"],
+    ["<b>explain</b> + something + <b>to</b> somebody", "<i>Can you <b>explain</b> the problem <b>to me</b>?</i>"]], "8.1pt")}
+{_h("3. PROMISES")}
+{_tbl(["structure", "example"], [
+    ["<b>will / won't</b> + base form", "<i>I<b>'ll buy</b> you lunch. · It <b>won't happen</b> again.</i>"],
+    ["<b>I promise (that)</b> I'll… · <b>I promise to</b> + base form", "<i><b>I promise</b> I'll call you tomorrow. · <b>I promise to</b> be on time.</i>"],
+    ["fixed phrase", "<i><b>I'll make it up to you.</b></i> (I'll do something nice to fix it.)"]], "8.1pt")}
+{_dont([("I apologize you.", "I apologize <b>to</b> you."), ("Sorry for to be late.", "Sorry <b>for being</b> late. / Sorry <b>I'm</b> late."), ("Explain me the problem.", "Explain the problem <b>to me</b>."), ("I promise I call you.", "I promise I<b>'ll</b> call you."), ("Forgive me to forget.", "Forgive me <b>for forgetting</b>."), ("Excuse me, I'm late.", "<b>Sorry</b> I'm late.")])}""",
+    30, """<p>Brazilians often use <i>Excuse me</i> to apologize because Portuguese uses one word for both. In English, <i>Excuse me</i> comes <b>before</b> (to get attention or pass), <i>Sorry</i> comes <b>after</b> a mistake. Other typical mistakes: <i>apologize you</i> (no <i>to</i>), <i>explain me</i>, <i>sorry for to</i>. Drill: say a small problem (<i>You stepped on my foot. · You're late again.</i>); the student apologizes with a different structure each time and adds a promise.</p>""")

@@ -1,0 +1,27 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Bruno": "en-US-Chirp3-HD-Fenrir",
+  "Ana": "en-US-Neural2-F",
+  "Carol": "en-US-Chirp3-HD-Leda",
+  "Director": "en-US-Studio-O",
+  "Agent": "en-US-Chirp3-HD-Charon",
+  "Waiter": "en-US-Chirp3-HD-Charon",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-46": {
+   "46.1 Four apologies": "Narrator: One.\nDanny: I'm so sorry I'm late. My bus broke down, so I had to walk from the station.\nDirector: Oh, that's OK. Actually, your students are still arriving. But please call me next time.\nDanny: Of course. It won't happen again, I promise.\nNarrator: Two.\nBruno: I have to apologize. I ate the sandwich in the fridge last night. I thought it was mine.\nDanny: My chicken sandwich? I was saving it for lunch!\nBruno: I know. I'm really sorry. I'll buy you lunch today. Anything you want.\nDanny: Anything? OK, then I forgive you... but only because I'm hungry.\nNarrator: Three.\nAgent: Customer service, good morning. How can I help you?\nDanny: Hi. I ordered a lamp ten days ago, and it still hasn't arrived. The website says \"delivered\", but it isn't here.\nAgent: Let me check... I'm sorry to hear that, sir. It seems the driver left it at the wrong address. We sincerely apologize for the mistake.\nDanny: I'm afraid that's not good enough. I paid for express delivery! I expect a refund.\nAgent: I understand, sir. We'll send you a new lamp tomorrow, and you'll get a full refund for the delivery.\nDanny: OK. Thank you.\nNarrator: Four.\nWaiter: Excuse me. Who ordered the fish?\nCarol: That was me.\nWaiter: I'm afraid we don't have any fish left. I'm sorry about that. It was my mistake.\nCarol: Oh, it doesn't matter. In that case, I'll have the chicken, please.\nWaiter: Of course. And I'll bring you a free dessert.\nAna: Thank you. We really appreciate that.",
+   "46.2 Repeat: apologies and promises": "Narrator: I'm so sorry I'm late.\nNarrator: I apologize for the mistake.\nNarrator: It won't happen again.\nNarrator: I'll make it up to you.\nNarrator: Don't worry about it.\nNarrator: I'm afraid that's not good enough."
+  }
+ },
+ "images": {
+  "b1-unit-46": {
+   "A": "broken smartphone screen cracked",
+   "B": "cardboard package doorstep delivery",
+   "C": "desk lamp on table",
+   "D": "sandwich lunch box fridge"
+  }
+ }
+}
