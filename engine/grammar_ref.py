@@ -1993,3 +1993,23 @@ def apologies_promises(b):
     ["fixed phrase", "<i><b>I'll make it up to you.</b></i> (I'll do something nice to fix it.)"]], "8.1pt")}
 {_dont([("I apologize you.", "I apologize <b>to</b> you."), ("Sorry for to be late.", "Sorry <b>for being</b> late. / Sorry <b>I'm</b> late."), ("Explain me the problem.", "Explain the problem <b>to me</b>."), ("I promise I call you.", "I promise I<b>'ll</b> call you."), ("Forgive me to forget.", "Forgive me <b>for forgetting</b>."), ("Excuse me, I'm late.", "<b>Sorry</b> I'm late.")])}""",
     30, """<p>Brazilians often use <i>Excuse me</i> to apologize because Portuguese uses one word for both. In English, <i>Excuse me</i> comes <b>before</b> (to get attention or pass), <i>Sorry</i> comes <b>after</b> a mistake. Other typical mistakes: <i>apologize you</i> (no <i>to</i>), <i>explain me</i>, <i>sorry for to</i>. Drill: say a small problem (<i>You stepped on my foot. · You're late again.</i>); the student apologizes with a different structure each time and adds a promise.</p>""")
+
+
+def both_either_neither(b):
+    """B1 Unit 47: both … and, either … or, neither … nor; both / either / neither (of us); verb agreement; not … either."""
+    b.page(f"""{b.sec("+", "Grammar reference: both, either, neither", "")}
+<div class="box" style="margin-top:0"><h4>TALKING ABOUT TWO THINGS OR TWO PEOPLE</h4><b>both</b> = this one <b>and</b> that one (+) · <b>either</b> = this one <b>or</b> that one (one of two) · <b>neither</b> = <b>not</b> this one <b>and not</b> that one (–). <i><b>Both of us</b> listen to music all day, but <b>neither of us</b> likes the music at the gym.</i></div>
+{_h("1. PAIRED STRUCTURES")}
+{_tbl(["structure", "meaning", "example"], [
+    ["<b>both</b> A <b>and</b> B", "A + B", "<i>I listen to <b>both</b> jazz <b>and</b> classical.</i>"],
+    ["<b>either</b> A <b>or</b> B", "A or B (a choice)", "<i>I listen <b>either</b> on my phone <b>or</b> on my laptop.</i>"],
+    ["<b>neither</b> A <b>nor</b> B", "not A and not B", "<i>I can play <b>neither</b> the piano <b>nor</b> the guitar.</i>"]], "8.1pt")}
+{_h("2. BOTH / EITHER / NEITHER (OF) + NOUN OR PRONOUN")}
+{_tbl(["structure", "verb", "example"], [
+    ["<b>both</b> (+ <b>of</b>) + plural noun · <b>both of us / them</b>", "plural", "<i><b>Both</b> (of) my brothers <b>play</b> the guitar. · <b>Both of us are</b> going.</i>"],
+    ["<b>either / neither</b> + singular noun", "singular", "<i><b>Neither</b> song <b>is</b> good. · You can sit in <b>either</b> chair.</i>"],
+    ["<b>either of / neither of</b> + the / my… + plural noun · <b>neither of us</b>", "singular (plural is common in speech)", "<i><b>Neither of us has</b> a record player.</i>"],
+    ["<b>Neither A nor B</b> as subject", "agrees with B", "<i><b>Neither</b> Danny <b>nor</b> Bruno <b>plays</b> the piano.</i>"]], "8.1pt")}
+<div class="box" style="margin-top:1.5mm"><h4>NEGATIVE VERB? USE EITHER</h4>English has only <b>one</b> negative in a sentence. With a negative verb, use <b>either</b>, not <i>neither</i>: <i>I <b>don't</b> like <b>either</b> of them.</i> = <i>I like <b>neither</b> of them.</i> · Short answers: <i>Which one? — <b>Either</b>. (I don't mind.) · <b>Neither</b>. (I don't like them.) · <b>Both</b>!</i></div>
+{_dont([("I don't like neither of them.", "I don't like <b>either</b> of them."), ("Neither of us don't play.", "<b>Neither</b> of us <b>plays</b>."), ("I like both of rock and jazz.", "I like <b>both</b> rock <b>and</b> jazz."), ("Neither Danny or Bruno…", "Neither Danny <b>nor</b> Bruno…"), ("The both songs are good.", "<b>Both</b> songs / <b>Both</b> the songs are good.")])}""",
+    30, """<p>Portuguese allows two negatives (<i>don't … neither</i>), so Brazilians produce <i>I don't like neither</i>. Teach: one negative only, so a negative verb takes <i>either</i>. Pronunciation: <i>either</i> and <i>neither</i> are said /ˈiːðər/ or /ˈaɪðər/ in American English; /iː/ is more common. Drill: compare yourself and the student (<i>Do you play an instrument? Do you like samba?</i>) and say true sentences with <i>both of us / neither of us</i>.</p>""")

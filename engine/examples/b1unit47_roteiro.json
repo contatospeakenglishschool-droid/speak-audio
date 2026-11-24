@@ -1,0 +1,22 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Bruno": "en-US-Chirp3-HD-Fenrir",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-47": {
+   "47.1 Gap Year Diaries: what's on your playlist?": "Danny: Welcome back to Gap Year Diaries! Today's topic is music, and my roommate Bruno is here with me. Hi Bruno!\nBruno: Hi everyone!\nDanny: So, Bruno and I share a room, and both of us listen to music all day. But our tastes are very different. What's on your playlist?\nBruno: Mostly rock and metal. Heavy, energetic music for running. And some old samba that my grandfather used to play.\nDanny: I prefer calm music. I listen to both jazz and classical when I'm working. And some country, because of my mom. She always plays country in the car.\nBruno: At least neither of us likes the music at the gym!\nDanny: True! Do you play an instrument?\nBruno: I played the drums in a band at school. We wanted to record an album, but we never got a record deal. We performed live only once... at my cousin's wedding.\nDanny: I can play neither the piano nor the guitar. I tried the trumpet when I was a kid, but our neighbors complained.\nBruno: Ha! And how do you listen to music?\nDanny: Either on my phone or on my laptop. But my dream is a record player.\nBruno: My dad has an old record player and hundreds of records. Maybe one day he'll give them to me.\nDanny: And now some news. Our friend Rafa plays the saxophone in a jazz band, and they're performing live at a bar near the hostel next Friday.\nBruno: Both of us are going, of course. Neither of us would miss it!\nDanny: So, listeners: do you prefer calm music or energetic music? Send me your playlist!",
+   "47.2 Repeat: both, either, neither": "Narrator: Both of us play the guitar.\nNarrator: Neither of us can sing.\nNarrator: I like both jazz and rock.\nNarrator: Either on my phone or on my laptop.\nNarrator: Neither Danny nor Bruno can play the piano.\nNarrator: You can either come with us or stay home."
+  }
+ },
+ "images": {
+  "b1-unit-47": {
+   "A": "vinyl record player turntable",
+   "B": "drum kit stage",
+   "C": "saxophone close up",
+   "D": "headphones smartphone music"
+  }
+ }
+}
