@@ -1,0 +1,26 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Galli": "it-IT-Chirp3-HD-Charon"
+ },
+ "pauses": {
+  "32.2": 3000
+ },
+ "images": {
+  "it-b1-unita-32": {
+   "A": "scaffolding historic building facade renovation italy",
+   "B": "architects looking at blueprints office desk",
+   "C": "woman writing email laptop office",
+   "D": "team planning meeting whiteboard sticky notes"
+  }
+ },
+ "units": {
+  "it-b1-unita-32": {
+   "32.1 Perché tutto funzioni": "Narrator: Lunedì 13 settembre, allo studio di architettura. Júlia e Marco organizzano il nuovo progetto: un palazzo del Seicento in centro che diventerà un piccolo albergo.\nMarco: Allora: il cliente, il dottor Galli, vuole aprire l'albergo a Pasqua. Ce la facciamo?\nJúlia: Ce la facciamo, purché il Comune ci risponda entro novembre.\nMarco: E purché la Soprintendenza non ci faccia cambiare tutto. Il palazzo è vincolato, lo sai.\nJúlia: Appunto. Prima che il cliente veda i disegni, bisogna parlare con la Soprintendenza.\nMarco: Giusto. Domani chiamo io, affinché ci diano un appuntamento entro fine mese. E giovedì facciamo il sopralluogo.\nJúlia: C'è un altro problema: al piano terra c'è un ristorante che resta aperto.\nMarco: Allora organizziamo il cantiere in modo che i clienti del ristorante non sentano niente.\nJúlia: Marco, è impossibile ristrutturare un palazzo senza che nessuno senta niente! Però possiamo fare i lavori più rumorosi la mattina, prima che il ristorante apra.\nNarrator: Squilla il telefono.\nGalli: Buongiorno, sono Galli. Ho parlato con mia moglie: vorremmo anche una terrazza sul tetto, con un piccolo bar.\nMarco: Buongiorno, dottor Galli. Una terrazza si può fare, a meno che la Soprintendenza non dica di no.\nGalli: E quanto costa?\nJúlia: Le mandiamo un preventivo entro venerdì, perché possa decidere con calma.\nGalli: Perfetto. Però mi raccomando: non cambiate niente senza che io lo sappia.\nMarco: Certo, dottore. Buona giornata.\nNarrator: Marco chiude il telefono.\nMarco: Una terrazza per Pasqua... a meno che non succeda un miracolo.\nJúlia: Dai, ce la faremo. Purché tu non parta per un mese, come Giulia!\nMarco: Tranquilla, io resto qui. A patto che stasera l'aperitivo lo paghi tu.\nJúlia: Va bene. Andiamo da Elena, così vediamo come se la cava senza Giulia.",
+   "32.2 Ripeti": "Narrator: Ce la facciamo, purché il Comune ci risponda entro novembre.\nNarrator: Prima che il cliente veda i disegni, bisogna parlare con la Soprintendenza.\nNarrator: Domani chiamo io, affinché ci diano un appuntamento.\nNarrator: Possiamo fare i lavori più rumorosi la mattina, prima che il ristorante apra.\nNarrator: Una terrazza si può fare, a meno che la Soprintendenza non dica di no.\nNarrator: Non cambiate niente senza che io lo sappia."
+  }
+ }
+}
