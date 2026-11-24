@@ -6,8 +6,8 @@ sys.path.insert(0, os.path.join(HERE, "..", ".."))
 from engine_fr import *
 setup(band="A1 · UNITÉ 05", audio_json=os.path.join(HERE, "audio_fr-a1-unite-05.json"), img_dir=os.path.join(HERE, "img"), lang="fr-FR")
 
-PHOTOS = [("A", "graphiste", "graphiste"), ("B", "médecin", "médecin"), ("C", "professeur(e)", "professeur"), ("D", "serveur / serveuse", "serveur"),
-          ("E", "vendeur / vendeuse", "vendeur"), ("F", "étudiant(e)", "étudiant"), ("G", "avocat(e)", "avocat"), ("H", "infirmier / infirmière", "infirmier")]
+PHOTOS = [('A', 'infirmier / infirmière', 'infirmier'), ('B', 'serveur / serveuse', 'serveur'), ('C', 'avocat(e)', 'avocat'), ('D', 'professeur(e)', 'professeur'),
+          ('E', 'étudiant(e)', 'étudiant'), ('F', 'vendeur / vendeuse', 'vendeur'), ('G', 'graphiste', 'graphiste'), ('H', 'médecin', 'médecin')]
 
 SCRIPT = [("Narratrice", "Dialogue un."), ("Homme", "Bonjour, madame ! Quel est votre nom ?"), ("Camila", "Souza. Camila Souza."),
           ("Homme", "Quelle est votre profession ?"), ("Camila", "Je suis graphiste."), ("Homme", "Vous travaillez où ?"),
@@ -37,7 +37,7 @@ def build(teacher):
                  [("Vous êtes …", "graphiste / étudiant(e) / …"), ("Le professeur est …", "professeur(e)"), ("Un ami / une amie est …", "médecin / …")])
     b.page(f"""{sec(1, "Échauffement : les professions", "8 min")}
 {sub("A", "Écoutez et répétez. Écrivez.", "5 min", "05.2")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(sorted(p[1] for p in PHOTOS))}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(sorted((p[1] for p in PHOTOS), key=bank_key))}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Et vous ? Écrivez une profession.", "3 min")}
 <table class="ck"><tr>{me}</tr></table>""",

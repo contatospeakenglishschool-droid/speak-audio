@@ -6,8 +6,8 @@ sys.path.insert(0, os.path.join(HERE, "..", ".."))
 from engine_fr import *
 setup(band="A1 · UNITÉ 04", audio_json=os.path.join(HERE, "audio_fr-a1-unite-04.json"), img_dir=os.path.join(HERE, "img"), lang="fr-FR")
 
-PHOTOS = [("A", "le tennis", "tennis"), ("B", "le football", "football"), ("C", "la musique", "musique"), ("D", "le cinéma", "cinéma"),
-          ("E", "la danse", "danse"), ("F", "l'opéra", "opéra"), ("G", "les voyages", "voyages"), ("H", "le café", "café")]
+PHOTOS = [('A', 'le football', 'football'), ('B', 'le tennis', 'tennis'), ('C', 'le café', 'café'), ('D', "l'opéra", 'opéra'),
+          ('E', 'le cinéma', 'cinéma'), ('F', 'les voyages', 'voyages'), ('G', 'la danse', 'danse'), ('H', 'la musique', 'musique')]
 
 SCRIPT = [("Narratrice", "Dialogue un."), ("Thomas", "Camila, tu aimes le football ?"),
           ("Camila", "Non, je n'aime pas le football. J'adore le tennis !"), ("Thomas", "Le tennis ? Super ! J'aime le tennis."),
@@ -35,7 +35,7 @@ def build(teacher):
     key = " &nbsp;·&nbsp; ".join(f"{s} = {w}" for s, w in SCALE)
     b.page(f"""{sec(1, "Échauffement : les loisirs", "8 min")}
 {sub("A", "Écoutez et répétez. Écrivez.", "5 min", "04.2")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(sorted(S042, key=lambda w: w.split()[-1].lstrip("l'")))}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(sorted(S042, key=bank_key))}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Et vous ? Cochez.", "3 min")}
 <p class="small" style="margin:0 0 1mm">{key}</p>
@@ -75,7 +75,7 @@ def build(teacher):
 <div class="bank">adore · aimes · déteste · l' · le · n'aime</div>
 {twocol(gl, 3)}
 {sub("C", "Lisez les dialogues avec l'enseignant.", "2 min")}""",
-    30, """<ol><li>A : version <b>lente</b>, deux écoutes. Avant, montrez les photos A, D et F de la page 1 : le tennis, le cinéma, l'opéra.</li>
+    30, """<ol><li>A : version <b>lente</b>, deux écoutes. Avant, montrez les photos B, E et D de la page 1 : le tennis, le cinéma, l'opéra.</li>
 <li>B : version <b>naturelle</b>, pause après chaque dialogue. Faites remarquer l'article après <i>aimer</i> : <i>aimes <b>le</b> football</i>.</li>
 <li>C : les dialogues sont à la dernière page. L'élève est Camila, puis on change.</li></ol>""")
 

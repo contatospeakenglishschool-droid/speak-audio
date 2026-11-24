@@ -46,6 +46,13 @@ def _fr_spacing(h):
     return head + body
 
 
+# Warm-up word bank (rule 2026-11-23): alphabetical order ignoring the article and accents (É, Ç must not go last).
+def bank_key(w):
+    import unicodedata
+    w = re.sub(r"^(le |la |les |l'|un |une |des )", "", w.lower())
+    return unicodedata.normalize("NFD", w).encode("ascii", "ignore").decode()
+
+
 class BookFR(_se.Book):
     def html(self):
         h = super().html()

@@ -36,7 +36,7 @@ def build(teacher):
                         ("PRONONCIATION", "masculin / féminin · les âges · deux ans")])
     b.page(f"""{sec(1, "Échauffement : les nationalités", "8 min")}
 {sub("A", "Écoutez et répétez. Écrivez.", "5 min", "03.2")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(sorted(p[1] for p in PHOTOS))}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(sorted((p[1] for p in PHOTOS), key=bank_key))}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Et vous ? Écrivez.", "3 min")}
 <p style="line-height:2.2">Je m'appelle {A("…", "min-width:40mm")} . Je suis {A("brésilien / brésilienne", "min-width:50mm")} .</p>""",

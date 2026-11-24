@@ -44,7 +44,7 @@ def build(teacher):
     sr = "".join(f'<td style="width:33%"><span class="small">{s}</span><br>{ch(o, a)}</td>' for s, o, a in sit)
     b.page(f"""{sec(1, "Échauffement : les phrases de la classe", "8 min")}
 {sub("A", "Écoutez et répétez. Écrivez.", "5 min", "02.2")}
-<div class="bank">{" &nbsp;·&nbsp; ".join(sorted(S022))}</div>
+<div class="bank">{" &nbsp;·&nbsp; ".join(sorted(S022, key=bank_key))}</div>
 {photo_grid(T, PHOTOS)}
 {sub("B", "Qu'est-ce que vous dites ? Choisissez.", "3 min")}
 <table class="ck"><tr>{sr}</tr></table>""",

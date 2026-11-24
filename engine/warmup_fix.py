@@ -2,7 +2,8 @@
 #   --sort  "w1|w2|..."  : cover the word bank with the same words in alphabetical order (overlay, same CSS)
 #   --perm  "5,2,7,..."  : move the 8 photo cards (photo + red answer word in the TB) so that new card j shows old card perm[j]
 # The rest of the PDF is untouched; the output is locked again (AES-256, print + annotate).
-# usage: warmup_fix.py IN.pdf OUT.pdf [--sort "..."] [--perm "..."]
+# usage: warmup_fix.py IN.pdf OUT.pdf [--sort "..."] [--perm "..."] [--page N]
+#   --page N : 1-based page of the warm-up grid, for books whose warm-up title is not "Warm-up" (default: auto)
 import argparse, io, re, secrets, sys, os
 from pypdf import PdfReader, PdfWriter
 from pypdf.constants import UserAccessPermissions as P
@@ -96,12 +97,12 @@ def overlay(box, words):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("inp"); ap.add_argument("out")
-    ap.add_argument("--sort"); ap.add_argument("--perm")
+    ap.add_argument("--sort"); ap.add_argument("--perm"); ap.add_argument("--page", type=int)
     a = ap.parse_args()
     r = PdfReader(a.inp)
     if r.is_encrypted:
         r.decrypt("")
-    pi = next(i for i, p in enumerate(r.pages) if "Warm-up" in (p.extract_text() or ""))
+    pi = a.page - 1 if a.page else next(i for i, p in enumerate(r.pages) if "Warm-up" in (p.extract_text() or ""))
     page = r.pages[pi]
     c = page.get_contents().get_data().decode("latin1")
     info = []
