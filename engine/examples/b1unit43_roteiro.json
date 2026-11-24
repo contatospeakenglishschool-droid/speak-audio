@@ -1,0 +1,22 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Ana": "en-US-Neural2-F",
+  "Carol": "en-US-Chirp3-HD-Leda",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-43": {
+   "43.1 Carol arrives at Ana's": "Ana: Welcome! Come in, come in. Let me take your suitcase.\nCarol: Thank you! Oh, it's so good to see you.\nAna: It's so good to see you too. How was your flight?\nCarol: Long! The man next to me snored all night, so I didn't sleep at all.\nAna: Oh no! Well, make yourself at home. You can rest this afternoon.\nCarol: You have a lovely apartment. Is this the new kitchen?\nAna: Yes! It was finished last month. We painted it ourselves... well, Danny painted most of it.\nCarol: It's beautiful. Oh, before I forget, I brought you some chocolates. And this T-shirt is for Leo.\nAna: That's so kind of you! He'll love it. Can I get you something to drink? A coffee?\nCarol: Yes, please. A coffee would be great.\nAna: How do you take it?\nCarol: With a little milk, no sugar.\nAna: Here you are. And would you like some lunch? I made rice, beans and chicken.\nCarol: No thanks, I'm fine. I ate on the plane. But could I try one of those little cheese breads? They look delicious.\nAna: Of course. Help yourself! Take as many as you want.\nCarol: Thanks. Could I have your Wi-Fi password? I need to tell my boss I arrived safely.\nAna: Sure. It's on the fridge.\nCarol: And is it all right if I take a shower?\nAna: Go ahead. There are clean towels in your room.\nCarol: And one more thing... could I borrow your car tomorrow? I'd like to drive to the beach.\nAna: I'm afraid Marcos needs it for work this week. And honestly, driving in São Paulo is not for beginners! I'll take you on Saturday.\nCarol: That's very kind of you. Oh, and guess what? I've been teaching myself Portuguese with an app for six months!\nAna: Really? Leo will be so happy. He's learning English at school, so you can teach each other!\nCarol: Perfect. Now I'm going to enjoy myself for two whole weeks.\nAna: You deserve it. Go and relax. Your room is the second door on the left.",
+   "43.2 Repeat: make yourself at home": "Narrator: Make yourself at home.\nNarrator: Help yourself.\nNarrator: We painted it ourselves.\nNarrator: Enjoy yourselves!\nNarrator: I taught myself.\nNarrator: They looked at each other."
+  }
+ },
+ "images": {
+  "b1-unit-43": {
+   "A": "guest room bed folded towels",
+   "B": "suitcase front door apartment hallway",
+   "C": "house keys on table",
+   "D": "pao de queijo cheese bread"
+  }
+ }
+}

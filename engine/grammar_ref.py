@@ -1903,3 +1903,25 @@ def exclamations(b):
     ["a surprise", "<i>What a coincidence! · What a small world!</i>"]], "8.1pt")}
 {_dont([("What a terrible weather!", "<b>What</b> terrible weather!"), ("What a good news!", "<b>What</b> good news!"), ("How beautiful day!", "<b>What a</b> beautiful day!"), ("What beautiful!", "<b>How</b> beautiful!"), ("It's so a nice surprise!", "It's <b>such a</b> nice surprise!"), ("How kind from you!", "How kind <b>of</b> you!")])}""",
     30, """<p>Portuguese uses the same word for most exclamations, so Brazilians often choose <i>what</i> or <i>how</i> at random. Teach the test: noun → <i>what</i>; adjective alone → <i>how</i>. <i>News, weather, advice</i> and <i>information</i> are uncountable: no <i>a</i>. Intonation: start high and fall (<i>What a reLIEF!</i>). Drill: say a situation (<i>I lost my phone. · I found it in the fridge.</i>); the student reacts with a different structure each time.</p>""")
+
+
+def reflexive_pronouns(b):
+    """B1 Unit 43: reflexive pronouns (myself…themselves), by + reflexive, fixed expressions, each other; verbs that are not reflexive in English."""
+    b.page(f"""{b.sec("+", "Grammar reference: myself, yourself, each other", "")}
+<div class="box" style="margin-top:0"><h4>WHEN THE SUBJECT AND THE OBJECT ARE THE SAME PERSON</h4>We use a <b>reflexive pronoun</b> when the person who does the action also receives it. <i>I've been teaching <b>myself</b> Portuguese.</i> (I teach me.) English uses reflexive pronouns <b>much less</b> than Portuguese.</div>
+{_h("1. THE FORMS")}
+{_tbl(["I", "you (one)", "he / she / it", "we", "you (two or more)", "they"], [
+    ["<b>myself</b>", "<b>yourself</b>", "<b>himself / herself / itself</b>", "<b>ourselves</b>", "<b>yourselves</b>", "<b>themselves</b>"]], "8.3pt")}
+{_h("2. HOW WE USE THEM")}
+{_tbl(["use", "example"], [
+    ["the same person does and receives the action", "<i>Did you hurt <b>yourself</b>? · She looked at <b>herself</b> in the mirror.</i>"],
+    ["emphasis: nobody else did it", "<i>We painted the kitchen <b>ourselves</b>. · I made it <b>myself</b>!</i>"],
+    ["<b>by</b> + reflexive = alone, or without help", "<i>She lives <b>by herself</b>. · I went to the museum <b>by myself</b>.</i>"],
+    ["fixed expressions (hosts love them)", "<i><b>Make yourself at home.</b> · <b>Help yourself</b> (to some coffee). · <b>Enjoy yourselves!</b></i>"]], "8.1pt")}
+{_h("3. THEMSELVES OR EACH OTHER?")}
+{_tbl(["structure", "meaning", "example"], [
+    ["<b>themselves / ourselves</b>", "each person → the same person", "<i>They took photos of <b>themselves</b>.</i> (selfies)"],
+    ["<b>each other</b>", "A → B and B → A", "<i>They took photos of <b>each other</b>. · You can teach <b>each other</b>!</i>"]], "8.1pt")}
+<div class="box" style="margin-top:1.5mm"><h4>NOT REFLEXIVE IN ENGLISH</h4>These verbs have <b>no</b> reflexive pronoun: <b>relax · feel · wake up · get up · get dressed · shower · sit down · worry · remember · complain · meet</b>. <i>Go and <b>relax</b>. · I <b>feel</b> tired. · We <b>met</b> in 2019.</i></div>
+{_dont([("I relaxed myself on the sofa.", "I <b>relaxed</b> on the sofa."), ("I feel myself tired.", "I <b>feel</b> tired."), ("They love themselves. (= A loves B)", "They love <b>each other</b>."), ("I did it by me.", "I did it <b>by myself</b>."), ("Help you!", "<b>Help yourself!</b>"), ("Enjoy! (to two people)", "<b>Enjoy yourselves!</b> / Have fun!")])}""",
+    30, """<p>Portuguese uses a reflexive pronoun with many everyday verbs, so Brazilians add <i>myself</i> to <i>relax, feel, worry, remember</i> and <i>sit down</i>. Teach the short list in the box. <i>Each other</i> is often confused with <i>themselves</i>: draw two arrows (A → B, B → A). Drill: say a sentence in the third person (<i>Ana and Carol hugged…</i>); the student finishes it with <i>each other</i>, a reflexive or nothing.</p>""")
