@@ -1,0 +1,22 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Bruno": "en-US-Chirp3-HD-Fenrir",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-52": {
+   "52.1 Gap Year Diaries: live from the Pantanal": "Danny: Welcome to a very special Gap Year Diaries! Bruno and I are in the Pantanal, at a small lodge by a river. It's six in the morning, and we've been awake for an hour.\nBruno: Because at five o'clock we heard something screaming outside our window!\nDanny: I was as scared as a rabbit. I thought it was a jaguar.\nBruno: It was a group of howler monkeys. Our guide says they call like that every morning.\nDanny: Yesterday we went out on a boat. We saw dozens of caimans lying in the sun, and we watched a family of capybaras swim across the river.\nBruno: And Danny felt something land on his head.\nDanny: A huge green insect! I didn't move. I was as quiet as a mouse.\nBruno: My favorite moment was in the afternoon. We heard a strange noise in the trees, and then we saw two blue macaws fly over the boat. Huge birds, and so bright!\nDanny: Bruno, tell them about the jaguar.\nBruno: When I was a kid, my uncle brought me here, and I saw a jaguar drinking from the river. I've wanted to see one again for twenty years.\nDanny: And last night the guide noticed some fresh tracks near the lodge. So tonight we're going out again.\nBruno: There's a good chance we'll see one.\nDanny: Or a slight chance! Either way, we'll tell you next week. And listeners: what's the most amazing animal you've ever seen in the wild?",
+   "52.2 Repeat: I saw it drinking": "Narrator: I saw a jaguar drinking from the river.\nNarrator: We heard the monkeys calling.\nNarrator: I felt something land on my head.\nNarrator: We watched them swim across the river.\nNarrator: As quiet as a mouse.\nNarrator: As blind as a bat."
+  }
+ },
+ "images": {
+  "b1-unit-52": {
+   "A": "toucan bird",
+   "B": "capybara family river",
+   "C": "hyacinth macaw flying",
+   "D": "caiman sun river"
+  }
+ }
+}

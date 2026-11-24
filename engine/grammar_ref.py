@@ -2080,3 +2080,24 @@ def past_modals(b):
 <b>Opposite of <i>must have</i>:</b> <i>can't have</i>, not <i>mustn't have</i>.</p>
 {_dont([("He must lived on the street.", "He must <b>have lived</b> on the street."), ("You should checked the gate.", "You should <b>have checked</b> the gate."), ("She mustn't have seen it. (= impossible)", "She <b>can't have</b> seen it."), ("We should of called.", "We should <b>have</b> called."), ("He must have went out.", "He must have <b>gone</b> out.")])}""",
     30, """<p>Portuguese builds these with an infinitive, so Brazilians drop <i>have</i> or use the past simple after it (<i>must have went</i>). Insist on the past participle. Drill: describe a scene (<i>The kitchen floor is wet and the dog is hiding.</i>); the student guesses with <i>must have / might have / can't have</i>, then criticizes with <i>should have / shouldn't have</i>.</p>""")
+
+
+def perception_verbs(b):
+    """B1 Unit 52: verbs of perception + object + base form (whole action) or -ing (action in progress); hear vs listen to, see vs watch vs look at."""
+    b.page(f"""{b.sec("+", "Grammar reference: I saw it cross / I saw it crossing", "")}
+<div class="box" style="margin-top:0"><h4>WHAT YOU SAW, HEARD AND FELT</h4>After <b>see, hear, watch, notice, feel</b> and <b>smell</b>, we put an <b>object</b> + a <b>verb</b>. The verb can be the <b>base form</b> or the <b>-ing form</b>, with a small difference in meaning. There is no <b>to</b>.<br>
+<span class="small"><i>We watched the capybaras <b>swim</b> across the river.</i> (the whole action) · <i>I saw a jaguar <b>drinking</b> from the river.</i> (in progress)</span></div>
+{_h("1. FORM AND MEANING")}
+{_tbl(["structure", "meaning", "example"], [
+    ["verb + object + <b>base form</b>", "you saw / heard the <b>whole</b> action, from start to end (often short)", "<i>I felt something <b>land</b> on my head. · We saw two macaws <b>fly</b> over the boat.</i>"],
+    ["verb + object + <b>-ing</b>", "you saw / heard <b>part</b> of the action, while it was happening", "<i>We heard something <b>screaming</b> outside. · We saw caimans <b>lying</b> in the sun.</i>"]], "8.3pt")}
+<p class="small" style="margin:.8mm 0">Often both are possible: <i>I heard the dog <b>bark</b> / <b>barking</b>.</i> Use <b>-ing</b> for long or repeated actions (<i>I heard the monkeys calling all morning.</i>) and the <b>base form</b> for one short, complete action (<i>I heard the door close.</i>).</p>
+{_h("2. SEE, WATCH, LOOK AT · HEAR, LISTEN TO")}
+{_tbl(["verb", "use", "example"], [
+    ["<b>see / hear</b>", "it happens; you don't need to try", "<i>Did you <b>hear</b> that noise? · I <b>saw</b> a snake!</i>"],
+    ["<b>watch / look at</b>", "you pay attention (watch = something that moves or changes)", "<i>We <b>watched</b> the sunset. · <b>Look at</b> that bird!</i>"],
+    ["<b>listen to</b>", "you pay attention to a sound", "<i>We <b>listened to</b> the birds for an hour.</i>"]], "8.3pt")}
+<p class="small" style="margin:.8mm 0"><b>Passive:</b> here <i>to</i> comes back: <i>He <b>was seen to leave</b>.</i> (formal) · More common: <i>Someone <b>saw</b> him <b>leave</b>.</i><br>
+<b>Pronouns:</b> use object pronouns: <i>I saw <b>him</b> run</i>, not <i>I saw he run</i>.</p>
+{_dont([("I saw the monkeys to jump.", "I saw the monkeys <b>jump</b>."), ("I listened a strange noise.", "I <b>heard</b> a strange noise."), ("I heard she sing.", "I heard <b>her</b> sing / singing."), ("We watched the jaguar drinks.", "We watched the jaguar <b>drink / drinking</b>."), ("Look the bird!", "<b>Look at</b> the bird!")])}""",
+    30, """<p>Brazilians often add <i>to</i> after <i>see</i> and <i>hear</i>, use a subject pronoun (<i>I saw he run</i>) or a third-person -s (<i>I saw him runs</i>). They also mix up <i>hear</i> and <i>listen</i>. Drill: describe a scene (a park, a beach, a busy street); the student says three things they saw or heard, one with the base form and two with -ing.</p>""")
