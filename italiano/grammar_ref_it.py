@@ -1681,3 +1681,24 @@ def richieste_indirette(b):
 <p class="small" style="margin:.5mm 0"><b>chiedere qualcosa</b> = pedir: <i>chiedere un favore</i> · <b>chiedere di</b> + infinito = pedir para · <b>chiedere / domandare se</b> = perguntar se. Mai <s>chiedere per</s> + infinito.</p></div></div>
 {_dont([("Mi ha chiesto per mandare le foto.", "Mi ha chiesto <b>di</b> mandare le foto."), ("Gli ho detto che legge il parere.", "Gli ho detto <b>di leggere</b> il parere."), ("Gli ho pregato di venire.", "<b>L</b>'ho pregato di venire.")])}""",
     28, """<p>Il brasiliano traduce <i>pedir para / dizer para</i> + infinito con <i>chiedere per / dire per</i>: è l'errore più frequente. Far notare che <i>chiedere</i> copre «pedir» e «perguntar» e che la scelta tra <i>di</i> e <i>se</i> chiarisce il senso. Lavorare sui pronomi (<i>gli ho detto</i> ma <i>l'ho pregato</i>) e sull'intonazione: la domanda riferita non sale alla fine.</p>""")
+
+
+def verbi_ci_ne_b1(b):
+    """B1 Progresso 38: verbi con ci / ne / la fissi (valerne la pena, tenerci, entrarci, sentirsela, smetterla)."""
+    vb = [("<b>valerne la pena</b>", "valer a pena", "<i><b>Ne vale</b> la pena.</i>", "<i><b>Ne è valsa</b> la pena.</i>"),
+          ("<b>tenerci</b> (a)", "fazer questão, ser importante", "<i><b>Ci tengo</b> a vederla.</i>", "<i><b>Ci ho tenuto</b> a dirlo.</i>"),
+          ("<b>entrarci</b>", "ter a ver", "<i>Che <b>c'entra</b>? · Io non <b>c'entro</b>.</i>", "<i>Non <b>c'entrava</b> niente.</i>"),
+          ("<b>sentirsela</b> (di)", "ter coragem, estar disposto", "<i>Non <b>me la sento</b> di partire.</i>", "<i>Non <b>me la sono sentita</b>.</i>"),
+          ("<b>smetterla</b> (di)", "parar (di fare qualcosa di fastidioso)", "<i><b>Smettila!</b> · <b>Smettetela</b> di litigare!</i>", "<i>L'<b>ha smessa</b> finalmente.</i>")]
+    cj = [("io", "ci tengo", "me la sento"), ("tu", "ci tieni", "te la senti"), ("lui / lei / Lei", "ci tiene", "se la sente"),
+          ("noi", "ci teniamo", "ce la sentiamo"), ("voi", "ci tenete", "ve la sentite"), ("loro", "ci tengono", "se la sentono")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: valerne la pena, tenerci, entrarci", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Come <i>farcela</i> e <i>andarsene</i> (unità 4), alcuni verbi molto frequenti hanno un pronome «fisso» (<b>ci, ne, la</b>) che cambia il significato: <i>tenere</i> (segurar) → <i>tener<b>ci</b></i> (fazer questão), <i>entrare</i> → <i>entrar<b>ci</b></i> (ter a ver). Il pronome non si traduce: è parte del verbo e si impara in blocco.</div>
+{_h("1. I VERBI DELL'UNITÀ")}
+{_tbl(["verbo", "significato", "presente", "passato"], vb, "7.9pt", ["30mm", "40mm", None, "38mm"])}
+<div class="two"><div>{_h("2. IL PRESENTE")}
+{_tbl(["", "tenerci", "sentirsela"], cj, "7.9pt", ["22mm", None, None])}</div>
+<div>{_h("3. COSTRUZIONI E PASSATO")}
+<p class="small" style="margin:.5mm 0"><b>vale la pena</b> + infinito: <i>Vale la pena partire.</i> Se la cosa è già detta → <b>ne</b>: <i>Il viaggio? Ne vale la pena.</i><br><b>tenerci a</b> + nome / infinito, <b>ci tengo che</b> + congiuntivo: <i>Ci tengo che tu venga.</i><br>Al passato: <i>valere</i> e <i>sentirsela</i> → <b>essere</b> (<i>ne è vals<b>a</b>, me la sono sentit<b>a</b></i>); <i>tenerci, smetterla</i> → <b>avere</b> (<i>l'ha smess<b>a</b></i>: accordo con <i>la</i>).</p></div></div>
+{_dont([("Il volo è caro, ma vale la pena.", "Il volo è caro, ma <b>ne</b> vale la pena."), ("Ne ha valso la pena.", "Ne <b>è valsa</b> la pena."), ("Faccio questione di venire.", "<b>Ci tengo</b> a venire."), ("Non ho coraggio di dirlo.", "Non <b>me la sento</b> di dirlo.")])}""",
+    28, """<p>Il portoghese ha espressioni corrispondenti (<i>vale a pena, faço questão, o que tem a ver?, não tenho coragem</i>) ma senza pronome fisso: lo studente dice <i>vale la pena</i> anche quando serve <i>ne</i>, e traduce <i>faço questão</i> alla lettera. Insegnare le frasi come blocchi: <i>ne vale la pena, ci tengo, che c'entra?, non me la sento, smettila!</i> L'accordo al passato (<i>ne è valsa, l'ha smessa</i>) va solo riconosciuto.</p>""")

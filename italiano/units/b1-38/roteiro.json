@@ -1,0 +1,26 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Chiara": "it-IT-Chirp3-HD-Achernar"
+ },
+ "pauses": {
+  "38.2": 3000
+ },
+ "images": {
+  "it-b1-unita-38": {
+   "A": "man thinking chess",
+   "B": "airport departures board",
+   "C": "christmas dinner table family",
+   "D": "signpost directions wooden"
+  }
+ },
+ "units": {
+  "it-b1-unita-38": {
+   "38.1 Ne vale la pena": "Narrator: Sabato 4 dicembre, sera, a casa di Júlia. Júlia, suo fratello Bruno e Chiara guardano i voli per il Brasile sul computer.\nBruno: Millequattrocento euro, andata e ritorno, per Belo Horizonte. Per dieci giorni! Ne vale davvero la pena?\nJúlia: Per me sì. La mamma ci tiene tantissimo: me lo chiede da maggio.\nBruno: Lo so, ma io a gennaio ho tre esami. E i soldi? Che c'entra la mamma, scusa?\nJúlia: C'entra eccome! Sono due anni che non passiamo il Natale a casa.\nChiara: Io non c'entro niente, però... quante ore di viaggio sono?\nJúlia: Ventidue, con lo scalo a Lisbona. Lo so, è tanto. Ma ne vale la pena, credimi.\nBruno: E il progetto di Galli? Non devi consegnare il disegno della pergola entro Natale?\nJúlia: Lo consegno il venti. Ci tengo a finirlo bene prima di partire.\nBruno: E se Galli cambia idea un'altra volta?\nJúlia: Smettila di cercare problemi! Galli non c'entra con il nostro Natale.\nChiara: Bruno, posso dire una cosa? I tuoi genitori sono venuti fino a Bologna ad aprile. Secondo me ci tengono a vederti.\nBruno: Hai ragione. Però... non me la sento di lasciarti sola a Natale.\nChiara: Sola? Io vado dai miei, come ogni anno! Con mia nonna, i cugini, tre giorni a tavola...\nBruno: Allora non ho più scuse.\nJúlia: Quindi? Compro i biglietti?\nBruno: Compra, compra. Partiamo il ventidue e torniamo il due gennaio?\nJúlia: Perfetto. La mamma piangerà al telefono, vedrai.\nChiara: Mi raccomando, mandatemi una foto di vostra madre all'aeroporto!",
+   "38.2 Pro e contro": "Narrator: Il volo è caro, ma ne vale la pena.\nNarrator: La mamma ci tiene tantissimo.\nNarrator: Che c'entra la mamma?\nNarrator: Io non c'entro niente.\nNarrator: Non me la sento di lasciarti sola.\nNarrator: Smettila di cercare problemi!"
+  }
+ }
+}
