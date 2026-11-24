@@ -2013,3 +2013,24 @@ def both_either_neither(b):
 <div class="box" style="margin-top:1.5mm"><h4>NEGATIVE VERB? USE EITHER</h4>English has only <b>one</b> negative in a sentence. With a negative verb, use <b>either</b>, not <i>neither</i>: <i>I <b>don't</b> like <b>either</b> of them.</i> = <i>I like <b>neither</b> of them.</i> · Short answers: <i>Which one? — <b>Either</b>. (I don't mind.) · <b>Neither</b>. (I don't like them.) · <b>Both</b>!</i></div>
 {_dont([("I don't like neither of them.", "I don't like <b>either</b> of them."), ("Neither of us don't play.", "<b>Neither</b> of us <b>plays</b>."), ("I like both of rock and jazz.", "I like <b>both</b> rock <b>and</b> jazz."), ("Neither Danny or Bruno…", "Neither Danny <b>nor</b> Bruno…"), ("The both songs are good.", "<b>Both</b> songs / <b>Both</b> the songs are good.")])}""",
     30, """<p>Portuguese allows two negatives (<i>don't … neither</i>), so Brazilians produce <i>I don't like neither</i>. Teach: one negative only, so a negative verb takes <i>either</i>. Pronunciation: <i>either</i> and <i>neither</i> are said /ˈiːðər/ or /ˈaɪðər/ in American English; /iː/ is more common. Drill: compare yourself and the student (<i>Do you play an instrument? Do you like samba?</i>) and say true sentences with <i>both of us / neither of us</i>.</p>""")
+
+
+def reported_questions(b):
+    """B1 Unit 48: reported questions (if / whether, wh- + statement word order) and reported requests and orders (ask / tell + person + (not) to)."""
+    b.page(f"""{b.sec("+", "Grammar reference: he asked me what I wanted", "")}
+<div class="box" style="margin-top:0"><h4>REPORTING QUESTIONS AND REQUESTS</h4>A reported question is <b>not a question</b> any more: use <b>statement word order</b> (subject + verb), no <i>do / does / did</i> and no question mark. After a past reporting verb, the tense usually moves back, like reported statements (Unit 22). <i>"What do you really want?" → He asked me <b>what I really wanted</b>.</i></div>
+{_h("1. REPORTED QUESTIONS")}
+{_tbl(["direct question", "reported question", "rule"], [
+    ["<i>\"Do you want to go alone?\"</i>", "<i>He asked <b>if / whether I wanted</b> to go alone.</i>", "yes / no question → <b>if</b> or <b>whether</b>"],
+    ["<i>\"What do you really want?\"</i>", "<i>He asked me <b>what I really wanted</b>.</i>", "wh- word + subject + verb"],
+    ["<i>\"Where are you going?\"</i>", "<i>She asked <b>where I was going</b>.</i>", "present → past"],
+    ["<i>\"When will you come back?\"</i>", "<i>My sister asked <b>when I would come</b> back.</i>", "will → would"],
+    ["<i>\"Are you breaking up?\"</i>", "<i>My friends keep asking <b>whether we're breaking up</b>.</i>", "present reporting verb: no change"]], "8.1pt")}
+{_h("2. REPORTED REQUESTS AND ORDERS")}
+{_tbl(["direct speech", "reported", "structure"], [
+    ["<i>\"Please tell me honestly how you feel.\"</i>", "<i>She <b>asked him to tell</b> her honestly how he felt.</i>", "<b>ask</b> + person + <b>to</b> + base form"],
+    ["<i>\"Don't pretend you're happy.\"</i>", "<i>She <b>told him not to pretend</b> he was happy.</i>", "<b>tell</b> + person + <b>not to</b> + base form"],
+    ["<i>\"Could you call me every night?\"</i>", "<i>He <b>asked her to call</b> him every night.</i>", "a polite question can be a request"]], "8.1pt")}
+<div class="box" style="margin-top:1.5mm"><h4>OTHER VERBS</h4><b>want to know</b> / <b>wonder</b> + if / wh-: <i>I <b>wonder whether</b> it will work.</i> · <b>tell</b> always has a person: <i>He <b>told me</b> to wait</i> (not <i>told to me</i>). <b>say</b> has no person: <i>He <b>said</b> to wait.</i></div>
+{_dont([("He asked me what did I want.", "He asked me what <b>I wanted</b>."), ("She asked where was the station.", "She asked where <b>the station was</b>."), ("He asked me that I go.", "He asked me <b>to go</b>."), ("She said me to wait.", "She <b>told me</b> to wait."), ("He told me don't worry.", "He told me <b>not to worry</b>."), ("She asked me if I want coffee.", "She asked me if I <b>wanted</b> coffee.")])}""",
+    30, """<p>The biggest problem is word order: Brazilians keep the question form (<i>He asked me where do I live</i>) because Portuguese does not change it. Second problem: <i>say me / told to me</i>. Drill: ask the student three questions and give one instruction; then the student reports them to an imaginary friend (<i>My teacher asked me if…, told me to…</i>).</p>""")
