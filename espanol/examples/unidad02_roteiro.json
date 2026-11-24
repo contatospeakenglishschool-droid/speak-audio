@@ -20,14 +20,14 @@
  },
  "images": {
   "es-a1-unidad-02": {
-   "A": "woman jumping joy happy outdoors",
-   "B": "man smiling thumbs up",
-   "C": "woman smiling drinking coffee",
-   "D": "shrug",
-   "E": "bored man portrait",
-   "F": "man head in hands stress",
-   "G": "tired man yawning",
-   "H": "woman sick cold tissue blanket"
+   "A": "woman sick cold tissue blanket",
+   "B": "bored man portrait",
+   "C": "man head in hands stress",
+   "D": "woman smiling drinking coffee",
+   "E": "man smiling thumbs up",
+   "F": "tired man yawning",
+   "G": "shrug",
+   "H": "woman jumping joy happy outdoors"
   }
  }
 }
