@@ -1702,3 +1702,29 @@ def verbi_ci_ne_b1(b):
 <p class="small" style="margin:.5mm 0"><b>vale la pena</b> + infinito: <i>Vale la pena partire.</i> Se la cosa è già detta → <b>ne</b>: <i>Il viaggio? Ne vale la pena.</i><br><b>tenerci a</b> + nome / infinito, <b>ci tengo che</b> + congiuntivo: <i>Ci tengo che tu venga.</i><br>Al passato: <i>valere</i> e <i>sentirsela</i> → <b>essere</b> (<i>ne è vals<b>a</b>, me la sono sentit<b>a</b></i>); <i>tenerci, smetterla</i> → <b>avere</b> (<i>l'ha smess<b>a</b></i>: accordo con <i>la</i>).</p></div></div>
 {_dont([("Il volo è caro, ma vale la pena.", "Il volo è caro, ma <b>ne</b> vale la pena."), ("Ne ha valso la pena.", "Ne <b>è valsa</b> la pena."), ("Faccio questione di venire.", "<b>Ci tengo</b> a venire."), ("Non ho coraggio di dirlo.", "Non <b>me la sento</b> di dirlo.")])}""",
     28, """<p>Il portoghese ha espressioni corrispondenti (<i>vale a pena, faço questão, o que tem a ver?, não tenho coragem</i>) ma senza pronome fisso: lo studente dice <i>vale la pena</i> anche quando serve <i>ne</i>, e traduce <i>faço questão</i> alla lettera. Insegnare le frasi come blocchi: <i>ne vale la pena, ci tengo, che c'entra?, non me la sento, smettila!</i> L'accordo al passato (<i>ne è valsa, l'ha smessa</i>) va solo riconosciuto.</p>""")
+
+
+def tempi_racconto_b1(b):
+    """B1 Progresso 39: riepilogo dei tempi del B1 (racconto, bilancio, ipotesi, progetti)."""
+    tm = [("passato prossimo", "sono arrivata · ho consegnato", "i fatti conclusi, uno dopo l'altro"),
+          ("imperfetto", "pioveva · non conoscevo nessuno", "la scena, lo stato d'animo, le abitudini"),
+          ("trapassato prossimo", "avevo ordinato · ero già uscita", "un fatto prima di un altro fatto passato"),
+          ("passato remoto", "mio padre nacque nel 1924", "storie lontane, libri, racconti di famiglia"),
+          ("condizionale passato", "avrei detto di no · avrei voluto", "quello che non è successo; il futuro nel passato"),
+          ("futuro (anteriore)", "avrò il contratto · quando avrò finito", "progetti; un fatto prima di un altro futuro"),
+          ("congiuntivo (pres. / imperf.)", "spero che tornino · vorrei che fosse finita", "speranze, desideri, opinioni")]
+    ip = [("realtà", "se + presente", "presente / futuro", "<i>Se parti, ti accompagno.</i>"),
+          ("possibilità", "se + cong. imperfetto", "condizionale presente", "<i>Se potessi, resterei.</i>"),
+          ("irrealtà (passato)", "se + cong. trapassato", "condizionale passato", "<i>Se non fossi venuta, non avrei conosciuto…</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: tutti i tempi del racconto", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Per raccontare un periodo della vita usiamo insieme molti tempi: i <b>fatti</b>, la <b>scena</b>, quello che era successo <b>prima</b>, quello che <b>non</b> è successo e i <b>progetti</b>. È il riepilogo dei tempi che hai studiato nel B1.</div>
+{_h("1. I TEMPI DEL B1")}
+{_tbl(["tempo", "esempio", "quando si usa"], tm, "7.9pt", ["40mm", "58mm", None])}
+{_h("2. IL PERIODO IPOTETICO")}
+{_tbl(["tipo", "frase con se", "frase principale", "esempio"], ip, "7.9pt", ["28mm", "34mm", "34mm", None])}
+<div class="two"><div>{_h("3. DA, FA, PER")}
+<p class="small" style="margin:.5mm 0"><b>da</b> + presente = dura ancora: <i>Abito qui <b>da</b> tre anni.</i><br><b>fa</b> = quanto tempo indietro: <i>Sono arrivata tre anni <b>fa</b>.</i><br><b>per</b> + passato prossimo = durata finita: <i>Ho lavorato a Milano <b>per</b> due anni.</i></p></div>
+<div>{_h("4. I CONNETTIVI DEL RACCONTO")}
+<p class="small" style="margin:.5mm 0">all'inizio · il primo giorno · poi · a un certo punto · mentre · intanto · allora · però · alla fine · da allora · oggi · l'anno prossimo</p></div></div>
+{_dont([("Ho abitato qui da tre anni.", "<b>Abito</b> qui da tre anni."), ("Se avrei saputo…", "Se <b>avessi saputo</b>…"), ("Quel giorno ha piovuto e non ho conosciuto nessuno.", "Quel giorno <b>pioveva</b> e non <b>conoscevo</b> nessuno.")])}""",
+    28, """<p>Pagina di riepilogo prima del Ripasso 4: non spiegare tutto di nuovo, ma far trovare allo studente un esempio suo per ogni tempo. I punti deboli del brasiliano sono la scelta passato prossimo / imperfetto, il trapassato (in portoghese spesso basta il perfeito), <i>se</i> + condizionale e <i>da</i> con il passato.</p>""")
