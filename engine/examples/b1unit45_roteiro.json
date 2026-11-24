@@ -1,0 +1,22 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Carol": "en-US-Chirp3-HD-Leda",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-45": {
+   "45.1 A day out with Carol": "Carol: Thanks for showing me around today. You don't usually work on Wednesdays, do you?\nDanny: No, Wednesday is my day off. And Ana asked me to look after you, didn't she?\nCarol: She did! She worries about me so much. I'm a grown woman! Anyway, Bruno was supposed to come too, wasn't he?\nDanny: Yes, but he's in bed with the flu. I sent him a message this morning: \"Get well soon!\"\nCarol: What a shame. Oh, these sandwiches are huge, aren't they?\nDanny: They are! Careful, it's... oh no! Sorry, I spilled some juice on your bag.\nCarol: Don't worry. It doesn't matter. It's an old bag.\nDanny: Can I ask you a question?\nCarol: Sure, go ahead.\nDanny: You've been studying Portuguese for a long time, haven't you? You read the whole menu!\nCarol: Only six months! I've been teaching myself with an app.\nDanny: No way! Well done!\nCarol: Thanks! Oh no... where's my phone? I can't find my phone!\nDanny: Calm down. You put it in your jacket, didn't you?\nCarol: Oh... yes, here it is. Sorry!\nDanny: And on Saturday you're going to the beach with Ana, aren't you?\nCarol: Yes! And next week Marcos is taking us to Paraty for two days.\nDanny: Lucky you! Have fun! And when do you fly back to Orlando?\nCarol: Next Friday.\nDanny: Then I'll say it now: have a good trip! It's a long flight, isn't it?\nCarol: Very long. But this time I'll sleep... unless the man next to me snores again!",
+   "45.2 Repeat: question tags": "Narrator: It's a long flight, isn't it?\nNarrator: You're Ana's cousin, aren't you?\nNarrator: You don't work on Wednesdays, do you?\nNarrator: She didn't call, did she?\nNarrator: You can swim, can't you?\nNarrator: Let's get a coffee, shall we?"
+  }
+ },
+ "images": {
+  "b1-unit-45": {
+   "A": "airport departure board flights",
+   "B": "Mercado Municipal Sao Paulo",
+   "C": "smartphone in jacket pocket",
+   "D": "big sandwich market counter"
+  }
+ }
+}

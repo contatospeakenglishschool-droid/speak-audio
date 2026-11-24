@@ -1946,3 +1946,25 @@ def ability(b):
 <div class="box" style="margin-top:1.5mm"><h4>MANAGE</h4><b>managed to</b> = it was difficult, but I did it. <i>I <b>managed to</b> get the job!</i> · <b>I can manage.</b> = I don't need help, thanks.</div>
 {_dont([("Yesterday I could finish the report.", "Yesterday I <b>managed to / was able to</b> finish the report."), ("I will can help you.", "I'll <b>be able to</b> help you."), ("I didn't can sleep.", "I <b>couldn't</b> sleep."), ("I have could save money.", "I<b>'ve been able to</b> save money."), ("We managed carrying it.", "We managed <b>to carry</b> it."), ("I can to swim.", "I can <b>swim</b>.")])}""",
     30, """<p>Portuguese uses the same verb for <i>could</i> and <i>managed to</i>, so Brazilians say <i>Yesterday I could finish it</i> for one success. In the negative, <i>couldn't</i> is always fine. Other typical mistakes: <i>will can</i> and <i>have could</i>. Drill: ask about last week (<i>Did you finish everything? Did you find a parking space?</i>); the student answers with <i>managed to / was able to / couldn't</i>.</p>""")
+
+
+def question_tags(b):
+    """B1 Unit 45: question tags: form (positive → negative tag, same auxiliary), special tags, intonation and answers."""
+    b.page(f"""{b.sec("+", "Grammar reference: question tags", "")}
+<div class="box" style="margin-top:0"><h4>CHECKING AND MAKING CONVERSATION</h4>A <b>question tag</b> is a short question at the end of a sentence. We use it to check something we think is true, or just to keep the conversation going. A <b>positive</b> sentence takes a <b>negative</b> tag, and a <b>negative</b> sentence takes a <b>positive</b> tag, with the <b>same auxiliary</b> and a <b>pronoun</b>. <i>It's a long flight, <b>isn't it</b>?</i></div>
+{_h("1. THE TAG FOLLOWS THE VERB")}
+{_tbl(["verb in the sentence", "positive → negative tag", "negative → positive tag"], [
+    ["<b>be</b>", "<i>These sandwiches are huge, <b>aren't they</b>?</i>", "<i>You aren't tired, <b>are you</b>?</i>"],
+    ["present simple", "<i>You live near here, <b>don't you</b>?</i>", "<i>You don't work on Wednesdays, <b>do you</b>?</i>"],
+    ["past simple", "<i>You put it in your jacket, <b>didn't you</b>?</i>", "<i>She didn't call, <b>did she</b>?</i>"],
+    ["present perfect", "<i>You've been to Paraty, <b>haven't you</b>?</i>", "<i>He hasn't finished, <b>has he</b>?</i>"],
+    ["modal verbs", "<i>You can swim, <b>can't you</b>? · It'll be fun, <b>won't it</b>?</i>", "<i>It won't rain, <b>will it</b>?</i>"]], "8.1pt")}
+{_h("2. SPECIAL TAGS")}
+{_tbl(["sentence", "tag", "example"], [
+    ["<b>I'm…</b>", "<b>aren't I?</b>", "<i>I'm late again, <b>aren't I</b>?</i>"],
+    ["<b>Let's…</b>", "<b>shall we?</b>", "<i>Let's get a coffee, <b>shall we</b>?</i>"],
+    ["an order or a request", "<b>will you? / could you?</b>", "<i>Close the door, <b>will you</b>?</i>"],
+    ["<b>nobody, nothing, never</b> (negative meaning)", "a positive tag", "<i>Nobody called, <b>did they</b>? · You never cook, <b>do you</b>?</i>"]], "8.1pt")}
+<div class="box" style="margin-top:1.5mm"><h4>INTONATION AND ANSWERS</h4><b>Falling ↘</b>: you're sure, you want agreement (<i>Lovely day, isn't it? ↘</i>). <b>Rising ↗</b>: a real question, you aren't sure (<i>You're from Recife, aren't you? ↗</i>). Answer about the <b>facts</b>: <i>You don't eat meat, do you? → <b>No, I don't.</b></i> (= I don't eat meat) · <i><b>Yes, I do.</b></i> (= I eat meat)</div>
+{_dont([("You're Brazilian, no?", "You're Brazilian, <b>aren't you</b>?"), ("It's hot, isn't?", "It's hot, <b>isn't it</b>?"), ("You went there, don't you?", "You went there, <b>didn't you</b>?"), ("You don't like coffee, don't you?", "You don't like coffee, <b>do you</b>?"), ("I'm right, am not I?", "I'm right, <b>aren't I</b>?")])}""",
+    30, """<p>Portuguese uses one fixed tag for every sentence, so Brazilians often say <i>…, no?</i> or <i>…, right?</i> all the time. <i>Right?</i> is fine in informal American English, but students need real tags to understand native speakers. Practice the falling tune first: most tags in conversation are not real questions. Answers are a classic problem: after a negative sentence, students say <i>Yes</i> to agree. Drill: say true and false sentences about the student with a tag; they answer with the facts.</p>""")
