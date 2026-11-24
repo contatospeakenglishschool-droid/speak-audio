@@ -1,0 +1,26 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux"
+ },
+ "pauses": {
+  "35.2": 3000
+ },
+ "images": {
+  "it-b1-unita-35": {
+   "A": "old family photo album vintage",
+   "B": "carpenter workshop old tools wood",
+   "C": "vintage black and white photographs pile",
+   "D": "old suitcase vintage travel"
+  }
+ },
+ "units": {
+  "it-b1-unita-35": {
+   "35.1 C'era una volta": "Narrator: Domenica 14 novembre, pomeriggio, a casa della signora Rossi. Davide ha portato su dalla cantina una vecchia scatola di fotografie. Júlia sfoglia un album.\nJúlia: Signora Rossi, chi sono questi due davanti alla bottega?\nSignora Rossi: Sono i miei genitori. Mio padre nacque in un paesino dell'Appennino, nel 1924. Dopo la guerra venne a Bologna a piedi, con una valigia di cartone.\nDavide: A piedi? Dall'Appennino?\nSignora Rossi: Eh, sì, caro. Allora non c'erano soldi per il treno. Appena fu arrivato in città, cercò lavoro da un falegname in via Santo Stefano.\nJúlia: E sua madre?\nSignora Rossi: Mia madre lavorava nel forno di fronte. Un giorno la porta del forno si ruppe e lui andò a ripararla. Lei gli offrì un pezzo di pane caldo... e lui tornò ogni mattina per due anni.\nDavide: Ogni mattina per il pane? Che romantico!\nSignora Rossi: Si sposarono nel 1950, nella chiesa di Santo Stefano. Quando ebbe messo da parte abbastanza soldi, mio padre aprì una bottega tutta sua. E io nacqui due anni dopo, proprio sopra la bottega.\nJúlia: Che bella storia! Anche nella mia famiglia c'è una storia di emigrazione, ma al contrario.\nSignora Rossi: Cioè?\nJúlia: Il mio bisnonno partì dal Veneto alla fine dell'Ottocento. Attraversò l'oceano in nave: il viaggio durò un mese. Arrivò in Brasile e lavorò nelle piantagioni di caffè.\nDavide: Allora sei un po' veneta anche tu!\nJúlia: Sì! Mio nonno Antonio parlava ancora il dialetto veneto e faceva la polenta. Mia madre mi ha appena mandato una foto del bisnonno: ieri l'ho messa sulla scrivania.\nSignora Rossi: Vedi, cara? Il tuo bisnonno lasciò l'Italia, e tu sei tornata. La storia fa dei giri strani.\nDavide: Signora Rossi, ma perché racconta tutto al passato remoto? Mia nonna dice «è nato», non «nacque».\nSignora Rossi: Perché sono cose lontane, caro. Quando racconto di ieri, dico «sono andata». Quando racconto di mio padre, dico «andò». Fa parte della storia.\nJúlia: Allora la prossima volta mi racconta anche come fece suo padre a comprare la bottega?\nSignora Rossi: Volentieri. Ma prima... chi vuole una fetta di ciambella?",
+   "35.2 Ripeti": "Narrator: Mio padre nacque in un paesino dell'Appennino.\nNarrator: Dopo la guerra venne a Bologna a piedi.\nNarrator: Appena fu arrivato in città, cercò lavoro.\nNarrator: Un giorno la porta del forno si ruppe.\nNarrator: Si sposarono nel 1950, nella chiesa di Santo Stefano.\nNarrator: Il mio bisnonno partì dal Veneto e attraversò l'oceano."
+  }
+ }
+}

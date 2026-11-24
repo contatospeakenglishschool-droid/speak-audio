@@ -1612,3 +1612,25 @@ def passivo_andare_modali(b):
 <p class="small" style="margin:.5mm 0"><i>Bisogna restaurare il portone · Il portone deve essere restaurato · Il portone va restaurato · Si deve restaurare il portone</i>: stesso significato. Per vietare: <i>È vietato fumare · Non si può fumare · Vietato fumare</i> (cartelli).</p></div></div>
 {_dont([("Il portone va a essere restaurato.", "Il portone <b>va restaurato</b>. (= deve essere)"), ("Le finestre va fatto in legno.", "Le finestre <b>vanno fatte</b> in legno."), ("Si può usare i mattoni.", "Si <b>possono</b> usare i mattoni.")])}""",
     28, """<p>Per il brasiliano <i>va fatto</i> suona come «vai ser feito» (futuro): chiarire subito che è un obbligo, «deve ser feito». Far trasformare frasi con <i>bisogna</i> in frasi con <i>va / vanno</i>, controllando l'accordo del participio. Con il si + modale il brasiliano lascia il verbo al singolare (nel parlato si dice «pode usar os tijolos»): ricordare che il soggetto è la cosa.</p>""")
+
+
+def narrazione_passato_remoto(b):
+    """B1 Progresso 35: il sistema del racconto (passato remoto, imperfetto, trapassato prossimo/remoto); trapassato remoto da riconoscere."""
+    sy = [("<b>passato remoto</b>", "le azioni principali, una dopo l'altra", "<i>Mio padre <b>nacque</b> nel 1924 e <b>venne</b> a Bologna.</i>"),
+          ("<b>imperfetto</b>", "lo sfondo, le descrizioni, le abitudini", "<i>Mia madre <b>lavorava</b> nel forno. Non <b>c'erano</b> soldi.</i>"),
+          ("<b>trapassato prossimo</b>", "un fatto ancora prima", "<i>Si <b>erano conosciuti</b> due anni prima.</i>"),
+          ("<b>trapassato remoto</b>", "un fatto subito prima, dopo <i>appena, dopo che, quando</i> + passato remoto", "<i>Appena <b>fu arrivato</b>, cercò lavoro.</i>")]
+    tr = [("avere", "ebbi, avesti, <b>ebbe</b>, avemmo, aveste, ebbero + participio", "<i>Quando <b>ebbe messo</b> da parte i soldi, aprì la bottega.</i>"),
+          ("essere", "fui, fosti, <b>fu</b>, fummo, foste, furono + participio", "<i>Dopo che <b>furono partiti</b>, la casa restò vuota.</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: raccontare il passato lontano", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Nei racconti di fatti <b>lontani</b> (storie di famiglia, fiabe, biografie, libri) l'italiano usa il <b>passato remoto</b> per le azioni e l'<b>imperfetto</b> per lo sfondo. Il <b>trapassato remoto</b> si trova quasi solo nei testi scritti, dopo <i>appena, dopo che, quando</i>: a livello B1 basta <b>riconoscerlo</b>. Le forme del passato remoto sono nel riferimento dell'unità 26.</div>
+{_h("1. I TEMPI DEL RACCONTO")}
+{_tbl(["tempo", "uso", "esempio"], sy, "7.9pt", ["32mm", "52mm", None])}
+{_h("2. IL TRAPASSATO REMOTO: PASSATO REMOTO DI AVERE / ESSERE + PARTICIPIO")}
+{_tbl(["ausiliare", "forme", "esempio"], tr, "7.9pt", ["18mm", "74mm", None])}
+<div class="two"><div>{_h("3. GLI IRREGOLARI DEI RACCONTI")}
+<p class="small" style="margin:.5mm 0"><i>nascere → <b>nacque</b> · venire → <b>venne</b> · essere → <b>fu</b> · avere → <b>ebbe</b> · fare → <b>fece</b> · dire → <b>disse</b> · mettere → <b>mise</b> · rompere → <b>ruppe</b> · conoscere → <b>conobbe</b> · vivere → <b>visse</b> · morire → <b>morì</b></i></p></div>
+<div>{_h("4. PASSATO REMOTO O PROSSIMO?")}
+<p class="small" style="margin:.5mm 0">Fatto lontano, chiuso, raccontato → <b>remoto</b>: <i>Mio nonno partì nel 1950.</i> Fatto recente o legato al presente → <b>prossimo</b>: <i>Ieri sono andata al mercato.</i> Nel parlato al Nord si usa quasi sempre il prossimo; in Toscana e al Sud il remoto è più vivo.</p></div></div>
+{_dont([("Mio padre nascé nel 1924.", "Mio padre <b>nacque</b> nel 1924."), ("Appena ebbe arrivato, cercò lavoro.", "Appena <b>fu</b> arrivato, cercò lavoro."), ("Stamattina andai al bar.", "Stamattina <b>sono andata</b> al bar.")])}""",
+    28, """<p>Il portoghese ha un solo tempo (<i>nasceu, foi, chegou</i>) dove l'italiano ne ha due. Il trapassato remoto somiglia al <i>mais-que-perfeito</i> dei libri (<i>chegara, fizera</i>): lo studente lo conosce passivamente, basta riconoscerlo. Far notare che l'insegnante può accettare il passato prossimo nel parlato, ma nei racconti scritti e nelle storie di famiglia il remoto suona naturale e «letterario».</p>""")
