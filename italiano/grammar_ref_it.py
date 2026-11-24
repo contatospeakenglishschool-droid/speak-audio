@@ -1589,3 +1589,26 @@ def frasi_consecutive_b1(b):
 <p class="small" style="margin:.5mm 0">Consecutiva (risultato reale) → indicativo: <i>Ha parlato piano, <b>così che</b> nessuno ha capito.</i> Finale (scopo, unità 32) → congiuntivo: <i>Parla piano <b>in modo che</b> tutti capiscano.</i></p></div></div>
 {_dont([("Di tanto stanco che ero, non parlavo.", "Ero <b>così</b> stanco <b>che</b> non parlavo."), ("Ho tanto fame che…", "Ho <b>tanta</b> fame che…"), ("Ero così stanco che non riuscissi a parlare.", "…che non <b>riuscivo</b> a parlare.")])}""",
     28, """<p>Il portoghese ha <i>tão… que, tanto… que, tal… que</i>: la struttura è simile. Il calco più frequente è <i>de tão cansado que estava</i>, che in italiano non esiste: <i>ero così stanco che…</i>. Controllare l'accordo di <i>tanto</i> con il nome e l'indicativo dopo <i>che</i>. Per far parlare lo studente: chiedere di esagerare (<i>Faceva così freddo che…</i>).</p>""")
+
+
+def passivo_andare_modali(b):
+    """B1 Progresso 34: andare + participio (= deve essere); si passivante con potere/dovere + infinito."""
+    va = [("singolare maschile", "<i>Il portone <b>va restaurato</b>.</i>", "= deve essere restaurato"),
+          ("singolare femminile", "<i>La terrazza <b>va tenuta</b> bassa.</i>", "= deve essere tenuta"),
+          ("plurale maschile", "<i>Gli affreschi <b>vanno protetti</b>.</i>", "= devono essere protetti"),
+          ("plurale femminile", "<i>Le finestre <b>vanno fatte</b> in legno.</i>", "= devono essere fatte"),
+          ("negativo", "<i>Il soffitto <b>non va toccato</b>.</i>", "= non deve essere toccato")]
+    sm = [("una cosa", "<i>L'alluminio non <b>si può</b> usare.</i>", "<i>Il colore <b>si deve</b> scegliere dall'elenco.</i>"),
+          ("più cose", "<i>I bagni <b>si possono</b> fare.</i>", "<i>Le insegne non <b>si devono</b> mettere.</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: va fatto · si può fare", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Per dare <b>regole e istruzioni</b> l'italiano usa due strutture molto comuni. <b>Andare + participio passato</b> vuol dire <b>deve essere</b> + participio: <i>Il portone <b>va restaurato</b></i> = deve essere restaurato. Il <b>si passivante</b> con <b>potere</b> e <b>dovere</b> dice che cosa è permesso o obbligatorio: <i>Qui <b>si possono</b> fare i bagni.</i> In tutte e due la cosa è il <b>soggetto</b>: il verbo concorda con lei.</div>
+{_h("1. ANDARE + PARTICIPIO")}
+{_tbl(["soggetto", "esempio", "significato"], va, "7.9pt", ["34mm", None, "48mm"])}
+{_h("2. SI + POTERE / DOVERE + INFINITO")}
+{_tbl(["soggetto", "si può / si possono", "si deve / si devono"], sm, "7.9pt", ["22mm", None, None])}
+<div class="two"><div>{_h("3. QUANDO SI USA ANDARE?")}
+<p class="small" style="margin:.5mm 0">Solo nei <b>tempi semplici</b>: <i>va fatto, andava fatto, andrà fatto, andrebbe fatto</i>. Mai nei tempi composti (<s>è andato fatto</s>). È tipico di istruzioni, regolamenti, ricette: <i>La pasta va scolata al dente.</i></p></div>
+<div>{_h("4. ALTRE FORME DELLA REGOLA")}
+<p class="small" style="margin:.5mm 0"><i>Bisogna restaurare il portone · Il portone deve essere restaurato · Il portone va restaurato · Si deve restaurare il portone</i>: stesso significato. Per vietare: <i>È vietato fumare · Non si può fumare · Vietato fumare</i> (cartelli).</p></div></div>
+{_dont([("Il portone va a essere restaurato.", "Il portone <b>va restaurato</b>. (= deve essere)"), ("Le finestre va fatto in legno.", "Le finestre <b>vanno fatte</b> in legno."), ("Si può usare i mattoni.", "Si <b>possono</b> usare i mattoni.")])}""",
+    28, """<p>Per il brasiliano <i>va fatto</i> suona come «vai ser feito» (futuro): chiarire subito che è un obbligo, «deve ser feito». Far trasformare frasi con <i>bisogna</i> in frasi con <i>va / vanno</i>, controllando l'accordo del participio. Con il si + modale il brasiliano lascia il verbo al singolare (nel parlato si dice «pode usar os tijolos»): ricordare che il soggetto è la cosa.</p>""")
