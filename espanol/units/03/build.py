@@ -6,8 +6,14 @@ sys.path.insert(0, os.path.join(HERE, "..", ".."))
 from engine_es import *
 setup(band="A1 · UNIDAD 03", audio_json=os.path.join(HERE, "audio_es-a1-unidad-03.json"), img_dir=os.path.join(HERE, "img"), lang="es-419")
 
-PHOTOS = [("A", "México", "méxico"), ("B", "Brasil", "brasil"), ("C", "Argentina", "argentina"), ("D", "Colombia", "colombia"),
-          ("E", "Chile", "chile"), ("F", "Perú", "perú"), ("G", "España", "españa"), ("H", "Estados Unidos", "estados unidos")]
+PHOTOS = [('A', 'México', 'méxico'),
+          ('B', 'Colombia', 'colombia'),
+          ('C', 'Argentina', 'argentina'),
+          ('D', 'España', 'españa'),
+          ('E', 'Perú', 'perú'),
+          ('F', 'Chile', 'chile'),
+          ('G', 'Estados Unidos', 'estados unidos'),
+          ('H', 'Brasil', 'brasil')]
 
 SCRIPT = [("Narradora", "Diálogo uno."), ("Lucía", "Pedro, ¿de dónde eres? ¿De São Paulo?"),
           ("Pedro", "No, soy de Recife. Soy brasileño. ¿Y tú? ¿Eres de aquí?"), ("Lucía", "Sí, soy mexicana. Soy de la Ciudad de México."),
@@ -32,7 +38,7 @@ def build(teacher):
                        [("PUEDES", "preguntar y decir de dónde eres y tu nacionalidad"),
                         ("LENGUA", "¿De dónde eres? · Soy de … · soy, eres, es · mexicano / mexicana"),
                         ("PRONUNCIACIÓN", "países · ñ · la x de México")])
-    words = ["Argentina", "Brasil", "Chile", "Colombia", "España", "Estados Unidos", "México", "Perú"]
+    words = ["Argentina", "Brasil", "Chile", "Colombia", "España", "Estados Unidos", "México", "Perú"]  # alphabetical, without article (rule 2026-11-23)
     nb = [("México", "mexicano", "mexicana"), ("Brasil", "brasileño", "brasileña"), ("Colombia", "colombiano", "colombiana"), ("Perú", "peruano", "peruana")]
     nr = "".join(f'<td style="width:25%;text-align:center"><b>{p}</b><br>♂ {A(m, "min-width:24mm")}<br>♀ {A(f, "min-width:24mm")}</td>' for p, m, f in nb)
     b.page(f"""{sec(1, "Calentamiento: países", "8 min")}

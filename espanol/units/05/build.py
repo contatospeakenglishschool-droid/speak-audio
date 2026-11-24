@@ -6,8 +6,14 @@ sys.path.insert(0, os.path.join(HERE, "..", ".."))
 from engine_es import *
 setup(band="A1 · UNIDAD 05", audio_json=os.path.join(HERE, "audio_es-a1-unidad-05.json"), img_dir=os.path.join(HERE, "img"), lang="es-419")
 
-PHOTOS = [("A", "el celular", "celular"), ("B", "el correo electrónico", "correo"), ("C", "el pasaporte", "pasaporte"), ("D", "el cumpleaños", "cumpleaños"),
-          ("E", "la tarjeta de visita", "tarjeta"), ("F", "la dirección", "dirección"), ("G", "el formulario", "formulario"), ("H", "la cartera", "cartera")]
+PHOTOS = [('A', 'el pasaporte', 'pasaporte'),
+          ('B', 'la cartera', 'cartera'),
+          ('C', 'el formulario', 'formulario'),
+          ('D', 'el correo electrónico', 'correo'),
+          ('E', 'la tarjeta de visita', 'tarjeta'),
+          ('F', 'el cumpleaños', 'cumpleaños'),
+          ('G', 'el celular', 'celular'),
+          ('H', 'la dirección', 'dirección')]
 
 SCRIPT = [("Narradora", "Diálogo uno."), ("Recepcionista", "Buenas tardes. ¿Cómo se llama usted?"), ("Pedro", "Pedro Almeida."),
           ("Recepcionista", "¿Cuántos años tiene?"), ("Pedro", "Tengo treinta y dos años."), ("Recepcionista", "¿Y cuál es su número de teléfono?"),
@@ -35,7 +41,7 @@ def build(teacher):
                        [("PUEDES", "decir tu edad, tu número de teléfono y tu correo"),
                         ("LENGUA", "¿Cuántos años tienes? · Tengo … años · ¿Cuál es tu número? · 0–100"),
                         ("PRONUNCIACIÓN", "números · ñ · c y z como s")])
-    words = sorted(W052, key=lambda w: w.split()[1])
+    words = ["la cartera", "el celular", "el correo electrónico", "el cumpleaños", "la dirección", "el formulario", "el pasaporte", "la tarjeta de visita"]  # alphabetical, without article (rule 2026-11-23)
     nums = [(3, "tres"), (7, "siete"), (12, "doce"), (15, "quince"), (16, "dieciséis"), (20, "veinte")]
     nr = "".join(f'<td style="width:16%;text-align:center"><b style="font-size:13pt">{n}</b><br>{A(w, "min-width:20mm")}</td>' for n, w in nums)
     b.page(f"""{sec(1, "Calentamiento: mis datos", "8 min")}

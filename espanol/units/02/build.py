@@ -6,8 +6,14 @@ sys.path.insert(0, os.path.join(HERE, "..", ".."))
 from engine_es import *
 setup(band="A1 · UNIDAD 02", audio_json=os.path.join(HERE, "audio_es-a1-unidad-02.json"), img_dir=os.path.join(HERE, "img"), lang="es-419")
 
-PHOTOS = [("A", "¡Excelente!", "excelente"), ("B", "¡Muy bien!", "muy bien"), ("C", "Bien.", "bien"), ("D", "Más o menos.", "más o menos"),
-          ("E", "Regular.", "regular"), ("F", "Mal.", "mal"), ("G", "cansado", "cansado"), ("H", "enferma", "enferma")]
+PHOTOS = [('A', 'enferma', 'enferma'),
+          ('B', 'Regular.', 'regular'),
+          ('C', 'Mal.', 'mal'),
+          ('D', 'Bien.', 'bien'),
+          ('E', '¡Muy bien!', 'muy bien'),
+          ('F', 'cansado', 'cansado'),
+          ('G', 'Más o menos.', 'más o menos'),
+          ('H', '¡Excelente!', 'excelente')]
 
 SCRIPT = [("Narradora", "Diálogo uno."), ("Pedro", "¡Buenos días, doña Carmen! ¿Cómo está usted?"),
           ("Doña Carmen", "Muy bien, gracias. ¿Y usted, señor Almeida?"), ("Pedro", "Bien, gracias."),
@@ -35,7 +41,7 @@ def build(teacher):
                        [("PUEDES", "preguntar cómo está alguien, deletrear tu nombre y pedir ayuda en clase"),
                         ("LENGUA", "¿Qué tal? · ¿Cómo se escribe? · ¿Qué significa …? · Más despacio, por favor."),
                         ("PRONUNCIACIÓN", "el alfabeto · j, g, r, ñ")])
-    words = ["cansado", "enferma", "Bien.", "¡Excelente!", "Mal.", "Más o menos.", "¡Muy bien!", "Regular."]
+    words = ["Bien.", "cansado", "enferma", "¡Excelente!", "Mal.", "Más o menos.", "¡Muy bien!", "Regular."]  # alphabetical, without article (rule 2026-11-23)
     me = "".join(f'<td style="text-align:center">☐<br><span class="small">{w}</span></td>' for w in ["¡Excelente!", "¡Muy bien!", "Bien.", "Más o menos.", "Regular.", "Mal."])
     b.page(f"""{sec(1, "Calentamiento: ¿Qué tal?", "8 min")}
 {sub("A", "Escucha y repite. Escribe.", "5 min", "02.2")}
@@ -44,7 +50,7 @@ def build(teacher):
 {sub("B", "¿Y tú? ¿Cómo estás hoy? Marca.", "3 min")}
 <table class="ck"><tr>{me}</tr></table>""",
     30, """<ol><li>A: Pista 02.2. Mostrar con la cara y con gestos: pulgar arriba = <b>¡Excelente! / ¡Muy bien!</b>, mano que oscila = <b>Más o menos. / Regular.</b>, pulgar abajo = <b>Mal.</b> Repaso de la Unidad 01: empezar con <i>¡Hola! / ¡Buenos días!</i></li>
-<li>G y H: <b>cansado</b> (hombre) / <b>cansada</b> (mujer), <b>enfermo</b> / <b>enferma</b>. Solo mostrarlo; no explicar el género todavía.</li>
+<li>F y A: <b>cansado</b> (hombre) / <b>cansada</b> (mujer), <b>enfermo</b> / <b>enferma</b>. Solo mostrarlo; no explicar el género todavía.</li>
 <li>B: El profesor pregunta: <i>¿Qué tal?</i> El alumno señala la palabra y la dice. Después, el alumno pregunta al profesor.</li></ol>""", cover=cover)
 
     b.extra("Panorama de la clase · 55 min", """

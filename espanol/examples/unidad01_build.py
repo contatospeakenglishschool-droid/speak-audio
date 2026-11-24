@@ -5,8 +5,14 @@ sys.path.insert(0, os.path.join(HERE, "..", ".."))
 from engine_es import *
 setup(band="A1 · UNIDAD 01", audio_json=os.path.join(HERE, "audio_es-a1-unidad-01.json"), img_dir=os.path.join(HERE, "img"), lang="es-419")
 
-PHOTOS = [("A", "¡Hola!", "hola"), ("B", "¡Buenos días!", "buenos días"), ("C", "¡Buenas tardes!", "buenas tardes"), ("D", "¡Buenas noches!", "buenas noches"),
-          ("E", "¡Adiós!", "adiós"), ("F", "¡Hasta luego!", "hasta luego"), ("G", "¡Hasta mañana!", "hasta mañana"), ("H", "¡Mucho gusto!", "mucho gusto")]
+PHOTOS = [('A', '¡Buenas noches!', 'buenas noches'),
+          ('B', '¡Mucho gusto!', 'mucho gusto'),
+          ('C', '¡Hasta luego!', 'hasta luego'),
+          ('D', '¡Adiós!', 'adiós'),
+          ('E', '¡Hola!', 'hola'),
+          ('F', '¡Buenos días!', 'buenos días'),
+          ('G', '¡Hasta mañana!', 'hasta mañana'),
+          ('H', '¡Buenas tardes!', 'buenas tardes')]
 
 SCRIPT = [("Narradora", "Diálogo uno."), ("Doña Carmen", "Buenos días. Soy Carmen Ruiz. ¿Cómo se llama usted?"),
           ("Pedro", "Buenos días, señora. Me llamo Pedro Almeida."), ("Doña Carmen", "Mucho gusto, señor Almeida."), ("Pedro", "Mucho gusto, señora Ruiz."),
@@ -29,7 +35,7 @@ def build(teacher):
                        [("PUEDES", "saludar, decir tu nombre y preguntar el nombre"),
                         ("LENGUA", "Me llamo … · Soy … · ¿Cómo te llamas? · ¿Cómo se llama usted?"),
                         ("PRONUNCIACIÓN", "saludos · h · ll")])
-    words = ["¡Adiós!", "¡Buenas noches!", "¡Buenas tardes!", "¡Buenos días!", "¡Hasta luego!", "¡Hasta mañana!", "¡Hola!", "¡Mucho gusto!"]
+    words = ["¡Adiós!", "¡Buenas noches!", "¡Buenas tardes!", "¡Buenos días!", "¡Hasta luego!", "¡Hasta mañana!", "¡Hola!", "¡Mucho gusto!"]  # alphabetical, without article (rule 2026-11-23)
     qs = [("08:00", "¡Buenos días!"), ("14:00", "¡Buenas tardes!"), ("17:00", "¡Buenas tardes!"), ("21:00", "¡Buenas noches!")]
     cl = "".join(f'<td style="width:25%;text-align:center"><b style="font-size:13pt">{t}</b><br>{A(a, "min-width:30mm")}</td>' for t, a in qs)
     b.page(f"""{sec(1, "Calentamiento: ¡Hola!", "8 min")}
@@ -74,7 +80,7 @@ def build(teacher):
 <div class="bank">Igualmente · llama · llamas · Me llamo · Mucho gusto · Soy</div>
 {twocol(gl, 3)}
 {sub("C", "Lee los diálogos con el profesor.", "2 min")}""",
-    30, """<ol><li>A: versión <b>lenta</b>, dos veces. Antes de escuchar, mostrar tres fotos de la página 1 (B, A, D): mañana, oficina, noche.</li>
+    30, """<ol><li>A: versión <b>lenta</b>, dos veces. Antes de escuchar, mostrar tres fotos de la página 1 (F, E, A): mañana, oficina, noche.</li>
 <li>B: versión <b>natural</b>. Palabras del recuadro. Parar después de cada diálogo.</li>
 <li>C: Los diálogos están en la última página de la guía. El profesor lee, el alumno es Pedro. Después, cambiar.</li></ol>""")
 

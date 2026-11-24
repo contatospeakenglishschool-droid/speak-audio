@@ -6,8 +6,14 @@ sys.path.insert(0, os.path.join(HERE, "..", ".."))
 from engine_es import *
 setup(band="A1 · UNIDAD 04", audio_json=os.path.join(HERE, "audio_es-a1-unidad-04.json"), img_dir=os.path.join(HERE, "img"), lang="es-419")
 
-PHOTOS = [("A", "el médico", "médico"), ("B", "la profesora", "profesora"), ("C", "el ingeniero", "ingeniero"), ("D", "la mesera", "mesera"),
-          ("E", "el cocinero", "cocinero"), ("F", "la enfermera", "enfermera"), ("G", "el estudiante", "estudiante"), ("H", "el guía de turismo", "guía")]
+PHOTOS = [('A', 'la mesera', 'mesera'),
+          ('B', 'el estudiante', 'estudiante'),
+          ('C', 'el médico', 'médico'),
+          ('D', 'el cocinero', 'cocinero'),
+          ('E', 'el guía de turismo', 'guía'),
+          ('F', 'la enfermera', 'enfermera'),
+          ('G', 'la profesora', 'profesora'),
+          ('H', 'el ingeniero', 'ingeniero')]
 
 SCRIPT = [("Narradora", "Diálogo uno."), ("Lucía", "Pedro, él es Javier, mi hermano."), ("Javier", "¡Mucho gusto, Pedro! ¿A qué te dedicas?"),
           ("Pedro", "Soy ingeniero. Trabajo aquí, con Lucía. ¿Y tú?"), ("Javier", "Soy guía de turismo. Trabajo en una agencia de viajes."),
@@ -32,7 +38,7 @@ def build(teacher):
                        [("PUEDES", "preguntar y decir tu profesión y dónde trabajas"),
                         ("LENGUA", "¿A qué te dedicas? · Soy médico / médica · Trabajo en un hospital"),
                         ("PRONUNCIACIÓN", "profesiones · j · r suave")])
-    words = ["el cocinero", "el estudiante", "el guía de turismo", "el ingeniero", "el médico", "la enfermera", "la mesera", "la profesora"]
+    words = ["el cocinero", "la enfermera", "el estudiante", "el guía de turismo", "el ingeniero", "el médico", "la mesera", "la profesora"]  # alphabetical, without article (rule 2026-11-23)
     pl = [("el médico", ["un hospital", "una escuela"], "un hospital"), ("la profesora", ["una oficina", "una escuela"], "una escuela"),
           ("la mesera", ["un restaurante", "un hospital"], "un restaurante"), ("el ingeniero", ["un restaurante", "una oficina"], "una oficina")]
     pr = "".join(f'<td style="width:25%;text-align:center"><b>{j}</b><br>{ch(o, p)}</td>' for j, o, p in pl)
