@@ -1,0 +1,22 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Ana": "en-US-Neural2-F",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-41": {
+   "41.1 Gap Year Diaries: planning ahead": "Danny: Welcome back to Gap Year Diaries! I'm Danny, and today's topic is planning ahead. I have a crazy week coming up, so I asked my friend Ana for help. She's a doctor, and she plans everything. Hi Ana!\nAna: Hi Danny! Thanks for having me.\nDanny: OK, here's my list. I have a job interview at a language school, I need to update my resume first, and you made me promise to go for a check-up.\nAna: You haven't seen a doctor in two years! So, the check-up. Don't go on Monday. Clinics are bound to be packed on Mondays, because everyone gets sick on the weekend. Wednesday morning is much quieter.\nDanny: Wednesday morning. Got it. What about the interview? They offered me Monday at nine or Thursday at four.\nAna: Take Thursday. On Monday morning the interviewers are likely to be tired and busy. Later in the week, people tend to be more relaxed. And you'll have more time to prepare.\nDanny: Makes sense. So I should update my resume on Tuesday.\nAna: Exactly. Tuesday is a good day for boring jobs. You're unlikely to have any distractions. Bruno will be at work all day.\nDanny: Speaking of Bruno... he's going on a date on Wednesday. A first date!\nAna: Good for him! Wednesday is a smart choice. If it goes well, there's a good chance they'll meet again on the weekend. If it doesn't, he has a perfect excuse to settle the bill and leave early: work the next day!\nDanny: Ha! And Friday? Rafa wants to drive to the beach.\nAna: On a Friday? The traffic is certain to be terrible. Leave on Saturday morning. Trust me, I work in the ER. On Friday nights we're bound to see car accidents.\nDanny: OK, no driving on Friday. And when should I do my weekly shopping?\nAna: Sunday morning. The supermarket near the hostel is unlikely to be busy before ten.\nDanny: Ana, you've just planned my whole week!\nAna: You're welcome. And Danny? There's no chance you'll skip that check-up. I'll call the clinic myself!",
+   "41.2 Repeat: bound to, likely to": "Narrator: It's bound to rain.\nNarrator: He's likely to be late.\nNarrator: She's unlikely to call.\nNarrator: There's a good chance that we'll win.\nNarrator: Is there any chance you could help me?\nNarrator: People tend to be more relaxed on Fridays."
+  }
+ },
+ "images": {
+  "b1-unit-41": {
+   "A": "weekly planner notebook open desk pen",
+   "B": "podcast microphone headphones studio",
+   "C": "job interview handshake office",
+   "D": "stethoscope doctor desk"
+  }
+ }
+}

@@ -1857,3 +1857,24 @@ def future_continuous(b):
     ["state verbs (<i>have</i> = possess, <i>know, like, be</i>) are not used in the continuous", "<i>I <b>have</b> an appointment. · I'<b>ll know</b> tomorrow.</i>"]], "8.1pt")}
 {_dont([("I will working on Saturday.", "I'<b>ll be working</b> on Saturday."), ("I'll be sending you the report. (a promise)", "I'<b>ll send</b> you the report."), ("I'm having an appointment on Friday.", "I <b>have</b> an appointment on Friday."), ("I'll be knowing the answer tomorrow.", "I'<b>ll know</b> the answer tomorrow."), ("Tomorrow at eight I'll have dinner, so don't call.", "Tomorrow at eight I'<b>ll be having</b> dinner.")])}""",
     22, """<p>Many Brazilians overuse <i>will be + -ing</i> in emails and on the phone for promises and simple future actions (<i>I'll be sending…, I'll be checking…</i>). In English this sounds strange: use <i>I'll send…</i>. Keep the future continuous for actions in progress at a future time. Drill: say a time (<i>tomorrow at 10</i>); the student says what they'll be doing.</p>""")
+
+
+def probability_chance(b):
+    """B1 Unit 41: expressing probability: be bound / certain to, be likely / unlikely to, tend to, might / could, expressions with chance."""
+    b.page(f"""{b.sec("+", "Grammar reference: expressing probability", "")}
+<div class="box" style="margin-top:0"><h4>HOW PROBABLE IS IT?</h4>We use these structures to say how sure we are that something will happen, or that something usually happens. After <b>bound, certain, likely, unlikely</b> and <b>tend</b>, use <b>to + base form</b>. <i>Clinics <b>are bound to be</b> packed on Mondays.</i></div>
+{_h("1. FROM 100% TO 0%")}
+{_tbl(["how sure?", "structure", "example"], [
+    ["<b>certain</b>", "<b>be bound to</b> · <b>be certain / sure to</b> + base form", "<i>The traffic <b>is certain to be</b> terrible. · We<b>'re bound to see</b> accidents.</i>"],
+    ["<b>very likely / likely</b>", "<b>be likely to</b> + base form · <b>should</b> + base form", "<i>The interviewers <b>are likely to be</b> tired. · The bus <b>should be</b> here soon.</i>"],
+    ["<b>usually true</b>", "<b>tend to</b> + base form (a habit or a general pattern)", "<i>People <b>tend to be</b> more relaxed later in the week.</i>"],
+    ["<b>possible</b>", "<b>might / could / may</b> + base form", "<i>Rafa <b>might want</b> to leave early.</i>"],
+    ["<b>unlikely</b>", "<b>be unlikely to</b> + base form", "<i>You<b>'re unlikely to have</b> any distractions.</i>"],
+    ["<b>certain not</b>", "<b>be certain not to</b> + base form · <b>there's no chance</b> (that)…", "<i>He<b>'s certain not to come</b>. · <b>There's no chance</b> you'll skip it!</i>"]], "8.1pt")}
+{_h("2. EXPRESSIONS WITH CHANCE")}
+{_tbl(["structure", "example"], [
+    ["there's a <b>good / fair / slight / little / no</b> chance (that) + clause", "<i><b>There's a good chance</b> they'll meet again on the weekend.</i>"],
+    ["(subject) <b>has a good chance of</b> + verb-<b>ing</b>", "<i>You <b>have a good chance of getting</b> the job.</i>"],
+    ["<b>Is there any chance</b> you could…? (a very polite request)", "<i><b>Is there any chance</b> you could call me at lunchtime?</i>"]], "8.1pt")}
+{_dont([("He is bound to won the job.", "He's bound <b>to win</b> the job."), ("It's probable that he comes.", "He's <b>likely to come</b>. / He'll <b>probably</b> come."), ("There's a big chance of rain.", "There's a <b>good</b> chance of rain."), ("You have a good chance to get the job.", "You have a good chance <b>of getting</b> the job."), ("She tends to arriving late.", "She tends <b>to arrive</b> late.")])}""",
+    30, """<p>Brazilians often translate word for word from Portuguese: <i>It's probable that…</i> (correct but formal and rare in speech) and <i>a big chance</i>. Teach <i>be likely to</i> and <i>a good chance</i>. <i>Bound to</i> is very common in speech for things we are sure about, often negative or ironic: <i>It's bound to rain on my day off!</i> Drill: say a situation; the student answers with a structure from each line of the scale.</p>""")
