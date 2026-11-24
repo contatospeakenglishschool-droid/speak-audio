@@ -1,0 +1,23 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Ana": "en-US-Neural2-F",
+  "Mrs. Lima": "en-US-Chirp3-HD-Vindemiatrix",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-53": {
+   "53.1 Gap Year Diaries: big families, small families": "Danny: Welcome back to Gap Year Diaries! Today's topic is population: big cities, big families and small families. With me are Ana and Mrs. Lima.\nMrs. Lima: Hello everyone!\nDanny: Mrs. Lima, how many brothers and sisters did you have?\nMrs. Lima: Seven! We lived in a small house above my father's bakery. Eight children and one bathroom!\nAna: And now you have two children.\nMrs. Lima: Yes, and only one grandchild. Times have changed.\nAna: In my family it's the same. My grandmother grew up on a farm with ten brothers and sisters. My mother had two children, me and Paulo. And I have one son.\nDanny: Why do you think families are getting smaller?\nAna: In my opinion, it's mainly the cost. Raising a child in São Paulo is expensive, and housing isn't affordable for a lot of young people. Also, women study longer and work more, so many of them decide to have children later.\nMrs. Lima: And people moved to the big cities. In a small apartment, there's no space for eight children!\nDanny: Speaking of space... São Paulo is huge. Do you think it will keep growing?\nAna: I think that by the time Leo is my age, the city will have grown even more. And the traffic will probably have gotten worse too.\nMrs. Lima: Or maybe a lot of people will have moved to smaller towns. Many young people work from home now. The big cities will have to cope with that shift.\nDanny: So, are you optimistic or pessimistic?\nAna: Optimistic! By twenty-fifty, I hope we'll have found better ways to share water, food and space.\nMrs. Lima: By twenty-fifty, I'll have celebrated my ninetieth birthday. And I'll still be running this hostel!\nDanny: And by then I'll have learned perfect Portuguese. I promise!\nAna: Danny, don't make promises you can't keep!",
+   "53.2 Repeat: will have done": "Narrator: By then, I'll have finished.\nNarrator: The city will have grown.\nNarrator: We'll have found a way.\nNarrator: She'll have retired by then.\nNarrator: Will you have finished by six?\nNarrator: They won't have arrived yet."
+  }
+ },
+ "images": {
+  "b1-unit-53": {
+   "A": "crowded city street people walking",
+   "B": "aerial view dense city apartment buildings",
+   "C": "hourglass sand",
+   "D": "old house bakery facade"
+  }
+ }
+}

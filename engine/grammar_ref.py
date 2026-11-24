@@ -2101,3 +2101,26 @@ def perception_verbs(b):
 <b>Pronouns:</b> use object pronouns: <i>I saw <b>him</b> run</i>, not <i>I saw he run</i>.</p>
 {_dont([("I saw the monkeys to jump.", "I saw the monkeys <b>jump</b>."), ("I listened a strange noise.", "I <b>heard</b> a strange noise."), ("I heard she sing.", "I heard <b>her</b> sing / singing."), ("We watched the jaguar drinks.", "We watched the jaguar <b>drink / drinking</b>."), ("Look the bird!", "<b>Look at</b> the bird!")])}""",
     30, """<p>Brazilians often add <i>to</i> after <i>see</i> and <i>hear</i>, use a subject pronoun (<i>I saw he run</i>) or a third-person -s (<i>I saw him runs</i>). They also mix up <i>hear</i> and <i>listen</i>. Drill: describe a scene (a park, a beach, a busy street); the student says three things they saw or heard, one with the base form and two with -ing.</p>""")
+
+
+def future_perfect(b):
+    """B1 Unit 53: future perfect (will have + past participle) with by / by the time / before; contrast with future continuous; questions and negatives."""
+    b.page(f"""{b.sec("+", "Grammar reference: the future perfect", "")}
+<div class="box" style="margin-top:0"><h4>LOOKING BACK FROM THE FUTURE</h4>The <b>future perfect</b> talks about an action that will be <b>finished before</b> a time in the future. Imagine you are in the future and you look back.<br>
+<span class="small"><i>By the time Leo is my age, the city <b>will have grown</b> even more.</i> · <i>By 2050, I<b>'ll have celebrated</b> my ninetieth birthday.</i></span></div>
+{_h("1. FORM")}
+{_tbl(["", "form", "example"], [
+    ["positive", "<b>will have</b> + past participle ('ll have)", "<i>We<b>'ll have found</b> better ways to share water.</i>"],
+    ["negative", "<b>won't have</b> + past participle", "<i>They <b>won't have arrived</b> yet.</i>"],
+    ["question", "<b>Will</b> + subject + <b>have</b> + past participle?", "<i><b>Will</b> you <b>have finished</b> by six? — Yes, I will. / No, I won't.</i>"]], "8.5pt")}
+{_h("2. TIME EXPRESSIONS")}
+{_tbl(["expression", "meaning", "example"], [
+    ["<b>by</b> + time", "at or before that time (not later)", "<i>I'll have finished the report <b>by</b> Friday.</i>"],
+    ["<b>by the time</b> + present simple", "before another future moment", "<i><b>By the time</b> you <b>arrive</b>, we'll have eaten.</i> (not <i>will arrive</i>)"],
+    ["<b>by then / by the end of…</b>", "before that moment", "<i><b>By the end of</b> the year, I'll have saved enough.</i>"],
+    ["<b>in</b> + period", "after that time from now", "<i><b>In</b> ten years, the city will have changed.</i>"]], "8.3pt")}
+{_h("3. FUTURE PERFECT OR FUTURE CONTINUOUS?")}
+<p class="small" style="margin:.5mm 0"><b>will have done</b> = finished before that time: <i>At nine, I<b>'ll have had</b> dinner.</i> (dinner is over) · <b>will be doing</b> = in progress at that time: <i>At nine, I<b>'ll be having</b> dinner.</i> (I'm eating)<br>
+<b>by</b> vs <b>until</b>: <i>Finish it <b>by</b> Friday</i> (a deadline) · <i>I'll stay <b>until</b> Friday</i> (it continues up to then).</p>
+{_dont([("By 2050, the population will grow.", "By 2050, the population <b>will have grown</b>."), ("By the time you will arrive, …", "By the time you <b>arrive</b>, …"), ("I'll have finished until Friday.", "I'll have finished <b>by</b> Friday."), ("I will have finish it.", "I will have <b>finished</b> it."), ("Will you have finish by six?", "Will you have <b>finished</b> by six?")])}""",
+    30, """<p>Portuguese has a future perfect too, but it sounds formal in speech, so Brazilians often use the simple future with <i>by 2050</i>. They also confuse <i>by</i> and <i>until</i>, because Portuguese can use one word for both. Drill: say a time (<i>by Friday, by the end of the year, by 2040</i>); the student says one thing they will have done and one thing they won't have done.</p>""")
