@@ -1,0 +1,18 @@
+{
+ "material": "speak-essenziell",
+ "characters": {
+  "Rafael": "de-DE-Chirp3-HD-Iapetus",
+  "Lena": "de-DE-Chirp3-HD-Achernar",
+  "Aylin": "de-DE-Chirp3-HD-Kore",
+  "Jonas": "de-DE-Chirp3-HD-Puck",
+  "Narrator": "de-DE-Chirp3-HD-Aoede"
+ },
+ "pauses": {"06.2": 2500, "06.3": 3000},
+ "units": {
+  "de-a1-einheit-06": {
+   "06.1 Dialog": "Narrator: Dialog eins. Im Büro.\nRafael: Lena, was ist das?\nLena: Das ist ein Locher.\nRafael: Und das? Wie heißt das auf Deutsch?\nLena: Das ist eine Schere.\nRafael: Ist das ein Kuli?\nLena: Nein, das ist kein Kuli. Das ist ein Bleistift.\nNarrator: Dialog zwei. Im Café.\nAylin: Rafael, hier ist eine Tasche. Ist das deine Tasche?\nRafael: Nein. Meine Tasche ist schwarz. Die Tasche ist blau.\nAylin: Und ist das dein Regenschirm?\nRafael: Ja, der Regenschirm ist rot. Danke, Aylin!\nNarrator: Dialog drei. Bei Rafael.\nJonas: Was ist das, Rafael? Ein Buch?\nRafael: Ja, das ist ein Buch. Ein Deutschbuch!\nJonas: Und das? Ist das ein Heft?\nRafael: Nein, das ist kein Heft. Das ist ein Kalender.",
+   "06.2 Wiederhole Dinge": "Narrator: die Brille\nNarrator: das Buch\nNarrator: die Flasche\nNarrator: das Handy\nNarrator: der Kuli\nNarrator: der Regenschirm\nNarrator: der Schlüssel\nNarrator: die Tasche",
+   "06.3 Wiederhole Sätze": "Narrator: Was ist das?\nNarrator: Das ist ein Schlüssel.\nNarrator: Das ist eine Brille.\nNarrator: Das ist kein Kuli.\nNarrator: Das ist keine Tasche.\nNarrator: Wie heißt das auf Deutsch?\nNarrator: rot, blau, grün, gelb, schwarz, weiß"
+  }
+ }
+}
