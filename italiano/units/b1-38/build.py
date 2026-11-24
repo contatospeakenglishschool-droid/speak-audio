@@ -58,7 +58,7 @@ C = dict(
          "Che c'entra? · Questo non c'entra niente! · C'entra eccome!", "Non me la sento. · Smettila! · Dai, smettetela di litigare!"]),
     pron=("Questi verbi si dicono come un <b>blocco unico</b>, senza pause: <i>ne-vale-la-pena</i>, <i>ci-tengo</i>, <i>che-c'entra</i>. In <i>c'entra</i> la <i>c</i> si pronuncia [tʃ], come in <i>cena</i>.",
           "Ascolta e ripeti. Poi leggi: «Il volo è caro, ma ne vale la pena: la mamma ci tiene.»"),
-    task=("Pro e contro: l'insegnante ti propone una decisione. Insieme valutate vantaggi e svantaggi e decidete: «Ne vale la pena?». Usa almeno <b>valerne la pena, tenerci</b> ed <b>entrarci</b>. Poi scambiatevi i ruoli.",
+    task=("Pro e contro: l'insegnante ti propone una decisione. Insieme valutate vantaggi e svantaggi e decidete: «Ne vale la pena?». Usa almeno valerne la pena, tenerci ed entrarci. Poi scambiatevi i ruoli.",
           "<ul style='line-height:1.45;font-size:8.9pt;margin:0;columns:2'><li>un master all'estero di due anni</li><li>un cane in un appartamento piccolo</li><li>una macchina nuova o usata</li><li>cambiare lavoro per guadagnare di più</li><li>una festa di matrimonio grande</li><li>imparare una terza lingua</li></ul>",
           "Insegnante: Costa tanto, e poi c'è il lavoro… Lo studente: Ne vale la pena, perché ci tengo a… · Il lavoro non c'entra! · Non me la sento di… Correggere <i>vale la pena</i> senza <i>ne</i> quando la cosa è già detta e <i>ne ha valso</i>."),
     talk5=["Hai mai fatto un viaggio molto lungo per vedere la famiglia? Ne è valsa la pena?", "Che cosa pensi del proverbio «Natale con i tuoi, Pasqua con chi vuoi»?"],
