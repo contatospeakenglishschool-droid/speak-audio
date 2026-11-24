@@ -1,0 +1,26 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Bruno": "en-US-Chirp3-HD-Fenrir",
+  "Ana": "en-US-Neural2-F",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "pauses": {
+  "42.2": 3000
+ },
+ "units": {
+  "b1-unit-42": {
+   "42.1 Gap Year Diaries: what do you say when...?": "Danny: Welcome back to Gap Year Diaries! I have big news today, and my friend Bruno is here to help me tell it. Hi Bruno!\nBruno: Hey Danny! What a week you've had!\nDanny: You can say that again. So, on Thursday I had my job interview at the language school. When I was leaving the hostel, Mrs. Lima shouted \"Good luck!\" from the kitchen. And I said... \"Same to you!\"\nBruno: Same to you? She wasn't going to an interview!\nDanny: I know! I was so nervous. You say \"Same to you\" when someone says \"Have a nice weekend\", not \"Good luck\". The right answer is just \"Thanks!\"\nBruno: And how did the interview go?\nDanny: Well, it started badly. The director sneezed three times, and I said nothing! Back home, we always say \"Bless you\". I just froze.\nBruno: Ha! Maybe she didn't notice.\nDanny: Then she put some coffee and cookies on the table and said \"Help yourself\". So I helped myself... to five cookies.\nBruno: Five cookies! How embarrassing!\nDanny: But she laughed, and we talked for an hour. And on Friday morning they called me. I got the job!\nBruno: Congratulations again! You're going to be such a good teacher.\nDanny: Thanks! On Friday night I had dinner with Ana to celebrate. She raised her glass and said \"Cheers!\", and I said \"Cheers!\" too. Finally, the right answer!\nBruno: What a relief! And did you settle the bill, like you promised?\nDanny: I tried! I asked for the check, and the waiter said \"Here you are\". But Ana paid when I went to the restroom. How sneaky!\nBruno: That's Ana. But the week wasn't all good news, was it?\nDanny: No. On Saturday morning Rafa called. His grandfather died. I didn't know what to say. My textbook says \"My condolences\", but it sounded so formal on the phone.\nBruno: Most people just say \"I'm so sorry for your loss\" or \"I'm so sorry\". And then you listen.\nDanny: That's what I did. We didn't go to the beach, of course. Rafa said sorry about our trip, and I said \"Never mind! We can go another time.\"\nBruno: Perfect. And on Monday I'm driving you to your first day at work. What will you say when you get in the car?\nDanny: \"Be careful!\" Because you're a terrible driver.\nBruno: How rude! My dad is the terrible driver, not me!\nDanny: OK, thanks for listening, everyone. Have a great week!\nBruno: Same to you!",
+   "42.2 Listen and respond: social expressions": "Narrator: I've got a new job!\nAna: Congratulations!\nNarrator: Cheers!\nAna: Cheers!\nNarrator: I'm going to climb onto the roof to fix the antenna.\nAna: Be careful!\nNarrator: Sorry, we don't have time to visit the museum today.\nAna: Never mind. We can go another time.\nNarrator: Can I have another piece of cake?\nAna: Sure, help yourself.\nNarrator: Can I borrow your pen for a minute?\nAna: Sure, here you are.\nNarrator: Have a great vacation!\nAna: Thanks! Same to you.\nNarrator: My grandmother died last week.\nAna: Oh no. I'm so sorry for your loss.\nNarrator: I have a job interview this afternoon.\nAna: Good luck!\nNarrator: Achoo! Sorry, I have a cold.\nAna: Bless you!"
+  }
+ },
+ "images": {
+  "b1-unit-42": {
+   "A": "two wine glasses toast celebration hands",
+   "B": "coffee cups cookies plate table",
+   "C": "greeting card envelope congratulations",
+   "D": "champagne glasses clinking"
+  }
+ }
+}

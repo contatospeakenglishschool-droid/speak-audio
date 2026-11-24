@@ -1878,3 +1878,28 @@ def probability_chance(b):
     ["<b>Is there any chance</b> you could…? (a very polite request)", "<i><b>Is there any chance</b> you could call me at lunchtime?</i>"]], "8.1pt")}
 {_dont([("He is bound to won the job.", "He's bound <b>to win</b> the job."), ("It's probable that he comes.", "He's <b>likely to come</b>. / He'll <b>probably</b> come."), ("There's a big chance of rain.", "There's a <b>good</b> chance of rain."), ("You have a good chance to get the job.", "You have a good chance <b>of getting</b> the job."), ("She tends to arriving late.", "She tends <b>to arrive</b> late.")])}""",
     30, """<p>Brazilians often translate word for word from Portuguese: <i>It's probable that…</i> (correct but formal and rare in speech) and <i>a big chance</i>. Teach <i>be likely to</i> and <i>a good chance</i>. <i>Bound to</i> is very common in speech for things we are sure about, often negative or ironic: <i>It's bound to rain on my day off!</i> Drill: say a situation; the student answers with a structure from each line of the scale.</p>""")
+
+
+def exclamations(b):
+    """B1 Unit 42: exclamations: What (a/an)…! How…! so / such (a)…! and ready-made reactions."""
+    b.page(f"""{b.sec("+", "Grammar reference: exclamations", "")}
+<div class="box" style="margin-top:0"><h4>SHOWING HOW YOU FEEL</h4>We use exclamations to react to news, people and situations: surprise, happiness, sympathy or annoyance. Choose <b>what</b> or <b>how</b> by the word that comes next: a <b>noun</b> needs <b>what</b>, an <b>adjective</b> alone needs <b>how</b>. <i><b>What a week!</b> · <b>How embarrassing!</b></i></div>
+{_h("1. WHAT AND HOW")}
+{_tbl(["structure", "example"], [
+    ["<b>What a / an</b> (+ adjective) + <b>singular countable noun</b>", "<i><b>What a</b> week! · <b>What a</b> beautiful day! · <b>What an</b> amazing view!</i>"],
+    ["<b>What</b> (+ adjective) + <b>plural</b> or <b>uncountable noun</b> (no <i>a</i>)", "<i><b>What</b> lovely people! · <b>What</b> terrible weather! · <b>What</b> good news!</i>"],
+    ["<b>How</b> + adjective", "<i><b>How</b> embarrassing! · <b>How</b> rude! · <b>How</b> kind <b>of you</b>!</i>"],
+    ["<b>How</b> + adjective / adverb + subject + verb", "<i><b>How</b> fast she speaks! · <b>How</b> lucky you are!</i>"]], "8.1pt")}
+{_h("2. SO AND SUCH")}
+{_tbl(["structure", "example"], [
+    ["<b>so</b> + adjective / adverb", "<i>You're <b>so</b> lucky! · I was <b>so</b> nervous! · She talks <b>so</b> fast!</i>"],
+    ["<b>such a / an</b> + (adjective) + singular noun", "<i>It's <b>such a</b> nice surprise! · You're going to be <b>such a</b> good teacher.</i>"],
+    ["<b>such</b> + (adjective) + plural / uncountable noun", "<i>They're <b>such</b> good friends! · It was <b>such</b> great news!</i>"]], "8.1pt")}
+{_h("3. READY-MADE REACTIONS")}
+{_tbl(["the news is…", "say"], [
+    ["good", "<i>What great news! · Good for you! · How exciting!</i>"],
+    ["a small problem", "<i>What a shame! · What a pity! · Never mind.</i>"],
+    ["a problem that ended well", "<i>What a relief!</i>"],
+    ["a surprise", "<i>What a coincidence! · What a small world!</i>"]], "8.1pt")}
+{_dont([("What a terrible weather!", "<b>What</b> terrible weather!"), ("What a good news!", "<b>What</b> good news!"), ("How beautiful day!", "<b>What a</b> beautiful day!"), ("What beautiful!", "<b>How</b> beautiful!"), ("It's so a nice surprise!", "It's <b>such a</b> nice surprise!"), ("How kind from you!", "How kind <b>of</b> you!")])}""",
+    30, """<p>Portuguese uses the same word for most exclamations, so Brazilians often choose <i>what</i> or <i>how</i> at random. Teach the test: noun → <i>what</i>; adjective alone → <i>how</i>. <i>News, weather, advice</i> and <i>information</i> are uncountable: no <i>a</i>. Intonation: start high and fall (<i>What a reLIEF!</i>). Drill: say a situation (<i>I lost my phone. · I found it in the fridge.</i>); the student reacts with a different structure each time.</p>""")
