@@ -1,0 +1,26 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Benassi": "it-IT-Chirp3-HD-Vindemiatrix"
+ },
+ "pauses": {
+  "34.2": 3000
+ },
+ "images": {
+  "it-b1-unita-34": {
+   "A": "old wooden door historic palazzo italy",
+   "B": "frescoed ceiling palace italy",
+   "C": "construction site helmet sign",
+   "D": "colleagues office explaining new employee"
+  }
+ },
+ "units": {
+  "it-b1-unita-34": {
+   "34.1 Va fatto così": "Narrator: Mercoledì 3 novembre, nel palazzo del dottor Galli. Júlia e Marco fanno il sopralluogo con la dottoressa Benassi della Soprintendenza.\nBenassi: Allora, cominciamo dal portone. È del Seicento: va restaurato, non va sostituito.\nMarco: D'accordo. E le finestre? Il cliente le vorrebbe nuove, in alluminio.\nBenassi: Impossibile. Le finestre vanno fatte in legno, come quelle originali. In un palazzo vincolato l'alluminio non si può usare.\nJúlia: E la facciata? Di che colore si può dipingere?\nBenassi: Il colore va scelto tra quelli approvati dal Comune per il centro storico. Vi mando l'elenco.\nNarrator: Salgono al primo piano.\nJúlia: Guardi questo soffitto: è affrescato. Durante i lavori come va protetto?\nBenassi: Va coperto con dei pannelli e va controllato ogni settimana. E prima di cominciare, gli affreschi vanno fotografati tutti.\nMarco: Il cliente vorrebbe fare le camere qui. Si possono mettere i bagni in queste sale?\nBenassi: Sì, i bagni si possono fare, purché non si tocchino i muri originali. Le pareti nuove vanno costruite leggere, in cartongesso.\nJúlia: E la terrazza sul tetto? È la cosa che il dottor Galli vuole di più.\nBenassi: La terrazza si può fare, a una condizione: dalla strada non si deve vedere. Va tenuta bassa, dietro il tetto.\nMarco: Quindi niente bar con l'ombrellone gigante.\nBenassi: Niente ombrelloni. E niente insegne luminose sulla facciata: qui non si devono mettere.\nJúlia: Va bene. Ci scrive tutto in un documento?\nBenassi: Certo. Entro due settimane riceverete il parere ufficiale. Senza il parere, i lavori non si possono cominciare.\nNarrator: Più tardi, fuori, in strada.\nMarco: Allora: il portone va restaurato, le finestre vanno fatte in legno, gli affreschi vanno protetti... e l'ombrellone va dimenticato.\nJúlia: E chi lo dice al dottor Galli?\nMarco: Tu, ovviamente. I clienti vanno trattati con gentilezza, e tu sei più gentile di me.",
+   "34.2 Ripeti": "Narrator: Il portone va restaurato, non va sostituito.\nNarrator: Le finestre vanno fatte in legno, come quelle originali.\nNarrator: In un palazzo vincolato l'alluminio non si può usare.\nNarrator: Gli affreschi vanno fotografati tutti.\nNarrator: I bagni si possono fare, ma le insegne non si devono mettere.\nNarrator: Senza il parere, i lavori non si possono cominciare."
+  }
+ }
+}
