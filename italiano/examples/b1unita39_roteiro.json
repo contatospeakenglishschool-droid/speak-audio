@@ -1,0 +1,27 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Giulia": "it-IT-Chirp3-HD-Leda",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Signora Rossi": "it-IT-Chirp3-HD-Gacrux"
+ },
+ "pauses": {
+  "39.2": 3000
+ },
+ "images": {
+  "it-b1-unita-39": {
+   "A": "friends toast glasses bar",
+   "B": "aperitivo spritz table",
+   "C": "bologna rooftops view",
+   "D": "woman telling story friends"
+  }
+ },
+ "units": {
+  "it-b1-unita-39": {
+   "39.1 Tre anni a Bologna": "Narrator: Martedì 21 dicembre, sera, al Bar Giulia. Domani mattina Júlia e Bruno partono per il Brasile. Gli amici hanno organizzato un aperitivo di saluto.\nGiulia: Allora, architetta, un brindisi! Sai che sono quasi tre anni che vieni nel mio bar?\nJúlia: Tre anni! Mi ricordo benissimo la prima volta. Pioveva, non conoscevo nessuno... e avevo ordinato un cappuccino alle sette di sera!\nGiulia: E io ti ho sorriso e te l'ho fatto lo stesso.\nDavide: Io invece ti avevo già vista quella mattina, sulle scale, con tre valigie. Ti ho chiesto se avevi bisogno d'aiuto e tu mi hai risposto in inglese!\nJúlia: Perché parlavi velocissimo e non avevo capito niente!\nSignora Rossi: E la prima sera è venuta da me a chiedermi come si accendeva il riscaldamento. Si ricorda?\nJúlia: Come no, signora! Lei mi ha anche dato una minestra calda.\nGiulia: E adesso? Novità dallo studio?\nJúlia: Due. Primo: ieri ho consegnato il disegno della pergola e stamattina Galli mi ha telefonato. Gli piace moltissimo... però la vorrebbe un po' più alta.\nDavide: Più alta? Ma Marco la voleva più bassa!\nJúlia: Appunto. Ci penseremo a gennaio. Secondo: oggi il capo mi ha detto che da gennaio avrò il contratto a tempo indeterminato.\nSignora Rossi: Brava! Allora resterà a Bologna?\nJúlia: Se me l'avessero chiesto tre anni fa, avrei detto di no. Adesso... Bologna è casa mia.\nDavide: Per fortuna! Se non fossi arrivata tu, io non avrei mai pensato al giro del Brasile in moto.\nGiulia: E per l'anno prossimo, che progetti hai?\nJúlia: Spero che i miei genitori tornino in primavera, e vorrei che la terrazza di Galli fosse finita per l'estate. Ah, e voglio parlare italiano senza accento!\nSignora Rossi: Senza accento? No, cara: non sarebbe più Lei!\nGiulia: A che ora partite domani?\nJúlia: L'aereo è alle sei. Bruno dorme già: ha detto che si sveglierà alle tre e mezza. Speriamo!\nGiulia: Allora: a Júlia, a Bologna e alla prossima! Buon Natale!\nJúlia: Buon Natale a tutti! E grazie... di tutto.",
+   "39.2 Ripeti": "Narrator: Pioveva, non conoscevo nessuno.\nNarrator: Avevo ordinato un cappuccino alle sette di sera.\nNarrator: Ieri ho consegnato il disegno della pergola.\nNarrator: Da gennaio avrò il contratto a tempo indeterminato.\nNarrator: Se me l'avessero chiesto tre anni fa, avrei detto di no.\nNarrator: Spero che i miei genitori tornino in primavera."
+  }
+ }
+}
