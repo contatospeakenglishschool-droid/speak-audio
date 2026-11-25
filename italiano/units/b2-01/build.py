@@ -1,0 +1,85 @@
+# Speak! Indipendenza B2 - Unità 01 "Si ricomincia" - formato ridotto (italiano/lean_b1.py, level="B2")
+import os, sys
+HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, os.path.join(HERE, "..", ".."))
+from engine_it import *
+import speak_engine as _se
+import lean_b1
+_se.SERIES = "Indipendenza"
+setup(band="B2 · UNITÀ 01", audio_json=os.path.join(HERE, "audio_it-b2-unita-01.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
+SCRIPT, S2 = lean_b1.load_script(HERE, "it-b2-unita-01", "01.1 Si ricomincia", "01.2 Ripeti")
+
+C = dict(
+    level="B2", words="150–200",
+    nn="01", title="Si ricomincia", subtitle="Il primo giorno di cantiere · <b>essere o avere? La scelta dell'ausiliare</b>",
+    cover=[("SAI FARE", "raccontare cambiamenti e inizi, parlare di un lavoro che parte"),
+           ("LINGUA", "cominciare, finire, passare, correre, salire, cambiare, aumentare con essere o avere · sono dovuto andare"),
+           ("PRONUNCIA", "<i>è cominciato</i> o <i>ho cominciato</i>: la vocale dell'ausiliare")],
+    t1="ricominciare",
+    start=["Guarda la foto. Di chi è questo casco, secondo te? Che lavoro fa?", "Ti piacciono gli inizi (un lavoro nuovo, un corso, una casa) o preferisci la routine?",
+           "Qual è l'ultima cosa importante che hai cominciato?"],
+    kw=[("il luogo dove si costruisce o si restaura un edificio", "il cantiere"), ("la struttura di tubi e tavole intorno alla facciata", "l'impalcatura"),
+        ("chi lavora con le mani in un cantiere o in una fabbrica", "l'operaio"), ("il documento del Comune che dice «potete cominciare»", "il permesso"),
+        ("la terra finissima che c'è dappertutto durante i lavori", "la polvere"), ("diventare più grande, più caro, più alto", "aumentare")],
+    use_words=["Hai mai abitato vicino a un cantiere? Com'era?", "Che cosa è aumentato di più nella tua città nell'ultimo anno?"],
+    n1=["A: <i>il permesso</i> qui = alvará / licença (≠ «com licença» = <i>permesso?</i>).", "Primo giorno del B2: chiedere che cosa ricorda lo studente della storia (l'albergo di Galli, la pergola, il contratto di Júlia)."],
+    aims=["Si ricomincia: il cantiere di Galli · Parliamone", "essere o avere: verbi con due ausiliari · i verbi modali",
+          "Che cosa è cambiato? · ripeti (01.2) · la vocale dell'ausiliare", "Il giornale di cantiere · riscrivi · scrittura (150–200 parole)"],
+    story="Lunedì 7 febbraio 2028, mattina presto, davanti al palazzo del dottor Galli: il cantiere è cominciato. Gli operai hanno cominciato alle sette e hanno già montato l'impalcatura. Galli ricorda che è passato un anno dal primo incontro. Marco arriva in ritardo: è dovuto passare in Comune per l'ultimo permesso (firmato) ed è corso fin lì senza cappotto, lui che non ha mai corso in vita sua. I prezzi sono aumentati (il legno del 10% da dicembre) e lo studio ha aumentato un po' il preventivo. Galli non ha cambiato idea sulla pergola: due metri e quaranta. Non si può salire in terrazza: la scala si finisce di riparare stasera. Comincia a nevicare. Galli: a settembre si apre. Da quest'anno Júlia ha il contratto a tempo indeterminato.",
+    prob="In portoghese tutti i tempi composti si fanno con <i>ter</i>; l'italiano sceglie tra <i>essere</i> e <i>avere</i>, e alcuni verbi li usano tutti e due. Il brasiliano dice <s>i lavori hanno cominciato</s> → <i>i lavori <b>sono</b> cominciati</i> (nessun oggetto), ma <i>gli operai <b>hanno</b> cominciato i lavori</i> (oggetto). Così anche <i>finire, passare, cambiare, aumentare, salire, scendere</i>. <i>Correre</i>: <i>ho corso</i> (attività), <i>sono corso a casa</i> (con una meta). Con i modali vale l'ausiliare dell'infinito: <i>sono dovuto andare</i>, <i>ho dovuto aspettare</i>.",
+    real="In Italia ogni cantiere deve esporre il <b>cartello di cantiere</b>, con i dati del permesso, dell'impresa e del <b>direttore dei lavori</b>, la persona (spesso architetto o ingegnere) responsabile dei lavori. Nei centri storici, con i palazzi vincolati, i lavori si fanno solo dopo il parere della Soprintendenza: per questo un cantiere può cominciare molti mesi dopo il progetto.",
+    tr=("Si ricomincia", "Ripeti: essere o avere"),
+    gist=("Lunedì mattina, davanti al palazzo di Galli. Ascolta. Che cosa succede oggi?",
+          ["comincia il cantiere dell'albergo", "si apre l'albergo di Galli", "Júlia e Marco firmano il contratto con Galli"]),
+    detail=("vf", "Ascolta di nuovo. Vero (V) o falso (F)? Correggi le frasi false.",
+            [("Gli operai hanno cominciato alle sette.", "V"), ("Marco è arrivato in ritardo perché ha perso l'autobus.", "F"),
+             ("Il permesso del Comune è firmato.", "V"), ("Il prezzo del legno è aumentato del 20%.", "F"),
+             ("Galli ha cambiato idea sulla pergola.", "F"), ("Oggi non si può salire in terrazza.", "V")]),
+    talk2=["Galli è più tranquillo o più nervoso di prima? Da che cosa si capisce?", "Marco «non ha mai corso in vita sua»: e tu? Fai sport?",
+           "Secondo te l'albergo aprirà davvero a settembre? Perché?"],
+    n2=["B: 2 è dovuto passare in Comune per il permesso · 4 del 10% · 5 no, due metri e quaranta.", "Ripresa: il cantiere (B1 32, 34), la pergola (B1 37–40)."],
+    gref="ausiliare_b2",
+    t4="essere o avere?",
+    pA=("Completa con l'ausiliare giusto (essere o avere) e, se serve, cambia la vocale finale del participio.",
+        [("I lavori ___ cominciat_ lunedì alle sette.", "sono … -i"), ("Gli operai ___ cominciat_ a montare l'impalcatura.", "hanno … -o"),
+         ("Il prezzo del legno ___ aumentat_ del 10%.", "è … -o"), ("Júlia ___ dovut_ restare in cantiere fino a sera.", "è … -a"),
+         ("Marco ___ corso in Comune per il permesso.", "è")]),
+    pAw="22mm",
+    pB=[("L'inverno ", ["è passato", "ha passato"], "è passato", " in fretta."),
+        ("Galli ", ["ha passato", "è passato"], "ha passato", " l'inverno a guardare i disegni."),
+        ("Marco non ", ["ha mai corso", "è mai corso"], "ha mai corso", " in vita sua.")],
+    rule="Verbo <b>senza oggetto</b> (il soggetto «subisce» il cambiamento) → <b>essere</b>: <i>I lavori <b>sono</b> cominciati. Il prezzo <b>è</b> aumentato.</i> Verbo <b>con oggetto</b> → <b>avere</b>: <i>Gli operai <b>hanno</b> cominciato i lavori. Lo studio <b>ha</b> aumentato il preventivo.</i> <i>Correre, volare</i>: <b>avere</b> per l'attività, <b>essere</b> con una meta. <b>Modali</b>: l'ausiliare dell'infinito (<i>sono dovuto andare · ho dovuto aspettare</i>).",
+    use=["Quando è cominciato il tuo anno di lavoro o di studio? Com'è cominciato?", "Che cosa è cambiato nella tua vita nell'ultimo anno? Che cosa hai cambiato tu?",
+         "Hai mai corso una gara o sei mai corso/a da qualche parte per non perdere qualcosa?", "Una volta che sei dovuto/a andare via all'improvviso: perché?",
+         "Che cosa è aumentato, e che cosa è diminuito, nella tua città?"],
+    n4="A: 1 soggetto = i lavori → <i>essere</i> + accordo · 2 <i>cominciare a</i> + infinito → <i>avere</i> · 4 <i>restare</i> → <i>essere</i> anche con <i>dovere</i>. B: 2 <i>passare l'inverno</i> (oggetto) → <i>avere</i>.",
+    t5="che cosa è cambiato?",
+    fl=(["raccontare un inizio", "dire che cosa è cambiato", "dire che cosa hai cambiato tu", "spiegare un ritardo"],
+        ["È cominciato tutto quando… · I lavori sono partiti… · Abbiamo cominciato da…", "È cambiato molto. · I prezzi sono aumentati. · Le cose sono migliorate.",
+         "Ho cambiato lavoro / casa / idea. · Ho aumentato le ore di… · Ho finito…", "Sono dovuto/a passare da… · Ho dovuto aspettare… · Sono corso/a qui!"]),
+    pron=("Nelle frasi del racconto si sente l'ausiliare e la vocale finale del participio: <i>sono cominciat<b>i</b></i>, <i>è aumentat<b>o</b></i>, <i>è dovut<b>a</b> restare</i>. Pronuncia bene l'ultima vocale: è lei che dice chi ha fatto l'azione.",
+          "Ascolta e ripeti. Poi leggi: «I lavori sono cominciati alle sette: gli operai hanno cominciato con l'impalcatura.»"),
+    task=("Che cosa è cambiato? Pensa a un periodo che è cominciato o finito nella tua vita (un lavoro, una casa, una relazione, un corso). Racconta all'insegnante per due minuti che cosa è cambiato da solo e che cosa hai cambiato tu. L'insegnante fa domande. Poi scambiatevi i ruoli.",
+          "<ul style='line-height:1.45;font-size:8.9pt;margin:0;columns:2'><li>il lavoro</li><li>la casa o il quartiere</li><li>i prezzi e le spese</li><li>la salute e lo sport</li><li>le abitudini</li><li>le persone intorno a te</li></ul>",
+          "Insegnante: Quando è cominciato? Che cosa è cambiato? Che cosa hai dovuto fare? Lo studente: Il mio nuovo lavoro è cominciato… · I prezzi sono aumentati… · Ho cambiato… · Sono dovuto/a… Correggere <i>ho cominciato</i> con soggetto cosa e i modali con l'ausiliare sbagliato."),
+    talk5=["Ti piace cambiare spesso o sei una persona abitudinaria?", "Che cosa vorresti che cominciasse o finisse quest'anno?"],
+    n5=["Far sentire la vocale finale del participio: <i>cominciati / cominciato</i>.", "Pretendere almeno tre verbi a doppio ausiliare usati nei due modi."],
+    hA=("Il giornale di cantiere di Júlia. Scegli la forma giusta.",
+        "<i>Lunedì 7 febbraio. I lavori {0} alle sette. Gli operai {1} l'impalcatura sulla facciata. L'arch. Marco {2} passare in Comune: il permesso è firmato. Il prezzo del legno {3} del 10% da dicembre. La riparazione della scala non {4}: oggi niente sopralluogo in terrazza. Arch. Júlia Souza</i>",
+        [(["sono cominciati", "hanno cominciato"], "sono cominciati"), (["hanno montato", "sono montati"], "hanno montato"), (["è dovuto", "ha dovuto"], "è dovuto"),
+         (["è aumentato", "ha aumentato"], "è aumentato"), (["è finita", "ha finito"], "è finita")]),
+    hB=("Riscrivi le frasi al passato prossimo. Attenzione all'ausiliare.",
+        [("Il cantiere comincia alle sette.", "Il cantiere è cominciato alle sette."),
+         ("Marco deve tornare in Comune.", "Marco è dovuto tornare in Comune."),
+         ("Gli operai finiscono la scala stasera.", "Gli operai hanno finito la scala stasera.")]),
+    watch=[("Il cantiere ha cominciato lunedì.", "Il cantiere <b>è</b> cominciato lunedì.", "nessun oggetto → <i>essere</i>."),
+           ("Ho dovuto andare in Comune.", "<b>Sono</b> dovuto andare in Comune.", "si usa l'ausiliare di <i>andare</i> (nella lingua parlata si sente anche <i>ho dovuto andare</i>)."),
+           ("I prezzi hanno aumentato.", "I prezzi <b>sono</b> aumentati.", "<i>aumentare</i> senza oggetto → <i>essere</i>.")],
+    write=("Racconta l'inizio di un periodo importante (un lavoro, un trasloco, un corso, un viaggio): com'è cominciato, che cosa è cambiato, che cosa hai dovuto fare, com'è andata.",
+           "Tutto è cominciato…", ["almeno tre verbi a doppio ausiliare (<i>cominciare, finire, cambiare, passare…</i>)", "almeno un modale al passato (<i>sono dovuto/a… / ho potuto…</i>)", "un paragrafo per l'inizio, uno per i cambiamenti, uno per oggi"]),
+    cando="So raccontare inizi e cambiamenti scegliendo l'ausiliare giusto, anche con i verbi modali.",
+    nH="Prossima unità: <i>Il pane lo compro io</i> (dislocazione e frase scissa).",
+)
+
+if __name__ == "__main__":
+    render(lean_b1.make_build(C, SCRIPT, S2), sys.argv[1] if len(sys.argv) > 1 else "B2 Indipendenza 01 - Si ricomincia")

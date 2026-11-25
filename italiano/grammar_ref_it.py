@@ -1728,3 +1728,27 @@ def tempi_racconto_b1(b):
 <p class="small" style="margin:.5mm 0">all'inizio · il primo giorno · poi · a un certo punto · mentre · intanto · allora · però · alla fine · da allora · oggi · l'anno prossimo</p></div></div>
 {_dont([("Ho abitato qui da tre anni.", "<b>Abito</b> qui da tre anni."), ("Se avrei saputo…", "Se <b>avessi saputo</b>…"), ("Quel giorno ha piovuto e non ho conosciuto nessuno.", "Quel giorno <b>pioveva</b> e non <b>conoscevo</b> nessuno.")])}""",
     28, """<p>Pagina di riepilogo prima del Ripasso 4: non spiegare tutto di nuovo, ma far trovare allo studente un esempio suo per ogni tempo. I punti deboli del brasiliano sono la scelta passato prossimo / imperfetto, il trapassato (in portoghese spesso basta il perfeito), <i>se</i> + condizionale e <i>da</i> con il passato.</p>""")
+
+
+def ausiliare_b2(b):
+    """B2 Indipendenza 01: la scelta dell'ausiliare (verbi con essere e avere; correre/volare; verbi modali; verbi meteorologici)."""
+    dv = [("cominciare / iniziare", "<i>Il cantiere <b>è</b> cominciato.</i>", "<i>Gli operai <b>hanno</b> cominciato i lavori.</i>"),
+          ("finire", "<i>L'inverno <b>è</b> finito.</i>", "<i>Ho finito il disegno.</i>"),
+          ("passare", "<i>È passato un anno.</i>", "<i>Ho passato l'inverno a Bologna.</i>"),
+          ("cambiare", "<i>Il tempo <b>è</b> cambiato.</i>", "<i>Galli non <b>ha</b> cambiato idea.</i>"),
+          ("aumentare / diminuire", "<i>I prezzi <b>sono</b> aumentati.</i>", "<i>Abbiamo aumentato il preventivo.</i>"),
+          ("salire / scendere", "<i>Siamo saliti in terrazza.</i>", "<i>Ho salito le scale di corsa.</i>"),
+          ("correre / volare", "<i>Sono corso in Comune.</i> (meta)", "<i>Non ho mai corso.</i> (attività)")]
+    md = [("<b>dovere, potere, volere</b> + verbo con <i>essere</i>", "<i>Sono dovuto andare. · Non è potuta venire.</i>"),
+          ("<b>dovere, potere, volere</b> + verbo con <i>avere</i>", "<i>Ho dovuto aspettare. · Non ha voluto firmare.</i>"),
+          ("con il pronome riflessivo", "<i><b>Mi sono</b> dovuto alzare</i> = <i><b>Ho</b> dovuto alzar<b>mi</b></i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: essere o avere?", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Molti verbi italiani hanno <b>due ausiliari</b>: <b>essere</b> quando non c'è un oggetto e il soggetto «cambia» (<i>il prezzo è aumentato</i>), <b>avere</b> quando qualcuno fa l'azione su un oggetto (<i>lo studio ha aumentato il preventivo</i>). Con <i>essere</i> il participio concorda con il soggetto.</div>
+{_h("1. I VERBI CON DUE AUSILIARI")}
+{_tbl(["verbo", "essere (senza oggetto)", "avere (con oggetto)"], dv, "7.9pt", ["34mm", None, None])}
+<div class="two"><div>{_h("2. I VERBI MODALI")}
+{_tbl(["costruzione", "esempio"], md, "7.8pt", ["40mm", None])}</div>
+<div>{_h("3. ALTRI CASI")}
+<p class="small" style="margin:.5mm 0"><b>Tempo atmosferico:</b> <i>è piovuto</i> e <i>ha piovuto</i> sono corretti tutti e due.<br><b>Vivere:</b> <i>è vissuto</i> / <i>ha vissuto</i> a Bologna (tutti e due); <i>ha vissuto una vita felice</i> (oggetto).<br><b>Nella lingua parlata</b> con i modali si sente spesso <i>avere</i> (<i>ho dovuto andare</i>): si capisce, ma nello scritto è meglio <i>sono dovuto andare</i>.</p></div></div>
+{_dont([("Il cantiere ha cominciato.", "Il cantiere <b>è</b> cominciato."), ("I prezzi hanno aumentato.", "I prezzi <b>sono</b> aumentati."), ("Mi ho dovuto alzare.", "Mi <b>sono</b> dovuto alzare.")])}""",
+    28, """<p>Il brasiliano conosce già <i>essere / avere</i> dall'A2, ma usa sempre un ausiliare per verbo. La domanda da fare è: «C'è un oggetto? Chi fa l'azione?». Partire dagli esempi del dialogo (<i>i lavori sono cominciati / gli operai hanno cominciato</i>). La regola dei modali con <i>avere</i> nel parlato è un'informazione, non un errore da correggere sempre.</p>""")

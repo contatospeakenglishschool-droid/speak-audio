@@ -16,6 +16,8 @@ def load_script(here, key, t1, t2):
 
 def make_build(C, SCRIPT, S2):
     nn = C["nn"]
+    lv = C.get("level", "B1")          # B2 Indipendenza reuses this layout (2026-11-25)
+    wn = C.get("words", "100–150")
 
     def build(teacher):
         b = Book(teacher)
@@ -38,7 +40,7 @@ def make_build(C, SCRIPT, S2):
 
         # ---------- IN CLASSE ----------
         # Pagina 1 - Riscaldamento
-        cover = cover_html(T, f"LIVELLO B1 · UNITÀ {nn}", C["title"], C["subtitle"], C["cover"])
+        cover = cover_html(T, f"LIVELLO {lv} · UNITÀ {nn}", C["title"], C["subtitle"], C["cover"])
         kw = C["kw"]
         kwl = [f'<li value="{i+1}">{d} {A(w, "min-width:22mm")}</li>' for i, (d, w) in enumerate(kw)]
         bank = " · ".join(sorted((w for _, w in kw), key=lambda w: w.lower().lstrip("l'").replace("un ", "").replace("una ", "").replace("il ", "").replace("la ", "")))
@@ -61,7 +63,7 @@ def make_build(C, SCRIPT, S2):
         rws = "".join(f"<tr><td>{a}</td><td>{d}</td><td>{t}</td><td>{o}</td><td>{p}</td></tr>" for a, d, t, o, p in rows)
         b.extra("Panoramica della lezione · 55–60 min", f"""
 <table><tr><th>Fase</th><th>Dove</th><th>Tempo</th><th>Obiettivo</th><th>Pagina</th></tr>{rws}</table>
-<div class="box"><h4>IL FORMATO B1</h4>Le lezioni B1 hanno <b>5 pagine per la classe</b> (riscaldamento, ascolto, riferimento grammaticale, pratica, parlare) e <b>1 pagina per casa</b> (compiti). Ogni pagina della classe finisce con un riquadro di domande: lo studente parla per la maggior parte del tempo. La pratica in più, la scelta delle parole e la scrittura sono a casa. All'inizio della lezione successiva si controllano i compiti in 3–5 minuti.</div>
+<div class="box"><h4>IL FORMATO {lv}</h4>Le lezioni {lv} hanno <b>5 pagine per la classe</b> (riscaldamento, ascolto, riferimento grammaticale, pratica, parlare) e <b>1 pagina per casa</b> (compiti). Ogni pagina della classe finisce con un riquadro di domande: lo studente parla per la maggior parte del tempo. La pratica in più, la scelta delle parole e la scrittura sono a casa. All'inizio della lezione successiva si controllano i compiti in 3–5 minuti.</div>
 <div class="box sand"><h4>LA STORIA CONTINUA</h4>{C["story"]}</div>
 <div class="box"><h4>IL PROBLEMA PER I BRASILIANI</h4>{C["prob"]}</div>
 <div class="box"><h4>LA REALTÀ ITALIANA</h4>{C["real"]}</div>
@@ -137,8 +139,8 @@ def make_build(C, SCRIPT, S2):
 <ol style="line-height:1.45;font-size:8.7pt;margin:0">{rwl}</ol>
 <div class="box sand" style="margin:1mm 0"><h4>ATTENZIONE: SCELTA DELLE PAROLE</h4>
 <table style="margin:0;font-size:8.1pt"><tr><th>Non dire</th><th>Di'</th><th>Perché?</th></tr>{wl}</table></div>
-{sub("C", "Scrittura (100–150 parole, sul quaderno). " + winstr, "")}
-<p class="small" style="margin:.3mm 0"><b>Comincia così:</b> <i>{wstart}</i> &nbsp;{" &nbsp;".join("☐ " + x for x in wcheck)} &nbsp;☐ 100–150 parole</p>
+{sub("C", f"Scrittura ({wn} parole, sul quaderno). " + winstr, "")}
+<p class="small" style="margin:.3mm 0"><b>Comincia così:</b> <i>{wstart}</i> &nbsp;{" &nbsp;".join("☐ " + x for x in wcheck)} &nbsp;☐ {wn} parole</p>
 <p class="small" style="margin:.3mm 0"><b>So fare:</b> {C["cando"]} ☐ Facile! ☐ A volte ☐ Non ancora</p>""",
         20, f"<p>Controllare A e B in 3 minuti all'inizio della lezione successiva. Leggere la scrittura a casa e scegliere due errori da discutere in classe. {C.get('nH', '')}</p>")
 

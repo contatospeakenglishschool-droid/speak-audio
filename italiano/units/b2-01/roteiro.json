@@ -1,0 +1,24 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Marco": "it-IT-Chirp3-HD-Orus",
+  "Galli": "it-IT-Chirp3-HD-Rasalgethi"
+ },
+ "pauses": {"01.2": 3000},
+ "images": {
+  "it-b2-unita-01": {
+   "A": "hard hat blueprints table",
+   "B": "construction workers historic building facade",
+   "C": "notebook construction plans coffee",
+   "D": "woman thinking window city"
+  }
+ },
+ "units": {
+  "it-b2-unita-01": {
+   "01.1 Si ricomincia": "Narrator: Lunedì 7 febbraio, mattina presto, davanti al palazzo del dottor Galli. Fa freddo. Oggi comincia il cantiere.\nGalli: Buongiorno, architetto! Finalmente! I lavori sono cominciati?\nJúlia: Buongiorno, dottore. Sì: gli operai hanno cominciato alle sette. Guardi, hanno già montato l'impalcatura su tutta la facciata.\nGalli: Bene, bene. Sa che è passato un anno da quando ci siamo conosciuti? Io ho passato l'inverno a guardare i vostri disegni.\nMarco: Scusate il ritardo! Sono dovuto passare in Comune per l'ultimo permesso, e ho dovuto aspettare un'ora.\nGalli: E allora? Il permesso?\nMarco: Firmato! Sono corso fin qui per dirvelo.\nJúlia: Senza cappotto, con questo freddo! Tu, che non hai mai corso in vita tua.\nMarco: Per una firma del Comune si fa questo e altro.\nGalli: Però i prezzi sono aumentati. Il legno, per esempio, è aumentato del dieci per cento da dicembre.\nMarco: Lo sappiamo. Abbiamo aumentato un po' il preventivo, ma solo un po'.\nGalli: Un po'... Ah, la pergola: ho cambiato idea.\nJúlia: Come?!\nGalli: Scherzo, scherzo! Non ho cambiato idea: due metri e quaranta, legno chiaro.\nMarco: Lei mi farà morire, dottore.\nGalli: Allora, saliamo in terrazza? Voglio vederla.\nJúlia: Oggi no, mi dispiace. La scala non è sicura: la finiscono di riparare stasera.\nGalli: Peccato. L'ultima volta che sono salito, c'era polvere dappertutto.\nJúlia: E ce ne sarà ancora per mesi, dottore. Guardate: il tempo è cambiato. Comincia a nevicare.\nGalli: Allora andiamo al caldo. Il cantiere è cominciato, l'inverno finirà... e a settembre si apre!\nMarco: Se nessuno cambia idea.\nGalli: Architetto, Lei è sempre troppo severo!",
+   "01.2 Ripeti": "Narrator: I lavori sono cominciati alle sette.\nNarrator: Gli operai hanno cominciato con l'impalcatura.\nNarrator: È passato un anno.\nNarrator: Sono dovuto passare in Comune.\nNarrator: I prezzi sono aumentati.\nNarrator: Non ho cambiato idea."
+  }
+ }
+}
