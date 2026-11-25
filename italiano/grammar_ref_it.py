@@ -1752,3 +1752,26 @@ def ausiliare_b2(b):
 <p class="small" style="margin:.5mm 0"><b>Tempo atmosferico:</b> <i>è piovuto</i> e <i>ha piovuto</i> sono corretti tutti e due.<br><b>Vivere:</b> <i>è vissuto</i> / <i>ha vissuto</i> a Bologna (tutti e due); <i>ha vissuto una vita felice</i> (oggetto).<br><b>Nella lingua parlata</b> con i modali si sente spesso <i>avere</i> (<i>ho dovuto andare</i>): si capisce, ma nello scritto è meglio <i>sono dovuto andare</i>.</p></div></div>
 {_dont([("Il cantiere ha cominciato.", "Il cantiere <b>è</b> cominciato."), ("I prezzi hanno aumentato.", "I prezzi <b>sono</b> aumentati."), ("Mi ho dovuto alzare.", "Mi <b>sono</b> dovuto alzare.")])}""",
     28, """<p>Il brasiliano conosce già <i>essere / avere</i> dall'A2, ma usa sempre un ausiliare per verbo. La domanda da fare è: «C'è un oggetto? Chi fa l'azione?». Partire dagli esempi del dialogo (<i>i lavori sono cominciati / gli operai hanno cominciato</i>). La regola dei modali con <i>avere</i> nel parlato è un'informazione, non un errore da correggere sempre.</p>""")
+
+
+def dislocazione_scissa(b):
+    """B2 Indipendenza 02: dislocazione a sinistra / a destra (lo, la, li, le, ne, ci) e frase scissa (è… che, è stato… a)."""
+    ds = [("oggetto diretto", "<i>Compro io il pane.</i>", "<i>Il pane <b>lo</b> compro io.</i>"),
+          ("oggetto al passato", "<i>Lui ha fatto la tabella.</i>", "<i>La tabella <b>l'</b>ha fatt<b>a</b> lui.</i>"),
+          ("quantità (ne)", "<i>Ho preso due bottiglie.</i>", "<i>Di bottiglie <b>ne</b> ho prese due.</i>"),
+          ("luogo (ci)", "<i>Vado io al forno.</i>", "<i>Al forno <b>ci</b> vado io.</i>"),
+          ("oggetto indiretto", "<i>Ho insegnato il feijão a Tommaso.</i>", "<i>A Tommaso <b>gli</b> ho insegnato il feijão.</i> (parlato)")]
+    sc = [("presente", "<b>È</b> Tommaso <b>che</b> cucina.", "<i>È lui che sa cucinare.</i>"),
+          ("passato", "<b>È stato</b> Bruno <b>a</b> proporre i turni.", "anche: <i>È stato Bruno che ha proposto</i> (meno elegante)"),
+          ("domanda", "<b>Chi è che</b> paga? · <b>Cos'è che</b> non va?", "molto frequente nel parlato"),
+          ("altre parti", "<b>È per questo che</b> sono venuta. · <b>È</b> lì <b>che</b> abito.", "causa, luogo, tempo")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: il pane lo compro io · è stato lui a…", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Nella lingua parlata l'italiano sposta le parole per <b>mettere in evidenza</b> qualcosa. Con la <b>dislocazione</b> l'argomento (<i>il pane</i>) va all'inizio e si riprende con un pronome; con la <b>frase scissa</b> si mette in evidenza <b>chi</b> fa l'azione (<i>è stato Bruno a…</i>).</div>
+{_h("1. LA DISLOCAZIONE A SINISTRA")}
+{_tbl(["che cosa sposto", "frase normale", "frase dislocata"], ds, "7.9pt", ["32mm", "52mm", None])}
+<div class="two"><div>{_h("2. LA DISLOCAZIONE A DESTRA")}
+<p class="small" style="margin:.5mm 0">Il pronome viene prima, la cosa dopo, come un chiarimento: <i><b>Lo</b> compri tu, <b>il pane</b>? · <b>Ne</b> vuoi ancora, <b>di</b> arrosto? · <b>L'</b>hai vista, <b>la tabella</b>?</i> È tipica del parlato informale.</p></div>
+<div>{_h("3. LA FRASE SCISSA")}
+{_tbl(["tipo", "esempio", "nota"], sc, "7.6pt", ["16mm", None, "28mm"])}</div></div>
+{_dont([("Il pane compro io.", "Il pane <b>lo</b> compro io."), ("La tabella l'ha fatto lui.", "La tabella l'ha fatt<b>a</b> lui."), ("È stato Bruno di proporre.", "È stato Bruno <b>a</b> proporre.")])}""",
+    28, """<p>Il portoghese brasiliano mette spesso l'argomento all'inizio (<i>o pão, eu compro</i>) ma senza riprenderlo: in italiano il pronome è obbligatorio, e lo studente lo dimentica. Insistere sull'accordo del participio dopo <i>lo / la / li / le / ne</i>. La frase scissa è vicina al portoghese (<i>foi ele que…</i>): basta insegnare <i>è stato… a</i> + infinito.</p>""")
