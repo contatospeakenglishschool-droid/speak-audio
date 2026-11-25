@@ -1775,3 +1775,24 @@ def dislocazione_scissa(b):
 {_tbl(["tipo", "esempio", "nota"], sc, "7.6pt", ["16mm", None, "28mm"])}</div></div>
 {_dont([("Il pane compro io.", "Il pane <b>lo</b> compro io."), ("La tabella l'ha fatto lui.", "La tabella l'ha fatt<b>a</b> lui."), ("È stato Bruno di proporre.", "È stato Bruno <b>a</b> proporre.")])}""",
     28, """<p>Il portoghese brasiliano mette spesso l'argomento all'inizio (<i>o pão, eu compro</i>) ma senza riprenderlo: in italiano il pronome è obbligatorio, e lo studente lo dimentica. Insistere sull'accordo del participio dopo <i>lo / la / li / le / ne</i>. La frase scissa è vicina al portoghese (<i>foi ele que…</i>): basta insegnare <i>è stato… a</i> + infinito.</p>""")
+
+
+def verbi_preposizione_b2(b):
+    """B2 Indipendenza 03: verbi + preposizione con nomi (a, di, da, su, in), cambio di significato, sostituzione con ci / ne."""
+    vp = [("<b>a</b>", "pensare a, rinunciare a, partecipare a, abituarsi a, tenere a, rispondere a", "<i>Ho rinunciato <b>alla</b> moto.</i>", "<b>ci</b>: <i>ci ho rinunciato</i>"),
+          ("<b>di</b>", "occuparsi di, interessarsi di, fidarsi di, parlare di, trattarsi di, accorgersi di", "<i>Mi occupo <b>di</b> calcoli.</i>", "<b>ne</b>: <i>me ne occupo</i>"),
+          ("<b>da</b>", "dipendere da, venire da, (s)fuggire da", "<i>Dipende <b>dai</b> soldi.</i>", "<b>ne</b>: <i>ne dipende</i>"),
+          ("<b>su</b>", "contare su, insistere su, riflettere su", "<i>Conto <b>su</b> di te.</i>", "<b>ci</b>: <i>ci conto</i>"),
+          ("<b>in</b>", "credere in, sperare in, specializzarsi in", "<i>Credo <b>in</b> questo lavoro.</i>", "<b>ci</b>: <i>ci credo</i>")]
+    cs = [("pensare <b>a</b> qualcosa", "pensar em", "<i>Penso al colloquio.</i>"), ("pensare <b>di</b> + infinito", "pretender, achar que vou", "<i>Pensiamo di decidere venerdì.</i>"),
+          ("credere <b>a</b> qualcuno / qualcosa", "acreditar no que diz", "<i>Non credo alle sue scuse.</i>"), ("credere <b>in</b> qualcuno / qualcosa", "ter fé, confiar", "<i>Credo in questo progetto.</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: verbi con preposizione · ci e ne", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Molti verbi italiani vogliono una <b>preposizione fissa</b> davanti al nome: <i>occuparsi <b>di</b></i>, <i>contare <b>su</b></i>, <i>dipendere <b>da</b></i>. Spesso è diversa dal portoghese. Quando il complemento è già noto, si sostituisce con <b>ci</b> o <b>ne</b>.</div>
+{_h("1. I VERBI PER PREPOSIZIONE")}
+{_tbl(["prep.", "verbi", "esempio", "ci / ne"], vp, "7.8pt", ["12mm", "74mm", None, "30mm"])}
+<div class="two"><div>{_h("2. CAMBIA LA PREPOSIZIONE, CAMBIA IL SENSO")}
+{_tbl(["verbo", "in portoghese", "esempio"], cs, "7.6pt", ["32mm", "28mm", None])}</div>
+<div>{_h("3. CI, NE E I PRONOMI TONICI")}
+<p class="small" style="margin:.5mm 0"><b>ci</b> sostituisce cose e idee dopo <i>a, su, in</i>: <i>Al lavoro? Ci penso sempre.</i><br><b>ne</b> sostituisce cose dopo <i>di, da</i>: <i>Della tesi? Ne parliamo domani.</i><br>Con le <b>persone</b> si usano i pronomi tonici: <i>penso <b>a lei</b>, conto <b>su di te</b>, mi fido <b>di lui</b></i>.<br>Con <i>su, sotto, dopo, senza</i> + pronome: <i>su <b>di</b> me, senza <b>di</b> te</i>.</p></div></div>
+{_dont([("Penso in te.", "Penso <b>a</b> te."), ("Dipende di te.", "Dipende <b>da</b> te."), ("Conto con te.", "Conto <b>su di</b> te."), ("Mi fido in lui.", "Mi fido <b>di</b> lui.")])}""",
+    28, """<p>Il verbo con preposizione si impara in blocco, come una parola sola: <i>contare su, dipendere da</i>. Gli errori nascono dal calco del portoghese (<i>pensar em, depender de, contar com, confiar em</i>). Con <i>ci</i> e <i>ne</i> distinguere cose (<i>ci penso</i>) e persone (<i>penso a lei</i>): nel parlato si sente anche <i>ci penso io a lei</i>, ma non va proposto.</p>""")

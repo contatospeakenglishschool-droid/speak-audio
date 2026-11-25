@@ -1,0 +1,23 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Davide": "it-IT-Chirp3-HD-Puck",
+  "Rinaldi": "it-IT-Chirp3-HD-Vindemiatrix"
+ },
+ "pauses": {"03.2": 3000},
+ "images": {
+  "it-b2-unita-03": {
+   "A": "resume curriculum vitae desk pen",
+   "B": "job interview office two people",
+   "C": "man writing email laptop",
+   "D": "young man suit waiting nervous"
+  }
+ },
+ "units": {
+  "it-b2-unita-03": {
+   "03.1 Cercasi ingegnere": "Narrator: Giovedì 2 marzo, ore dieci, in una società di ingegneria a Casalecchio di Reno, vicino a Bologna. Davide ha un colloquio con l'ingegnera Rinaldi.\nRinaldi: Buongiorno, si accomodi. Ho letto il Suo curriculum. Mi parli un po' di Lei.\nDavide: Buongiorno. Mi sono laureato a novembre, con una tesi sul risparmio energetico negli edifici storici. Mi interesso di questo tema dal secondo anno di università.\nRinaldi: Ed è per questo che si è candidato da noi?\nDavide: Sì. Voi vi occupate proprio di ristrutturazioni in centro storico. Un'amica architetta me ne ha parlato molto bene.\nRinaldi: Ha già partecipato a progetti reali?\nDavide: A uno, durante il tirocinio: un palazzo del Settecento. Mi occupavo dei calcoli e andavo in cantiere due volte alla settimana.\nRinaldi: Il cantiere comincia alle sette. Ci si abitua, ma non è per tutti.\nDavide: Mi ci sono abituato con la maratona: mi allenavo alle sei, anche d'inverno.\nRinaldi: Corre? Interessante. E sotto pressione come lavora? Su di Lei si può contare?\nDavide: Credo di sì. Per finire la tesi in tempo ho rinunciato a tutto per due mesi: alle uscite, al calcetto, perfino alla moto.\nRinaldi: Mettiamo che un cliente insista per cambiare il progetto ogni settimana. Che cosa fa?\nDavide: Prima cerco di capire di che cosa si tratta davvero: spesso dipende dai soldi, non dal progetto. Poi provo a convincerlo a fidarsi di noi.\nRinaldi: Ne ha conosciuti, di clienti così?\nDavide: Diciamo che ne ho sentito parlare. Molto.\nRinaldi: Bene. E il Suo punto debole?\nDavide: Quando lavoro mi dimentico di mangiare. Ma ci sto pensando: ho comprato una sveglia per il pranzo.\nRinaldi: Allora ci pensi bene. Noi pensiamo di decidere entro venerdì prossimo. Ha domande?\nDavide: Sì: con chi lavorerei?\nRinaldi: Con me. Le dico subito che sono molto esigente. Se ci crede davvero, in questo lavoro, ce la farà.\nDavide: Ci credo. Ci credo molto.\nRinaldi: La chiamo io. Arrivederci, ingegnere.",
+   "03.2 Ripeti": "Narrator: Mi interesso di questo tema dal secondo anno.\nNarrator: Voi vi occupate proprio di ristrutturazioni.\nNarrator: Su di Lei si può contare?\nNarrator: Ho rinunciato a tutto per due mesi.\nNarrator: Spesso dipende dai soldi.\nNarrator: Ci credo. Ci credo molto."
+  }
+ }
+}
