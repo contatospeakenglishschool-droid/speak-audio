@@ -1,0 +1,22 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Bruno": "en-US-Chirp3-HD-Fenrir",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-54": {
+   "54.1 Gap Year Diaries: my first soccer game": "Danny: Welcome to a very noisy Gap Year Diaries! I'm at my first soccer game in Brazil, with Bruno. The game just ended, and forty thousand spectators are still singing.\nBruno: The more our team wins, the louder the fans sing!\nDanny: It's twice as loud as the baseball games I went to with my dad back home.\nBruno: So what did you think?\nDanny: Honestly, at the start I didn't understand anything. Why was everyone shouting at the referee?\nBruno: Because he didn't give us a penalty! It was definitely a foul. The referee must be blind!\nDanny: Then the other team scored first, and everyone went quiet.\nBruno: But our captain scored just before halftime. One all.\nDanny: In the second half, the game got faster and faster. And the more nervous I got, the more popcorn I ate.\nBruno: It was the third time you bought food!\nDanny: And then, in the last minute, a goal! Two to one! I've never heard a noise as loud as that.\nBruno: Our coach changed the tactics at halftime. The opponents weren't nearly as strong in the second half.\nDanny: For me, soccer is much more exciting than American football. The games are shorter, and the ball is always moving.\nBruno: So you're a fan now?\nDanny: Definitely. The sooner you get me a team shirt, the better!\nBruno: Deal. And next time, Rafa's coming too. The more, the merrier!",
+   "54.2 Repeat: the more, the better": "Narrator: The more, the merrier.\nNarrator: The sooner, the better.\nNarrator: The more you train, the fitter you get.\nNarrator: The game got faster and faster.\nNarrator: It's twice as loud as baseball.\nNarrator: They weren't nearly as strong."
+  }
+ },
+ "images": {
+  "b1-unit-54": {
+   "A": "soccer ball on grass field",
+   "B": "football stadium crowd fans night",
+   "C": "referee whistle",
+   "D": "tennis racket ball court"
+  }
+ }
+}

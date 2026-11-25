@@ -2124,3 +2124,25 @@ def future_perfect(b):
 <b>by</b> vs <b>until</b>: <i>Finish it <b>by</b> Friday</i> (a deadline) · <i>I'll stay <b>until</b> Friday</i> (it continues up to then).</p>
 {_dont([("By 2050, the population will grow.", "By 2050, the population <b>will have grown</b>."), ("By the time you will arrive, …", "By the time you <b>arrive</b>, …"), ("I'll have finished until Friday.", "I'll have finished <b>by</b> Friday."), ("I will have finish it.", "I will have <b>finished</b> it."), ("Will you have finish by six?", "Will you have <b>finished</b> by six?")])}""",
     30, """<p>Portuguese has a future perfect too, but it sounds formal in speech, so Brazilians often use the simple future with <i>by 2050</i>. They also confuse <i>by</i> and <i>until</i>, because Portuguese can use one word for both. Drill: say a time (<i>by Friday, by the end of the year, by 2040</i>); the student says one thing they will have done and one thing they won't have done.</p>""")
+
+
+def comparisons_advanced(b):
+    """B1 Unit 54: double comparatives (the more…, the better), comparative and comparative (faster and faster), as … as with twice / half / nearly / not nearly / just, and modifiers."""
+    b.page(f"""{b.sec("+", "Grammar reference: the more…, the better", "")}
+<div class="box" style="margin-top:0"><h4>COMPARING: ONE STEP FURTHER</h4>At A2 you learned <i>faster than</i> and <i>the fastest</i>. At B1 we use comparatives to show that <b>two things change together</b>, that something <b>keeps changing</b>, and <b>how big</b> a difference is.<br>
+<span class="small"><i><b>The more</b> our team wins, <b>the louder</b> the fans sing.</i> · <i>The game got <b>faster and faster</b>.</i> · <i>It's <b>twice as loud as</b> baseball.</i></span></div>
+{_h("1. THE + COMPARATIVE, THE + COMPARATIVE")}
+{_tbl(["structure", "example"], [
+    ["<b>the</b> + comparative (+ subject + verb), <b>the</b> + comparative (+ subject + verb)", "<i><b>The more</b> you train, <b>the fitter</b> you get. · <b>The more nervous</b> I got, <b>the more popcorn</b> I ate.</i>"],
+    ["short fixed phrases (no verb)", "<i><b>The sooner, the better.</b> · <b>The more, the merrier.</b> · <b>The bigger, the better.</b></i>"]], "8.4pt")}
+{_h("2. COMPARATIVE AND COMPARATIVE (A CHANGE THAT CONTINUES)")}
+<p class="small" style="margin:.5mm 0"><i>The game got <b>faster and faster</b>. · Tickets are getting <b>more and more expensive</b>. · I'm running <b>less and less</b>.</i> With long adjectives, repeat only <b>more</b>: <i>more and more exciting</i> (not <i>more exciting and more exciting</i>).</p>
+{_h("3. AS … AS: HOW BIG IS THE DIFFERENCE?")}
+{_tbl(["structure", "meaning", "example"], [
+    ["<b>just as</b> … <b>as</b>", "the same", "<i>The second half was <b>just as</b> exciting <b>as</b> the first.</i>"],
+    ["<b>twice / three times / half as</b> … <b>as</b>", "multiplied or divided", "<i>It's <b>twice as loud as</b> baseball. · It's <b>half as expensive as</b> a concert.</i>"],
+    ["<b>not quite as</b> … <b>as</b>", "a small difference", "<i>He's <b>not quite as fast as</b> his brother.</i>"],
+    ["<b>not nearly / nowhere near as</b> … <b>as</b>", "a big difference", "<i>They <b>weren't nearly as strong</b> in the second half.</i>"],
+    ["<b>much / far / a lot / a bit / slightly</b> + comparative", "big or small difference", "<i>Soccer is <b>much more exciting</b> than American football for me.</i>"]], "8.1pt")}
+{_dont([("More you train, more fit you get.", "<b>The</b> more you train, <b>the fitter</b> you get."), ("The more you train, the more you get fit.", "…<b>the fitter</b> you get."), ("It's two times louder than…", "It's <b>twice as loud as</b>…"), ("It's very more exciting.", "It's <b>much / far</b> more exciting."), ("more exciting and more exciting", "<b>more and more</b> exciting")])}""",
+    30, """<p>Brazilians often leave out <i>the</i> in double comparatives, or split <i>the fitter</i> into <i>the more … fit</i>, translating word for word. They also say <i>very more</i>. Drill: say a cause (<i>sleep more</i>); the student makes a double comparative (<i>The more you sleep, the better you feel.</i>). Then compare two sports with <i>twice as / not nearly as / much more</i>.</p>""")
