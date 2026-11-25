@@ -12,8 +12,8 @@ SCRIPT, S2 = lean_b1.load_script(HERE, "it-b2-unita-03", "03.1 Cercasi ingegnere
 C = dict(
     level="B2", words="150–200",
     nn="03", title="Cercasi ingegnere", subtitle="Il colloquio di Davide · <b>verbi con preposizione e i pronomi ci e ne</b>",
-    cover=[("SAI FARE", "presentarti a un colloquio di lavoro, parlare di interessi, esperienze e punti deboli"),
-           ("LINGUA", "occuparsi di · interessarsi di · contare su · dipendere da · rinunciare a · pensare a / di · ci penso, me ne occupo"),
+    cover=[("SAI FARE", "presentarti a un colloquio, parlare di interessi e punti deboli"),
+           ("LINGUA", "occuparsi di · contare su · dipendere da · ci penso, me ne occupo"),
            ("PRONUNCIA", "<i>ci</i> e <i>ne</i> attaccati al verbo: <i>ci-credo, me-ne-occupo</i>")],
     t1="il lavoro che cerchi",
     start=["Guarda la foto. Che cosa scrivi per primo in un curriculum?", "Ricordi il tuo primo colloquio di lavoro? Com'è andato?",
