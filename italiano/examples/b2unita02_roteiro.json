@@ -1,0 +1,26 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Bruno": "it-IT-Chirp3-HD-Iapetus",
+  "Chiara": "it-IT-Chirp3-HD-Achernar"
+ },
+ "pauses": {
+  "02.2": 3000
+ },
+ "images": {
+  "it-b2-unita-02": {
+   "A": "dirty dishes kitchen sink",
+   "B": "fresh bread loaves bakery",
+   "C": "sticky note refrigerator",
+   "D": "cleaning supplies bucket gloves"
+  }
+ },
+ "units": {
+  "it-b2-unita-02": {
+   "02.1 Il pane lo compro io": "Narrator: Domenica 20 febbraio, ora di pranzo, in via Zamboni. Tommaso è da sua sorella. Bruno ha invitato Júlia e Chiara a pranzo.\nJúlia: Bruno, ma che disordine! E questi piatti, chi li lava?\nBruno: Li lava Tommaso. Cioè... questa settimana tocca a me. Guarda, c'è anche il suo biglietto sul frigo: «I piatti li lavi TU!»\nChiara: E il pane? Non l'hai comprato?\nBruno: Il pane lo compro io, tranquilla. Il forno qui sotto è aperto fino all'una.\nJúlia: È l'una meno dieci.\nBruno: Allora vado! Torno subito!\nNarrator: Bruno esce di corsa.\nChiara: Lo sai che è stato lui a proporre i turni? Ha fatto una tabella con i colori e l'ha attaccata al frigo.\nJúlia: Bruno? Quello che a casa la camera non la metteva mai a posto? La mamma ci impazziva!\nChiara: Le persone cambiano. Però, attenzione: la tabella l'ha fatta lui, ma i turni li decide Tommaso.\nJúlia: Tipico. E tu, qui, ci vieni spesso?\nChiara: Ci vengo quando non ho esami. Ma il bagno non lo pulisco, eh: è casa loro!\nNarrator: Dopo cinque minuti Bruno torna.\nBruno: Eccomi! L'ultimo pane del forno. E ho preso anche il dolce.\nJúlia: Il dolce? E chi è che lo paga?\nBruno: Lo pago io, sorellina. E l'arrosto l'ha preparato Tommaso ieri sera: è lui che sa cucinare, ormai.\nChiara: Tommaso? Quello che mangiava solo in mensa?\nBruno: Proprio lui. Il feijão gliel'ho insegnato io, e adesso cucina meglio di me.\nJúlia: A proposito di case... ve lo dico adesso: sto pensando di comprarne una.\nBruno: Una casa? Tu? E la signora Rossi?\nJúlia: È proprio lei che mi preoccupa. Ma ne parliamo dopo. Adesso il pranzo: lo serviamo o no?",
+   "02.2 Ripeti": "Narrator: I piatti li lavi tu.\nNarrator: Il pane lo compro io.\nNarrator: È stato lui a proporre i turni.\nNarrator: La tabella l'ha fatta lui.\nNarrator: Il bagno non lo pulisco.\nNarrator: È lui che sa cucinare."
+  }
+ }
+}

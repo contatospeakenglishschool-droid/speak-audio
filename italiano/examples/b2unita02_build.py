@@ -1,0 +1,85 @@
+# Speak! Indipendenza B2 - Unità 02 "Il pane lo compro io" - formato ridotto (italiano/lean_b1.py, level="B2")
+import os, sys
+HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, os.path.join(HERE, "..", ".."))
+from engine_it import *
+import speak_engine as _se
+import lean_b1
+_se.SERIES = "Indipendenza"
+setup(band="B2 · UNITÀ 02", audio_json=os.path.join(HERE, "audio_it-b2-unita-02.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
+SCRIPT, S2 = lean_b1.load_script(HERE, "it-b2-unita-02", "02.1 Il pane lo compro io", "02.2 Ripeti")
+
+C = dict(
+    level="B2", words="150–200",
+    nn="02", title="Il pane lo compro io", subtitle="Pranzo in via Zamboni · <b>dislocazione e frase scissa</b>",
+    cover=[("SAI FARE", "dividere i compiti, mettere in evidenza chi fa che cosa"),
+           ("LINGUA", "il pane lo compro io · ne ho prese due, di bottiglie · è stato lui a… · chi è che…?"),
+           ("PRONUNCIA", "la parola in evidenza: <i>il pane | lo compro IO</i>")],
+    t1="i lavori di casa",
+    start=["Guarda la foto. Chi lava i piatti a casa tua?", "Hai mai diviso la casa con altre persone? Com'era?",
+           "Qual è il lavoro di casa che odi di più? E quello che non ti pesa?"],
+    kw=[("l'ordine in cui le persone fanno a rotazione una cosa", "il turno"), ("le cose fuori posto, la casa non in ordine", "il disordine"),
+        ("la persona con cui dividi l'appartamento", "il coinquilino"), ("separare carta, plastica, vetro e organico", "la raccolta differenziata"),
+        ("il conto della luce, del gas, dell'acqua", "la bolletta"), ("è il mio dovere adesso, è il mio momento", "tocca a me")],
+    use_words=["A casa tua tocca sempre alla stessa persona fare le cose più noiose?", "Nella tua città si fa bene la raccolta differenziata?"],
+    n1=["A: <i>tocca a me</i> = é a minha vez / é comigo (≠ <i>toccare</i> = encostar).", "Riprendere Tommaso, il coinquilino serio di Bruno (B1 08 e 10)."],
+    aims=["Il pane lo compro io: pranzo da Bruno · Parliamone", "dislocazione a sinistra e a destra · frase scissa",
+          "Chi fa che cosa? · ripeti (02.2) · la parola in evidenza", "Il biglietto sul frigo · riscrivi · scrittura (150–200 parole)"],
+    story="Domenica 20 febbraio 2028, pranzo in via Zamboni. Tommaso è da sua sorella; Bruno ha invitato Júlia e Chiara. La casa è in disordine; sul frigo c'è il biglietto di Tommaso: «I piatti li lavi TU!». Il pane non c'è: Bruno corre al forno, che chiude all'una. Chiara racconta che è stato Bruno a proporre i turni (una tabella colorata sul frigo), ma i turni li decide Tommaso; lei il bagno non lo pulisce: è casa loro. Bruno torna con l'ultimo pane e il dolce (lo paga lui); l'arrosto l'ha preparato Tommaso, che ormai sa cucinare (il feijão gliel'ha insegnato Bruno). Alla fine Júlia annuncia: sta pensando di comprare una casa. E la signora Rossi? «È proprio lei che mi preoccupa.»",
+    prob="Anche in portoghese si dice <i>o pão, eu compro</i>, ma senza pronome. L'italiano, quando l'oggetto va all'inizio, lo <b>ripete con un pronome</b>: <i>Il pane <b>lo</b> compro io</i> (non <s>il pane compro io</s>); al passato il participio concorda: <i>la tabella l'ha fatt<b>a</b> lui</i>. Con <i>ne</i>: <i>di pane <b>ne</b> ho preso uno</i>. Per mettere in evidenza chi fa l'azione: <i>foi ele que propôs</i> → <i><b>è stato</b> lui <b>a</b> proporre</i> (più naturale di <i>è stato lui che ha proposto</i>). <i>Quem é que…?</i> = <i>Chi è che…?</i>, uguale.",
+    real="Nelle case degli studenti italiani c'è spesso la <b>tabella dei turni</b>: pulizie, spesa e <b>raccolta differenziata</b> (carta, plastica, vetro, organico), che in molte città si porta fuori in giorni fissi. Per gli studenti universitari fuori sede la legge prevede un contratto d'affitto apposito, di durata da <b>6 mesi a 3 anni</b>.",
+    tr=("Il pane lo compro io", "Ripeti: chi fa che cosa"),
+    gist=("Domenica, in via Zamboni. Ascolta. Che cosa annuncia Júlia alla fine?",
+          ["che sta pensando di comprare una casa", "che cambia lavoro", "che torna in Brasile"]),
+    detail=("vf", "Ascolta di nuovo. Vero (V) o falso (F)? Correggi le frasi false.",
+            [("Questa settimana i piatti li deve lavare Bruno.", "V"), ("Il forno sotto casa chiude alle due.", "F"),
+             ("È stato Tommaso a proporre la tabella dei turni.", "F"), ("Chiara il bagno non lo pulisce.", "V"),
+             ("L'arrosto l'ha preparato Bruno.", "F"), ("Il dolce lo paga Bruno.", "V")]),
+    talk2=["Bruno è cambiato, secondo Júlia? Da che cosa si capisce?", "Chiara ha ragione a non pulire il bagno? Perché?",
+           "Perché, secondo te, la signora Rossi «preoccupa» Júlia?"],
+    n2=["B: 2 chiude all'una · 3 è stato Bruno · 5 l'ha preparato Tommaso.", "Ripresa: Tommaso, che «non sapeva cucinare» (B1 08); il sogno della casa con terrazza (B1 14)."],
+    gref="dislocazione_scissa",
+    t4="il pane lo compro io",
+    pA=("Metti in evidenza la parola sottolineata: riscrivi l'inizio con il pronome giusto.",
+        [("Compro io <u>il pane</u>. → Il pane ___ compro io.", "lo"), ("Paga Bruno <u>le bollette</u>. → Le bollette ___ paga Bruno.", "le"),
+         ("Ha fatto lui <u>la tabella</u>. → La tabella ___ fatta lui.", "l'ha"), ("Ho preso due <u>bottiglie</u>. → Di bottiglie ___ ho prese due.", "ne"),
+         ("Vado io <u>al forno</u>. → Al forno ___ vado io.", "ci")]),
+    pAw="14mm",
+    pB=[("È stato Bruno ", ["a proporre", "di proporre"], "a proporre", " i turni."),
+        ("I piatti ", ["li lavi", "lavi"], "li lavi", " tu!"),
+        ("", ["Chi è che", "Chi è chi"], "Chi è che", " paga il dolce?")],
+    rule="<b>Dislocazione a sinistra</b>: l'oggetto va all'inizio e si ripete con il pronome: <i>Il pane <b>lo</b> compro io · Le bollette <b>le</b> paga Bruno · Di pane <b>ne</b> ho preso uno · Al forno <b>ci</b> vado io.</i> Al passato il participio concorda: <i>la tabella l'ha fatt<b>a</b></i>. <b>A destra</b> (parlato): <i>Lo compri tu, il pane?</i> <b>Frase scissa</b>: <i>È Tommaso <b>che</b> cucina · È stato Bruno <b>a</b> proporre · Chi è che paga?</i>",
+    use=["A casa tua: la spesa chi la fa? E la cucina, chi la pulisce?", "Le bollette, le paghi tu o qualcun altro?",
+         "Una cosa che a casa fai sempre tu: «… la faccio sempre io».", "Chi è stato a insegnarti a cucinare (o a guidare, o a nuotare)?",
+         "Di caffè, quanti ne bevi al giorno?"],
+    n4="A: 3 <i>la</i> + <i>ha</i> → <i>l'ha</i>, participio <i>fatta</i> · 4 <i>ne</i> + participio accordato (<i>prese</i>) · 5 luogo → <i>ci</i>. B1 <i>è stato… a</i> + infinito.",
+    t5="chi fa che cosa?",
+    fl=(["proporre e dividere", "rifiutare con decisione", "mettere in evidenza chi", "lamentarsi"],
+        ["La spesa la faccio io, e tu…? · I piatti li laviamo a turno.", "Il bagno non lo pulisco, eh! · Questo non lo faccio.",
+         "È lui che… · È stato Tommaso a… · Chi è che…?", "Tocca sempre a me! · La lavatrice l'ho fatta io l'ultima volta!"]),
+    pron=("Nella dislocazione c'è una piccola pausa dopo la parola spostata, e la voce sale sulla persona che fa l'azione: <i>Il pane | lo compro IO.</i> Nella frase scissa la voce sale su chi ha fatto la cosa: <i>È stato BRUNO a proporre i turni.</i>",
+          "Ascolta e ripeti. Poi leggi: «I piatti li lava Tommaso. Cioè... questa settimana tocca a me.»"),
+    task=("Chi fa che cosa? Tu e l'insegnante andate a vivere insieme in un appartamento per studenti (o per lavoro). Dividete i compiti della lista e scrivete la vostra tabella dei turni. Ognuno difende i propri interessi. Poi presentate la tabella: «La spesa la fa…, è… che…».",
+          "<ul style='line-height:1.45;font-size:8.9pt;margin:0;columns:2'><li>la spesa</li><li>i piatti</li><li>il bagno</li><li>la raccolta differenziata</li><li>le bollette</li><li>le piante e la posta</li></ul>",
+          "Insegnante: Il bagno lo pulisci tu? Le bollette chi le paga? Lo studente: Il bagno lo puliamo a turno. · Le bollette le pago io, ma la spesa la fai tu. · È stato… a… Correggere la dislocazione senza pronome e l'accordo del participio."),
+    talk5=["Pensi che i lavori di casa siano divisi in modo giusto tra uomini e donne, oggi?", "Preferiresti vivere da solo/a o con altre persone? Perché?"],
+    n5=["Far sentire la pausa dopo la parola spostata: <i>il pane | lo compro io</i>.", "Pretendere almeno quattro dislocazioni e due frasi scisse nella presentazione della tabella."],
+    hA=("Il biglietto di Tommaso sul frigo. Scegli la forma giusta.",
+        "<i>Bruno, questa settimana i piatti {0} tu (l'ho scritto anche nella tabella!). La plastica {1} ho portata fuori io, martedì. Le bollette {2} lunedì. Di latte {3} è rimasto mezzo litro: compralo tu. E il vaso rotto in cucina, chi è stato {4}? Tommaso</i>",
+        [(["li lavi", "lavi"], "li lavi"), (["l'", "la"], "l'"), (["le paghiamo", "paghiamo"], "le paghiamo"),
+         (["ne", "lo"], "ne"), (["a romperlo", "che rompere"], "a romperlo")]),
+    hB=("Riscrivi le frasi mettendo in evidenza le parole sottolineate.",
+        [("Tommaso ha preparato <u>l'arrosto</u>.", "L'arrosto l'ha preparato Tommaso."),
+         ("<u>Bruno</u> ha proposto i turni.", "È stato Bruno a proporre i turni."),
+         ("Non pulisco <u>il bagno</u>.", "Il bagno non lo pulisco.")]),
+    watch=[("Il pane compro io.", "Il pane <b>lo</b> compro io.", "l'oggetto all'inizio si ripete con il pronome."),
+           ("La tabella l'ha fatto lui.", "La tabella l'ha fatt<b>a</b> lui.", "con <i>la / l'</i> il participio concorda."),
+           ("È stato Bruno che ha proposto.", "È stato Bruno <b>a proporre</b>.", "nella frase scissa al passato: <i>a</i> + infinito.")],
+    write=("Scrivi le regole della tua casa ideale da dividere con altre persone (studenti, colleghi o famiglia): chi fa che cosa, che cosa non si fa, che cosa succede se qualcuno non rispetta i turni.",
+           "In questa casa…", ["almeno quattro dislocazioni (<i>la spesa la…, i piatti li…</i>)", "almeno due frasi scisse (<i>è… che / a…</i>)", "una regola su che cosa succede se qualcuno non rispetta i turni"]),
+    cando="So dividere i compiti e mettere in evidenza chi fa che cosa con la dislocazione e la frase scissa.",
+    nH="Prossima unità: <i>Cercasi ingegnere</i> (verbi + preposizione; il colloquio di Davide).",
+)
+
+if __name__ == "__main__":
+    render(lean_b1.make_build(C, SCRIPT, S2), sys.argv[1] if len(sys.argv) > 1 else "B2 Indipendenza 02 - Il pane lo compro io")
