@@ -1,0 +1,21 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-55": {
+   "55.1 Danny's blog: the Strange Games": "Danny: The Strange Games. Last weekend Bruno, Rafa and I took a bus to a small town in the mountains for a festival called the Strange Games. Mrs. Lima's cousin Dora, a retired teacher, started it fifteen years ago. Inspired by her students' crazy ideas, she decided to invent sports that anyone can play, no matter how fit they are.\nDanny: The first event was suitcase racing. Competitors carrying heavy suitcases run through an obstacle course built to look like an airport: stairs, a security line and a gate that closes after two minutes. Bruno came second. He says it was physically demanding, but I think he just loves running.\nDanny: Next was silent soccer, a game played without words. Players who shout, sing or even laugh have to leave the field for two minutes. The referee, wearing headphones and a huge smile, sent off eleven players in the first half. Rafa lasted six minutes.\nDanny: My favorite was the hammock relay. Teams of four, lying in hammocks tied between trees, pass a watermelon from one hammock to the next. If it falls, you start again. It sounds pointless, and it is. But the crowd was laughing so hard that nobody cared.\nDanny: The last event, umbrella fencing, needs agility and a high tolerance for water: firefighters spray the competitors fighting with umbrellas. I entered, I got very wet, and I lost to a seventy-year-old woman called Lucia.\nDanny: Would I go again? Definitely. The best moment wasn't winning or losing. It was seeing a whole town, from teenagers to grandparents, laughing together on a Sunday afternoon.",
+   "55.2 Repeat: participle clauses": "Narrator: Competitors carrying suitcases.\nNarrator: A game played without words.\nNarrator: The referee, wearing headphones.\nNarrator: Teams lying in hammocks.\nNarrator: Hammocks tied between trees.\nNarrator: Inspired by her students, she invented the games."
+  }
+ },
+ "images": {
+  "b1-unit-55": {
+   "A": "funny costume race people",
+   "B": "hammock between trees",
+   "C": "colorful umbrellas",
+   "D": "old suitcase"
+  }
+ }
+}

@@ -2146,3 +2146,25 @@ def comparisons_advanced(b):
     ["<b>much / far / a lot / a bit / slightly</b> + comparative", "big or small difference", "<i>Soccer is <b>much more exciting</b> than American football for me.</i>"]], "8.1pt")}
 {_dont([("More you train, more fit you get.", "<b>The</b> more you train, <b>the fitter</b> you get."), ("The more you train, the more you get fit.", "…<b>the fitter</b> you get."), ("It's two times louder than…", "It's <b>twice as loud as</b>…"), ("It's very more exciting.", "It's <b>much / far</b> more exciting."), ("more exciting and more exciting", "<b>more and more</b> exciting")])}""",
     30, """<p>Brazilians often leave out <i>the</i> in double comparatives, or split <i>the fitter</i> into <i>the more … fit</i>, translating word for word. They also say <i>very more</i>. Drill: say a cause (<i>sleep more</i>); the student makes a double comparative (<i>The more you sleep, the better you feel.</i>). Then compare two sports with <i>twice as / not nearly as / much more</i>.</p>""")
+
+
+def participle_clauses(b):
+    """B1 Unit 55: participle clauses: reduced relative clauses with -ing (active) and past participle (passive); participle clauses at the start of a sentence (Inspired by…, …)."""
+    b.page(f"""{b.sec("+", "Grammar reference: participle clauses", "")}
+<div class="box" style="margin-top:0"><h4>SHORTER SENTENCES WITH -ING AND -ED</h4>In writing and in descriptions, we often make a <b>relative clause</b> shorter: we take out <b>who / which / that</b> + <b>be</b> and keep the <b>-ing form</b> or the <b>past participle</b>.<br>
+<span class="small"><i>Competitors <s>who are</s> <b>carrying</b> heavy suitcases run through an obstacle course.</i> · <i>A game <s>which is</s> <b>played</b> without words.</i></span></div>
+{_h("1. -ING = ACTIVE (THE NOUN DOES THE ACTION)")}
+{_tbl(["full relative clause", "participle clause"], [
+    ["<i>The referee, <b>who was wearing</b> headphones, …</i>", "<i>The referee, <b>wearing</b> headphones, …</i>"],
+    ["<i>Teams <b>that lie</b> in hammocks pass a watermelon.</i>", "<i>Teams <b>lying</b> in hammocks pass a watermelon.</i>"],
+    ["<i>People <b>who live</b> in the town love the festival.</i>", "<i>People <b>living</b> in the town love the festival.</i>"]], "8.4pt")}
+{_h("2. PAST PARTICIPLE = PASSIVE (SOMETHING IS DONE TO THE NOUN)")}
+{_tbl(["full relative clause", "participle clause"], [
+    ["<i>an obstacle course <b>that was built</b> to look like an airport</i>", "<i>an obstacle course <b>built</b> to look like an airport</i>"],
+    ["<i>hammocks <b>which are tied</b> between trees</i>", "<i>hammocks <b>tied</b> between trees</i>"],
+    ["<i>a sport <b>that was invented</b> fifteen years ago</i>", "<i>a sport <b>invented</b> fifteen years ago</i>"]], "8.4pt")}
+{_h("3. AT THE START OF A SENTENCE")}
+<p class="small" style="margin:.5mm 0">A participle clause can also give the <b>reason</b> or the <b>time</b>. The subject of both parts must be the same person: <i><b>Inspired by</b> her students, Dora invented the games.</i> (= Because she was inspired…) · <i><b>Running</b> down the stairs, Bruno dropped his suitcase.</i> (= While he was running…)<br>
+<b>Careful:</b> <i>Running down the stairs, the suitcase fell.</i> ✗ (the suitcase wasn't running!)</p>
+{_dont([("A game playing without words.", "A game <b>played</b> without words. (passive)"), ("Players wear helmets must…", "Players <b>wearing</b> helmets must… / Players <b>who wear</b>…"), ("The man was carrying the suitcase won.", "The man <b>carrying</b> the suitcase won."), ("Inspiring by her students, …", "<b>Inspired</b> by her students, …"), ("a sport invent in Brazil", "a sport <b>invented</b> in Brazil")])}""",
+    30, """<p>Brazilians often mix up the active and passive participles (<i>a game playing</i> vs <i>a game played</i>), or keep <i>was</i> without <i>who</i>. Ask: <i>Does the noun do the action, or is it done to it?</i> Drill: give a full relative clause (<i>the woman who is holding the umbrella</i>); the student makes it shorter. Then describe a photo with three participle clauses.</p>""")
