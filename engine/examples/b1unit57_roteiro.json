@@ -1,0 +1,22 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Carol": "en-US-Chirp3-HD-Leda",
+  "Operator": "en-US-Chirp3-HD-Charon",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-57": {
+   "57.1 Three emergency calls": "Narrator: Dialogue one.\nOperator: Nine one one, what's your emergency?\nCarol: I want to report a fire. There's smoke coming from my neighbor's garage.\nOperator: What's the address?\nCarol: Forty-two Palm Street. It's across from the park.\nOperator: Is anyone inside the house?\nCarol: I don't think so. Their car isn't there. But there might be a dog inside.\nOperator: OK. Stay away from the smoke, and make sure everyone on the street stays back. Firefighters are on their way.\nCarol: Thank you!\nNarrator: Dialogue two.\nOperator: Police department. How can I help you?\nCarol: I'd like to report a break-in. Someone has broken into my car.\nOperator: When did it happen?\nCarol: Sometime this afternoon. I parked at the mall at two, and when I came back, the window was broken.\nOperator: Was anything stolen?\nCarol: Yes, my sunglasses and a bag with my laptop. There wasn't anything else in the car.\nOperator: Is anyone hurt?\nCarol: No, everyone's fine.\nOperator: OK, ma'am. We'll send an officer. There'll be someone there in about twenty minutes. Please don't touch anything.\nNarrator: Dialogue three.\nOperator: Nine one one, what's your emergency?\nCarol: We need an ambulance right away! There's been an accident on the highway.\nOperator: Can you tell me exactly where you are?\nCarol: On the highway, just after the airport exit, going north.\nOperator: Can you see if anyone is hurt?\nCarol: One of the drivers seems to be unconscious. And there might be someone trapped in the back seat. I can't quite see.\nOperator: OK, ma'am. Don't move anyone. I'm sending an ambulance and a fire truck right now.\nCarol: Please hurry!",
+   "57.2 Repeat: there's been, there might be": "Narrator: There's been an accident.\nNarrator: There might be someone trapped.\nNarrator: There seems to be a fire.\nNarrator: There was a lot of smoke.\nNarrator: There'll be someone there soon.\nNarrator: There must have been a problem."
+  }
+ },
+ "images": {
+  "b1-unit-57": {
+   "A": "ambulance emergency lights",
+   "B": "smoke house fire firefighters",
+   "C": "broken car window",
+   "D": "fire truck"
+  }
+ }
+}

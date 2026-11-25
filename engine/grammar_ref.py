@@ -2188,3 +2188,26 @@ def get_uses(b):
 <b>Formal or informal?</b> In formal writing, use <i>become, receive, arrive, obtain</i> instead: <i>It <b>became</b> dark. · We <b>received</b> your email.</i></p>
 {_dont([("I got up at 6, but I woke up at 7. (= opened my eyes later)", "I <b>woke up</b> at 6, but I <b>got up</b> at 7."), ("I'm getting more tired and tired.", "I'm <b>getting more and more tired</b>."), ("He got that I buy a clock.", "He <b>got me to buy</b> a clock."), ("I got in home at nine.", "I <b>got home</b> at nine. (no <i>to</i> or <i>in</i>)"), ("We got marry in 2020.", "We <b>got married</b> in 2020.")])}""",
     30, """<p>Brazilians often avoid <i>get</i> and use more formal verbs (<i>become, arrive</i>), which can sound stiff in conversation. They also mix up <i>wake up</i> (open your eyes) and <i>get up</i> (leave the bed), and add <i>to</i> before <i>home</i>. Drill: say a meaning (<i>become cold, arrive at work, receive a message</i>); the student answers with a <i>get</i> sentence about their day.</p>""")
+
+
+def there_be(b):
+    """B1 Unit 57: there + be in all tenses and with modals (there's been, there was, there'll be, there might be, there must have been), there seems to be, there + be + someone/something + -ing/past participle."""
+    b.page(f"""{b.sec("+", "Grammar reference: there's been, there might be", "")}
+<div class="box" style="margin-top:0"><h4>THERE + BE: NOT ONLY "THERE IS"</h4>In A1 you learned <i>there is / there are</i>. In emergencies, news and stories we use <b>there + be</b> in <b>every tense</b> and with <b>modals</b>. The verb agrees with the noun after it.<br>
+<span class="small"><i><b>There's been</b> an accident on the highway. · <b>There might be</b> someone trapped. · <b>There'll be</b> someone there in twenty minutes.</i></span></div>
+{_h("1. TENSES")}
+{_tbl(["tense", "form", "example"], [
+    ["present perfect (fresh news)", "<b>there has been / there have been</b>", "<i><b>There's been</b> an accident. · <b>There have been</b> three break-ins this month.</i>"],
+    ["past simple", "<b>there was / there were</b>", "<i><b>There was</b> a lot of smoke. · <b>There weren't</b> any people inside.</i>"],
+    ["future", "<b>there will be / there's going to be</b>", "<i><b>There'll be</b> an officer there soon. · <b>There's going to be</b> a storm.</i>"],
+    ["past perfect", "<b>there had been</b>", "<i>When we arrived, <b>there had been</b> a fire.</i>"]], "8.3pt")}
+{_h("2. MODALS AND SEEM")}
+{_tbl(["structure", "meaning", "example"], [
+    ["<b>there might / may / could be</b>", "possible now", "<i><b>There might be</b> a dog inside.</i>"],
+    ["<b>there must be / there can't be</b>", "almost sure (yes / no)", "<i><b>There must be</b> a problem. · <b>There can't be</b> anyone inside.</i>"],
+    ["<b>there must have been / there might have been</b>", "a guess about the past", "<i><b>There must have been</b> a problem with the engine.</i>"],
+    ["<b>there seems to be / there appears to be</b>", "it looks like (not sure)", "<i><b>There seems to be</b> a fire in the park.</i>"],
+    ["<b>there + be + someone + -ing / past participle</b>", "describe a situation", "<i><b>There's</b> smoke <b>coming</b> from the garage. · <b>There's</b> someone <b>trapped</b>.</i>"]], "8.1pt")}
+<p class="small" style="margin:.8mm 0"><b>Questions:</b> <i><b>Has there been</b> an accident? · <b>Will there be</b> an ambulance? · <b>Is there</b> anyone hurt?</i> · <b>Short answers:</b> <i>Yes, there has. / No, there won't.</i></p>
+{_dont([("Has an accident on the highway.", "<b>There's been</b> an accident on the highway."), ("Had a lot of smoke.", "<b>There was</b> a lot of smoke."), ("There will have someone there.", "There <b>will be</b> someone there."), ("There might to be a dog inside.", "There might <b>be</b> a dog inside."), ("There was many people.", "There <b>were</b> many people.")])}""",
+    30, """<p>Portuguese uses a verb with no subject here, so Brazilians say <i>Has an accident</i> or <i>Had a lot of smoke</i>, and <i>There will have</i>. Insist on <i>there</i> + the right form of <i>be</i>. Drill: say a short headline (<i>accident, highway, now</i>); the student reports it with <i>There's been…</i>; then add a guess with <i>There might be… / There must have been…</i>.</p>""")
