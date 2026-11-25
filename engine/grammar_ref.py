@@ -2168,3 +2168,23 @@ def participle_clauses(b):
 <b>Careful:</b> <i>Running down the stairs, the suitcase fell.</i> ✗ (the suitcase wasn't running!)</p>
 {_dont([("A game playing without words.", "A game <b>played</b> without words. (passive)"), ("Players wear helmets must…", "Players <b>wearing</b> helmets must… / Players <b>who wear</b>…"), ("The man was carrying the suitcase won.", "The man <b>carrying</b> the suitcase won."), ("Inspiring by her students, …", "<b>Inspired</b> by her students, …"), ("a sport invent in Brazil", "a sport <b>invented</b> in Brazil")])}""",
     30, """<p>Brazilians often mix up the active and passive participles (<i>a game playing</i> vs <i>a game played</i>), or keep <i>was</i> without <i>who</i>. Ask: <i>Does the noun do the action, or is it done to it?</i> Drill: give a full relative clause (<i>the woman who is holding the umbrella</i>); the student makes it shorter. Then describe a photo with three participle clauses.</p>""")
+
+
+def get_uses(b):
+    """B1 Unit 56: the main uses of get: get + noun (receive, buy, fetch), get + adjective / comparative (become), get + past participle (get dressed, get married), get + place (arrive / move), get + object + adjective / to-infinitive; common get phrases."""
+    b.page(f"""{b.sec("+", "Grammar reference: the many uses of get", "")}
+<div class="box" style="margin-top:0"><h4>ONE VERB, MANY MEANINGS</h4><b>Get</b> is one of the most common verbs in spoken English. Its meaning depends on <b>what comes after it</b>. Look at the structure, and the meaning becomes clear.<br>
+<span class="small"><i>I <b>get up</b> at six. · Your brain <b>gets</b> too <b>excited</b>. · <b>Get</b> a real alarm clock. · <b>Get</b> your clothes <b>ready</b>.</i></span></div>
+{_h("1. STRUCTURE → MEANING")}
+{_tbl(["get + …", "meaning", "example"], [
+    ["<b>a noun</b>", "receive, buy, bring", "<i>I <b>got</b> a message. · <b>Get</b> a real alarm clock. · Can you <b>get</b> me some water?</i>"],
+    ["<b>an adjective / a comparative</b>", "become (a change)", "<i>It's <b>getting dark</b>. · Your brain <b>gets excited</b>. · I'm <b>getting better</b>.</i>"],
+    ["<b>a past participle</b>", "an action you do to yourself, or a change of state", "<i><b>get dressed</b>, <b>get married</b>, <b>get lost</b>, <b>get tired</b>, <b>get hurt</b></i>"],
+    ["<b>to / home / here / there</b>", "arrive", "<i>What time did you <b>get home</b>? · I <b>got to</b> school at seven.</i>"],
+    ["<b>an object + adjective</b>", "make something be in a state", "<i><b>Get</b> your clothes <b>ready</b>. · I can't <b>get</b> my hands <b>warm</b>.</i>"],
+    ["<b>an object + to + verb</b>", "persuade someone to do something", "<i>Ana <b>got</b> Danny <b>to</b> buy an alarm clock.</i>"]], "8.1pt")}
+{_h("2. COMMON PHRASES WITH GET")}
+<p class="small" style="margin:.5mm 0"><b>get up</b> (rise after sleeping) · <b>get out of bed</b> · <b>get going</b> (start, leave) · <b>get off to a good start</b> · <b>get to sleep</b> (fall asleep) · <b>get a good night's sleep</b> · <b>get back to</b> (continue) · <b>get ready</b> · <b>get along with</b> (have a good relationship).<br>
+<b>Formal or informal?</b> In formal writing, use <i>become, receive, arrive, obtain</i> instead: <i>It <b>became</b> dark. · We <b>received</b> your email.</i></p>
+{_dont([("I got up at 6, but I woke up at 7. (= opened my eyes later)", "I <b>woke up</b> at 6, but I <b>got up</b> at 7."), ("I'm getting more tired and tired.", "I'm <b>getting more and more tired</b>."), ("He got that I buy a clock.", "He <b>got me to buy</b> a clock."), ("I got in home at nine.", "I <b>got home</b> at nine. (no <i>to</i> or <i>in</i>)"), ("We got marry in 2020.", "We <b>got married</b> in 2020.")])}""",
+    30, """<p>Brazilians often avoid <i>get</i> and use more formal verbs (<i>become, arrive</i>), which can sound stiff in conversation. They also mix up <i>wake up</i> (open your eyes) and <i>get up</i> (leave the bed), and add <i>to</i> before <i>home</i>. Drill: say a meaning (<i>become cold, arrive at work, receive a message</i>); the student answers with a <i>get</i> sentence about their day.</p>""")

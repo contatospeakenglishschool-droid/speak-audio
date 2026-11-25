@@ -1,0 +1,22 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Ana": "en-US-Neural2-F",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-56": {
+   "56.1 Gap Year Diaries: I'm not a morning person": "Danny: Welcome back to Gap Year Diaries. I have a confession: I'm not a morning person. Since the language school gave me the seven a.m. classes, getting up has been a nightmare. So today Ana is here to help me.\nAna: Hi everyone! Doctor Ana is here to save Danny.\nDanny: So what time do you get up?\nAna: At five-thirty when I work the morning shift. And I get out of bed right away. No snooze button.\nDanny: Five-thirty! How do you do that?\nAna: First, plan the night before. Get your clothes and your bag ready before you go to bed. Then in the morning you can get going in ten minutes.\nDanny: I usually spend twenty minutes looking for my keys.\nAna: Exactly. Second, leave your phone out of the bedroom. If you check messages in bed, your brain gets too excited, and you can't get to sleep.\nDanny: But my phone is my alarm clock!\nAna: Then get a real alarm clock. Third, let some light in. Leave the curtains a little open, so the sun can wake you up naturally.\nDanny: What about coffee? I drink coffee at night when I'm planning my classes.\nAna: Bad idea. Try to avoid coffee in the late afternoon and evening. In the morning, drink a glass of water as soon as you get up, and have breakfast. It helps you get off to a good start.\nDanny: Anything else?\nAna: The most important thing is to have something to look forward to. If you're excited about your day, it's much easier to get out of bed.\nDanny: Like Mrs. Lima's cheese bread at breakfast.\nAna: If that's what gets you up, perfect!\nDanny: OK, listeners. Starting tomorrow, I'm getting up at six. Ana will call me to check.\nAna: I'll call at one minute past six!",
+   "56.2 Repeat: phrases with get": "Narrator: I get up at six.\nNarrator: Get your clothes ready.\nNarrator: I can't get to sleep.\nNarrator: It's getting dark.\nNarrator: Get off to a good start.\nNarrator: What gets you up in the morning?"
+  }
+ },
+ "images": {
+  "b1-unit-56": {
+   "A": "alarm clock bed morning",
+   "B": "sunlight through bedroom window curtains",
+   "C": "glass of water morning",
+   "D": "man yawning bed"
+  }
+ }
+}
