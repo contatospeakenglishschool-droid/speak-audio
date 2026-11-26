@@ -1,0 +1,21 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-58": {
+   "58.1 Danny's blog: the day the bakery closed": "Danny: The day the bakery closed. Last Tuesday at seven in the morning, a message appeared in the hostel group chat: \"URGENT! The bakery on our corner is closing forever on Friday. Share with everyone!\" There was a photo of the bakery door with a sign that said CLOSED. In ten minutes, the message had been shared in five other groups.\nDanny: Mrs. Lima was devastated. She has bought her bread there for thirty years, and she insisted on going there immediately to say goodbye. Bruno offered to go with her. When they arrived, there was already a long line outside, and people were buying bags of cheese bread as if the world was ending.\nDanny: But Mr. Nunes, the owner, was completely confused. He denied closing the bakery and explained that the photo was from last year, when he closed for one day to paint the walls. He was frustrated, because some customers refused to accept the truth. One man even accused him of lying to sell more bread!\nDanny: So who started it? Rafa admitted sharing the message without reading it carefully. It came from his cousin, so he thought it was real. His cousin had received it from a neighbor, and nobody knows where it began. Rafa apologized for causing so much confusion and promised to check things before sharing them.\nDanny: That evening Ana gave us a short lesson on how to spot fake news. As a doctor, she sees false health stories every week, and she says they're worrying because they influence people's decisions. She advised us to check the source, the date and the photo, and she suggested asking one simple question: who wants me to believe this, and why?\nDanny: The good news? Mr. Nunes sold more cheese bread on Tuesday than on any other day of the year. Now he says he might start a rumor every month. I think he's joking.",
+   "58.2 Repeat: reporting verbs": "Narrator: He denied closing the bakery.\nNarrator: Rafa admitted sharing the message.\nNarrator: She advised us to check the source.\nNarrator: He apologized for causing confusion.\nNarrator: A man accused him of lying.\nNarrator: She suggested asking a simple question."
+  }
+ },
+ "images": {
+  "b1-unit-58": {
+   "A": "man looking at smartphone surprised",
+   "B": "bakery bread display window",
+   "C": "old newspapers stack",
+   "D": "smartphone message notification"
+  }
+ }
+}

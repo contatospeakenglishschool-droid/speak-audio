@@ -2211,3 +2211,23 @@ def there_be(b):
 <p class="small" style="margin:.8mm 0"><b>Questions:</b> <i><b>Has there been</b> an accident? · <b>Will there be</b> an ambulance? · <b>Is there</b> anyone hurt?</i> · <b>Short answers:</b> <i>Yes, there has. / No, there won't.</i></p>
 {_dont([("Has an accident on the highway.", "<b>There's been</b> an accident on the highway."), ("Had a lot of smoke.", "<b>There was</b> a lot of smoke."), ("There will have someone there.", "There <b>will be</b> someone there."), ("There might to be a dog inside.", "There might <b>be</b> a dog inside."), ("There was many people.", "There <b>were</b> many people.")])}""",
     30, """<p>Portuguese uses a verb with no subject here, so Brazilians say <i>Has an accident</i> or <i>Had a lot of smoke</i>, and <i>There will have</i>. Insist on <i>there</i> + the right form of <i>be</i>. Drill: say a short headline (<i>accident, highway, now</i>); the student reports it with <i>There's been…</i>; then add a guess with <i>There might be… / There must have been…</i>.</p>""")
+
+
+def reporting_verbs(b):
+    """B1 Unit 58: reporting verbs and their patterns: verb + to (offer, promise, refuse, agree), verb + object + to (warn, advise, remind, encourage), verb + -ing (admit, deny, suggest, recommend), verb + preposition + -ing (apologize for, insist on, accuse sb of, blame sb for), verb + that."""
+    b.page(f"""{b.sec("+", "Grammar reference: reporting verbs", "")}
+<div class="box" style="margin-top:0"><h4>MORE THAN SAY AND TELL</h4>In news and stories, <b>reporting verbs</b> tell us not only <b>what</b> someone said, but <b>how</b> or <b>why</b>: they denied it, admitted it, promised it, warned us. Each verb has its own <b>pattern</b>.<br>
+<span class="small"><i>"I didn't close the bakery." → He <b>denied closing</b> the bakery. · "Check the source." → She <b>advised us to check</b> the source.</i></span></div>
+{_h("1. THE PATTERNS")}
+{_tbl(["pattern", "verbs", "example"], [
+    ["verb + <b>to</b> + verb", "agree · offer · promise · refuse · threaten · claim", "<i>Bruno <b>offered to go</b> with her. · Rafa <b>promised to check</b> things.</i>"],
+    ["verb + <b>person + to</b> + verb", "advise · ask · encourage · remind · tell · warn", "<i>She <b>advised us to check</b> the source. · He <b>warned me not to share</b> it.</i>"],
+    ["verb + <b>-ing</b>", "admit · deny · recommend · suggest", "<i>He <b>denied closing</b> the bakery. · Rafa <b>admitted sharing</b> the message.</i>"],
+    ["verb + <b>preposition + -ing</b>", "apologize for · insist on · accuse someone of · blame someone for", "<i>Rafa <b>apologized for causing</b> confusion. · He <b>accused him of lying</b>.</i>"],
+    ["verb + <b>(that)</b> + clause", "admit · claim · deny · explain · insist · promise · suggest · warn", "<i>He <b>explained that</b> the photo was old. · She <b>suggested that we ask</b> a question.</i>"]], "8.0pt")}
+{_h("2. NEGATIVES AND THE PAST")}
+<p class="small" style="margin:.5mm 0"><b>not</b> goes before <b>to</b> or <b>-ing</b>: <i>She warned us <b>not to believe</b> it. · He admitted <b>not reading</b> it.</i><br>
+For an earlier action, you can use <b>having + past participle</b>: <i>Rafa admitted <b>having shared</b> the message.</i> (= sharing, same meaning)<br>
+<b>Explain</b> and <b>suggest</b> never take a person directly: <i>explain <b>to</b> me · suggest <b>to</b> him / suggest that he…</i></p>
+{_dont([("She suggested me to check the source.", "She suggested <b>checking</b> / suggested <b>that I check</b> the source."), ("He denied to close the bakery.", "He denied <b>closing</b> the bakery."), ("A man accused him to lie.", "A man accused him <b>of lying</b>."), ("Rafa apologized to cause confusion.", "Rafa apologized <b>for causing</b> confusion."), ("He explained me the problem.", "He explained the problem <b>to me</b>.")])}""",
+    30, """<p>Brazilians transfer the pattern of the Portuguese verb, so they say <i>suggested me to</i>, <i>explained me</i> and <i>denied to</i>. Learn each verb as a chunk with its pattern (<i>deny + -ing, warn someone not to, accuse someone of + -ing</i>). Drill: say a direct sentence (<i>"I'll help you."</i>); the student reports it with the right verb (<i>She offered to help me.</i>).</p>""")
