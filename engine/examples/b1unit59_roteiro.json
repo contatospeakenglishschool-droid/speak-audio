@@ -1,0 +1,22 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Bruno": "en-US-Chirp3-HD-Fenrir",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-59": {
+   "59.1 Gap Year Diaries: The Last Bridge": "Danny: Welcome to Gap Year Diaries! Tonight it's movie night at the hostel, and Bruno and I are reviewing a war film called The Last Bridge. It's set in an invented country, so don't look for it on a map. Bruno, what's it about?\nBruno: OK, no big spoilers. At the start of the film, the rebels and the government had been fighting for six years. The rebels had captured an old bridge, the only way into the capital, and the government troops were trying to advance.\nDanny: And in the middle of it all there's Lena, a nurse. She'd been working in a small hospital near the bridge for twenty years, and suddenly it was full of wounded soldiers from both sides.\nBruno: That was my favorite part. She didn't care who was a rebel and who was a loyalist. Soldiers, civilians... she treated everyone.\nDanny: Then the rebels took some hostages, including Lena's brother, and they spread propaganda on the radio saying that the government was losing.\nBruno: And the government said the rebel leader was dead, but he was still alive! Both sides lied all the time. That felt very real to me.\nDanny: In the end, Lena helped them negotiate a truce. The rebels agreed to release the hostages in exchange for some of their prisoners.\nBruno: But it's not a happy ending. The bridge was destroyed, and there were a lot of casualties.\nDanny: What surprised me was the last half hour. There are almost no weapons on screen, just people sitting at a table talking. I'd been expecting a big final battle.\nBruno: Me too! Honestly, I'd been hoping for more action. But the acting is amazing.\nDanny: So, how many stars? I give it four out of five.\nBruno: Three and a half. It's too long! See you next week.",
+   "59.2 Repeat: past perfect continuous": "Narrator: They'd been fighting for six years.\nNarrator: She'd been working there for twenty years.\nNarrator: I'd been hoping for more action.\nNarrator: We'd been waiting for an hour.\nNarrator: How long had they been fighting?\nNarrator: He'd been hiding in the mountains."
+  }
+ },
+ "images": {
+  "b1-unit-59": {
+   "A": "old military helmet",
+   "B": "old stone bridge fog",
+   "C": "white flag waving",
+   "D": "popcorn bowl movie night"
+  }
+ }
+}

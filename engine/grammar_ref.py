@@ -2231,3 +2231,28 @@ For an earlier action, you can use <b>having + past participle</b>: <i>Rafa admi
 <b>Explain</b> and <b>suggest</b> never take a person directly: <i>explain <b>to</b> me · suggest <b>to</b> him / suggest that he…</i></p>
 {_dont([("She suggested me to check the source.", "She suggested <b>checking</b> / suggested <b>that I check</b> the source."), ("He denied to close the bakery.", "He denied <b>closing</b> the bakery."), ("A man accused him to lie.", "A man accused him <b>of lying</b>."), ("Rafa apologized to cause confusion.", "Rafa apologized <b>for causing</b> confusion."), ("He explained me the problem.", "He explained the problem <b>to me</b>.")])}""",
     30, """<p>Brazilians transfer the pattern of the Portuguese verb, so they say <i>suggested me to</i>, <i>explained me</i> and <i>denied to</i>. Learn each verb as a chunk with its pattern (<i>deny + -ing, warn someone not to, accuse someone of + -ing</i>). Drill: say a direct sentence (<i>"I'll help you."</i>); the student reports it with the right verb (<i>She offered to help me.</i>).</p>""")
+
+
+def past_perfect_continuous(b):
+    """B1 Unit 59: past perfect continuous (had been + -ing): duration up to a past moment, the cause of a past situation, expectations (I'd been expecting / hoping); vs past perfect simple; state verbs."""
+    b.page(f"""{b.sec("+", "Grammar reference: the past perfect continuous", "")}
+<div class="box" style="margin-top:0"><h4>AN ACTIVITY IN PROGRESS BEFORE A MOMENT IN THE PAST</h4>The <b>past perfect continuous</b> is the past version of the present perfect continuous: it shows an activity that <b>continued up to</b> (or until just before) a moment in the past. It is common in stories, films and news.<br>
+<span class="small"><i>At the start of the film, the two sides <b>had been fighting</b> for six years. · Lena <b>had been working</b> there for twenty years when the war came.</i></span></div>
+{_h("1. FORM: HAD BEEN + -ING")}
+{_tbl(["", "example", "short forms"], [
+    ["<b>affirmative</b>", "<i>They <b>had been fighting</b> for six years.</i>", "<i>I'd been, she'd been, they'd been</i>"],
+    ["<b>negative</b>", "<i>We <b>hadn't been waiting</b> long.</i>", "<i>hadn't been</i>"],
+    ["<b>question</b>", "<i>How long <b>had</b> they <b>been fighting</b>? — Six years.</i>", "same form for all persons"]], "8.3pt")}
+{_h("2. USE")}
+{_tbl(["use", "example"], [
+    ["how long, up to a past moment (<b>for / since</b>)", "<i>When the truce was signed, they <b>had been negotiating</b> for three weeks.</i>"],
+    ["the <b>visible result</b> or cause of a past situation", "<i>His clothes were dirty. He <b>had been hiding</b> in the mountains.</i>"],
+    ["plans and expectations that didn't happen", "<i>I<b>'d been expecting</b> a big battle. · I<b>'d been hoping</b> for more action.</i>"]], "8.3pt")}
+{_h("3. CONTINUOUS OR SIMPLE?")}
+{_tbl(["past perfect continuous", "past perfect simple"], [
+    ["the <b>activity</b> and its duration (<b>how long?</b>)", "the <b>result</b> or a number (<b>how many? finished?</b>)"],
+    ["<i>She'd been treating soldiers <b>all day</b>.</i>", "<i>She'd treated <b>forty</b> soldiers by the evening.</i>"],
+    ["<i>The rebels had been attacking the bridge for weeks.</i>", "<i>The rebels had captured the bridge.</i> (finished)"]], "8.3pt")}
+<p class="small" style="margin:.6mm 0"><b>State verbs</b> (<i>know, be, have</i> = own, <i>believe, want</i>) don't use the continuous: <i>They <b>had known</b> each other for years.</i> (not <i>had been knowing</i>)</p>
+{_dont([("They were fighting for six years when the film starts.", "They <b>had been fighting</b> for six years when the film started."), ("She had been work there for years.", "She had been <b>working</b> there for years."), ("I had been knowing him since school.", "I <b>had known</b> him since school."), ("How long they had been waiting?", "How long <b>had they been</b> waiting?")])}""",
+    30, """<p>Portuguese often uses a simple past or a past continuous here, so Brazilians say <i>They were fighting for six years when…</i>. Show a timeline: the activity runs up to a past moment. Drill: give a past situation (<i>Danny was exhausted.</i>); the student explains it with <i>He'd been…</i> (<i>He'd been working all night.</i>). Encourage the weak form <i>/əd bɪn/</i>.</p>""")
