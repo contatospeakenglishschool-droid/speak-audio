@@ -1,0 +1,21 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore"
+ },
+ "pauses": {"04.2": 3000},
+ "images": {
+  "it-b2-unita-04": {
+   "A": "man reading newspaper coffee",
+   "B": "bologna historic palace facade",
+   "C": "writing letter fountain pen paper",
+   "D": "journalist notebook interview microphone"
+  }
+ },
+ "units": {
+  "it-b2-unita-04": {
+   "04.1 L'albergo sul giornale": "Narrator: Cronaca di Bologna, mercoledì 15 marzo. Centro storico: un albergo di lusso nel palazzo del Seicento? Un albergo di lusso con piscina sul tetto: è quello che starebbe nascendo in un palazzo del Seicento in pieno centro storico. Secondo indiscrezioni, i lavori, cominciati a febbraio, sarebbero già in ritardo di due mesi, e il proprietario, il dottor Galli, avrebbe speso più di dieci milioni di euro.\nNarrator: Pare che le camere siano una ventina, tutte con vista sulle torri, e si dice che una notte possa costare fino a mille euro. Alcuni vicini sostengono che sul tetto sia prevista una piscina; altri parlano di un ristorante panoramico. Secondo una fonte vicina al cantiere, all'inaugurazione parteciperebbe anche un famoso attore americano.\nNarrator: Non tutti, però, sono contenti. «Ho paura che ci siano feste fino alle due di notte», racconta una residente. «Per noi sarebbe un disastro.» Altri invece sono favorevoli: «Il palazzo era chiuso da anni. Meglio un albergo che un edificio abbandonato.»\nNarrator: Contattato dal nostro giornale, il dottor Galli non ha voluto commentare: «Leggerete tutto a settembre.» Anche lo studio di architettura che segue il progetto non ha rilasciato dichiarazioni. Una cosa è certa: il progetto ha il parere favorevole della Soprintendenza. Per tutto il resto, il condizionale è d'obbligo.",
+   "04.2 Ripeti": "Narrator: I lavori sarebbero già in ritardo.\nNarrator: Il proprietario avrebbe speso dieci milioni.\nNarrator: Pare che le camere siano una ventina.\nNarrator: Si dice che una notte possa costare mille euro.\nNarrator: All'inaugurazione parteciperebbe un attore americano.\nNarrator: Il condizionale è d'obbligo."
+  }
+ }
+}
