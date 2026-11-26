@@ -1,0 +1,28 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Ana": "en-US-Neural2-F",
+  "Bruno": "en-US-Chirp3-HD-Fenrir",
+  "Rafa": "en-US-Chirp3-HD-Umbriel",
+  "Mrs. Lima": "en-US-Chirp3-HD-Vindemiatrix",
+  "Carol": "en-US-Chirp3-HD-Leda",
+  "Operator": "en-US-Chirp3-HD-Charon",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-review-6": {
+   "R6.1 Sunday lunch at the hostel": "Mrs. Lima: Lunch is ready, everyone! And I have a surprise: a cake made by my cousin Dora.\nBruno: A cake from the Strange Games lady? It must be strange too!\nMrs. Lima: Very funny, Bruno. Pipoca, get down! Sorry. He must have smelled the cheese bread.\nDanny: He's getting faster every week. The more Bruno runs with him, the faster he gets.\nBruno: He's twice as fast as me now. It's embarrassing.\nRafa: Speaking of cheese bread... I'm still embarrassed about the bakery story. I've promised to check every message before I share it.\nMrs. Lima: Don't worry, Rafa. Mr. Nunes admitted selling more bread that day than at Christmas!\nDanny: My mom called this morning and asked about the Pantanal. I told her we'd heard the monkeys screaming at five a.m. and seen a jaguar walking along the river.\nRafa: I'd been planning to go with you, but the band had a gig that weekend.\nBruno: Next time! Hey Danny, how are the seven o'clock classes going?\nDanny: Much better. I get up at six now, and Ana calls me at one minute past six.\nMrs. Lima: And how many classes have you taught so far?\nDanny: About a hundred and fifty. By December, I'll have taught more than two hundred.\nMrs. Lima: Ana told me Carol had a terrible week in Orlando.\nDanny: Yes! There was a fire next door, someone broke into her car, and then there was an accident on the highway. She says she needs a vacation in São Paulo.\nRafa: She can come to our movie night. We watched a war film on Friday.\nMrs. Lima: Was it good?\nBruno: Too long. But Danny loved it.\nDanny: It's a great film! Now, who wants some of Dora's cake?\nBruno: Me! As long as it isn't upside down.",
+   "R6.2 Dictation: weak forms": "Narrator: Number one. He must have smelled the bread.\nNarrator: Number two. They'd been fighting for years.\nNarrator: Number three. By June, I'll have finished.\nNarrator: Number four. There's been an accident.\nNarrator: Number five. She advised us to check it.\nNarrator: Number six. It's twice as loud as a stadium.",
+   "R6.3 Dialogues": "Narrator: Dialogue one.\nOperator: Nine one one, what's your emergency?\nCarol: I'd like to report a break-in. My neighbor's window is broken.\nOperator: Is anyone hurt?\nCarol: I don't think so. But there might be someone inside.\nOperator: OK, ma'am. Stay outside. There'll be an officer there in ten minutes.\nNarrator: Dialogue two.\nAna: You look tired. Did you sleep well?\nDanny: Not really. I stayed up late watching the game, and this morning I overslept.\nAna: Who won?\nDanny: We beat them two to one! It was twice as exciting as last week."
+  }
+ },
+ "pauses": {
+  "R6.2": 6000
+ },
+ "images": {
+  "b1-review-6": {
+   "I": "homemade cake on table lunch"
+  }
+ }
+}
