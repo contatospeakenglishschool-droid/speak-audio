@@ -1820,3 +1820,23 @@ def condizionale_giornalistico_b2(b):
 {_tbl(["espressione", "+", "esempio"], pc, "7.4pt", ["30mm", "17mm", None])}</div></div>
 {_dont([("Pare che è vero.", "Pare che <b>sia</b> vero."), ("Avrebbe stato a Roma.", "<b>Sarebbe</b> stato a Roma."), ("A quanto pare che arriva.", "A quanto pare arriva."), ("Sarebe in ritardo.", "Sare<b>bb</b>e in ritardo.")])}""",
     28, """<p>In portoghese il futuro do pretérito ha lo stesso uso (<i>teria gastado</i>): partire da qui. Lavorare su tre punti: l'ausiliare del passato (<i>sarebbe stato</i>), il congiuntivo dopo <i>pare che / si dice che</i>, e l'indicativo dopo <i>a quanto pare</i>. Chiedere sempre: è un fatto o una voce?</p>""")
+
+
+def comparativi_frase_b2(b):
+    """B2 Indipendenza 05: comparativi con frase (più di quanto + cong., di quello che + ind., meglio di come), sempre più, più… più…"""
+    st = [("<b>più / meno di quanto</b>", "congiuntivo (anche condizionale)", "<i>Bologna è più cara <b>di quanto immaginassi</b>.</i>"),
+          ("<b>più / meno di quello che</b>", "indicativo", "<i>La spesa costa meno <b>di quello che pensavo</b>.</i>"),
+          ("<b>meglio / peggio di come</b>", "indicativo (o congiuntivo)", "<i>Guadagno meglio <b>di come guadagnavo</b> prima.</i>"),
+          ("<b>(tanto) quanto</b>", "indicativo", "<i>Lavoro <b>quanto lavoravo</b> in Brasile.</i>")]
+    tp = [("oggi", "<i>Costa più di quanto <b>pensi</b>.</i>"), ("prima (imperfetto, passato prossimo)", "<i>Costava più di quanto <b>pensassi</b>.</i>"),
+          ("un passato prima di un altro", "<i>È costato più di quanto <b>avessi immaginato</b>.</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: più di quanto · sempre più", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Il secondo termine del paragone può essere una <b>frase intera</b>: <i>è più cara <b>di quanto immaginassi</b></i>. La forma più elegante è <b>di quanto</b> + congiuntivo; nel parlato si usa anche <b>di quello che</b> + indicativo. Con <i>meglio / peggio</i> si usa spesso <b>di come</b>.</div>
+{_h("1. LE STRUTTURE")}
+{_tbl(["struttura", "modo", "esempio"], st, "7.8pt", ["40mm", "38mm", None])}
+<div class="two"><div>{_h("2. CHE TEMPO DOPO DI QUANTO?")}
+{_tbl(["quando", "esempio"], tp, "7.6pt", ["32mm", None])}</div>
+<div>{_h("3. SEMPRE PIÙ · PIÙ…, PIÙ…")}
+<p class="small" style="margin:.5mm 0"><b>sempre più / sempre meno</b> + aggettivo: <i>le case sono <b>sempre più</b> care</i>.<br><b>sempre di più / di meno</b> con il verbo: <i>tutto costa <b>sempre di più</b></i>.<br><b>più…, più…</b> (senza <i>quanto</i>): <i><b>Più</b> aspetto, <b>più</b> spendo. <b>Meno</b> esco, <b>più</b> risparmio.</i><br><b>più che</b> tra due aggettivi o verbi: <i>è più stanca <b>che</b> triste</i>.</p></div></div>
+{_dont([("È più caro che pensavo.", "È più caro <b>di quanto</b> pensassi."), ("Ogni volta più caro.", "<b>Sempre più</b> caro."), ("Quanto più aspetto, più spendo.", "<b>Più</b> aspetto, più spendo."), ("È più meglio di prima.", "È <b>meglio</b> di prima.")])}""",
+    28, """<p>Partire dal portoghese <i>mais do que eu pensava</i>: in italiano serve <i>di</i> (non <i>che</i>) e, nella forma curata, il congiuntivo. Accettare <i>di quello che pensavo</i> nel parlato, ma chiedere <i>di quanto pensassi</i> nello scritto. <i>Cada vez mais</i> = <i>sempre più</i>; <i>quanto mais…, mais…</i> = <i>più…, più…</i>.</p>""")

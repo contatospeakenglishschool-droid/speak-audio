@@ -1,0 +1,85 @@
+# Speak! Indipendenza B2 - Unità 05 "Più di quanto pensassi" - formato ridotto (italiano/lean_b1.py, level="B2")
+import os, sys
+HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, os.path.join(HERE, "..", ".."))
+from engine_it import *
+import speak_engine as _se
+import lean_b1
+_se.SERIES = "Indipendenza"
+setup(band="B2 · UNITÀ 05", audio_json=os.path.join(HERE, "audio_it-b2-unita-05.json"), img_dir=os.path.join(HERE, "img"), lang="it-IT")
+SCRIPT, S2 = lean_b1.load_script(HERE, "it-b2-unita-05", "05.1 Più di quanto pensassi", "05.2 Ripeti")
+
+C = dict(
+    level="B2", words="150–200",
+    nn="05", title="Più di quanto pensassi", subtitle="Il bilancio di Júlia · <b>il comparativo con una frase, sempre più, più… più…</b>",
+    cover=[("SAI FARE", "confrontare il costo della vita in due città"),
+           ("LINGUA", "più di quanto pensassi · meglio di come · sempre più"),
+           ("PRONUNCIA", "l'accento su <i>più</i>: <i>PIÙ aspetto, PIÙ spendo</i>")],
+    t1="i soldi di ogni mese",
+    start=["Guarda la foto. Riesci a risparmiare ogni mese? Per che cosa?", "Che cosa è aumentato di più negli ultimi anni nella tua città?",
+           "Fai un bilancio delle tue spese? Su carta, con un'app o a memoria?"],
+    kw=[("i soldi che entrano e che escono in un mese, scritti in ordine", "il bilancio"), ("mettere da parte i soldi", "risparmiare"),
+        ("i conti di luce, gas e acqua", "le bollette"), ("lo stipendio in più che arriva a dicembre", "la tredicesima"),
+        ("quello che si paga ogni mese per vivere in una casa non propria", "l'affitto"), ("quando un prezzo sale", "l'aumento")],
+    use_words=["Quali bollette sono più care a casa tua? In quale mese?", "Come useresti una tredicesima in più quest'anno?"],
+    n1=["A: <i>la bolletta</i> = conta (de luz, gás); <i>il conto</i> = conta do restaurante / conta bancária · <i>risparmiare</i> = economizar.", "Ripresa: Júlia pensa di comprare casa (B2 02) e il contratto a tempo indeterminato."],
+    aims=["Più di quanto pensassi: il bilancio di Júlia · Parliamone", "più / meno di quanto + congiuntivo · di quello che, di come · sempre più · più…, più…",
+          "Il confronto tra due città · ripeti (05.2) · l'accento su più", "L'avviso di Giulia ai clienti · riscrivi · scrittura (150–200 parole)"],
+    story="Sabato 25 marzo 2028, al Bar Giulia. Júlia fa il suo bilancio su un quaderno: per comprare casa deve risparmiare più di quanto risparmi adesso. Bologna è più cara di quanto immaginasse quando è arrivata: l'affitto costa quasi il doppio che a Belo Horizonte, ma il supermercato costa meno di quello che pensava e la frutta è più buona. A Belo Horizonte si mangia fuori più spesso; qui lei mangia fuori meno di una volta (tranne al Bar Giulia). Da aprile il caffè di Giulia costa dieci centesimi in più: il caffè all'ingrosso e la luce sono sempre più cari. I prezzi delle case salgono: «Più aspetto, più spendo.» Con il nuovo contratto guadagna meglio di prima, e la tredicesima aiuta; va quasi sempre a piedi. Non ha ancora detto niente alla signora Rossi: «per me è come una nonna». Giulia le offre il caffè al vecchio prezzo.",
+    prob="<i>Mais do que eu pensava</i> → più <b>di quanto</b> pensassi / più <b>di quello che</b> pensavo (non <s>più che pensavo</s>): davanti a una frase serve <i>di</i>. <i>Cada vez mais caro</i> → <b>sempre più</b> caro (non <s>ogni volta più caro</s>). <i>Quanto mais espero, mais gasto</i> → <b>più</b> aspetto, <b>più</b> spendo (senza <i>quanto</i>). <i>Melhor do que eu esperava</i> → meglio <b>di come</b> / <b>di quanto</b> sperassi. E mai <s>più meglio</s> o <s>più migliore</s>.",
+    real="Al bar il caffè <b>al banco</b> costa meno che al tavolo. Molti contratti di lavoro prevedono la <b>tredicesima</b>, pagata a dicembre, come in Brasile. Chi compra la <b>prima casa</b> non paga l'<b>IMU</b>, l'imposta comunale sugli immobili (tranne per le case di lusso), ma paga le <b>spese condominiali</b>.",
+    tr=("Più di quanto pensassi", "Ripeti: i confronti"),
+    gist=("Sabato, al Bar Giulia. Ascolta. Che cosa sta facendo Júlia?",
+          ["i conti per capire quanto può risparmiare", "i compiti per un corso di matematica", "il preventivo per un cliente"]),
+    detail=("vf", "Ascolta di nuovo. Vero (V) o falso (F)? Correggi le frasi false.",
+            [("Júlia risparmia più di quanto pensasse.", "F"), ("A Bologna l'affitto costa quasi il doppio che a Belo Horizonte.", "V"),
+             ("Il supermercato costa meno di quello che Júlia pensava.", "V"), ("Da aprile il caffè di Giulia costa dieci centesimi in meno.", "F"),
+             ("Con il nuovo contratto Júlia guadagna meglio di prima.", "V"), ("Júlia ha già parlato con la signora Rossi.", "F")]),
+    talk2=["Perché per Júlia è difficile parlare con la signora Rossi?", "Giulia ha fatto bene ad aumentare il prezzo del caffè? Perché?",
+           "Che cosa costa di più (o di meno) nella tua città rispetto a Bologna?"],
+    n2=["B: 1 meno di quanto pensasse · 4 dieci centesimi in più · 6 «Non ancora».", "Talk2: la signora Rossi è la sua padrona di casa da tre anni; Júlia la sente «come una nonna»."],
+    gref="comparativi_frase_b2",
+    t4="più di quanto, sempre più",
+    pA=("Completa con la forma giusta.",
+        [("Bologna è più cara di quanto ___ (io, immaginare) prima di partire.", "immaginassi"), ("Il corso è più facile di quello che ___ (noi, pensare).", "pensavamo"),
+         ("Il progetto è andato meglio di come ___ (tutti, sperare).", "speravano"), ("Ogni anno le case costano di più: sono ___ care.", "sempre più"),
+         ("___ lavori, più guadagni.", "Più")]),
+    pAw="24mm",
+    pB=[("Costa più ", ["di quanto", "che"], "di quanto", " pensassi."),
+        ("Il caffè è ", ["sempre più", "ogni volta più"], "sempre più", " caro."),
+        ("È andata ", ["meglio", "più meglio"], "meglio", " di come credevo.")],
+    rule="Davanti a una frase il paragone vuole <b>di</b>: <b>più / meno di quanto</b> + congiuntivo (<i>più di quanto pensassi</i>), <b>di quello che</b> + indicativo (<i>meno di quello che pensavo</i>), <b>meglio / peggio di come</b> (<i>meglio di come guadagnavo</i>). <b>Sempre più</b> + aggettivo, <b>sempre di più</b> con il verbo. <b>Più…, più…</b> senza <i>quanto</i>: <i>più aspetto, più spendo</i>.",
+    use=["La tua città è più cara o meno cara di quanto pensassi da giovane? Perché?", "Che cosa è andato meglio di come pensavi quest'anno?",
+         "Che cosa costa sempre di più nella tua vita?", "Completa: Più lavoro, più… · Meno dormo, più…",
+         "Quale lingua (o quale lavoro) è stata più difficile di quanto immaginassi?"],
+    n4="A: 1 passato → congiuntivo imperfetto · 2 <i>di quello che</i> + indicativo · 3 <i>di come</i> + indicativo · 4 <i>sempre più</i> + aggettivo · 5 <i>più…, più…</i> senza <i>quanto</i>. B: davanti a una frase <i>di quanto</i>, mai <i>che</i>.",
+    t5="il confronto tra due città",
+    fl=(["confrontare con una frase", "parlare di cambiamenti", "causa ed effetto", "concludere"],
+        ["… costa più di quanto pensassi. · … meno di quello che credevo.", "… è sempre più caro. · I prezzi salgono sempre di più.",
+         "Più guadagni, più spendi. · Meno esci, più risparmi.", "Tutto sommato, si vive meglio di come… · Dipende da…"]),
+    pron=("Nella struttura <i>più…, più…</i> l'accento forte cade sui due <i>più</i>, con una piccola pausa in mezzo: <i>PIÙ aspetto, | PIÙ spendo</i>. In <i>di quanto</i> la voce non si ferma: <i>più-di-quanto-pensassi</i>.",
+          "Ascolta e ripeti. Poi leggi: «Più aspetto, più spendo: le case sono sempre più care.»"),
+    task=("Il confronto: l'insegnante è un/una italiano/a che vuole trasferirsi nella tua città. Ti fa domande sul costo della vita: casa, spesa, ristoranti, trasporti, stipendi. Rispondi confrontando con Bologna. Poi scambiatevi i ruoli.",
+          "<ul style='line-height:1.45;font-size:8.9pt;margin:0;columns:2'><li>Quanto costa un affitto?</li><li>E la spesa al supermercato?</li><li>Si mangia fuori spesso?</li><li>Come ci si muove?</li><li>Gli stipendi bastano?</li><li>Che cosa ti ha sorpreso?</li></ul>",
+          "Insegnante: È più cara di quanto pensassi? Lo studente: Costa più di quanto immaginassi · meno di quello che pensavo · sempre più · più…, più… Correggere <i>più che pensavo</i> e <i>ogni volta più</i>."),
+    talk5=["Meglio vivere in una città cara con stipendi alti o in una economica con stipendi bassi?", "Il costo della vita può essere una ragione per cambiare paese?"],
+    n5=["Far sentire la pausa nei <i>più…, più…</i>: è il ritmo che li rende naturali.", "Pretendere almeno tre comparativi con frase e due <i>sempre più / più…, più…</i>; nessun prezzo inventato come «vero»: si parla di esperienze."],
+    hA=("L'avviso di Giulia ai clienti del bar. Scegli la forma giusta.",
+        "<i>Cari clienti, dal 3 aprile il caffè al banco costerà dieci centesimi in più. Lo so, è più {0} vorrei anch'io. Ma il caffè all'ingrosso è {1} caro, e anche la luce. {2} aspetto, più perdo: ho resistito più a lungo di quanto {3}. Il nostro caffè, però, resta il {4} della zona. Grazie per la comprensione! Giulia</i>",
+        [(["di quanto", "che"], "di quanto"), (["sempre più", "ogni volta più"], "sempre più"), (["Più", "Di più"], "Più"), (["pensassi", "pensi"], "pensassi"), (["migliore", "meglio"], "migliore")]),
+    hB=("Riscrivi la frase con la struttura tra parentesi.",
+        [("Ogni anno le case sono più care. (sempre più)", "Le case sono sempre più care."),
+         ("Se lavori di più, guadagni di più. (più…, più…)", "Più lavori, più guadagni."),
+         ("Pensavo che fosse difficile, ma è stato facile. (di quanto)", "È stato più facile di quanto pensassi.")]),
+    watch=[("È più caro che pensavo.", "È più caro <b>di quanto</b> pensassi.", "davanti a una frase: <i>di quanto / di quello che</i>."),
+           ("I prezzi sono ogni volta più alti.", "I prezzi sono <b>sempre più</b> alti.", "<i>cada vez mais</i> → <i>sempre più</i>."),
+           ("Quanto più risparmio, più sono tranquilla.", "<b>Più</b> risparmio, più sono tranquilla.", "<i>quanto mais…, mais…</i> → <i>più…, più…</i>.")],
+    write=("Confronta il costo della vita nella tua città e in una città italiana (o in un'altra città che conosci): casa, spesa, trasporti, tempo libero. Che cosa ti ha sorpreso?",
+           "Quando sono arrivato/a a…", ["almeno tre comparativi con una frase (<i>più di quanto…, meno di quello che…, meglio di come…</i>)",
+                                        "almeno due frasi con <i>sempre più</i> o <i>più…, più…</i>", "una conclusione: dove si vive meglio, secondo te?"]),
+    cando="So confrontare il costo della vita in due città con il comparativo con una frase, sempre più e più…, più….",
+    nH="Prossima unità: <i>Che io sappia</i> (congiuntivo nelle frasi principali; voci in studio).",
+)
+
+if __name__ == "__main__":
+    render(lean_b1.make_build(C, SCRIPT, S2), sys.argv[1] if len(sys.argv) > 1 else "B2 Indipendenza 05 - Più di quanto pensassi")

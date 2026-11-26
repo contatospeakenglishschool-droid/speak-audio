@@ -1,0 +1,23 @@
+{
+ "material": "speak-essenziale",
+ "characters": {
+  "Narrator": "it-IT-Chirp3-HD-Kore",
+  "Júlia": "it-IT-Chirp3-HD-Aoede",
+  "Giulia": "it-IT-Chirp3-HD-Leda"
+ },
+ "pauses": {"05.2": 3000},
+ "images": {
+  "it-b2-unita-05": {
+   "A": "piggy bank coins calculator",
+   "B": "woman notebook coffee cafe table",
+   "C": "espresso cup bar counter",
+   "D": "shopping cart supermarket aisle"
+  }
+ },
+ "units": {
+  "it-b2-unita-05": {
+   "05.1 Più di quanto pensassi": "Narrator: Sabato 25 marzo, al Bar Giulia. Júlia è seduta a un tavolino con un quaderno pieno di numeri.\nGiulia: Che cosa sono tutti questi conti? Compiti di matematica?\nJúlia: Magari! È il mio bilancio. Se voglio comprare casa, devo risparmiare più di quanto risparmi adesso.\nGiulia: E quanto risparmi adesso?\nJúlia: Meno di quanto pensassi. Guarda: l'affitto, le bollette, la palestra... Bologna è molto più cara di quanto immaginassi quando sono arrivata.\nGiulia: Più cara di Belo Horizonte?\nJúlia: Dipende. L'affitto qui costa quasi il doppio. Ma il supermercato costa meno di quello che pensavo, e la frutta è più buona.\nGiulia: E i ristoranti?\nJúlia: A Belo Horizonte si mangia fuori spesso, e si spende meno. Qui mangio fuori meno di una volta... tranne al Bar Giulia, naturalmente.\nGiulia: Naturalmente. Però ti avviso: da aprile il caffè costa dieci centesimi in più.\nJúlia: Anche tu! Ormai tutto costa sempre di più.\nGiulia: Lo so. Il caffè all'ingrosso è sempre più caro, e la luce pure. Ho resistito più a lungo di quanto pensassi, credimi.\nJúlia: Ti credo. E i prezzi delle case sono sempre più alti. Più aspetto, più spendo.\nGiulia: Allora non aspettare troppo. E il lavoro? Con il nuovo contratto guadagni di più?\nJúlia: Sì, guadagno meglio di come guadagnavo prima. E la tredicesima aiuta.\nGiulia: E per muoverti? Spendi tanto?\nJúlia: Quasi niente. Vado quasi sempre a piedi: il centro è più piccolo di quanto sembri sulla mappa.\nGiulia: E la signora Rossi? Le hai detto qualcosa?\nJúlia: Non ancora. È più difficile di quanto sembri. Per me è come una nonna.\nGiulia: Glielo dirai quando sarai pronta. Intanto il caffè di oggi te lo offro io. Al vecchio prezzo.\nJúlia: Allora ne prendo due!",
+   "05.2 Ripeti": "Narrator: Devo risparmiare più di quanto risparmi adesso.\nNarrator: Bologna è più cara di quanto immaginassi.\nNarrator: Il supermercato costa meno di quello che pensavo.\nNarrator: Ormai tutto costa sempre di più.\nNarrator: Più aspetto, più spendo.\nNarrator: Guadagno meglio di come guadagnavo prima."
+  }
+ }
+}
