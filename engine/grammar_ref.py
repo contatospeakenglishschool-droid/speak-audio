@@ -2256,3 +2256,24 @@ def past_perfect_continuous(b):
 <p class="small" style="margin:.6mm 0"><b>State verbs</b> (<i>know, be, have</i> = own, <i>believe, want</i>) don't use the continuous: <i>They <b>had known</b> each other for years.</i> (not <i>had been knowing</i>)</p>
 {_dont([("They were fighting for six years when the film starts.", "They <b>had been fighting</b> for six years when the film started."), ("She had been work there for years.", "She had been <b>working</b> there for years."), ("I had been knowing him since school.", "I <b>had known</b> him since school."), ("How long they had been waiting?", "How long <b>had they been</b> waiting?")])}""",
     30, """<p>Portuguese often uses a simple past or a past continuous here, so Brazilians say <i>They were fighting for six years when…</i>. Show a timeline: the activity runs up to a past moment. Drill: give a past situation (<i>Danny was exhausted.</i>); the student explains it with <i>He'd been…</i> (<i>He'd been working all night.</i>). Encourage the weak form <i>/əd bɪn/</i>.</p>""")
+
+
+def habits_will_would(b):
+    """B1 Unit 61: talking about habits: present simple + adverbs, tend to, will / won't for typical behavior; be always / constantly + -ing and keep + -ing for annoying or repeated habits; used to vs would for past habits (would: actions only, not states)."""
+    b.page(f"""{b.sec("+", "Grammar reference: habits with will, would, always and keep", "")}
+<div class="box" style="margin-top:0"><h4>MORE WAYS TO TALK ABOUT HABITS</h4>The present simple and <i>used to</i> are not the only ways. Native speakers often use <b>will</b> and <b>would</b> for typical behavior, and <b>always + -ing</b> or <b>keep + -ing</b> when a habit is very frequent or annoying.<br>
+<span class="small"><i>She<b>'ll always ask</b> the same question. · Back home, I<b>'d buy</b> things I didn't need. · I <b>keep checking</b> my phone.</i></span></div>
+{_h("1. PRESENT HABITS")}
+{_tbl(["form", "use", "example"], [
+    ["present simple + <b>always / usually / never</b>", "a normal habit", "<i>I <b>usually get up</b> at six.</i>"],
+    ["<b>tend to</b> + verb", "a general habit or pattern", "<i>I <b>tend to eat</b> too fast.</i>"],
+    ["<b>will / won't</b> + verb", "typical, predictable behavior", "<i>Mrs. Lima <b>will put</b> rice and beans on the table every day. She <b>won't accept</b> no.</i>"],
+    ["<b>be always / constantly</b> + -ing", "a very frequent habit, often annoying", "<i>Bruno <b>is always telling</b> me to go out. You<b>'re constantly checking</b> your phone!</i>"],
+    ["<b>keep (on)</b> + -ing", "something that happens again and again", "<i>I <b>keep forgetting</b> my keys.</i>"]], "8.1pt")}
+{_h("2. PAST HABITS: USED TO OR WOULD?")}
+{_tbl(["used to", "would ('d)"], [
+    ["habits <b>and</b> states", "habits (repeated actions) <b>only</b>"],
+    ["<i>I <b>used to buy</b> things on sale. · I <b>used to have</b> a dog.</i>", "<i>I<b>'d buy</b> things on sale. · <s>I would have a dog.</s></i> ✗ (state)"],
+    ["can start a story", "common after the context is clear: <i>When I was a kid, we<b>'d spend</b> every Sunday at the beach.</i>"]], "8.3pt")}
+{_dont([("I would live in Chicago.", "I <b>used to live</b> in Chicago. (a state)"), ("He always is complaining.", "He <b>is always</b> complaining."), ("I use to wake up at six. (now)", "I <b>usually</b> wake up at six."), ("She keeps to call me.", "She <b>keeps calling</b> me."), ("I'm used to drink coffee at night. (a habit)", "I <b>usually drink</b> / I <b>tend to drink</b> coffee at night.")])}""",
+    30, """<p>Brazilians often say <i>I use to</i> for present habits and confuse it with <i>I'm used to</i> (accustomed to). Insist: present habits = <i>usually / tend to</i>; past habits = <i>used to / would</i>. Drill: the student describes a family member with <i>He'll always… / She's always… -ing / He keeps… -ing</i>, then a childhood Sunday with <i>We'd…</i>.</p>""")

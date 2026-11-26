@@ -1,0 +1,21 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-61": {
+   "61.1 Danny's blog: eight habits I picked up in Brazil": "Danny: Eight habits I picked up in Brazil. When I arrived in São Paulo, my habits were a disaster. Here are eight good ones I've picked up from the people around me.\nDanny: Thanks to my seven a.m. classes, I'm now an early riser. Ana calls me at one minute past six, and she'll always ask the same question: \"Are you out of bed?\" Getting up early gives me an extra hour that I never used to have.\nDanny: Back home, I'd buy things I didn't need just because they were on sale. Here, I'm saving for a trip to the Amazon, so I write down everything I spend. It's boring, but it works.\nDanny: Mrs. Lima will put rice, beans and a salad on the table every day, and she won't accept \"I'm not hungry\" as an answer. I've stopped snacking on junk food at night. Well, almost.\nDanny: Bruno is always telling me to get out of the city. On our trip to the Pantanal, I spent a week without a screen, and I didn't miss it at all.\nDanny: Bruno runs every morning with Pipoca, and he kept inviting me until I said yes. Now I go twice a week. Pipoca is still faster than both of us.\nDanny: Grandma Lourdes is ninety-seven, and she still does a crossword every morning to learn new words. When I complain about Portuguese verbs, I think of her and study for fifteen more minutes.\nDanny: Rafa has a rule: one evening a week is just for music, and nothing can change it. I've copied him. On Thursday evenings, I switch off my phone and read.\nDanny: My grandfather would always say, \"Stop worrying about tomorrow and enjoy your coffee.\" I didn't understand him then. I do now. My worst habit? I keep checking my phone during dinner. Mrs. Lima is always complaining about it, and she's right.",
+   "61.2 Repeat: habits": "Narrator: She'll always ask the same question.\nNarrator: I'd buy things I didn't need.\nNarrator: He's always telling me to run.\nNarrator: I keep checking my phone.\nNarrator: She won't accept no.\nNarrator: He would always say the same thing."
+  }
+ },
+ "images": {
+  "b1-unit-61": {
+   "A": "woman biting nails",
+   "B": "man running with dog park",
+   "C": "habit tracker notebook",
+   "D": "person checking phone at dinner table"
+  }
+ }
+}
