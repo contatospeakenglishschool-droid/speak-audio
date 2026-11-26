@@ -1796,3 +1796,27 @@ def verbi_preposizione_b2(b):
 <p class="small" style="margin:.5mm 0"><b>ci</b> sostituisce cose e idee dopo <i>a, su, in</i>: <i>Al lavoro? Ci penso sempre.</i><br><b>ne</b> sostituisce cose dopo <i>di, da</i>: <i>Della tesi? Ne parliamo domani.</i><br>Con le <b>persone</b> si usano i pronomi tonici: <i>penso <b>a lei</b>, conto <b>su di te</b>, mi fido <b>di lui</b></i>.<br>Con <i>su, sotto, dopo, senza</i> + pronome: <i>su <b>di</b> me, senza <b>di</b> te</i>.</p></div></div>
 {_dont([("Penso in te.", "Penso <b>a</b> te."), ("Dipende di te.", "Dipende <b>da</b> te."), ("Conto con te.", "Conto <b>su di</b> te."), ("Mi fido in lui.", "Mi fido <b>di</b> lui.")])}""",
     28, """<p>Il verbo con preposizione si impara in blocco, come una parola sola: <i>contare su, dipendere da</i>. Gli errori nascono dal calco del portoghese (<i>pensar em, depender de, contar com, confiar em</i>). Con <i>ci</i> e <i>ne</i> distinguere cose (<i>ci penso</i>) e persone (<i>penso a lei</i>).</p>""")
+
+
+def condizionale_giornalistico_b2(b):
+    """B2 Indipendenza 04: condizionale giornalistico (presente e passato); pare che / si dice che + congiuntivo; a quanto pare + indicativo."""
+    fm = [("essere", "<i>sarebbe, sarebbero</i>", "<i>sarebbe stato/a, sarebbero stati/e</i>"),
+          ("avere", "<i>avrebbe, avrebbero</i>", "<i>avrebbe avuto</i>"),
+          ("spendere", "<i>spenderebbe</i>", "<i>avrebbe speso</i>"),
+          ("cominciare", "<i>comincerebbe</i>", "<i>sarebbero cominciati</i> (i lavori) · <i>avrebbe cominciato</i> (l'impresa)"),
+          ("venire", "<i>verrebbe</i>", "<i>sarebbe venuto/a</i>"),
+          ("partecipare", "<i>parteciperebbe</i>", "<i>avrebbe partecipato</i>")]
+    pc = [("<b>pare che, sembra che</b>", "congiuntivo", "<i>Pare che le camere <b>siano</b> una ventina.</i>"),
+          ("<b>si dice che, gira voce che</b>", "congiuntivo", "<i>Si dice che <b>abbia speso</b> dieci milioni.</i>"),
+          ("<b>a quanto pare</b> (senza <i>che</i>)", "indicativo", "<i>A quanto pare, il cantiere <b>va</b> avanti.</i>"),
+          ("<b>secondo</b> + fonte, <b>stando a</b>", "condizionale", "<i>Secondo una fonte, <b>parteciperebbe</b> un attore.</i>")]
+    b.page(f"""{b.sec("+", "Riferimento grammaticale: il condizionale giornalistico · pare che", "")}
+<div class="box" style="margin-top:0"><h4>CHE COS'È?</h4>Nei giornali il <b>condizionale</b> serve a dare una notizia <b>non confermata</b>: il giornalista riferisce, ma non garantisce. <i>I lavori <b>sarebbero</b> in ritardo</i> = qualcuno lo dice, il giornale non ne è sicuro. Lo stesso valore hanno <b>pare che / si dice che</b> + congiuntivo. I fatti sicuri vanno all'<b>indicativo</b>.</div>
+{_h("1. LE FORME (TERZA PERSONA, LA PIÙ USATA)")}
+{_tbl(["verbo", "condizionale presente", "condizionale passato"], fm, "7.8pt", ["24mm", "46mm", None])}
+<div class="two"><div>{_h("2. PRESENTE O PASSATO?")}
+<p class="small" style="margin:.5mm 0"><b>Presente</b>: notizia di oggi o del futuro.<br><i>L'albergo <b>aprirebbe</b> a settembre. Una notte <b>costerebbe</b> mille euro.</i><br><b>Passato</b>: fatto già successo.<br><i>Il proprietario <b>avrebbe speso</b> dieci milioni. I lavori <b>sarebbero cominciati</b> in ritardo.</i><br>Altri usi già noti: cortesia (<i>vorrei</i>), ipotesi (<i>se potessi, <b>comprerei</b></i>), futuro nel passato (<i>ha detto che <b>sarebbe venuto</b></i>).</p></div>
+<div>{_h("3. LE ESPRESSIONI DELLA VOCE")}
+{_tbl(["espressione", "+", "esempio"], pc, "7.4pt", ["30mm", "17mm", None])}</div></div>
+{_dont([("Pare che è vero.", "Pare che <b>sia</b> vero."), ("Avrebbe stato a Roma.", "<b>Sarebbe</b> stato a Roma."), ("A quanto pare che arriva.", "A quanto pare arriva."), ("Sarebe in ritardo.", "Sare<b>bb</b>e in ritardo.")])}""",
+    28, """<p>In portoghese il futuro do pretérito ha lo stesso uso (<i>teria gastado</i>): partire da qui. Lavorare su tre punti: l'ausiliare del passato (<i>sarebbe stato</i>), il congiuntivo dopo <i>pare che / si dice che</i>, e l'indicativo dopo <i>a quanto pare</i>. Chiedere sempre: è un fatto o una voce?</p>""")

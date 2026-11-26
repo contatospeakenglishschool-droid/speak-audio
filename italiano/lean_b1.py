@@ -18,6 +18,8 @@ def make_build(C, SCRIPT, S2):
     nn = C["nn"]
     lv = C.get("level", "B1")          # B2 Indipendenza reuses this layout (2026-11-25)
     wn = C.get("words", "100–150")
+    RD = C.get("reading")              # B2: pagina 2 come LETTURA (articolo con audio), dict(head, kicker, body, page_title)
+    p2 = "Lettura" if RD else "Ascolto"
 
     def build(teacher):
         b = Book(teacher)
@@ -54,7 +56,7 @@ def make_build(C, SCRIPT, S2):
         26, notes(["Per cominciare: 4 minuti di conversazione libera, non è un test. Annotare gli errori per la conclusione orale."] + C["n1"]), cover=cover)
 
         rows = [("1 Riscaldamento", "classe", "7 min", "Conversazione · 6 parole chiave · domande con le parole", "1"),
-                ("2 Ascolto", "classe", "12 min", C["aims"][0], "2"),
+                (f"2 {p2}", "classe", "12 min", C["aims"][0], "2"),
                 ("3 Riferimento grammaticale", "classe", "8 min", C["aims"][1] + " (spiegare con gli esempi del dialogo)", "3"),
                 ("4 Pratica", "classe", "10 min", "Completa, scegli · Usalo (a voce)", "4"),
                 ("5 Parlare", "classe", "18 min", C["aims"][2], "5"),
@@ -63,11 +65,11 @@ def make_build(C, SCRIPT, S2):
         rws = "".join(f"<tr><td>{a}</td><td>{d}</td><td>{t}</td><td>{o}</td><td>{p}</td></tr>" for a, d, t, o, p in rows)
         b.extra("Panoramica della lezione · 55–60 min", f"""
 <table><tr><th>Fase</th><th>Dove</th><th>Tempo</th><th>Obiettivo</th><th>Pagina</th></tr>{rws}</table>
-<div class="box"><h4>IL FORMATO {lv}</h4>Le lezioni {lv} hanno <b>5 pagine per la classe</b> (riscaldamento, ascolto, riferimento grammaticale, pratica, parlare) e <b>1 pagina per casa</b> (compiti). Ogni pagina della classe finisce con un riquadro di domande: lo studente parla per la maggior parte del tempo. La pratica in più, la scelta delle parole e la scrittura sono a casa. All'inizio della lezione successiva si controllano i compiti in 3–5 minuti.</div>
+<div class="box"><h4>IL FORMATO {lv}</h4>Le lezioni {lv} hanno <b>5 pagine per la classe</b> (riscaldamento, {p2.lower()}, riferimento grammaticale, pratica, parlare) e <b>1 pagina per casa</b> (compiti). Ogni pagina della classe finisce con un riquadro di domande: lo studente parla per la maggior parte del tempo. La pratica in più, la scelta delle parole e la scrittura sono a casa. All'inizio della lezione successiva si controllano i compiti in 3–5 minuti.</div>
 <div class="box sand"><h4>LA STORIA CONTINUA</h4>{C["story"]}</div>
 <div class="box"><h4>IL PROBLEMA PER I BRASILIANI</h4>{C["prob"]}</div>
 <div class="box"><h4>LA REALTÀ ITALIANA</h4>{C["real"]}</div>
-<div class="box"><h4>AUDIO</h4>Traccia {nn}.1 {C["tr"][0]} (naturale e lenta) · Traccia {nn}.2 {C["tr"][1]}</div>""")
+<div class="box"><h4>AUDIO</h4>Traccia {nn}.1 {C["tr"][0]} ({"il testo della lettura, " if RD else ""}naturale e lenta) · Traccia {nn}.2 {C["tr"][1]}</div>""")
 
         # Pagina 2 - Ascolto
         gq, gopts = C["gist"]
@@ -76,7 +78,22 @@ def make_build(C, SCRIPT, S2):
             det = "<table style='margin:0;font-size:8.8pt'>" + "".join(f"<tr><td>{i+1}. {s}</td><td style='width:16mm;text-align:center'>{ch(['V', 'F'], a)}</td></tr>" for i, (s, a) in enumerate(ditems)) + "</table>"
         else:
             det = "<ol style='line-height:1.55;font-size:8.8pt;margin:0'>" + "".join(f"<li>{s} {A(a, 'min-width:16mm')}</li>" for s, a in ditems) + "</ol>"
-        b.page(f"""{sec(2, "Ascolto: " + C["tr"][0], "12 min")}
+        if RD:
+            b.page(f"""{sec(2, "Lettura: " + C["tr"][0], "12 min")}
+<div style="display:flex;gap:3mm;align-items:flex-start"><div style="flex:1">
+{sub("A", gq, "2 min", f"{nn}.1")}
+<p style="margin:.3mm 0;font-size:8.9pt">{ch(gopts, gopts[0])}</p>
+{audiocard([f"{nn}.1 · NATURAL", f"{nn}.1 · SLOW"])}</div>{img('B', 40, 27)}</div>
+<div class="box" style="background:#fbfaf6;border-left:3px solid #176074;margin:1mm 0;padding:2mm 3mm">
+<p style="margin:0;font-size:7pt;letter-spacing:.08em;color:#176074"><b>{RD["kicker"]}</b></p>
+<p style="margin:.3mm 0 1mm;font-size:12pt;line-height:1.15"><b>{RD["head"]}</b></p>
+<div style="columns:2;column-gap:5mm;font-size:8.5pt;line-height:1.38;text-align:justify">{RD["body"]}</div></div>
+{sub("B", dinstr, "4 min")}
+{det}
+{talk(C["talk2"])}""",
+            29, notes(["A: 2 minuti di lettura veloce, solo per l'idea generale. B: 5 minuti; poi l'audio come modello (naturale; la lenta per la pronuncia). " + C["n2"][0]] + C["n2"][1:] + ["Parliamone: 5 minuti; prendere il punto di vista opposto per far parlare di più lo studente."]))
+        else:
+            b.page(f"""{sec(2, "Ascolto: " + C["tr"][0], "12 min")}
 <div style="display:flex;gap:3mm;align-items:flex-start"><div style="flex:1">
 {audiocard([f"{nn}.1 · NATURAL", f"{nn}.1 · SLOW"])}
 {sub("A", gq, "2 min", f"{nn}.1")}
@@ -84,7 +101,7 @@ def make_build(C, SCRIPT, S2):
 {sub("B", dinstr, "4 min")}
 {det}
 {talk(C["talk2"])}""",
-        29, notes(["A–B: 6 minuti. Prima la versione naturale; la lenta solo se serve. " + C["n2"][0]] + C["n2"][1:] + ["Parliamone: 6 minuti; prendere il punto di vista opposto per far parlare di più lo studente."]))
+            29, notes(["A–B: 6 minuti. Prima la versione naturale; la lenta solo se serve. " + C["n2"][0]] + C["n2"][1:] + ["Parliamone: 6 minuti; prendere il punto di vista opposto per far parlare di più lo studente."]))
 
         # Pagina 3 - Riferimento grammaticale (in classe)
         _sec = b.sec
