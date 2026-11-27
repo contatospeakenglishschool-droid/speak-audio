@@ -1,0 +1,21 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-63": {
+   "63.1 Danny's blog: predictions that went wrong": "Danny: Grandma Lourdes and the predictions that went wrong. Last Sunday I visited Grandma Lourdes again. She's ninety-seven, so she has heard a lot of predictions in her life. Most of them were wrong. Here are my favorites.\nDanny: When Lourdes was a girl on the farm, the radio was the center of family life. Her father was sure that the television would never replace it. \"Nobody will sit and stare at a box all evening,\" he said. Today she watches the news on a tablet.\nDanny: In the sixties, a neighbor told her that by the year two thousand, people would drive flying cars. \"I'm still waiting,\" she laughs. \"And the traffic is worse than ever.\"\nDanny: Her teacher once claimed that people would never want to carry a telephone with them. \"The telephone belongs on the wall,\" she said. Lourdes's grandson now runs his whole business from his phone.\nDanny: Her uncle predicted that only the rich would ever travel by plane. Today, Ana's cousin Carol flies from Orlando to São Paulo every year, and she always complains about the food.\nDanny: A magazine she read in the seventies said that robots would do all the cooking. \"The robot never came,\" she says. \"But the microwave did, and it's almost as good.\"\nDanny: And her own prediction? At twenty, Lourdes predicted that she would live to a hundred. \"Three more years,\" she says. \"And I'm never wrong.\" So what will the young laugh about in seventy years? Grandma has the answer: \"People will always make predictions, and people will always be wrong. That's the fun.\"",
+   "63.2 Repeat: the before vowels and consonants": "Narrator: The radio was the center of family life.\nNarrator: The elderly use the internet every day.\nNarrator: The telephone belongs on the wall.\nNarrator: Only the rich will travel by plane.\nNarrator: The airplane changed everything.\nNarrator: The young will always make predictions."
+  }
+ },
+ "images": {
+  "b1-unit-63": {
+   "A": "vintage radio",
+   "B": "elderly woman using tablet",
+   "C": "old wall telephone",
+   "D": "microwave oven kitchen"
+  }
+ }
+}

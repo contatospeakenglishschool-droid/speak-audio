@@ -2297,3 +2297,21 @@ def dreams_ambitions(b):
 <p class="small" style="margin:.5mm 0"><b>hope</b> = something <b>possible</b>: <i>I hope I get to go to the Amazon.</i> (I'm saving for it.) · <b>wish + could / past</b> = something <b>unlikely or impossible now</b>: <i>I wish I could cook like Mrs. Lima.</i> (I don't have the talent.) · Good wishes for someone: <i>I <b>hope</b> you have a great trip!</i></p>
 {_dont([("I dream to travel around the world.", "I dream <b>of traveling</b> around the world."), ("I hope to can go.", "I hope <b>to be able to</b> go. / I hope <b>I can</b> go."), ("I wish you have a great trip!", "I <b>hope</b> you have a great trip!"), ("I can't wait for see it.", "I can't wait <b>to see</b> it."), ("I'm looking forward to go.", "I'm looking forward to <b>going</b>.")])}""",
     30, """<p>Brazilians often say <i>I dream to</i> and <i>I hope to can</i>, translating word for word, and use <i>wish</i> for good wishes. Drill: say a dream (<i>see the Northern Lights</i>) and a phrase (<i>dying to</i>); the student makes a true or invented sentence. Then ask: <i>Is it possible?</i> → <i>hope</i> or <i>wish</i>.</p>""")
+
+
+def generic_articles(b):
+    """B1 Unit 63: articles for talking in general: zero article with plural and uncountable nouns in general; the + noun for specific things; the + singular countable noun for a type (inventions, animals, instruments); the + adjective for groups of people (the rich, the young, the elderly, the British); the for unique things; pronunciation of the."""
+    b.page(f"""{b.sec("+", "Grammar reference: talking in general (the or no article?)", "")}
+<div class="box" style="margin-top:0"><h4>GENERAL OR SPECIFIC?</h4>In Portuguese, general ideas usually take an article. In English, they usually <b>don't</b>, except in a few special cases with <b>the</b>.<br>
+<span class="small"><i><b>People</b> will always make predictions. · <b>The telephone</b> belongs on the wall. · Only <b>the rich</b> will travel by plane.</i></span></div>
+{_h("1. NO ARTICLE OR THE?")}
+{_tbl(["use", "rule", "example"], [
+    ["things or people <b>in general</b>", "plural or uncountable noun, <b>no article</b>", "<i><b>Robots</b> will do the cooking. · <b>Music</b> helps me relax. · <b>Life</b> is short.</i>"],
+    ["<b>specific</b> things or people", "<b>the</b> (we know which ones)", "<i><b>The robots</b> in that factory are new. · <b>The music</b> at Rafa's gig was great.</i>"],
+    ["a <b>type</b> of machine, invention, animal or instrument", "<b>the</b> + singular noun (general meaning)", "<i><b>The television</b> didn't replace <b>the radio</b>. · <b>The cheetah</b> is very fast. · Rafa plays <b>the saxophone</b>.</i>"],
+    ["a <b>group</b> of people", "<b>the</b> + adjective (plural meaning)", "<i><b>the rich</b>, <b>the poor</b>, <b>the young</b>, <b>the elderly</b>, <b>the unemployed</b></i>"],
+    ["<b>nationalities</b>", "<b>the</b> + -sh / -ch / -ese / -ss adjectives; other nationalities: plural noun", "<i><b>the British</b>, <b>the French</b>, <b>the Japanese</b>, <b>the Swiss</b> · <b>Brazilians</b>, <b>Americans</b></i>"],
+    ["something <b>unique</b>", "<b>the</b>", "<i><b>the</b> sun, <b>the</b> internet, <b>the</b> future, <b>the</b> world</i>"]], "7.9pt")}
+<p class="small" style="margin:.6mm 0"><b>Pronunciation:</b> <i>the</i> = /ðə/ before a consonant sound (<i>the radio</i>) and /ði/ before a vowel sound (<i>the elderly, the internet, the airplane</i>).</p>
+{_dont([("The life is short.", "<b>Life</b> is short."), ("The technology changes very fast.", "<b>Technology</b> changes very fast."), ("I love the music. (in general)", "I love <b>music</b>."), ("The elderlies use tablets.", "<b>The elderly</b> use tablets. (no -s)"), ("The Brazilians love soccer. (in general)", "<b>Brazilians</b> love soccer.")])}""",
+    30, """<p>Portuguese puts an article before general nouns, so Brazilians say <i>The life is short</i> or <i>The people are strange</i>. Ask: <i>In general, or which ones?</i> Drill: say a noun (<i>coffee, the coffee in this café, the piano, the young</i>); the student makes a true sentence. With instruments, American English often drops <i>the</i> in a band context (<i>He plays saxophone</i>); <i>the</i> is always safe.</p>""")
