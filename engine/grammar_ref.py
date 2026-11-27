@@ -2277,3 +2277,23 @@ def habits_will_would(b):
     ["can start a story", "common after the context is clear: <i>When I was a kid, we<b>'d spend</b> every Sunday at the beach.</i>"]], "8.3pt")}
 {_dont([("I would live in Chicago.", "I <b>used to live</b> in Chicago. (a state)"), ("He always is complaining.", "He <b>is always</b> complaining."), ("I use to wake up at six. (now)", "I <b>usually</b> wake up at six."), ("She keeps to call me.", "She <b>keeps calling</b> me."), ("I'm used to drink coffee at night. (a habit)", "I <b>usually drink</b> / I <b>tend to drink</b> coffee at night.")])}""",
     30, """<p>Brazilians often say <i>I use to</i> for present habits and confuse it with <i>I'm used to</i> (accustomed to). Insist: present habits = <i>usually / tend to</i>; past habits = <i>used to / would</i>. Drill: the student describes a family member with <i>He'll always… / She's always… -ing / He keeps… -ing</i>, then a childhood Sunday with <i>We'd…</i>.</p>""")
+
+
+def dreams_ambitions(b):
+    """B1 Unit 62: talking about dreams and ambitions: hope to / hope (that) + present, I hope I get to + verb, would love to, have always dreamed of + -ing, one of my dreams is to, can't wait to, be dying to, be determined to, look forward to + -ing; hope vs wish (review)."""
+    b.page(f"""{b.sec("+", "Grammar reference: dreams and ambitions", "")}
+<div class="box" style="margin-top:0"><h4>TALKING ABOUT WHAT YOU WANT TO DO</h4>For dreams and plans, English has many phrases stronger and more natural than <i>I want</i>. Each one has its own <b>pattern</b>: <b>to</b> + verb, <b>-ing</b>, or a full sentence.<br>
+<span class="small"><i>I<b>'ve always dreamed of running</b> a marathon. · I <b>hope I get to play</b> at a festival. · I<b>'m dying to sleep</b> in a hammock.</i></span></div>
+{_h("1. THE PHRASES AND THEIR PATTERNS")}
+{_tbl(["phrase", "pattern", "example"], [
+    ["<b>would love to / would like to</b>", "+ verb", "<i>I<b>'d love to go</b> up in a hot air balloon.</i>"],
+    ["<b>hope to</b> · <b>be determined to</b> · <b>plan to</b>", "+ verb", "<i>I'm <b>determined to go</b> before I leave Brazil.</i>"],
+    ["<b>can't wait to</b> · <b>be dying to</b> (informal)", "+ verb (strong, excited)", "<i>I <b>can't wait to hear</b> it! · I'm <b>dying to see</b> it.</i>"],
+    ["<b>one of my dreams is to</b> · <b>my goal is to</b>", "+ verb", "<i><b>One of my dreams is to record</b> an album.</i>"],
+    ["<b>dream of</b> · <b>think of</b> · <b>look forward to</b>", "preposition + <b>-ing</b>", "<i>I've always <b>dreamed of running</b> a marathon. · I <b>look forward to seeing</b> you.</i>"],
+    ["<b>I hope I get to</b>", "+ verb (= have the chance to)", "<i>I <b>hope I get to swim</b> with dolphins.</i>"],
+    ["<b>I hope (that)</b>", "+ a sentence (present or will)", "<i>I <b>hope</b> the band <b>plays</b> / <b>will play</b> at a festival.</i>"]], "8.0pt")}
+{_h("2. HOPE OR WISH?")}
+<p class="small" style="margin:.5mm 0"><b>hope</b> = something <b>possible</b>: <i>I hope I get to go to the Amazon.</i> (I'm saving for it.) · <b>wish + could / past</b> = something <b>unlikely or impossible now</b>: <i>I wish I could cook like Mrs. Lima.</i> (I don't have the talent.) · Good wishes for someone: <i>I <b>hope</b> you have a great trip!</i></p>
+{_dont([("I dream to travel around the world.", "I dream <b>of traveling</b> around the world."), ("I hope to can go.", "I hope <b>to be able to</b> go. / I hope <b>I can</b> go."), ("I wish you have a great trip!", "I <b>hope</b> you have a great trip!"), ("I can't wait for see it.", "I can't wait <b>to see</b> it."), ("I'm looking forward to go.", "I'm looking forward to <b>going</b>.")])}""",
+    30, """<p>Brazilians often say <i>I dream to</i> and <i>I hope to can</i>, translating word for word, and use <i>wish</i> for good wishes. Drill: say a dream (<i>see the Northern Lights</i>) and a phrase (<i>dying to</i>); the student makes a true or invented sentence. Then ask: <i>Is it possible?</i> → <i>hope</i> or <i>wish</i>.</p>""")

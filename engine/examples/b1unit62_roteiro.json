@@ -1,0 +1,23 @@
+{
+ "material": "speak-progress",
+ "characters": {
+  "Danny": "en-US-Chirp3-HD-Puck",
+  "Bruno": "en-US-Chirp3-HD-Fenrir",
+  "Rafa": "en-US-Chirp3-HD-Umbriel",
+  "Narrator": "en-US-Neural2-J"
+ },
+ "units": {
+  "b1-unit-62": {
+   "62.1 Gap Year Diaries: our bucket lists": "Danny: Welcome to Gap Year Diaries! Today's topic is bucket lists: the things you want to do before you... well, before you get too old. I'm here with Bruno and Rafa. Bruno, you go first.\nBruno: OK. Number one: I've always dreamed of running a marathon in another country. Maybe in Chicago, with Danny as my guide.\nDanny: I'm sure you will! You run every morning anyway.\nBruno: Number two: I'd love to go up in a hot air balloon at sunrise.\nRafa: Oh, I wouldn't do that. I'm scared of heights.\nDanny: Rafa, what's on your list?\nRafa: One of my dreams is to record an album with the band. Just ten songs, nothing big.\nBruno: That would be amazing! I can't wait to hear it.\nRafa: And I really hope I get to play at a jazz festival one day. Even at five in the afternoon, with nobody watching.\nDanny: Go for it! We'll be in the front row.\nRafa: Your turn, Danny.\nDanny: Well, the big one is the Amazon. I've been saving for months, and I'm determined to go before I leave Brazil. I'm dying to sleep in a hammock in the rainforest.\nBruno: Cool. But I think that might be too dangerous for me. Spiders!\nDanny: Then, I wish I could cook like Mrs. Lima, but I don't think I have the talent.\nRafa: Don't let that stop you! Just ask her to teach you.\nDanny: And the last one is a bit crazy. I want to learn to surf.\nBruno: Hmm, that's not really my thing. I can't even swim very well.\nDanny: Well, those are our lists. What's on yours? Tell us in the comments!",
+   "62.2 Repeat: dreams and plans": "Narrator: I've always dreamed of going.\nNarrator: I'd love to try it.\nNarrator: I hope I get to go.\nNarrator: I can't wait to see it.\nNarrator: I'm dying to go.\nNarrator: That would be amazing!"
+  }
+ },
+ "images": {
+  "b1-unit-62": {
+   "A": "hot air balloons sunrise",
+   "B": "hammock rainforest",
+   "C": "surfboard beach",
+   "D": "travel map planning notebook"
+  }
+ }
+}
